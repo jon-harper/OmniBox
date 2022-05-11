@@ -34,6 +34,34 @@ Print with at least 3 perimeters and 20% infill (cubic is fine).
 
 PLA+ is an excellent material for these cases, both due to its affordability and relative durability. PETG could be used bit is somewhat brittle and would take much longer to print.
 
+## Bill of Materials
+
+There's quite a bit of flexibility in the design to allow for screws of multiple lengths, i.e. to use what's on hand. The assembly process notes where substitutions can be made. This is an "ideal" list.
+
+| Item                              | Qty | UOM |Note |
+|-----------------------------------|-----|-----|-----|
+| Filament                          | 2   | kg  | Final use is closer to 1kg if printed in 1 color |
+| M3 x 6mm screws                   | 12  | ea  | |
+| M3 x 8mm screws                   | 12  | ea  | |
+| M3 x 12mm screws                  | 20  | ea	 | |
+| M3 x 16mm screws                  | 2   | ea  | |
+| M3 x 20mm sharp point wood screws | 8 | ea | **OR** #6 x 3/4" |
+| M4 x 8mm screws                   | 14 | ea | |
+| M4 x 16mm screws                  | 4   | ea  | |
+| SPST toggle switch                | 1   | ea  | Identical profile to Creality Ender power switch. |
+| Meanwell-type PSU                 | 1   | ea  | Meanwell-type refers to mounting pattern (M4, 150mm x 50mm). Compatible with all Ender PSUs. |
+| 3D Printer control board (MCU)    | 1   | ea  | Currently only the BTT Octopus is supported. |
+| Raspberry Pi 3B+ or 4B            | 1   | ea  | (Optional for OctoPrint/Klipper users)
+| IEC C13 Socket with Fuse          | 1   | ea  | Identical profile to Creality Ender series power socket. |
+| 40x40x10mm Fans					| 2   | ea  | 5V, 12V, or 24V |
+| A 12864-style display or emulator | 1   | ea  | Includes BTT 2.4 and 3.5 displays |
+
+### Connectors
+
+Connectors are not included in the basic BOM--with the exception of the power connector--because this is up to the end user. The included two panel profiles use JST SM connectors for everything but the hotend, which uses a 2-pin, 2-row [Molex Micro Fit 3.0](https://www.digikey.com/en/product-highlight/m/molex-connector/micro-fit-3-interconnect-system) panel mount connector. I get mine through [Digikey](https://www.digikey.com/en/products/detail/molex/0430200200/252490) along with the [mating pins](https://www.digikey.com/en/products/detail/molex/0430310009/252485).
+
+For the JST SM connectors, you can find [a kit on Amazon for about $15](https://www.amazon.com/gp/product/B07D9HRDT6).
+
 ## Assembly
 
 ### Base
@@ -51,7 +79,7 @@ You will need:
 
 You will need:
 
-- 6x M3 x 8-12mm screws (8mm, 10mm, or 12mm are all acceptable)
+- 6x M3 x 10-12mm screws (10mm or 12mm are both acceptable)
 - 8x M3 x 12-20mm screws **or** 8x M3/#6 sheet metal screws (12mm-20mm or 1/2" to 3/4")
 - 2x M3 x 16mm screws
 - The printed front and rear main body
