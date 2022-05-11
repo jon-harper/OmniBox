@@ -4,11 +4,11 @@ Welcome to the OmniBox repository. This is a modular control case for 3D printin
 
 I had a catastrophic failure of multiple BIGTREETECH SKR 2 boards in a row. I print a lot of ABS, which means controlling an enclosure with lights, fans, etc.--and that equates to a lot of buck converters.
 
-BIGTREETECH's Octopus 1.1 is a solid board that provides ample power sources and signal pins. It also (so far) hasn't blown out any of my equipment or itself. Unfortunately, Steve Burcham's control cases didn't quite fit my needs or the Octopus. This is my second attempt at creating a control case around the Octopus centered around the footprint used by Steve's V3/V5 cases. In the process, I redesigned the entirety from scratch, keeping compatibility only with the original display screens. Lids should be easy to modify to fit, as they maintain the same overall dimensions.
+BIGTREETECH's Octopus 1.1 is a solid board that provides ample power sources and signal pins. It also (so far) hasn't blown out any of my equipment or itself. Unfortunately, the existing control cases I had printed didn't the Octopus; I also had a few ideas for changes and improvements, as well. This is my second attempt at creating a control case for the Octopus centered around the footprint used by Steve's V3 cases. Since the source is not availabe for the base or main body, I redesigned the case from scratch, keeping compatibility only with the original display screens. Lids should be easy to modify to fit, as they maintain the same overall dimensions.
 
 ## Components
 
-The component set should be familiar to anyone who has printed one of Steve Burcham's cases:
+The component set should be familiar to anyone who has printed one of Steve's two-piece cases:
 
 - Base: front and back
 - Main body: front with screen; back with board, bucks, and fans
@@ -18,7 +18,7 @@ The component set should be familiar to anyone who has printed one of Steve Burc
 - Rear panel for exhaust, fans, and wiring connections
 - A front grill/SD card extension mount
 
-Templates are provided for most of the case to allow customization as needed.
+Templates in both Fusion and STEP format are provided for most of the case to allow customization as needed.
 
 ## Print Settings
 
