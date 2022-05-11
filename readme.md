@@ -10,7 +10,7 @@ BIGTREETECH's Octopus 1.1 is a solid board that provides ample power sources and
 
 The component set should be familiar to anyone who has printed one of Steve's two-piece cases:
 
-- Base: front and back
+- [Base](/tree/base): front and back
 - Main body: front with screen; back with board, bucks, and fans
 - Trays for the MCU and CPU
 - Display mount
