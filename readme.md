@@ -4,12 +4,12 @@ Welcome to the OmniBox repository. This is a modular control case for 3D printin
 
 I had a catastrophic failure of multiple BIGTREETECH SKR 2 boards in a row. I print a lot of ABS, which means controlling an enclosure with lights, fans, etc.--and that equates to a lot of buck converters.
 
-BIGTREETECH's Octopus 1.1 is a solid board that provides ample power sources and signal pins. It also (so far) hasn't blown out any of my equipment or itself. Unfortunately, the existing control cases I had printed didn't the Octopus; I also had a few ideas for changes and improvements, as well. This is my second attempt at creating a control case for the Octopus centered around the footprint used by Steve's V3 cases. Since the source is not availabe for the base or main body, I redesigned the case from scratch, keeping compatibility only with the original display screens. Lids should be easy to modify to fit, as they maintain the same overall dimensions.
+BIGTREETECH's Octopus 1.1 is a solid board that provides ample power sources and signal pins. It also (so far) hasn't blown out any of my equipment or itself. Unfortunately, the existing control cases I had printed didn't fit the Octopus; I also had a few ideas for changes and improvements. This is my second control case for the Octopus centered around the footprint used by Steve's V3 case. Since the source is not availabe for the base or main body, I redesigned the case from scratch, keeping compatibility only with the original display screens. Lids should be easy to modify to fit, as they maintain the same overall dimensions.
 
 ## TODO
 
-- Adapt existing design for a Mini12864 display
 - Finish fit testing version 1.0
+- Add pictures
 
 ## Components
 
