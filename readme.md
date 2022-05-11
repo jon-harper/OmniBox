@@ -10,13 +10,13 @@ BIGTREETECH's Octopus 1.1 is a solid board that provides ample power sources and
 
 The component set should be familiar to anyone who has printed one of Steve's two-piece cases:
 
-- [Base](/tree/base): front and back
-- Main body: front with screen; back with board, bucks, and fans
-- Trays for the MCU and CPU
-- Display mount
-- Lid
-- Rear panel for exhaust, fans, and wiring connections
-- A front grill/SD card extension mount
+- [Base](../../tree/main/Base): front and back
+- [Main body](../../tree/main/Main Body): front with screen; back with board, bucks, and fans
+- Trays for the [MCU](../../tree/main/MCU) and [CPU](../../tree/main/CPU)
+- [Display mount](../../tree/main/Display)
+- [Lid](../../tree/main/Lid)
+- [Rear panel](../../tree/main/Rear Panel) for exhaust, fans, and wiring connections
+- A [front grill/SD card extension mount](../../tree/main/Front Panel)
 
 Templates in both Fusion and STEP format are provided for most of the case to allow customization as needed.
 
