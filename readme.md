@@ -174,7 +174,7 @@ You will need:
 - Your printed rear panel
 - Any connectors or other accessories for the rear panel
 
-1. If you are using the rear panel to mount connectors, it is strongly advised that you insert the connectors to the panel **first**, before installing the panel or connecting the wires to the board.
+1. If you are using the rear panel to mount connectors, it is strongly advised that you insert the connectors to the panel first, before installing the panel or connecting any wires to the board.
 2. Line up the rear panel with the cutout on the assembled case. It may pinch near the base--this is due to the walls leaning outwards further up as they cool. The rear panel will help keep the walls aligned.
 3. Check where the screw holes line up. If any are clearly unaligned, leave those for last.
 4. Starting with a screw hole near the top, partially thread an M4 screw in. Stop once you can feel the screw threads grab the main body at least two full turns.
