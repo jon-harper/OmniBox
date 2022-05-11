@@ -48,13 +48,13 @@ There's quite a bit of flexibility in the design to allow for screws of multiple
 | M3 x 20mm sharp point wood screws | 8 | ea | **OR** #6 x 3/4" |
 | M4 x 8mm screws                   | 14 | ea | |
 | M4 x 16mm screws                  | 4   | ea  | |
-| SPST toggle switch                | 1   | ea  | Identical profile to Creality Ender power switch. |
-| Meanwell-type PSU                 | 1   | ea  | Meanwell-type refers to mounting pattern (M4, 150mm x 50mm). Compatible with all Ender PSUs. |
-| 3D Printer control board (MCU)    | 1   | ea  | Currently only the BTT Octopus is supported. |
+| [SPST toggle switch](https://www.amazon.com/gp/product/B07QQ22DTB) | 1   | ea  | Identical profile to Creality Ender power switch. |
+| [Meanwell-type PSU](https://www.amazon.com/MEAN-WELL-LRS-350-24-350-4W-Switchable/dp/B013ETVO12) | 1   | ea  | Meanwell-type refers to mounting pattern (M4, 150mm x 50mm). Compatible with all Ender PSUs. |
+| 3D Printer control board (MCU)    | 1   | ea  | Currently only the [BTT Octopus](https://www.amazon.com/BIGTREETECH-Motherboard-Compatible-Firmware-Raspberry/dp/B094NPRYDP) is supported. |
 | Raspberry Pi 3B+ or 4B            | 1   | ea  | (Optional for OctoPrint/Klipper users)
-| IEC C13 Socket with Fuse          | 1   | ea  | Identical profile to Creality Ender series power socket. |
-| 40x40x10mm Fans					| 2   | ea  | 5V, 12V, or 24V |
-| A 12864-style display or emulator | 1   | ea  | Includes BTT 2.4 and 3.5 displays |
+| [IEC C14 Socket with Fuse](https://www.amazon.com/gp/product/B081ZFHRGW) | 1   | ea  | Identical profile to Creality Ender series power socket. |
+| [40x40x10mm Fans](https://www.amazon.com/dp/B08R9L9YR2) | ea  | 5V, 12V, or 24V |
+| A 12864-style display or emulator | 1   | ea  | Includes: Stock Creality 12864, [BTT 3.5](https://www.amazon.com/BIGTREETECH-Upgrade-Touch-Controller-Display-Motherboard/dp/B07VWGFKLZ) displays |
 
 ### Connectors
 
@@ -69,7 +69,7 @@ For the JST SM connectors, you can find [a kit on Amazon for about $15](https://
 You will need:
 
 - 4x M4 x 16mm screws
-- 1x [SPST toggle switch](https://www.amazon.com/gp/product/B07QQ22DTB) (in the same panel mount profile as the Creality Ender printers)
+- 1x SPST toggle switch
 - The printed front and rear base
 
 1. The two pieces of the base both have two (2) M4 screw holes on each side. Use the four (4) M4 screws to fasten them togther. **Note:** The sawtooth air vents should be aligned the same way on the front and back.
@@ -84,7 +84,7 @@ You will need:
 - 2x M3 x 16mm screws
 - The printed front and rear main body
 - The printed front crossbar
-- Your power supply that uses the 150mm x 50mm M4 mounting pattern as the [Meanwell LRS-350-35](https://www.amazon.com/MEAN-WELL-LRS-350-24-350-4W-Switchable/dp/B013ETVO12). Any Creality printer power supply should suffice.
+- Your power supply unit (PSU)
 - 4x M4 x 8mm screws for the power suppy
 
 1. Assemble the front and rear using six (6) M3 screws. Any length between 8mm and 12mm will work. Make sure you insert the screws fron the *back* side into the *front* of the case. The holes on the back are larger than the front.
