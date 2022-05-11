@@ -6,19 +6,28 @@ I had a catastrophic failure of multiple BIGTREETECH SKR 2 boards in a row. I pr
 
 BIGTREETECH's Octopus 1.1 is a solid board that provides ample power sources and signal pins. It also (so far) hasn't blown out any of my equipment or itself. Unfortunately, the existing control cases I had printed didn't the Octopus; I also had a few ideas for changes and improvements, as well. This is my second attempt at creating a control case for the Octopus centered around the footprint used by Steve's V3 cases. Since the source is not availabe for the base or main body, I redesigned the case from scratch, keeping compatibility only with the original display screens. Lids should be easy to modify to fit, as they maintain the same overall dimensions.
 
-## Components
+## TODO
 
-The component set should be familiar to anyone who has printed one of Steve's two-piece cases:
+- Adapt existing design for a Mini12864 display
+- Finish fit testing version 1.0
+
+## Components
 
 - [Base](../../tree/main/Base): front and back
 - [Main body](../../tree/main/Main%20Body): front with screen; back with board, bucks, and fans
 - Trays for the [MCU](../../tree/main/MCU) and [CPU](../../tree/main/CPU)
 - [Display mount](../../tree/main/Display)
 - [Lid](../../tree/main/Lid)
-- [Rear panel](../../tree/main/Rear%20Panel) for exhaust, fans, and wiring connections
+- [Rear panel](../../tree/main/Rear%20Panel) for exhaust, fans, and wiring connections. See below.
 - A [front grill/SD card extension mount](../../tree/main/Front%20Panel)
 
-Templates in both Fusion and STEP format are provided for most of the case to allow customization as needed.
+### Rear Panel Configuration
+
+This is a very printer-specific file. Included are two stock .STL files: a typical Ender 3 or Ender 5 type printer with 5-pin ABL and RGB, and the same setup with the additional of an extra thermistor port and two fan ports for an enclosure. There is a template 
+
+### Note
+
+Templates in both Fusion and STEP format are provided for most of the case to allow customization as needed. If a STEP file is available but not a Fusion archive, this is possibly because the design was recently modified.
 
 ## Print Settings
 
@@ -53,9 +62,16 @@ There's quite a bit of flexibility in the design to allow for screws of multiple
 | 3D Printer control board (MCU)    | 1   | ea  | Currently only the [BTT Octopus](https://www.amazon.com/BIGTREETECH-Motherboard-Compatible-Firmware-Raspberry/dp/B094NPRYDP) is supported. |
 | Raspberry Pi 3B+ or 4B            | 1   | ea  | (Optional for OctoPrint/Klipper users)
 | [IEC C14 Socket with Fuse](https://www.amazon.com/gp/product/B081ZFHRGW) | 1   | ea  | Identical profile to Creality Ender series power socket. |
-| [40x40x10mm Fans](https://www.amazon.com/dp/B08R9L9YR2) | ea  | 5V, 12V, or 24V |
+| [40x40x10mm Fans](https://www.amazon.com/dp/B08R9L9YR2) | 2 | ea  | 5V, 12V, or 24V |
 | A 12864-style display or emulator | 1   | ea  | Includes: Stock Creality 12864, [BTT 3.5](https://www.amazon.com/BIGTREETECH-Upgrade-Touch-Controller-Display-Motherboard/dp/B07VWGFKLZ) displays |
 
+Additionally, some optional components:
+
+| Item                              | Qty | UOM |Note |
+|-----------------------------------|-----|-----|-----|
+| [USB C Panel Mount extension cable](https://www.amazon.com/gp/product/B086W7C58P/) | 1 | ea | Not needed if using UART with Klipper, but recommended. |
+| [MicroSD to MicroSD extension cable](https://www.amazon.com/gp/product/B09CKRDFTH) | 1 | ea | Unfortunately, this is not the same profile as the more popular LANMU connector. |
+ 
 ### Connectors
 
 Connectors are not included in the basic BOM--with the exception of the power connector--because this is up to the end user. The included two panel profiles use JST SM connectors for everything but the hotend, which uses a 2-pin, 2-row [Molex Micro Fit 3.0](https://www.digikey.com/en/product-highlight/m/molex-connector/micro-fit-3-interconnect-system) panel mount connector. I get mine through [Digikey](https://www.digikey.com/en/products/detail/molex/0430200200/252490) along with the [mating pins](https://www.digikey.com/en/products/detail/molex/0430310009/252485).
