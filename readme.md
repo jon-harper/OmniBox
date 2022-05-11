@@ -35,13 +35,17 @@ Templates in both Fusion and STEP format are provided for most of the case to al
 
 I have not attempted printed at any coarser a resolution than 0.2mm. I would not recommend going finer. For the main body and base, it should be possible to print at 0.24 or 0.28mm.
 
-### Perimeters
+### Perimeters and Infill
 
 Print with at least 3 perimeters and 20% infill (cubic is fine).
 
 ### Material
 
 PLA+ is an excellent material for these cases, both due to its affordability and relative durability. PETG could be used bit is somewhat brittle and would take much longer to print.
+
+### Nozzle Size
+
+I have only tested with an 0.4mm nozzle, but an 0.6mm nozzle should work. If you print a case with a different nozzle size, please share your results!
 
 ## Bill of Materials
 
