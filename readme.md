@@ -4,7 +4,7 @@ Welcome to the OmniBox repository. This is a modular control case for 3D printin
 
 I had a catastrophic failure of multiple BIGTREETECH SKR 2 boards in a row. I print a lot of ABS, which means controlling an enclosure with lights, fans, etc.--and that equates to a lot of buck converters.
 
-BIGTREETECH's Octopus 1.1 is a solid board that eliminates my need for buck converters and (so far) hasn't blown out any of my equipment or itself. Unfortunately, Steve Burcham's control cases didn't quite fit my needs. This is my second attempt at creating a control case around the Octopus. In the process, I redesigned the case from scratch, keeping compatibility only with the original display screens. Lids should be easy to modify to fit, as they maintain the same overall dimensions.
+BIGTREETECH's Octopus 1.1 is a solid board that provides ample power sources and signal pins. It also (so far) hasn't blown out any of my equipment or itself. Unfortunately, Steve Burcham's control cases didn't quite fit my needs or the Octopus. This is my second attempt at creating a control case around the Octopus centered around the footprint used by Steve's V3/V5 cases. In the process, I redesigned the entirety from scratch, keeping compatibility only with the original display screens. Lids should be easy to modify to fit, as they maintain the same overall dimensions.
 
 ## Components
 
@@ -53,14 +53,33 @@ You will need:
 
 - 6x M3 x 8-12mm screws (8mm, 10mm, or 12mm are all acceptable)
 - 8x M3 x 12-20mm screws **or** 8x M3/#6 sheet metal screws (12mm-20mm or 1/2" to 3/4")
-- The assembled base
+- 2x M3 x 16mm screws
 - The printed front and rear main body
-- (Optional) Your power supply that uses the 150mm x 50mm M4 mounting pattern as the [Meanwell LRS-350-35](https://www.amazon.com/MEAN-WELL-LRS-350-24-350-4W-Switchable/dp/B013ETVO12). Any Creality printer power supply should suffice.
-- (Optional) 4x M4 x 8mm screws for the power suppy
+- The printed front crossbar
+- Your power supply that uses the 150mm x 50mm M4 mounting pattern as the [Meanwell LRS-350-35](https://www.amazon.com/MEAN-WELL-LRS-350-24-350-4W-Switchable/dp/B013ETVO12). Any Creality printer power supply should suffice.
+- 4x M4 x 8mm screws for the power suppy
 
 1. Assemble the front and rear using six (6) M3 screws. Any length between 8mm and 12mm will work. Make sure you insert the screws fron the *back* side into the *front* of the case. The holes on the back are larger than the front.
-2. (Optional) You may wish to mount the power supply now using 4x M4 x 8mm screws. The power supply fits under the main body and is slightly offset towards the front right.
+2. Mount the power supply using 4x M4 x 8mm screws. The power supply fits under the main body and is slightly offset towards the front right.
 3. Place the assembled main body on top of the base. There are eight (8) ~3mm holes that should line up between the base and main body, four on each side. Fasten these together with your long M3 screws or sheet metal screws.
+4. Place the crossbar in place at the joint between the lid and display mounts. Using the two (2) M3 x 16mm screws, attach the crossbar with a screw in each side.
+
+### Dual 40mm Exhaust Fans
+
+You will need:
+
+- 8x M3 x 12mm screws (10mm will also work)
+- 2x 40x40x10mm fans
+- Two printed 40mm Fan Cages
+
+1. Place a fan inside the cage with the stickered side of the motor facing *away* from the fan cage grill.
+2. Insert two M3 screws on opposing sides of the fan cage and through the fan's mounting holes.
+3. Thread the fan's wires through the fan cutout, then line up the fan and cage with the mounting holes.
+4. Partially tighten both screws until at least two full turns of thread are holding the fan in place.
+5. Insert and tighten the other two M3 screws.
+6. Finish tightening the screws until all four screws are firmly in place.
+7. Ensure the fan wire feeds through the cutout without pinching or binding.
+8. Repeat the above process for the second fan.
 
 ### CPU Tray
 
