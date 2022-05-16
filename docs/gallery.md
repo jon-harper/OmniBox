@@ -5,16 +5,24 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
-| Photos |   |
-|--------|---|
-| Front  | [![front view](img/gallery/view_front.jpg)](img/gallery/view_front.jpg) |
-| Left   | [![left view](img/gallery/view_left.jpg)](img/gallery/view_left.jpg) |
-| Right  | [![right view](img/gallery/view_right.jpg)](img/gallery/view_right.jpg) |
-| Back   | [![back view](img/gallery/view_back.jpg)](img/gallery/view_back.jpg) |
+## Release Renders and Photos
 
-## Renders
+| Renders and Photos |   |
+|--------------------|---|
+| Front      | [![front view](img/gallery/view_front.jpg)](img/gallery/view_front.jpg) |
+| Left       | [![left view](img/gallery/view_left.jpg)](img/gallery/view_left.jpg) |
+| Right      | [![right view](img/gallery/view_right.jpg)](img/gallery/view_right.jpg) |
+| Back       | [![back view](img/gallery/view_back.jpg)](img/gallery/view_back.jpg) |
+| Render v37 | [![v37](img/gallery/v37.png)](img/gallery/v37.png) |
+| Render v42 | [![v37](img/gallery/v42.png)](img/gallery/v42.png) |
 
-| Renders |   |
-|---------|---|
-| v37     | [![v37](img/gallery/v37.png)](img/gallery/v37.png) |
-| v42     | [![v37](img/gallery/v42.png)](img/gallery/v42.png) |
+## The Process
+
+| Development Photos |   |
+|--------------------|---|
+| Size comparison: Left is the original, right is the first complete OmniBox. | [![size comparison](img/gallery/size_comparison.jpg)](img/gallery/size_comparison.jpg) |
+| The first main body prototype, looking awkward. | [![original prototype](img/gallery/prototype.jpg)](img/gallery/prototype.jpg) |
+| The first and second finished case bodies. | [![one and two](img/gallery/one_and_two.jpg)](img/gallery/one_and_two.jpg) |
+| All the connectors in place. | [![finished rear panel](img/gallery/finished_rear.jpg)](img/gallery/finished_rear.jpg) |
+| Closed up for the first time: Front | [![closed up, front](img/gallery/front_view.jpg)](img/gallery/front_view.jpg)
+| Closed up for the first time: Back | [![closed up, front](img/gallery/closed_up.jpg)](img/gallery/closed_up.jpg)
