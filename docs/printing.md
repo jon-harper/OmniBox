@@ -41,7 +41,7 @@ This is a very printer-specific file. Included are two stock `.STL` files: a typ
 | Perimeters (Walls) | 3      | Walls should be at least 1.2mm thick or screws will not grab well |
 | Infill             | 20-25% | Cubic is generally a good choice. |
 | Material           | PLA+   | PLA will work as well. PETG is somewhat brittle and will take longer. |
-| Nozzle Diameter    | 9.4mm  | 0.6mm nozzle should work. If you print a case with a different nozzle size, please share your results! |
+| Nozzle Diameter    | 0.4mm  | 0.6mm nozzle should work. If you print a case with a different nozzle size, please share your results! |
 
 [1]: https://github.com/jon-harper/OmniBox/blob/main/Base/Base%20-%20Front.stl
 [2]: https://github.com/jon-harper/OmniBox/blob/main/Base/Base%20-%20Back.stl

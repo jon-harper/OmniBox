@@ -16,7 +16,7 @@ You will need:
 | Step | Example |
 |------|---------|
 | The two pieces of the base both have two (2) M4 screw holes on each side. Use the four (4) M4 screws to fasten them togther. **Note:** The sawtooth air vents should be aligned the same way on the front and back. | [![assembled base](img/base_assembled.jpg)](img/base_assembled.jpg) |
-| Insert the power switch into the front. The sides should compress until it snap in place. | [![power switch insertion](img/base_switch.jpg)](img/base_assembled.jpg) |
+| Insert the power switch into the front. The sides should compress until it snaps in place. | [![power switch insertion](img/base_switch.jpg)](img/base_assembled.jpg) |
 
 ## Main Body
 
@@ -146,4 +146,5 @@ You will need:
 | All of the lids attach with between four (4) and eight (8) M3 x 8mm screws, although any length up to 16mm will work. | [![first two screws](img/lid_finished.jpg)](img/lid_finished.jpg) | 
 
 !!! note 
-    Since the lid is most frequently removed, the plastic threads will wear out with time. I recommend starting with a short thread and lengthening the screws over time to get "fresh" plastic.
+    Because the screws are attached directly to plastic, removing and reattaching the lid will eventually wear out the holes. I recommend starting with shorter screws and gradually switching to longer ones over time to get "fresh" plastic.
+    
