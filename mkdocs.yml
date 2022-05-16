@@ -1,0 +1,20 @@
+site_name: OmniBox Documentation
+site_description: Instructions for printing and assembly the OmniBox.
+site_author: Jon Harper
+site_url: https://jon-harper.github.io/OmniBox
+repo_url: https://github.com/jon-harper/OmniBox
+
+theme:
+  name: material
+  # name: bootstrap4
+
+markdown_extensions:
+  - admonition
+
+nav:
+  - index.md
+  - gallery.md
+  - bom.md
+  - printing.md
+  - assembly.md
+  
