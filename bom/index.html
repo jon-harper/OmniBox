@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#generic-bill-of-materials" class="md-skip">
+        <a href="#general-components" class="md-skip">
           Skip to content
         </a>
       
@@ -268,8 +268,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#generic-bill-of-materials" class="md-nav__link">
-    Generic Bill of Materials
+  <a href="#general-components" class="md-nav__link">
+    General Components
   </a>
   
 </li>
@@ -285,6 +285,26 @@
   <a href="#connectors" class="md-nav__link">
     Connectors
   </a>
+  
+    <nav class="md-nav" aria-label="Connectors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hotend-connectors" class="md-nav__link">
+    Hotend Connectors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jst-sm-connector-kits" class="md-nav__link">
+    JST SM Connector Kits
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -351,8 +371,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#generic-bill-of-materials" class="md-nav__link">
-    Generic Bill of Materials
+  <a href="#general-components" class="md-nav__link">
+    General Components
   </a>
   
 </li>
@@ -368,6 +388,26 @@
   <a href="#connectors" class="md-nav__link">
     Connectors
   </a>
+  
+    <nav class="md-nav" aria-label="Connectors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hotend-connectors" class="md-nav__link">
+    Hotend Connectors
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jst-sm-connector-kits" class="md-nav__link">
+    JST SM Connector Kits
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -392,7 +432,7 @@
   <h1>Bill of Materials</h1>
 
 <p>The design allows for screws of multiple lengths, i.e. to let you use what's on hand. The assembly process notes where substitutions can be made. This is a generic or "ideal" list.</p>
-<h2 id="generic-bill-of-materials">Generic Bill of Materials</h2>
+<h2 id="general-components">General Components</h2>
 <table>
 <thead>
 <tr>
@@ -404,10 +444,10 @@
 </thead>
 <tbody>
 <tr>
-<td>PLA/PLA+ Filament</td>
+<td>PLA or PLA+ filament</td>
 <td>2</td>
 <td>kg</td>
-<td>Final use is closer to 1kg if printed in a single color</td>
+<td>May be printable in 1kg if using a single color</td>
 </tr>
 <tr>
 <td>M3 x 6mm machine screws</td>
@@ -419,11 +459,11 @@
 <td>M3 x 8mm machine screws</td>
 <td>12</td>
 <td>ea</td>
-<td></td>
+<td>4-8 more for the lid</td>
 </tr>
 <tr>
 <td>M3 x 12mm machine screws</td>
-<td>20</td>
+<td>8</td>
 <td>ea</td>
 <td></td>
 </tr>
@@ -437,7 +477,7 @@
 <td><a href="https://www.amazon.com/gp/product/B08LV4D8SB">#6 x 3/4" sharp point wood screws</a></td>
 <td>8</td>
 <td>ea</td>
-<td><strong>OR</strong> M3 x 20mm</td>
+<td>Or M3 x 20mm; may also use machine screws</td>
 </tr>
 <tr>
 <td>M4 x 8mm machine screws</td>
@@ -455,34 +495,34 @@
 <td><a href="https://www.amazon.com/gp/product/B07QQ22DTB">SPST toggle switch</a></td>
 <td>1</td>
 <td>ea</td>
-<td>Identical profile to Creality Ender power switch.</td>
+<td>Identical profile to Creality Ender power switch</td>
 </tr>
 <tr>
 <td><a href="https://www.amazon.com/MEAN-WELL-LRS-350-24-350-4W-Switchable/dp/B013ETVO12">Meanwell-type PSU</a></td>
 <td>1</td>
 <td>ea</td>
-<td>Meanwell-type refers to mounting pattern (M4, 150mm x 50mm). Compatible with all Ender PSUs.</td>
+<td>Meanwell-type refers to mounting pattern (M4, 150mm x 50mm); compatible with most Ender-series PSUs</td>
 </tr>
 <tr>
-<td>3D Printer control board (MCU)</td>
+<td>MCU (3D printer control board)</td>
 <td>1</td>
 <td>ea</td>
-<td>Currently only the <a href="https://www.amazon.com/BIGTREETECH-Motherboard-Compatible-Firmware-Raspberry/dp/B094NPRYDP">BTT Octopus</a> is supported.</td>
+<td>Currently only the <a href="https://www.amazon.com/BIGTREETECH-Motherboard-Compatible-Firmware-Raspberry/dp/B094NPRYDP">BTT Octopus</a> is supported, though a template is available</td>
 </tr>
 <tr>
-<td>Raspberry Pi 3B+ or 4B (CPU)</td>
+<td>SoC CPU (e.g., Raspberry Pi)</td>
 <td>1</td>
 <td>ea</td>
-<td>(Optional) For OctoPrint/Klipper users</td>
+<td>(Optional) For OctoPrint/Klipper users; currently only Raspberry Pi 3B+ or 4B  are supported</td>
 </tr>
 <tr>
-<td><a href="https://www.amazon.com/gp/product/B081ZFHRGW">IEC C14 Socket with Fuse</a></td>
+<td><a href="https://www.amazon.com/gp/product/B081ZFHRGW">IEC C14 socket with fuse</a></td>
 <td>1</td>
 <td>ea</td>
-<td>Identical profile to Creality Ender series power socket.</td>
+<td>Identical profile to Creality Ender series power socket</td>
 </tr>
 <tr>
-<td><a href="https://www.amazon.com/dp/B08R9L9YR2">40x40x10mm Fans</a></td>
+<td><a href="https://www.amazon.com/dp/B08R9L9YR2">40x40x10mm fans</a></td>
 <td>2</td>
 <td>ea</td>
 <td>5V, 12V, or 24V</td>
@@ -507,7 +547,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="https://www.amazon.com/gp/product/B086W7C58P/">USB C Panel Mount extension cable</a></td>
+<td><a href="https://www.amazon.com/gp/product/B086W7C58P/">USB C panel mount extension cable</a></td>
 <td>1</td>
 <td>ea</td>
 <td>Not needed if using UART with Klipper; any brand should work.</td>
@@ -518,11 +558,36 @@
 <td>ea</td>
 <td>This is not the same profile as the more popular LANMU connector.</td>
 </tr>
+<tr>
+<td><a href="https://www.amazon.com/Regulator-Adjustable-Converter-Electronic-Stabilizer/dp/B07PDGG84B/">LM2596 buck converters</a></td>
+<td>(varies)</td>
+<td>ea</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.amazon.com/gp/product/B07N3QT628">LM2596 buck converters with digital display</a></td>
+<td>(varies)</td>
+<td>ea</td>
+<td></td>
+</tr>
 </tbody>
 </table>
+<p>Other common components are solid state relays for controlling AC heated beds or external MOSFETs.</p>
 <h2 id="connectors">Connectors</h2>
-<p>Connectors are not included in the basic BOM (with the exception of the IEC power connector) because this is up to the end user. The included two panel profiles use JST SM connectors for everything but the hotend, which uses a 2-pin, 2-row <a href="https://www.digikey.com/en/product-highlight/m/molex-connector/micro-fit-3-interconnect-system">Molex Micro Fit 3.0</a> panel mount connector. I get mine through <a href="https://www.digikey.com/en/products/detail/molex/0430200200/252490">Digikey</a> along with the <a href="https://www.digikey.com/en/products/detail/molex/0430310009/252485">mating pins</a>.</p>
-<p>For the JST SM connectors, you can find <a href="https://www.amazon.com/gp/product/B07D9HRDT6">a kit on Amazon for about $15</a>.</p>
+<p>Only the IEC power connector is included in the Bill of Materials. The rear panel is meant to be customized by the end user, although you can still use a stock panel.</p>
+<p>The two stock rear panel <code>.STL</code>s use JST SM connectors for everything but the hotend, which uses a 2-pin, 2-row <a href="https://www.digikey.com/en/product-highlight/m/molex-connector/micro-fit-3-interconnect-system">Molex Micro Fit 3.0</a> panel mount connector.</p>
+<h3 id="hotend-connectors">Hotend Connectors</h3>
+<p>These 2-pin, 2-row connectors can be found at Digikey:</p>
+<ul>
+<li><a href="https://www.digikey.com/en/products/detail/molex/0430200200/252490">Connector</a></li>
+<li><a href="https://www.digikey.com/en/products/detail/molex/0430310009/252485">Pins</a></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>These connectors have flaps on the side for panel mounting. The more commonly available part on Amazon is not compatible.</p>
+</div>
+<h3 id="jst-sm-connector-kits">JST SM Connector Kits</h3>
+<p>JST SM connectors kits are on <a href="https://www.amazon.com/gp/product/B07D9HRDT6">Amazon for about $15</a>.</p>
 
               
             </article>

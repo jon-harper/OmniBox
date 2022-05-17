@@ -435,26 +435,40 @@
 <h3 id="general-parts">General Parts</h3>
 <p>These parts form the basis of every control case.</p>
 <ul>
-<li>Base: <a href="https://github.com/jon-harper/OmniBox/blob/main/Base/Base%20-%20Front.stl">front</a> and <a href="https://github.com/jon-harper/OmniBox/blob/main/Base/Base%20-%20Back.stl">back</a></li>
-<li>Main body: <a href="https://github.com/jon-harper/OmniBox/blob/main/Main%20Body/Main%20Body%20-%20Front.stl">front</a>, <a href="https://github.com/jon-harper/OmniBox/blob/main/Main%20Body/Main%20Body%20-%20Rear.stl">back</a>, <a href="https://github.com/jon-harper/OmniBox/blob/main/Main%20Body/Main%20Body%20-%20Front%20Crossbar.stl">front crossbar</a></li>
-<li>Fan Cages: 2x <a href="https://github.com/jon-harper/OmniBox/blob/main/Main%20Body/40mm%20Fan%20Cage.stl">40mm fan cages</a></li>
+<li>Base: <ul>
+<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Base/Base%20-%20Front.stl">Front</a></li>
+<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Base/Base%20-%20Back.stl">Back</a></li>
+</ul>
+</li>
+<li>Main body:<ul>
+<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Main%20Body/Main%20Body%20-%20Front.stl">Front</a></li>
+<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Main%20Body/Main%20Body%20-%20Rear.stl">Back</a></li>
+<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Main%20Body/Main%20Body%20-%20Front%20Crossbar.stl">Front crossbar</a></li>
+<li>2x <a href="https://github.com/jon-harper/OmniBox/blob/main/Main%20Body/40mm%20Fan%20Cage.stl">40mm fan cages</a></li>
+</ul>
+</li>
 </ul>
 <h3 id="customizable-parts">Customizable Parts</h3>
-<p>Be sure to pick out the right STL for your component.</p>
+<p>The list below link to repository folders. You will need to choose the right <code>.STL</code> based on your configuration and preferences.</p>
 <ul>
-<li>Trays for the <a href="https://github.com/jon-harper/OmniBox/tree/main/MCU">MCU</a> and <a href="https://github.com/jon-harper/OmniBox/tree/main/CPU">CPU</a></li>
+<li>Trays:<ul>
+<li><a href="https://github.com/jon-harper/OmniBox/tree/main/MCU">MCU</a></li>
+<li><a href="https://github.com/jon-harper/OmniBox/tree/main/CPU">CPU</a></li>
+<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Lower%20Bay">Lower bay trays</a> for buck converters, SSRs, etc.</li>
+</ul>
+</li>
 <li><a href="https://github.com/jon-harper/OmniBox/tree/main/Display">Display mount</a></li>
 <li><a href="https://github.com/jon-harper/OmniBox/tree/main/Lid">Lid</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Rear%20Panel">Rear panel</a> for exhaust, fans, and wiring connections. See below.</li>
-<li>A <a href="https://github.com/jon-harper/OmniBox/tree/main/Front%20Panel">front grill/SD card extension mount</a></li>
-<li>Buck converters, SSRs, and the like can be mounted on <a href="https://github.com/jon-harper/OmniBox/tree/main/Lower%20Bay">lower bay trays</a></li>
+<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Rear%20Panel">Rear panel</a> (see below)</li>
+<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Front%20Panel">Front grill/SD card extension mount</a></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Templates in both Fusion and STEP format are provided for most of the case to allow customization as needed. If a STEP file is available but not a Fusion archive, this is possibly because the design was recently modified.</p>
 </div>
 <h3 id="rear-panel-configuration">Rear Panel Configuration</h3>
-<p>This is a very printer-specific file. Included are two stock <code>.STL</code> files: a typical Ender 3 or Ender 5 type printer with 5-pin ABL and 3-pin lights, and the same setup with the addition of one extra thermistor port and two extra fan ports (to be used in an enclosure). There is a template available for customization, as well.</p>
+<p>This is a very user-specific file. Included are two stock <code>.STL</code> files. Both are for a typical Ender 3/Ender 5 type printer with 5-pin ABL and 3-pin lights; the <code>Enclosed Ender</code> file has an additional thermistor port and two extra fan ports.</p>
+<p>There is a template available for customization, as well.</p>
 <h2 id="print-settings">Print Settings</h2>
 <table>
 <thead>
@@ -473,7 +487,7 @@
 <tr>
 <td>Perimeters (Walls)</td>
 <td>3</td>
-<td>Walls should be at least 1.2mm thick or screws will not grab well</td>
+<td>Walls should be at least 1.2mm thick or screws will not grab well.</td>
 </tr>
 <tr>
 <td>Infill</td>
@@ -483,12 +497,12 @@
 <tr>
 <td>Material</td>
 <td>PLA+</td>
-<td>PLA will work as well. PETG is somewhat brittle and will take longer.</td>
+<td>PETG is somewhat brittle and will take longer to print.</td>
 </tr>
 <tr>
 <td>Nozzle Diameter</td>
 <td>0.4mm</td>
-<td>0.6mm nozzle should work. If you print a case with a different nozzle size, please share your results!</td>
+<td>0.6mm should also work. If you print a case with a different nozzle size, please share your results!</td>
 </tr>
 </tbody>
 </table>
