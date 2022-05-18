@@ -9,7 +9,7 @@ date: 2022-05-15
 
 ### General Parts
 
-These parts form the basis of every control case.
+These parts form the basis of every control case. You will need to print one (1) of each, with the exception of the two (2) 40mm fan cages.
 
 - Base: 
     - [Front][1]
@@ -38,7 +38,7 @@ The list below link to repository folders. You will need to choose the right `.S
 
 ### Rear Panel Configuration
 
-This is a very user-specific file. Included are two stock `.STL` files. Both are for a typical Ender 3/Ender 5 type printer with 5-pin ABL and 3-pin lights; the `Enclosed Ender` file has an additional thermistor port and two extra fan ports.
+This is a very user-specific panel. The [`Rear Panel`][11] folder includes two stock `.STL` files. Both are for a typical Ender 3/Ender 5 type printer with 5-pin ABL and 3-pin lights; the [`Enclosed Ender`](https://github.com/jon-harper/OmniBox/blob/main/Rear%20Panel/Rear%20Panel%20-%20Enclosed%20Ender.stl) file has an additional thermistor port and two extra fan ports.
 
 There is a template available for customization, as well.
 

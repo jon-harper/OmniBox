@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
-The design allows for screws of multiple lengths, i.e. to let you use what's on hand. The assembly process notes where substitutions can be made. This is a generic or "ideal" list.
+The design allows for screws of multiple lengths (to allow you to use whatever is on hand). The assembly process notes where substitutions can be made. The following is a generic or "ideal" list.
 
 ## General Components
 
@@ -22,25 +22,32 @@ The design allows for screws of multiple lengths, i.e. to let you use what's on 
 | [SPST toggle switch](https://www.amazon.com/gp/product/B07QQ22DTB) | 1   | ea  | Identical profile to Creality Ender power switch |
 | [Meanwell-type PSU](https://www.amazon.com/MEAN-WELL-LRS-350-24-350-4W-Switchable/dp/B013ETVO12) | 1   | ea  | Meanwell-type refers to mounting pattern (M4, 150mm x 50mm); compatible with most Ender-series PSUs |
 | MCU (3D printer control board)    | 1   | ea  | Currently only the [BTT Octopus](https://www.amazon.com/BIGTREETECH-Motherboard-Compatible-Firmware-Raspberry/dp/B094NPRYDP) is supported, though a template is available  |
-| SoC CPU (e.g., Raspberry Pi)      | 1   | ea  | (Optional) For OctoPrint/Klipper users; currently only Raspberry Pi 3B+ or 4B  are supported |
 | [IEC C14 socket with fuse](https://www.amazon.com/gp/product/B081ZFHRGW) | 1   | ea  | Identical profile to Creality Ender series power socket  |
 | [40x40x10mm fans](https://www.amazon.com/dp/B08R9L9YR2) | 2 | ea  | 5V, 12V, or 24V |
-| A 12864-style display or emulator | 1   | ea  | Includes: Stock Creality 12864, Mini 12864 displays, and [BTT 3.5](https://www.amazon.com/BIGTREETECH-Upgrade-Touch-Controller-Display-Motherboard/dp/B07VWGFKLZ) displays |
+| A 12864-style display or emulator | 1   | ea  | Includes: Stock Creality 12864, Mini 12864 displays, and [BTT 3.5"](https://www.amazon.com/BIGTREETECH-Upgrade-Touch-Controller-Display-Motherboard/dp/B07VWGFKLZ) displays |
 
 ## Optional Components
 
+The components below depend upon your configuration and only fit with certain parts.
+
+!!! note
+    - MicroSD extension cable is typically used with a customized front panel.
+    - The USB C extension cable is typically used with a customized rear panel.
+    - Currently, the only SoC CPUs supported are Raspberry Pi 3B+ and 4B.
+    - Buck converters can be mounted using a lower bay tray.
+    - Other common components are solid state relays for controlling AC heated beds or external MOSFETs.
+
 | Item                              | Qty | UOM |Note |
 |-----------------------------------|-----|-----|-----|
+| SoC CPU (e.g., Raspberry Pi)      | 1   | ea  | For OctoPrint/Klipper users |
 | [USB C panel mount extension cable](https://www.amazon.com/gp/product/B086W7C58P/) | 1 | ea | Not needed if using UART with Klipper; any brand should work. |
-| [MicroSD to MicroSD extension cable](https://www.amazon.com/gp/product/B09CKRDFTH) | 1 | ea | This is not the same profile as the more popular LANMU connector. |
+| [MicroSD to MicroSD extension cable](https://www.amazon.com/LANMU-Extension-Flexible-Monoprice-Raspberry/dp/B01D9JIUU0) | 1 | ea | Most commonly associated with LANMU brand on Amazon |
 | [LM2596 buck converters](https://www.amazon.com/Regulator-Adjustable-Converter-Electronic-Stabilizer/dp/B07PDGG84B/) | (varies) | ea | |
 | [LM2596 buck converters with digital display](https://www.amazon.com/gp/product/B07N3QT628) | (varies) | ea | |
-
-Other common components are solid state relays for controlling AC heated beds or external MOSFETs.
  
 ## Connectors
 
-Only the IEC power connector is included in the Bill of Materials. The rear panel is meant to be customized by the end user, although you can still use a stock panel.
+Only the IEC power connector is included in the Bill of Materials. The rear panel is meant to be customized by the end user, although you can still use one of the stock panels in the [`Rear Panel`](https://github.com/jon-harper/OmniBox/tree/main/Rear%20Panel) folder.
 
 The two stock rear panel `.STL`s use JST SM connectors for everything but the hotend, which uses a 2-pin, 2-row [Molex Micro Fit 3.0](https://www.digikey.com/en/product-highlight/m/molex-connector/micro-fit-3-interconnect-system) panel mount connector.
 

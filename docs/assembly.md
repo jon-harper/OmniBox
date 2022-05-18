@@ -5,20 +5,21 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
-## Base
+Assuming that you have all of the parts pre-printed and have never assembled an OmniBox, it takes about one hour for assembly. This does not include the time needed to run and attach wiring. 
+## 1. Base
 
 You will need:
 
-- 4x M4 x 16mm screws (20mm is also acceptable)
+- 4x M4 x 16mm screws (20mm will work)
 - 1x SPST toggle switch
 - The printed front and rear base
 
 | Step | Example |
 |------|---------|
-| The two pieces of the base both have two (2) holes on each side. Use the four (4) M4 screws to fasten them together. **Note:** Make sure the sawtooth air vents are facing the same way. | [![assembled base](img/base_assembled.jpg)](img/base_assembled.jpg) |
+| The two pieces of the base both have two (2) holes on each side. Use the four (4) M4 screws to fasten them together. **Note:** Make sure the sawtooth air vents on both halves are facing the same direction, as in the picture. | [![assembled base](img/base_assembled.jpg)](img/base_assembled.jpg) |
 | Push the power switch into the cutout in the front of the base. The sides of the switch will compress until it snaps into place. | [![power switch insertion](img/base_switch.jpg)](img/base_assembled.jpg) |
 
-## Main Body
+## 2. Main Body
 
 You will need:
 
@@ -47,11 +48,11 @@ You will need:
 | Place the crossbar in place at the joint between the lid and display mounts. Take note of the orientation in the picture. | [![crossbar assembly](img/crossbar_location.jpg)](img/crossbar_location.jpg)
 | Attach the crossbar with an M3 x 16mm screw in each side. | [![crossbar assembly](img/crossbar_done.jpg)](img/crossbar_done.jpg)
 
-## Dual 40mm Exhaust Fans
+## 3. Dual 40mm Exhaust Fans
 
 You will need:
 
-- 8x M3 x 12mm screws (16mm will also work)
+- 8x M3 x 12mm screws (up to 16mm will also work)
 - 2x 40x40x10mm fans
 - 2x printed 40mm fan cages
 
@@ -65,14 +66,14 @@ You will need:
 | Ensure the fan wire feeds through the cutout without pinching or binding. | |
 | Repeat the above process for the second fan. | [![fan wires](img/fan_wires.jpg)](img/fan_wires.jpg) |
 
-## CPU Tray
+## 4. CPU Tray
 
 You will need:
 
 - 4 M3 x 6mm screws
 - 4 M3 x 8mm screws
-- A Raspberry Pi 3B+ or 4B
-- The printed CPU tray for your Raspberry Pi
+- A Raspberry Pi 3B+ or 4B (or other SoC CPU)
+- A printed CPU tray matching your SoC CPU
 
 !!! note
     The Raspberry Pi comes with M2.5 screw holes, but can be bored out easily with M3 screws.
@@ -83,7 +84,7 @@ You will need:
 | Slide the tray into the side bay on the left side. | [![tray location](img/cpu_bay.jpg)](img/cpu_bay.jpg) |
 | Use M3 x 8mm screws to fasten the tray in place. | [![tray location](img/cpu_bay_finished.jpg)](img/cpu_bay_finished.jpg) |
 
-## MCU Tray
+## 5. MCU Tray
 
 You will need:
 
@@ -102,7 +103,7 @@ You will need:
 | Tighten the tray in place with two (2) M4 x 8mm screws. | [![screws attached](img/mcu_finished.jpg)](img/mcu_finished.jpg) |
 | Connect your PSU and MCU. **Be careful of polarity.** | [![wires attached](img/mcu_psu_wires.jpg)](img/mcu_psu_wires.jpg) |
 
-## Front Panel
+## 6. Front Panel
 
 You will need:
 
@@ -115,7 +116,7 @@ You will need:
 | If you have any add-ons for your front panel (such as a MicroSD extension) install these first. | [![placing the front vent](img/front_holes.jpg)](img/front_holes.jpg) |
 | Insert the front panel and attach with two (2) M3 screws. | |
 
-## Rear Panel
+## 7. Rear Panel
 
 You will need:
 
@@ -133,7 +134,7 @@ You will need:
 | Finish tightening all of the screws. | [![filling in the rest](img/rear_finished.jpg)](img/rear_finished.jpg) | 
 | Wire the front power switch, IEC power connector, and PSU. As always, be careful of polarity. | |
 
-## Display Screen
+## 8. Display Screen
 
 You will need:
 
@@ -149,13 +150,13 @@ You will need:
 |------|---------|
 | Remove the knob on the display screen. It should pull off. | [![removing the display knob](img/display_knob.jpg)](img/display_knob.jpg)
 | Slide the screen into place on the mount and fasten with four (4) M3 x 6mm screws. | [![attach the screen](img/display_screen.jpg)](img/display_screen.jpg) |
-| Re-attach the knob to the display screen. Again, it should slide into place with light force. If your display mount has multiple pieces, attach those now (usually only applies to displays with side-mount SD cards). | |
-| Attach the display connectors and slide the ends in first. | [![position display](img/display_connectors.jpg)](img/display_connectors.jpg) |
+| Re-attach the knob to the display screen. Again, it should slide into place with light force. If your display mount has multiple pieces, attach those now (usually only applies to displays with side-mount SD card readers). | |
+| Attach the display connectors and slide the cables in before the display. | [![position display](img/display_connectors.jpg)](img/display_connectors.jpg) |
 | Attach the display panel with two (2) M4 x 8mm screws on opposings sides. Avoid overtightening. | [![first two screws](img/display_screws1.jpg)](img/display_screws1.jpg) |
 | The angle of the display may require inserting the remaining two (2) screws at an angle. You may also need to back out the first screws slightly and angle them as well. This is an artifact of the display angle. | [![second set of screws](img/display_screws2.jpg)](img/display_screws2.jpg) |
 
 
-## Lid
+## 9. Lid
 
 Like the rear panel, the lid is intended for customization. The below is an example for a simple lid with a handle.
 
