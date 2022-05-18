@@ -431,7 +431,7 @@
 
   <h1>Bill of Materials</h1>
 
-<p>The design allows for screws of multiple lengths, i.e. to let you use what's on hand. The assembly process notes where substitutions can be made. This is a generic or "ideal" list.</p>
+<p>The design allows for screws of multiple lengths (to allow you to use whatever is on hand). The assembly process notes where substitutions can be made. The following is a generic or "ideal" list.</p>
 <h2 id="general-components">General Components</h2>
 <table>
 <thead>
@@ -510,12 +510,6 @@
 <td>Currently only the <a href="https://www.amazon.com/BIGTREETECH-Motherboard-Compatible-Firmware-Raspberry/dp/B094NPRYDP">BTT Octopus</a> is supported, though a template is available</td>
 </tr>
 <tr>
-<td>SoC CPU (e.g., Raspberry Pi)</td>
-<td>1</td>
-<td>ea</td>
-<td>(Optional) For OctoPrint/Klipper users; currently only Raspberry Pi 3B+ or 4B  are supported</td>
-</tr>
-<tr>
 <td><a href="https://www.amazon.com/gp/product/B081ZFHRGW">IEC C14 socket with fuse</a></td>
 <td>1</td>
 <td>ea</td>
@@ -531,11 +525,22 @@
 <td>A 12864-style display or emulator</td>
 <td>1</td>
 <td>ea</td>
-<td>Includes: Stock Creality 12864, Mini 12864 displays, and <a href="https://www.amazon.com/BIGTREETECH-Upgrade-Touch-Controller-Display-Motherboard/dp/B07VWGFKLZ">BTT 3.5</a> displays</td>
+<td>Includes: Stock Creality 12864, Mini 12864 displays, and <a href="https://www.amazon.com/BIGTREETECH-Upgrade-Touch-Controller-Display-Motherboard/dp/B07VWGFKLZ">BTT 3.5"</a> displays</td>
 </tr>
 </tbody>
 </table>
 <h2 id="optional-components">Optional Components</h2>
+<p>The components below depend upon your configuration and only fit with certain parts.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>MicroSD extension cable is typically used with a customized front panel.</li>
+<li>The USB C extension cable is typically used with a customized rear panel.</li>
+<li>Currently, the only SoC CPUs supported are Raspberry Pi 3B+ and 4B.</li>
+<li>Buck converters can be mounted using a lower bay tray.</li>
+<li>Other common components are solid state relays for controlling AC heated beds or external MOSFETs.</li>
+</ul>
+</div>
 <table>
 <thead>
 <tr>
@@ -547,16 +552,22 @@
 </thead>
 <tbody>
 <tr>
+<td>SoC CPU (e.g., Raspberry Pi)</td>
+<td>1</td>
+<td>ea</td>
+<td>For OctoPrint/Klipper users</td>
+</tr>
+<tr>
 <td><a href="https://www.amazon.com/gp/product/B086W7C58P/">USB C panel mount extension cable</a></td>
 <td>1</td>
 <td>ea</td>
 <td>Not needed if using UART with Klipper; any brand should work.</td>
 </tr>
 <tr>
-<td><a href="https://www.amazon.com/gp/product/B09CKRDFTH">MicroSD to MicroSD extension cable</a></td>
+<td><a href="https://www.amazon.com/LANMU-Extension-Flexible-Monoprice-Raspberry/dp/B01D9JIUU0">MicroSD to MicroSD extension cable</a></td>
 <td>1</td>
 <td>ea</td>
-<td>This is not the same profile as the more popular LANMU connector.</td>
+<td>Most commonly associated with LANMU brand on Amazon</td>
 </tr>
 <tr>
 <td><a href="https://www.amazon.com/Regulator-Adjustable-Converter-Electronic-Stabilizer/dp/B07PDGG84B/">LM2596 buck converters</a></td>
@@ -572,9 +583,8 @@
 </tr>
 </tbody>
 </table>
-<p>Other common components are solid state relays for controlling AC heated beds or external MOSFETs.</p>
 <h2 id="connectors">Connectors</h2>
-<p>Only the IEC power connector is included in the Bill of Materials. The rear panel is meant to be customized by the end user, although you can still use a stock panel.</p>
+<p>Only the IEC power connector is included in the Bill of Materials. The rear panel is meant to be customized by the end user, although you can still use one of the stock panels in the <a href="https://github.com/jon-harper/OmniBox/tree/main/Rear%20Panel"><code>Rear Panel</code></a> folder.</p>
 <p>The two stock rear panel <code>.STL</code>s use JST SM connectors for everything but the hotend, which uses a 2-pin, 2-row <a href="https://www.digikey.com/en/product-highlight/m/molex-connector/micro-fit-3-interconnect-system">Molex Micro Fit 3.0</a> panel mount connector.</p>
 <h3 id="hotend-connectors">Hotend Connectors</h3>
 <p>These 2-pin, 2-row connectors can be found at Digikey:</p>
