@@ -5,7 +5,15 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
-## Release Renders and Photos
+## V0.9 Release Renders and Photos
+
+| Renders and Photos  |   |
+|---------------------|---|
+| Big Bird V43 render | [![v43](img/gallery_0.9/big_bird_render.png)](img/gallery_0.9/big_bird_render.png) |
+| Grover's new grill  | [![new front panel](img/gallery_0.9/grover_up_close.jpg)](img/gallery_0.9/grover_up_close.jpg) |
+| Grover in action    | [![grover in action](img/gallery_0.9/grover_at_work.jpg)](img/gallery_0.9/grover_at_work.jpg) |
+
+## Initial Release Renders and Photos
 
 | Renders and Photos |   |
 |--------------------|---|
@@ -20,8 +28,9 @@ date: 2022-05-15
 
 | Development Photos |   |
 |--------------------|---|
+| My only working Steve Burcham case. It has an SKR 1.4 inside (instead of an SKR 2), which is probably why it's still working. | [![the original](img/gallery_0.9/the_original_v5.jpg)] |
+| The initial main body prototype, looking awkward. | [![original prototype](img/gallery/prototype.jpg)](img/gallery/prototype.jpg) |
 | Size comparison: Left is an example of Steve's V5 case (with custom panels). On the right is one of the first OmniBoxes during assembly. | [![size comparison](img/gallery/size_comparison.jpg)](img/gallery/size_comparison.jpg) |
-| The first main body prototype, looking awkward. | [![original prototype](img/gallery/prototype.jpg)](img/gallery/prototype.jpg) |
 | The first and second finished case bodies, waiting for more panels to finish printing. | [![one and two](img/gallery/one_and_two.jpg)](img/gallery/one_and_two.jpg) |
 | Testing for fit with all of the connectors in place. | [![finished rear panel](img/gallery/finished_rear.jpg)](img/gallery/finished_rear.jpg) |
 | Closed up for the first time, front view. | [![closed up, front](img/gallery/front_view.jpg)](img/gallery/front_view.jpg)
