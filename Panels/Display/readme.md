@@ -11,4 +11,4 @@ This is an optional printable file that fits most display screens and replaces t
 - BIGTREETECH TFT3.5 V3.0
 - BIGTREETECH TFT2.4 (discontinued)
 - Generic 12864 displays, including stock Creality
-- Mini 12864 displays (coming soon)
+- Mini 12864 displays
