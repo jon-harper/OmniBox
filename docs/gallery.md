@@ -20,9 +20,9 @@ date: 2022-05-15
 
 | Development Photos |   |
 |--------------------|---|
-| Size comparison: Left is an example of Steve's V5 case. On the right is one of the first OmniBoxes during assembly. | [![size comparison](img/gallery/size_comparison.jpg)](img/gallery/size_comparison.jpg) |
+| Size comparison: Left is an example of Steve's V5 case (with custom panels). On the right is one of the first OmniBoxes during assembly. | [![size comparison](img/gallery/size_comparison.jpg)](img/gallery/size_comparison.jpg) |
 | The first main body prototype, looking awkward. | [![original prototype](img/gallery/prototype.jpg)](img/gallery/prototype.jpg) |
-| The first and second finished case bodies. | [![one and two](img/gallery/one_and_two.jpg)](img/gallery/one_and_two.jpg) |
-| All the connectors in place. | [![finished rear panel](img/gallery/finished_rear.jpg)](img/gallery/finished_rear.jpg) |
-| Closed up for the first time: front | [![closed up, front](img/gallery/front_view.jpg)](img/gallery/front_view.jpg)
-| Closed up for the first time: back | [![closed up, front](img/gallery/closed_up.jpg)](img/gallery/closed_up.jpg)
+| The first and second finished case bodies, waiting for more panels to finish printing. | [![one and two](img/gallery/one_and_two.jpg)](img/gallery/one_and_two.jpg) |
+| Testing for fit with all of the connectors in place. | [![finished rear panel](img/gallery/finished_rear.jpg)](img/gallery/finished_rear.jpg) |
+| Closed up for the first time, front view. | [![closed up, front](img/gallery/front_view.jpg)](img/gallery/front_view.jpg)
+| Closed up for the first time, rear view. | [![closed up, front](img/gallery/closed_up.jpg)](img/gallery/closed_up.jpg)

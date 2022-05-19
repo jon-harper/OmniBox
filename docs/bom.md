@@ -5,7 +5,9 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
-The design allows for screws of multiple lengths (to allow you to use whatever is on hand). The assembly process notes where substitutions can be made. The following is a generic or "ideal" list.
+The design allows for screws of multiple lengths (to allow you to use whatever is on hand). The assembly process notes where substitutions can be made. The first list is a "base" list common to all builds. Optional components based on your build configuration are listed separately.
+
+There are no affiliate links used on this site.
 
 ## General Components
 
