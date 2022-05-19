@@ -2,4 +2,4 @@ Welcome to the OmniBox repository. This is a modular control case for 3D printin
 
 Head to the [documentation](https://jon-harper.github.io/OmniBox) for more information, including a Bill of Materials and guides for both printing and assembly.
 
-![v0.9 banner](raw/main/docs/img/gallery_0.9/big_bird_banner.png)
+![v0.9 banner](../../raw/main/docs/img/gallery_0.9/big_bird_banner.png)
