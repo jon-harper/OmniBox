@@ -49,7 +49,7 @@ The components below depend upon your configuration and only fit with certain pa
  
 ## Connectors
 
-Only the IEC power connector is included in the Bill of Materials. The rear panel is meant to be customized by the end user, although you can still use one of the stock panels in the [`Rear Panel`](https://github.com/jon-harper/OmniBox/tree/main/Rear%20Panel) folder.
+Only the IEC power connector is included in the Bill of Materials. The rear panel is meant to be customized by the end user, although you can still use one of the stock panels in the [`Rear Panel`](https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel) folder.
 
 The two stock rear panel `.STL`s use JST SM connectors for everything but the hotend, which uses a 2-pin, 2-row [Molex Micro Fit 3.0](https://www.digikey.com/en/product-highlight/m/molex-connector/micro-fit-3-interconnect-system) panel mount connector.
 
