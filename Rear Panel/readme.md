@@ -1,4 +1,4 @@
-## What are these abbreviations on the rear panels? SY? PC?
+## What are these abbreviations on the rear panels? SY? ME?
 
 The abbreviations are part of an attempt to standardize naming conventions for 3D printer components when discussing connections and wiring. Below is a chart:
 
