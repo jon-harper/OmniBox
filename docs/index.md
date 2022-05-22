@@ -7,15 +7,15 @@ date: 2022-05-15
 
 Welcome to the documentation for the OmniBox, a modular control case for 3D printing.
 
-This project is conceptually derived from Steve Burcham's [Stand Alone Main Control Case](https://www.thingiverse.com/thing:3999751) V3 footprint; it is a unique design with a lower base height and compatibility with newer, larger MCU boards like BIGTREETECH's Octopus.
+This project is conceptually derived from Steve Burcham's [Stand Alone Main Control Case](https://www.thingiverse.com/thing:3999751) V3 footprint; it is a unique design with a lower base height and compatibility with newer, larger microcontroller unit (MCU) boards like BIGTREETECH's Octopus.
 
 ## Background
 
 ### The Requirements
 
-I print quite a bit of ABS using enclosures with lights, fans, and a thermistor. As 24V is the common DC voltage for 3D printers right now, each 12V independantly-controllable or PWM device such as a fan or light strip needs a buck converter. My control boxes for these enclosures were cramped—the three or more buck converters mounted over the MCU kept me from accessing the wiring underneath.
+Printing Acrylonitrile Butadiene Styrene (ABS) plastic requires the use of an enclosure with filtration, which usually requires lights, fans, and a thermistor. As 24V is the common DC voltage for 3D printers right now, each 12V independantly-controllable or PWM device such as a fan or light strip needs a buck converter. My control cases for these printer/enclosure combos were cramped—the three or more buck converters mounted over the MCU kept me from accessing the wiring underneath.
 
-Additionally, after multiple DOA and failed BIGTREETECH SKR 2 boards, I urgently had to find another board to settle on. Enter the Octopus, which I had already used on another project.
+Additionally, after multiple Dead-On-Arrival (DOA) and failed BIGTREETECH SKR 2 boards, I urgently had to find another board to settle on. Enter the Octopus, which I had already used on another project.
 
 ### Switching to the Octopus
 
@@ -25,7 +25,7 @@ The Octopus will not fit the existing control cases I had already printed; I als
 
 ### Building the OmniBox
 
-This is my second control case for the Octopus designed around general shape and layout from Steve's V3 case. I kept full compatibility only with the original display screens. Lids should be easy to modify to fit, as they maintain the same overall dimensions (note that the screw holes are M3 now, however). Templates are provided for further customization, including new boards or mounts for SSRs and MOSFETs.
+This is my second control case for the Octopus designed around general shape and layout from Steve's V3 case. I kept full compatibility only with the original display screens. Lids should be easy to modify to fit, as they maintain the same overall dimensions (note that the screw holes are M3 now, however). Templates are provided for further customization, including new boards or mounts for solid state relays (SSRs) and MOSFETs.
 
 Other changes:
 
