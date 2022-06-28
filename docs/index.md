@@ -29,7 +29,7 @@ This is my second control case for the Octopus designed around general shape and
 
 Other changes:
 
-- Bucks, SSRs, and other additional hardware is mounted below the board instead of above.
+- Buck converterss, solid state relays (SSRs), and other additional hardware can be mounted below the board instead of above.
 - The rear panel is larger and covers most of the base.
 - The base is approximately 1.5" shorter; wires are meant to exit from the back or top of the control case.
 - The case is designed to draw air upwards and out past the MCU drivers, providing effective cooling with two 40mm fans.
