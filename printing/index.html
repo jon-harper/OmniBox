@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#components" class="md-skip">
+        <a href="#print-settings" class="md-skip">
           Skip to content
         </a>
       
@@ -283,6 +283,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#print-settings" class="md-nav__link">
+    Print Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#components" class="md-nav__link">
     Components
   </a>
@@ -313,13 +320,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#print-settings" class="md-nav__link">
-    Print Settings
-  </a>
   
 </li>
       
@@ -371,6 +371,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#print-settings" class="md-nav__link">
+    Print Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#components" class="md-nav__link">
     Components
   </a>
@@ -404,13 +411,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#print-settings" class="md-nav__link">
-    Print Settings
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -431,49 +431,8 @@
 
   <h1>Printing Guide</h1>
 
-<h2 id="components">Components</h2>
-<h3 id="core-parts">Core Parts</h3>
-<p>These parts form the basis of every control case and can be found in the <a href="https://github.com/jon-harper/OmniBox/tree/main/Core/"><code>Core</code></a> folder in the GitHub repository. You will need to print one (1) of each, with the exception of two (2) of the 40mm fan cages.</p>
-<ul>
-<li>Base: <ul>
-<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl">Front</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear.stl">Rear</a></li>
-</ul>
-</li>
-<li>Main body:<ul>
-<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Front.stl">Front</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Rear.stl">Rear</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Front%20Crossbar.stl">Front crossbar</a></li>
-<li>2x <a href="https://github.com/jon-harper/OmniBox/blob/main/Core/40mm%20Fan%20Cage.stl">40mm fan cages</a></li>
-</ul>
-</li>
-</ul>
-<h3 id="customizable-parts">Customizable Parts</h3>
-<p>The list below link to repository folders. You will need to choose the right <code>.STL</code> based on your configuration and preferences. Some folders have a <code>readme.md</code> file that offers additional information or attribution.</p>
-<p>You will only need to print one (1) of each of these.</p>
-<ul>
-<li>Trays:<ul>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU">MCU</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU">CPU</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay">Lower bay trays</a> for buck converters, SSRs, etc.</li>
-</ul>
-</li>
-<li>Panels:<ul>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display">Display mount</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid">Lid</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel">Rear panel</a> (see below)</li>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel">Front grill/SD card extension mount</a></li>
-</ul>
-</li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Templates in both Fusion and STEP format are provided for most of the case to allow customization as needed. If a STEP file is available but not a Fusion archive, this is possibly because the design was recently modified.</p>
-</div>
-<h3 id="rear-panel-configuration">Rear Panel Configuration</h3>
-<p>This is a very user-specific panel. The <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel"><code>Rear Panel</code></a> folder includes two stock <code>.STL</code> files. Both are for a typical Ender 3/Ender 5 type printer with 5-pin ABL and 3-pin lights; the <a href="https://github.com/jon-harper/OmniBox/blob/main/Panels/Rear%20Panel/Rear%20Panel%20-%20Enclosed%20Ender.stl"><code>Enclosed Ender</code></a> file has an additional thermistor port and two extra fan ports.</p>
-<p>There are multiple templates available for customization for this component, including the full <code>Enclosed Ender</code> Fusion archive.</p>
 <h2 id="print-settings">Print Settings</h2>
+<p>These settings are consistent for all parts.</p>
 <table>
 <thead>
 <tr>
@@ -510,6 +469,48 @@
 </tr>
 </tbody>
 </table>
+<h2 id="components">Components</h2>
+<h3 id="core-parts">Core Parts</h3>
+<p>These parts form the basis of every control case and can be found in the <a href="https://github.com/jon-harper/OmniBox/tree/main/Core/"><code>Core</code></a> folder in the GitHub repository. You will need to print one (1) of each, with the exception of two (2) of the 40mm fan cages.</p>
+<ul>
+<li>Base: <ul>
+<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl">Front</a></li>
+<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear.stl">Rear</a></li>
+</ul>
+</li>
+<li>Main body:<ul>
+<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Front.stl">Front</a></li>
+<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Rear.stl">Rear</a></li>
+<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Front%20Crossbar.stl">Front crossbar</a></li>
+<li>2x <a href="https://github.com/jon-harper/OmniBox/blob/main/Core/40mm%20Fan%20Cage.stl">40mm fan cages</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="customizable-parts">Customizable Parts</h3>
+<p>The list below link to repository folders. You will need to choose the right <code>.STL</code> based on your configuration and preferences. Some folders have a <code>readme.md</code> file that offers additional information or attribution.</p>
+<p>You will only need to print one (1) of each of these.</p>
+<ul>
+<li>Trays:<ul>
+<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU">MCU</a></li>
+<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU">CPU</a></li>
+<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay">Lower bay trays</a> for buck converters, SSRs, etc.</li>
+</ul>
+</li>
+<li>Panels:<ul>
+<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display">Display mount</a></li>
+<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid">Lid</a></li>
+<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel">Rear panel</a> (<em>see below</em>)</li>
+<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel">Front grill/SD card extension mount</a></li>
+</ul>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Templates in both Fusion and STEP format are provided for most of the case to allow customization as needed. If a STEP file is available but not a Fusion archive, this is possibly because the design was recently modified.</p>
+</div>
+<h3 id="rear-panel-configuration">Rear Panel Configuration</h3>
+<p>This is a very user-specific panel and the most customizable part of the case. The <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel"><code>Rear Panel</code></a> folder includes several stock <code>.STL</code> files. Two are for a typical Ender 3/Ender 5 type printer with 5-pin ABL and 3-pin lights; the <a href="https://github.com/jon-harper/OmniBox/blob/main/Panels/Rear%20Panel/Rear%20Panel%20-%20Enclosed%20Ender.stl"><code>Enclosed Ender</code></a> file has an additional thermistor port and two extra fan ports.</p>
+<p>There are multiple templates available for customization for this component, including the Fusion files.</p>
 
               
             </article>
