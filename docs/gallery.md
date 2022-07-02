@@ -2,8 +2,16 @@
 title: Gallery
 summary: A selection of pics and renders
 authors: Jon Harper
-date: 2022-05-15
+date: 2022-07-02
 ---
+
+## V0.9.5 Pre-Release Renders
+| Renders               |   |
+|-----------------------|---|
+| Isometric closed view | [![closed](img/gallery_0.9.5/iso_closed.png)](img/gallery_0.9.5/iso_closed.png) |
+| Iso open front right  | [![front right](img/gallery_0.9.5/iso_front_right.png)](img/gallery_0.9.5/iso_front_right.png) |
+| Iso open right side   | [![side view](img/gallery_0.9.5/iso_right.png)](img/gallery_0.9.5/iso_right.png) |
+| Rear view with Enclosed Ender panel | [![rear view](img/gallery_0.9.5/angled_rear.png)](img/gallery_0.9.5/angled_rear.png) |
 
 ## V0.9 Release Renders and Photos
 

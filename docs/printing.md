@@ -5,6 +5,18 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
+## Print Settings
+
+These settings are consistent for all parts.
+
+| Setting            | Value  | Note |
+|--------------------|--------|------|
+| Layer Height       | 0.2mm  | I have not attempted printed at any coarser a resolution than 0.2mm. I would not recommend going finer. For the main body and base, it should be possible to print at 0.24 or 0.28mm. |
+| Perimeters (Walls) | 3      | Walls should be at least 1.2mm thick or screws will not grab well. |
+| Infill             | 20-25% | Cubic is generally a good choice. |
+| Material           | PLA or PLA+   | PETG is somewhat brittle and will take longer to print. |
+| Nozzle Diameter    | 0.4mm  | 0.6mm should also work. If you print a case with a different nozzle size, please share your results! |
+
 ## Components
 
 ### Core Parts
@@ -33,7 +45,7 @@ You will only need to print one (1) of each of these.
 - Panels:
     - [Display mount][9]
     - [Lid][10]
-    - [Rear panel][11] (see below)
+    - [Rear panel][11] (*see below*)
     - [Front grill/SD card extension mount][12]
 
 !!! note
@@ -41,19 +53,9 @@ You will only need to print one (1) of each of these.
 
 ### Rear Panel Configuration
 
-This is a very user-specific panel. The [`Rear Panel`][11] folder includes two stock `.STL` files. Both are for a typical Ender 3/Ender 5 type printer with 5-pin ABL and 3-pin lights; the [`Enclosed Ender`][15] file has an additional thermistor port and two extra fan ports.
+This is a very user-specific panel and the most customizable part of the case. The [`Rear Panel`][11] folder includes several stock `.STL` files. Two are for a typical Ender 3/Ender 5 type printer with 5-pin ABL and 3-pin lights; the [`Enclosed Ender`][15] file has an additional thermistor port and two extra fan ports.
 
-There are multiple templates available for customization for this component, including the full `Enclosed Ender` Fusion archive.
-
-## Print Settings
-
-| Setting            | Value  | Note |
-|--------------------|--------|------|
-| Layer Height       | 0.2mm  | I have not attempted printed at any coarser a resolution than 0.2mm. I would not recommend going finer. For the main body and base, it should be possible to print at 0.24 or 0.28mm. |
-| Perimeters (Walls) | 3      | Walls should be at least 1.2mm thick or screws will not grab well. |
-| Infill             | 20-25% | Cubic is generally a good choice. |
-| Material           | PLA or PLA+   | PETG is somewhat brittle and will take longer to print. |
-| Nozzle Diameter    | 0.4mm  | 0.6mm should also work. If you print a case with a different nozzle size, please share your results! |
+There are multiple templates available for customization for this component, including the Fusion files.
 
 [1]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl
 [2]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear.stl
