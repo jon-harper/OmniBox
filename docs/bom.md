@@ -33,11 +33,8 @@ There are no affiliate links used on this site.
 The components below depend upon your configuration and only fit with certain parts.
 
 !!! note
-    - MicroSD extension cable is typically used with a customized front panel.
-    - The USB C extension cable is typically used with a customized rear panel.
-    - Currently, the only SoC CPUs supported are Raspberry Pi 3B+ and 4B.
-    - Buck converters can be mounted using a lower bay tray.
-    - Other common components are solid state relays for controlling AC heated beds or external MOSFETs.
+    - See the [Lower Bay supported parts](support.md) for more.
+    - Solid state relays for controlling AC heated beds or external MOSFETs are meant to be located in the lower bay, as well.
 
 | Item                              | Qty | UOM |Note |
 |-----------------------------------|-----|-----|-----|

@@ -49,7 +49,7 @@ You will only need to print one (1) of each of these.
     - [Front grill/SD card extension mount][12]
 
 !!! note
-    Templates in both Fusion and STEP format are provided for most of the case to allow customization as needed. If a STEP file is available but not a Fusion archive, this is possibly because the design was recently modified.
+    Templates in both Fusion and `STEP` format are provided for most of the case to allow customization as needed. If a `STEP` file is available but not a Fusion archive, this is possibly because the design was recently modified.
 
 ### Rear Panel Configuration
 
