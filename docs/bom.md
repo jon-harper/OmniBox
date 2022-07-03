@@ -23,10 +23,10 @@ There are no affiliate links used on this site.
 | M4 x 16mm machine screws          | 4   | ea  |                                                          |
 | [SPST toggle switch](https://www.amazon.com/gp/product/B07QQ22DTB) | 1   | ea  | Identical profile to Creality Ender power switch |
 | [Meanwell-type PSU](https://www.amazon.com/MEAN-WELL-LRS-350-24-350-4W-Switchable/dp/B013ETVO12) | 1   | ea  | Meanwell-type refers to mounting pattern (M4, 150mm x 50mm); compatible with most Ender-series PSUs |
-| MCU (3D printer control board)    | 1   | ea  | Currently only the [BTT Octopus](https://www.amazon.com/BIGTREETECH-Motherboard-Compatible-Firmware-Raspberry/dp/B094NPRYDP) is supported, though a template is available  |
+| MCU (3D printer control board)    | 1   | ea  | See the [Supported Parts](support.md) list.  |
 | [IEC C14 socket with fuse](https://www.amazon.com/gp/product/B081ZFHRGW) | 1   | ea  | Identical profile to Creality Ender series power socket  |
 | [40x40x10mm fans](https://www.amazon.com/dp/B08R9L9YR2) | 2 | ea  | 5V, 12V, or 24V |
-| A 12864-style display or emulator | 1   | ea  | Includes: Stock Creality 12864, Mini 12864 displays, and [BTT 3.5"](https://www.amazon.com/BIGTREETECH-Upgrade-Touch-Controller-Display-Motherboard/dp/B07VWGFKLZ) displays |
+| A 12864-style display or emulator | 1   | ea  | See the [Supported Parts](support.md) list.  |
 
 ## Optional Components
 
@@ -38,7 +38,7 @@ The components below depend upon your configuration and only fit with certain pa
 
 | Item                              | Qty | UOM |Note |
 |-----------------------------------|-----|-----|-----|
-| SoC CPU (e.g., Raspberry Pi)      | 1   | ea  | For OctoPrint/Klipper users |
+| SoC CPU (e.g., Raspberry Pi)      | 1   | ea  | See the [Supported Parts](support.md) list.  |
 | [USB C panel mount extension cable](https://www.amazon.com/gp/product/B086W7C58P/) | 1 | ea | Not needed if using UART with Klipper; any brand should work. |
 | [MicroSD to MicroSD extension cable](https://www.amazon.com/LANMU-Extension-Flexible-Monoprice-Raspberry/dp/B01D9JIUU0) | 1 | ea | Most commonly associated with LANMU brand on Amazon |
 | [LM2596 buck converters](https://www.amazon.com/Regulator-Adjustable-Converter-Electronic-Stabilizer/dp/B07PDGG84B/) | (varies) | ea | |

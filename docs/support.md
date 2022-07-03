@@ -11,18 +11,20 @@ This is a (mostly complete) list of boards and other components supported by Omn
 
 ### MCU Trays
 
-These parts are in the [Trays\MCU](https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU) git folder.
+These parts are in the [Trays\MCU](https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU) git folder. Each component has its own subfolder.
 
-| Component            | `STL`                      | Note                                    |
-|----------------------|--------------------------|-----------------------------------------|
-| BTT Octopus          | MCU Tray - Octopus.stl   |                                         |
-| BTT SKR 1.3+         | MCU Tray - BTT SKR 2.stl | Compatible with all SKRs 1.3 and newer. |
+| Component            | Note                                    |
+|----------------------|-----------------------------------------|
+| BTT Octopus          |                                         |
+| BTT SKR 1.3+         | Compatible with all SKRs 1.3 and newer. |
+| BTT SKR Mini E3      | Compatible with 1.x and 2.              |
+| Creality boards      | Use the BTT SKR Mini E3 mount.          |
 
 ### CPU Trays
 
 These parts are in the [Trays\CPU](https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU) git folder.
 
-| Component            | `STL`                        |
+| Component            | `STL`                      |
 |----------------------|----------------------------|
 | Raspberry Pi 3B+     | CPU Tray - RPi 3B Plus.stl |
 | Raspberry Pi 4B      | CPU Tray - RPi 4B.stl      |

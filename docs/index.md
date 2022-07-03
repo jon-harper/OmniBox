@@ -41,4 +41,4 @@ Other changes:
 - The case is designed to draw air upwards and out past the MCU drivers, providing effective cooling with two 40mm fans.
 - Some screws that were M4 are now M3.
 
-![right side view](img/gallery/view_right.jpg)
+![right side view](img/gallery_0.9.5/close.png)
