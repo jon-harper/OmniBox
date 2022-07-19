@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-07-03
 ---
 
-This is a (mostly complete) list of boards and other components supported by OmniBox, along with the necessary `STL`. The linked git folders *should* contain `STEP` and Fusion files to allow modification. Please open an issue if any are missing.
+This is a list of boards and other components supported by OmniBox, along with the necessary `STL`. The linked git folders *should* contain `STEP` and Fusion files to allow modification. Please open an issue if any are missing.
 
 ## Trays
 
@@ -13,21 +13,21 @@ This is a (mostly complete) list of boards and other components supported by Omn
 
 These parts are in the [Trays\MCU](https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU) git folder. Each component has its own subfolder.
 
-| Component            | Note                                    |
+| Component            | Mounting Tray                           |
 |----------------------|-----------------------------------------|
-| BTT Octopus          |                                         |
-| BTT SKR 1.3+         | Compatible with all SKRs 1.3 and newer. |
-| BTT SKR Mini E3      | Compatible with 1.x and 2.              |
-| Creality boards      | Use the BTT SKR Mini E3 mount.          |
+| BTT Octopus          | `BTT Octopus`                           |
+| BTT SKR 1.3+         | `BTT SKR`                               |
+| BTT SKR Mini E3      | `BTT SKR E3`                            |
+| Creality boards      | `BTT SKR E3`                            |
 
 ### CPU Trays
 
 These parts are in the [Trays\CPU](https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU) git folder.
 
-| Component            | `STL`                      |
-|----------------------|----------------------------|
-| Raspberry Pi 3B+     | CPU Tray - RPi 3B Plus.stl |
-| Raspberry Pi 4B      | CPU Tray - RPi 4B.stl      |
+| Component            | `STL`                        |
+|----------------------|------------------------------|
+| Raspberry Pi 3B+     | `CPU Tray - RPi 3B Plus.stl` |
+| Raspberry Pi 4B      | `CPU Tray - RPi 4B.stl`      |
 
 ### Lower Bay Trays
 
@@ -37,8 +37,8 @@ Some trays include space for 40x40x10mm fans. This is specified in the file name
 
 | Component | `STL` | Note |
 |-----------|-----|------|
-| Generic LM2596 | Lower Bay Tray - 40mm Fan and Two Bucks v2.stl | Typical current limit of 2.5A max. |
-| [DROK LM2596 with LED](https://www.amazon.com/Converter-DROK-Transformer-Regulator-Stabilizer/dp/B00JUFJ1GA) | Lower Bay Tray - LM2596 with LED.stl | Current limit is 3A max, 2A continuous. |
+| Generic LM2596 | `Lower Bay Tray - 40mm Fan and Two Bucks v2.stl` | Typical current limit of 2.5A max. |
+| [DROK LM2596 with LED](https://www.amazon.com/Converter-DROK-Transformer-Regulator-Stabilizer/dp/B00JUFJ1GA) | `Lower Bay Tray - LM2596 with LED.stl` | Current limit is 3A max, 2A continuous. |
 
 ## Panels
 

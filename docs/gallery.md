@@ -5,14 +5,14 @@ authors: Jon Harper
 date: 2022-07-02
 ---
 
-## V0.9.5 Pre-Release Renders
+## V0.9.5 Release Renders
 | Renders               |   |
 |-----------------------|---|
+| Rear view of new generic panel | [![generic panel rear view](img/gallery_0.9.5/rear_panel.png)](img/gallery_0.9.5/rear_panel.png)
 | Isometric closed view | [![closed](img/gallery_0.9.5/iso_closed.png)](img/gallery_0.9.5/iso_closed.png) |
 | Iso open front right  | [![front right](img/gallery_0.9.5/iso_front_right.png)](img/gallery_0.9.5/iso_front_right.png) |
 | Iso open right side   | [![side view](img/gallery_0.9.5/iso_right.png)](img/gallery_0.9.5/iso_right.png) |
 | Rear view with Enclosed Ender panel | [![rear view](img/gallery_0.9.5/angled_rear.png)](img/gallery_0.9.5/angled_rear.png) |
-| Rear view of new generic panel | [![generic panel rear view](img/gallery_0.9.5/rear_panel.png)](img/gallery_0.9.5/rear_panel.png)
 
 ## V0.9 Release Renders and Photos
 
