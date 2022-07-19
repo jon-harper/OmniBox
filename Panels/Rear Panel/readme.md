@@ -1,32 +1,29 @@
-## What are these abbreviations on the rear panels? SY? ME?
+## Do do I know which rear panel to use?
 
-The abbreviations are part of an attempt to standardize naming conventions for 3D printer components when discussing connections and wiring. Below is a chart:
+Answer a few questions.
 
-| Abbr.  | Description                                             |
-|--------|---------------------------------------------------------|
-| HE[#]  | Hotend with optional enumerator                         |
-| CF[#]  | Hotend cooling fan with optional enumerator             |
-| PF[#]  | Part cooling fan with optional enumerator               |
-| TH[#]  | Hotend thermistor with optional enumerator              |
-| TB     | Bed thermistor                                          |
-| TC[#]  | Chamber/enclosure temperature with optional enumerator  |
-| TE     | Electronics case thermistor (not used on panel)         |
-| FC[#]  | Chamber/enclosure fan with optional enumerator          |
-| ABL    | Automated bed leveling, e.g. BLTouch                    |
-| LGT[#] | Lights with optional enumerator                         |
-| ME[#]  | Extruder motor with optional enumerator                 |
-| MX/MA  | X (or Alpha on CoreXY) stepper motor                    |
-| MY/MB  | Y (or Beta on CoreXY) stepper motor                     |
-| MZ[#]  | Z stepper with optional enumerator                      |
-| SX     | X limit switch/end stop                                 |
-| SY     | Y limit switch/end stop                                 |
-| SZ[#]  | Z limit switch/end stop with optional enumerator        |
-| USB    | USB port for communicating with the MCU                 |
+## Do you need panel mounted connetors?
 
-## What is an optional enumerator?
+If "No", go to the "Generic Rear Panels" section next.
 
-Basically, if there's only one of something, for example the hotend (`HE`), just use the abbreviation. If you have two or more, add a number to the end. Hotends are typically numbered from zero, so on a dual extruding printer, you would label `HE0` and `HE1`.
+If "Yes", skip to the "Molex Panel Mounts" section below.
 
-## Do I have to follow this pattern?
+## Generic Rear Panels
 
-No, but it is used on the stock rear panel configurations. This page is simply informative.
+These have a large cutout for wiring to pass through. They come with two options:
+
+- USB Panel Mount type (None, USB A, or USB C)
+- With or without 60mm fan cutout
+
+You can find the generic panels in the `Panels\Rear Panels\Generic` folders. Each combination of USB and fan is present as a subfolder (e.g., `USB C, No Fan`).
+
+## Molex Panel Mounts
+
+This area is in active development. The `Panels\Rear Panels\Template` folder has a Fusion file with panel mount profiles for most Molex Micro Fit 3 connectors (along with many others).
+
+There are two approaches to using panel mounted connectors:
+
+- Single point-to-point panel mounts. Each limit switch or stepper (and so forth) has its own connector on the rear panel.
+- "Y splitter"-type connectors, where one many-pin connector attaches to the rear panel and splits into individual runs to each component. For example, a six-pin connector might go to a stepper (four pins) and nearby limit switch (two pins).
+
+I have documentation in process to help create pin orders for the second type of wiring harness. A few common hardware configurations will be added to the `Panels\Rear Panels\Molex` folder along with wiring instructions. The timing of this is dependant upon testing and my own free time.
