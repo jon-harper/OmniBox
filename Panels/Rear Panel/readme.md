@@ -1,8 +1,6 @@
-## Do do I know which rear panel to use?
+How do I know which rear panel to use? Answer a few questions.
 
-Answer a few questions.
-
-## Do you need panel mounted connetors?
+## Do you need panel mounted connectors?
 
 If "No", go to the "Generic Rear Panels" section next.
 
