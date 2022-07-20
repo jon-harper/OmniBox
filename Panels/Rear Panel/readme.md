@@ -1,4 +1,4 @@
-How do I know which rear panel to use? Answer a few questions.
+# How do I know which rear panel to use?
 
 ## Do you need panel mounted connectors?
 
