@@ -11,3 +11,5 @@ See the [Lower Bay Accessories][1] page for product images and links.
 - 2x Basic LM2596 Buck Converter
 - 1x 40x40x20mm Axial fan
 - Zip ties
+
+[1]: https://jon-harper.github.io/OmniBox/all_parts/
