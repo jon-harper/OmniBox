@@ -14,7 +14,9 @@ markdown_extensions:
 nav:
   - index.md
   - gallery.md
-  - support.md
+  - Support:
+    - support.md
+    - all_parts.md
   - bom.md
   - printing.md
   - assembly.md

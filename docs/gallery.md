@@ -19,9 +19,9 @@ date: 2022-07-02
 |-----------------------|---|
 | Rear view of new generic panel | [![generic panel rear view][20]][20]
 | Isometric closed view | [![closed][19]][19] |
-| Iso open front right  | [![front right][18]][18] |
-| Iso open right side   | [![side view][17[17] |
-| Rear view with Enclosed Ender panel | [![rear view][16]][16] |
+| Isometric open front right  | [![front right][18]][18] |
+| Isometric open right side   | [![side view][17]][17] |
+| Rear view with old-style rear panel | [![rear view][16]][16] |
 
 ## V0.9 Release
 

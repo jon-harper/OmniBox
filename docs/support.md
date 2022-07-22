@@ -31,14 +31,9 @@ These parts are in the [Trays\CPU][15] git folder.
 
 ### Lower Bay Trays
 
-The files for these trays are stored in the [Trays\Lower Bay][13] git folder.
+OmniBox has a lower bay for mounting parts such as buck converters and Solid State Relays (SSRs). Some trays mount multiple parts or an added 40mm fan.
 
-Some trays include space for 40x40x10mm fans. This is specified in the file name.
-
-| Component | `STL` | Note |
-|-----------|-----|------|
-| Generic LM2596 | `Lower Bay Tray - 40mm Fan and Two Bucks v2.stl` | Typical current limit of 2.5A max. |
-| [DROK LM2596 with LED][12] | `Lower Bay Tray - LM2596 with LED.stl` | Current limit is 3A max, 2A continuous. |
+See [the next page][12] for a complete list of parts with trays available.
 
 ## Panels
 
@@ -77,7 +72,7 @@ Both of these components are highly customizable, so this list may be incomplete
 [9]:  https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Generic%2012864
 [10]: https://github.com/jon-harper/OmniBox/blob/main/Panels/Display/Display%20Knob.stl
 [11]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display
-[12]: https://www.amazon.com/Converter-DROK-Transformer-Regulator-Stabilizer/dp/B00JUFJ1GA
+[12]: all_parts.md
 [13]: https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay
 [14]: https://www.digikey.com/en/products/detail/molex/0430200200/252490
 [15]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU
