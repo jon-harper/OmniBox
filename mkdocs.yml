@@ -14,9 +14,13 @@ markdown_extensions:
 nav:
   - index.md
   - gallery.md
-  - Support:
+  - Supported Parts:
     - support.md
-    - all_parts.md
+    - boards.md
+    - displays.md
+    - panel_mounts.md
+    - fans.md
+    - lower_bay.md
   - bom.md
   - printing.md
   - assembly.md

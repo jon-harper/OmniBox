@@ -1,79 +1,35 @@
 ---
-title: Supported Parts
+title: Overview
 summary: A list of parts supported by OmniBox
 authors: Jon Harper
 date: 2022-07-03
 ---
 
-This is a list of boards and other components supported by OmniBox, along with the necessary `STL`. The linked git folders *should* contain a `STEP` and to allow modification. Fusion files are also typically available where they can be exported.
+This is an overview of components supported by OmniBox. The linked git folders should contain both an `STL` for printing and a `STEP` to allow modification. Fusion files are also typically available where they can be exported.
 
 ## Trays
 
-### MCU Trays
+### CPU and MCU Trays
 
-These parts are in the [Trays\MCU][16] git folder. Each component has its own subfolder.
-
-| Component            | Mounting Tray                           |
-|----------------------|-----------------------------------------|
-| BTT Octopus          | `BTT Octopus`                           |
-| BTT SKR 1.3+         | `BTT SKR`                               |
-| BTT SKR Mini E3      | `BTT SKR E3`                            |
-| Creality boards      | `BTT SKR E3`                            |
-
-### CPU Trays
-
-These parts are in the [Trays\CPU][15] git folder.
-
-| Component            | `STL`                        |
-|----------------------|------------------------------|
-| Raspberry Pi 3B+     | `CPU Tray - RPi 3B Plus.stl` |
-| Raspberry Pi 4B      | `CPU Tray - RPi 4B.stl`      |
+See [CPU and MCU Boards][2] for a list of boards with existing trays.
 
 ### Lower Bay Trays
 
-OmniBox has a lower bay for mounting parts such as buck converters and Solid State Relays (SSRs). Some trays mount multiple parts or an added 40mm fan.
+OmniBox has a lower bay for mounting parts such as buck converters and solid state elays (SSRs). Some trays mount multiple parts or an added 40mm fan.
 
-See [the next page][12] for a complete list of parts with trays available.
+See [Lower Bay Components][4] for a complete list of parts with trays available.
 
-## Panels
+## Display Screen Panels
 
-### Display Screen Panels
+[Display Panels][3] are used for LCD displays. Note that these are not the same as Raspberry Pi screens.
 
-Each display screen has a subfolder in the [Panels/Display][11] git folder. There is an optional `STL` for a [display knob][10], as well.
+## Front and Rear Panels
 
-| Component            | Folder | Notes |
-|----------------------|--------|-------|
-| Creality 12864 Stock | [Generic 12864][9] | Also known as CR-10 stock display. Ender 3 V2 display not supported. |
-| FYSETC Mini 12864    | [Mini 12864][8] | This includes BTT brand and other clones. |
-| BTT 2.4" TFT         | [BTT 2.4 TFT][7] | This product is discontinued, but I still use it, so there's a part. |
-| BTT 3.5" TFT         | [BTT 3.5 TFT][6] | |
+These panels are typically used for mounting [fans](fans.md) and [panel mounted connectors](panel_mounts.md).
 
+Generic rear panels are available with cutouts to pass wiring directly without using connectors.
 
-### Front and Rear Panels
-
-Both of these components are highly customizable, so this list may be incomplete.
-
-| Part or Connector | Panel Location | Notes |
-|-------------------|----------------|-------|
-| [MicroSD panel mount extension][5] | Front | |
-| [USB B panel mount extension][4] | Front or Rear | Right angle connector fits most boards more easily. |
-| [USB C panel mount extension][3] | Front or Rear | |
-| [JST SM panel mount connectors][2] | Rear | 2-5 pins |
-| [Molex Micro Fit 3.0 connectors][1] | Rear | Supported up to [2-row, 16-position][14]. |
-
-[1]:  https://www.digikey.com/en/htmldatasheets/production/1626160/0/0/1/0430300007.html
-[2]:  https://www.amazon.com/gp/product/B07D9HRDT6
-[3]:  https://www.amazon.com/gp/product/B086W7C58P
-[4]:  https://www.amazon.com/gp/product/B071P2BGK5
-[5]:  https://www.amazon.com/gp/product/B07YYSP5F5
-[6]:  https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%203.5%20TFT
-[7]:  https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%202.4%20TFT
-[8]:  https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Mini%2012864
-[9]:  https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Generic%2012864
-[10]: https://github.com/jon-harper/OmniBox/blob/main/Panels/Display/Display%20Knob.stl
-[11]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display
-[12]: all_parts.md
-[13]: https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay
-[14]: https://www.digikey.com/en/products/detail/molex/0430200200/252490
-[15]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU
-[16]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU
+[1]:  https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel
+[2]: boards.md
+[3]: displays.md
+[4]: lower_bay.md
