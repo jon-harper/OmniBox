@@ -10,6 +10,7 @@ date: 2022-07-02
 | Renders               |   |
 |-----------------------|---|
 | Profile view with 3.5" TFT | [![view from the front left][24]][24] |
+| New 60mm intake fan   | [![view of front with intake fan on side visible][25]][25]
 | Generic rear panel with 60mm fan cutout | [![generic rear panel view with fan hole visible][22]][22] |
 | Generic rear panel with 60mm x 20mm fan mounted | [![view of rear panel, fan, and fan cage][23]][23]
 | Experimental rear panel with Molex Micro Fit 3 panel mounts | [![rear panel with cutouts for panel mounted connectors][21]][21] |
@@ -77,3 +78,4 @@ date: 2022-07-02
 [22]: img/gallery_0.9.7/generic_rear_panel.png
 [23]: img/gallery_0.9.7/rear_60mm_fan.png
 [24]: img/gallery_0.9.7/profile_view.png
+[25]: img/gallery_0.9.7/front_60mm_fan.png

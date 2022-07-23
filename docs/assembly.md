@@ -5,7 +5,11 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
-Assuming that you have all of the parts pre-printed and have never assembled an OmniBox, it takes about one hour for assembly. This does not include the time needed to run and attach wiring. 
+Assuming that you have all of the parts pre-printed and have never assembled an OmniBox, it takes about one hour for assembly. This does not include the time needed to run and attach wiring.
+
+!!! note
+    These instructions are for the default OmniBox configuration (two 40mm fans for the rear main body and no front body fan). They cover aspects common to all OmniBox printers and demonstrate mounting fan cages. The size and location of fans in your configuration may vary.
+
 ## 1. Base
 
 You will need:

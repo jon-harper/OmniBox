@@ -7,6 +7,8 @@ date: 2022-07-22
 
 Each display screen has a subfolder in the [Panels/Display][11] git folder. There is an optional `STL` for a [display knob][10], as well.
 
+Each component name links to the corresponding git folder.
+
 | Component            | Image | Notes |
 |----------------------|--------|-------|
 | [Generic 12864/Creality Stock][9] | ![img](img/parts/classic_12864.jpg) | Also known as CR-10 stock display. Ender 3 V2 display not supported. |
