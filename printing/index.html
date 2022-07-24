@@ -237,10 +237,113 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Supported Parts
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Supported Parts" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Supported Parts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
       <a href="../support/" class="md-nav__link">
-        Supported Parts
+        Overview
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../boards/" class="md-nav__link">
+        CPU and MCU Boards
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../displays/" class="md-nav__link">
+        Display Panels
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../panel_mounts/" class="md-nav__link">
+        Panel Mounts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fans/" class="md-nav__link">
+        Fans
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lower_bay/" class="md-nav__link">
+        Lower Bay Components
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -320,6 +423,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#rear-main-body" class="md-nav__link">
+    Rear Main Body
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#customizable-parts" class="md-nav__link">
     Customizable Parts
   </a>
@@ -335,6 +445,13 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#print-checklist" class="md-nav__link">
+    Print Checklist
+  </a>
   
 </li>
       
@@ -408,6 +525,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#rear-main-body" class="md-nav__link">
+    Rear Main Body
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#customizable-parts" class="md-nav__link">
     Customizable Parts
   </a>
@@ -423,6 +547,13 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#print-checklist" class="md-nav__link">
+    Print Checklist
+  </a>
   
 </li>
       
@@ -459,8 +590,8 @@
 <tbody>
 <tr>
 <td>Layer Height</td>
-<td>0.2mm</td>
-<td>I have not attempted printed at any coarser a resolution than 0.2mm. I would not recommend going finer. For the main body and base, it should be possible to print at 0.24 or 0.28mm.</td>
+<td>0.2-0.24mm</td>
+<td>I would not recommend going finer; I have not tried 0.28 or coarser.</td>
 </tr>
 <tr>
 <td>Perimeters (Walls)</td>
@@ -486,46 +617,148 @@
 </table>
 <h2 id="components">Components</h2>
 <h3 id="core-parts">Core Parts</h3>
-<p>These parts form the basis of every control case and can be found in the <a href="https://github.com/jon-harper/OmniBox/tree/main/Core/"><code>Core</code></a> folder in the GitHub repository. You will need to print one (1) of each, with the exception of two (2) of the 40mm fan cages.</p>
+<p>These parts form the basis of every control case and can be found in the <a href="https://github.com/jon-harper/OmniBox/tree/main/Core/"><code>Core</code></a> folder in the GitHub repository.</p>
+<p>You will need to print the following:</p>
 <ul>
-<li>Base: <ul>
-<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl">Front</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear.stl">Rear</a></li>
+<li>1x <a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl">Base - Front</a></li>
+<li>1x <a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear.stl">Base - Rear</a></li>
+<li>1x <a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Front.stl">Main Body - Front</a></li>
+<li>1x <a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Front%20Crossbar.stl">Main Body - Front crossbar</a></li>
 </ul>
-</li>
-<li>Main body:<ul>
-<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Front.stl">Front</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Rear.stl">Rear</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Front%20Crossbar.stl">Front crossbar</a></li>
+<h3 id="rear-main-body">Rear Main Body</h3>
+<p>The rear main body is part of the <a href="https://github.com/jon-harper/OmniBox/tree/main/Core/"><code>Core</code></a> parts, but comes in two versions. The default has two 40mm fan cutouts with optional TPU gaskets.</p>
+<p>Alternatively, there is a rear main body that lacks fan cutouts. <em>Only</em> use the rear body without fans if you are using a rear panel that mounts a 60mm or larger fan.</p>
+<p>You will need to print one of the following two lists:</p>
+<p><strong>Default</strong>:</p>
+<ul>
+<li>1x <a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Rear.stl">Main Body - Rear</a></li>
 <li>2x <a href="https://github.com/jon-harper/OmniBox/blob/main/Core/40mm%20Fan%20Cage.stl">40mm fan cages</a></li>
+<li>(Optional) 2x <a href="https://github.com/jon-harper/OmniBox/blob/main/Panels/Rear%20Panel/40mm%20TPU%20Fan%20Gasket.stl">40mm TPU gaskets</a></li>
 </ul>
-</li>
+<p><strong>Without Fans</strong></p>
+<ul>
+<li>1x <a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Rear%20No%20Fans.stl">Main Body - Rear No Fans</a></li>
 </ul>
 <h3 id="customizable-parts">Customizable Parts</h3>
-<p>The list below link to repository folders. You will need to choose the right <code>.STL</code> based on your configuration and preferences. Some folders have a <code>readme.md</code> file that offers additional information or attribution.</p>
-<p>You will only need to print one (1) of each of these.</p>
+<p>The list below link to repository folders. You will need to choose the right <code>.STL</code> based on your configuration and preferences. Each folder has a <code>readme.md</code> with help choosing the right file and any attribution.</p>
 <ul>
 <li>Trays:<ul>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU">MCU</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU">CPU</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay">Lower bay trays</a> for buck converters, SSRs, etc.</li>
+<li>1x <a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU">MCU</a></li>
+<li>1x <a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU">CPU</a></li>
+<li>(Optional) 2x <a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay">Lower bay trays</a> for buck converters, SSRs, etc.</li>
 </ul>
 </li>
 <li>Panels:<ul>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display">Display mount</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid">Lid</a></li>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel">Rear panel</a> (<em>see below</em>)</li>
-<li><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel">Front grill/SD card extension mount</a></li>
+<li>1x <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display">Display mount</a></li>
+<li>1x <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid">Lid</a></li>
+<li>1x <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel">Rear panel</a> (<em>see below</em>)</li>
+<li>1x <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel">Front panel</a></li>
 </ul>
 </li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Templates in both Fusion and <code>STEP</code> format are provided for most of the case to allow customization as needed. If a <code>STEP</code> file is available but not a Fusion archive, this is possibly because the design was recently modified.</p>
+<p>Templates in <code>STEP</code> format are provided for most of the case to allow customization as needed. Where possible, a Fusion archive file is also provided.</p>
 </div>
 <h3 id="rear-panel-configuration">Rear Panel Configuration</h3>
-<p>This is a very user-specific panel and the most customizable part of the case. The <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel"><code>Rear Panel</code></a> folder includes several stock <code>.STL</code> files. Two are for a typical Ender 3/Ender 5 type printer with 5-pin ABL and 3-pin lights; the <a href="https://github.com/jon-harper/OmniBox/blob/main/Panels/Rear%20Panel/Rear%20Panel%20-%20Enclosed%20Ender.stl"><code>Enclosed Ender</code></a> file has an additional thermistor port and two extra fan ports.</p>
-<p>There are multiple templates available for customization for this component, including the Fusion files.</p>
+<p>This is a very user-specific panel and the most customizable part of the case. The <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel"><code>Rear Panel</code></a> has multiple subfolders.</p>
+<ul>
+<li>Most users will want to use a <code>Generic</code> panel. These have large holes for passing wires through and come in a number of common variations.</li>
+<li>The <code>Molex</code> folder contains files for preconfigured rear panels that mount Molex Micro Fit 3 connectors. Wiring diagrams for each panel are included.</li>
+<li>The <code>Template</code> folder contains a Fusion template with profiles for panel mounted connectors and fans. Users who want to create their own panel should start here.</li>
+</ul>
+<p>A more detailed guide to choosing a rear panel can be found in the <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel"><code>Rear Panel</code></a> README file.</p>
+<h2 id="print-checklist">Print Checklist</h2>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Qty</th>
+<th>Required</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Base - Front</td>
+<td>1</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr>
+<td>Base - Rear</td>
+<td>1</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr>
+<td>Main Body - Front</td>
+<td>1</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr>
+<td>Main Body - Front crossbar</td>
+<td>1</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr>
+<td>Main Body - Rear</td>
+<td>1</td>
+<td>Yes</td>
+<td>Default or Without Fans</td>
+</tr>
+<tr>
+<td>MCU Tray</td>
+<td>1</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr>
+<td>CPU Tray</td>
+<td>1</td>
+<td>Yes</td>
+<td>Cover plate can be used instead</td>
+</tr>
+<tr>
+<td>Display Mount</td>
+<td>1</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr>
+<td>Lid</td>
+<td>1</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr>
+<td>Rear Panel</td>
+<td>1</td>
+<td>Yes</td>
+<td></td>
+</tr>
+<tr>
+<td>40mm fan cages</td>
+<td>2</td>
+<td>Maybe</td>
+<td>Required if using the Default Main Body</td>
+</tr>
+<tr>
+<td>40mm TPU gaskets</td>
+<td>2</td>
+<td>No</td>
+<td></td>
+</tr>
+<tr>
+<td>Lower Bay Trays</td>
+<td>2</td>
+<td>No</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
               
             </article>

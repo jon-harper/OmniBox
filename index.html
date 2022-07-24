@@ -273,6 +273,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#other-improvements" class="md-nav__link">
+    Other Improvements
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -308,10 +315,113 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Supported Parts
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Supported Parts" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Supported Parts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
       <a href="support/" class="md-nav__link">
-        Supported Parts
+        Overview
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="boards/" class="md-nav__link">
+        CPU and MCU Boards
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="displays/" class="md-nav__link">
+        Display Panels
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="panel_mounts/" class="md-nav__link">
+        Panel Mounts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="fans/" class="md-nav__link">
+        Fans
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="lower_bay/" class="md-nav__link">
+        Lower Bay Components
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -421,6 +531,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#other-improvements" class="md-nav__link">
+    Other Improvements
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -447,23 +564,33 @@
   <h1>About</h1>
 
 <p>Welcome to the documentation for the OmniBox, a modular control case for 3D printing.</p>
-<p>This project is conceptually derived from Steve Burcham's <a href="https://www.thingiverse.com/thing:3999751">Stand Alone Main Control Case</a> V3 footprint; it is a unique design with a lower base height and compatibility with newer, larger microcontroller unit (MCU) boards like BIGTREETECH's Octopus. Smaller boards will also fit.</p>
+<p>This project is conceptually derived from Steve Burcham's <a href="https://www.thingiverse.com/thing:3999751">Stand Alone Main Control Case</a> V3 footprint; it is a unique design with a lower height and compatibility with larger microcontroller unit (MCU) boards like BIGTREETECH's Octopus. Smaller boards will also fit.</p>
 <h2 id="quick-links">Quick Links</h2>
 <ul>
 <li><a href="https://github.com/jon-harper/OmniBox">GitHub with STLs</a></li>
+<li><a href="support/">Supported Part List</a></li>
+<li><a href="bom/">Bill of Materials</a></li>
 <li><a href="printing/">Printing Guide</a></li>
 <li><a href="assembly/">Assembly Guide</a></li>
 </ul>
 <h2 id="about-background">About / Background</h2>
 <h3 id="the-requirements">The Requirements</h3>
-<p>Printing Acrylonitrile Butadiene Styrene (ABS) plastic requires the use of an enclosure with filtration, which usually requires lights, fans, and a thermistor. As 24V is the common DC voltage for 3D printers right now, each 12V independantly-controllable or PWM device such as a fan or light strip needs a buck converter. My control cases for these printer/enclosure combos were cramped—the three or more buck converters mounted over the MCU kept me from accessing the wiring underneath.</p>
-<p>Additionally, after multiple Dead-On-Arrival (DOA) and failed BIGTREETECH SKR 2 boards, I urgently had to find another board to settle on. Enter the Octopus, which I had already used on another project.</p>
+<p>Printing Acrylonitrile Butadiene Styrene (ABS) plastic requires the use of an enclosure with filtration. This typically requires connecting additional hardware to a printer's MCU:</p>
+<ul>
+<li>Interior lighting</li>
+<li>Ambient temperature thermistor</li>
+<li>Filtration and exhaust fans</li>
+</ul>
+<p>As 24V is the common DC voltage for 3D printers right now, each 12V independantly-controllable or PWM device such as a fan or light strip needs a buck converter. My control cases for these printer/enclosure combos were cramped—the three or more buck converters mounted over the MCU kept me from accessing the wiring underneath.</p>
+<p>Additionally, after multiple Dead-On-Arrival (DOA) and failed BIGTREETECH SKR 2 boards, I urgently had to find another board to settle on. Enter the Octopus, which I had used to success with another project.</p>
 <h3 id="switching-to-the-octopus">Switching to the Octopus</h3>
-<p>BIGTREETECH's Octopus 1.1 is a solid board that provides ample power sources and signal pins, eliminating my need for buck converters. It also (so far) hasn't blown out any of my equipment or itself and is similarly priced to the SKR 2.</p>
+<p>BIGTREETECH's Octopus 1.1 is a solid board that provides ample power sources and signal pins. This includes six PWM pins with a jumper to change the voltage level from 24V to 12V or 5V, eliminating my need for buck converters. It also (so far) hasn't blown out any of my equipment or itself and is similarly priced to the SKR 2.</p>
 <p>The Octopus will not fit the existing control cases I had already printed; I also had a several improvements in mind for Steve's case concept.</p>
 <h3 id="building-the-omnibox">Building the OmniBox</h3>
-<p>This is my second control case for the Octopus designed around general shape and layout from Steve's V3 case. I kept full compatibility only with the original display screens. Lids should be easy to modify to fit, as they maintain the same overall dimensions (note that the screw holes are M3 now, however). Templates are provided for further customization, including new boards or mounts for solid state relays (SSRs) and MOSFETs.</p>
-<p>Other changes:</p>
+<p>This is my second control case for the Octopus designed around general shape and layout from Steve's V3 case. I kept full compatibility only with the original display screens. Lids should be easy to modify to fit, as they maintain the same overall dimensions (note that the screw holes are M3 now, however).</p>
+<p>Templates are provided for all trays and panels to allow further customization and support for new products.</p>
+<h3 id="other-improvements">Other Improvements</h3>
+<p>These are other changes and improvements present in OmniBox:</p>
 <ul>
 <li>Buck converters, solid state relays (SSRs), and other additional hardware can be mounted below the board instead of above.</li>
 <li>The rear panel is larger and covers most of the base.</li>
