@@ -1,66 +1,45 @@
 ---
-title: Supported Parts
+title: Overview
 summary: A list of parts supported by OmniBox
 authors: Jon Harper
 date: 2022-07-03
 ---
 
-This is a list of boards and other components supported by OmniBox, along with the necessary `STL`. The linked git folders *should* contain `STEP` and Fusion files to allow modification. Please open an issue if any are missing.
+This is an overview of components supported by OmniBox. The linked git folders should contain both an `STL` for printing and a `STEP` to allow modification. Fusion files are also typically available where they can be exported.
 
 ## Trays
 
-### MCU Trays
+### CPU and MCU Trays
 
-These parts are in the [Trays\MCU](https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU) git folder. Each component has its own subfolder.
-
-| Component            | Mounting Tray                           |
-|----------------------|-----------------------------------------|
-| BTT Octopus          | `BTT Octopus`                           |
-| BTT SKR 1.3+         | `BTT SKR`                               |
-| BTT SKR Mini E3      | `BTT SKR E3`                            |
-| Creality boards      | `BTT SKR E3`                            |
-
-### CPU Trays
-
-These parts are in the [Trays\CPU](https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU) git folder.
-
-| Component            | `STL`                        |
-|----------------------|------------------------------|
-| Raspberry Pi 3B+     | `CPU Tray - RPi 3B Plus.stl` |
-| Raspberry Pi 4B      | `CPU Tray - RPi 4B.stl`      |
+See [CPU and MCU Boards][2] for a list of boards with existing trays.
 
 ### Lower Bay Trays
 
-The files for these trays are stored in the [Trays\Lower Bay](https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay) git folder.
+OmniBox has a lower bay for mounting parts such as buck converters and solid state elays (SSRs). Some trays mount multiple parts or an added 40mm fan.
 
-Some trays include space for 40x40x10mm fans. This is specified in the file name.
+See [Lower Bay Components][4] for a complete list of parts with trays available.
 
-| Component | `STL` | Note |
-|-----------|-----|------|
-| Generic LM2596 | `Lower Bay Tray - 40mm Fan and Two Bucks v2.stl` | Typical current limit of 2.5A max. |
-| [DROK LM2596 with LED](https://www.amazon.com/Converter-DROK-Transformer-Regulator-Stabilizer/dp/B00JUFJ1GA) | `Lower Bay Tray - LM2596 with LED.stl` | Current limit is 3A max, 2A continuous. |
+## Display Screen Panels
 
-## Panels
+[Display Panels][3] are used for LCD displays. Note that these are not the same as Raspberry Pi screens.
 
-### Display Screen Panels
+## Front and Rear Panels
 
-Each display screen has a subfolder in the [Panels/Display](https://github.com/jon-harper/OmniBox/tree/main/Panels/Display) git folder. There is an optional `STL` for a [display knob](https://github.com/jon-harper/OmniBox/blob/main/Panels/Display/Display%20Knob.stl), as well.
+These panels are typically used for [panel mounted connectors and extensions](panel_mounts.md).
 
-| Component            | Folder | Notes |
-|----------------------|--------|-------|
-| Creality 12864 Stock | [Generic 12864](https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Generic%2012864) | Also known as CR-10 stock display. Ender 3 V2 display not supported. |
-| FYSETC Mini 12864    | [Mini 12864](https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Mini%2012864) | This includes BTT and other clones. |
-| BTT 2.4" TFT         | [BTT 2.4 TFT](https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%202.4%20TFT) | This product is discontinued, but I still use it, so there's a part. |
-| BTT 3.5" TFT         | [BTT 3.5 TFT](https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%203.5%20TFT) | |
+Generic rear panels are available with cutouts to pass wiring directly without using connectors.
 
+## Fans
 
-### Front and Rear Panels
+An assortment of fans are supported and include cages and optional TPU shims. See the [Fans][5] page for a full list.
 
-Both of these components are highly customizable, so this list may be incomplete.
+The front and rear main bodies come in versions with and without fans. The rear panel and lid can also be used for mounting fans.
 
-| Part or Connector | Panel Location | Notes |
-|-------------------|----------------|-------|
-| [MicroSD panel mount extension](https://www.amazon.com/gp/product/B07YYSP5F5) | Front | |
-| [USB C panel mount extension](https://www.amazon.com/gp/product/B086W7C58P) | Front or Rear | |
-| [JST SM panel mount connectors](https://www.amazon.com/gp/product/B07D9HRDT6) | Rear | 2-5 pins |
-| Molex Micro Fit 3.0 connectors | Rear | Currently only supported in the [2-pin, 2-row](https://www.digikey.com/en/products/detail/molex/0430200200/252490) configuration. |
+See the [Printing Guide][6] to help choose the best configuration for your available parts.
+
+[1]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel
+[2]: boards.md
+[3]: displays.md
+[4]: lower_bay.md
+[5]: fans.md
+[6]: printing.md
