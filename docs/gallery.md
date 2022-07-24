@@ -9,6 +9,8 @@ date: 2022-07-02
 ## V0.9.7 Release
 | Renders               |   |
 |-----------------------|---|
+| Fit testing, side view | [![fit testing as seen from the right side][26]][26]
+| Fit testing, rear view | [![fit testing as seen from the rear][27]][27]
 | Profile view with 3.5" TFT | [![view from the front left][24]][24] |
 | New 60mm intake fan   | [![view of front with intake fan on side visible][25]][25]
 | Generic rear panel with 60mm fan cutout | [![generic rear panel view with fan hole visible][22]][22] |
@@ -79,3 +81,5 @@ date: 2022-07-02
 [23]: img/gallery_0.9.7/rear_60mm_fan.png
 [24]: img/gallery_0.9.7/profile_view.png
 [25]: img/gallery_0.9.7/front_60mm_fan.png
+[26]: img/gallery_0.9.7/fit_test_side.jpg
+[27]: img/gallery_0.9.7/fit_test_rear.jpg
