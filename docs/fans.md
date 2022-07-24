@@ -5,12 +5,9 @@ authors: Jon Harper
 date: 2022-07-03
 ---
 
-This is a list of all fans that are supported anywhere on OmniBox.
+This is a list of all fans that are supported anywhere on OmniBox. An assortment of gaskets and cover cages are available in the [Fan Cages][6] git folder.
 
-Some trays include space for 40mm fans. This is specified in the file name. An assortment of shims and cages are available in the [Fan Cages][6] git folder.
-
-!!! note
-    The rear main body supports two 40mm exhaust fans. The front main body has a version that mounts a single 60mm fan. Other fans are typically mounted on the rear panel or lid.
+The rear main body supports two 40mm exhaust fans. The front main body has a version that mounts a single 60mm fan. Other fans are typically mounted on the rear panel or lid. Some lower bay trays also mount 40mm fans,
 
 | Description | Image | Product Link | Notes |
 |---|---|---|---|
