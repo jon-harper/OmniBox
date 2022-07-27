@@ -30,36 +30,4 @@ There are no affiliate links used on this site.
 
 ## Optional Components
 
-The components below depend upon your configuration and only fit with certain parts.
-
-!!! note
-    - See the [Lower Bay supported parts](support.md) for more.
-    - Solid state relays for controlling AC heated beds or external MOSFETs are meant to be located in the lower bay, as well.
-
-| Item                              | Qty | UOM |Note |
-|-----------------------------------|-----|-----|-----|
-| SoC CPU (e.g., Raspberry Pi)      | 1   | ea  | See the [Supported Parts](support.md) list.  |
-| [USB C panel mount extension cable](https://www.amazon.com/gp/product/B086W7C58P/) | 1 | ea | Not needed if using UART with Klipper; any brand should work. |
-| [MicroSD to MicroSD extension cable](https://www.amazon.com/LANMU-Extension-Flexible-Monoprice-Raspberry/dp/B01D9JIUU0) | 1 | ea | Most commonly associated with LANMU brand on Amazon |
-| [LM2596 buck converters](https://www.amazon.com/Regulator-Adjustable-Converter-Electronic-Stabilizer/dp/B07PDGG84B/) | (varies) | ea | |
-| [LM2596 buck converters with digital display](https://www.amazon.com/gp/product/B07N3QT628) | (varies) | ea | |
- 
-## Connectors
-
-Only the IEC power connector is included in the Bill of Materials. The rear panel is meant to be customized by the end user, although you can still use one of the stock panels in the [`Rear Panel`](https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel) folder.
-
-The two stock rear panel `.STL`s use JST SM connectors for everything but the hotend, which uses a 2-pin, 2-row [Molex Micro Fit 3.0](https://www.digikey.com/en/product-highlight/m/molex-connector/micro-fit-3-interconnect-system) panel mount connector.
-
-### Hotend Connectors
-
-These 2-pin, 2-row connectors can be found at Digikey:
-
-- [Connector](https://www.digikey.com/en/products/detail/molex/0430200200/252490)
-- [Pins](https://www.digikey.com/en/products/detail/molex/0430310009/252485)
-
-!!! note
-    These connectors have flaps on the side for panel mounting. The more commonly available part on Amazon is not compatible.
-
-### JST SM Connector Kits
-
-JST SM connectors kits are on [Amazon for about $15](https://www.amazon.com/gp/product/B07D9HRDT6).
+See the [Supported Parts Overview](support.md) for a full list of parts and mounting locations.
