@@ -19,7 +19,8 @@ There are no affiliate links used on this site.
 | M3 x 12mm machine screws          | 8   | ea	|                                                          |
 | M3 x 16mm machine screws          | 2   | ea  |                                                          |
 | [#6 x 3/4" sharp point wood screws](https://www.amazon.com/gp/product/B08LV4D8SB) | 8   | ea  | Or M3 x 20mm; may also use machine screws |
-| M4 x 8mm machine screws           | 14  | ea  |                                                          |
+| M4 x 6mm machine screws           | 4   | ea  |                                                          |
+| M4 x 8mm machine screws           | 10  | ea  |                                                          |
 | M4 x 16mm machine screws          | 4   | ea  |                                                          |
 | [SPST toggle switch](https://www.amazon.com/gp/product/B07QQ22DTB) | 1   | ea  | Identical profile to Creality Ender power switch |
 | [Meanwell-type PSU](https://www.amazon.com/MEAN-WELL-LRS-350-24-350-4W-Switchable/dp/B013ETVO12) | 1   | ea  | Meanwell-type refers to mounting pattern (M4, 150mm x 50mm); compatible with most Ender-series PSUs |

@@ -30,7 +30,7 @@ You will need:
 - 6x M3 x 8 screws (8-12mm will work)
 - 8x #6 x 3/4" screws (see note below)
 - 2x M3 x 16mm screws
-- 4x M4 x 8mm screws (see caution below)
+- 4x M4 x 6mm screws (see caution below)
 - The printed front and rear main body
 - The printed front crossbar
 - Your power supply unit (PSU)
@@ -39,7 +39,7 @@ You will need:
     The main body and base with can be attached more easily with sharp point wood screws than machine screws. For this you can use #6 x 3/4" screws (SAE) or M3 x 20mm (metric) screws found at any hardware store. If these are not convenient or available, machine screws will work in their place.
     
 !!! caution
-    Do not use screws longer than 8mm to attach the power supply. Longer screws may touch components in the power supply and short or damage them.
+    Do not use screws longer than 6mm to attach the power supply. Longer screws may touch components in the power supply and short or damage them.
 
 | Step | Example |
 |------|---------|
