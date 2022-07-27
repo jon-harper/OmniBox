@@ -4,7 +4,7 @@ This rear panel is made for the Ender 5 Plus. Any printer that has a high-mounte
 
 ## Features
 
-- 80mm fan mounted low to cool the large power supply and MOSFET in the lower bay.
+- 80mm exhaust fan mounted low to cool the large power supply and MOSFET in the lower bay.
 - High wire exit position for the Ender 5's raised print level.
 
 ## Bill of Materials
