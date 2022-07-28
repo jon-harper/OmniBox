@@ -12,7 +12,7 @@ FILE_NAME(
 /* name */ 
 'C:/Users/jon/Documents/3D Print/Control Cases/OmniBox/Trays/MCU/MCU T
 ray - Blank.step',
-/* time_stamp */ '2022-07-27T23:00:58-05:00',
+/* time_stamp */ '2022-07-28T10:39:57-05:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v19',
@@ -532,16 +532,16 @@ SOLID_ANGLE_UNIT()
 #477=PRODUCT_DEFINITION_SHAPE('',$,#480);
 #478=SHAPE_REPRESENTATION('',(#296),#470);
 #479=PRODUCT_DEFINITION_CONTEXT('part definition',#484,'design');
-#480=PRODUCT_DEFINITION('MCU Tray - Blank','MCU Tray - Blank v4',#481,#479);
+#480=PRODUCT_DEFINITION('MCU Tray - Blank','MCU Tray - Blank v5',#481,#479);
 #481=PRODUCT_DEFINITION_FORMATION('',$,#486);
-#482=PRODUCT_RELATED_PRODUCT_CATEGORY('MCU Tray - Blank v4',
-'MCU Tray - Blank v4',(#486));
+#482=PRODUCT_RELATED_PRODUCT_CATEGORY('MCU Tray - Blank v5',
+'MCU Tray - Blank v5',(#486));
 #483=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#484);
 #484=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #485=PRODUCT_CONTEXT('part definition',#484,'mechanical');
-#486=PRODUCT('MCU Tray - Blank','MCU Tray - Blank v4',$,(#485));
+#486=PRODUCT('MCU Tray - Blank','MCU Tray - Blank v5',$,(#485));
 #487=PRESENTATION_STYLE_ASSIGNMENT((#488));
 #488=SURFACE_STYLE_USAGE(.BOTH.,#489);
 #489=SURFACE_SIDE_STYLE('',(#490));

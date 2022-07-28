@@ -10,4 +10,4 @@ See the [Lower Bay Accessories][1] page for product images and links.
 
 - 1-2x "HiLetgo"-style buck converter with LEDs
 
-[1]: https://jon-harper.github.io/OmniBox/all_parts/
+[1]: https://jon-harper.github.io/OmniBox/lower_bay/
