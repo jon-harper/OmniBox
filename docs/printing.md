@@ -5,100 +5,131 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
+This page has commonly used settings for printing OmniBox and a guide to choosing which files to print. There is a printed part checklist at the end.
+
 ## Print Settings
 
 These settings are consistent for all parts.
 
 | Setting            | Value       | Note |
 |--------------------|-------------|------|
-| Layer Height       | 0.2-0.24mm  | I would not recommend going finer; I have not tried 0.28 or coarser. |
-| Perimeters (Walls) | 3           | Walls should be at least 1.2mm thick or screws will not grab well. |
-| Infill             | 20-25%      | Cubic is generally a good choice. |
-| Material           | PLA or PLA+ | PETG is somewhat brittle and will take longer to print. |
+| Layer Height       | 0.2-0.24mm  | Adaptive layer heights can be used. Coarser settings have not been tested. |
+| Perimeters (Walls) | 3           | Walls should be at least 1.2mm thick. |
+| Infill             | 20-25%      | Cubic is a good tradeoff of time and durability. |
+| Material           | PLA or PLA+ | PETG is somewhat brittle and may take longer to print on many printers. |
 | Nozzle Diameter    | 0.4mm       | 0.6mm should also work. If you print a case with a different nozzle size, please share your results! |
 
-## Components
+## Core Components
 
-### Core Parts
+Core components form the basis of every electronics case. They can be found in the [`Core`][14] folder in the GitHub repository.
 
-These parts form the basis of every control case and can be found in the [`Core`][14] folder in the GitHub repository.
+There are three (3) universal Core parts and two (2) that have variations.
 
-You will need to print the following:
+### Universal Core Parts
 
-- 1x [Base - Front][1]
-- 1x [Base - Rear][2]
-- 1x [Main Body - Front][3]
-- 1x [Main Body - Front crossbar][5]
+These parts are required. They do not have variations.
 
-### Rear Main Body
+| Part                  | Printed Qty | STL      |
+|-----------------------|-------------|----------|
+| Base - Front          | 1           | [STL][1] |
+| Base - Rear           | 1           | [STL][2] |
+| Main Body - Crossbar  | 1           | [STL][3] |
 
-The rear main body is part of the [`Core`][14] parts, but comes in two versions. The default has two 40mm fan cutouts with optional TPU gaskets.
+### Core Parts with Variants
 
-Alternatively, there is a rear main body that lacks fan cutouts. *Only* use the rear body without fans if you are using a rear panel that mounts a 60mm or larger fan.
+Your power supply (PSU) will mount underneath the main body. The [`Core`][14] folder has one subfolder for each supported PSU.
 
-You will need to print one of the following two lists:
+In the next two sections, you will choose a front main body file and rear main body file. Use the files from the folder that matches your PSU model.
 
-**Default**:
+| Supported PSU Folder   | Commonly Found In | Notes |
+|------------------------|-----------|-------|
+| [Mean Well LRS-350][4] | Creality Ender 3, Ender 5 Pro, many others | Landy LRS-350 PSUs are compatible. |
+| [Mean Well RSP-500][5] | Creality Ender 5 Plus | |
 
-- 1x [Main Body - Rear][4]
-- 2x [40mm fan cages][6]
-- (Optional) 2x [40mm TPU gaskets][16]
+#### Front Main Body
 
-**Without Fans**
+The front main body comes in two variations to choose from. Print only one (1) version.
 
-- 1x [Main Body - Rear No Fans][17]
+If you print the version with a 60mm intake fan, you will need to print the appropriate [fan cage][6] and (optionally) a TPU gasket.
 
-### Customizable Parts
+| Variation                                | Description |
+|------------------------------------------|-------------|
+| `Main Body - Front No Fans.stl`          | The default version of the case with intake vents. |
+| `Main Body - Front with 60mm Intake.stl` | Mounts a 60mm intake fan. |
 
-The list below link to repository folders. You will need to choose the right `.STL` based on your configuration and preferences. Each folder has a `readme.md` with help choosing the right file and any attribution.
+#### Rear Main Body
 
-- Trays:
-    - 1x [MCU][7]
-    - 1x [CPU][8]
-    - (Optional) 2x [Lower bay trays][13] for buck converters, SSRs, etc.
-- Panels:
-    - 1x [Display mount][9]
-    - 1x [Lid][10]
-    - 1x [Rear panel][11] (*see below*)
-    - 1x [Front panel][12]
+The rear main body also has two variations. If you print the default version that mounts 40mm fans, you will also need to print two (2) [fan cages][6] and (optionally) TPU gaskets.
+
+| Variation                                 | Description |
+|-------------------------------------------|-------------|
+| `Main Body - Rear with 40mm Exhausts.stl` | The default version with two 40mm fan exhausts. |
+| `Main Body - Rear No Fans.stl`            | Optional version. Requires exhaust fan(s) on rear panel or lid. |
+
+## Customizable Parts
+
+The list below link to folders. You will need to choose the right `.STL` based on your configuration and preferences. Each folder has a `readme.md` with help choosing the right file and any attribution credits.
+
+| Trays           | Qty     | Folder Link | Notes     |
+|-----------------|---------|-------------|-----------|
+| MCU             | 1       | [Link][7]   |           |
+| CPU             | 1       | [Link][8]   |           |
+| Lower bay trays | Up to 4 | [Link][14]  | Optional. |
+
+| Panels        | Qty | Folder Link | Notes |
+|---------------|-----|-------------|-------|
+| Display Mount | 1   | [Link][9]   |       |
+| Front Panel   | 1   | [Link][12]  |       |
+| Lid           | 1-2 | [Link][10]  | See directions below. |
+| Rear Panel    | 1   | [Link][11]  | See directions below. |
+
 
 !!! note
     Templates in `STEP` format are provided for most of the case to allow customization as needed. Where possible, a Fusion archive file is also provided.
 
-### Rear Panel Configuration
+### Lids
 
-This is a very user-specific panel and the most customizable part of the case. The [`Rear Panel`][11] has multiple subfolders.
+There are two types of lids: full-length and half-length lids. You can either print one (1) full-length lid or two (2) half-length lids.
 
-- Most users will want to use a `Generic` panel. These have large holes for passing wires through and come in a number of common variations.
-- The `Molex` folder contains files for preconfigured rear panels that mount Molex Micro Fit 3 connectors. Wiring diagrams for each panel are included.
-- The `Template` folder contains a Fusion template with profiles for panel mounted connectors and fans. Users who want to create their own panel should start here.
+### Rear Panels
+
+This is a user-specific panel with plenty of options, including making your own. The [`Rear Panel`][11] folder has multiple subfolders.
+
+| Folder           | Description | Use If... |
+|------------------|-------------|-----------|
+| [`Generic`][15]  | These have large holes for passing wires through and come in a number of common variations. | ...You want a simple, off-the-shelf solution and there is not a custom panel that suits. |
+| [`Custom`][16]   | Designed for users of common printer configurations. | ...Your printer has a configuration available. |
+| [`Molex`][17]    | Use Molex Micro Fit 3 panel mounted connectors. Wiring diagrams for each panel are included. | ...You plan to create a wiring harness for an enclosed printer. |
+| [`Template`][18] | A Fusion template with profiles for panel mounted connectors and fans. | ...You want to create your own panel. |
 
 A more detailed guide to choosing a rear panel can be found in the [`Rear Panel`][11] README file.
 
 ## Print Checklist
 
-| Part                       | Qty | Required  | Notes |
-|----------------------------|-----|-----------|-------|
-| Base - Front               | 1   | Yes       |       |
-| Base - Rear                | 1   | Yes       |       |
-| Main Body - Front          | 1   | Yes       |       |
-| Main Body - Front crossbar | 1   | Yes       |       |
-| Main Body - Rear           | 1   | Yes       | Default or Without Fans |
-| MCU Tray                   | 1   | Yes       |       |
-| CPU Tray                   | 1   | Yes       | Cover plate can be used instead |
-| Display Mount              | 1   | Yes       |       |
-| Lid                        | 1   | Yes       |       |
-| Rear Panel                 | 1   | Yes
-| 40mm fan cages             | 2   | Maybe     | Required if using the Default Main Body |
-| 40mm TPU gaskets           | 2   | No        |       |
-| Lower Bay Trays            | 2   | No        |       |
+
+| Part                  | Printed Qty | Required | Notes |
+|-----------------------|-------------|----------|-------|
+| Base - Front          | 1           | [STL][1] | |
+| Base - Rear           | 1           | [STL][2] | |
+| Main Body - Crossbar  | 1           | [STL][3] | |
+| Main Body - Front     | 1          | Yes       | With or Without Fans |
+| Main Body - Rear      | 1          | Yes       | With or Without Fans |
+| MCU Tray              | 1          | Yes       |       |
+| CPU Tray              | 1          | Yes       | Cover plate can be used instead |
+| Display Mount         | 1          | Yes       |       |
+| Lid                   | 1-2        | Yes       | One full-length or two half-length |
+| Rear Panel            | 1          | Yes       |       |
+| Lower Bay Trays       | 1-4        | No        | Specific to configuration. |
+| Fan Cages             | (varies)   | Yes       | Quantity and size depend on configuration. |
+| Fan Gaskets           | (varies)   | No        | Optional; quantity and size depend on configuration. |
+
 
 [1]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl
 [2]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear.stl
-[3]: https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Front.stl
-[4]: https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Rear.stl
-[5]: https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Front%20Crossbar.stl
-[6]: https://github.com/jon-harper/OmniBox/blob/main/Core/40mm%20Fan%20Cage.stl
+[3]: https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Crossbar.stl
+[4]: https://github.com/jon-harper/OmniBox/tree/main/Core/Mean%20Well%20LRS-350
+[5]: https://github.com/jon-harper/OmniBox/tree/main/Core/Mean%20Well%20RSP-500
+[6]: https://github.com/jon-harper/OmniBox/tree/main/Fan%20Cages
 [7]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU
 [8]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU
 [9]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display
@@ -107,6 +138,7 @@ A more detailed guide to choosing a rear panel can be found in the [`Rear Panel`
 [12]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel
 [13]: https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay
 [14]: https://github.com/jon-harper/OmniBox/tree/main/Core/
-[15]: https://github.com/jon-harper/OmniBox/blob/main/Panels/Rear%20Panel/Rear%20Panel%20-%20Enclosed%20Ender.stl
-[16]: https://github.com/jon-harper/OmniBox/blob/main/Panels/Rear%20Panel/40mm%20TPU%20Fan%20Gasket.stl 
-[17]: https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Rear%20No%20Fans.stl
+[15]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Generic
+[16]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Custom
+[17]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Molex
+[18]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Template
