@@ -7,6 +7,10 @@ date: 2022-07-22
 
 Some components can only be mounted on lower bay trays. Parts compatible with the lower bay are listed here. The files for the tray variations are stored in the [Trays\Lower Bay][5] git folder.
 
+Additionally, trays come in two lengths: small and large. A large tray covers the mount points of two small trays and must be mounted from front to back of the case.
+
+![a small tray on the left and a large tray on right](img/examples/lower_bay_trays.png)
+
 ## Buck Converters
 
 | Description | Image | Product Link | Notes |
@@ -19,7 +23,7 @@ Some components can only be mounted on lower bay trays. Parts compatible with th
 
 | Description | Image | Product Link | Notes |
 |---|---|---|---|
-| Creality MOSFET | ![img](img/parts/mosfet_creality.jpeg) | [Example][4] | A mounting tray for this part is still in testing. |
+| Creality MOSFET | ![img](img/parts/mosfet_creality.jpeg) | [Example][4] | |
 
 
 [1]: https://www.amazon.com/Valefod-Efficiency-Voltage-Regulator-Converter/dp/B076H3XHXP

@@ -19,7 +19,8 @@ There are no affiliate links used on this site.
 | M3 x 16mm machine screws               | 2   | ea  |                                                          |
 | [#6 x 3/4" sharp point wood screws][1] | 8   | ea  | Or M3 x 20mm; may also use machine screws                |
 | M4 x 6mm machine screws                | 4   | ea  |                                                          |
-| M4 x 8mm machine screws                | 12  | ea  |                                                          |
+| M4 x 8mm machine screws                | 8   | ea  |                                                          |
+| M4 x 12mm machine screws               | 4   | ea  |                                                          |
 | M4 x 16mm machine screws               | 4   | ea  |                                                          |
 | [SPST toggle switch][2]                | 1   | ea  | Identical profile to Creality Ender power switch         |
 | MCU (3D printer control board)         | 1   | ea  | See the [Supported Parts](support.md) list.              |

@@ -9,11 +9,13 @@ This page lists CPUs and MCUs that are currently compatible with OmniBox.
 
 Each component name links to the corresponding git folder.
 
-## CPU Trays
+## SoC CPU Boards
 
-These parts are in the [Trays/CPU][15] git folder. Each component has its own subfolder.
+![render of a Raspberry Pi on a tray](img/examples/cpu.png)
 
-Currently, SoC CPUs other than the Raspberry Pi are not yet supported.
+These parts are in the [Trays/CPU][15] git folder. Each component has its own subfolder. Currently, SoC CPUs other than the Raspberry Pi are not yet supported.
+
+If you do not use a CPU board, a [blank slot cover][6] can be used.
 
 | Component             | Image |
 |-----------------------|-------|
@@ -22,9 +24,11 @@ Currently, SoC CPUs other than the Raspberry Pi are not yet supported.
 
 ## MCU Boards
 
+![render of a BTT Octopus on a tray](img/examples/mcu.png)
+
 These parts are in the [Trays/MCU][16] git folder. Each component has its own subfolder. There are `STEP` and Fusion template files available for adding support for other boards.
 
-| Component             | Versions | Image |
+| Component             | Supported Versions | Image |
 |-----------------------|----------|-------|
 | [BTT Octopus][3]      | All      | ![img](img/parts/btt_octopus_1.jpg) |
 | [BTT SKR][4]          | 1.3+     | ![img](img/parts/btt_skr_2.jpg) |
@@ -37,5 +41,6 @@ These parts are in the [Trays/MCU][16] git folder. Each component has its own su
 [3]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20Octopus
 [4]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR
 [5]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR%20E3
+[6]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/Unused%20Tray%20Cover
 [15]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU
-[16]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MC
+[16]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU

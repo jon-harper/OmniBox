@@ -16,7 +16,8 @@ The rear main body supports two 40mm exhaust fans. The front main body has a ver
 | 60x60x15mm Axial Fan | ![img](img/parts/fan_6015.jpg) | [Example][3] | |
 | 60x60x20mm Axial Fan | ![img](img/parts/fan_6020.jpg) | [Example][4] | |
 | 60x60x25mm Axial Fan | ![img](img/parts/fan_6025.jpg) | [Example][7] | |
-| 80mm Axial Fan | ![img](img/parts/fan_8025.jpg) | [Example][5] | A profile exists for 80mm fans but there are not any premade panels that use them. |
+| 80x80x20mm Axial Fan | ![img](img/parts/fan_8020.jpg) | [Example][8] | |
+| 80x80x25mm Axial Fan | ![img](img/parts/fan_8025.jpg) | [Example][5] | |
 
 [1]: https://www.amazon.com/WINSINN-Ender-Upgrade-Bearing-CR-10S/dp/B08R9JRTCT/
 [2]: https://www.amazon.com/Wathai-40x40x20mm-40mm-Burshless-Cooling/dp/B07PYWVPMY
@@ -25,3 +26,4 @@ The rear main body supports two 40mm exhaust fans. The front main body has a ver
 [5]: https://www.amazon.com/Security-01-Bearing-Brushless-Cooling-AV-F8025MB/dp/B071WLX5JZ
 [6]: https://github.com/jon-harper/OmniBox/Fan%20Cages
 [7]: https://www.amazon.com/Wathai-60mm-25mm-Brushless-Cooling/dp/B07Q2JWNFX
+[8]: https://www.amazon.com/GDSTIME-Brushless-Cooling-Sleeve-Bearing/dp/B07MDYBSGR

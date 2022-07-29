@@ -146,7 +146,7 @@ You will need:
 You will need:
 
 - 4x M3 x 6mm screws
-- 4x M4 x 8mm screws
+- 4x M4 x 12mm screws
 - Your printed display mount
 - Your display
 
@@ -159,7 +159,7 @@ You will need:
 | Slide the screen into place on the mount and fasten with four (4) M3 x 6mm screws. | [![attach the screen](img/display_screen.jpg)](img/display_screen.jpg) |
 | Re-attach the knob to the display screen. Again, it should slide into place with light force. If your display mount has multiple pieces, attach those now (usually only applies to displays with side-mount SD card readers). | |
 | Attach the display connectors and slide the cables in before the display. | [![position display](img/display_connectors.jpg)](img/display_connectors.jpg) |
-| Attach the display panel with two (2) M4 x 8mm screws on opposings sides. Avoid overtightening. | [![first two screws](img/display_screws1.jpg)](img/display_screws1.jpg) |
+| Attach the display panel with two (2) M4 x 12mm screws on opposings sides. Avoid overtightening. | [![first two screws](img/display_screws1.jpg)](img/display_screws1.jpg) |
 | The angle of the display may require inserting the remaining two (2) screws at an angle. You may also need to back out the first screws slightly and angle them as well. This is an artifact of the display angle. | [![second set of screws](img/display_screws2.jpg)](img/display_screws2.jpg) |
 
 
