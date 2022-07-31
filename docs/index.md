@@ -1,5 +1,5 @@
 ---
-title: About
+title: About OmniBox
 summary: OmniBox documentation landing page
 authors: Jon Harper
 date: 2022-05-15
@@ -7,7 +7,7 @@ date: 2022-05-15
 
 Welcome to the documentation for the OmniBox, a modular electronics case for 3D printing.
 
-This project is conceptually derived from Steve Burcham's [Stand Alone Main Control Case](https://www.thingiverse.com/thing:3999751) V3 footprint; it is a unique design with a lower height and compatibility with larger microcontroller unit (MCU) boards like BIGTREETECH's Octopus. Smaller boards will also fit.
+This project is derived from the Steve Burcham's [Stand Alone Main Control Case](https://www.thingiverse.com/thing:3999751) V3 footprint; it is a unique design with a lower height and compatibility with larger microcontroller unit (MCU) boards like BIGTREETECH's Octopus. Smaller boards will also fit and the case is compatible with a wide range of parts.
 
 ## Quick Links
 

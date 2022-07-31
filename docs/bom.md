@@ -16,7 +16,8 @@ There are no affiliate links used on this site.
 | PLA or PLA+ filament                   | 2   | kg  | May be printable in 1kg if using a single color          |
 | M3 x 6mm machine screws                | 12  | ea  |                                                          |
 | M3 x 8mm machine screws                | 20  | ea  |                                                          |
-| M3 x 16mm machine screws               | 2   | ea  |                                                          |
+| M3 x 16mm machine screws               | 4   | ea  |                                                          |
+| M3 hex nuts                            | 2   | ea  |                                                          |
 | [#6 x 3/4" sharp point wood screws][1] | 8   | ea  | Or M3 x 20mm; may also use machine screws                |
 | M4 x 6mm machine screws                | 4   | ea  |                                                          |
 | M4 x 8mm machine screws                | 8   | ea  |                                                          |
@@ -53,7 +54,7 @@ These parts are additionally necessary for certain Core configurations.
 | Item                              | Qty | UOM | Note                                                     |
 |-----------------------------------|-----|-----|----------------------------------------------------------|
 | [40x40x10mm axial fans][6]        | 2   | ea  | May also use 20mm thick fans; this is not recommended due to noise. |
-| M3 x 16mm machine screws          | 8   | ea	| Use 25mm screws for 20mm fans.                           |
+| M3 x 20mm machine screws          | 8   | ea	| Use 30mm screws for 20mm fans.                           |
 
 ## Optional Components
 

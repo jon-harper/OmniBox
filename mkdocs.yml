@@ -23,5 +23,9 @@ nav:
     - lower_bay.md
   - bom.md
   - printing.md
-  - assembly.md
+  - Assembly:
+    - assembly/index.md
+    - assembly/core.md
+    - assembly/trays.md
+    - assembly/panels.md
   
