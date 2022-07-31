@@ -13,17 +13,18 @@ Additionally, trays come in two lengths: small and large. A large tray covers th
 
 ## Buck Converters
 
-| Description | Image | Product Link | Notes |
-|----|---|---|---|
-| Basic LM2596 Buck Converter | ![img](img/parts/lm2596.jpg) | [Example][1] | |
-| "DROK" LM2596 with LED       | ![img](img/parts/lm2596_led.jpg) | [Example][2] | Mounting holes: 60.5mm x 30.5mm |
-| "HiLetgo" LM2596 with LED | ![img](img/parts/lm2596_led_2.jpg) | [Example][3] | Mounting holes: 49.5mm x 27.5mm |
+| Description | Image | Product Link | Tray Sizes | Notes |
+|----|---|---|---|---|
+| Basic LM2596 Buck Converter | ![img](img/parts/lm2596.jpg) | [Example][1] | Full (dual) |
+| "DROK" LM2596 with LED       | ![img](img/parts/lm2596_led.jpg) | [Example][2] | Half (single), Full (dual) | Mounting holes: 60.5mm x 30.5mm |
+| "HiLetgo" LM2596 with LED | ![img](img/parts/lm2596_led_2.jpg) | [Example][3] | Half (single), Full (dual) | Mounting holes: 49.5mm x 27.5mm |
+| "DROK" 5A Buck with LED | ![img](img/parts/buck_5a_drok.jpg) | [Example][6] | Full (single) | Mounting Holes: 63mm x 40.5mm |
 
 ## MOSFETs
 
-| Description | Image | Product Link | Notes |
-|---|---|---|---|
-| Creality MOSFET | ![img](img/parts/mosfet_creality.jpeg) | [Example][4] | |
+| Description | Image | Product Link | Tray Sizes | Notes |
+|---|---|---|---|---|
+| Creality MOSFET | ![img](img/parts/mosfet_creality.jpeg) | [Example][4] |  Half (single), Full (single) | |
 
 
 [1]: https://www.amazon.com/Valefod-Efficiency-Voltage-Regulator-Converter/dp/B076H3XHXP
@@ -31,3 +32,4 @@ Additionally, trays come in two lengths: small and large. A large tray covers th
 [3]: https://www.amazon.com/HiLetgo-Step-down-Converter-1-25-37V-Voltmeter/dp/B00LSEBYHU/
 [4]: https://www.tinymachines3d.com/products/crmfet
 [5]: https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay
+[6]: https://www.amazon.com/DROK-Adjustable-Converter-Transformer-Protective/dp/B07JZ2GQJF
