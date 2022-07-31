@@ -13,22 +13,22 @@ If you are using a SoC CPU, you will need:
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
+| SoC CPU                   | 1   | Here we use a Raspberry Pi 3B+  |
+| Printed CPU tray          | 1   | [CPU Tray - RPi 3B Plus.stl][1] |
 | M3 x 6mm screws           | 4   |                                 |
 | M3 x 8mm screws           | 4   |                                 |
-| Compatible CPU            | 1   | Here we use a Raspberry Pi 3B+  |
-| Printed CPU tray          | 1   | [CPU Tray - RPi 3B Plus.stl][1] |
 
 Otherwise, you will need:
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
-| M3 x 8mm screws           | 4   |                                 |
 | Unused CPU tray cover     | 1   | [Unused CPU Tray Cover.stl][2]  |
+| M3 x 8mm screws           | 4   |                                 |
 
 Notes:
 
 !!! note
-    The instructions below are for installing with a CPU. Skip to the last step for the unused CPU tray cover.
+    The instructions below are for installing with a CPU. Skip the first step for the unused CPU tray cover.
 
 !!! note
     The Raspberry Pi comes with M2.5 screw holes, but can be bored out easily with M3 screws.
@@ -41,20 +41,26 @@ Notes:
 
 ## 2. Lower Bay
 
-Lower bay trays are specific to each configuration. You may need several trays or none at all. In the example below, we demonstrate mounting a tray with a DROK 5A buck converter.
+Lower bay trays are specific to each configuration. You may need several trays or none at all. In the example below, we demonstrate mounting a full-length tray with a DROK 5 amp buck converter.
 
 You will need:
 
-| Parts                     | Qty | Note                            |
-|---------------------------|-----|---------------------------------|
-| M3 x 8mm screws           | 4   |                                 |
-| M3 x 6mm screws           | 2-4 | Can use any length up to 12mm for this tray. |
-| DROK 5A Buck Converter    | 1   |                                 |
-| Printed lower bay tray    | 1   | [Lower Bay - DROK 5A Buck with LED.stl][3] |
+| Parts                     | Qty | Note                                                |
+|---------------------------|-----|-----------------------------------------------------|
+| Printed lower bay tray    | 1   |                                                     |
+| M3 x 8mm screws           | 4   | All lower bay trays mount with four (4) of these.   |
+
+For this example, we also use:
+
+| Parts                                      | Qty | Note                                           |
+|--------------------------------------------|-----|------------------------------------------------|
+| [DROK 5A Buck Converter][13]               | 1   |                                                |
+| [Lower Bay - DROK 5A Buck with LED.stl][3] | 1   | Full-length lower bay tray example.            |
+| M3 x 6mm screws                            | 2-4 | Can use any length up to 12mm for this tray.   |
 
 | Step | Example |
 |------|---------|
-| Attach your component to the tray using at least two (2) M3 x 6mm screws | [![buck converter attached to tray][8]][8] |
+| Attach the buck converter to the tray using at least two (2) M3 x 6mm screws | [![buck converter attached to tray][8]][8] |
 | Place the tray in the lower bay. If using a full-length tray, it must be oriented front to back, as in the picture. | [![full-length tray correctly placed][9]][9] |
 | Attach the tray with four (4) M3 x 8mm screws. | [![attached tray][10]][10] |
 
@@ -62,21 +68,27 @@ You will need:
 
 You will need:
 
-| Parts                     | Qty | Note                            |
-|---------------------------|-----|---------------------------------|
-| M3 x 6mm screws           | 4   |                                 |
-| M4 x 8mm screws           | 4   |                                 |
-| An MCU                    | 1   | Here we use a BigTreeTech Octopus |
-| Printed MCU tray          | 1   | [MCU Tray - Octopus.stl][4]
+| Parts                     | Qty | Note                                        |
+|---------------------------|-----|---------------------------------------------|
+| MCU board                 | 1   |                                             |
+| Printed MCU tray          | 1   |                                             |
+| M3 x 6mm screws           | 4   | Most boards mount using four (4) screws.    |
+| M4 x 8mm screws           | 4   | All MCU trays mount with four (4) of these. |
+
+In this example we use:
+
+| Parts                     | Qty | Note                                        |
+|---------------------------|-----|---------------------------------------------|
+| BigTreeTech Octopus       | 1   | Example MCU.                                |
+| [MCU Tray - Octopus.stl][4] | 1 | Example printed MCU tray.                   |
 
 !!! note
     The MCU tray has four M4 screw holes on the sides. Take note of the orientation of your board on the tray and where it will end up before mounting. Try to align your SD card connector toward the front and power connectors toward the back.
 
 | Step | Example |
 |------|---------|
-| Attach your MCU with the four (4) M3 x 6mm screws to the tray. | [![mounting the mcu][11]][11] |
-| Place the tray in the case and check that it is oriented correctly. Secure the tray with four (4) M4 x 8mm screws. | [![screws attached][12]][12] |
-
+| Attach your MCU to the tray with four (4) M3 x 6mm screws. | [![mounting the mcu][11]][11] |
+| Place the tray in the case and check the orientation. Secure the tray with four (4) M4 x 8mm screws. | [![screws attached][12]][12] |
 
 Before going further, it's a good time to connect the PSU to the devices we just added. **Be careful of polarity.**
 
@@ -92,3 +104,4 @@ Before going further, it's a good time to connect the PSU to the devices we just
 [10]: ../img/assembly/lower_bay_finished.jpg
 [11]: ../img/assembly/mcu_placement.jpg
 [12]: ../img/assembly/mcu_finished.jpg
+[13]: https://www.amazon.com/DROK-Adjustable-Converter-Transformer-Protective/dp/B07JZ2GQJF

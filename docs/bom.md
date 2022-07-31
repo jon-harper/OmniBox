@@ -13,20 +13,20 @@ There are no affiliate links used on this site.
 
 | Item                                   | Qty | UOM | Note                                                     |
 |----------------------------------------|-----|-----|----------------------------------------------------------|
-| PLA or PLA+ filament                   | 2   | kg  | May be printable in 1kg if using a single color          |
+| PLA or PLA+ filament                   | 2   | kg  | May be printable in 1kg if using a single color.         |
 | M3 x 6mm machine screws                | 12  | ea  |                                                          |
 | M3 x 8mm machine screws                | 20  | ea  |                                                          |
 | M3 x 16mm machine screws               | 4   | ea  |                                                          |
 | M3 hex nuts                            | 2   | ea  |                                                          |
-| [#6 x 3/4" sharp point wood screws][1] | 8   | ea  | Or M3 x 20mm; may also use machine screws                |
+| [#6 x 3/4" sharp point wood screws][1] | 8   | ea  | Or M3 x 20mm; may also use machine screws.               |
 | M4 x 6mm machine screws                | 4   | ea  |                                                          |
 | M4 x 8mm machine screws                | 8   | ea  |                                                          |
 | M4 x 12mm machine screws               | 4   | ea  |                                                          |
 | M4 x 16mm machine screws               | 4   | ea  |                                                          |
-| [SPST toggle switch][2]                | 1   | ea  | Identical profile to Creality Ender power switch         |
+| [SPST toggle switch][2]                | 1   | ea  | Identical profile to Creality Ender power switch.        |
 | MCU (3D printer control board)         | 1   | ea  | See the [Supported Parts](support.md) list.              |
-| [IEC C14 socket with fuse][3]          | 1   | ea  | Identical profile to Creality Ender series power socket  |
-| A 12864-style display or TFT           | 1   | ea  | See the [Supported Parts](support.md) list.              |
+| [IEC C14 socket with fuse][3]          | 1   | ea  | Identical profile to Creality Ender series power socket. |
+| A 12864-style TFT LCD display          | 1   | ea  | See the [Supported Parts](support.md) list.              |
 
 ## Power Supplies
 
@@ -34,8 +34,8 @@ Currently, two power supplies are supported. You will need one (1) of the follow
 
 | Item                              | Note                                                     |
 |-----------------------------------|----------------------------------------------------------|
-| [Mean Well RSP-500][5]            | Used in the Ender 5 Plus                                 |
-| [Mean Well LRS series][4]         | Most Ender-series printers use the LRS-350-24            |
+| [Mean Well RSP-500][5]            | Used in the Ender 5 Plus.                                |
+| [Mean Well LRS series][4]         | Most Ender-series printers use the LRS-350-24.           |
 
 ## Additional Parts
 

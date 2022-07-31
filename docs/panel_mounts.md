@@ -38,7 +38,7 @@ This rear panel uses Molex Micro Fit 3 connectors. In addition, it has a cutout 
 
 [1]:  https://www.digikey.com/en/htmldatasheets/production/1626160/0/0/1/0430300007.html
 [2]:  https://www.amazon.com/gp/product/B07D9HRDT6
-[3]:  https://www.amazon.com/gp/product/B086W7C58P
+[3]:  https://www.amazon.com/Poyiccot-Extension-Female-Extender-Straight/dp/B086W2R8Z6
 [4]:  https://www.amazon.com/gp/product/B071P2BGK5
 [5]:  https://www.amazon.com/gp/product/B07YYSP5F5
 [6]: https://www.digikey.com/en/products/detail/molex/0430200200/252490

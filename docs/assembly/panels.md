@@ -5,47 +5,74 @@ authors: Jon Harper
 date: 2022-07-31
 ---
 
-All of the panels are customizable, so this section has a less formal Parts section. 
+All of the panels are customizable, so this section has a less formal Parts section. Each starts with a list of the basics required to attach any type of that panel mount. Any additional parts needed for the panel we are using as an example are listed separately.
 
 ## 1. Front Panel
 
-You will need:
+You will need at least:
 
-- 2x M3 x 8mm screws
-- Your printed front panel
-- Any accessories that mount to it and fasteners for them
+| Parts                     | Qty | Note                                            |
+|---------------------------|-----|-------------------------------------------------|
+| Printed front panel       | 1   |                                                 |
+| M3 x 8mm screws           | 2   | All front panels mount using two (2) of these.  |
+
+In this example, we will use:
+
+| Parts                                                 | Qty | Note  |
+|-------------------------------------------------------|-----|-------|
+| [Front Panel - Micro SD Extension with USB C.stl][18] | 1   | Printed front panel example |
+| [Micro SD card extension][14]                         | 1   |       |
+| [USB C panel mount extension][15]                     | 1   |       |
+| M3 x 6mm screws                                       | 2   |       |
+| M3 x 8mm screws                                       | 2   |       |
 
 | Step | Example |
 |------|---------|
-| If you have any add-ons for your front panel (such as a MicroSD extension) install these first. | [![panel with installed extensions][9]][9] |
+| If you have any add-ons for your front panel (such as a MicroSD extension) assemble and install these first. | [![panel with installed extensions][9]][9] |
+| The USB C panel mount comes with screws and attaches directly. | [![adding USB C panel][16]][16] |
 | Push the panel into place. | [![placing the front vent][1]][1] |
 | Fasten the panel with two (2) M3 screws. | [![front vent installed][2]][2] |
 
-## 2. Rear Panel
+## 2a. Rear Panel
 
-You will need:
+You will need at least:
 
-- 8x M4 x 8mm screws
-- Your printed rear panel
-- Any connectors or other accessories for the rear panel
+| Parts                     | Qty | Note                                            |
+|---------------------------|-----|-------------------------------------------------|
+| A printed rear panel      | 1   |                                                 |
+| M4 x 8mm screws           | 8   | All rear panels mount using eight (8) of these. |
+
+Our rear panel in this example is a panel mount test piece, but all rear panels follow the same pattern.
+
+Some rear panels may have a fan to mount. If you are using the rear panel to mount connectors, it is strongly advised that you insert the connectors before installing the panel or connecting any wires to the board.
 
 | Step | Example |
 |------|---------|
-| If you are using the rear panel to mount connectors, it is strongly advised that you insert the connectors before installing the panel or connecting any wires to the board. | |
-| Push the rear panel in place. You may need to guide the wires out of the way. | [![first two screws][5]][5] |
+| Push the rear panel in place against the back of the case. You may need to guide the wires out of the way. | [![first two screws][5]][5] |
 | Attach the panel using eight (8) M4 screws. | [![panel with screws inserted][6]][6] | 
 
 
-It's a good idea to attach your wiring now, before we close up the case further.
+## 2b. Rear Panel Wiring
+
+It's a good idea to attach your wiring to the MCU now, before we close up the case further.
 
 ## 3. Display Screen
 
-You will need:
+You will need at least:
 
-- 4x M3 x 6mm screws
-- 4x M4 x 12mm screws
-- Your printed display mount
-- Your display
+| Parts                     | Qty | Note                                                     |
+|---------------------------|-----|----------------------------------------------------------|
+| Printed display panel     | 1   |                                                          |
+| LCD display               | 1   |                                                          |
+| M4 x 12mm screws          | 4   | All display screen panels mount using four (4) of these. |
+
+For this example, we will use:
+
+| Parts                     | Qty | Note                                            |
+|---------------------------|-----|-------------------------------------------------|
+| [Generic 12864 Display Mount][19] | 1  | Example of a printed display panel.      |
+| Creality 12864 display    | 1   | LCD display example                             |
+| M3 x 6mm screws           | 4   |                                                 |
 
 !!! note
     Some display mounts have more than one piece and require additional screws. The below is an example with a stock Creality 12864 display.
@@ -62,22 +89,31 @@ You will need:
 
 Like the rear panel, the lid is intended for customization. The below is an example for a simple lid with a handle.
 
+You will need for any lid or pair of half-lids:
+
+| Parts                     | Qty | Note                                            |
+|---------------------------|-----|-------------------------------------------------|
+| M3 x 8mm screws           | 8   | See note below.                                 |
+| Printed lid               | 1   |                                                 |
+
+In this example, we also use:
+
+| Parts                     | Qty | Note                                            |
+|---------------------------|-----|-------------------------------------------------|
+| M3 x 8mm screws           | 2   |                                                 |
+| [Carry handle][12]        | 1   |                                                 |
+| [Carry handle lid][13]    | 1   | Example of a printed lid.                       |
+
 !!! note
     0.9.8 introduces half-length lids. One half-length lid requires four (4) screws; a full length lid attaches with eight (8) The main body requires two (2) half-length lids or one full-length lid.
 
-You will need:
-
-- 10x M3 x 8mm screws (2x for handle, 8x for lid)
-- Printed [carry handle][12]
-- Printed [carry handle lid][13]
+!!! note
+    Because the screws are threaded directly into plastic, removing and reattaching the lid will eventually wear out the holes in the main body. I recommend starting with shorter screws and gradually switching to longer ones over time to get "fresh" plastic.
 
 | Step | Example |
 |------|---------|
 | Attach the handle to the lid first. | [![attaching the handle][11]][11] |
-| Use the eight (8) M3 screws to attach the lid, Any length up to 16mm will work. | [![first two screws][8]][8] | 
-
-!!! note
-    Because the screws are threaded directly into plastic, removing and reattaching the lid will eventually wear out the holes in the main body. I recommend starting with shorter screws and gradually switching to longer ones over time to get "fresh" plastic.
+| Use the eight (8) M3 screws to attach the lid. Any length of screw up to 16mm will work. | [![first two screws][8]][8] | 
     
 [1]: ../img/assembly/front_panel1.jpg
 [2]: ../img/assembly/front_panel2.jpg
@@ -92,3 +128,9 @@ You will need:
 [11]: ../img/assembly/lid_handle.jpg
 [12]: https://github.com/jon-harper/OmniBox/blob/main/Panels/Lid/Carry%20Handle.stl
 [13]: https://github.com/jon-harper/OmniBox/blob/main/Panels/Lid/Carry%20lid/Carry%20Lid.stl
+[14]: https://www.amazon.com/gp/product/B07YYSP5F5
+[15]: https://www.amazon.com/Poyiccot-Extension-Female-Extender-Straight/dp/B086W2R8Z6
+[16]: 
+[17]:
+[18]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel/Lanmu%20Micro%20SD%20Extension
+[19]: https://github.com/jon-harper/OmniBox/blob/main/Panels/Display/Generic%2012864/Generic%2012864%20Display%20Mount.stl

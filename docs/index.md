@@ -15,7 +15,7 @@ This project is derived from the Steve Burcham's [Stand Alone Main Control Case]
 - [Supported Part List](support.md)
 - [Bill of Materials](bom.md)
 - [Printing Guide](printing.md)
-- [Assembly Guide](assembly.md)
+- [Assembly Guide](assembly/index.md)
 
 ## About / Background
 
