@@ -42,4 +42,4 @@ See the [Printing Guide][6] to help choose the best configuration for your avail
 [3]: displays.md
 [4]: lower_bay.md
 [5]: fans.md
-[6]: printing.md
+[6]: ../printing.md

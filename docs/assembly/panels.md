@@ -105,15 +105,17 @@ In this example, we also use:
 | [Carry handle lid][13]    | 1   | Example of a printed lid.                       |
 
 !!! note
-    0.9.8 introduces half-length lids. One half-length lid requires four (4) screws; a full length lid attaches with eight (8) The main body requires two (2) half-length lids or one full-length lid.
+    0.9.8 introduces half-length lids. One half-length lid requires four (4) screws; a full length lid attaches with eight (8) The main body requires two (2) half-length lids or one (1) full-length lid.
 
 !!! note
-    Because the screws are threaded directly into plastic, removing and reattaching the lid will eventually wear out the holes in the main body. I recommend starting with shorter screws and gradually switching to longer ones over time to get "fresh" plastic.
+    Because the screws are threaded directly into plastic, removing and reattaching the lid will eventually wear out the holes in the main body. I recommend starting with shorter (8mm) screws and gradually switching to longer ones over time to get "fresh" plastic.
+    
+    Lids may use screws up to 16mm in length.
 
 | Step | Example |
 |------|---------|
-| Attach the handle to the lid first. | [![attaching the handle][11]][11] |
-| Use the eight (8) M3 screws to attach the lid. Any length of screw up to 16mm will work. | [![first two screws][8]][8] | 
+| Attach the handle to the lid using two (2) M3 x 8mm screws. | [![attaching the handle][11]][11] |
+| Use eight (8) M3 x 8mm screws to attach the lid. | [![first two screws][8]][8] | 
     
 [1]: ../img/assembly/front_panel1.jpg
 [2]: ../img/assembly/front_panel2.jpg

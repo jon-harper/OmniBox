@@ -5,9 +5,19 @@ authors: Jon Harper
 date: 2022-07-02
 ---
 
+## V0.9.8 Release
+| Release Photos        |   |
+|-----------------------|---|
+| Post-assembly, left   | [![view as seen from the left][28]][28] |
+| Post-assembly, right  | [![view as seen from the right][29]][29] |
+| Post-assembly, front  | [![view as seen from the front][30]][30] |
+| Post-assembly, rear   | [![view as seen from the rear][31]][31] |
+| Underbody wiring      | [![view of an assembled case from underneath][32]][32] |
+| New TPU gasket        | [![close in view of a TPU gasket][33]][33] |
+| Installed gasket      | [![TPU gasket installed on a 40mm fan][34]][34] |
 
 ## V0.9.7 Release
-| Renders               |   |
+| Renders and Photos    |   |
 |-----------------------|---|
 | Fit testing, side view | [![fit testing as seen from the right side][26]][26]
 | Fit testing, rear view | [![fit testing as seen from the rear][27]][27]
@@ -83,3 +93,10 @@ date: 2022-07-02
 [25]: img/gallery_0.9.7/front_60mm_fan.png
 [26]: img/gallery_0.9.7/fit_test_side.jpg
 [27]: img/gallery_0.9.7/fit_test_rear.jpg
+[28]: img/gallery_0.9.8/oscar_left.jpg
+[29]: img/gallery_0.9.8/oscar_right.jpg
+[30]: img/gallery_0.9.8/oscar_front.jpg
+[31]: img/gallery_0.9.8/oscar_rear.jpg
+[32]: img/gallery_0.9.8/underbody.jpg
+[33]: img/gallery_0.9.8/gasket.jpg
+[34]: img/gallery_0.9.8/gasket_installed.jpg
