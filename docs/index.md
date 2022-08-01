@@ -12,7 +12,7 @@ This project is derived from the Steve Burcham's [Stand Alone Main Control Case]
 ## Quick Links
 
 - [GitHub with STLs](https://github.com/jon-harper/OmniBox)
-- [Supported Part List](support.md)
+- [Supported Part List](support/index.md)
 - [Bill of Materials](bom.md)
 - [Printing Guide](printing.md)
 - [Assembly Guide](assembly/index.md)

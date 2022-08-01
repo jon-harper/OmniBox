@@ -9,22 +9,22 @@ Some components can only be mounted on lower bay trays. Parts compatible with th
 
 Additionally, trays come in two lengths: small and large. A large tray covers the mount points of two small trays and must be mounted from front to back of the case.
 
-![a small tray on the left and a large tray on right](img/examples/lower_bay_trays.png)
+![a small tray on the left and a large tray on right](../img/examples/lower_bay_trays.png)
 
 ## Buck Converters
 
 | Description | Image | Product Link | Tray Sizes | Notes |
 |----|---|---|---|---|
-| Basic LM2596 Buck Converter | ![img](img/parts/lm2596.jpg) | [Example][1] | Full (dual) |
-| "DROK" LM2596 with LED       | ![img](img/parts/lm2596_led.jpg) | [Example][2] | Half (single), Full (dual) | Mounting holes: 60.5mm x 30.5mm |
-| "HiLetgo" LM2596 with LED | ![img](img/parts/lm2596_led_2.jpg) | [Example][3] | Half (single), Full (dual) | Mounting holes: 49.5mm x 27.5mm |
-| "DROK" 5A Buck with LED | ![img](img/parts/buck_5a_drok.jpg) | [Example][6] | Full (single) | Mounting Holes: 63mm x 40.5mm |
+| Basic LM2596 Buck Converter | ![img](../img/parts/lm2596.jpg) | [Example][1] | Full (dual) |
+| "DROK" LM2596 with LED       | ![img](../img/parts/lm2596_led.jpg) | [Example][2] | Half (single), Full (dual) | Mounting holes: 60.5mm x 30.5mm |
+| "HiLetgo" LM2596 with LED | ![img](../img/parts/lm2596_led_2.jpg) | [Example][3] | Half (single), Full (dual) | Mounting holes: 49.5mm x 27.5mm |
+| "DROK" 5A Buck with LED | ![img](../img/parts/buck_5a_drok.jpg) | [Example][6] | Full (single) | Mounting Holes: 63mm x 40.5mm |
 
 ## MOSFETs
 
 | Description | Image | Product Link | Tray Sizes | Notes |
 |---|---|---|---|---|
-| Creality MOSFET | ![img](img/parts/mosfet_creality.jpeg) | [Example][4] |  Half (single), Full (single) | |
+| Creality MOSFET | ![img](../img/parts/mosfet_creality.jpeg) | [Example][4] |  Half (single), Full (single) | |
 
 
 [1]: https://www.amazon.com/Valefod-Efficiency-Voltage-Regulator-Converter/dp/B076H3XHXP

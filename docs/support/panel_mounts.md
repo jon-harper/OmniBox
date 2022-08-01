@@ -15,7 +15,7 @@ The front panel is long and slim and can be used for mounting small hardware por
 
 This front panel has a Micro SD extension and USB-C extension.
 
-![front panel example](img/gallery_0.9.7/front_panel.png)
+![front panel example](../img/gallery_0.9.7/front_panel.png)
 
 
 ### Rear Panels
@@ -24,7 +24,7 @@ Rear Panels are the most customizable part of OmniBox. They can mount connectors
 
 This rear panel uses Molex Micro Fit 3 connectors. In addition, it has a cutout for a 60mm fan and USB-C extension.
 
-![rear panel example](img/gallery_0.9.7/panel_mounts.png)
+![rear panel example](../img/gallery_0.9.7/panel_mounts.png)
 
 ## Supported Hardware
 

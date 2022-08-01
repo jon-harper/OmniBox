@@ -6,8 +6,7 @@ repo_url: https://github.com/jon-harper/OmniBox
 
 theme:
   name: material
-  # name: bootstrap4
-
+  
 markdown_extensions:
   - admonition
 
@@ -15,12 +14,12 @@ nav:
   - index.md
   - gallery.md
   - Supported Parts:
-    - support.md
-    - boards.md
-    - displays.md
-    - panel_mounts.md
-    - fans.md
-    - lower_bay.md
+    - support/index.md
+    - support/boards.md
+    - support/displays.md
+    - support/panel_mounts.md
+    - support/fans.md
+    - support/lower_bay.md
   - bom.md
   - printing.md
   - Assembly:

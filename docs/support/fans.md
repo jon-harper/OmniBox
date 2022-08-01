@@ -11,13 +11,13 @@ The rear main body supports two 40mm exhaust fans. The front main body has a ver
 
 | Description | Image | Product Link | Notes |
 |---|---|---|---|
-| 40x40x10mm Axial Fan | ![img](img/parts/fan_4010.jpg) | [Example][1] | |
-| 40x40x20mm Axial Fan | ![img](img/parts/fan_4020.jpg) | [Example][2] | |
-| 60x60x15mm Axial Fan | ![img](img/parts/fan_6015.jpg) | [Example][3] | |
-| 60x60x20mm Axial Fan | ![img](img/parts/fan_6020.jpg) | [Example][4] | |
-| 60x60x25mm Axial Fan | ![img](img/parts/fan_6025.jpg) | [Example][7] | |
-| 80x80x20mm Axial Fan | ![img](img/parts/fan_8020.jpg) | [Example][8] | |
-| 80x80x25mm Axial Fan | ![img](img/parts/fan_8025.jpg) | [Example][5] | |
+| 40x40x10mm Axial Fan | ![img](../img/parts/fan_4010.jpg) | [Example][1] | |
+| 40x40x20mm Axial Fan | ![img](../img/parts/fan_4020.jpg) | [Example][2] | |
+| 60x60x15mm Axial Fan | ![img](../img/parts/fan_6015.jpg) | [Example][3] | |
+| 60x60x20mm Axial Fan | ![img](../img/parts/fan_6020.jpg) | [Example][4] | |
+| 60x60x25mm Axial Fan | ![img](../img/parts/fan_6025.jpg) | [Example][7] | |
+| 80x80x20mm Axial Fan | ![img](../img/parts/fan_8020.jpg) | [Example][8] | |
+| 80x80x25mm Axial Fan | ![img](../img/parts/fan_8025.jpg) | [Example][5] | |
 
 [1]: https://www.amazon.com/WINSINN-Ender-Upgrade-Bearing-CR-10S/dp/B08R9JRTCT/
 [2]: https://www.amazon.com/Wathai-40x40x20mm-40mm-Burshless-Cooling/dp/B07PYWVPMY
