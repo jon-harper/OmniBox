@@ -28,10 +28,13 @@ In this example, we will use:
 
 | Step | Example |
 |------|---------|
-| If you have any add-ons for your front panel (such as a MicroSD extension) assemble and install these first. | [![panel with installed extensions][9]][9] |
 | The USB C panel mount comes with screws and attaches directly. | [![adding USB C panel][16]][16] |
-| Push the panel into place. | [![placing the front vent][1]][1] |
-| Fasten the panel with two (2) M3 screws. | [![front vent installed][2]][2] |
+| Carefully remove the outer shell from the Micro SD card extension. | [![Micro SD extension and mount][17]][17] |
+| Place the reader PCB into the shell, as in the picture. | [![Micro SD extension placed in shell][20]][20] |
+| Put the shell lid on and attach with two (2) M3 x 6mm screws. | [![Extension with lid on and screws fastened][21]][21] |
+| Insert the extension shell into the front panel and attach with two (2) M3 x 8mm screws. | [![panel mount with accessories attached][22]][22] |
+| Push the panel into place on the main body. | [![placing the front vent][1]][1] |
+| Fasten the panel with two (2) M3 x 8mm screws. | [![front vent installed][2]][2] |
 
 ## 2a. Rear Panel
 
@@ -84,7 +87,6 @@ For this example, we will use:
 | Re-attach the knob to the display screen. Again, it should slide into place with light force. If your display mount has multiple pieces, attach those now (usually only applies to displays with side-mount SD card readers). | |
 | Insert the display connectors and slide the cables in before the display. Fasten the display panel with four (4) M4 x 12mm screws. | [![screws attached][4]][4] |
 
-
 ## 4. Lid
 
 Like the rear panel, the lid is intended for customization. The below is an example for a simple lid with a handle.
@@ -132,7 +134,10 @@ In this example, we also use:
 [13]: https://github.com/jon-harper/OmniBox/blob/main/Panels/Lid/Carry%20lid/Carry%20Lid.stl
 [14]: https://www.amazon.com/gp/product/B07YYSP5F5
 [15]: https://www.amazon.com/Poyiccot-Extension-Female-Extender-Straight/dp/B086W2R8Z6
-[16]: 
-[17]:
+[16]: ../img/assembly/usb_c.jpg
+[17]: ../img/assembly/sd_card1.jpg
 [18]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel/Lanmu%20Micro%20SD%20Extension
 [19]: https://github.com/jon-harper/OmniBox/blob/main/Panels/Display/Generic%2012864/Generic%2012864%20Display%20Mount.stl
+[20]: ../img/assembly/sd_card2.jpg
+[21]: ../img/assembly/sd_card3.jpg
+[22]: ../img/assembly/sd_card4.jpg

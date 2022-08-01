@@ -1,33 +1,33 @@
-# HiLetGo LM2596 with LED
+# Trays/Lower Bay/Creality MOSFET
 
 ## Overview
 
-These trays mounts one (1) or two (2) compact "HiLetgo"-style LM2596 buck converter with an included voltage LED display.
+These trays mount a MOSFET conveter found in the Creality Ender 5 Plus (at least). Trays are available in both lengths for convenience.
 
 | Field                 | Description               |
 |-----------------------|---------------------------|
 | Category              | Lower Bay Tray            |
-| Product Supported     | DROK LM2596 Buck Converter with LED   |
+| Product Supported     | Creality MOSFET           |
 | STEP File             | Yes                       |
 | Fusion 360 Archive    | Yes                       |
 | Version Added         | 0.9.7                     |
 
 ## STL Files
 
-### `Lower Bay Tray - HiLetGo LM2596 - Dual.stl`
+### `Lower Bay Tray - Creality MOSFET - Large.stl`
 
 | Field                 | Description                   |
 |-----------------------|-------------------------------|
 | Tray Length           | Full                          |
-| Quantity Mounted      | 2                             |
-| Mounting Hardware     | 4-8x M3 x 6mm machine screws  |
+| Quantity Mounted      | 1                             |
+| Mounting Hardware     | 4x M3 x 6mm machine screws    |
 | Print with Supports   | No                            |
 
-### `Lower Bay Tray - HiLetGo LM2596 - Single.stl`
+### `Lower Bay Tray - Creality MOSFET - Short.stl`
 
 | Field                 | Description                   |
 |-----------------------|-------------------------------|
 | Tray Length           | Half                          |
 | Quantity Mounted      | 1                             |
-| Mounting Hardware     | 2-4x M3 x 6mm machine screws  |
+| Mounting Hardware     | 4x M3 x 6mm machine screws    |
 | Print with Supports   | No                            |
