@@ -21,21 +21,17 @@ This project is derived from the Steve Burcham's [Stand Alone Main Control Case]
 
 ### The Requirements
 
-Printing Acrylonitrile Butadiene Styrene (ABS) plastic requires the use of an enclosure with filtration. This typically requires connecting additional hardware to a printer's MCU:
+Enclosured 3D printing with filtration requires controlling more hardware than comes with a typical 3D printer:
 
 - Interior lighting
 - Ambient temperature thermistor
 - Filtration and exhaust fans
 
-As 24V is the common DC voltage for 3D printers right now, each 12V independantly-controllable or PWM device such as a fan or light strip needs a buck converter. My cases for these printer/enclosure combos were cramped—the three or more buck converters mounted over the MCU kept me from accessing the wiring underneath.
+As 24V is the common DC voltage for 3D printers right now, each 12V independantly-controllable or PWM device such as a fan or light strip needs a buck converter. My printed electronics cases for these printer/enclosure combos were cramped. With up to three buck converters mounted over the microcontroller unit (MCU), I couldn't reach the wiring underneath.
 
-Additionally, after multiple Dead-On-Arrival (DOA) and failed BIGTREETECH SKR 2 boards, I urgently had to find another board to settle on. Enter the Octopus, which I had used to success with another project.
+Additionally, I found myself in need of a new MCU board to use for my printers. Enter the Octopus, which I had used to success with another project. 
 
-### Switching to the Octopus
-
-BIGTREETECH's Octopus 1.1 is a solid board that provides ample power sources and signal pins. This includes six PWM pins with a jumper to change the voltage level from 24V to 12V or 5V, eliminating my need for buck converters. It also (so far) hasn't blown out any of my equipment or itself and is similarly priced to the SKR 2.
-
-The Octopus will not fit the existing electronics cases I had already printed; I also had a several improvements in mind for Steve's case concept.
+BIGTREETECH's Octopus 1.1 is a solid board that provides ample power sources and signal pins. The Octopus will not fit the existing electronics cases I had already printed; I also had a several improvements in mind for Steve's case concept.
 
 ### Building the OmniBox
 
