@@ -27,6 +27,7 @@ Directions
 | Push the power switch into the cutout in the front of the base. The sides of the switch will compress until it snaps into place. | [![power switch insertion][2]][2] |
 | Insert the IEC socket into the rear base, followed by the M3 x 16mm screws.| [![inserted IEC socket and M3 screws][5]][5] |
 | There are two pockets for hex nuts opposing the M3 screws. One hex nut at a time, press a nut in place while turning the opposing screw. Once the threads of the screw catch the nut, continue threading until the nut is tight. | [![tightened hex nuts][6]][6] |
+<!-- | (Optional) If you wish to mount a 40mm fan in the base,  -->
 | Now is a good time to run the AC wiring for the power supply. Zip tie anchors are available for the wire run from socket to switch and back to power supply. | [![power supply with cleaned up wiring][7]][7] |
 
 ## 2. Main Body
@@ -99,7 +100,7 @@ You will need:
 [6]: ../img/assembly/base_hex_nuts.jpg
 [7]: ../img/assembly/base_wiring.jpg
 [8]: https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Crossbar.stl
-[9]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20LRS-350/Main%20Body%20-%20Front%20No%20Fans.stl
+[9]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20LRS-350/Main%20Body%20-%20Front%20with%2040mm%20Intake.stl
 [10]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20LRS-350/Main%20Body%20-%20Rear%20with%2040mm%20Exhausts.stl
 [11]: ../img/assembly/main_halves_1.jpg
 [12]: ../img/assembly/main_halves_2.jpg
