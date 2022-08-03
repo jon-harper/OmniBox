@@ -14,20 +14,40 @@ These trays mount one (1) or two (2) "DROK"-style LM2596 buck converter with an 
 
 ## STL Files
 
-### `Lower Bay Tray - DROK LM2596 - Dual.stl`
+### `Lower Bay Tray - DROK LM2596 - Full Dual.stl`
 
-| Field                 | Description                   |
-|-----------------------|-------------------------------|
-| Tray Length           | Full                          |
-| Quantity Mounted      | 2                             |
-| Mounting Hardware     | 4-8x M3 x 6mm machine screws  |
-| Print with Supports   | No                            |
+- Tray Length: Full
+- Print with Supports: No
 
-### `Lower Bay Tray - DROK LM2596 - Single.stl`
+| Bill of Materials           | Quantity |
+|-----------------------------|----------|
+| DROK LM2596 buck converter  | 2        |
+| M3 x 6mm machine screws     | 4-8      |
 
-| Field                 | Description                   |
-|-----------------------|-------------------------------|
-| Tray Length           | Half                          |
-| Quantity Mounted      | 1                             |
-| Mounting Hardware     | 2-4x M3 x 6mm machine screws  |
-| Print with Supports   | No                            |
+### `Lower Bay Tray - DROK LM2596 - Half Single.stl`
+
+- Tray Length: Half
+- Print with Supports: No
+
+| Bill of Materials           | Quantity |
+|-----------------------------|----------|
+| DROK LM2596 buck converter  | 1        |
+| M3 x 6mm machine screws     | 2-4      |
+
+### `Lower Bay Tray - DROK LM2596 - Full Dual with Fan.stl`
+
+| Bill of Materials           | Quantity |
+|-----------------------------|----------|
+| DROK LM2596 buck converter  | 2        |
+| 40x40x10mm axial fan        | 1        |
+| M3 x 6mm machine screws     | 4-8      |
+| M3 x 16mm machine screws    | 4        |
+
+### `Lower Bay Tray - DROK LM2596 - Full Single with Fan.stl`
+
+| Bill of Materials           | Quantity |
+|-----------------------------|----------|
+| DROK LM2596 buck converter  | 1        |
+| 40x40x10mm axial fan        | 1        |
+| M3 x 6mm machine screws     | 2-4      |
+| M3 x 16mm machine screws    | 4        |

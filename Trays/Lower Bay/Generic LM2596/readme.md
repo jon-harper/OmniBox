@@ -1,13 +1,53 @@
-# Dual Generic LM2596 buck converters
+# Generic LM2596
 
-## Description
+## Overview
 
-These trays mount two (2) generic 2A LM2596 buck converters. One optionally mounts a 40mm fan, as well.
+These trays mounts one (1) or two (2) basic, 2-3A LM2596 buck converters.
 
-## Compatible Parts
+| Field                 | Description               |
+|-----------------------|---------------------------|
+| Category              | Lower Bay Tray            |
+| Product Supported     | Generic LM2596 Buck Converter   |
+| STEP File             | Yes                       |
+| Fusion 360 Archive    | Yes                       |
+| Version Added         | 0.9                       |
 
-See the [Lower Bay Accessories][1] page for product images and links.
+## STL Files
 
-- 1-2x Generic LM2596 Buck Converters
+### `Lower Bay Tray - HiLetGo LM2596 - Full Dual.stl`
 
-[1]: https://jon-harper.github.io/OmniBox/lower_bay/
+- Tray Length: Full
+- Print with Supports: No
+
+| Bill of Materials              | Quantity |
+|--------------------------------|----------|
+| Generic LM2596 buck converter  | 2        |
+| M3 x 6mm machine screws        | 4-8      |
+
+### `Lower Bay Tray - Generic LM2596 - Half Single Tray.stl`
+
+- Tray Length: Half
+- Print with Supports: No
+
+| Bill of Materials             | Quantity |
+|-------------------------------|----------|
+| Generic LM2596 buck converter | 1        |
+| M3 x 6mm machine screws       | 2-4      |
+
+### `Lower Bay Tray - Generic LM2596 - Full Dual with Fan.stl`
+
+| Bill of Materials             | Quantity |
+|-------------------------------|----------|
+| Generic LM2596 buck converter | 2        |
+| 40x40x10mm axial fan          | 1        |
+| M3 x 6mm machine screws       | 4-8      |
+| M3 x 16mm machine screws      | 4        |
+
+### `Lower Bay Tray - Generic LM2596 - Full Single with Fan.stl`
+
+| Bill of Materials             | Quantity |
+|-------------------------------|----------|
+| Generic LM2596 buck converter | 1        |
+| 40x40x10mm axial fan          | 1        |
+| M3 x 6mm machine screws       | 2-4      |
+| M3 x 16mm machine screws      | 4        |
