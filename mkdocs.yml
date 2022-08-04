@@ -12,6 +12,7 @@ markdown_extensions:
 
 nav:
   - index.md
+  - tour.md
   - gallery.md
   - Supported Parts:
     - support/index.md
