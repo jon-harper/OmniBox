@@ -15,9 +15,9 @@ Additionally, trays come in two lengths: small and large. A large tray covers th
 
 | Description | Image | Product Link | Tray Sizes | Notes |
 |----|---|---|---|---|
-| Basic LM2596 Buck Converter | ![img](../img/parts/lm2596.jpg) | [Example][1] | Full (dual) |
-| "DROK" LM2596 with LED       | ![img](../img/parts/lm2596_led.jpg) | [Example][2] | Half (single), Full (dual) | Mounting holes: 60.5mm x 30.5mm |
-| "HiLetgo" LM2596 with LED | ![img](../img/parts/lm2596_led_2.jpg) | [Example][3] | Half (single), Full (dual) | Mounting holes: 49.5mm x 27.5mm |
+| Basic LM2596 Buck Converter | ![img](../img/parts/lm2596.jpg) | [Example][1] | Half (single), Full (single, dual) |
+| "DROK" LM2596 with LED       | ![img](../img/parts/lm2596_led.jpg) | [Example][2] | Half (single), Full (single, dual) | Mounting holes: 60.5mm x 30.5mm |
+| "HiLetgo" LM2596 with LED | ![img](../img/parts/lm2596_led_2.jpg) | [Example][3] | Half (single), Full (single, dual) | Mounting holes: 49.5mm x 27.5mm |
 | "DROK" 5A Buck with LED | ![img](../img/parts/buck_5a_drok.jpg) | [Example][6] | Full (single) | Mounting Holes: 63mm x 40.5mm |
 
 ## MOSFETs

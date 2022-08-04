@@ -23,7 +23,7 @@ These settings are consistent for all parts.
 
 Core components form the basis of every electronics case. They can be found in the [`Core`][14] folder in the GitHub repository.
 
-There are three (3) universal Core parts and two (2) that have variations.
+There are five (5) Core components: three (3) universal parts and two (2) that have variations.
 
 ### Universal Core Parts
 
@@ -54,8 +54,8 @@ If you print the version with a 60mm intake fan, you will need to print the appr
 
 | Variation                                | Description |
 |------------------------------------------|-------------|
-| `Main Body - Front No Fans.stl`          | The default version of the case with intake vents. |
-| `Main Body - Front with 60mm Intake.stl` | Mounts a 60mm intake fan. |
+| `Main Body - Front with 40mm Intake.stl`  | The default version of the case with intake vents and a concealed 40mm fan. |
+| `Main Body - Front with 60mm Intake.stl` | Mounts an external 60mm intake fan. |
 
 #### Rear Main Body
 
@@ -109,19 +109,19 @@ A more detailed guide to choosing a rear panel can be found in the [`Rear Panel`
 
 | Part                  | Printed Qty | Required | Notes |
 |-----------------------|-------------|----------|-------|
-| Base - Front          | 1           | [STL][1] | |
-| Base - Rear           | 1           | [STL][2] | |
-| Main Body - Crossbar  | 1           | [STL][3] | |
-| Main Body - Front     | 1          | Yes       | With or Without Fans |
-| Main Body - Rear      | 1          | Yes       | With or Without Fans |
-| MCU Tray              | 1          | Yes       |       |
-| CPU Tray              | 1          | Yes       | Cover plate can be used instead |
-| Display Mount         | 1          | Yes       |       |
-| Lid                   | 1-2        | Yes       | One full-length or two half-length |
-| Rear Panel            | 1          | Yes       |       |
-| Lower Bay Trays       | 1-4        | No        | Specific to configuration. |
-| Fan Cages             | (varies)   | Yes       | Quantity and size depend on configuration. |
-| Fan Gaskets           | (varies)   | No        | Optional; quantity and size depend on configuration. |
+| Base - Front          | 1           | Yes      | |
+| Base - Rear           | 1           | Yes      | |
+| Main Body - Crossbar  | 1           | Yes      | |
+| Main Body - Front     | 1           | Yes      | Two versions available. |
+| Main Body - Rear      | 1           | Yes      | Two versions available. |
+| MCU Tray              | 1           | Yes      |       |
+| CPU Tray              | 1           | No       | Cover plate can be used instead. |
+| Display Mount         | 1           | Yes      |       |
+| Lid                   | 1-2         | Yes      | One full-length or two half-length lids. |
+| Rear Panel            | 1           | Yes      |       |
+| Lower Bay Trays       | 1-4         | No       | Type and quantity specific to configuration. |
+| Fan Cages             | (varies)    | No       | Quantity and size depend on configuration. |
+| Fan Gaskets           | (varies)    | No       | Optional; quantity and size depend on configuration. |
 
 
 [1]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl

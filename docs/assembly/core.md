@@ -27,7 +27,7 @@ Directions
 | Push the power switch into the cutout in the front of the base. The sides of the switch will compress until it snaps into place. | [![power switch insertion][2]][2] |
 | Insert the IEC socket into the rear base, followed by the M3 x 16mm screws.| [![inserted IEC socket and M3 screws][5]][5] |
 | There are two pockets for hex nuts opposing the M3 screws. One hex nut at a time, press a nut in place while turning the opposing screw. Once the threads of the screw catch the nut, continue threading until the nut is tight. | [![tightened hex nuts][6]][6] |
-<!-- | (Optional) If you wish to mount a 40mm fan in the base,  -->
+| There is a 40mm fan mount behind one of the front air vents. If you wish to use a 40mm fan there, install it now with four (4) M3 x 16mm screws.
 | Now is a good time to run the AC wiring for the power supply. Zip tie anchors are available for the wire run from socket to switch and back to power supply. | [![power supply with cleaned up wiring][7]][7] |
 
 ## 2. Main Body
@@ -40,7 +40,7 @@ You will need:
 | #6 x 3/4" screws          | 8   | See note below.                   |
 | M3 x 16mm screws          | 2   | Can substitute M3 x 20mm.         |
 | M4 x 6mm screws           | 4   | See caution below.                |
-| Printed front main body   | 1   | [Main Body - Front No Fans.stl][9] used here. |
+| Printed front main body   | 1   | [Main Body - Front with 40mm Intake.stl][9] used here. |
 | Printed rear main body    | 1   | [Main Body - Rear with 40mm Exhausts.stl][10] used here. |
 | Printed crossbar          | 1   | [Main Body - Crossbar][8]         |
 | A power supply unit (PSU) | 1   |                                   |

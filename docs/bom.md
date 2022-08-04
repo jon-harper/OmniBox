@@ -5,9 +5,12 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
-The design allows for screws of multiple lengths (to allow you to use whatever is on hand). The assembly process notes where substitutions can be made. The first list is a "base" list common to all builds. Additional components based on your build configuration are listed separately.
+The General Components list is a base list common to all builds. Additional components based on your build configuration are listed separately.
 
 There are no affiliate links used on this site.
+
+!!! note
+    In certain places, the design allows for longer-than-specified screws. The assembly process notes where substitutions can be made.
 
 ## General Components
 
@@ -39,7 +42,7 @@ Currently, two power supplies are supported. You will need one (1) of the follow
 
 | Item                              | Note                                                     |
 |-----------------------------------|----------------------------------------------------------|
-| [Mean Well RSP-500][5]            | Used in the Ender 5 Plus.                                |
+| [Mean Well RSP-500][5]            | RSP-500-24 is used in the Ender 5 Plus.                  |
 | [Mean Well LRS-350][4]            | Most Ender-series printers use the LRS-350-24.           |
 
 ## Additional Components
@@ -48,23 +51,27 @@ Some Core component versions have optional fan mounts, while others have ones th
 
 ### 1. Base - Front
 
-The base has a concealed, *optional* 40mm fan. The following are needed to mount the fan:
+The base has an optional 40mm fan. The following are needed to mount the fan:
 
 | Item                              | Qty | UOM | Note                                                     |
 |-----------------------------------|-----|-----|----------------------------------------------------------|
 | [40x40x10mm axial fans][6]        | 1   | ea  |                                                          |
 | M3 x 16mm machine screws          | 4   | ea	| Any length 14-16mm will work.                            |
 
-### 2a. Main Body - Front with 40mm Intake
+### 2. Main Body - Front
 
-This version of the front main body has a concealed, *optional* 40mm fan. The following are needed to mount the fan:
+There are two version of the front main body.
+
+#### With 40mm Intake
+
+This version of the front main body has an optional 40mm fan. The following are needed to mount the fan:
 
 | Item                              | Qty | UOM | Note                                                     |
 |-----------------------------------|-----|-----|----------------------------------------------------------|
 | [40x40x10mm axial fans][6]        | 1   | ea  |                                                          |
 | M3 x 16mm machine screws          | 4   | ea	| Any length 14-16mm will work.                            |
 
-### 2b. Main Body - Front with 60mm Intake
+#### With 60mm Intake
 
 This version of the front main body *requires* an externally mounted 60mm fan.
 
@@ -75,7 +82,7 @@ This version of the front main body *requires* an externally mounted 60mm fan.
 
 ### 3. Main Body - Rear with 40mm Exhausts
 
-This version of the rear main body *requires* two externally mounted 40mm fans.
+There are two versions of the rear main body. This version of the *requires* two externally mounted 40mm fans.
 
 | Item                              | Qty | UOM | Note                                                     |
 |-----------------------------------|-----|-----|----------------------------------------------------------|
