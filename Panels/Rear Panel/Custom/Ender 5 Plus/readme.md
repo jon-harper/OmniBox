@@ -1,4 +1,4 @@
-# The Majawat
+# Ender 5 Plus
 
 This rear panel is made for the Ender 5 Plus. Any printer that has a high-mounted gantry and a large heated bed may find this panel useful.
 
