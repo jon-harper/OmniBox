@@ -12,9 +12,10 @@ This project is derived from the Steve Burcham's [Stand Alone Main Control Case]
 ## Quick Links
 
 - [GitHub with STLs](https://github.com/jon-harper/OmniBox)
+- [Visual Guided Tour](tour.md)
 - [Supported Part List](support/index.md)
-- [Bill of Materials](bom.md)
 - [Printing Guide](printing.md)
+- [Bill of Materials](bom.md)
 - [Assembly Guide](assembly/index.md)
 
 | Front Left Render | Right Side View |

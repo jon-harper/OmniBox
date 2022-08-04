@@ -30,12 +30,6 @@ There are five (5) Core components: three (3) universal parts and two (2) that h
 
 These parts are required. They do not have variations.
 
-| Part                  | Printed Qty | STL      |
-|-----------------------|-------------|----------|
-| Base - Front          | 1           | [STL][1] |
-| Base - Rear           | 1           | [STL][2] |
-| Main Body - Crossbar  | 1           | [STL][3] |
-
 #### Base - Front
 
 This is part of a pair that covers the power supply. There is a 30mm x 11mm rocker switch cutout in front, as well as air vents and an optional 40mm fan.
@@ -48,59 +42,97 @@ The back covers the rest of the power supply and mounts a fused IEC power plug.
 
 This is a simple crossbar that covers the joint between the lids and front display.
 
+#### STLs
+
+| Part                       | Printed Qty | Link     |
+|----------------------------|-------------|----------|
+| `Base - Front.stl`         | 1           | [STL][1] |
+| `Base - Rear.stl`          | 1           | [STL][2] |
+| `Main Body - Crossbar.stl` | 1           | [STL][3] |
+
 ### Core Parts with Variants
 
-Your power supply (PSU) will mount underneath the main body. The [`Core`][14] folder has one subfolder for each supported PSU.
+Your power supply unit (PSU) will mount underneath the main body. The [`Core`][14] folder has one subfolder for each supported PSU.
+
+Currently the two supported PSUs are:
+
+- Mean Well LRS-350
+- Mean Well RSP-500
 
 #### Main Body - Front
 
-The front main body comes in two variations to choose from. Print only one (1) version.
+The front main body comes in two variations to choose from.
 
-If you print the version with a 60mm intake fan, you will need to print the appropriate [fan cage][6] and (optionally) a TPU gasket.
+Pictured above is the default version with a 40mm intake. If you print the version with a 60mm intake fan, you will need to print the appropriate [fan cage][6] and (optionally) a TPU gasket.
 
-| Variation                                | LRS-350 STL | RSP-500 STL | Description |
-|------------------------------------------|-------------|-------------|-------------|
-| `Main Body - Front with 40mm Intake.stl` | [STL][]    | [STL][]    | The default version of the case with intake vents and a concealed 40mm fan. |
-| `Main Body - Front with 60mm Intake.stl` | [STL][]    | [STL][]    | Mounts an external 60mm intake fan. |
+| Variation                                | Printed Qty |LRS-350 Link | RSP-500 Link |
+|------------------------------------------|-------------|--------------|--------------|
+| `Main Body - Front with 40mm Intake.stl` | 1           | [STL][7]     | [STL][9]     |
+| `Main Body - Front with 60mm Intake.stl` | 1           | [STL][8]     | [STL][10]    |
 
 #### Main Body - Rear
 
-### Main Body
+The rear main body also comes in two variations.
 
-The front and rear main body each have variations in the number and type of fans mounted. These parts also mount your power supply (PSU).
+Pictured is the default version with two (2) 40mm exhaust fans. For this version, you will also need to print [40mm fan cages][6] and (optionally) TPU gaskets.
 
-
-Pictured is the default configuration with a 40mm front intake and two 40mm rear exhausts. More about this is discussed in the [printing guide][4].
+| Variation                                | Printed Qty | LRS-350 Link | RSP-500 Link |
+|------------------------------------------|-------------|--------------|--------------|
+| `Main Body - Rear No Fans.stl`           | 1            | [STL][11]   | [STL][15]   | 
+| `Main Body - Rear with 40mm Exhausts.stl`| 1            | [STL][12]   | [STL][16]   |
 
 ## Trays
 
 [![the three types of trays][2]][2]
 
-1. MCU tray
-2. Full length lower bay tray
-3. CPU tray
+| Trays           | Qty     | Folder Link | Notes     |
+|-----------------|---------|-------------|-----------|
+| MCU tray        | 1       | [Link][22]  |           |
+| CPU tray        | 1       | [Link][20]  | Print a blank cover if unused. |
+| Lower bay trays | 0-4     | [Link][21]  | Optional. |
+
+The links above are to folders instead of individual `.STL` files. You will need to choose the right `.STL` files for your components. Each folder has a `readme.md` with information about product support and any attribution credits.
+
+Templates are usually available in both STEP and Fusion 360 format to add support for new products.
 
 ### MCU Tray
 
 MCU trays mount a microcontroller unit--your 3D printer board.
 
+[List of supported MCUs][24]
+
 ### Lower Bay
 
 The lower bay is a configurable area to mount parts like buck converters and MOSFETs.
 
+[List of supported lower bay parts][25]
+
 ### CPU Tray
 
-The CPU tray is an optional mount for a Raspberry Pi. There is a plain cover if you do not use a Raspberry Pi or other SoC CPU.
+The CPU tray is an optional mount for a Raspberry Pi. There is a blank cover if you do not use a Raspberry Pi or other SoC CPU.
 
-## Panels and Fan Cages
+[List of supported CPUs][23]
 
-[![panels and fan cages][3]][3]
+## Panels
+
+[![callout of each panel type][3]][3]
 
 1. Front panel
 2. Display panel
 3. Lid
 4. Rear panel (not visible)
-5. Fan cage
+5. Fan cage (see [next section](#fan-cages))
+
+| Panels        | Qty | Folder Link | Notes |
+|---------------|-----|-------------|-------|
+| Display Mount | 1   | [Link][26]  |       |
+| Front Panel   | 1   | [Link][27]  |       |
+| Lid           | 1-2 | [Link][28]  |       |
+| Rear Panel    | 1   | [Link][29]  | See [directions](#rear-panel) below. |
+
+As with trays, the links above are to folders rather than individual `.STL` files. Each panel can serve more than one purpose and has a range of choices. 
+
+There is a blank STEP and Fusion template for each panel category. Additionally, all panels have both STEP and Fusion source files.
 
 ### Front Panel
 
@@ -110,14 +142,11 @@ The front panel serves as an air vent and location to put an SD card reader exte
 
 This area mounts numberous types of displays, from the basic 128x64 display to Raspbery Pi TFTs.
 
-### Lid
+### Lid(s)
 
-The lid is both a way into your case and a configurable panel. There are half-length lids available, as well.
+The lid is both a way into your case and a configurable panel.
 
-Examples:
-
-1. A full-length lid with a handle;
-2. A half-length lid in front with a handle and a half-length lid in back with a fan.
+There are two types of lids: full-length and half-length lids. You can either print one (1) full-length lid or two (2) half-length lids.
 
 ### Rear Panel
 
@@ -125,9 +154,16 @@ The rear panel is used for ventilation, passing wiring out of your case, and opt
 
 Rear panels with panel mounted connectors are an active area of work.
 
-### Fan Cage
+| Folder           | Description | Use If... |
+|------------------|-------------|-----------|
+| [`Generic`][30]  | These have large holes for passing wires through and come in a number of common variations. | ...You want a simple, off-the-shelf solution and there is not a custom panel that suits. |
+| [`Custom`][31]   | Designed for users of common printer configurations. | ...Your printer has a configuration available. |
+| [`Molex`][32]    | Use Molex Micro Fit 3 panel mounted connectors. Wiring diagrams for each panel are included. | ...You plan to create a wiring harness for an enclosed printer. |
+| [`Template`][33] | A Fusion template with profiles for panel mounted connectors and fans. | ...You want to create your own panel. |
 
-Externally mounted fans use cages cages to cover the fan blades. There are a large number of fan sizes supported.
+## Fan Cages
+
+Externally mounted fans use [fan cages][13] to cover the fan blades. There are a large number of fan sizes supported, each with a matching gasket.
 
 [1]: img/printed_parts/core.png
 [2]: img/printed_parts/trays.png
@@ -135,4 +171,27 @@ Externally mounted fans use cages cages to cover the fan blades. There are a lar
 [4]: printing.md#core-parts-with-variants
 [5]: support/boards.md
 [6]: https://github.com/jon-harper/OmniBox/tree/main/Fan%20Cages
+[7]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20LRS-350/Main%20Body%20-%20Front%20with%2040mm%20Intake.stl
+[8]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20LRS-350/Main%20Body%20-%20Front%20with%2060mm%20Intake.stl
+[9]: ttps://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20RSP-500/Main%20Body%20-%20Front%20with%2040mm%20Intake.stl
+[10]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20RSP-500/Main%20Body%20-%20Front%20with%2060mm%20Intake.stl
+[11]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20LRS-350/Main%20Body%20-%20Rear%20No%20Fans.stl
+[12]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20LRS-350/Main%20Body%20-%20Rear%20with%2040mm%20Exhausts.stl
+[13]: https://github.com/jon-harper/OmniBox/tree/main/Fan%20Cages
 [14]: https://github.com/jon-harper/OmniBox/tree/main/Core/
+[15]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20RSP-500/Main%20Body%20-%20Rear%20No%20Fans.stl
+[16]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20RSP-500/Main%20Body%20-%20Rear%20with%2040mm%20Exhausts.stl
+[20]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU
+[21]: https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay
+[22]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU
+[23]: support/boards.md#soc-cpu-boards
+[24]: support/boards.md#mcu-boards
+[25]: support/lower_bay.md
+[26]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display
+[27]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel
+[28]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid
+[29]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel
+[30]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Generic
+[31]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Custom
+[32]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Molex
+[33]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Template

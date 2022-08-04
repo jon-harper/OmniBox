@@ -13,7 +13,6 @@ markdown_extensions:
 nav:
   - index.md
   - tour.md
-  - gallery.md
   - Supported Parts:
     - support/index.md
     - support/boards.md
@@ -21,11 +20,14 @@ nav:
     - support/panel_mounts.md
     - support/fans.md
     - support/lower_bay.md
-  - bom.md
   - printing.md
-  - Assembly:
+  - bom.md
+  - Assembly Guide:
     - assembly/index.md
     - assembly/core.md
     - assembly/trays.md
     - assembly/panels.md
+  - Version History:
+    - gallery.md
+    # - releases.md
   
