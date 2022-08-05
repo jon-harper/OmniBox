@@ -28,6 +28,9 @@ nav:
     - assembly/trays.md
     - assembly/panels.md
   - Version History:
-    - gallery.md
-    # - releases.md
+    - history/index.md
+    - history/v0.9.7.md
+    - history/v0.9.5.md
+    - history/v0.9.md
+    - history/development.md
   

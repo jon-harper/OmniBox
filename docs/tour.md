@@ -61,9 +61,11 @@ Currently the two supported PSUs are:
 
 #### Main Body - Front
 
-The front main body comes in two variations to choose from.
+The front main body comes in two variations to choose from. If you print the version with a 60mm intake fan, you will need to print the appropriate [fan cage][6] and (optionally) a TPU gasket.
 
-Pictured above is the default version with a 40mm intake. If you print the version with a 60mm intake fan, you will need to print the appropriate [fan cage][6] and (optionally) a TPU gasket.
+| 40mm Optional Fan | 60mm External Fan |
+|-------------------|-------------------|
+| ![front with 40mm fan mount][34] | ![front with 60mm fan cutout][35]
 
 | Variation                                | Printed Qty |LRS-350 Link | RSP-500 Link |
 |------------------------------------------|-------------|--------------|--------------|
@@ -72,9 +74,11 @@ Pictured above is the default version with a 40mm intake. If you print the versi
 
 #### Main Body - Rear
 
-The rear main body also comes in two variations.
+The rear main body also comes in two variations. For the dual 40mm fan version, you will also need to print [40mm fan cages][6] and (optionally) TPU gaskets.
 
-Pictured is the default version with two (2) 40mm exhaust fans. For this version, you will also need to print [40mm fan cages][6] and (optionally) TPU gaskets.
+| Dual 40mm Fans  | No Fan Mounts |
+|-----------------|---------------|
+| ![rear with 40mm fan cuouts][36] | ![rear body without fan cutouts][37]
 
 | Variation                                | Printed Qty | LRS-350 Link | RSP-500 Link |
 |------------------------------------------|-------------|--------------|--------------|
@@ -130,9 +134,9 @@ The CPU tray is an optional mount for a Raspberry Pi. There is a blank cover if 
 | Lid           | 1-2 | [Link][28]  |       |
 | Rear Panel    | 1   | [Link][29]  | See [directions](#rear-panel) below. |
 
-As with trays, the links above are to folders rather than individual `.STL` files. Each panel can serve more than one purpose and has a range of choices. 
+As with trays, the links above are to folders rather than individual `.STL` files. Panels have a range of supported parts and options. 
 
-There is a blank STEP and Fusion template for each panel category. Additionally, all panels have both STEP and Fusion source files.
+There is a blank STEP and Fusion template for each panel category. Additionally, all panel variations have both STEP and Fusion source files.
 
 ### Front Panel
 
@@ -195,3 +199,7 @@ Externally mounted fans use [fan cages][13] to cover the fan blades. There are a
 [31]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Custom
 [32]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Molex
 [33]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Template
+[34]: img/examples/front_40mm.png
+[35]: img/examples/front_60mm.png
+[36]: img/examples/rear_40mm.png
+[37]: img/examples/rear_no_fans.png
