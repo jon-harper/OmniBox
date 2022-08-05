@@ -9,6 +9,23 @@ Welcome to the documentation for the OmniBox, a modular electronics case for 3D 
 
 This project is derived from the Steve Burcham's [Stand Alone Main Control Case](https://www.thingiverse.com/thing:3999751) V3 footprint; it is a unique design with a lower height and compatibility with larger microcontroller unit (MCU) boards like BIGTREETECH's Octopus. Smaller boards will also fit and the case is compatible with a wide range of parts.
 
+| Front Left Render | Right Side View |
+|-----------------|------------------|
+| [![render of the front left][1]][1] | [![right side view][3]][3] |
+
+## Version Stability Guarantee
+
+OmniBox takes some time to print in its entirety. This makes incompatibility between versions painful; upgrading one printed part should not require others to be reprinted.
+
+At certain milestones, certain parts of OmniBox became "stable" in how they connect with other parts. This means that if you choose to print a newer version of a Core part, no panels or trays will need to be reprinted to fit. I've also called this "API Stability", borrowing a term from software development.
+
+With version 0.9.8:
+
+- The mounting interfaces for panels and trays are frozen.
+- Old panels and trays will always be usable with new Core components and vice versa.
+
+In addition, the interface *between* core parts is frozen across all versions, so a base can be used with a main body of a different version.
+
 ## Quick Links
 
 - [GitHub with STLs](https://github.com/jon-harper/OmniBox)
@@ -17,10 +34,6 @@ This project is derived from the Steve Burcham's [Stand Alone Main Control Case]
 - [Printing Guide](printing.md)
 - [Bill of Materials](bom.md)
 - [Assembly Guide](assembly/index.md)
-
-| Front Left Render | Right Side View |
-|-----------------|------------------|
-| [![render of the front left][1]][1] | [![right side view][3]][3] |
 
 ## About / Background
 
