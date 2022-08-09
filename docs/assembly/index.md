@@ -26,3 +26,6 @@ These instructions are for the default OmniBox fan configuration with two 40mm f
 This guide cannot cover every mounting combination for trays and panels; however, the git repository should have Bill of Material information for mounting components to their respective tray or panel.
 
 Areas where the Core parts may differ from instructions are specifically called out.
+
+!!! note
+    Because OmniBox is under active development, the directions may use multiple slightly different versions of OmniBox. The differences in appearance will not affect the assembly process.

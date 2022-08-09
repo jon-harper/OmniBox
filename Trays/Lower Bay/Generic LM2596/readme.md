@@ -14,7 +14,7 @@ These trays mounts one (1) or two (2) basic, 2-3A LM2596 buck converters.
 
 ## STL Files
 
-### `Lower Bay Tray - HiLetGo LM2596 - Full Dual.stl`
+### `Lower Bay Tray - Generic LM2596 - Full Dual.stl`
 
 - Tray Length: Full
 - Print with Supports: No
@@ -36,6 +36,9 @@ These trays mounts one (1) or two (2) basic, 2-3A LM2596 buck converters.
 
 ### `Lower Bay Tray - Generic LM2596 - Full Dual with Fan.stl`
 
+- Tray Length: Full
+- Print with Supports: Optional
+
 | Bill of Materials             | Quantity |
 |-------------------------------|----------|
 | Generic LM2596 buck converter | 2        |
@@ -44,6 +47,9 @@ These trays mounts one (1) or two (2) basic, 2-3A LM2596 buck converters.
 | M3 x 16mm machine screws      | 4        |
 
 ### `Lower Bay Tray - Generic LM2596 - Full Single with Fan.stl`
+
+- Tray Length: Full
+- Print with Supports: Optional
 
 | Bill of Materials             | Quantity |
 |-------------------------------|----------|

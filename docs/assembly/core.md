@@ -19,7 +19,7 @@ You will need:
 | Printed front base        | 1   | [Base - Front.stl][3]           |
 | Printed rear base         | 1   | [Base - Rear.stl][4]            |
 
-Directions
+Directions:
 
 | Step | Example |
 |------|---------|
@@ -27,8 +27,28 @@ Directions
 | Push the power switch into the cutout in the front of the base. The sides of the switch will compress until it snaps into place. | [![power switch insertion][2]][2] |
 | Insert the IEC socket into the rear base, followed by the M3 x 16mm screws.| [![inserted IEC socket and M3 screws][5]][5] |
 | There are two pockets for hex nuts opposing the M3 screws. One hex nut at a time, press a nut in place while turning the opposing screw. Once the threads of the screw catch the nut, continue threading until the nut is tight. | [![tightened hex nuts][6]][6] |
-| There is a 40mm fan mount behind one of the front air vents. If you wish to use a 40mm fan there, install it now with four (4) M3 x 16mm screws.
+| There is a 40mm fan mount behind one of the front air vents. If you wish to use a 40mm fan there, install it now with four (4) M3 x 16mm screws. | [![base with optional fan installed][27]][27] |
 | Now is a good time to run the AC wiring for the power supply. Zip tie anchors are available for the wire run from socket to switch and back to power supply. | [![power supply with cleaned up wiring][7]][7] |
+
+### Base Extensions
+
+If you are installing the base extensions (needed for the RSP-500 power supply), follw the next steps. If not, skip down to the [Main Body section](#2-main-body).
+
+You will need:
+
+| Parts                     | Qty | Note                            |
+|---------------------------|-----|---------------------------------|
+| M3 x 8mm screws           | 4   | Any length up to 20mm will work.|
+| Printed front extension   | 1   | [Base - Front Extension.stl][29]|
+| Printed rear extension    | 1   | [Base - Rear Extension.stl][30] |
+
+Directions:
+
+| Step | Example |
+|------|---------|
+| Flip the base upside down. | [![the base body upside down][31]][31] |
+| Place the front extension over the front edge of the base, as pictured. Attach with two (2) M3 x 8mm screws. | [![front extension assembled][32]][32] |
+| Place the rear extension over the rear edge of the base. Attach with two (2) M3 x 8mm screws. | [![rear extension assembled][33]][33] |
 
 ## 2. Main Body
 
@@ -70,7 +90,7 @@ Directions:
 
 ## 3. Fans
 
-Fan locations and sizes vary by configuration. This step is specific to the configuration assembled in this guide. The length of screws needed and printed parts will vary, but the method of mounting fans used here is identical for all fan sizes.
+Fan locations and sizes vary by configuration. This section is specific to the configuration assembled in this guide. The length of screws needed and printed parts will vary, but the method of mounting fans used here is identical for all sizes of externally mounted fans.
 
 !!! note
     60mm and smaller fans are mounted with M3 screws. 80mm and larger user M4 screws.
@@ -84,6 +104,13 @@ You will need:
 | Printed 40mm fan cage     | 2   | [4010 Fan Cage.stl][19]           |
 | Printed TPU gasket        | 2   | Optional. [4010 Fan Gasket, TPU.stl][20] |
 
+Additionally, if you wish to mount a fan in the front main body air intake, you will need:
+
+| Parts                     | Qty | Note                              |
+|---------------------------|-----|-----------------------------------|
+| M3 x 16mm screws          | 4   |                                   |
+| 40x40x10mm fan            | 1   |                                   |
+
 | Step | Example |
 |------|---------|
 | Place a fan inside the cage. The stickered side of the motor indicates direction of airflow, so we have it facing towards the fan grill. | [![fan inside the mounting cage, sticker side up][21]][21] |
@@ -91,6 +118,7 @@ You will need:
 | Insert the fan's wires through the cutout in the main body. Partially thread in two (2) M3 x 20mm screws on opposing sides of the fan cage. | [![fan with screws][24]][24]
 | Insert and thread the other two (2) M3 screws. Ensure the fan's wires do not pinch or bind, then finish tightening all four (4) screws. | [![fans installed][25]][25] |
 | Repeat the above process for the second fan. | [![fan wires][26]][26] |
+| If you wish to mount a fan in the air intake, place the fan with the airflow oriented inwards. Use four (4) M4 x 16mm screws to fasten the fan in place. | [![attached 40mm fan][28]][28]
 
 [1]: ../img/assembly/base_assembled.jpg
 [2]: ../img/assembly/base_switch.jpg
@@ -117,3 +145,10 @@ You will need:
 [24]: ../img/assembly/fan_screws1.jpg
 [25]: ../img/assembly/fan_screws2.jpg
 [26]: ../img/assembly/fan_finished.jpg
+[27]: ../img/assembly/base_fan.jpg
+[28]: ../img/assembly/fan_optional.jpg
+[29]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front%20Extension.stl
+[30]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear%20Extension.stl
+[31]: ../img/assembly/base_flipped.jpg
+[32]: ../img/assembly/extension_front.jpg
+[33]: ../img/assembly/extension_rear.jpg

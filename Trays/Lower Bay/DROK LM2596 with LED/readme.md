@@ -36,6 +36,9 @@ These trays mount one (1) or two (2) "DROK"-style LM2596 buck converter with an 
 
 ### `Lower Bay Tray - DROK LM2596 - Full Dual with Fan.stl`
 
+- Tray Length: Full
+- Print with Supports: Optional
+
 | Bill of Materials           | Quantity |
 |-----------------------------|----------|
 | DROK LM2596 buck converter  | 2        |
@@ -44,6 +47,9 @@ These trays mount one (1) or two (2) "DROK"-style LM2596 buck converter with an 
 | M3 x 16mm machine screws    | 4        |
 
 ### `Lower Bay Tray - DROK LM2596 - Full Single with Fan.stl`
+
+- Tray Length: Full
+- Print with Supports: Optional
 
 | Bill of Materials           | Quantity |
 |-----------------------------|----------|

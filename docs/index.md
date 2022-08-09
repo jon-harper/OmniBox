@@ -13,18 +13,6 @@ This project is derived from the Steve Burcham's [Stand Alone Main Control Case]
 |-----------------|------------------|
 | [![render of the front left][1]][1] | [![right side view][3]][3] |
 
-## Version Stability Guarantee
-
-OmniBox takes some time to print in its entirety. This makes incompatibility between versions painful; upgrading one printed part should not require others to be reprinted.
-
-At certain milestones, certain parts of OmniBox became "stable" in how they connect with other parts. This means that if you choose to print a newer version of a Core part, no panels or trays will need to be reprinted to fit. I've also called this "API Stability", borrowing a term from software development.
-
-With version 0.9.8:
-
-- The mounting interfaces for panels and trays are frozen.
-- Old panels and trays will always be usable with new Core components and vice versa.
-
-In addition, the interface *between* core parts is frozen across all versions, so a base can be used with a main body of a different version.
 
 ## Quick Links
 
@@ -34,6 +22,19 @@ In addition, the interface *between* core parts is frozen across all versions, s
 - [Printing Guide](printing.md)
 - [Bill of Materials](bom.md)
 - [Assembly Guide](assembly/index.md)
+
+## Version Stability Guarantee
+
+OmniBox takes some time to print in its entirety. This makes incompatibility between versions painful; upgrading one printed part should not require others to be reprinted.
+
+The printed components of OmniBox are "stable" in how they connect with other printed parts. This means that if you choose to print a newer version of a Core part, no panels or trays will need to be reprinted to fit. I've also called this "API Stability", to borrow a term from software development.
+
+With version 0.9.8:
+
+- The mounting interfaces for panels and trays are frozen.
+- Old panels and trays will always be usable with new Core components and vice versa.
+
+In addition, the interface *between* Core components is frozen across all versions, e.g., a base can be used with a main body of a different version.
 
 ## About / Background
 
@@ -48,9 +49,9 @@ Enclosed 3D printing requires controlling more hardware than comes with a typica
 
 My enclosures are safe to 60C, but I don't want to expose my electronic hardware to that. I printed my first of Steve's electronics cases to remove my hardware from the heat.
 
-As 24 volts is the common DC voltage for 3D printers, each 12V device such as a fan or LED strip needs a buck converter. My printed cases for these printer/enclosure combos were cramped with buck converters. With up to three of each over the microcontroller unit (MCU), I couldn't easily reach the wiring underneath. Additionally, I found myself in need of a new MCU board to use for my printers.
+Most common devices like fans and lights (and Raspberry Pis!) need a buck converter to work with a 3D printer's power supply. My printed cases for these printer/enclosure combos were cramped with these. With up to three buck converters on trays that mount over the microcontroller unit (MCU), I couldn't easily reach the wiring underneath.
 
-Enter the Octopus, which I had used to success with another project.  BIGTREETECH's Octopus 1.1 is a solid board that provides ample power sources and signal pins. The Octopus will not fit the existing electronics cases I had already printed; I also had a several improvements in mind for Steve's case concept.
+Additionally, I wanted to use the BIGTREETECH's Octopus in a case, which I had used to success with another project. The Octopus 1.1 is a solid board that provides ample power sources and signal pins. The Octopus does fit the electronics cases I had already printed; I also had a several improvements in mind for Steve's case concept.
 
 ### Building the OmniBox
 
