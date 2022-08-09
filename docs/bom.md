@@ -10,7 +10,7 @@ The General Components list is a base list common to all builds. Additional comp
 There are no affiliate links used on this site.
 
 !!! note
-    In certain places, the design allows for longer-than-specified screws. The assembly process notes where substitutions can be made.
+    In certain places, the design allows for longer-than-specified screws. The [assembly guide](assembly/index.md) notes where substitutions can be made.
 
 ## General Components
 

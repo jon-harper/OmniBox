@@ -7,8 +7,6 @@ date: 2022-07-22
 
 This page lists CPUs and MCUs that are currently compatible with OmniBox.
 
-Each component name links to the corresponding git folder.
-
 ## SoC CPU Boards
 
 ![render of a Raspberry Pi on a tray](../img/examples/cpu.png)
