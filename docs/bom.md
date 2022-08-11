@@ -12,7 +12,7 @@ There are no affiliate links used on this site.
 !!! note
     In certain places, the design allows for longer-than-specified screws. The [assembly guide](assembly/index.md) notes where substitutions can be made.
 
-## General Components
+## Universal Bill of Materials
 
 These parts are common to all case builds. See below for additional requirements based on configuration.
 
@@ -32,20 +32,21 @@ These parts are common to all case builds. See below for additional requirements
 | MCU (3D printer control board)         | 1   | ea  | See the [Supported Parts][8] list.                       |
 | [IEC C14 socket with fuse][3]          | 1   | ea  | Identical profile to Creality Ender series power socket. |
 | 128x64 or TFT LCD display              | 1   | ea  | See the [Supported Parts][8] list.                       |
+| Compatible power supply                | 1   | ea  | See below.                                               |
 
 !!! note
     Metric equivalent to #6 x 3/4" is M3 x 20mm. Equivalent length machine screws can also be used if wood screws are unavailable.
 
-## Power Supplies
+### Power Supplies
 
 Currently, two power supplies are supported. You will need one (1) of the following:
 
 | Item                              | Note                                                     |
 |-----------------------------------|----------------------------------------------------------|
-| [Mean Well RSP-500][5]            | RSP-500-24 is used in the Ender 5 Plus.                  |
+| [Mean Well RSP-500][5]            | **(Prelimary)** RSP-500-24 is used in the Ender 5 Plus.  |
 | [Mean Well LRS-350][4]            | Most Ender-series printers use the LRS-350-24.           |
 
-## Additional Components
+## Core Configurations
 
 Some Core component versions have optional fan mounts, while others have ones that are required.
 
@@ -80,7 +81,9 @@ This version of the front main body *requires* an externally mounted 60mm fan.
 | [60x60x15mm axial fan][7]         | 1   | ea  | May also use 20mm or 25mm thick fans.                    |
 | M4 x 25mm machine screws          | 4   | ea  | Add 10mm to fan depth for thicker fans.                  |
 
-### 3. Main Body - Rear with 40mm Exhausts
+### 3. Main Body - Rear
+
+#### With 40mm Exhausts
 
 There are two versions of the rear main body. This version of the *requires* two externally mounted 40mm fans.
 
@@ -89,7 +92,11 @@ There are two versions of the rear main body. This version of the *requires* two
 | [40x40x10mm axial fans][6]        | 2   | ea  | May also use 20mm thick fans; this is not recommended due to noise. |
 | M3 x 20mm machine screws          | 8   | ea	| Use 30mm screws for 20mm fans.                           |
 
-## Optional Components
+#### No Fans
+
+There are no additional materials required for this version.
+
+## Tray and Panel Configurations
 
 ### CPU Trays and Display Panels
 

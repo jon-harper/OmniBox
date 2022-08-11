@@ -57,7 +57,7 @@ Your power supply unit (PSU) will mount underneath the main body. The [`Core`][1
 Currently the two supported PSUs are:
 
 - Mean Well LRS-350
-- Mean Well RSP-500
+- Mean Well RSP-500 **(Prelimary)**
 
 #### Main Body - Front
 
@@ -167,7 +167,9 @@ Rear panels with panel mounted connectors are an active area of work.
 
 ## Fan Cages
 
-Externally mounted fans use [fan cages][13] to cover the fan blades. There are a large number of fan sizes supported, each with a matching gasket.
+![render of a case with two 40mm fans and a 60mm fan mounted externally][38]
+
+Externally mounted fans use [fan cages][13] to cover the fan blades. There are a large number of fan sizes supported, each with a matching TPU gasket. The gaskets are entirely optional, as many printers cannot print TPU.
 
 [1]: img/printed_parts/core.png
 [2]: img/printed_parts/trays.png
@@ -203,3 +205,4 @@ Externally mounted fans use [fan cages][13] to cover the fan blades. There are a
 [35]: img/examples/front_60mm.png
 [36]: img/examples/rear_40mm.png
 [37]: img/examples/rear_no_fans.png
+[38]: img/examples//rear_fans.png

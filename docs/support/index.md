@@ -7,6 +7,17 @@ date: 2022-07-03
 
 This is an overview of components supported by OmniBox. The linked git folders should contain both an `STL` for printing and a `STEP` to allow modification. Fusion files are also typically available where they can be exported.
 
+## Power Supplies
+
+OmniBox supports the Mean Well LRS-350 and clones (e.g., Landy). There is preliminary support for the Mean Well RSP-500.
+
+The main body comes in different versions for power supply compatibility. Each power supply has a git folder under `Core`, e.g `Core/Mean Well LRS-350`. After you [choose a front and rear main body version][9], print the STLs from the folder that matches your power supply.
+
+| Power Supply                      | Note                                                     |
+|-----------------------------------|----------------------------------------------------------|
+| [Mean Well LRS-350][7]            | Most Creality Ender-series printers use the LRS-350-24.  |
+| [Mean Well RSP-500][8]            | **(Prelimary)** RSP-500-24 is used in the Ender 5 Plus.  |
+
 ## Trays
 
 ### CPU and MCU Trays
@@ -43,3 +54,6 @@ See the [Printing Guide][6] to help choose the best configuration for your avail
 [4]: lower_bay.md
 [5]: fans.md
 [6]: ../printing.md
+[7]: https://github.com/jon-harper/OmniBox/tree/main/Core/Mean%20Well%20LRS-350
+[8]: https://github.com/jon-harper/OmniBox/tree/main/Core/Mean%20Well%20RSP-500
+[9]: ../tour.md#core-parts-with-variants

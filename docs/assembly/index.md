@@ -13,7 +13,10 @@ This guide is divided into three sections:
 - [Trays](trays.md): Lower bay, CPU, and MCU tray assembly
 - [Panels](panels.md): Displays, lids, front & rear panels
 
-Photos from this assembly process are from the 0.9.8 release. If you have an older or newer version, some configuration details may differ.
+Photos from these instructions are for the 0.9.8 release. If you have an older or newer version, some details may differ.
+
+!!! note
+    The example photos in some steps use slightly different versions of OmniBox. The differences in appearance will not affect the assembly process.
 
 ## Time
 
@@ -26,6 +29,3 @@ These instructions are for the default OmniBox fan configuration with two 40mm f
 This guide cannot cover every mounting combination for trays and panels; however, the git repository should have Bill of Material information for mounting components to their respective tray or panel.
 
 Areas where the Core parts may differ from instructions are specifically called out.
-
-!!! note
-    Because OmniBox is under active development, the directions may use multiple slightly different versions of OmniBox. The differences in appearance will not affect the assembly process.
