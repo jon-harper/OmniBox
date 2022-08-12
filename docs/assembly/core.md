@@ -11,8 +11,8 @@ You will need:
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
-| M4 x 16mm screws          | 4   | Can substitute with M4 x 20mm   |
-| M3 x 16mm screws          | 2   | Can substitute with M3 x 20mm   |
+| M4 x 16mm machine screws          | 4   | Can substitute with M4 x 20mm   |
+| M3 x 16mm machine screws          | 2   | Can substitute with M3 x 20mm   |
 | M3 hex nuts               | 2   |                                 |
 | SPST toggle switch        | 1   |                                 |
 | IEC C14 socket with fuse  | 1   |                                 |
@@ -27,7 +27,7 @@ Directions:
 | Push the power switch into the cutout in the front of the base. The sides of the switch will compress until it snaps into place. | [![power switch insertion][2]][2] |
 | Insert the IEC socket into the rear base, followed by the M3 x 16mm screws.| [![inserted IEC socket and M3 screws][5]][5] |
 | There are two pockets for hex nuts opposing the M3 screws. One hex nut at a time, press a nut in place while turning the opposing screw. Once the threads of the screw catch the nut, continue threading until the nut is tight. | [![tightened hex nuts][6]][6] |
-| There is a 40mm fan mount behind one of the front air vents. If you wish to use a 40mm fan there, install it now with four (4) M3 x 16mm screws. | [![base with optional fan installed][27]][27] |
+| There is a 40mm fan mount behind one of the front air vents. If you wish to use a 40mm fan there, install it now with four (4) M3 x 16mm machine screws. | [![base with optional fan installed][27]][27] |
 | Now is a good time to run the AC wiring for the power supply. Zip tie anchors are available for the wire run from socket to switch and back to power supply. | [![power supply with cleaned up wiring][7]][7] |
 
 ### Base Extensions
@@ -38,7 +38,7 @@ You will need:
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
-| M3 x 8mm screws           | 4   | Any length up to 20mm will work.|
+| M3 x 8mm machine screws           | 4   | Any length up to 20mm will work.|
 | Printed front extension   | 1   | [Base - Front Extension.stl][29]|
 | Printed rear extension    | 1   | [Base - Rear Extension.stl][30] |
 
@@ -56,10 +56,10 @@ You will need:
 
 | Parts                     | Qty | Note                              |
 |---------------------------|-----|-----------------------------------|
-| M3 x 8mm screws           | 6   | Can substitute M3 x 10mm or 12mm. |
-| #6 x 3/4" screws          | 8   | See note below.                   |
-| M3 x 16mm screws          | 2   | Can substitute M3 x 20mm.         |
-| M4 x 6mm screws           | 4   | See caution below.                |
+| M3 x 8mm machine screws   | 6   | Can substitute M3 x 10mm or 12mm. |
+| #6 x 3/4" sharp point screws | 8   | See note below.                   |
+| M3 x 16mm machine screws  | 2   | Can substitute M3 x 20mm.         |
+| M4 x 6mm machine screws   | 4   | See caution below.                |
 | Printed front main body   | 1   | [Main Body - Front with 40mm Intake.stl][9] used here. |
 | Printed rear main body    | 1   | [Main Body - Rear with 40mm Exhausts.stl][10] used here. |
 | Printed crossbar          | 1   | [Main Body - Crossbar][8]         |
@@ -73,18 +73,18 @@ Notes and Cautions:
 !!! caution
     Always stop if you feel resistance when fastening screws to the power supply.
     
-    Screws longer than 8mm may touch components in the power supply and short or damage them. Most models have no extra cleareance for overtightening if 8mm screws are used; thus we advice 6mm for safety.
+    Screws longer than 8mm may touch components in the power supply and short or damage them. Most models have no extra cleareance for overtightening if 8mm machine screws are used; thus we advice 6mm for safety.
 
 Directions:
 
 | Step | Example |
 |------|---------|
-| Using six (6) M3 x 8mm screw, add a screw at a time to fasten the rear body to the front. Alternate sides with each screw. **Note**: Insert the screws from the back to the front of the case. | [![inserting m3 screws][11]][11]
+| Using six (6) M3 x 8mm screws, add a screw at a time to fasten the rear body to the front. Alternate sides with each screw. **Note**: Insert the screws from the back to the front of the case. | [![inserting m3 screws][11]][11]
 | Here we have all six screws inserted. | [![finished][12]][12]|
 | Line up the holes on the top of the power supply with the main body. The holes pointed at in the picture need to align. | [![power supply location][13]][13] |
 | Mount the power supply using four (4) M4 x 8mm screws. | [![power supply location][14]][14] |
 | Place the assembled main body on top of the base. Using your long machine or sheet metal screws, partially thread one screw near one of the rear corners and an opposing front corner. | [![first two screws][15]][15] |
-| Fasten the main body and base together with your long M3 screws or sheet metal screws. | [![remaining screws inserted][16]][16] |
+| Fasten the main body and base together with your long M3 or #6 screws. | [![remaining screws inserted][16]][16] |
 | Place the crossbar in place at the joint between the lid and display mounts. Take note of the orientation in the picture. | [![crossbar assembly][17]][17]
 | Attach the crossbar with an M3 x 16mm screw in each side. | [![crossbar assembly][18]][18]
 
@@ -93,13 +93,13 @@ Directions:
 Fan locations and sizes vary by configuration. This section is specific to the configuration assembled in this guide. The length of screws needed and printed parts will vary, but the method of mounting fans used here is identical for all sizes of externally mounted fans.
 
 !!! note
-    60mm and smaller fans are mounted with M3 screws. 80mm and larger user M4 screws.
+    60mm and smaller fans are mounted with M3 machine screws. 80mm and larger use M4 machine screws.
 
 You will need:
 
 | Parts                     | Qty | Note                              |
 |---------------------------|-----|-----------------------------------|
-| M3 x 20mm screws          | 8   |                                   |
+| M3 x 20mm machine screws  | 8   |                                   |
 | 40x40x10mm fans           | 2   | Can use 4015 or 4020 fans with the correct fan cage and gasket. |
 | Printed 40mm fan cage     | 2   | [4010 Fan Cage.stl][19]           |
 | Printed TPU gasket        | 2   | Optional. [4010 Fan Gasket, TPU.stl][20] |
@@ -108,7 +108,7 @@ Additionally, if you wish to mount a fan in the front main body air intake, you 
 
 | Parts                     | Qty | Note                              |
 |---------------------------|-----|-----------------------------------|
-| M3 x 16mm screws          | 4   |                                   |
+| M3 x 16mm machine screws  | 4   |                                   |
 | 40x40x10mm fan            | 1   |                                   |
 
 | Step | Example |

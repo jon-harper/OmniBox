@@ -44,14 +44,18 @@ The current release is 0.9.8, released on 2022-08-14.
 
 ## Gallery
 
-| Renders and Photos    |   |
-|-----------------------|---|
-| New base intakes      | [![front right render][1]][1] |
-| Better TPU gaskets    | [![closeup of installed TPU gasket on fan and cage][2]][2] |
+| Renders and Photos        |   |
+|---------------------------|---|
+| New base intakes          | [![front right render][1]][1] |
+| Optional 40mm base fan    | [![hidden 40mm fan installed in the front base][5]][5]
+| Optional 40mm front intake fan | [![hidden 40mm fan installed in the front main body intake][6]][6]
+| Better TPU gaskets        | [![closeup of installed TPU gasket on fan and cage][2]][2] |
 | Simpler MCU installation and removal | [![installed MCU tray][3]][3] |
-| Early 0.9.8 assembly | [![oscar assembled][4]][4] |
+| Early 0.9.8 assembly      | [![oscar assembled][4]][4] |
 
 [1]: ../img/gallery_0.9.8/front_right.png
 [2]: ../img/gallery_0.9.8/gasket.jpg
 [3]: ../img/gallery_0.9.8/mcu_tray.jpg
 [4]: ../img/gallery_0.9.8/oscar_front.jpg
+[5]: ../img/gallery_0.9.8/fan_base.jpg
+[6]: ../img/gallery_0.9.8/fan_front.jpg

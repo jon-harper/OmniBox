@@ -15,15 +15,15 @@ If you are using a SoC CPU, you will need:
 |---------------------------|-----|---------------------------------|
 | SoC CPU                   | 1   | Here we use a Raspberry Pi 3B+  |
 | Printed CPU tray          | 1   | [CPU Tray - RPi 3B Plus.stl][1] |
-| M3 x 6mm screws           | 4   |                                 |
-| M3 x 8mm screws           | 4   |                                 |
+| M3 x 6mm machine screws   | 4   |                                 |
+| M3 x 8mm machine screws   | 4   |                                 |
 
 Otherwise, you will need:
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
 | Unused CPU tray cover     | 1   | [Unused CPU Tray Cover.stl][2]  |
-| M3 x 8mm screws           | 4   |                                 |
+| M3 x 8mm machine screws   | 4   |                                 |
 
 Notes:
 
@@ -31,12 +31,12 @@ Notes:
     The instructions below are for installing with a CPU. Skip the first step for the unused CPU tray cover.
 
 !!! note
-    The Raspberry Pi comes with M2.5 screw holes, but can be bored out easily with M3 screws.
+    The Raspberry Pi comes with M2.5 screw holes, but can be bored out easily with M3 machine screws.
 
 | Step | Example |
 |------|---------|
-| Mount the Raspberry Pi with 6mm M3 screws to the tray. | [![raspberry pi installation][5]][5] |
-| Slide the tray into the side bay on the left side. | [![tray location][6]][6] |
+| Mount the Raspberry Pi to the tray with M3 x6mm screws. | [![raspberry pi installation][5]][5] |
+| Slide the tray into the left side bay. | [![tray location][6]][6] |
 | Use M3 x 8mm screws to fasten the tray in place. | [![tray location][7]][7] |
 
 ## 2. Lower Bay
@@ -48,7 +48,7 @@ You will need:
 | Parts                     | Qty | Note                                                |
 |---------------------------|-----|-----------------------------------------------------|
 | Printed lower bay tray    | 1   |                                                     |
-| M3 x 8mm screws           | 4   | All lower bay trays mount with four (4) of these.   |
+| M3 x 8mm machine screws   | 4   | All lower bay trays mount with four (4) of these.   |
 
 For this example, we also use:
 
@@ -56,7 +56,7 @@ For this example, we also use:
 |--------------------------------------------|-----|------------------------------------------------|
 | [DROK 5A Buck Converter][13]               | 1   |                                                |
 | [Lower Bay - DROK 5A Buck with LED.stl][3] | 1   | Full-length lower bay tray example.            |
-| M3 x 6mm screws                            | 2-4 | Can use any length up to 12mm for this tray.   |
+| M3 x 6mm machine screws                    | 2-4 | Can use any length up to 12mm for this tray.   |
 
 | Step | Example |
 |------|---------|
@@ -72,8 +72,8 @@ You will need:
 |---------------------------|-----|---------------------------------------------|
 | MCU board                 | 1   |                                             |
 | Printed MCU tray          | 1   |                                             |
-| M3 x 6mm screws           | 4   | Most boards mount using four (4) screws.    |
-| M4 x 8mm screws           | 4   | All MCU trays mount with four (4) of these. |
+| M3 x 6mm machine screws   | 4   | Most boards mount using four (4) screws.    |
+| M4 x 8mm machine screws   | 4   | All MCU trays mount with four (4) of these. |
 
 In this example we use:
 
