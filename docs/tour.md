@@ -67,7 +67,7 @@ The front main body comes in two variations to choose from. If you print the ver
 |-------------------|-------------------|
 | ![front with 40mm fan mount][34] | ![front with 60mm fan cutout][35]
 
-| Variation                                | Printed Qty |LRS-350 Link | RSP-500 Link |
+| Variation                                | Printed Qty | LRS-350 Link | RSP-500 Link |
 |------------------------------------------|-------------|--------------|--------------|
 | `Main Body - Front with 40mm Intake.stl` | 1           | [STL][7]     | [STL][9]     |
 | `Main Body - Front with 60mm Intake.stl` | 1           | [STL][8]     | [STL][10]    |
@@ -162,14 +162,14 @@ Rear panels with panel mounted connectors are an active area of work.
 |------------------|-------------|-----------|
 | [`Generic`][30]  | These have large holes for passing wires through and come in a number of common variations. | ...You want a simple, off-the-shelf solution and there is not a custom panel that suits. |
 | [`Custom`][31]   | Designed for users of common printer configurations. | ...Your printer has a configuration available. |
-| [`Molex`][32]    | Use Molex Micro Fit 3 panel mounted connectors. Wiring diagrams for each panel are included. | ...You plan to create a wiring harness for an enclosed printer. |
-| [`Template`][33] | A Fusion template with profiles for panel mounted connectors and fans. | ...You want to create your own panel. |
+| [`Molex`][32]    | Use Molex Micro Fit 3 panel mounted connectors. Pinout diagrams for each panel are included. | ...You plan to create a wiring harness for an enclosed printer. |
+| [`Template`][33] | A Fusion 360 template with profiles for panel mounted connectors and fans. | ...You want to create your own panel. |
 
 ## Fan Cages
 
 ![render of a case with two 40mm fans and a 60mm fan mounted externally][38]
 
-Externally mounted fans use [fan cages][13] to cover the fan blades. There are a large number of fan sizes supported, each with a matching TPU gasket. The gaskets are entirely optional, as many printers cannot print TPU.
+Externally mounted fans use [fan cages][13] to cover the fan blades. There are a large number of fan sizes supported, each with a matching TPU gasket. The gaskets are optional.
 
 [1]: img/printed_parts/core.png
 [2]: img/printed_parts/trays.png

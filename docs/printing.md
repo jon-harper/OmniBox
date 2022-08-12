@@ -19,29 +19,29 @@ These settings are consistent for all parts.
 | Material           | PLA or PLA+ | PETG is somewhat brittle and may take longer to print on many printers. |
 | Nozzle Diameter    | 0.4mm       | 0.6mm should also work. If you print a case with a different nozzle size, please share your results! |
 
-
-
 ## Choosing the Correct STL Files
 
 See the [guided tour](tour.md) for for help choosing the right STL files.
 ## Print Checklist
 
 
-| Part                  | Printed Qty | Required | Notes |
-|-----------------------|-------------|----------|-------|
-| Base - Front          | 1           | Yes      | |
-| Base - Rear           | 1           | Yes      | |
-| Main Body - Crossbar  | 1           | Yes      | |
-| Main Body - Front     | 1           | Yes      | Two versions available. |
-| Main Body - Rear      | 1           | Yes      | Two versions available. |
-| MCU Tray              | 1           | Yes      |       |
-| CPU Tray              | 1           | No       | Cover plate can be used instead. |
-| Display Mount         | 1           | Yes      |       |
-| Lid                   | 1-2         | Yes      | One full-length or two half-length lids. |
-| Rear Panel            | 1           | Yes      |       |
-| Lower Bay Trays       | 1-4         | No       | Type and quantity specific to configuration. |
-| Fan Cages             | (varies)    | No       | Quantity and size depend on configuration. |
-| Fan Gaskets           | (varies)    | No       | Optional; quantity and size depend on configuration. |
+| Part                          | Print Qty | Required | Notes |
+|-------------------------------|-----------|----------|-------|
+| [Base - Front][1]             | 1         | Yes      |       |
+| [Base - Rear][2]              | 1         | Yes      |       |
+| [Base - Front Extension][19]  | 1         | No       | Optional. |
+| [Base - Rear Extension][20]   | 1         | No       | Optional. |
+| [Main Body - Crossbar][3]     | 1         | Yes      |       |
+| Main Body - Front             | 1         | Yes      | See the [tour][21] on choosing a version to print. |
+| Main Body - Rear              | 1         | Yes      | See the [tour][21] on choosing a version to print. |
+| [MCU Tray][7]                 | 1         | Yes      |       |
+| [CPU Tray][8]                 | 1         | Yes; see note.| Cover plate can be used instead. |
+| [Display Mount][9]            | 1         | Yes      |       |
+| [Lid][10]                     | 1-2       | Yes      | One full-length or two half-length lids. |
+| [Rear Panel][11]              | 1         | Yes      |       |
+| [Lower Bay Trays][13]         | 1-4       | No       | Type and quantity specific to configuration. |
+| [Fan Cages][6]                | (varies)  | Yes; see note. | Quantity and size depend on configuration. |
+| [TPU Fan Gaskets][6]          | (varies)  | No       | Optional; quantity and size depend on configuration. |
 
 
 [1]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl
@@ -62,3 +62,6 @@ See the [guided tour](tour.md) for for help choosing the right STL files.
 [16]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Custom
 [17]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Molex
 [18]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Template
+[19]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front%20Extension.stl
+[20]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear%20Extension.stl
+[21]: tour.md#core-parts-with-variants
