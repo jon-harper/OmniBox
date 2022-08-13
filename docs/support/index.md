@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Parts Overview
 summary: A list of parts supported by OmniBox
 authors: Jon Harper
 date: 2022-07-03
@@ -16,7 +16,7 @@ The main body comes in different versions for power supply compatibility. Each p
 | Power Supply                      | Note                                                     |
 |-----------------------------------|----------------------------------------------------------|
 | [Mean Well LRS-350][7]            | Most Creality Ender-series printers use the LRS-350-24.  |
-| [Mean Well RSP-500][8]            | **(Prelimary)** RSP-500-24 is used in the Ender 5 Plus.  |
+| [Mean Well RSP-500][8]            | **(Preliminary)** RSP-500-24 is used in the Ender 5 Plus.|
 
 ## Trays
 
@@ -46,14 +46,14 @@ An assortment of fans are supported and include cages and optional TPU shims. Se
 
 The front and rear main bodies come in versions with and without fans. The rear panel and lid can also be used for mounting fans.
 
-See the [Printing Guide][6] to help choose the best configuration for your available parts.
+See the [Guided Tour][6] to help choose the best configuration for your available parts.
 
 [1]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel
 [2]: boards.md
 [3]: displays.md
 [4]: lower_bay.md
 [5]: fans.md
-[6]: ../printing.md
+[6]: ../tour.md
 [7]: https://github.com/jon-harper/OmniBox/tree/main/Core/Mean%20Well%20LRS-350
 [8]: https://github.com/jon-harper/OmniBox/tree/main/Core/Mean%20Well%20RSP-500
 [9]: ../tour.md#core-parts-with-variants

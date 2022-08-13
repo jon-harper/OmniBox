@@ -14,7 +14,7 @@ You will need at least:
 | Parts                     | Qty | Note                                            |
 |---------------------------|-----|-------------------------------------------------|
 | Printed front panel       | 1   |                                                 |
-| M3 x 8mm screws           | 2   | All front panels mount using two (2) of these.  |
+| M3 x 8mm machine screws   | 2   | All front panels mount using two (2) of these.  |
 
 In this example, we will use:
 
@@ -23,8 +23,8 @@ In this example, we will use:
 | [Front Panel - Micro SD Extension with USB C.stl][18] | 1   | Printed front panel example |
 | [Micro SD card extension][14]                         | 1   |       |
 | [USB C panel mount extension][15]                     | 1   |       |
-| M3 x 6mm screws                                       | 2   |       |
-| M3 x 8mm screws                                       | 2   |       |
+| M3 x 6mm machine screws                               | 2   |       |
+| M3 x 8mm machine screws                               | 2   |       |
 
 | Step | Example |
 |------|---------|
@@ -43,7 +43,7 @@ You will need at least:
 | Parts                     | Qty | Note                                            |
 |---------------------------|-----|-------------------------------------------------|
 | A printed rear panel      | 1   |                                                 |
-| M4 x 8mm screws           | 8   | All rear panels mount using eight (8) of these. |
+| M4 x 8mm machine screws   | 8   | All rear panels mount using eight (8) of these. |
 
 Our rear panel in this example is a panel mount test piece, but all rear panels follow the same pattern.
 
@@ -67,7 +67,7 @@ You will need at least:
 |---------------------------|-----|----------------------------------------------------------|
 | Printed display panel     | 1   |                                                          |
 | LCD display               | 1   |                                                          |
-| M4 x 12mm screws          | 4   | All display screen panels mount using four (4) of these. |
+| M4 x 12mm machine screws  | 4   | All display screen panels mount using four (4) of these. |
 
 For this example, we will use:
 
@@ -75,7 +75,7 @@ For this example, we will use:
 |---------------------------|-----|-------------------------------------------------|
 | [Generic 12864 Display Mount][19] | 1  | Example of a printed display panel.      |
 | Creality 12864 display    | 1   | LCD display example                             |
-| M3 x 6mm screws           | 4   |                                                 |
+| M3 x 6mm machine screws   | 4   |                                                 |
 
 !!! note
     Some display mounts have more than one piece and require additional screws. The below is an example with a stock Creality 12864 display.
@@ -95,14 +95,14 @@ You will need for any lid or pair of half-lids:
 
 | Parts                     | Qty | Note                                            |
 |---------------------------|-----|-------------------------------------------------|
-| M3 x 8mm screws           | 8   | See note below.                                 |
+| M3 x 8mm machine screws   | 8   | See note below.                                 |
 | Printed lid               | 1   |                                                 |
 
 In this example, we also use:
 
 | Parts                     | Qty | Note                                            |
 |---------------------------|-----|-------------------------------------------------|
-| M3 x 8mm screws           | 2   |                                                 |
+| M3 x 8mm machine screws   | 2   |                                                 |
 | [Carry handle][12]        | 1   |                                                 |
 | [Carry handle lid][13]    | 1   | Example of a printed lid.                       |
 

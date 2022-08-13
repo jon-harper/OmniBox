@@ -19,6 +19,7 @@ These parts are common to all case builds. See below for additional requirements
 | Item                                   | Qty | UOM | Note                                                     |
 |----------------------------------------|-----|-----|----------------------------------------------------------|
 | PLA or PLA+ filament                   | 2   | kg  | May be printable in 1kg if using a single color.         |
+| TPU 95A filament *(optional)*          | 0.1 | kg  | Optional. Quantity is maximum estimated.                 |
 | M3 x 6mm machine screws                | 4   | ea  |                                                          |
 | M3 x 8mm machine screws                | 20  | ea  |                                                          |
 | M3 x 16mm machine screws               | 4   | ea  |                                                          |
@@ -32,7 +33,7 @@ These parts are common to all case builds. See below for additional requirements
 | MCU (3D printer control board)         | 1   | ea  | See the [Supported Parts][8] list.                       |
 | [IEC C14 socket with fuse][3]          | 1   | ea  | Identical profile to Creality Ender series power socket. |
 | 128x64 or TFT LCD display              | 1   | ea  | See the [Supported Parts][8] list.                       |
-| Compatible power supply                | 1   | ea  | See below.                                               |
+| Compatible power supply                | 1   | ea  | See [Power Supplies](#power-supplies) below.             |
 
 !!! note
     Metric equivalent to #6 x 3/4" is M3 x 20mm. Equivalent length machine screws can also be used if wood screws are unavailable.
@@ -43,8 +44,8 @@ Currently, two power supplies are supported. You will need one (1) of the follow
 
 | Item                              | Note                                                     |
 |-----------------------------------|----------------------------------------------------------|
-| [Mean Well RSP-500][5]            | **(Prelimary)** RSP-500-24 is used in the Ender 5 Plus.  |
-| [Mean Well LRS-350][4]            | Most Ender-series printers use the LRS-350-24.           |
+| [Mean Well LRS-350][4]            | Most Creality Ender-series printers use the LRS-350-24.  |
+| [Mean Well RSP-500][5]            | **(Preliminary)** RSP-500-24 is used in the Ender 5 Plus.  |
 
 ## Core Configurations
 
@@ -61,9 +62,9 @@ The base has an optional 40mm fan. The following are needed to mount the fan:
 
 ### 2. Main Body - Front
 
-There are two version of the front main body.
+There are two versions of the front main body.
 
-#### With 40mm Intake
+#### Default: With 40mm Intake
 
 This version of the front main body has an optional 40mm fan. The following are needed to mount the fan:
 
@@ -72,9 +73,9 @@ This version of the front main body has an optional 40mm fan. The following are 
 | [40x40x10mm axial fans][6]        | 1   | ea  |                                                          |
 | M3 x 16mm machine screws          | 4   | ea	| Any length 14-16mm will work.                            |
 
-#### With 60mm Intake
+#### Alternate: With 60mm Intake
 
-This version of the front main body *requires* an externally mounted 60mm fan.
+This version of the front main body requires an externally mounted 60mm fan.
 
 | Item                              | Qty | UOM | Note                                                     |
 |-----------------------------------|-----|-----|----------------------------------------------------------|
@@ -83,18 +84,23 @@ This version of the front main body *requires* an externally mounted 60mm fan.
 
 ### 3. Main Body - Rear
 
-#### With 40mm Exhausts
+The rear body also has two versions: one with dual exhausts and one without any.
 
-There are two versions of the rear main body. This version of the *requires* two externally mounted 40mm fans.
+#### Default: With 40mm Exhausts
+
+This version of the requires two externally mounted 40mm fans.
 
 | Item                              | Qty | UOM | Note                                                     |
 |-----------------------------------|-----|-----|----------------------------------------------------------|
 | [40x40x10mm axial fans][6]        | 2   | ea  | May also use 20mm thick fans; this is not recommended due to noise. |
 | M3 x 20mm machine screws          | 8   | ea	| Use 30mm screws for 20mm fans.                           |
 
-#### No Fans
+#### Alternate: No Fans
 
-There are no additional materials required for this version.
+There are no additional materials required for this version. 
+
+!!! note
+    This rear main body must be used a rear panel or lid that provides an exhaust fan.
 
 ## Tray and Panel Configurations
 
