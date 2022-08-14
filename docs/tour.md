@@ -14,11 +14,13 @@ Links are provided to the respective git folder for each component type.
 
 ## Core Components
 
-[![the five core components][1]][1]
-
 Core components form the basis of every electronics case. They can be found in the [`Core`][14] folder in the GitHub repository.
 
 There are five (5) Core components: three (3) universal parts and two (2) that have variations.
+
+[![the five core components][1]][1]
+
+These are the components, as numbered in the picture above.
 
 1. Main Body - Front
 2. Main Body - Crossbar
@@ -87,17 +89,15 @@ The rear main body also comes in two variations. For the dual 40mm fan version, 
 
 ## Trays
 
+Trays are used for mounting parts internally. They come in three types:
+
 [![the three types of trays][2]][2]
 
-| Trays           | Qty     | Folder Link | Notes     |
-|-----------------|---------|-------------|-----------|
-| MCU tray        | 1       | [Link][22]  |           |
-| CPU tray        | 1       | [Link][20]  | Print a blank cover if unused. |
-| Lower bay trays | 0-4     | [Link][21]  | Optional. |
+1. MCU tray
+2. Lower bay tray
+3. CPU tray
 
-The links above are to folders instead of individual `.STL` files. You will need to choose the right `.STL` files for your components. Each folder has a `readme.md` with information about product support and any attribution credits.
-
-Templates are usually available in both STEP and Fusion 360 format to add support for new products.
+Tray templates are available in both STEP and Fusion 360 format to add support for new products.
 
 ### MCU Tray
 
@@ -183,7 +183,7 @@ Externally mounted fans use [fan cages][13] to cover the fan blades. There are a
 [10]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20RSP-500/Main%20Body%20-%20Front%20with%2060mm%20Intake.stl
 [11]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20LRS-350/Main%20Body%20-%20Rear%20No%20Fans.stl
 [12]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20LRS-350/Main%20Body%20-%20Rear%20with%2040mm%20Exhausts.stl
-[13]: https://github.com/jon-harper/OmniBox/tree/main/Fan%20Cages
+[13]: support/fans.md
 [14]: https://github.com/jon-harper/OmniBox/tree/main/Core/
 [15]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20RSP-500/Main%20Body%20-%20Rear%20No%20Fans.stl
 [16]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20RSP-500/Main%20Body%20-%20Rear%20with%2040mm%20Exhausts.stl
