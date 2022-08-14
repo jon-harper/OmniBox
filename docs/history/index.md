@@ -5,13 +5,14 @@ authors: Jon Harper
 date: 2022-08-04
 ---
 
-The current release is 0.9.8, released on 2022-08-14.
+The current release is 0.9.8, released on 2022-08-\[16\].
 
 ## Fixes
 
 - Button head screws work for the crossbar now.
 - Clarified 6mm/8mm screws for power supplies.
 - Documentation greatly improved for newcomers.
+- Fan cages provide much more airflow.
 
 ## New Features
 
@@ -23,6 +24,8 @@ The current release is 0.9.8, released on 2022-08-14.
 - New front vents for the base and larger side vents.
 - Two new optional 40mm fans concealed in the intakes.
 - MCU trays can be removed without removing the rear panel.
+- Fan cages have a parametric template now.
+- Multiple new fan cage sizes.
 
 ### Panels and Trays
 - New half-length lids.
@@ -30,6 +33,7 @@ The current release is 0.9.8, released on 2022-08-14.
 - Lower bay trays for buck converters and simple, 4-point mounts are now Fusion 360 templates.
 - New trays can be added by modifying the Fusion template and exporting the results.
 - The template includes mounts with fans and the new half-length size.
+- Added support for 5A DROK buck converter and a single 40mm fan.
 
 ### Documentation & Repository
 - Broke out product support documentation across three pages. Each product includes images and mounting hardware.

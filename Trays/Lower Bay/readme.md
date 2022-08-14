@@ -17,6 +17,6 @@ Folders often contain multiple variants. Each folder has a readme that discusses
 
 ## Template Files
 
-A template in both STEP and Fusion formats is available in the `Template` subfolder.
+A blank template in both STEP and Fusion formats is available in the `Template` subfolder.
 
 [1]: https://jon-harper.github.io/OmniBox/support/lower_bay/
