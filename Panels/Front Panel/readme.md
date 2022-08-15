@@ -2,11 +2,11 @@
 
 | Folder           | Description | Use If... |
 |------------------|-------------|-----------|
-| `Lanmu Micro SD Extension`  | **Recommended** This mounts an SD card extension and optionally a USB connector. | ...You need quick and easy access to your SD MCU card slot. |
-| `Vents`   | Plain intake vents in several styles. | ...You do not need any panel mounted accessories. |
-| `Template` | A Fusion 360 template with profiles for panel mounted connectors. | ...You want to create your own panel. |
+| `Lanmu Micro SD Extension`  | **Recommended** This mounts an SD card extension and optionally a USB connector. | ...You need quick and easy access to your MCU's SD card slot. |
+| `Vent Only`   | Plain intake vents in several styles. | ...You do not need any panel mounted accessories. |
+| `Template` | A blank template and a master Fusion file for the existing panels. | ...You want to create your own panel. |
 
-## Do you need panel mounted connectors SD card or USB connectors?
+## Do you need panel mounted MicroSD or USB connectors?
 
 If "No", choose an STL file from the `Vents` folder.
 
@@ -26,4 +26,4 @@ This panel come with three variants:
 
 ## `Template`
 
-For custom configurations, see the `Template` folder.
+To create a custom front panel, head to the `Template` folder. This folder also contains the master Fusion 360 file used to generate all front panel variants.
