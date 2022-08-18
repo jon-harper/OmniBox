@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-07-03
 ---
 
-This is an overview of components supported by OmniBox. The linked git folders should contain both an `STL` for printing and a `STEP` to allow modification. Fusion files are also typically available where they can be exported.
+This is an overview of components supported by OmniBox. The linked git folders should contain both an `STL` for printing and `STEP` files for modification. Fusion 360 source files are also usually available.
 
 ## Power Supplies
 

@@ -48,9 +48,9 @@ This is a simple crossbar that covers the joint between the lids and front displ
 
 | Part                       | Printed Qty | Link     |
 |----------------------------|-------------|----------|
-| `Base - Front.stl`         | 1           | [STL][1] |
-| `Base - Rear.stl`          | 1           | [STL][2] |
-| `Main Body - Crossbar.stl` | 1           | [STL][3] |
+| `Base - Front.stl`         | 1           | [STL][41] |
+| `Base - Rear.stl`          | 1           | [STL][42] |
+| `Main Body - Crossbar.stl` | 1           | [STL][43] |
 
 ### Core Parts with Variants
 
@@ -59,7 +59,7 @@ Your power supply unit (PSU) will mount underneath the main body. The [`Core`][1
 Currently the two supported PSUs are:
 
 - Mean Well LRS-350
-- Mean Well RSP-500 **(Prelimary)**
+- Mean Well RSP-500 **(Preliminary)**
 
 #### Main Body - Front
 
@@ -206,3 +206,6 @@ Externally mounted fans use [fan cages][13] to cover the fan blades. There are a
 [36]: img/examples/rear_40mm.png
 [37]: img/examples/rear_no_fans.png
 [38]: img/examples//rear_fans.png
+[41]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl
+[42]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear.stl
+[43]: https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Crossbar.stl

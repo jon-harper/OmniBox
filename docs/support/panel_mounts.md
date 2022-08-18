@@ -11,16 +11,15 @@ date: 2022-07-22
 
 ### Front Panels
 
-The front panel is long and slim and can be used for mounting small hardware ports. The most common examples are SD Card extensions and USB extensions.
+The front panel is long and slim and can be used for mounting small hardware ports. The most common examples are SD Card extensions and USB extensions. You can find these files in the [Panels/Front Panel][8] git folder.
 
 The example below has a Micro SD extension and USB-C extension with slat-style vents.
 
 ![front panel example](../img/gallery_0.9.7/front_panel.png)
 
-
 ### Rear Panels
 
-Rear Panels are the most customizable part of OmniBox. They can mount connectors and fans and modified to suit each end user. There are also a number of generic templates available in the [Panels/Rear Panels][1] git folder.
+Rear Panels are the most customizable part of OmniBox. They can mount connectors and fans and modified to suit each end user. There are also a number of generic templates available in the [Panels/Rear Panel][7] git folder.
 
 This rear panel uses Molex Micro Fit 3 connectors. In addition, it has a cutout for a 60mm fan and USB-C extension.
 
@@ -42,3 +41,5 @@ This rear panel uses Molex Micro Fit 3 connectors. In addition, it has a cutout 
 [4]:  https://www.amazon.com/gp/product/B071P2BGK5
 [5]:  https://www.amazon.com/gp/product/B07YYSP5F5
 [6]: https://www.digikey.com/en/products/detail/molex/0430200200/252490
+[7]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel
+[8]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel
