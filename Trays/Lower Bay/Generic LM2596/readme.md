@@ -2,7 +2,7 @@
 
 ## Overview
 
-These trays mounts one (1) or two (2) basic, 2-3A LM2596 buck converters.
+These trays mounts one (1) or two (2) basic, 2-3A LM2596 buck converters. Some versions also mount a 40mm fan.
 
 | Field                 | Description               |
 |-----------------------|---------------------------|
