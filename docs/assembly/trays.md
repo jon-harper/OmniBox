@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-07-31
 ---
 
-*Intro section*
+Trays hold the "guts" of the case: the electronics that make it work. The CPU tray slides in from the side, while lower bay and MCU trays mount in the back.
 
 ## 1. CPU Tray
 
@@ -83,7 +83,7 @@ In this example we use:
 | [MCU Tray - Octopus.stl][4] | 1 | Example printed MCU tray.                   |
 
 !!! note
-    The MCU tray has four M4 screw holes on the sides. Take note of the orientation of your board on the tray and where it will end up before mounting. Try to align your SD card connector toward the front and power connectors toward the back.
+    The MCU tray has four M4 screw holes on the sides. Take note of the orientation of your board on the tray and where it will end up before mounting. Try to align your power connectors toward the back and SD card port to the front or sides.
 
 | Step | Example |
 |------|---------|

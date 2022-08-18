@@ -2,21 +2,27 @@
 
 | Folder           | Description | Use If... |
 |------------------|-------------|-----------|
-| `Lanmu Micro SD Extension`  | **Recommended** This mounts an SD card extension and optionally a USB connector. | ...You need quick and easy access to your MCU's SD card slot. |
+| `Lanmu Micro SD Extension`  | **Recommended** Mounts a MicroSD extension and optionally a USB connector. | ...You need quick and easy access to your MCU's SD card slot. |
 | `Vent Only`   | Plain intake vents in several styles. | ...You do not need any panel mounted accessories. |
 | `Template` | A blank template and a master Fusion file for the existing panels. | ...You want to create your own panel. |
 
+Note: each variant of the front panel comes with three vent types to choose from.
+
+- Hexagon
+- Slats
+- Slots
+
 ## Do you need panel mounted MicroSD or USB connectors?
 
-If "No", choose an STL file from the `Vents` folder.
+If "No", choose an STL file from the `Vent Only` folder.
 
 If "Yes", see below.
 
 ## `Lanmu Micro SD Extension`
 
-This panel extends your MCU's SD card reader and optionally your MCU's USB port.
+This folder contains panels that extend your MCU's SD card reader and optionally your MCU's USB port.
 
-This panel come with three variants:
+There are three variants:
 
 - USB C
 - USB A

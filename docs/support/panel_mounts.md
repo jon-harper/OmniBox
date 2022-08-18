@@ -13,7 +13,7 @@ date: 2022-07-22
 
 The front panel is long and slim and can be used for mounting small hardware ports. The most common examples are SD Card extensions and USB extensions.
 
-This front panel has a Micro SD extension and USB-C extension.
+The example below has a Micro SD extension and USB-C extension with slat-style vents.
 
 ![front panel example](../img/gallery_0.9.7/front_panel.png)
 
