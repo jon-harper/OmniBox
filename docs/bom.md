@@ -100,7 +100,7 @@ This version of the requires two externally mounted 40mm fans.
 There are no additional materials required for this version. 
 
 !!! note
-    This rear main body must be used a rear panel or lid that provides an exhaust fan.
+    This rear main body must be used with a rear panel or lid that provides an exhaust fan.
 
 ## Tray and Panel Configurations
 

@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-07-31
 ---
 
-Trays hold the "guts" of the case: the electronics that make it work. The CPU tray slides in from the side, while lower bay and MCU trays mount in the back.
+Trays hold the the electronics that your printer work: the "guts". The CPU tray slides in from the side of the front main body, while lower bay and MCU trays mount in the back main body.
 
 ## 1. CPU Tray
 

@@ -19,11 +19,9 @@ These settings are consistent for all parts.
 | Material           | PLA or PLA+ | PETG is somewhat brittle and may take longer to print on many printers. |
 | Nozzle Diameter    | 0.4mm       | 0.6mm should also work. If you print a case with a different nozzle size, please share your results! |
 
-## Choosing the Correct STL Files
-
-See the [guided tour](tour.md) for for help choosing the right STL files.
 ## Print Checklist
 
+This is a checklist of parts to print. Most of these parts have variations; see the [guided tour](tour.md) for help selecting the right STL files from the git repository.
 
 | Part                          | Print Qty | Required | Notes |
 |-------------------------------|-----------|----------|-------|
@@ -42,7 +40,6 @@ See the [guided tour](tour.md) for for help choosing the right STL files.
 | [Lower Bay Trays][13]         | 1-4       | No       | Type and quantity specific to configuration. |
 | [Fan Cages][6]                | (varies)  | Yes; see note. | Quantity and size depend on configuration. |
 | [TPU Fan Gaskets][6]          | (varies)  | No       | Optional; quantity and size depend on configuration. |
-
 
 [1]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl
 [2]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear.stl
