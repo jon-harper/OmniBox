@@ -17,7 +17,7 @@ If "Yes", skip to the "Molex Panel Mounts" section below.
 
 These have a large cutout for wiring to pass through. They come with two options:
 
-- USB Panel Mount type (None, USB A, or USB C)
+- USB Panel Mount type (None, USB B, or USB C)
 - With or without 60mm fan cutout
 
 You can find the generic panels in the `Panels/Rear Panels/Generic` folders. Each combination of USB and fan is present as a subfolder (e.g., `USB C, No Fan`).
