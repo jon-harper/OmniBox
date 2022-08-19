@@ -24,8 +24,8 @@ This folder contains panels that extend your MCU's SD card reader and optionally
 
 There are three variants:
 
+- USB B
 - USB C
-- USB A
 - No USB panel mount
 
 *If you do not have an SD card extension, flashing your MCU will require removing the lid or display to access the SD card slot.*
