@@ -22,6 +22,6 @@ This component was introduced in version 0.9.8.1.
 3. There are two standoffs in on each side of the spool roller, both with holes in them. Set a 608ZZ ball bearing on each one.
 4. The standoffs should go halfway up the center of the ball bearings. Take another spool holder and place it face down so that the standoffs meet in the ball bearing.
 5. Insert an M3 screw in the *left* hole (the larger one) and screw it tight.
-6. Flip the assembly over and insert an M3 screw in the remaining hole on the left and tighten.
+6. Flip the assembly over and insert an M3 screw in the left (larger) hole and tighten.
 7. Repeat steps 2-6 to make another spool roller.
-8. Snap the rollers onto the lid guide and adjust the distance for your filament roll.
+8. Snap the rollers onto the lid guide and adjust the distance between the rollers for brand of filament.

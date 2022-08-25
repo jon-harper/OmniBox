@@ -1,34 +1,36 @@
 ---
-title: 0.9.8 Release (Current)
+title: 0.9.8.1 Release (Current)
 summary: Changelog for the current and past releases of OmniBox
 authors: Jon Harper
-date: 2022-08-04
+date: 2022-08-24
 ---
 
-The current release is 0.9.8, released on 2022-08-18.
+The current release is 0.9.8.1, released on 2022-xx-xx.
 
-## Fixes
+<!-- ## Fixes -->
 
-- Button head screws work for the crossbar.
-- Clarified 6mm/8mm screws for power supplies.
-- Documentation greatly improved for newcomers.
-- Fan cages provide much more airflow, print more quickly, and use less material.
-
-## New Features
-
-### Completed Requests
+<!-- ### Completed Requests
 
 | Hardware | Mount Location(s) | Notes |
-|----------|-------------------|-------|
-| Creality MOSFET | Lower bay | |
-| DROK 5A buck converter | Lower bay | Full sized tray only. |
-| 80mm fans | Rear panel, lid | Supports 20 & 25mm thicknesses. |
+|----------|-------------------|-------| -->
 
-Other:
+<!-- ### Core Improvements -->
 
-- New rear panel for the Ender 5 Plus with an 80mm fan.
+## Panels and Trays
+
+- Lids for spools!
+    - An adaptation of my [Tighter T.U.S.H. spool holder][2] (a remix of the original T.U.S.H.).
+    - It mounts on a lid that integrates the spool holder guide.
+    - The guide makes the spool holder adjustable to spool width (up to about 120mm).
+- Lids for dryboxes!
+    - A lid for [Rubbermaid 21 cup containers][1].
+    - These containers are about $5 each at Ace Mart.
+    - There are often clones of these on Amazon that are slightly more expensive (about $8-10 ea).
+    - May have lids for generic containers in the near future as a user contribution.
 
 ### Experimental Hardware Support
+
+These parts are still experimental from the prior release.
 
 | Hardware | Mount Location(s) | Notes |
 |----------|-------------------|-------|
@@ -37,24 +39,10 @@ Other:
 | Fotek SSR-60 DA solid state relay | Lower bay | |
 | 92mm fans | Rear panel, lid | 25mm thickness; no compatible mount yet. |
 
-### Core Improvements
-- New front vents for the base and larger side vents.
-- Two new optional 40mm fans concealed in the intakes.
-- MCU trays can be removed without removing the rear panel.
-- Fan cages have a parametric template.
+## Documentation & Repository
 
-### Panel and Tray Improvements
-- New half-length lids.
-- New half-length lower bay trays.
-- Lower bay trays for buck converters and simple, 4-point mounts are now Fusion 360 templates.
-- New trays can be added by modifying the Fusion template and exporting the results.
-- The template includes mounts with fans and the new half-length size.
-
-## Documentation & Repository Changes
-- Broke out product support documentation across three pages. Each product includes images and mounting hardware.
-- Divided assembly documentation into three sections and added info for Core variants.
-- Improved/better overall folder structure; all panel and tray variations have a separate folder.
-- Most git folders now have a `readme.md` to help with navigation and part selection.
+- Documentation site has a modified color scheme and fonts for readability.
+- New dark theme for the doc site.
 
 ## Known Issues
 
@@ -62,20 +50,9 @@ Other:
 
 ## Gallery
 
-| Renders and Photos        |   |
-|---------------------------|---|
-| New base intakes          | [![front right render][1]][1] |
-| New fan cages             | [![side of case with two new fan cages attached][7]][7]
-| Optional 40mm base fan    | [![hidden 40mm fan installed in the front base][5]][5]
-| Optional 40mm front intake fan | [![hidden 40mm fan installed in the front main body intake][6]][6]
-| Better TPU gaskets        | [![closeup of installed TPU gasket on fan and cage][2]][2] |
-| Simpler MCU installation and removal | [![installed MCU tray][3]][3] |
-| Early 0.9.8 assembly (no base air vents here) | [![oscar assembled][4]][4] |
+[![rendering of a case with a spool holder on top][3]][3]
 
-[1]: ../img/gallery_0.9.8/front_right.png
-[2]: ../img/gallery_0.9.8/gasket.jpg
-[3]: ../img/gallery_0.9.8/mcu_tray.jpg
-[4]: ../img/gallery_0.9.8/oscar_front.jpg
-[5]: ../img/gallery_0.9.8/fan_base.jpg
-[6]: ../img/gallery_0.9.8/fan_front.jpg
-[7]: ../img/gallery_0.9.8/new_fan_cages.jpg
+
+[1]: https://www.amazon.com/Rubbermaid-LEPUSEMTE469-711717429496-Container-Everyday/dp/B00XJRMW5M
+[2]: https://www.thingiverse.com/thing:4737072
+[3]: ../img/gallery_0.9.8.1/spool_holder.png
