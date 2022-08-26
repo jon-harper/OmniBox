@@ -24,7 +24,7 @@ If you do not use a CPU board, a [blank slot cover][6] can be used.
 
 ![render of a BTT Octopus on a tray](../img/examples/mcu.png)
 
-These parts are in the [Trays/MCU][8] git folder. Each component has its own subfolder. There are `STEP` and Fusion template files available for adding support for other boards.
+These parts are in the [Trays/MCU][8] git folder. Each component has its own subfolder. There are `STEP` and Fusion 360 template files available for adding support for other boards.
 
 | Component             | Supported Versions | Image |
 |-----------------------|----------|-------|

@@ -7,8 +7,9 @@ date: 2022-08-04
 
 This is a visual tour of an OmniBox. This page demonstrates:
 
-1. What each part does; and
-2. How OmniBox fits together.
+1. What the core parts of OmniBox are, along with their variations;
+2. What trays and panels do; and
+3. How these pieces fit together.
 
 Links are provided to the respective git folder for each component type.
 
@@ -63,7 +64,9 @@ Currently the two supported PSUs are:
 
 #### Main Body - Front
 
-The front main body comes in two variations to choose from. If you print the version with a 60mm intake fan, you will need to print the appropriate [fan cage][6] and (optionally) a TPU gasket.
+The front main body comes in two variations to choose from.
+
+The version with a 60mm external fan additional requires the appropriate [fan cage][6]. Optionally, a TPU gasket can also be used with the fan cage.
 
 | 40mm Optional Fan | 60mm External Fan |
 |-------------------|-------------------|
@@ -97,7 +100,7 @@ Trays are used for mounting parts internally. They come in three types:
 2. Lower bay tray
 3. CPU tray
 
-Tray templates are available in both STEP and Fusion 360 format to add support for new products.
+Tray templates are available in both `STEP` and Fusion 360 format to add support for new products.
 
 ### MCU Tray
 
@@ -136,15 +139,15 @@ The CPU tray is an optional mount for a Raspberry Pi. There is a blank cover if 
 
 As with trays, the links above are to folders rather than individual `.STL` files. Panels have a range of supported parts and options. 
 
-There is a blank STEP and Fusion template for each panel category. Additionally, all panel variations have both STEP and Fusion source files.
+There is a blank `STEP` and Fusion 360 template for each panel category. Additionally, all panel variations have `STEP` source files. Fusion 360 files are also usually available.
 
 ### Front Panel
 
-The front panel serves as an air vent and location to put an SD card reader extension. USB panel mount extensions are also a common accessory.
+The front panel serves as an air vent and location to put a MicroSD card reader extension. USB extensions are also a common accessory.
 
 ### Display Panel
 
-This area mounts numberous types of displays, from the basic 128x64 display to Raspbery Pi TFTs.
+This area mounts LCD displays, from the basic 128x64 character display to Raspbery Pi TFTs.
 
 ### Lid(s)
 

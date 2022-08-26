@@ -83,10 +83,10 @@ Directions:
 | Here we have all six screws inserted. | [![finished][12]][12]|
 | Line up the holes on the top of the power supply with the main body. The holes pointed at in the picture need to align. | [![power supply location][13]][13] |
 | Mount the power supply using four (4) M4 x 8mm screws. | [![power supply location][14]][14] |
-| Place the assembled main body on top of the base. Using your long machine or sheet metal screws, partially thread one screw near one of the rear corners and an opposing front corner. | [![first two screws][15]][15] |
-| Fasten the main body and base together with your long M3 or #6 screws. | [![remaining screws inserted][16]][16] |
+| Place the assembled main body on top of the base. Using your long machine or sharp point screws, partially thread one screw near one of the rear corners and an opposing front corner. | [![first two screws][15]][15] |
+| Continue adding screws on alternating sides until all eight (8) screws are partially threaded, then tighten them all. | [![remaining screws inserted][16]][16] |
 | Place the crossbar in place at the joint between the lid and display mounts. Take note of the orientation in the picture. | [![crossbar assembly][17]][17]
-| Attach the crossbar with an M3 x 16mm screw in each side. | [![crossbar assembly][18]][18]
+| Attach the crossbar with two (2) M3 x 16mm screws, one in each side. | [![crossbar assembly][18]][18]
 
 ## 3. Fans
 
