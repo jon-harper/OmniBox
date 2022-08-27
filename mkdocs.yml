@@ -3,6 +3,7 @@ site_description: Instructions for printing and assembly the OmniBox.
 site_author: Jon Harper
 site_url: https://jon-harper.github.io/OmniBox
 repo_url: https://github.com/jon-harper/OmniBox
+repo_name: jon-harper/OmniBox
 edit_uri: ""
 
 theme:
@@ -11,6 +12,9 @@ theme:
     logo: octicons/book-24
   features:
     - navigation.instant
+    # - navigation.tabs
+    - navigation.sections
+
   font:
     text: Noto Sans
     code: Source Code Pro
@@ -26,15 +30,21 @@ theme:
       primary: teal
       accent: deep orange
       toggle:
-        icon: material/lightbulb-on-outline
+        icon: material/lightbulb-on
         name: Switch to dark mode
 
 markdown_extensions:
   - admonition
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
 
 nav:
   - index.md
   - tour.md
+  - Requirements:
+    - printing.md
+    - bom.md
   - Supported Parts:
     - support/index.md
     - support/boards.md
@@ -42,8 +52,6 @@ nav:
     - support/panel_mounts.md
     - support/fans.md
     - support/lower_bay.md
-  - printing.md
-  - bom.md
   - Assembly Guide:
     - assembly/index.md
     - assembly/core.md

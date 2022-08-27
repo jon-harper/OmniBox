@@ -27,19 +27,19 @@ This is a checklist of parts to print. Most of these parts have variations; see 
 |-------------------------------|-----------|----------|-------|
 | [Base - Front][1]             | 1         | Yes      |       |
 | [Base - Rear][2]              | 1         | Yes      |       |
-| [Base - Front Extension][19]  | 1         | No       | Optional. |
-| [Base - Rear Extension][20]   | 1         | No       | Optional. |
+| [Base - Front Extension][19]  | 1         | Maybe    | Required when using a Mean Well RSP-500 power supply. |
+| [Base - Rear Extension][20]   | 1         | Maybe    | Required when using a Mean Well RSP-500 power supply. |
 | [Main Body - Crossbar][3]     | 1         | Yes      |       |
 | Main Body - Front             | 1         | Yes      | See the [tour][21] on choosing a version to print. |
 | Main Body - Rear              | 1         | Yes      | See the [tour][21] on choosing a version to print. |
 | [MCU Tray][7]                 | 1         | Yes      |       |
-| [CPU Tray][8]                 | 1         | Yes; see note.| Cover plate can be used instead. |
+| [CPU Tray][8]                 | 1         | No       | Blank cover plate can be used instead. |
 | [Display Mount][9]            | 1         | Yes      |       |
-| [Lid][10]                     | 1-2       | Yes      | One full-length or two half-length lids. |
+| [Lid][10]                     | 1-2       | Yes      | One full-length lid or two half-length lids. |
 | [Rear Panel][11]              | 1         | Yes      |       |
-| [Lower Bay Trays][13]         | 1-4       | No       | Type and quantity specific to configuration. |
-| [Fan Cages][6]                | (varies)  | Yes; see note. | Quantity and size depend on configuration. |
-| [TPU Fan Gaskets][6]          | (varies)  | No       | Optional; quantity and size depend on configuration. |
+| [Lower Bay Trays][13]         | 1-4       | Maybe    | Type and quantity are specific to configuration. |
+| [Fan Cages][6]                | (varies)  | Yes      | Quantity and size depend on configuration. |
+| [TPU Fan Gaskets][6]          | (varies)  | No       | Quantity and size depend on configuration and pair with fan cages. |
 
 [1]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl
 [2]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear.stl

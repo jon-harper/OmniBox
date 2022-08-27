@@ -1,6 +1,6 @@
 ---
-title: A Guided Tour
-summary: Visual tour of OmniBox
+title: Guided Tour
+summary: Tour and overview of OmniBox
 authors: Jon Harper
 date: 2022-08-04
 ---
