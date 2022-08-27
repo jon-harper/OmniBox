@@ -32,7 +32,7 @@ Directions:
 
 ### Base Extensions
 
-If you are installing the base extensions (needed for the RSP-500 power supply), follw the next steps. If not, skip down to the [Main Body section](#2-main-body).
+If you are installing the base extensions (needed for the RSP-500 power supply), follow the next steps. If not, skip down to the [Main Body section](#2-main-body).
 
 You will need:
 

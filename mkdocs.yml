@@ -3,9 +3,12 @@ site_description: Instructions for printing and assembly the OmniBox.
 site_author: Jon Harper
 site_url: https://jon-harper.github.io/OmniBox
 repo_url: https://github.com/jon-harper/OmniBox
+edit_uri: ""
 
 theme:
   name: material
+  icon:
+    logo: octicons/book-24
   features:
     - navigation.instant
   font:
@@ -13,20 +16,19 @@ theme:
     code: Source Code Pro
   palette: 
    # Palette toggle for light mode
-    - scheme: default
-      primary: teal
-      accent: deep orange
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
     - scheme: slate
       primary: deep orange
       accent: teal
       toggle:
-        icon: material/brightness-4
+        icon: material/lightbulb-off-outline
         name: Switch to light mode
+    - scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/lightbulb-on-outline
+        name: Switch to dark mode
+
 markdown_extensions:
   - admonition
 
