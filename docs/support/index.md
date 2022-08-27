@@ -9,9 +9,9 @@ This is an overview of components supported by OmniBox. The linked git folders s
 
 ## Power Supplies
 
-OmniBox supports the Mean Well LRS-350 and clones (e.g., Landy). There is preliminary support for the Mean Well RSP-500.
+OmniBox supports the Mean Well LRS-350 and clones (e.g., Landy-branded). There is preliminary support for the Mean Well RSP-500.
 
-The main body comes in different versions for power supply compatibility. Each power supply has a git folder under `Core`, e.g `Core/Mean Well LRS-350`. After you [choose a front and rear main body version][9], print the STLs from the folder that matches your power supply.
+Each power supply has a git folder under `Core`, e.g `Core/Mean Well LRS-350`. After you [choose a front and rear main body version][9], print the STLs from the folder that matches your power supply.
 
 | Power Supply                      | Note                                                     |
 |-----------------------------------|----------------------------------------------------------|

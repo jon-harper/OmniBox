@@ -25,54 +25,55 @@ This project is derived from the Steve Burcham's [Stand Alone Main Control Case]
 
 ## Version Stability Guarantee
 
-OmniBox takes some time to print in its entirety. This makes incompatibility between versions painful; upgrading one printed part should not require others to be reprinted.
+Printing OmniBox is a time investment. This makes incompatibility between versions painful; upgrading one printed part should not require others to be reprinted. Thankfully, OmniBox is highly modular and can be upgrade piecemeal.
+
+I've extended that modularity with a "Version Stability Guarantee":
 
 The printed components of OmniBox are "stable" or "frozen" in how they connect with other printed parts. This means that if you choose to print a newer version of a Core part, no panels or trays will need to be reprinted.
 
-With version 0.9.8:
+Additionally, the interface between Core components is frozen across all versions, e.g., an 0.9.7 case user can choose to keep the printed base and only upgrade the main body to version 0.9.8, or even just upgrade the front main body and nothing else. 
 
-- The mounting interfaces for panels and trays are frozen.
-- Old panels and trays will always be usable with new Core components and vice versa.
+See the [Visual Guided Tour](tour.md) to see how this works in practice.
 
-In addition, the interface *between* Core components is frozen across all versions, e.g., a base can be used with a main body of a different version.
+## The Requirements
 
-## About / Background
-
-### The Requirements
+### Enclosed Printing
 
 Enclosed 3D printing requires controlling more hardware than comes with a typical 3D printer:
 
 - Lighting
 - Webcam
-- Thermistor for air termperature
-- Filtration and exhaust fans
+- Thermistor (temperature sensor)
+- Temperature-controlled exhaust fan
+- Always-on Filtration fan
 
-My enclosures are safe to 60C, but I don't want to expose my electronic hardware to that. I printed my first of Steve's electronics cases to remove my hardware from the heat.
+Electronics are typically rated to for short periods at high ambient temperatures, but the 50C/120F or more of a well-insulated enclosure is hazardous to electronics. I printed my first of Steve's cases to remove my electronic hardware from such heat.
+
+### Managing Devices
 
 Most common devices like fans and lights (and Raspberry Pis!) need a buck converter to work with a 3D printer's power supply. My printed cases for these printer/enclosure combos became cramped. Each buck converter had to sit on a tray above the microcontroller unit (MCU); wiring changes to the MCU required that I first remove up to three buck converter trays.
+
+### Support for Large Boards
 
 Additionally, I wanted to use the BIGTREETECH's Octopus in a case, which I had used to success with another project. The Octopus 1.1 is a solid board that provides ample power sources and signal pins. The Octopus does not fit the cases I had already printed; I also had several ideas to improve upon Steve's case.
 
 With these requirements and goals in mind, I decided to design my own case.
 
-### Building the OmniBox
+## Building the OmniBox
 
 This is my second electronics case for the Octopus designed around general shape and layout from Steve's V3 case. I kept full compatibility only with the original display screens. Lids should be easy to modify to fit.
 
 Templates are provided for all trays and panels to allow further customization and support for new products.
 
-### Other Improvements
+## Current Status
 
-These are other changes and improvements present in OmniBox:
+OmniBox is currently pre-1.0 but mature enough for everyday use.
 
-- Buck converters, solid state relays (SSRs), and other additional hardware can be mounted below the board instead of above.
-- The rear panel is larger and covers most of the base.
-- The base is approximately 1.2" shorter; wires are meant to exit from the back or top of the electronics case.
-- The case is designed to draw air upwards and out past the MCU drivers, providing effective cooling with two 40mm fans.
-- Some screws that were M4 are now M3.
+See the [Version History][4] page for information on the latest release, fixes, new features, and known issues.
 
 ![front right render][2]
 
 [1]: img/gallery_0.9.8/front_left.png
 [2]: img/gallery_0.9.8/front_right.png
 [3]: img/gallery_0.9.8/oscar_right.jpg
+[4]: history/index.md
