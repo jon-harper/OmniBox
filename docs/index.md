@@ -29,9 +29,9 @@ Printing OmniBox is a time investment. This makes incompatibility between versio
 
 I've extended that modularity with a "Version Stability Guarantee":
 
-The printed components of OmniBox are "stable" or "frozen" in how they connect with other printed parts. This means that if you choose to print a newer version of a Core part, no panels or trays will need to be reprinted.
+The printed components of OmniBox are "stable" or "frozen" in how they connect with other printed parts. This means that if you choose to print a newer version of a core part, no panels or trays will need to be reprinted.
 
-Additionally, the interface between Core components is frozen across all versions, e.g., an 0.9.7 case user can choose to keep the printed base and only upgrade the main body to version 0.9.8, or even just upgrade the front main body and nothing else. 
+Additionally, the interface between the core components is frozen across all versions, e.g., an 0.9.7 case user can choose to keep the printed base and only upgrade the main body to version 0.9.8, or even just upgrade the front main body and nothing else. 
 
 See the [Visual Guided Tour](tour.md) to see how this works in practice.
 

@@ -12,7 +12,6 @@ theme:
     logo: octicons/book-24
   features:
     - navigation.instant
-    # - navigation.tabs
     - navigation.sections
 
   font:
@@ -38,7 +37,11 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
-
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      
 nav:
   - index.md
   - tour.md

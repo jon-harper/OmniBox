@@ -18,29 +18,27 @@ Each power supply has a git folder under `Core`, e.g `Core/Mean Well LRS-350`. A
 | [Mean Well LRS-350][7]            | Most Creality Ender-series printers use the LRS-350-24.  |
 | [Mean Well RSP-500][8]            | **(Preliminary)** RSP-500-24 is used in the Ender 5 Plus.|
 
-## Trays
+## :material-alpha-t-box-outline: Trays
 
-### CPU and MCU Trays
+### :material-alpha-t-box-outline: :material-alpha-c-box: CPU Trays and :material-alpha-t-box-outline: :material-alpha-m-box: MCU Trays
 
 See [CPU and MCU Boards][2] for a list of boards with existing trays.
 
-### Lower Bay Trays
-
-OmniBox has a lower bay for mounting parts such as buck converters and solid state elays (SSRs). Some trays mount multiple parts or an added 40mm fan.
+### :material-alpha-t-box-outline: :material-alpha-l-box: Lower Bay Trays
 
 See [Lower Bay Components][4] for a complete list of parts with trays available.
 
-## Display Screen Panels
+## :material-alpha-p-box-outline: :material-alpha-d-box: Display Screen Panels
 
-[Display Panels][3] are used for LCD displays. Note that these are not the same as Raspberry Pi screens.
+[Display Panels][3] are used for LCD displays, including Raspberry Pi TFTs.
 
-## Front and Rear Panels
+## :material-alpha-p-box-outline: :material-alpha-f-box: Front and :material-alpha-p-box-outline: :material-alpha-r-box: Rear Panels
 
 These panels are typically used for [panel mounted connectors and extensions](panel_mounts.md).
 
 Generic rear panels are available with cutouts to pass wiring directly without using connectors.
 
-## Fans
+## :material-alpha-f-box-outline: Fans
 
 An assortment of fans are supported and include cages and optional TPU shims. See the [Fans][5] page for a full list.
 

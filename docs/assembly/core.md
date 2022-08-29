@@ -11,26 +11,26 @@ You will need:
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
-| M4 x 16mm machine screws          | 4   | Can substitute with M4 x 20mm   |
-| M3 x 16mm machine screws          | 2   | Can substitute with M3 x 20mm   |
+| M4 x 16mm machine screws  | 4   | Can substitute with M4 x 20mm   |
+| M3 x 16mm machine screws  | 2   | Can substitute with M3 x 20mm   |
 | M3 hex nuts               | 2   |                                 |
 | SPST toggle switch        | 1   |                                 |
 | IEC C14 socket with fuse  | 1   |                                 |
-| Printed front base        | 1   | [Base - Front.stl][3]           |
-| Printed rear base         | 1   | [Base - Rear.stl][4]            |
+| :material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-f-box: Base - Front | 1   | [Base - Front.stl][3]           |
+| :material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-r-box: Base - Rear  | 1   | [Base - Rear.stl][4]            |
 
 Directions:
 
 | Step | Example |
 |------|---------|
-| The front and rear parts of the base both have two (2) holes on each side. Use the four (4) M4 screws to fasten them together. **Note:** Make sure the sawtooth air vents on both halves are facing the same direction, as in the picture. | [![assembled base][1]][1] |
+| Both front and rear halves of the base have two (2) holes on each side. Use the four (4) M4 screws to fasten them together. **Note:** Make sure the sawtooth air vents on both halves are facing the same direction, as in the picture. | [![assembled base][1]][1] |
 | Push the power switch into the cutout in the front of the base. The sides of the switch will compress until it snaps into place. | [![power switch insertion][2]][2] |
 | Insert the IEC socket into the rear base, followed by the M3 x 16mm screws.| [![inserted IEC socket and M3 screws][5]][5] |
 | There are two pockets for hex nuts opposing the M3 screws. One hex nut at a time, press a nut in place while turning the opposing screw. Once the threads of the screw catch the nut, continue threading until the nut is tight. | [![tightened hex nuts][6]][6] |
 | There is a 40mm fan mount behind one of the front air vents. If you wish to use a 40mm fan there, install it now with four (4) M3 x 16mm machine screws. | [![base with optional fan installed][27]][27] |
 | Now is a good time to run the AC wiring for the power supply. Zip tie anchors are available for the wire run from socket to switch and back to power supply. | [![power supply with cleaned up wiring][7]][7] |
 
-### Base Extensions
+### :material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-e-box: Base Extensions
 
 If you are installing the base extensions (needed for the RSP-500 power supply), follow the next steps. If not, skip down to the [Main Body section](#2-main-body).
 
@@ -39,8 +39,8 @@ You will need:
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
 | M3 x 8mm machine screws           | 4   | Any length up to 20mm will work.|
-| Printed front extension   | 1   | [Base - Front Extension.stl][29]|
-| Printed rear extension    | 1   | [Base - Rear Extension.stl][30] |
+| :material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-e-box: Base - Front Extension | 1   | [Base - Front Extension.stl][29]|
+| :material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-e-box: Base - Rear Extension  | 1   | [Base - Rear Extension.stl][30] |
 
 Directions:
 
@@ -54,15 +54,15 @@ Directions:
 
 You will need:
 
-| Parts                     | Qty | Note                              |
-|---------------------------|-----|-----------------------------------|
-| M3 x 8mm machine screws   | 6   | Can substitute M3 x 10mm or 12mm. |
+| Parts                        | Qty | Note                              |
+|------------------------------|-----|-----------------------------------|
+| M3 x 8mm machine screws      | 6   | Can substitute M3 x 10mm or 12mm. |
 | #6 x 3/4" sharp point screws | 8   | See note below.                   |
-| M3 x 16mm machine screws  | 2   | Can substitute M3 x 20mm.         |
-| M4 x 6mm machine screws   | 4   | See caution below.                |
-| Printed front main body   | 1   | [Main Body - Front with 40mm Intake.stl][9] used here. |
-| Printed rear main body    | 1   | [Main Body - Rear with 40mm Exhausts.stl][10] used here. |
-| Printed crossbar          | 1   | [Main Body - Crossbar][8]         |
+| M3 x 16mm machine screws     | 2   | Can substitute M3 x 20mm.         |
+| M4 x 6mm machine screws      | 4   | See caution below.                |
+| :material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-f-box: Main Body - Front | 1   | [Main Body - Front with 40mm Intake.stl][9] used here. |
+| :material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-r-box: Main Body - Rear  | 1   | [Main Body - Rear with 40mm Exhausts.stl][10] used here. |
+| :material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-c-box: Main Body - Crossbar | 1   | [Main Body - Crossbar][8]         |
 | A power supply unit (PSU) | 1   |                                   |
 
 Notes and Cautions:
@@ -88,7 +88,7 @@ Directions:
 | Place the crossbar in place at the joint between the lid and display mounts. Take note of the orientation in the picture. | [![crossbar assembly][17]][17]
 | Attach the crossbar with two (2) M3 x 16mm screws, one in each side. | [![crossbar assembly][18]][18]
 
-## 3. Fans
+## 3. :material-alpha-f-box-outline: Fans
 
 Fan locations and sizes vary by configuration. This section is specific to the configuration assembled in this guide. The length of screws needed and printed parts will vary, but the method of mounting fans used here is identical for all sizes of externally mounted fans.
 
@@ -101,8 +101,8 @@ You will need:
 |---------------------------|-----|-----------------------------------|
 | M3 x 20mm machine screws  | 8   |                                   |
 | 40x40x10mm fans           | 2   | Can use 4015 or 4020 fans with the correct fan cage and gasket. |
-| Printed 40mm fan cage     | 2   | [4010 Fan Cage.stl][19]           |
-| Printed TPU gasket        | 2   | Optional. [4010 Fan Gasket, TPU.stl][20] |
+| 40mm :material-alpha-f-box-outline: :material-alpha-c-box: Fan Cage     | 2   | [4010 Fan Cage.stl][19]           |
+| 40mm TPU :material-alpha-f-box-outline: :material-alpha-g-box: Fan Gasket        | 2   | Optional. [4010 Fan Gasket, TPU.stl][20] |
 
 Additionally, if you wish to mount a fan in the front main body air intake, you will need:
 

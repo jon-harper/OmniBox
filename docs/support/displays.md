@@ -5,7 +5,10 @@ authors: Jon Harper
 date: 2022-07-22
 ---
 
-MCU displays include various TFT and older 128x64 character LCD diplays. Raspberry Pi displays are TFT displays, usually used with OctoPrint or Klipper.
+:material-alpha-p-box-outline: :material-alpha-d-box: Display Panels mount two different types of display screens:
+
+- MCU displays include various TFT and older 128x64 character LCD diplays.
+- Raspberry Pi displays are TFT displays, usually used with OctoPrint or Klipper.
 
 ![close-up of a stock display](../img/examples/display.png)
 

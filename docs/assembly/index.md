@@ -9,9 +9,9 @@ date: 2022-07-31
 
 This guide is divided into three sections:
 
-- [Core](core.md): Assembly of the main body and base; power supply mounting
-- [Trays](trays.md): Lower bay, CPU, and MCU tray assembly
-- [Panels](panels.md): Displays, lids, front & rear panels
+- :material-alpha-c-box-outline: [Core](core.md): Assembly of the main body and base; power supply mounting
+- :material-alpha-t-box-outline: [Trays](trays.md): Lower bay, CPU, and MCU tray assembly
+- :material-alpha-p-box-outline: [Panels](panels.md): Displays, lids, front & rear panels
 
 Photos from these instructions are for the 0.9.8 release. If you have an older or newer version, some details may differ.
 
@@ -28,4 +28,4 @@ These instructions are for the default OmniBox fan configuration with two 40mm f
 
 This guide cannot cover every mounting combination for trays and panels; however, the git repository should have Bill of Material information for mounting components to their respective tray or panel.
 
-Areas where the Core parts may differ from instructions are specifically called out.
+Areas where the :material-alpha-c-box-outline: Core parts may differ from instructions are specifically called out.

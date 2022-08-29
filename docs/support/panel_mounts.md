@@ -9,7 +9,7 @@ date: 2022-07-22
 
  Connector panel mounts will typically be on the rear panel and connect with the printer. Extensions can be mounted on the front or rear and are typically for SD Cards and USB ports.
 
-### Front Panels
+### :material-alpha-p-box-outline: :material-alpha-f-box: Front Panels
 
 The front panel is long and slim and can be used for mounting small hardware ports. The most common examples are SD Card extensions and USB extensions. You can find these files in the [Panels/Front Panel][8] git folder.
 
@@ -17,7 +17,7 @@ The example below has a Micro SD extension and USB-C extension with slat-style v
 
 ![front panel example](../img/gallery_0.9.7/front_panel.png)
 
-### Rear Panels
+### :material-alpha-p-box-outline: :material-alpha-r-box: Rear Panels
 
 Rear Panels are the most customizable part of OmniBox. They can mount connectors and fans and modified to suit each end user. There are also a number of generic templates available in the [Panels/Rear Panel][7] git folder.
 

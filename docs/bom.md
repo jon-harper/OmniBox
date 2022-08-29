@@ -47,11 +47,11 @@ Currently, two power supplies are supported. You will need one (1) of the follow
 | [Mean Well LRS-350][4]            | Most Creality Ender-series printers use the LRS-350-24.  |
 | [Mean Well RSP-500][5]            | **(Preliminary)** RSP-500-24 is used in the Ender 5 Plus.  |
 
-## Core Configurations
+## :material-alpha-c-box-outline: Core Configurations
 
 Some Core component versions have optional fan mounts, while others have ones that are required.
 
-### 1. Base - Front
+### 1. :material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-f-box: Base - Front
 
 The base has an optional 40mm fan. The following are needed to mount the fan:
 
@@ -60,7 +60,7 @@ The base has an optional 40mm fan. The following are needed to mount the fan:
 | [40x40x10mm axial fans][6]        | 1   | ea  |                                                          |
 | M3 x 16mm machine screws          | 4   | ea	| Any length 14-16mm will work.                            |
 
-### 2. Main Body - Front
+### 2. :material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-f-box: Main Body - Front
 
 There are two versions of the front main body.
 
@@ -82,7 +82,7 @@ This version of the front main body requires an externally mounted 60mm fan.
 | [60x60x15mm axial fan][7]         | 1   | ea  | May also use 20mm or 25mm thick fans.                    |
 | M4 x 25mm machine screws          | 4   | ea  | Add 10mm to fan depth for thicker fans.                  |
 
-### 3. Main Body - Rear
+### 3. :material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-r-box: Main Body - Rear
 
 The rear body also has two versions: one with dual exhausts and one without any.
 
@@ -100,13 +100,13 @@ This version of the requires two externally mounted 40mm fans.
 There are no additional materials required for this version. 
 
 !!! note
-    This rear main body must be used with a rear panel or lid that provides an exhaust fan.
+    This rear main body must be used with a :material-alpha-p-box-outline: :material-alpha-r-box: rear panel or :material-alpha-p-box-outline: :material-alpha-l-box: lid that provides an exhaust fan.
 
-## Tray and Panel Configurations
+## :material-alpha-t-box-outline: Tray and :material-alpha-p-box-outline: Panel Configurations
 
-### CPU Trays and Display Panels
+### :material-alpha-t-box-outline: :material-alpha-c-box: CPU Trays and :material-alpha-p-box-outline: :material-alpha-d-box: Display Panels
 
-Most configurations use a display and many will have a CPU. See the git [`Trays/CPU`][9] and [`Panels/Display`][10] folders for mounting information specific to your CPU and display mount.
+Most configurations use a display and many will have a CPU. See the git [`Trays/CPU`][9] and [`Panels/Display`][10] folders for mounting information specific to your CPU tray and display panel.
 
 ### Other Supported Parts
 
