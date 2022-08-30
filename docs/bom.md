@@ -38,18 +38,19 @@ These parts are common to all case builds. See below for additional requirements
 !!! note
     Metric equivalent to #6 x 3/4" is M3 x 20mm. Equivalent length machine screws can also be used if wood screws are unavailable.
 
-### Power Supplies
+## Power Supplies
 
-Currently, two power supplies are supported. You will need one (1) of the following:
+Currently, two power supply models are supported. You will need one (1) of the following:
 
 | Item                              | Note                                                     |
 |-----------------------------------|----------------------------------------------------------|
 | [Mean Well LRS-350][4]            | Most Creality Ender-series printers use the LRS-350-24.  |
 | [Mean Well RSP-500][5]            | **(Preliminary)** RSP-500-24 is used in the Ender 5 Plus.  |
 
-## :material-alpha-c-box-outline: Core Configurations
+## :material-alpha-c-box-outline: Core Configurations with Fans
 
-Some Core component versions have optional fan mounts, while others have ones that are required.
+!!! note 
+    Externally mounted fans require a :material-alpha-f-box: :material-alpha-c-box: printed [fan cage][11] that matches the size of the fan. This is added to the lists below where needed.
 
 ### 1. :material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-f-box: Base - Front
 
@@ -57,7 +58,7 @@ The base has an optional 40mm fan. The following are needed to mount the fan:
 
 | Item                              | Qty | UOM | Note                                                     |
 |-----------------------------------|-----|-----|----------------------------------------------------------|
-| [40x40x10mm axial fans][6]        | 1   | ea  |                                                          |
+| [40x40x10mm axial fan][6]         | 1   | ea  |                                                          |
 | M3 x 16mm machine screws          | 4   | ea	| Any length 14-16mm will work.                            |
 
 ### 2. :material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-f-box: Main Body - Front
@@ -70,7 +71,7 @@ This version of the front main body has an optional 40mm fan. The following are 
 
 | Item                              | Qty | UOM | Note                                                     |
 |-----------------------------------|-----|-----|----------------------------------------------------------|
-| [40x40x10mm axial fans][6]        | 1   | ea  |                                                          |
+| [40x40x10mm axial fan][6]         | 1   | ea  |                                                          |
 | M3 x 16mm machine screws          | 4   | ea	| Any length 14-16mm will work.                            |
 
 #### Alternate: With 60mm Intake
@@ -81,6 +82,7 @@ This version of the front main body requires an externally mounted 60mm fan.
 |-----------------------------------|-----|-----|----------------------------------------------------------|
 | [60x60x15mm axial fan][7]         | 1   | ea  | May also use 20mm or 25mm thick fans.                    |
 | M4 x 25mm machine screws          | 4   | ea  | Add 10mm to fan depth for thicker fans.                  |
+| Printed [fan cage][11]            | 1   | ea  | TPU gasket is optional.                                  |
 
 ### 3. :material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-r-box: Main Body - Rear
 
@@ -92,8 +94,9 @@ This version of the requires two externally mounted 40mm fans.
 
 | Item                              | Qty | UOM | Note                                                     |
 |-----------------------------------|-----|-----|----------------------------------------------------------|
-| [40x40x10mm axial fans][6]        | 2   | ea  | May also use 20mm thick fans; this is not recommended due to noise. |
-| M3 x 20mm machine screws          | 8   | ea	| Use 30mm screws for 20mm fans.                           |
+| [40x40x10mm axial fans][6]        | 2   | ea  |                                                          |
+| M3 x 20mm machine screws          | 8   | ea	| Use 30mm screws for 20mm fans (not recommended).         |
+| Printed [fan cage][11]            | 2   | ea  | TPU gaskets are optional.                                |
 
 #### Alternate: No Fans
 
@@ -122,3 +125,4 @@ See the [Supported Parts Overview][8] for a full list of parts and mounting loca
 [8]: support/index.md
 [9]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU
 [10]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display
+[11]: https://github.com/jon-harper/OmniBox/Fan%20Cages

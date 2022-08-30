@@ -9,7 +9,7 @@ edit_uri: ""
 theme:
   name: material
   icon:
-    logo: octicons/book-24
+    logo: material/book-open-variant
   features:
     - navigation.instant
     - navigation.sections
@@ -18,19 +18,18 @@ theme:
     text: Noto Sans
     code: Source Code Pro
   palette: 
-   # Palette toggle for light mode
-    - scheme: slate
-      primary: deep orange
-      accent: teal
-      toggle:
-        icon: material/lightbulb-off-outline
-        name: Switch to light mode
     - scheme: default
       primary: teal
       accent: deep orange
       toggle:
         icon: material/lightbulb-on
         name: Switch to dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: teal
+      toggle:
+        icon: material/lightbulb-off-outline
+        name: Switch to light mode
 
 markdown_extensions:
   - admonition
