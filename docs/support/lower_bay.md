@@ -5,9 +5,9 @@ authors: Jon Harper
 date: 2022-07-22
 ---
 
-Some components can only be mounted on :material-alpha-t-box-outline: :material-alpha-l-box: Lower Bay Trays. Parts compatible with the lower bay are listed here. The files for the tray variations are stored in the [Trays\Lower Bay][5] git folder.
+:material-alpha-t-box: :material-alpha-l-box-outline: Lower Bay Trays mount below the MCU board and are used for a wide range of parts. Parts compatible with the lower bay are listed here. The [Trays\Lower Bay][5] git folder is organized with subfolders for each supported part. All variations based around that part are in the same folder.
 
-Additionally, these trays come in two lengths: half and full. A full length tray covers the mount points of two half trays and must be mounted from front to back of the case.
+There are two types of :material-alpha-t-box: :material-alpha-l-box-outline: Lower Bay Trays: half and full. A full length tray covers the mount points of two half trays and must be mounted from front to back of the case.
 
 ![a small tray on the left and a large tray on right](../img/examples/lower_bay_trays.png)
 

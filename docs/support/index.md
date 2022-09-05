@@ -18,27 +18,29 @@ Each power supply has a git folder under `Core`, e.g `Core/Mean Well LRS-350`. A
 | [Mean Well LRS-350][7]            | Most Creality Ender-series printers use the LRS-350-24.  |
 | [Mean Well RSP-500][8]            | **(Preliminary)** RSP-500-24 is used in the Ender 5 Plus.|
 
-## :material-alpha-t-box-outline: Trays
+## :material-alpha-t-box: Trays
 
-### :material-alpha-t-box-outline: :material-alpha-c-box: CPU Trays and :material-alpha-t-box-outline: :material-alpha-m-box: MCU Trays
+### :material-alpha-t-box: :material-alpha-c-box-outline: CPU Trays and :material-alpha-t-box: :material-alpha-m-box-outline: MCU Trays
 
 See [CPU and MCU Boards][2] for a list of boards with existing trays.
 
-### :material-alpha-t-box-outline: :material-alpha-l-box: Lower Bay Trays
+### :material-alpha-t-box: :material-alpha-l-box-outline: Lower Bay Trays
 
 See [Lower Bay Components][4] for a complete list of parts with trays available.
 
-## :material-alpha-p-box-outline: :material-alpha-d-box: Display Screen Panels
+## :material-alpha-p-box: Panels
+
+### :material-alpha-p-box: :material-alpha-d-box-outline: Display Screen Panels
 
 [Display Panels][3] are used for LCD displays, including Raspberry Pi TFTs.
 
-## :material-alpha-p-box-outline: :material-alpha-f-box: Front and :material-alpha-p-box-outline: :material-alpha-r-box: Rear Panels
+### :material-alpha-p-box: :material-alpha-f-box-outline: Front and :material-alpha-p-box: :material-alpha-r-box-outline: Rear Panels
 
 These panels are typically used for [panel mounted connectors and extensions](panel_mounts.md).
 
 Generic rear panels are available with cutouts to pass wiring directly without using connectors.
 
-## :material-alpha-f-box-outline: Fans
+## :material-alpha-f-box: Fans
 
 An assortment of fans are supported and include cages and optional TPU shims. See the [Fans][5] page for a full list.
 

@@ -11,7 +11,7 @@ This page lists CPUs and MCUs that are currently compatible with OmniBox.
 
 ![render of a Raspberry Pi on a tray](../img/examples/cpu.png)
 
-Single board computers (SBC) like the Raspberry Pi are mounted on :material-alpha-t-box-outline: :material-alpha-c-box: CPU Trays. These parts are in the [Trays/CPU][7] git folder; each component has its own subfolder. Currently, SBCs other than the Raspberry Pi are not supported.
+Single board computers (SBC) like the Raspberry Pi are mounted on :material-alpha-t-box: :material-alpha-c-box-outline: CPU Trays. These parts are in the [Trays/CPU][7] git folder; each component has its own subfolder. Currently, SBCs other than the Raspberry Pi are not supported.
 
 If you do not use a SBC, a [blank slot cover][6] can be used.
 
@@ -24,7 +24,7 @@ If you do not use a SBC, a [blank slot cover][6] can be used.
 
 ![render of a BTT Octopus on a tray](../img/examples/mcu.png)
 
-Micro-controller unit (MCU) board are mounted on :material-alpha-t-box-outline: :material-alpha-m-box: MCU Trays. These parts are in the [Trays/MCU][8] git folder, with each component in its own subfolder. There are `STEP` and Fusion 360 template files available for adding support for other boards.
+Micro-controller unit (MCU) board are mounted on :material-alpha-t-box: :material-alpha-m-box-outline: MCU Trays. These parts are in the [Trays/MCU][8] git folder, with each component in its own subfolder. There are `STEP` and Fusion 360 template files available for adding support for other boards.
 
 | Component             | Supported Versions | Image |
 |-----------------------|----------|-------|

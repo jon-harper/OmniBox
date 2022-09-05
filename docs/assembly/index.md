@@ -9,9 +9,9 @@ date: 2022-07-31
 
 This guide is divided into three sections:
 
-- :material-alpha-c-box-outline: [Core](core.md): Assembly of the main body and base; power supply mounting
-- :material-alpha-t-box-outline: [Trays](trays.md): Lower bay, CPU, and MCU tray assembly
-- :material-alpha-p-box-outline: [Panels](panels.md): Displays, lids, front & rear panels
+- :material-alpha-c-box: [Core](core.md): Assembly of the main body and base; power supply mounting
+- :material-alpha-t-box: [Trays](trays.md): Lower bay, CPU, and MCU tray assembly
+- :material-alpha-p-box: [Panels](panels.md): Displays, lids, front & rear panels
 
 Photos from these instructions are for the 0.9.8 release. If you have an older or newer version, some details may differ.
 

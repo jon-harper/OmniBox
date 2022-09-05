@@ -7,7 +7,7 @@ date: 2022-07-03
 
 This is a list of all fans that are supported by OmniBox.
 
-An assortment of :material-alpha-f-box-outline: :material-alpha-c-box: fan cages and :material-alpha-f-box-outline: :material-alpha-g-box: fan gaskets are available in the [Fan Cages][6] git folder for all listed fans.
+An assortment of :material-alpha-f-box: :material-alpha-c-box-outline: fan cages and :material-alpha-f-box: :material-alpha-g-box-outline: fan gaskets are available in the [Fan Cages][6] git folder for all listed fans.
 
 OmniBox also has optional, concealed mounts for 40x40x10mm fans. These are compatible with gaskets but do not use fan cages.
 

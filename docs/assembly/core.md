@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-07-31
 ---
 
-## 1. Base
+## :material-alpha-c-box: :material-alpha-b-box-outline: Base
 
 You will need:
 
@@ -16,8 +16,8 @@ You will need:
 | M3 hex nuts               | 2   |                                 |
 | SPST toggle switch        | 1   |                                 |
 | IEC C14 socket with fuse  | 1   |                                 |
-| :material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-f-box: Base - Front | 1   | [Base - Front.stl][3]           |
-| :material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-r-box: Base - Rear  | 1   | [Base - Rear.stl][4]            |
+| :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-f-box-outline: Base - Front | 1   | [Base - Front.stl][3]           |
+| :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-r-box-outline: Base - Rear  | 1   | [Base - Rear.stl][4]            |
 
 Directions:
 
@@ -30,7 +30,7 @@ Directions:
 | There is a 40mm fan mount behind one of the front air vents. If you wish to use a 40mm fan there, install it now with four (4) M3 x 16mm machine screws. | [![base with optional fan installed][27]][27] |
 | Now is a good time to run the AC wiring for the power supply. Zip tie anchors are available for the wire run from socket to switch and back to power supply. | [![power supply with cleaned up wiring][7]][7] |
 
-### :material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-e-box: Base Extensions
+### :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-e-box-outline: Base Extensions
 
 If you are installing the base extensions (needed for the RSP-500 power supply), follow the next steps. If not, skip down to the [Main Body section](#2-main-body).
 
@@ -39,8 +39,8 @@ You will need:
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
 | M3 x 8mm machine screws           | 4   | Any length up to 20mm will work.|
-| :material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-e-box: Base - Front Extension | 1   | [Base - Front Extension.stl][29]|
-| :material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-e-box: Base - Rear Extension  | 1   | [Base - Rear Extension.stl][30] |
+| :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-e-box-outline: Base - Front Extension | 1   | [Base - Front Extension.stl][29]|
+| :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-e-box-outline: Base - Rear Extension  | 1   | [Base - Rear Extension.stl][30] |
 
 Directions:
 
@@ -50,7 +50,7 @@ Directions:
 | Place the front extension over the front edge of the base, as pictured. Attach with two (2) M3 x 8mm screws. | [![front extension assembled][32]][32] |
 | Place the rear extension over the rear edge of the base. Attach with two (2) M3 x 8mm screws. | [![rear extension assembled][33]][33] |
 
-## 2. Main Body
+## :material-alpha-c-box: :material-alpha-m-box-outline: Main Body
 
 You will need:
 
@@ -60,15 +60,15 @@ You will need:
 | #6 x 3/4" sharp point screws | 8   | See note below.                   |
 | M3 x 16mm machine screws     | 2   | Can substitute M3 x 20mm.         |
 | M4 x 6mm machine screws      | 4   | See caution below.                |
-| :material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-f-box: Main Body - Front | 1   | [Main Body - Front with 40mm Intake.stl][9] used here. |
-| :material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-r-box: Main Body - Rear  | 1   | [Main Body - Rear with 40mm Exhausts.stl][10] used here. |
-| :material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-c-box: Main Body - Crossbar | 1   | [Main Body - Crossbar][8]         |
+| :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-f-box-outline: Main Body - Front | 1   | [Main Body - Front with 40mm Intake.stl][9] used here. |
+| :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-r-box-outline: Main Body - Rear  | 1   | [Main Body - Rear with 40mm Exhausts.stl][10] used here. |
+| :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-c-box-outline: Main Body - Crossbar | 1   | [Main Body - Crossbar][8]         |
 | A power supply unit (PSU) | 1   |                                   |
 
 Notes and Cautions:
 
 !!! note
-    Sharp point screws are easier to use than machine scews for attaching the main body and base. For this you can use #6 x 3/4" screws (SAE) or M3 x 20mm (metric) screws found at any hardware store. If these are not convenient or available, machine screws will work in their place.
+    Sharp point screws are easier to use than machine scews for attaching the main body and base. For this you can use #6 x 3/4" screws (SAE) or M3 equivalent screws found at any hardware store. If these are not convenient or available, M3 machine screws will work in their place.
     
 !!! caution
     Always stop if you feel resistance when fastening screws to the power supply.
@@ -88,7 +88,7 @@ Directions:
 | Place the crossbar in place at the joint between the lid and display mounts. Take note of the orientation in the picture. | [![crossbar assembly][17]][17]
 | Attach the crossbar with two (2) M3 x 16mm screws, one in each side. | [![crossbar assembly][18]][18]
 
-## 3. :material-alpha-f-box-outline: Fans
+## :material-alpha-f-box: Fans
 
 Fan locations and sizes vary by configuration. This section is specific to the configuration assembled in this guide. The length of screws needed and printed parts will vary, but the method of mounting fans used here is identical for all sizes of externally mounted fans.
 
@@ -101,8 +101,8 @@ You will need:
 |---------------------------|-----|-----------------------------------|
 | M3 x 20mm machine screws  | 8   |                                   |
 | 40x40x10mm fans           | 2   | Can use 4015 or 4020 fans with the correct fan cage and gasket. |
-| 40mm :material-alpha-f-box-outline: :material-alpha-c-box: Fan Cage     | 2   | [4010 Fan Cage.stl][19]           |
-| 40mm TPU :material-alpha-f-box-outline: :material-alpha-g-box: Fan Gasket        | 2   | Optional. [4010 Fan Gasket, TPU.stl][20] |
+| 40mm :material-alpha-f-box: :material-alpha-c-box-outline: Fan Cage     | 2   | [4010 Fan Cage.stl][19]           |
+| 40mm TPU :material-alpha-f-box: :material-alpha-g-box-outline: Fan Gasket        | 2   | Optional. [4010 Fan Gasket, TPU.stl][20] |
 
 Additionally, if you wish to mount a fan in the front main body air intake, you will need:
 

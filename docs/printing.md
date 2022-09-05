@@ -25,21 +25,21 @@ This is a checklist of parts to print. Most of these parts have variations; see 
 
 | Component                                                                                                  | Quantity | Required | Notes |
 |------------------------------------------------------------------------------------------------------------|----------|----------|-------|
-| [:material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-f-box: Base - Front][1]             | 1        | Yes      |       |
-| [:material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-r-box: Base - Rear][2]              | 1        | Yes      |       |
-| [:material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-e-box: Base - Front Extension][19]  | 1        | See note | Required when using a Mean Well RSP-500 power supply. |
-| [:material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-e-box: Base - Rear Extension][20]   | 1        | See note | Required when using a Mean Well RSP-500 power supply. |
-| [:material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-c-box: Main Body - Crossbar][3]     | 1        | Yes      |       |
-| :material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-f-box: Main Body - Front             | 1        | Yes      | See the [tour][21] on choosing a version to print. |
-| :material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-r-box: Main Body - Rear              | 1        | Yes      | See the [tour][21] on choosing a version to print. |
-| [:material-alpha-t-box-outline: :material-alpha-m-box: MCU Tray][7]                 | 1        | Yes      |       |
-| [:material-alpha-t-box-outline: :material-alpha-c-box: CPU Tray][8]                 | 1        | No       | Blank cover plate can be used instead. |
-| [:material-alpha-p-box-outline: :material-alpha-d-box: Display Mount][9]            | 1        | Yes      |       |
-| [:material-alpha-p-box-outline: :material-alpha-d-box: Lid][10]                     | 1-2      | Yes      | One full-length lid or two half-length lids. |
-| [:material-alpha-p-box-outline: :material-alpha-d-box: Rear Panel][11]              | 1        | Yes      |       |
-| [:material-alpha-t-box-outline: :material-alpha-l-box: Lower Bay Trays][13]         | 0-4      | See note | Type and quantity are specific to configuration. |
-| [:material-alpha-f-box-outline: :material-alpha-c-box: Fan Cages][6]                | See note | Yes      | Quantity and size depend on configuration. |
-| [:material-alpha-f-box-outline: :material-alpha-g-box: Fan Gaskets][6]          | See note | No       | Quantity and size depend on configuration and pair with fan cages. |
+| [:material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-f-box-outline: Base - Front][1]             | 1        | Yes      |       |
+| [:material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-r-box-outline: Base - Rear][2]              | 1        | Yes      |       |
+| [:material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-e-box-outline: Base - Front Extension][19]  | 1        | See note | Required when using a Mean Well RSP-500 power supply. |
+| [:material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-e-box-outline: Base - Rear Extension][20]   | 1        | See note | Required when using a Mean Well RSP-500 power supply. |
+| [:material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-c-box-outline: Main Body - Crossbar][3]     | 1        | Yes      |       |
+| :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-f-box-outline: Main Body - Front             | 1        | Yes      | See the [tour][21] on choosing a version to print. |
+| :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-r-box-outline: Main Body - Rear              | 1        | Yes      | See the [tour][21] on choosing a version to print. |
+| [:material-alpha-t-box: :material-alpha-m-box-outline: MCU Tray][7]                 | 1        | Yes      |       |
+| [:material-alpha-t-box: :material-alpha-c-box-outline: CPU Tray][8]                 | 1        | See note | Blank cover plate can be used instead. |
+| [:material-alpha-p-box: :material-alpha-d-box-outline: Display Mount][9]            | 1        | Yes      |       |
+| [:material-alpha-p-box: :material-alpha-d-box-outline: Lid][10]                     | 1-2      | Yes      | One full-length lid or two half-length lids. |
+| [:material-alpha-p-box: :material-alpha-d-box-outline: Rear Panel][11]              | 1        | Yes      |       |
+| [:material-alpha-t-box: :material-alpha-l-box-outline: Lower Bay Trays][13]         | 0-4      | No       | Type and quantity are specific to configuration. |
+| [:material-alpha-f-box: :material-alpha-c-box-outline: Fan Cages][6]                | See note | Yes      | Quantity and size depend on configuration. |
+| [:material-alpha-f-box: :material-alpha-g-box-outline: Fan Gaskets][6]          | See note | No       | Quantity and size depend on configuration and pair with fan cages. |
 
 [1]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl
 [2]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear.stl

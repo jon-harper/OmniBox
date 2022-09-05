@@ -36,7 +36,7 @@ These parts are common to all case builds. See below for additional requirements
 | Compatible power supply                | 1   | ea  | See [Power Supplies](#power-supplies) below.             |
 
 !!! note
-    Metric equivalent to #6 x 3/4" is M3 x 20mm. Equivalent length machine screws can also be used if wood screws are unavailable.
+    To substitute #6 x 3/4" with Metric screws, use M3x16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
 
 ## Power Supplies
 
@@ -47,12 +47,12 @@ Currently, two power supply models are supported. You will need one (1) of the f
 | [Mean Well LRS-350][4]            | Most Creality Ender-series printers use the LRS-350-24.  |
 | [Mean Well RSP-500][5]            | **(Preliminary)** RSP-500-24 is used in the Ender 5 Plus.  |
 
-## :material-alpha-c-box-outline: Core Configurations with Fans
+## :material-alpha-c-box: Core Configurations with Fans
 
 !!! note 
-    Externally mounted fans require a :material-alpha-f-box: :material-alpha-c-box: printed [fan cage][11] that matches the size of the fan. This is added to the lists below where needed.
+    Externally mounted fans require a printed [:material-alpha-f-box: :material-alpha-c-box-outline: fan cage][11] that matches the size of the fan. This is added below where needed.
 
-### 1. :material-alpha-c-box-outline: :material-alpha-b-box: :material-alpha-f-box: Base - Front
+### 1. :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-f-box-outline: Base - Front
 
 The base has an optional 40mm fan. The following are needed to mount the fan:
 
@@ -61,7 +61,7 @@ The base has an optional 40mm fan. The following are needed to mount the fan:
 | [40x40x10mm axial fan][6]         | 1   | ea  |                                                          |
 | M3 x 16mm machine screws          | 4   | ea	| Any length 14-16mm will work.                            |
 
-### 2. :material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-f-box: Main Body - Front
+### 2. :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-f-box-outline: Main Body - Front
 
 There are two versions of the front main body.
 
@@ -82,9 +82,9 @@ This version of the front main body requires an externally mounted 60mm fan.
 |-----------------------------------|-----|-----|----------------------------------------------------------|
 | [60x60x15mm axial fan][7]         | 1   | ea  | May also use 20mm or 25mm thick fans.                    |
 | M4 x 25mm machine screws          | 4   | ea  | Add 10mm to fan depth for thicker fans.                  |
-| Printed [fan cage][11]            | 1   | ea  | TPU gasket is optional.                                  |
+| Printed [:material-alpha-f-box: :material-alpha-c-box-outline: fan cage][11]            | 1   | ea  | TPU gasket is optional.                                  |
 
-### 3. :material-alpha-c-box-outline: :material-alpha-m-box: :material-alpha-r-box: Main Body - Rear
+### 3. :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-r-box-outline: Main Body - Rear
 
 The rear body also has two versions: one with dual exhausts and one without any.
 
@@ -96,20 +96,20 @@ This version of the requires two externally mounted 40mm fans.
 |-----------------------------------|-----|-----|----------------------------------------------------------|
 | [40x40x10mm axial fans][6]        | 2   | ea  |                                                          |
 | M3 x 20mm machine screws          | 8   | ea	| Use 30mm screws for 20mm fans (not recommended).         |
-| Printed [fan cage][11]            | 2   | ea  | TPU gaskets are optional.                                |
+| Printed [:material-alpha-f-box: :material-alpha-c-box-outline: fan cage][11]            | 2   | ea  | TPU gaskets are optional.                                |
 
 #### Alternate: No Fans
 
 There are no additional materials required for this version. 
 
 !!! note
-    This rear main body must be used with a :material-alpha-p-box-outline: :material-alpha-r-box: rear panel or :material-alpha-p-box-outline: :material-alpha-l-box: lid that provides an exhaust fan.
+    This rear main body must be used with a :material-alpha-p-box: :material-alpha-r-box-outline: rear panel or :material-alpha-p-box: :material-alpha-l-box-outline: lid that provides an exhaust fan.
 
-## :material-alpha-t-box-outline: Tray and :material-alpha-p-box-outline: Panel Configurations
+## :material-alpha-t-box: Tray and :material-alpha-p-box: Panel Configurations
 
-### :material-alpha-t-box-outline: :material-alpha-c-box: CPU Trays and :material-alpha-p-box-outline: :material-alpha-d-box: Display Panels
+### :material-alpha-t-box: :material-alpha-c-box-outline: CPU Trays and :material-alpha-p-box: :material-alpha-d-box-outline: Display Panels
 
-Most configurations use a display and many will have a CPU. See the git [`Trays/CPU`][9] and [`Panels/Display`][10] folders for mounting information specific to your CPU tray and display panel.
+Most configurations use a display and many have an SBC, such as a Raspberry Pi. See the git [`Trays/CPU`][9] and [`Panels/Display`][10] folders for mounting information specific to your CPU tray and display panel.
 
 ### Other Supported Parts
 

@@ -5,22 +5,22 @@ authors: Jon Harper
 date: 2022-07-31
 ---
 
-All of the :material-alpha-p-box-outline: Panels are customizable, so this section has a less formal parts section. Each starts with a list of the universal requirements for attaching a given type of panel. Any additional parts needed for the panel we are using as an example are listed separately.
+:material-alpha-p-box: Panels come in many variations and are customizable. Each section starts with a list of the universal requirements for attaching that type of panel. Additional parts needed for the specific variation used are listed separately.
 
-## :material-alpha-p-box-outline: :material-alpha-f-box: Front Panel
+## :material-alpha-p-box: :material-alpha-f-box-outline: Front Panel
 
 You will need at least:
 
 | Parts                     | Qty | Note                                            |
 |---------------------------|-----|-------------------------------------------------|
-| Printed :material-alpha-p-box-outline: :material-alpha-f-box: front panel | 1   |         |
+| Printed :material-alpha-p-box: :material-alpha-f-box-outline: front panel | 1   |         |
 | M3 x 8mm machine screws   | 2   | All front panels mount using two (2) of these.  |
 
 In this example, we will use:
 
 | Parts                                                 | Qty | Note  |
 |-------------------------------------------------------|-----|-------|
-| :material-alpha-p-box-outline: :material-alpha-f-box: [Front Panel - Micro SD Extension with USB C.stl][18] | 1   | Printed front panel example |
+| [:material-alpha-p-box: :material-alpha-f-box-outline: Front Panel - Micro SD Extension with USB C.stl][18] | 1   | Printed front panel example |
 | [Micro SD card extension][14]                         | 1   |       |
 | [USB C panel mount extension][15]                     | 1   |       |
 | M3 x 6mm machine screws                               | 2   |       |
@@ -36,13 +36,13 @@ In this example, we will use:
 | Push the panel into place on the main body. | [![placing the front vent][1]][1] |
 | Fasten the panel with two (2) M3 x 8mm screws. | [![front vent installed][2]][2] |
 
-## :material-alpha-p-box-outline: :material-alpha-r-box: Rear Panel
+## :material-alpha-p-box: :material-alpha-r-box-outline: Rear Panel
 
 You will need at least:
 
 | Parts                     | Qty | Note                                            |
 |---------------------------|-----|-------------------------------------------------|
-| Printed :material-alpha-p-box-outline: :material-alpha-r-box: rear panel        | 1   |                                                 |
+| Printed :material-alpha-p-box: :material-alpha-r-box-outline: rear panel        | 1   |                                                 |
 | M4 x 8mm machine screws   | 8   | All rear panels mount using eight (8) of these. |
 
 Our rear panel in this example is a panel mount test piece, but all rear panels follow the same pattern.
@@ -59,13 +59,13 @@ Some rear panels may have a fan to mount. If you are using the rear panel to mou
 
 It's a good idea to attach the MCU and any other remaining wiring before we close up the case further.
 
-## :material-alpha-p-box-outline: :material-alpha-d-box: Display Panel
+## :material-alpha-p-box: :material-alpha-d-box-outline: Display Panel
 
 You will need at least:
 
 | Parts                     | Qty | Note                                                     |
 |---------------------------|-----|----------------------------------------------------------|
-| Printed :material-alpha-p-box-outline: :material-alpha-d-box: display panel     | 1   |                                                          |
+| Printed :material-alpha-p-box: :material-alpha-d-box-outline: display panel     | 1   |                                                          |
 | LCD or TFT display        | 1   |                                                          |
 | M4 x 12mm machine screws  | 4   | All display screen panels mount using four (4) of these. |
 
@@ -73,7 +73,7 @@ For this example, we will use:
 
 | Parts                     | Qty | Note                                            |
 |---------------------------|-----|-------------------------------------------------|
-| :material-alpha-p-box-outline: :material-alpha-d-box: [Generic 12864 Display Mount][19] | 1  | Example of a printed display panel.      |
+| :material-alpha-p-box: :material-alpha-d-box-outline: [Generic 12864 Display Mount][19] | 1  | Example of a printed display panel.      |
 | Creality 12864 display    | 1   | LCD display example                             |
 | M3 x 6mm machine screws   | 4   |                                                 |
 
@@ -87,7 +87,7 @@ For this example, we will use:
 | Re-attach the knob to the display screen. Again, it should slide into place with light force. If your display mount has multiple pieces, attach those now (usually only applies to displays with side-mount SD card readers). | |
 | Insert the display connectors and slide the cables in before the display. Fasten the display panel with four (4) M4 x 12mm screws. | [![screws attached][4]][4] |
 
-## :material-alpha-p-box-outline: :material-alpha-l-box: Lid(s)
+## :material-alpha-p-box: :material-alpha-l-box-outline: Lid(s)
 
 Like the rear panel, the lid is intended for customization. The below is an example for a simple lid with a handle.
 
@@ -96,7 +96,7 @@ You will need for any lid or pair of half-lids:
 | Parts                     | Qty | Note                                            |
 |---------------------------|-----|-------------------------------------------------|
 | M3 x 8mm machine screws   | 8   | See note below.                                 |
-| Printed :material-alpha-p-box-outline: :material-alpha-l-box: lid     | 1   |      |
+| Printed :material-alpha-p-box: :material-alpha-l-box-outline: lid     | 1   |      |
 
 In this example, we also use:
 
@@ -104,7 +104,7 @@ In this example, we also use:
 |---------------------------|-----|-------------------------------------------------|
 | M3 x 8mm machine screws   | 2   |                                                 |
 | [Carry handle][12]        | 1   |                                                 |
-| :material-alpha-p-box-outline: :material-alpha-l-box: [Carry handle lid][13]    | 1   | Example of a printed lid.                       |
+| :material-alpha-p-box: :material-alpha-l-box-outline: [Carry handle lid][13]    | 1   | Example of a printed lid.                       |
 
 !!! note
     0.9.8 introduces half-length lids. One half-length lid requires four (4) screws; a full length lid attaches with eight (8) The main body requires two (2) half-length lids or one (1) full-length lid.

@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-07-22
 ---
 
-:material-alpha-p-box-outline: :material-alpha-d-box: Display Panels mount two different types of display screens:
+:material-alpha-p-box: :material-alpha-d-box-outline: Display Panels mount two different types of display screens:
 
 - MCU displays include various TFT and older 128x64 character LCD diplays.
 - Raspberry Pi displays are TFT displays, usually used with OctoPrint or Klipper.
@@ -14,9 +14,9 @@ date: 2022-07-22
 
 ## MCU Displays
 
-Each display screen has a subfolder in the [Panels/Display][11] git folder. There is an optional `STL` for a [display knob][10], as well.
+Each supported MCU display screen has a subfolder in the [Panels/Display][11] git folder. There is an optional `STL` for a [display knob][10], as well.
 
-Each component name links to the corresponding git folder.
+Component names below link to the corresponding git folder.
 
 | Component            | Image | Notes |
 |----------------------|--------|-------|
@@ -29,12 +29,12 @@ All of these mounts require four (4) 8mm M3 screws to fasten the display in plac
 
 ## Raspberry Pi Displays
 
-Any TFT meant to attach a Raspberry Pi on the back can be mounted in one of two ways:
+Any TFT designed with mounts points for a Raspberry Pi on the back should be compatible. These can be attached in one of two ways:
 
-- [As a half lid][12] above the MCU display mount,
-- Or [in place of the MCU display][13] entirely.
+- :material-alpha-p-box: :material-alpha-l-box-outline: [Lid][12]: As a half lid above the MCU display mount
+- :material-alpha-p-box: :material-alpha-d-box-outline: [Display Panel][13]: In place of the MCU display
 
-Compatible products include:
+Examples include:
 
 - BigTreeTech Pi TFT displays (using included hardware)
 - Raspberry Pi-branded 7" TFT (with additional standoffs and M2.5 screws)
