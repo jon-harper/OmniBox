@@ -13,14 +13,16 @@ You will need at least:
 
 | Parts                     | Qty | Note                                            |
 |---------------------------|-----|-------------------------------------------------|
-| Printed :material-alpha-p-box: :material-alpha-f-box-outline: front panel | 1   |         |
+| :material-alpha-p-box: :material-alpha-f-box-outline: Front panel | 1   | Printed |
 | M3 x 8mm machine screws   | 2   | All front panels mount using two (2) of these.  |
 
-In this example, we will use:
+In this example, we will also use:
 
 | Parts                                                 | Qty | Note  |
 |-------------------------------------------------------|-----|-------|
-| [:material-alpha-p-box: :material-alpha-f-box-outline: Front Panel - Micro SD Extension with USB C.stl][18] | 1   | Printed front panel example |
+| [:material-alpha-p-box: :material-alpha-f-box-outline: Front Panel - Micro SD Extension with USB C.stl][18] | 1   | Printed |
+| [LANMU MicroSD Holder Body.stl][23]                   | 1   | Printed |
+| [LANMU MicroSD Holder Cap.stl][24]                    | 1   | Printed |
 | [Micro SD card extension][14]                         | 1   |       |
 | [USB C panel mount extension][15]                     | 1   |       |
 | M3 x 6mm machine screws                               | 2   |       |
@@ -42,7 +44,7 @@ You will need at least:
 
 | Parts                     | Qty | Note                                            |
 |---------------------------|-----|-------------------------------------------------|
-| Printed :material-alpha-p-box: :material-alpha-r-box-outline: rear panel        | 1   |                                                 |
+| :material-alpha-p-box: :material-alpha-r-box-outline: Rear panel        | 1   | Printed  |
 | M4 x 8mm machine screws   | 8   | All rear panels mount using eight (8) of these. |
 
 Our rear panel in this example is a panel mount test piece, but all rear panels follow the same pattern.
@@ -57,7 +59,7 @@ Some rear panels may have a fan to mount. If you are using the rear panel to mou
 
 ## Remaining Wiring
 
-It's a good idea to attach the MCU and any other remaining wiring before we close up the case further.
+It's a good idea to attach all remaining wiring before we close up the case further.
 
 ## :material-alpha-p-box: :material-alpha-d-box-outline: Display Panel
 
@@ -65,15 +67,15 @@ You will need at least:
 
 | Parts                     | Qty | Note                                                     |
 |---------------------------|-----|----------------------------------------------------------|
-| Printed :material-alpha-p-box: :material-alpha-d-box-outline: display panel     | 1   |                                                          |
+| :material-alpha-p-box: :material-alpha-d-box-outline: Display panel     | 1   | Printed    |
 | LCD or TFT display        | 1   |                                                          |
 | M4 x 12mm machine screws  | 4   | All display screen panels mount using four (4) of these. |
 
-For this example, we will use:
+For this example, we will also use:
 
 | Parts                     | Qty | Note                                            |
 |---------------------------|-----|-------------------------------------------------|
-| :material-alpha-p-box: :material-alpha-d-box-outline: [Generic 12864 Display Mount][19] | 1  | Example of a printed display panel.      |
+| [:material-alpha-p-box: :material-alpha-d-box-outline: Generic 12864 Display Mount][19] | 1  | Printed |
 | Creality 12864 display    | 1   | LCD display example                             |
 | M3 x 6mm machine screws   | 4   |                                                 |
 
@@ -96,15 +98,15 @@ You will need for any lid or pair of half-lids:
 | Parts                     | Qty | Note                                            |
 |---------------------------|-----|-------------------------------------------------|
 | M3 x 8mm machine screws   | 8   | See note below.                                 |
-| Printed :material-alpha-p-box: :material-alpha-l-box-outline: lid     | 1   |      |
+| :material-alpha-p-box: :material-alpha-l-box-outline: Lid     | 1   | Printed     |
 
 In this example, we also use:
 
 | Parts                     | Qty | Note                                            |
 |---------------------------|-----|-------------------------------------------------|
 | M3 x 8mm machine screws   | 2   |                                                 |
-| [Carry handle][12]        | 1   |                                                 |
-| :material-alpha-p-box: :material-alpha-l-box-outline: [Carry handle lid][13]    | 1   | Example of a printed lid.                       |
+| [Carry handle][12]        | 1   | Printed                                         |
+| [:material-alpha-p-box: :material-alpha-l-box-outline: Carry handle lid][13] | 1  | Printed |
 
 !!! note
     0.9.8 introduces half-length lids. One half-length lid requires four (4) screws; a full length lid attaches with eight (8) The main body requires two (2) half-length lids or one (1) full-length lid.
@@ -143,3 +145,5 @@ Congratulations! You're done!
 [20]: ../img/assembly/sd_card2.jpg
 [21]: ../img/assembly/sd_card3.jpg
 [22]: ../img/assembly/sd_card4.jpg
+[23]: https://github.com/jon-harper/OmniBox/blob/main/Panels/Front%20Panel/Lanmu%20Micro%20SD%20Extension/LANMU%20MicroSD%20Holder%20Body.stl
+[24]: https://github.com/jon-harper/OmniBox/blob/main/Panels/Front%20Panel/Lanmu%20Micro%20SD%20Extension/LANMU%20MicroSD%20Holder%20Cap.stl
