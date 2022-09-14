@@ -75,7 +75,7 @@ OmniBox is currently pre-1.0 but mature enough for everyday use.
 
 See the [Version History][4] page for information on the latest release, fixes, new features, and known issues.
 
-![front right render][2]
+![front left render][1]
 
 [1]: img/gallery_0.9.8/front_left.png
 [2]: img/gallery_0.9.8.1/gallery_high.png
