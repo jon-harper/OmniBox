@@ -169,7 +169,7 @@ Rear panels with panel mounted connectors are an active area of work.
 |------------------|-------------|-----------|
 | [`Generic`][30]  | These have large holes for passing wires through and come in a number of common variations. | ...You want a simple, off-the-shelf solution and there is not a custom panel that suits. |
 | [`Custom`][31]   | Designed for users of common printer configurations. | ...Your printer has a configuration available. |
-| [`Molex`][32]    | Use Molex Micro Fit 3 panel mounted connectors. Pinout diagrams for each panel are included. | ...You plan to create a wiring harness for an enclosed printer. |
+| [`Micro Fit 3`][32]    | Use Molex Micro Fit 3 panel mounted connectors. Pinout diagrams for each panel are included. | ...You plan to create a wiring harness for an enclosed printer. |
 | [`Template`][33] | A Fusion 360 template with profiles for panel mounted connectors and fans. | ...You want to create your own panel. |
 
 ## :material-alpha-f-box: Fans
@@ -206,7 +206,7 @@ Externally mounted fans use :material-alpha-f-box: :material-alpha-c-box-outline
 [29]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel
 [30]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Generic
 [31]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Custom
-[32]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Molex
+[32]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Micro%20Fit%203
 [33]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Template
 [34]: img/examples/front_40mm.png
 [35]: img/examples/front_60mm.png

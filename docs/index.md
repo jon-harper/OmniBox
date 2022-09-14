@@ -5,23 +5,29 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
-Welcome to the documentation for the OmniBox, a modular electronics case for 3D printing.
+Welcome to the documentation for the OmniBox, a modular electronics case for 3D printers.
 
-This project is derived from the Steve Burcham's [Stand Alone Main Control Case](https://www.thingiverse.com/thing:3999751) V3 footprint; it is a unique design with a lower height and compatibility with larger microcontroller unit (MCU) boards like BIGTREETECH's Octopus. Smaller boards will also fit and the case is compatible with a wide range of parts.
+This project is derived from the Steve Burcham's [Stand Alone Main Control Case](https://www.thingiverse.com/thing:3999751) V3 footprint; OmniBox is a unique design with a lower height and compatibility with larger microcontroller unit (MCU) boards like BIGTREETECH's Octopus. The case is compatible with a wide range of parts and and is meant to be easily upgradeable.
 
-| Front Left Render | Right Side View |
+<!-- | Front Left Render | Right Side View |
 |-----------------|------------------|
-| [![render of the front left][1]][1] | [![right side view][3]][3] |
+| [![render of the front left][1]][1] | [![right side view][3]][3] | -->
 
+[![gallery of OmniBox part combinations][2]][2]
 
 ## Quick Links
 
-- [GitHub with STLs](https://github.com/jon-harper/OmniBox)
-- [Visual Guided Tour](tour.md)
-- [Supported Part List](support/index.md)
-- [Printing Guide](printing.md)
-- [Bill of Materials](bom.md)
-- [Assembly Guide](assembly/index.md)
+:material-github: [GitHub with STLs](https://github.com/jon-harper/OmniBox)
+
+:material-television-guide: [Visual Guided Tour](tour.md)
+
+:octicons-checklist-24: [Supported Part List](support/index.md)
+
+:material-printer-3d-nozzle: [Printing Guide](printing.md)
+
+:octicons-list-ordered-24: [Bill of Materials](bom.md)
+
+:material-directions: [Assembly Guide](assembly/index.md)
 
 ## Version Stability Guarantee
 
@@ -30,8 +36,6 @@ Printing OmniBox is a time investment. This makes incompatibility between versio
 I've extended that modularity with a "Version Stability Guarantee":
 
 The printed components of OmniBox are "stable" or "frozen" in how they connect with other printed parts. This means that if you choose to print a newer version of a core part, no panels or trays will need to be reprinted.
-
-Additionally, the interface between the core components is frozen across all versions, e.g., an 0.9.7 case user can choose to keep the printed base and only upgrade the main body to version 0.9.8, or even just upgrade the front main body and nothing else. 
 
 See the [Visual Guided Tour](tour.md) to see how this works in practice.
 
@@ -74,6 +78,6 @@ See the [Version History][4] page for information on the latest release, fixes, 
 ![front right render][2]
 
 [1]: img/gallery_0.9.8/front_left.png
-[2]: img/gallery_0.9.8/front_right.png
+[2]: img/gallery_0.9.8.1/gallery_high.png
 [3]: img/gallery_0.9.8/oscar_right.jpg
 [4]: history/index.md
