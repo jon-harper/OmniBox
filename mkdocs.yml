@@ -33,16 +33,21 @@ theme:
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
-  - attr_list
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
       
 nav:
   - index.md
+  - development.md
   - tour.md
   - Requirements:
     - printing.md
@@ -65,5 +70,4 @@ nav:
     - history/v0.9.7.md
     - history/v0.9.5.md
     - history/v0.9.md
-    - history/development.md
   
