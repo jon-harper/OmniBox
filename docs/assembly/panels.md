@@ -34,7 +34,7 @@ In this example, we will also use:
 | Carefully remove the outer shell from the Micro SD card extension. | [![Micro SD extension and mount][17]][17] |
 | Place the reader PCB into the shell, as in the picture. | [![Micro SD extension placed in shell][20]][20] |
 | Put the shell lid on and attach with two (2) M3 x 6mm screws. | [![Extension with lid on and screws fastened][21]][21] |
-| Insert the extension shell into the front panel and attach with two (2) M3 x 8mm screws. | [![panel mount with accessories attached][22]][22] |
+| Insert the extension shell into the front panel and attach with two (2) M3 x 8mm screws. Orientation up or down does not matter. | [![panel mount with accessories attached][22]][22] |
 | Push the panel into place on the main body. | [![placing the front vent][1]][1] |
 | Fasten the panel with two (2) M3 x 8mm screws. | [![front vent installed][2]][2] |
 
@@ -44,7 +44,7 @@ You will need at least:
 
 | Parts                     | Qty | Note                                            |
 |---------------------------|-----|-------------------------------------------------|
-| :material-alpha-p-box: :material-alpha-r-box-outline: Rear panel        | 1   | Printed  |
+| :material-alpha-p-box: :material-alpha-r-box-outline: Rear panel | 1   | Printed  |
 | M4 x 8mm machine screws   | 8   | All rear panels mount using eight (8) of these. |
 
 Our rear panel in this example is a panel mount test piece, but all rear panels follow the same pattern.

@@ -35,7 +35,7 @@ Notes:
 
 | Step | Example |
 |------|---------|
-| Mount the Raspberry Pi to the tray with four (4) M3 x 6mm screws. | [![raspberry pi installation][5]][5] |
+| Place the Raspberry Pi on the CPU tray as pictured. Fasten with four (4) M3 x 6mm screws. | [![raspberry pi installation][5]][5] |
 | Slide the tray into the left side bay. | [![tray location][6]][6] |
 | Use four (4) M3 x 8mm screws to fasten the tray in place. | [![tray location][7]][7] |
 

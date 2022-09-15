@@ -26,10 +26,12 @@ The current release is 0.9.8.1, released on 2022-09-xx.
     - The guide makes the spool holder adjustable to spool width (up to about 120mm).
 - Lids for dryboxes!
     - A lid for [Rubbermaid 21 cup containers][1].
-    - These containers are about $5 each at Ace Mart.
-    - There are often clones of these on Amazon that are slightly more expensive (about $8-10 ea).
+    - These containers are about $8 each at Ace Mart. They are much more expensive on Amazon.
+    - There are often clones of these on Amazon that are similarly priced (about $8-10 ea).
     - May have lids for generic containers in the near future as a user contribution.
-- Raspberry Pi tray now have a version with a 6-pin Micro Fit 3 panel mount cutout.
+- Raspberry Pi trays now have a version with a 6-pin Micro Fit 3 panel mount cutout.
+    - Meant to allow using an ADXL345 accelerometer via SPI.
+    - Cutout is on tray to give shortest wiring run possible.
 
 ### Experimental Hardware Support
 

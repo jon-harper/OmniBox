@@ -10,7 +10,10 @@ The General Components list is a base list common to all builds. Additional comp
 There are no affiliate links used on this site.
 
 !!! note
-    In certain places, the design allows for longer-than-specified screws. The [assembly guide](assembly/index.md) notes where substitutions can be made.
+    The design allows for longer-than-specified screws in certain locations. The [assembly guide](assembly/index.md) notes where substitutions can be made.
+
+!!! note
+    Wiring is only specified for the IEC power socket, power switch, and power supply. Additional wiring for the MCU and CPU are configuration-specific.
 
 ## Universal Bill of Materials
 
@@ -29,9 +32,9 @@ These parts are common to all case builds. See below for additional requirements
 | M4 x 8mm machine screws                | 12  | ea  |                                                          |
 | M4 x 12mm machine screws               | 4   | ea  |                                                          |
 | M4 x 16mm machine screws               | 4   | ea  |                                                          |
-| 16 awg wire                            | 0.5 | m   |                                                          |
-| Spade connectors, 14-16 awg, female    | 3   | ea  |                                                          |
-| Fork connectors, 14-16 awg             | 1   | ea  |                                                          |
+| 16 awg wire                            | 0.5 | m   | Red or black.                                            |
+| [Spade connectors, 14-16 awg, Female][13] | 3   | ea  |                                                       |
+| [Fork connectors, 14-16 awg][12]       | 1   | ea  |                                                          |
 | [SPST snap-in rocker switch][2]        | 1   | ea  | 30mm x 11mm profile. Identical to Creality Ender power switch. |
 | MCU (3D printer control board)         | 1   | ea  | See the [Supported Parts][8] list.                       |
 | [IEC C14 socket with fuse][3]          | 1   | ea  | Identical profile to Creality Ender series power socket. |
@@ -52,8 +55,7 @@ Currently, two power supply models are supported. You will need one (1) of the f
 
 ## :material-alpha-c-box: Core Configurations with Fans
 
-!!! note 
-    Externally mounted fans require a printed [:material-alpha-f-box: :material-alpha-c-box-outline: fan cage][11] that matches the size of the fan. This is added below where needed.
+Externally mounted fans require a printed [:material-alpha-f-box: :material-alpha-c-box-outline: fan cage][11] that matches the size of the fan. These are specified below.
 
 ### 1. :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-f-box-outline: Base - Front
 
@@ -129,3 +131,7 @@ See the [Supported Parts Overview][8] for a full list of parts and mounting loca
 [9]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU
 [10]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display
 [11]: https://github.com/jon-harper/OmniBox/Fan%20Cages
+<!-- Fork connectors -->
+[12]: https://www.amazon.com/Baomain-Insulated-Connector-Electrical-Terminal/dp/B01B1DL4OA 
+<!-- Spade connectors -->
+[13]: https://www.amazon.com/gp/product/B07FQB6WXP      

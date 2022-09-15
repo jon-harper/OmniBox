@@ -128,7 +128,7 @@ The CPU tray is an optional mount for a Raspberry Pi. There is a blank cover if 
 2. :material-alpha-p-box: :material-alpha-d-box-outline: Display panel
 3. :material-alpha-p-box: :material-alpha-l-box-outline: Lid
 4. :material-alpha-p-box: :material-alpha-r-box-outline: Rear panel (not visible)
-5. :material-alpha-f-box: :material-alpha-c-box-outline: Fan cage (see [next section](#fan-cages))
+5. :material-alpha-f-box: :material-alpha-c-box-outline: Fan cage (see [next section](#fans))
 
 | Panels        | Qty | Folder Link | Notes |
 |---------------|-----|-------------|-------|
@@ -176,7 +176,7 @@ Rear panels with panel mounted connectors are an active area of work.
 
 ![render of a case with two 40mm fans and a 60mm fan mounted externally][38]
 
-Externally mounted fans use :material-alpha-f-box: :material-alpha-c-box-outline: [fan cages][13] to cover the fan blades. There are a large number of fan sizes supported, each with a matching TPU :material-alpha-f-box: :material-alpha-g-box-outline: fan gasket. The gaskets are optional.
+Externally mounted fans use :material-alpha-f-box: :material-alpha-c-box-outline: [fan cages][13] to cover the fan blades. There are a large number of fan sizes supported, each with a matching TPU :material-alpha-f-box: :material-alpha-g-box-outline: fan gasket. The gaskets are optional and serve to reduce noise.
 
 [1]: img/printed_parts/core.png
 [2]: img/printed_parts/trays.png
