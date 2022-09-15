@@ -57,7 +57,7 @@ Currently, two power supply models are supported. You will need one (1) of the f
 
 Externally mounted fans require a printed [:material-alpha-f-box: :material-alpha-c-box-outline: fan cage][11] that matches the size of the fan. These are specified below.
 
-### 1. :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-f-box-outline: Base - Front
+### :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-f-box-outline: Base - Front
 
 The base has an optional 40mm fan. The following are needed to mount the fan:
 
@@ -66,11 +66,11 @@ The base has an optional 40mm fan. The following are needed to mount the fan:
 | [40x40x10mm axial fan][6]         | 1   | ea  |                                                          |
 | M3 x 16mm machine screws          | 4   | ea	| Any length 14-16mm will work.                            |
 
-### 2. :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-f-box-outline: Main Body - Front
+### :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-f-box-outline: Main Body - Front
 
 There are two versions of the front main body.
 
-#### Default: With 40mm Intake
+#### Internal 40mm Intake
 
 This version of the front main body has an optional 40mm fan. The following are needed to mount the fan:
 
@@ -79,7 +79,7 @@ This version of the front main body has an optional 40mm fan. The following are 
 | [40x40x10mm axial fan][6]         | 1   | ea  |                                                          |
 | M3 x 16mm machine screws          | 4   | ea	| Any length 14-16mm will work.                            |
 
-#### Alternate: With 60mm Intake
+#### External 60mm Intake
 
 This version of the front main body requires an externally mounted 60mm fan.
 
@@ -89,13 +89,13 @@ This version of the front main body requires an externally mounted 60mm fan.
 | M4 x 25mm machine screws          | 4   | ea  | Add 10mm to fan depth for thicker fans.                  |
 | Printed [:material-alpha-f-box: :material-alpha-c-box-outline: fan cage][11]            | 1   | ea  | TPU gasket is optional.                                  |
 
-### 3. :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-r-box-outline: Main Body - Rear
+### :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-r-box-outline: Main Body - Rear
 
 The rear body also has two versions: one with dual exhausts and one without any.
 
-#### Default: With 40mm Exhausts
+#### Dual 40mm Exhausts
 
-This version of the requires two externally mounted 40mm fans.
+This version of the requires two (2) externally mounted 40mm fans.
 
 | Item                              | Qty | UOM | Note                                                     |
 |-----------------------------------|-----|-----|----------------------------------------------------------|
@@ -103,11 +103,11 @@ This version of the requires two externally mounted 40mm fans.
 | M3 x 20mm machine screws          | 8   | ea	| Use 30mm screws for 20mm fans (not recommended).         |
 | Printed [:material-alpha-f-box: :material-alpha-c-box-outline: fan cage][11]            | 2   | ea  | TPU gaskets are optional.                                |
 
-#### Alternate: No Fans
+#### No Exhaust Fans
 
 There are no additional materials required for this version. 
 
-!!! note
+!!! warning
     This rear main body must be used with a :material-alpha-p-box: :material-alpha-r-box-outline: rear panel or :material-alpha-p-box: :material-alpha-l-box-outline: lid that provides an exhaust fan.
 
 ## :material-alpha-t-box: Tray and :material-alpha-p-box: Panel Configurations
