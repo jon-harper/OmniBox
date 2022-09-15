@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
-The General Components list is a base list common to all builds. Additional components based on your build configuration are listed separately.
+The Universal Bill of Materials is a base list common to all builds. Additional components based on your build configuration are listed separately.
 
 There are no affiliate links used on this site.
 
@@ -22,7 +22,7 @@ These parts are common to all case builds. See below for additional requirements
 | Item                                   | Qty | UOM | Note                                                     |
 |----------------------------------------|-----|-----|----------------------------------------------------------|
 | PLA or PLA+ filament                   | 2   | kg  | May be printable in 1kg if using a single color.         |
-| TPU 95A filament *(optional)*          | 0.1 | kg  | Optional. Quantity is maximum estimated.                 |
+| TPU 95A filament                       | 0.05| kg  | **Optional.** Quantity is maximum estimated.             |
 | M3 x 6mm machine screws                | 4   | ea  |                                                          |
 | M3 x 8mm machine screws                | 20  | ea  |                                                          |
 | M3 x 16mm machine screws               | 4   | ea  |                                                          |

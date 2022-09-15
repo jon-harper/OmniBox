@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-08-24
 ---
 
-The current release is 0.9.8.1, released on 2022-09-xx.
+The current release is 0.9.8.1, released on 2022-09-15.
 
 <!-- ## Fixes -->
 
@@ -20,18 +20,18 @@ The current release is 0.9.8.1, released on 2022-09-xx.
 
 ## Panels and Trays
 
-- Lids for spools!
+- Lid for filament spools added.
     - An adaptation of my [Tighter T.U.S.H. spool holder][2] (a remix of the original T.U.S.H.).
     - It mounts on a lid that integrates the spool holder guide.
     - The guide makes the spool holder adjustable to spool width (up to about 120mm).
-- Lids for dryboxes!
-    - A lid for [Rubbermaid 21 cup containers][1].
-    - These containers are about $8 each at Ace Mart. They are much more expensive on Amazon.
+- Lid for dryboxes added.
+    - Fitted for Rubbermaid 21 cup container used as a 1kg spool drybox.
+    - These containers are about $10 each at [Ace Hardware][5]. They are more expensive on [Amazon][1].
     - There are often clones of these on Amazon that are similarly priced (about $8-10 ea).
-    - May have lids for generic containers in the near future as a user contribution.
-- Raspberry Pi trays now have a version with a 6-pin Micro Fit 3 panel mount cutout.
-    - Meant to allow using an ADXL345 accelerometer via SPI.
-    - Cutout is on tray to give shortest wiring run possible.
+    - May have lids for other containers in the near future as a user contribution.
+- Raspberry Pi CPU trays have a version with a 6-pin Micro Fit 3 panel mount cutout.
+    - Allow using an ADXL345 accelerometer via SPI.
+    - Cutout is on the tray to give shortest wiring run possible.
 
 ### Experimental Hardware Support
 
@@ -51,15 +51,18 @@ This hardware is now fit-tested as working.
 | Fotek SSR-60 DA solid state relay | Lower bay | |
 | Raspberry Pi TFTs | Display mount or half-lid | See below. |
 
-Note: There are two half-length lids for Raspbery Pi TFTs. Use the XL half-lid for the official 7" and similarly large TFTs. Smaller (e.g., 5") TFTs will fit on the standard half-lid.
+Note: Smaller TFTs (e.g., BigTreeTech's 5" PiTFT) will fit on the standard half-lid. Use the "XL" STL file for the official 7" and similarly large TFTs. 
 
 ## Documentation & Repository
 
-- Documentation site has a modified color scheme and fonts for readability.
-- New dark theme for the doc site.
-- Implemented several Material for Mkdocs features, including icons to help with part identification.
-- Improved documentation readability.
-
+- Documentation site
+    - Modified color scheme and fonts for readability.
+    - Added new dark color theme.
+    - Implemented several Material for Mkdocs features, including icons to help with part identification.
+    - Improved site navigation.
+- Repository
+    - Reorganized lids folder into "Full-Length" and "Half-Lenth" subfolders.
+    - Added more readme.md files for folders.
 ## Known Issues
 
 - The front main body with a 40mm intake fan partially obscures a mounting hole for the base to the main body. This leave seven (7) other mount points and is not a significant issue. The hole can safely be left empty.
@@ -76,3 +79,4 @@ Note: There are two half-length lids for Raspbery Pi TFTs. Use the XL half-lid f
 [2]: https://www.thingiverse.com/thing:4737072
 [3]: ../img/gallery_0.9.8.1/spool_holder.png
 [4]: ../img/gallery_0.9.8.1/stackable_lid.jpg
+[5]: https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/food-storage/6192892

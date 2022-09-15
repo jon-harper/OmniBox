@@ -35,7 +35,7 @@ These are required and do not have variations.
 
 #### :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-f-box-outline: Base - Front
 
-This is the front part of a two base pieces that cover the power supply. There is a 30mm x 11mm rocker switch cutout in front, as well as air vents and an optional 40mm fan.
+This is the front of two base pieces that cover the power supply. There is a 30mm x 11mm rocker switch cutout in front, as well as air vents and an optional 40mm fan.
 
 #### :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-r-box-outline: Base - Rear 
 
