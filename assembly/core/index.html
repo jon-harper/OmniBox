@@ -36,8 +36,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,300i,400,400i,700,700i%7CSource+Code+Pro:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans";--md-code-font:"Source Code Pro"}</style>
       
     
     
@@ -52,12 +52,16 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="deep-orange">
   
     
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -65,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#1-base" class="md-skip">
+        <a href="#base" class="md-skip">
           Skip to content
         </a>
       
@@ -82,7 +86,7 @@
     <a href="../.." title="OmniBox Documentation" class="md-header__button md-logo" aria-label="OmniBox Documentation" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.5 14.33c.79 0 1.63.08 2.5.24v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.33-4.5.99v-1.69c1.17-.53 2.67-.8 4.5-.8M13 12.46c1.29-.53 2.79-.79 4.5-.79.79 0 1.63.07 2.5.23v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.34-4.5.99m4.5-3.65c-1.9 0-3.39.32-4.5 1V9.84c1.23-.56 2.73-.84 4.5-.84.79 0 1.63.08 2.5.23v1.55c-.74-.19-1.59-.28-2.5-.28m3.5 8V7c-1.04-.33-2.21-.5-3.5-.5-2.05 0-3.88.5-5.5 1.5v11.5c1.62-1 3.45-1.5 5.5-1.5 1.19 0 2.36.16 3.5.5m-3.5-14c2.35 0 4.19.5 5.5 1.5v14.56c0 .12-.05.24-.16.35-.11.09-.23.17-.34.17-.11 0-.19-.02-.25-.05-1.28-.69-2.87-1.03-4.75-1.03-2.05 0-3.88.5-5.5 1.5-1.34-1-3.17-1.5-5.5-1.5-1.66 0-3.25.36-4.75 1.07-.03.01-.07.01-.12.03-.04.01-.08.02-.13.02-.11 0-.23-.04-.34-.12a.475.475 0 0 1-.16-.35V6c1.34-1 3.18-1.5 5.5-1.5 2.33 0 4.16.5 5.5 1.5 1.34-1 3.17-1.5 5.5-1.5z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -104,6 +108,28 @@
         </div>
       </div>
     </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="deep-orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1h4m6-10h3v2h-3v-2M1 11h3v2H1v-2M13 1v3h-2V1h2M4.92 3.5l2.13 2.14-1.42 1.41L3.5 4.93 4.92 3.5m12.03 2.13 2.12-2.13 1.43 1.43-2.13 2.12-1.42-1.42z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C9.76 2 7.78 3.05 6.5 4.68l1.43 1.43C8.84 4.84 10.32 4 12 4a5 5 0 0 1 5 5c0 1.68-.84 3.16-2.11 4.06l1.42 1.44C17.94 13.21 19 11.24 19 9a7 7 0 0 0-7-7M3.28 4 2 5.27 5.04 8.3C5 8.53 5 8.76 5 9c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h5.73l4 4L20 20.72 3.28 4m3.95 6.5 5.5 5.5H10v-2.42a5.004 5.004 0 0 1-2.77-3.08M9 20v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+            </label>
+          
+        
+      </form>
     
     
     
@@ -148,7 +174,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    GitHub
+    jon-harper/OmniBox
   </div>
 </a>
       </div>
@@ -180,7 +206,7 @@
     <a href="../.." title="OmniBox Documentation" class="md-nav__button md-logo" aria-label="OmniBox Documentation" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.5 14.33c.79 0 1.63.08 2.5.24v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.33-4.5.99v-1.69c1.17-.53 2.67-.8 4.5-.8M13 12.46c1.29-.53 2.79-.79 4.5-.79.79 0 1.63.07 2.5.23v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.34-4.5.99m4.5-3.65c-1.9 0-3.39.32-4.5 1V9.84c1.23-.56 2.73-.84 4.5-.84.79 0 1.63.08 2.5.23v1.55c-.74-.19-1.59-.28-2.5-.28m3.5 8V7c-1.04-.33-2.21-.5-3.5-.5-2.05 0-3.88.5-5.5 1.5v11.5c1.62-1 3.45-1.5 5.5-1.5 1.19 0 2.36.16 3.5.5m-3.5-14c2.35 0 4.19.5 5.5 1.5v14.56c0 .12-.05.24-.16.35-.11.09-.23.17-.34.17-.11 0-.19-.02-.25-.05-1.28-.69-2.87-1.03-4.75-1.03-2.05 0-3.88.5-5.5 1.5-1.34-1-3.17-1.5-5.5-1.5-1.66 0-3.25.36-4.75 1.07-.03.01-.07.01-.12.03-.04.01-.08.02-.13.02-.11 0-.23-.04-.34-.12a.475.475 0 0 1-.16-.35V6c1.34-1 3.18-1.5 5.5-1.5 2.33 0 4.16.5 5.5 1.5 1.34-1 3.17-1.5 5.5-1.5z"/></svg>
 
     </a>
     OmniBox Documentation
@@ -193,7 +219,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    GitHub
+    jon-harper/OmniBox
   </div>
 </a>
     </div>
@@ -209,7 +235,22 @@
   
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
-        About OmniBox
+        Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../development/" class="md-nav__link">
+        The OmniBox Story
       </a>
     </li>
   
@@ -224,7 +265,7 @@
   
     <li class="md-nav__item">
       <a href="../../tour/" class="md-nav__link">
-        A Guided Tour
+        Guided Tour
       </a>
     </li>
   
@@ -238,21 +279,87 @@
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_3">
+        <label class="md-nav__link" for="__nav_4">
+          Requirements
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Requirements" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Requirements
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../printing/" class="md-nav__link">
+        Printing Guide
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bom/" class="md-nav__link">
+        Bill of Materials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
           Supported Parts
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Supported Parts" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
+        <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           Supported Parts
         </label>
@@ -354,41 +461,13 @@
 
   
   
-  
-    <li class="md-nav__item">
-      <a href="../../printing/" class="md-nav__link">
-        Printing Guide
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../bom/" class="md-nav__link">
-        Bill of Materials
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
     
   
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
@@ -458,16 +537,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-base" class="md-nav__link">
-    1. Base
+  <a href="#base" class="md-nav__link">
+      Base
   </a>
   
-    <nav class="md-nav" aria-label="1. Base">
+    <nav class="md-nav" aria-label="  Base">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#base-extensions" class="md-nav__link">
-    Base Extensions
+       Base Extensions
   </a>
   
 </li>
@@ -478,15 +557,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-main-body" class="md-nav__link">
-    2. Main Body
+  <a href="#main-body" class="md-nav__link">
+      Main Body
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-fans" class="md-nav__link">
-    3. Fans
+  <a href="#fans" class="md-nav__link">
+     Fans
   </a>
   
 </li>
@@ -542,7 +621,9 @@
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
@@ -569,7 +650,21 @@
   
     <li class="md-nav__item">
       <a href="../../history/" class="md-nav__link">
-        0.9.8 Release (Current)
+        0.9.8.1 Release (Current)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../history/v0.9.8/" class="md-nav__link">
+        0.9.8 Release
       </a>
     </li>
   
@@ -618,20 +713,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../history/development/" class="md-nav__link">
-        Development Gallery
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -663,16 +744,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-base" class="md-nav__link">
-    1. Base
+  <a href="#base" class="md-nav__link">
+      Base
   </a>
   
-    <nav class="md-nav" aria-label="1. Base">
+    <nav class="md-nav" aria-label="  Base">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#base-extensions" class="md-nav__link">
-    Base Extensions
+       Base Extensions
   </a>
   
 </li>
@@ -683,15 +764,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-main-body" class="md-nav__link">
-    2. Main Body
+  <a href="#main-body" class="md-nav__link">
+      Main Body
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-fans" class="md-nav__link">
-    3. Fans
+  <a href="#fans" class="md-nav__link">
+     Fans
   </a>
   
 </li>
@@ -708,15 +789,11 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/jon-harper/OmniBox/edit/master/docs/assembly/core.md" title="Edit this page" class="md-content__button md-icon">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
-</a>
-
 
 
   <h1>Core</h1>
 
-<h2 id="1-base">1. Base</h2>
+<h2 id="base"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m6 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2h-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 10.5c0 .8-.7 1.5-1.5 1.5.8 0 1.5.7 1.5 1.5V15a2 2 0 0 1-2 2H9V7h4a2 2 0 0 1 2 2v1.5M13 15v-2h-2v2h2m0-4V9h-2v2h2M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> Base</h2>
 <p>You will need:</p>
 <table>
 <thead>
@@ -753,12 +830,12 @@
 <td></td>
 </tr>
 <tr>
-<td>Printed front base</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m6 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2h-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 10.5c0 .8-.7 1.5-1.5 1.5.8 0 1.5.7 1.5 1.5V15a2 2 0 0 1-2 2H9V7h4a2 2 0 0 1 2 2v1.5M13 15v-2h-2v2h2m0-4V9h-2v2h2M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h6v2h-4v2h3v2h-3v4H9V7M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> Base - Front</td>
 <td>1</td>
 <td><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl">Base - Front.stl</a></td>
 </tr>
 <tr>
-<td>Printed rear base</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m6 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2h-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 10.5c0 .8-.7 1.5-1.5 1.5.8 0 1.5.7 1.5 1.5V15a2 2 0 0 1-2 2H9V7h4a2 2 0 0 1 2 2v1.5M13 15v-2h-2v2h2m0-4V9h-2v2h2M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h4a2 2 0 0 1 2 2v2c0 .84-.5 1.55-1.24 1.85L15 17h-2l-1.2-4H11v4H9V7m2 2v2h2V9h-2M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m0 2v14h14V5H5z"/></svg></span> Base - Rear</td>
 <td>1</td>
 <td><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear.stl">Base - Rear.stl</a></td>
 </tr>
@@ -774,7 +851,7 @@
 </thead>
 <tbody>
 <tr>
-<td>The front and rear parts of the base both have two (2) holes on each side. Use the four (4) M4 screws to fasten them together. <strong>Note:</strong> Make sure the sawtooth air vents on both halves are facing the same direction, as in the picture.</td>
+<td>Both front and rear halves of the base have two (2) holes on each side. Use the four (4) M4 screws to fasten them together. <strong>Note:</strong> Make sure the sawtooth air vents on both halves are facing the same direction, as in the picture.</td>
 <td><a href="../../img/assembly/base_assembled.jpg"><img alt="assembled base" src="../../img/assembly/base_assembled.jpg" /></a></td>
 </tr>
 <tr>
@@ -799,8 +876,8 @@
 </tr>
 </tbody>
 </table>
-<h3 id="base-extensions">Base Extensions</h3>
-<p>If you are installing the base extensions (needed for the RSP-500 power supply), follw the next steps. If not, skip down to the <a href="#2-main-body">Main Body section</a>.</p>
+<h3 id="base-extensions"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m6 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2h-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 10.5c0 .8-.7 1.5-1.5 1.5.8 0 1.5.7 1.5 1.5V15a2 2 0 0 1-2 2H9V7h4a2 2 0 0 1 2 2v1.5M13 15v-2h-2v2h2m0-4V9h-2v2h2M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h6v2h-4v2h4v2h-4v2h4v2H9V7M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> Base Extensions</h3>
+<p>If you are installing the base extensions (needed for the RSP-500 power supply), follow the next steps. If not, skip down to the <a href="#2-main-body">Main Body section</a>.</p>
 <p>You will need:</p>
 <table>
 <thead>
@@ -817,12 +894,12 @@
 <td>Any length up to 20mm will work.</td>
 </tr>
 <tr>
-<td>Printed front extension</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m6 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2h-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 10.5c0 .8-.7 1.5-1.5 1.5.8 0 1.5.7 1.5 1.5V15a2 2 0 0 1-2 2H9V7h4a2 2 0 0 1 2 2v1.5M13 15v-2h-2v2h2m0-4V9h-2v2h2M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h6v2h-4v2h4v2h-4v2h4v2H9V7M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> Base - Front Extension</td>
 <td>1</td>
 <td><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front%20Extension.stl">Base - Front Extension.stl</a></td>
 </tr>
 <tr>
-<td>Printed rear extension</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m6 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2h-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 10.5c0 .8-.7 1.5-1.5 1.5.8 0 1.5.7 1.5 1.5V15a2 2 0 0 1-2 2H9V7h4a2 2 0 0 1 2 2v1.5M13 15v-2h-2v2h2m0-4V9h-2v2h2M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h6v2h-4v2h4v2h-4v2h4v2H9V7M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> Base - Rear Extension</td>
 <td>1</td>
 <td><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear%20Extension.stl">Base - Rear Extension.stl</a></td>
 </tr>
@@ -851,7 +928,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="2-main-body">2. Main Body</h2>
+<h2 id="main-body"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m6 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2h-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h6a2 2 0 0 1 2 2v8h-2V9h-2v7h-2V9H9v8H7V9a2 2 0 0 1 2-2M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m0 2v14h14V5H5z"/></svg></span> Main Body</h2>
 <p>You will need:</p>
 <table>
 <thead>
@@ -883,17 +960,17 @@
 <td>See caution below.</td>
 </tr>
 <tr>
-<td>Printed front main body</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m6 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2h-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h6a2 2 0 0 1 2 2v8h-2V9h-2v7h-2V9H9v8H7V9a2 2 0 0 1 2-2M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m0 2v14h14V5H5z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h6v2h-4v2h3v2h-3v4H9V7M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> Main Body - Front</td>
 <td>1</td>
 <td><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20LRS-350/Main%20Body%20-%20Front%20with%2040mm%20Intake.stl">Main Body - Front with 40mm Intake.stl</a> used here.</td>
 </tr>
 <tr>
-<td>Printed rear main body</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m6 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2h-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h6a2 2 0 0 1 2 2v8h-2V9h-2v7h-2V9H9v8H7V9a2 2 0 0 1 2-2M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m0 2v14h14V5H5z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h4a2 2 0 0 1 2 2v2c0 .84-.5 1.55-1.24 1.85L15 17h-2l-1.2-4H11v4H9V7m2 2v2h2V9h-2M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m0 2v14h14V5H5z"/></svg></span> Main Body - Rear</td>
 <td>1</td>
 <td><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20LRS-350/Main%20Body%20-%20Rear%20with%2040mm%20Exhausts.stl">Main Body - Rear with 40mm Exhausts.stl</a> used here.</td>
 </tr>
 <tr>
-<td>Printed crossbar</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m6 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2h-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h6a2 2 0 0 1 2 2v8h-2V9h-2v7h-2V9H9v8H7V9a2 2 0 0 1 2-2M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m0 2v14h14V5H5z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5m6 2h2a2 2 0 0 1 2 2v1h-2V9h-2v6h2v-1h2v1a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"/></svg></span> Main Body - Crossbar</td>
 <td>1</td>
 <td><a href="https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Crossbar.stl">Main Body - Crossbar</a></td>
 </tr>
@@ -907,7 +984,7 @@
 <p>Notes and Cautions:</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Sharp point screws are easier to use than machine scews for attaching the main body and base. For this you can use #6 x 3/4" screws (SAE) or M3 x 20mm (metric) screws found at any hardware store. If these are not convenient or available, machine screws will work in their place.</p>
+<p>Sharp point screws are easier to use than machine scews for attaching the main body and base. For this you can use #6 x 3/4" screws (SAE) or M3 equivalent screws found at any hardware store. If these are not convenient or available, M3 machine screws will work in their place.</p>
 </div>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
@@ -940,11 +1017,11 @@
 <td><a href="../../img/assembly/psu_finished.jpg"><img alt="power supply location" src="../../img/assembly/psu_finished.jpg" /></a></td>
 </tr>
 <tr>
-<td>Place the assembled main body on top of the base. Using your long machine or sheet metal screws, partially thread one screw near one of the rear corners and an opposing front corner.</td>
+<td>Place the assembled main body on top of the base. Using your long machine or sharp point screws, partially thread one screw near one of the rear corners and an opposing front corner.</td>
 <td><a href="../../img/assembly/core_1.jpg"><img alt="first two screws" src="../../img/assembly/core_1.jpg" /></a></td>
 </tr>
 <tr>
-<td>Fasten the main body and base together with your long M3 or #6 screws.</td>
+<td>Continue adding screws on alternating sides until all eight (8) screws are partially threaded, then tighten them all.</td>
 <td><a href="../../img/assembly/core_2.jpg"><img alt="remaining screws inserted" src="../../img/assembly/core_2.jpg" /></a></td>
 </tr>
 <tr>
@@ -952,12 +1029,12 @@
 <td><a href="../../img/assembly/crossbar_1.jpg"><img alt="crossbar assembly" src="../../img/assembly/crossbar_1.jpg" /></a></td>
 </tr>
 <tr>
-<td>Attach the crossbar with an M3 x 16mm screw in each side.</td>
+<td>Attach the crossbar with two (2) M3 x 16mm screws, one in each side.</td>
 <td><a href="../../img/assembly/crossbar_2.jpg"><img alt="crossbar assembly" src="../../img/assembly/crossbar_2.jpg" /></a></td>
 </tr>
 </tbody>
 </table>
-<h2 id="3-fans">3. Fans</h2>
+<h2 id="fans"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7v10h2v-4h3v-2h-3V9h4V7H9M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg></span> Fans</h2>
 <p>Fan locations and sizes vary by configuration. This section is specific to the configuration assembled in this guide. The length of screws needed and printed parts will vary, but the method of mounting fans used here is identical for all sizes of externally mounted fans.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -984,12 +1061,12 @@
 <td>Can use 4015 or 4020 fans with the correct fan cage and gasket.</td>
 </tr>
 <tr>
-<td>Printed 40mm fan cage</td>
+<td>40mm <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7v10h2v-4h3v-2h-3V9h4V7H9M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5m6 2h2a2 2 0 0 1 2 2v1h-2V9h-2v6h2v-1h2v1a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"/></svg></span> Fan Cage</td>
 <td>2</td>
 <td><a href="https://github.com/jon-harper/OmniBox/blob/main/Fan%20Cages/40mm%20x%2010mm%20Fan/4010%20Fan%20Cage.stl">4010 Fan Cage.stl</a></td>
 </tr>
 <tr>
-<td>Printed TPU gasket</td>
+<td>40mm TPU <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7v10h2v-4h3v-2h-3V9h4V7H9M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 7h4v2h-4v6h2v-4h2v4a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> Fan Gasket</td>
 <td>2</td>
 <td>Optional. <a href="https://github.com/jon-harper/OmniBox/blob/main/Fan%20Cages/40mm%20x%2010mm%20Fan/4010%20Fan%20Gasket%2C%20TPU.stl">4010 Fan Gasket, TPU.stl</a></td>
 </tr>
@@ -1116,7 +1193,7 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.5e67fbfe.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.sections"], "search": "../../assets/javascripts/workers/search.5e67fbfe.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.c44cc438.min.js"></script>

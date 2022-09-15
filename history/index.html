@@ -19,7 +19,7 @@
     
     
       
-        <title>0.9.8 Release (Current) - OmniBox Documentation</title>
+        <title>0.9.8.1 Release (Current) - OmniBox Documentation</title>
       
     
     
@@ -36,8 +36,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,300i,400,400i,700,700i%7CSource+Code+Pro:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans";--md-code-font:"Source Code Pro"}</style>
       
     
     
@@ -52,12 +52,16 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="deep-orange">
   
     
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -65,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#fixes" class="md-skip">
+        <a href="#core-improvements" class="md-skip">
           Skip to content
         </a>
       
@@ -82,7 +86,7 @@
     <a href=".." title="OmniBox Documentation" class="md-header__button md-logo" aria-label="OmniBox Documentation" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.5 14.33c.79 0 1.63.08 2.5.24v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.33-4.5.99v-1.69c1.17-.53 2.67-.8 4.5-.8M13 12.46c1.29-.53 2.79-.79 4.5-.79.79 0 1.63.07 2.5.23v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.34-4.5.99m4.5-3.65c-1.9 0-3.39.32-4.5 1V9.84c1.23-.56 2.73-.84 4.5-.84.79 0 1.63.08 2.5.23v1.55c-.74-.19-1.59-.28-2.5-.28m3.5 8V7c-1.04-.33-2.21-.5-3.5-.5-2.05 0-3.88.5-5.5 1.5v11.5c1.62-1 3.45-1.5 5.5-1.5 1.19 0 2.36.16 3.5.5m-3.5-14c2.35 0 4.19.5 5.5 1.5v14.56c0 .12-.05.24-.16.35-.11.09-.23.17-.34.17-.11 0-.19-.02-.25-.05-1.28-.69-2.87-1.03-4.75-1.03-2.05 0-3.88.5-5.5 1.5-1.34-1-3.17-1.5-5.5-1.5-1.66 0-3.25.36-4.75 1.07-.03.01-.07.01-.12.03-.04.01-.08.02-.13.02-.11 0-.23-.04-.34-.12a.475.475 0 0 1-.16-.35V6c1.34-1 3.18-1.5 5.5-1.5 2.33 0 4.16.5 5.5 1.5 1.34-1 3.17-1.5 5.5-1.5z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -98,12 +102,34 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              0.9.8 Release (Current)
+              0.9.8.1 Release (Current)
             
           </span>
         </div>
       </div>
     </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="deep-orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1h4m6-10h3v2h-3v-2M1 11h3v2H1v-2M13 1v3h-2V1h2M4.92 3.5l2.13 2.14-1.42 1.41L3.5 4.93 4.92 3.5m12.03 2.13 2.12-2.13 1.43 1.43-2.13 2.12-1.42-1.42z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C9.76 2 7.78 3.05 6.5 4.68l1.43 1.43C8.84 4.84 10.32 4 12 4a5 5 0 0 1 5 5c0 1.68-.84 3.16-2.11 4.06l1.42 1.44C17.94 13.21 19 11.24 19 9a7 7 0 0 0-7-7M3.28 4 2 5.27 5.04 8.3C5 8.53 5 8.76 5 9c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h5.73l4 4L20 20.72 3.28 4m3.95 6.5 5.5 5.5H10v-2.42a5.004 5.004 0 0 1-2.77-3.08M9 20v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+            </label>
+          
+        
+      </form>
     
     
     
@@ -148,7 +174,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    GitHub
+    jon-harper/OmniBox
   </div>
 </a>
       </div>
@@ -180,7 +206,7 @@
     <a href=".." title="OmniBox Documentation" class="md-nav__button md-logo" aria-label="OmniBox Documentation" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.5 14.33c.79 0 1.63.08 2.5.24v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.33-4.5.99v-1.69c1.17-.53 2.67-.8 4.5-.8M13 12.46c1.29-.53 2.79-.79 4.5-.79.79 0 1.63.07 2.5.23v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.34-4.5.99m4.5-3.65c-1.9 0-3.39.32-4.5 1V9.84c1.23-.56 2.73-.84 4.5-.84.79 0 1.63.08 2.5.23v1.55c-.74-.19-1.59-.28-2.5-.28m3.5 8V7c-1.04-.33-2.21-.5-3.5-.5-2.05 0-3.88.5-5.5 1.5v11.5c1.62-1 3.45-1.5 5.5-1.5 1.19 0 2.36.16 3.5.5m-3.5-14c2.35 0 4.19.5 5.5 1.5v14.56c0 .12-.05.24-.16.35-.11.09-.23.17-.34.17-.11 0-.19-.02-.25-.05-1.28-.69-2.87-1.03-4.75-1.03-2.05 0-3.88.5-5.5 1.5-1.34-1-3.17-1.5-5.5-1.5-1.66 0-3.25.36-4.75 1.07-.03.01-.07.01-.12.03-.04.01-.08.02-.13.02-.11 0-.23-.04-.34-.12a.475.475 0 0 1-.16-.35V6c1.34-1 3.18-1.5 5.5-1.5 2.33 0 4.16.5 5.5 1.5 1.34-1 3.17-1.5 5.5-1.5z"/></svg>
 
     </a>
     OmniBox Documentation
@@ -193,7 +219,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    GitHub
+    jon-harper/OmniBox
   </div>
 </a>
     </div>
@@ -209,7 +235,22 @@
   
     <li class="md-nav__item">
       <a href=".." class="md-nav__link">
-        About OmniBox
+        Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../development/" class="md-nav__link">
+        The OmniBox Story
       </a>
     </li>
   
@@ -224,7 +265,7 @@
   
     <li class="md-nav__item">
       <a href="../tour/" class="md-nav__link">
-        A Guided Tour
+        Guided Tour
       </a>
     </li>
   
@@ -238,21 +279,87 @@
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_3">
+        <label class="md-nav__link" for="__nav_4">
+          Requirements
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Requirements" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Requirements
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../printing/" class="md-nav__link">
+        Printing Guide
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bom/" class="md-nav__link">
+        Bill of Materials
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
           Supported Parts
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Supported Parts" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
+        <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           Supported Parts
         </label>
@@ -355,38 +462,10 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../printing/" class="md-nav__link">
-        Printing Guide
-      </a>
-    </li>
-  
-
     
       
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../bom/" class="md-nav__link">
-        Bill of Materials
-      </a>
-    </li>
-  
-
     
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
@@ -478,7 +557,9 @@
   
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
@@ -512,12 +593,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          0.9.8 Release (Current)
+          0.9.8.1 Release (Current)
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        0.9.8 Release (Current)
+        0.9.8.1 Release (Current)
       </a>
       
         
@@ -534,26 +615,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#fixes" class="md-nav__link">
-    Fixes
+  <a href="#core-improvements" class="md-nav__link">
+    Core Improvements
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#new-features" class="md-nav__link">
-    New Features
+  <a href="#panels-and-trays" class="md-nav__link">
+    Panels and Trays
   </a>
   
-    <nav class="md-nav" aria-label="New Features">
+    <nav class="md-nav" aria-label="Panels and Trays">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#completed-requests" class="md-nav__link">
-    Completed Requests
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#experimental-hardware-support" class="md-nav__link">
@@ -563,15 +637,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#core-improvements" class="md-nav__link">
-    Core Improvements
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#panel-and-tray-improvements" class="md-nav__link">
-    Panel and Tray Improvements
+  <a href="#new-hardware-support" class="md-nav__link">
+    New Hardware Support
   </a>
   
 </li>
@@ -582,8 +649,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#documentation-repository-changes" class="md-nav__link">
-    Documentation &amp; Repository Changes
+  <a href="#documentation-repository" class="md-nav__link">
+    Documentation &amp; Repository
   </a>
   
 </li>
@@ -606,6 +673,20 @@
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="v0.9.8/" class="md-nav__link">
+        0.9.8 Release
+      </a>
     </li>
   
 
@@ -653,20 +734,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="development/" class="md-nav__link">
-        Development Gallery
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -698,26 +765,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#fixes" class="md-nav__link">
-    Fixes
+  <a href="#core-improvements" class="md-nav__link">
+    Core Improvements
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#new-features" class="md-nav__link">
-    New Features
+  <a href="#panels-and-trays" class="md-nav__link">
+    Panels and Trays
   </a>
   
-    <nav class="md-nav" aria-label="New Features">
+    <nav class="md-nav" aria-label="Panels and Trays">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#completed-requests" class="md-nav__link">
-    Completed Requests
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#experimental-hardware-support" class="md-nav__link">
@@ -727,15 +787,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#core-improvements" class="md-nav__link">
-    Core Improvements
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#panel-and-tray-improvements" class="md-nav__link">
-    Panel and Tray Improvements
+  <a href="#new-hardware-support" class="md-nav__link">
+    New Hardware Support
   </a>
   
 </li>
@@ -746,8 +799,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#documentation-repository-changes" class="md-nav__link">
-    Documentation &amp; Repository Changes
+  <a href="#documentation-repository" class="md-nav__link">
+    Documentation &amp; Repository
   </a>
   
 </li>
@@ -778,55 +831,45 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/jon-harper/OmniBox/edit/master/docs/history/index.md" title="Edit this page" class="md-content__button md-icon">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
-</a>
 
 
+  <h1>0.9.8.1 Release (Current)</h1>
 
-  <h1>0.9.8 Release (Current)</h1>
+<p>The current release is 0.9.8.1, released on 2022-09-15.</p>
+<!-- ## Fixes -->
 
-<p>The current release is 0.9.8, released on 2022-08-18.</p>
-<h2 id="fixes">Fixes</h2>
+<!-- ### Completed Requests
+
+| Hardware | Mount Location(s) | Notes |
+|----------|-------------------|-------| -->
+
+<h3 id="core-improvements">Core Improvements</h3>
 <ul>
-<li>Button head screws work for the crossbar.</li>
-<li>Clarified 6mm/8mm screws for power supplies.</li>
-<li>Documentation greatly improved for newcomers.</li>
-<li>Fan cages provide much more airflow, print more quickly, and use less material.</li>
+<li>Print time and material usage is slightly reduced for the front and rear base components.</li>
 </ul>
-<h2 id="new-features">New Features</h2>
-<h3 id="completed-requests">Completed Requests</h3>
-<table>
-<thead>
-<tr>
-<th>Hardware</th>
-<th>Mount Location(s)</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Creality MOSFET</td>
-<td>Lower bay</td>
-<td></td>
-</tr>
-<tr>
-<td>DROK 5A buck converter</td>
-<td>Lower bay</td>
-<td>Full sized tray only.</td>
-</tr>
-<tr>
-<td>80mm fans</td>
-<td>Rear panel, lid</td>
-<td>Supports 20 &amp; 25mm thicknesses.</td>
-</tr>
-</tbody>
-</table>
-<p>Other:</p>
+<h2 id="panels-and-trays">Panels and Trays</h2>
 <ul>
-<li>New rear panel for the Ender 5 Plus with an 80mm fan.</li>
+<li>Lid for filament spools added.<ul>
+<li>An adaptation of my <a href="https://www.thingiverse.com/thing:4737072">Tighter T.U.S.H. spool holder</a> (a remix of the original T.U.S.H.).</li>
+<li>It mounts on a lid that integrates the spool holder guide.</li>
+<li>The guide makes the spool holder adjustable to spool width (up to about 120mm).</li>
+</ul>
+</li>
+<li>Lid for dryboxes added.<ul>
+<li>Fitted for Rubbermaid 21 cup container used as a 1kg spool drybox.</li>
+<li>These containers are about $10 each at <a href="https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/food-storage/6192892">Ace Hardware</a>. They are more expensive on <a href="https://www.amazon.com/Rubbermaid-LEPUSEMTE469-711717429496-Container-Everyday/dp/B00XJRMW5M">Amazon</a>.</li>
+<li>There are often clones of these on Amazon that are similarly priced (about $8-10 ea).</li>
+<li>May have lids for other containers in the near future as a user contribution.</li>
+</ul>
+</li>
+<li>Raspberry Pi CPU trays have a version with a 6-pin Micro Fit 3 panel mount cutout.<ul>
+<li>Allow using an ADXL345 accelerometer via SPI.</li>
+<li>Cutout is on the tray to give shortest wiring run possible.</li>
+</ul>
+</li>
 </ul>
 <h3 id="experimental-hardware-support">Experimental Hardware Support</h3>
+<p>These parts still need to be tested for fit and other issues.</p>
 <table>
 <thead>
 <tr>
@@ -842,43 +885,50 @@
 <td>For the Ender 5 Plus</td>
 </tr>
 <tr>
-<td>Raspberry Pi TFTs</td>
-<td>Display mount or half-lid</td>
-<td></td>
-</tr>
-<tr>
-<td>Fotek SSR-60 DA solid state relay</td>
-<td>Lower bay</td>
-<td></td>
-</tr>
-<tr>
 <td>92mm fans</td>
 <td>Rear panel, lid</td>
 <td>25mm thickness; no compatible mount yet.</td>
 </tr>
 </tbody>
 </table>
-<h3 id="core-improvements">Core Improvements</h3>
+<h3 id="new-hardware-support">New Hardware Support</h3>
+<p>This hardware is now fit-tested as working.</p>
+<table>
+<thead>
+<tr>
+<th>Hardware</th>
+<th>Mount Location(s)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fotek SSR-60 DA solid state relay</td>
+<td>Lower bay</td>
+<td></td>
+</tr>
+<tr>
+<td>Raspberry Pi TFTs</td>
+<td>Display mount or half-lid</td>
+<td>See below.</td>
+</tr>
+</tbody>
+</table>
+<p>Note: Smaller TFTs (e.g., BigTreeTech's 5" PiTFT) will fit on the standard half-lid. Use the "XL" STL file for the official 7" and similarly large TFTs. </p>
+<h2 id="documentation-repository">Documentation &amp; Repository</h2>
 <ul>
-<li>New front vents for the base and larger side vents.</li>
-<li>Two new optional 40mm fans concealed in the intakes.</li>
-<li>MCU trays can be removed without removing the rear panel.</li>
-<li>Fan cages have a parametric template.</li>
+<li>Documentation site<ul>
+<li>Modified color scheme and fonts for readability.</li>
+<li>Added new dark color theme.</li>
+<li>Implemented several Material for Mkdocs features, including icons to help with part identification.</li>
+<li>Improved site navigation.</li>
 </ul>
-<h3 id="panel-and-tray-improvements">Panel and Tray Improvements</h3>
-<ul>
-<li>New half-length lids.</li>
-<li>New half-length lower bay trays.</li>
-<li>Lower bay trays for buck converters and simple, 4-point mounts are now Fusion 360 templates.</li>
-<li>New trays can be added by modifying the Fusion template and exporting the results.</li>
-<li>The template includes mounts with fans and the new half-length size.</li>
+</li>
+<li>Repository<ul>
+<li>Reorganized lids folder into "Full-Length" and "Half-Lenth" subfolders.</li>
+<li>Added more readme.md files for folders.</li>
 </ul>
-<h2 id="documentation-repository-changes">Documentation &amp; Repository Changes</h2>
-<ul>
-<li>Broke out product support documentation across three pages. Each product includes images and mounting hardware.</li>
-<li>Divided assembly documentation into three sections and added info for Core variants.</li>
-<li>Improved/better overall folder structure; all panel and tray variations have a separate folder.</li>
-<li>Most git folders now have a <code>readme.md</code> to help with navigation and part selection.</li>
+</li>
 </ul>
 <h2 id="known-issues">Known Issues</h2>
 <ul>
@@ -888,38 +938,18 @@
 <table>
 <thead>
 <tr>
-<th>Renders and Photos</th>
+<th>Images and Renders</th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>New base intakes</td>
-<td><a href="../img/gallery_0.9.8/front_right.png"><img alt="front right render" src="../img/gallery_0.9.8/front_right.png" /></a></td>
+<td>Lid with built-in spool roller</td>
+<td><a href="../img/gallery_0.9.8.1/spool_holder.png"><img alt="rendering of a case with a spool holder on top" src="../img/gallery_0.9.8.1/spool_holder.png" /></a></td>
 </tr>
 <tr>
-<td>New fan cages</td>
-<td><a href="../img/gallery_0.9.8/new_fan_cages.jpg"><img alt="side of case with two new fan cages attached" src="../img/gallery_0.9.8/new_fan_cages.jpg" /></a></td>
-</tr>
-<tr>
-<td>Optional 40mm base fan</td>
-<td><a href="../img/gallery_0.9.8/fan_base.jpg"><img alt="hidden 40mm fan installed in the front base" src="../img/gallery_0.9.8/fan_base.jpg" /></a></td>
-</tr>
-<tr>
-<td>Optional 40mm front intake fan</td>
-<td><a href="../img/gallery_0.9.8/fan_front.jpg"><img alt="hidden 40mm fan installed in the front main body intake" src="../img/gallery_0.9.8/fan_front.jpg" /></a></td>
-</tr>
-<tr>
-<td>Better TPU gaskets</td>
-<td><a href="../img/gallery_0.9.8/gasket.jpg"><img alt="closeup of installed TPU gasket on fan and cage" src="../img/gallery_0.9.8/gasket.jpg" /></a></td>
-</tr>
-<tr>
-<td>Simpler MCU installation and removal</td>
-<td><a href="../img/gallery_0.9.8/mcu_tray.jpg"><img alt="installed MCU tray" src="../img/gallery_0.9.8/mcu_tray.jpg" /></a></td>
-</tr>
-<tr>
-<td>Early 0.9.8 assembly (no base air vents here)</td>
-<td><a href="../img/gallery_0.9.8/oscar_front.jpg"><img alt="oscar assembled" src="../img/gallery_0.9.8/oscar_front.jpg" /></a></td>
+<td>Stackable case lid</td>
+<td><a href="../img/gallery_0.9.8.1/stackable_lid.jpg"><img alt="case with a stackable lid" src="../img/gallery_0.9.8.1/stackable_lid.jpg" /></a></td>
 </tr>
 </tbody>
 </table>
@@ -952,13 +982,13 @@
       
       
         
-        <a href="v0.9.7/" class="md-footer__link md-footer__link--next" aria-label="Next: 0.9.7 Release" rel="next">
+        <a href="v0.9.8/" class="md-footer__link md-footer__link--next" aria-label="Next: 0.9.8 Release" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              0.9.7 Release
+              0.9.8 Release
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -988,7 +1018,7 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.5e67fbfe.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.sections"], "search": "../assets/javascripts/workers/search.5e67fbfe.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.c44cc438.min.js"></script>

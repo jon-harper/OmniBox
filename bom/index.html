@@ -36,8 +36,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,300i,400,400i,700,700i%7CSource+Code+Pro:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans";--md-code-font:"Source Code Pro"}</style>
       
     
     
@@ -52,12 +52,16 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="deep-orange">
   
     
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -82,7 +86,7 @@
     <a href=".." title="OmniBox Documentation" class="md-header__button md-logo" aria-label="OmniBox Documentation" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.5 14.33c.79 0 1.63.08 2.5.24v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.33-4.5.99v-1.69c1.17-.53 2.67-.8 4.5-.8M13 12.46c1.29-.53 2.79-.79 4.5-.79.79 0 1.63.07 2.5.23v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.34-4.5.99m4.5-3.65c-1.9 0-3.39.32-4.5 1V9.84c1.23-.56 2.73-.84 4.5-.84.79 0 1.63.08 2.5.23v1.55c-.74-.19-1.59-.28-2.5-.28m3.5 8V7c-1.04-.33-2.21-.5-3.5-.5-2.05 0-3.88.5-5.5 1.5v11.5c1.62-1 3.45-1.5 5.5-1.5 1.19 0 2.36.16 3.5.5m-3.5-14c2.35 0 4.19.5 5.5 1.5v14.56c0 .12-.05.24-.16.35-.11.09-.23.17-.34.17-.11 0-.19-.02-.25-.05-1.28-.69-2.87-1.03-4.75-1.03-2.05 0-3.88.5-5.5 1.5-1.34-1-3.17-1.5-5.5-1.5-1.66 0-3.25.36-4.75 1.07-.03.01-.07.01-.12.03-.04.01-.08.02-.13.02-.11 0-.23-.04-.34-.12a.475.475 0 0 1-.16-.35V6c1.34-1 3.18-1.5 5.5-1.5 2.33 0 4.16.5 5.5 1.5 1.34-1 3.17-1.5 5.5-1.5z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -104,6 +108,28 @@
         </div>
       </div>
     </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="deep-orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1h4m6-10h3v2h-3v-2M1 11h3v2H1v-2M13 1v3h-2V1h2M4.92 3.5l2.13 2.14-1.42 1.41L3.5 4.93 4.92 3.5m12.03 2.13 2.12-2.13 1.43 1.43-2.13 2.12-1.42-1.42z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C9.76 2 7.78 3.05 6.5 4.68l1.43 1.43C8.84 4.84 10.32 4 12 4a5 5 0 0 1 5 5c0 1.68-.84 3.16-2.11 4.06l1.42 1.44C17.94 13.21 19 11.24 19 9a7 7 0 0 0-7-7M3.28 4 2 5.27 5.04 8.3C5 8.53 5 8.76 5 9c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h5.73l4 4L20 20.72 3.28 4m3.95 6.5 5.5 5.5H10v-2.42a5.004 5.004 0 0 1-2.77-3.08M9 20v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+            </label>
+          
+        
+      </form>
     
     
     
@@ -148,7 +174,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    GitHub
+    jon-harper/OmniBox
   </div>
 </a>
       </div>
@@ -180,7 +206,7 @@
     <a href=".." title="OmniBox Documentation" class="md-nav__button md-logo" aria-label="OmniBox Documentation" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.5 14.33c.79 0 1.63.08 2.5.24v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.33-4.5.99v-1.69c1.17-.53 2.67-.8 4.5-.8M13 12.46c1.29-.53 2.79-.79 4.5-.79.79 0 1.63.07 2.5.23v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.34-4.5.99m4.5-3.65c-1.9 0-3.39.32-4.5 1V9.84c1.23-.56 2.73-.84 4.5-.84.79 0 1.63.08 2.5.23v1.55c-.74-.19-1.59-.28-2.5-.28m3.5 8V7c-1.04-.33-2.21-.5-3.5-.5-2.05 0-3.88.5-5.5 1.5v11.5c1.62-1 3.45-1.5 5.5-1.5 1.19 0 2.36.16 3.5.5m-3.5-14c2.35 0 4.19.5 5.5 1.5v14.56c0 .12-.05.24-.16.35-.11.09-.23.17-.34.17-.11 0-.19-.02-.25-.05-1.28-.69-2.87-1.03-4.75-1.03-2.05 0-3.88.5-5.5 1.5-1.34-1-3.17-1.5-5.5-1.5-1.66 0-3.25.36-4.75 1.07-.03.01-.07.01-.12.03-.04.01-.08.02-.13.02-.11 0-.23-.04-.34-.12a.475.475 0 0 1-.16-.35V6c1.34-1 3.18-1.5 5.5-1.5 2.33 0 4.16.5 5.5 1.5 1.34-1 3.17-1.5 5.5-1.5z"/></svg>
 
     </a>
     OmniBox Documentation
@@ -193,7 +219,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
-    GitHub
+    jon-harper/OmniBox
   </div>
 </a>
     </div>
@@ -209,7 +235,22 @@
   
     <li class="md-nav__item">
       <a href=".." class="md-nav__link">
-        About OmniBox
+        Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../development/" class="md-nav__link">
+        The OmniBox Story
       </a>
     </li>
   
@@ -224,8 +265,219 @@
   
     <li class="md-nav__item">
       <a href="../tour/" class="md-nav__link">
-        A Guided Tour
+        Guided Tour
       </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Requirements
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Requirements" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Requirements
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../printing/" class="md-nav__link">
+        Printing Guide
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Bill of Materials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Bill of Materials
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#universal-bill-of-materials" class="md-nav__link">
+    Universal Bill of Materials
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-supplies" class="md-nav__link">
+    Power Supplies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-configurations-with-fans" class="md-nav__link">
+     Core Configurations with Fans
+  </a>
+  
+    <nav class="md-nav" aria-label=" Core Configurations with Fans">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#base-front" class="md-nav__link">
+       Base - Front
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#main-body-front" class="md-nav__link">
+       Main Body - Front
+  </a>
+  
+    <nav class="md-nav" aria-label="   Main Body - Front">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#internal-40mm-intake" class="md-nav__link">
+    Internal 40mm Intake
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#external-60mm-intake" class="md-nav__link">
+    External 60mm Intake
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#main-body-rear" class="md-nav__link">
+       Main Body - Rear
+  </a>
+  
+    <nav class="md-nav" aria-label="   Main Body - Rear">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dual-40mm-exhausts" class="md-nav__link">
+    Dual 40mm Exhausts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-exhaust-fans" class="md-nav__link">
+    No Exhaust Fans
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tray-and-panel-configurations" class="md-nav__link">
+     Tray and  Panel Configurations
+  </a>
+  
+    <nav class="md-nav" aria-label=" Tray and  Panel Configurations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cpu-trays-and-display-panels" class="md-nav__link">
+      CPU Trays and   Display Panels
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-supported-parts" class="md-nav__link">
+    Other Supported Parts
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -238,21 +490,23 @@
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_3">
+        <label class="md-nav__link" for="__nav_5">
           Supported Parts
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Supported Parts" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
+        <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           Supported Parts
         </label>
@@ -355,189 +609,10 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../printing/" class="md-nav__link">
-        Printing Guide
-      </a>
-    </li>
-  
-
     
       
-      
-      
-
-  
-  
     
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Bill of Materials
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        Bill of Materials
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#universal-bill-of-materials" class="md-nav__link">
-    Universal Bill of Materials
-  </a>
-  
-    <nav class="md-nav" aria-label="Universal Bill of Materials">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#power-supplies" class="md-nav__link">
-    Power Supplies
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#core-configurations" class="md-nav__link">
-    Core Configurations
-  </a>
-  
-    <nav class="md-nav" aria-label="Core Configurations">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-base-front" class="md-nav__link">
-    1. Base - Front
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-main-body-front" class="md-nav__link">
-    2. Main Body - Front
-  </a>
-  
-    <nav class="md-nav" aria-label="2. Main Body - Front">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#default-with-40mm-intake" class="md-nav__link">
-    Default: With 40mm Intake
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#alternate-with-60mm-intake" class="md-nav__link">
-    Alternate: With 60mm Intake
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-main-body-rear" class="md-nav__link">
-    3. Main Body - Rear
-  </a>
-  
-    <nav class="md-nav" aria-label="3. Main Body - Rear">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#default-with-40mm-exhausts" class="md-nav__link">
-    Default: With 40mm Exhausts
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#alternate-no-fans" class="md-nav__link">
-    Alternate: No Fans
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tray-and-panel-configurations" class="md-nav__link">
-    Tray and Panel Configurations
-  </a>
-  
-    <nav class="md-nav" aria-label="Tray and Panel Configurations">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#cpu-trays-and-display-panels" class="md-nav__link">
-    CPU Trays and Display Panels
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#other-supported-parts" class="md-nav__link">
-    Other Supported Parts
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
@@ -627,7 +702,9 @@
   
   
     
-    <li class="md-nav__item md-nav__item--nested">
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
@@ -654,7 +731,21 @@
   
     <li class="md-nav__item">
       <a href="../history/" class="md-nav__link">
-        0.9.8 Release (Current)
+        0.9.8.1 Release (Current)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../history/v0.9.8/" class="md-nav__link">
+        0.9.8 Release
       </a>
     </li>
   
@@ -703,20 +794,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../history/development/" class="md-nav__link">
-        Development Gallery
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -752,54 +829,48 @@
     Universal Bill of Materials
   </a>
   
-    <nav class="md-nav" aria-label="Universal Bill of Materials">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#power-supplies" class="md-nav__link">
     Power Supplies
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
       
         <li class="md-nav__item">
-  <a href="#core-configurations" class="md-nav__link">
-    Core Configurations
+  <a href="#core-configurations-with-fans" class="md-nav__link">
+     Core Configurations with Fans
   </a>
   
-    <nav class="md-nav" aria-label="Core Configurations">
+    <nav class="md-nav" aria-label=" Core Configurations with Fans">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-base-front" class="md-nav__link">
-    1. Base - Front
+  <a href="#base-front" class="md-nav__link">
+       Base - Front
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-main-body-front" class="md-nav__link">
-    2. Main Body - Front
+  <a href="#main-body-front" class="md-nav__link">
+       Main Body - Front
   </a>
   
-    <nav class="md-nav" aria-label="2. Main Body - Front">
+    <nav class="md-nav" aria-label="   Main Body - Front">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#default-with-40mm-intake" class="md-nav__link">
-    Default: With 40mm Intake
+  <a href="#internal-40mm-intake" class="md-nav__link">
+    Internal 40mm Intake
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#alternate-with-60mm-intake" class="md-nav__link">
-    Alternate: With 60mm Intake
+  <a href="#external-60mm-intake" class="md-nav__link">
+    External 60mm Intake
   </a>
   
 </li>
@@ -810,23 +881,23 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-main-body-rear" class="md-nav__link">
-    3. Main Body - Rear
+  <a href="#main-body-rear" class="md-nav__link">
+       Main Body - Rear
   </a>
   
-    <nav class="md-nav" aria-label="3. Main Body - Rear">
+    <nav class="md-nav" aria-label="   Main Body - Rear">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#default-with-40mm-exhausts" class="md-nav__link">
-    Default: With 40mm Exhausts
+  <a href="#dual-40mm-exhausts" class="md-nav__link">
+    Dual 40mm Exhausts
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#alternate-no-fans" class="md-nav__link">
-    Alternate: No Fans
+  <a href="#no-exhaust-fans" class="md-nav__link">
+    No Exhaust Fans
   </a>
   
 </li>
@@ -843,15 +914,15 @@
       
         <li class="md-nav__item">
   <a href="#tray-and-panel-configurations" class="md-nav__link">
-    Tray and Panel Configurations
+     Tray and  Panel Configurations
   </a>
   
-    <nav class="md-nav" aria-label="Tray and Panel Configurations">
+    <nav class="md-nav" aria-label=" Tray and  Panel Configurations">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#cpu-trays-and-display-panels" class="md-nav__link">
-    CPU Trays and Display Panels
+      CPU Trays and   Display Panels
   </a>
   
 </li>
@@ -880,19 +951,19 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/jon-harper/OmniBox/edit/master/docs/bom.md" title="Edit this page" class="md-content__button md-icon">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
-</a>
-
 
 
   <h1>Bill of Materials</h1>
 
-<p>The General Components list is a base list common to all builds. Additional components based on your build configuration are listed separately.</p>
+<p>The Universal Bill of Materials is a base list common to all builds. Additional components based on your build configuration are listed separately.</p>
 <p>There are no affiliate links used on this site.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>In certain places, the design allows for longer-than-specified screws. The <a href="../assembly/">assembly guide</a> notes where substitutions can be made.</p>
+<p>The design allows for longer-than-specified screws in certain locations. The <a href="../assembly/">assembly guide</a> notes where substitutions can be made.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Wiring is only specified for the IEC power socket, power switch, and power supply. Additional wiring for the MCU and CPU are configuration-specific.</p>
 </div>
 <h2 id="universal-bill-of-materials">Universal Bill of Materials</h2>
 <p>These parts are common to all case builds. See below for additional requirements based on configuration.</p>
@@ -913,10 +984,10 @@
 <td>May be printable in 1kg if using a single color.</td>
 </tr>
 <tr>
-<td>TPU 95A filament <em>(optional)</em></td>
-<td>0.1</td>
+<td>TPU 95A filament</td>
+<td>0.05</td>
 <td>kg</td>
-<td>Optional. Quantity is maximum estimated.</td>
+<td><strong>Optional.</strong> Quantity is maximum estimated.</td>
 </tr>
 <tr>
 <td>M3 x 6mm machine screws</td>
@@ -973,6 +1044,24 @@
 <td></td>
 </tr>
 <tr>
+<td>16 awg wire</td>
+<td>0.5</td>
+<td>m</td>
+<td>Red or black.</td>
+</tr>
+<tr>
+<td><a href="https://www.amazon.com/gp/product/B07FQB6WXP">Spade connectors, 14-16 awg, Female</a></td>
+<td>3</td>
+<td>ea</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.amazon.com/Baomain-Insulated-Connector-Electrical-Terminal/dp/B01B1DL4OA">Fork connectors, 14-16 awg</a></td>
+<td>1</td>
+<td>ea</td>
+<td></td>
+</tr>
+<tr>
 <td><a href="https://www.amazon.com/gp/product/B07QQ22DTB">SPST snap-in rocker switch</a></td>
 <td>1</td>
 <td>ea</td>
@@ -1006,10 +1095,10 @@
 </table>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Metric equivalent to #6 x 3/4" is M3 x 20mm. Equivalent length machine screws can also be used if wood screws are unavailable.</p>
+<p>To substitute #6 x 3/4" with Metric screws, use M3x16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.</p>
 </div>
-<h3 id="power-supplies">Power Supplies</h3>
-<p>Currently, two power supplies are supported. You will need one (1) of the following:</p>
+<h2 id="power-supplies">Power Supplies</h2>
+<p>Currently, two power supply models are supported. You will need one (1) of the following:</p>
 <table>
 <thead>
 <tr>
@@ -1028,9 +1117,9 @@
 </tr>
 </tbody>
 </table>
-<h2 id="core-configurations">Core Configurations</h2>
-<p>Some Core component versions have optional fan mounts, while others have ones that are required.</p>
-<h3 id="1-base-front">1. Base - Front</h3>
+<h2 id="core-configurations-with-fans"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m6 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2h-2z"/></svg></span> Core Configurations with Fans</h2>
+<p>Externally mounted fans require a printed <a href="https://github.com/jon-harper/OmniBox/Fan%20Cages"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7v10h2v-4h3v-2h-3V9h4V7H9M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5m6 2h2a2 2 0 0 1 2 2v1h-2V9h-2v6h2v-1h2v1a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"/></svg></span> fan cage</a> that matches the size of the fan. These are specified below.</p>
+<h3 id="base-front"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m6 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2h-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 10.5c0 .8-.7 1.5-1.5 1.5.8 0 1.5.7 1.5 1.5V15a2 2 0 0 1-2 2H9V7h4a2 2 0 0 1 2 2v1.5M13 15v-2h-2v2h2m0-4V9h-2v2h2M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h6v2h-4v2h3v2h-3v4H9V7M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> Base - Front</h3>
 <p>The base has an optional 40mm fan. The following are needed to mount the fan:</p>
 <table>
 <thead>
@@ -1043,7 +1132,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="https://www.amazon.com/dp/B08R9L9YR2">40x40x10mm axial fans</a></td>
+<td><a href="https://www.amazon.com/dp/B08R9L9YR2">40x40x10mm axial fan</a></td>
 <td>1</td>
 <td>ea</td>
 <td></td>
@@ -1056,9 +1145,9 @@
 </tr>
 </tbody>
 </table>
-<h3 id="2-main-body-front">2. Main Body - Front</h3>
+<h3 id="main-body-front"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m6 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2h-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h6a2 2 0 0 1 2 2v8h-2V9h-2v7h-2V9H9v8H7V9a2 2 0 0 1 2-2M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m0 2v14h14V5H5z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h6v2h-4v2h3v2h-3v4H9V7M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> Main Body - Front</h3>
 <p>There are two versions of the front main body.</p>
-<h4 id="default-with-40mm-intake">Default: With 40mm Intake</h4>
+<h4 id="internal-40mm-intake">Internal 40mm Intake</h4>
 <p>This version of the front main body has an optional 40mm fan. The following are needed to mount the fan:</p>
 <table>
 <thead>
@@ -1071,7 +1160,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="https://www.amazon.com/dp/B08R9L9YR2">40x40x10mm axial fans</a></td>
+<td><a href="https://www.amazon.com/dp/B08R9L9YR2">40x40x10mm axial fan</a></td>
 <td>1</td>
 <td>ea</td>
 <td></td>
@@ -1084,7 +1173,7 @@
 </tr>
 </tbody>
 </table>
-<h4 id="alternate-with-60mm-intake">Alternate: With 60mm Intake</h4>
+<h4 id="external-60mm-intake">External 60mm Intake</h4>
 <p>This version of the front main body requires an externally mounted 60mm fan.</p>
 <table>
 <thead>
@@ -1108,12 +1197,18 @@
 <td>ea</td>
 <td>Add 10mm to fan depth for thicker fans.</td>
 </tr>
+<tr>
+<td>Printed <a href="https://github.com/jon-harper/OmniBox/Fan%20Cages"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7v10h2v-4h3v-2h-3V9h4V7H9M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5m6 2h2a2 2 0 0 1 2 2v1h-2V9h-2v6h2v-1h2v1a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"/></svg></span> fan cage</a></td>
+<td>1</td>
+<td>ea</td>
+<td>TPU gasket is optional.</td>
+</tr>
 </tbody>
 </table>
-<h3 id="3-main-body-rear">3. Main Body - Rear</h3>
+<h3 id="main-body-rear"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m6 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1h-2v1h-2V9h2v1h2V9a2 2 0 0 0-2-2h-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h6a2 2 0 0 1 2 2v8h-2V9h-2v7h-2V9H9v8H7V9a2 2 0 0 1 2-2M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m0 2v14h14V5H5z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h4a2 2 0 0 1 2 2v2c0 .84-.5 1.55-1.24 1.85L15 17h-2l-1.2-4H11v4H9V7m2 2v2h2V9h-2M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m0 2v14h14V5H5z"/></svg></span> Main Body - Rear</h3>
 <p>The rear body also has two versions: one with dual exhausts and one without any.</p>
-<h4 id="default-with-40mm-exhausts">Default: With 40mm Exhausts</h4>
-<p>This version of the requires two externally mounted 40mm fans.</p>
+<h4 id="dual-40mm-exhausts">Dual 40mm Exhausts</h4>
+<p>This version of the requires two (2) externally mounted 40mm fans.</p>
 <table>
 <thead>
 <tr>
@@ -1128,27 +1223,35 @@
 <td><a href="https://www.amazon.com/dp/B08R9L9YR2">40x40x10mm axial fans</a></td>
 <td>2</td>
 <td>ea</td>
-<td>May also use 20mm thick fans; this is not recommended due to noise.</td>
+<td></td>
 </tr>
 <tr>
 <td>M3 x 20mm machine screws</td>
 <td>8</td>
 <td>ea</td>
-<td>Use 30mm screws for 20mm fans.</td>
+<td>Use 30mm screws for 20mm fans (not recommended).</td>
+</tr>
+<tr>
+<td>Printed <a href="https://github.com/jon-harper/OmniBox/Fan%20Cages"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7v10h2v-4h3v-2h-3V9h4V7H9M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5m6 2h2a2 2 0 0 1 2 2v1h-2V9h-2v6h2v-1h2v1a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"/></svg></span> fan cage</a></td>
+<td>2</td>
+<td>ea</td>
+<td>TPU gaskets are optional.</td>
 </tr>
 </tbody>
 </table>
-<h4 id="alternate-no-fans">Alternate: No Fans</h4>
+<h4 id="no-exhaust-fans">No Exhaust Fans</h4>
 <p>There are no additional materials required for this version. </p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This rear main body must be used a rear panel or lid that provides an exhaust fan.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This rear main body must be used with a <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7v10h2v-4h2a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2H9m2 2h2v2h-2V9M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h4a2 2 0 0 1 2 2v2c0 .84-.5 1.55-1.24 1.85L15 17h-2l-1.2-4H11v4H9V7m2 2v2h2V9h-2M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m0 2v14h14V5H5z"/></svg></span> rear panel or <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7v10h2v-4h2a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2H9m2 2h2v2h-2V9M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h2v8h4v2H9V7M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m0 2v14h14V5H5z"/></svg></span> lid that provides an exhaust fan.</p>
 </div>
-<h2 id="tray-and-panel-configurations">Tray and Panel Configurations</h2>
-<h3 id="cpu-trays-and-display-panels">CPU Trays and Display Panels</h3>
-<p>Most configurations use a display and many will have a CPU. See the git <a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU"><code>Trays/CPU</code></a> and <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display"><code>Panels/Display</code></a> folders for mounting information specific to your CPU and display mount.</p>
+<h2 id="tray-and-panel-configurations"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7v2h2v8h2V9h2V7H9M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg></span> Tray and <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7v10h2v-4h2a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2H9m2 2h2v2h-2V9M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg></span> Panel Configurations</h2>
+<h3 id="cpu-trays-and-display-panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7v2h2v8h2V9h2V7H9M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5m6 2h2a2 2 0 0 1 2 2v1h-2V9h-2v6h2v-1h2v1a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"/></svg></span> CPU Trays and <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7v10h2v-4h2a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2H9m2 2h2v2h-2V9M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h4a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H9V7m2 2v6h2V9h-2M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5m2 0v14h14V5H5z"/></svg></span> Display Panels</h3>
+<p>Most configurations use a display and many have an SBC, such as a Raspberry Pi. See the git <a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU"><code>Trays/CPU</code></a> and <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display"><code>Panels/Display</code></a> folders for mounting information specific to your CPU tray and display panel.</p>
 <h3 id="other-supported-parts">Other Supported Parts</h3>
 <p>See the <a href="../support/">Supported Parts Overview</a> for a full list of parts and mounting locations. Some configurations require additional fasteners or fans.</p>
+<!-- Fork connectors -->
+<!-- Spade connectors -->
 
               
             </article>
@@ -1178,13 +1281,13 @@
       
       
         
-        <a href="../assembly/" class="md-footer__link md-footer__link--next" aria-label="Next: Getting Started" rel="next">
+        <a href="../support/" class="md-footer__link md-footer__link--next" aria-label="Next: Parts Overview" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Getting Started
+              Parts Overview
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -1214,7 +1317,7 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.5e67fbfe.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.sections"], "search": "../assets/javascripts/workers/search.5e67fbfe.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.c44cc438.min.js"></script>
