@@ -29,6 +29,9 @@ These parts are common to all case builds. See below for additional requirements
 | M4 x 8mm machine screws                | 12  | ea  |                                                          |
 | M4 x 12mm machine screws               | 4   | ea  |                                                          |
 | M4 x 16mm machine screws               | 4   | ea  |                                                          |
+| 16 awg wire                            | 0.5 | m   |                                                          |
+| Spade connectors, 14-16 awg, female    | 3   | ea  |                                                          |
+| Fork connectors, 14-16 awg             | 1   | ea  |                                                          |
 | [SPST snap-in rocker switch][2]        | 1   | ea  | 30mm x 11mm profile. Identical to Creality Ender power switch. |
 | MCU (3D printer control board)         | 1   | ea  | See the [Supported Parts][8] list.                       |
 | [IEC C14 socket with fuse][3]          | 1   | ea  | Identical profile to Creality Ender series power socket. |
