@@ -14,19 +14,19 @@ The current release is 0.9.8.1, released on 2022-09-15.
 | Hardware | Mount Location(s) | Notes |
 |----------|-------------------|-------| -->
 
-### Core Improvements
+## Core
 
 - Print time and material usage is slightly reduced for the front and rear base components.
 
 ## Panels and Trays
 
 - Lid for filament spools added.
-    - An adaptation of my [Tighter T.U.S.H. spool holder][2] (a remix of the original T.U.S.H.).
+    - An adaptation of my [Tighter T.U.S.H. spool holder](https://www.thingiverse.com/thing:4737072) (a remix of the original T.U.S.H.).
     - It mounts on a lid that integrates the spool holder guide.
     - The guide makes the spool holder adjustable to spool width (up to about 120mm).
 - Lid for dryboxes added.
     - Fitted for Rubbermaid 21 cup container used as a 1kg spool drybox.
-    - These containers are about $10 each at [Ace Hardware][5]. They are more expensive on [Amazon][1].
+    - These containers are about $10 each at [Ace Hardware](https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/food-storage/6192892). They are more expensive on [Amazon](https://www.amazon.com/Rubbermaid-LEPUSEMTE469-711717429496-Container-Everyday/dp/B00XJRMW5M).
     - There are often clones of these on Amazon that are similarly priced (about $8-10 ea).
     - May have lids for other containers in the near future as a user contribution.
 - Raspberry Pi CPU trays have a version with a 6-pin Micro Fit 3 panel mount cutout.
@@ -75,8 +75,5 @@ Note: Smaller TFTs (e.g., BigTreeTech's 5" PiTFT) will fit on the standard half-
 | Stackable case lid | [![case with a stackable lid][4]][4] |
 
 
-[1]: https://www.amazon.com/Rubbermaid-LEPUSEMTE469-711717429496-Container-Everyday/dp/B00XJRMW5M
-[2]: https://www.thingiverse.com/thing:4737072
 [3]: ../img/gallery_0.9.8.1/spool_holder.png
 [4]: ../img/gallery_0.9.8.1/stackable_lid.jpg
-[5]: https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/food-storage/6192892
