@@ -9,7 +9,10 @@ This page lists CPUs and MCUs that are currently compatible with OmniBox.
 
 ## Single Board Computers/CPUs
 
-![render of a Raspberry Pi on a tray](../img/examples/cpu.png)
+<figure markdown>
+  [![front left render][10]{ width="480" }][10]
+  <figcaption>Raspberry Pi on a CPU Tray</figcaption>
+</figure>
 
 Single board computers (SBC) like the Raspberry Pi are mounted on :material-alpha-t-box: :material-alpha-c-box-outline: CPU Trays. These parts are in the [Trays/CPU][7] git folder; each component has its own subfolder. Currently, SBCs other than the Raspberry Pi are not supported.
 
@@ -17,12 +20,15 @@ If you do not use a SBC, a [blank slot cover][6] can be used.
 
 | Component             | Image |
 |-----------------------|-------|
-| [Raspberry Pi 3B+][1] | ![img](../img/parts/rpi_3b_plus.jpg) |
-| [Raspberry Pi 4B][2]  | ![img](../img/parts/rpi_4b.jpg) |
+| [Raspberry Pi 3B+][1] | ![img][11] |
+| [Raspberry Pi 4B][2]  | ![img][12] |
 
 ## MCU Boards
 
-![render of a BTT Octopus on a tray](../img/examples/mcu.png)
+<figure markdown>
+  [![front left render][13]{ width="480" }][13]
+  <figcaption>BIGTREETECH Octopus on an MCU Tray</figcaption>
+</figure>
 
 Micro-controller unit (MCU) board are mounted on :material-alpha-t-box: :material-alpha-m-box-outline: MCU Trays. These parts are in the [Trays/MCU][8] git folder, with each component in its own subfolder. There are `STEP` and Fusion 360 template files available for adding support for other boards.
 
@@ -42,3 +48,8 @@ Micro-controller unit (MCU) board are mounted on :material-alpha-t-box: :materia
 [6]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/Unused%20Tray%20Cover
 [7]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU
 [8]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU
+
+[10]: ../img/examples/cpu.png
+[11]: ../img/parts/rpi_3b_plus.jpg
+[12]: ../img/parts/rpi_4b.jpg
+[13]: ../img/examples/mcu.png

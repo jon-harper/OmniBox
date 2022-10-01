@@ -11,10 +11,15 @@ OmniBox is 3D printable, modular electronics case for 3D printers. OmniBox comes
 
 This project is derived from Steve Burcham's [Stand Alone Main Control Case](https://www.thingiverse.com/thing:3999751) V3 footprint.
 
-!!! note "Tip"
-    To switch between :material-lightbulb-on: Light and :material-lightbulb-off-outline: Dark mode, click the icon next to the search box.
+!!! info
+    To switch between :material-lightbulb-on: Light and :material-lightbulb-off-outline: Dark reading mode, click the icon next to the search box.
 
-[![gallery of OmniBox part combinations][2]][2]
+<figure markdown>
+  [![gallery of OmniBox part combinations][2]][2]
+  <figcaption>Gallery of several possible OmniBox configurations</figcaption>
+</figure>
+
+
 
 ## Quick Links
 
@@ -52,7 +57,12 @@ OmniBox is currently pre-1.0 but mature enough for everyday use.
 
 See the [Version History][4] page for information on the latest release, fixes, new features, and known issues.
 
-![front left render][1]
+<figure markdown>
+  [![front left render][1]{ width="640" }][1]
+  <figcaption>Render of an OmniBox with a 3.5" TFT display.</figcaption>
+</figure>
+
+
 
 [1]: img/gallery_0.9.8/front_left.png
 [2]: img/gallery_0.9.8.1/gallery_high.png

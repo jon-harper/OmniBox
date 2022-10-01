@@ -7,11 +7,25 @@ date: 2022-08-04
 
 This is a visual tour of an OmniBox. This page demonstrates:
 
-1. What the core parts of OmniBox are, along with their variations;
-2. What trays and panels do; and
+1. The core parts of OmniBox and their variations;
+2. Trays and panels; and
 3. How these pieces fit together.
 
 Links are provided to the respective git folder for each component type.
+
+## Identifying Components
+
+To help quickly identify a component, we use icons next to component names. The first letter is a filled-in box for what category a part is from:
+
+- :material-alpha-c-box: Core
+- :material-alpha-t-box: Tray
+- :material-alpha-p-box: Panel
+- :material-alpha-f-box: Fan
+
+The following letters identify the name of the component, usually one or two letters. Examples: 
+
+- :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-f-box-outline: Main Body - Front
+- :material-alpha-p-box: :material-alpha-l-box-outline: Lid
 
 ## :material-alpha-c-box: Core Components
 
@@ -19,7 +33,10 @@ Core components form the basis of every electronics case. They can be found in t
 
 There are five (5) Core components: three (3) universal parts and two (2) that have variations.
 
-[![the five core components][1]][1]
+<figure markdown>
+  [![the five core components][1]{ width="640" }][1]
+  <figcaption>The five Core components.</figcaption>
+</figure>
 
 These are the components, as numbered in the picture above.
 
@@ -94,7 +111,10 @@ The rear main body also comes in two variations. For the dual 40mm fan version, 
 
 Trays are used for mounting parts internally. They come in three types:
 
-[![the three types of trays][2]][2]
+<figure markdown>
+  [![the three types of trays][2]{ width="640" }][2]
+  <figcaption>The three types of Trays.</figcaption>
+</figure>
 
 1. :material-alpha-t-box: :material-alpha-m-box-outline: MCU tray
 2. :material-alpha-t-box: :material-alpha-l-box-outline: Lower bay tray
@@ -122,7 +142,10 @@ The CPU tray is an optional mount for a Raspberry Pi. There is a blank cover if 
 
 ## :material-alpha-p-box: Panels
 
-[![callout of each panel type][3]][3]
+<figure markdown>
+  [![callout of panels and fan cage][3]{ width="640" }][3]
+  <figcaption>The four types of panels. #5 is a fan cage.</figcaption>
+</figure>
 
 1. :material-alpha-p-box: :material-alpha-f-box-outline: Front panel
 2. :material-alpha-p-box: :material-alpha-d-box-outline: Display panel
@@ -174,9 +197,12 @@ Rear panels with panel mounted connectors are an active area of work.
 
 ## :material-alpha-f-box: Fans
 
-![render of a case with two 40mm fans and a 60mm fan mounted externally][38]
+<figure markdown>
+  [![render of several fan cages][38]{ width="480" }][38]
+  <figcaption>Render of several old-style fan cages.</figcaption>
+</figure>
 
-Externally mounted fans use :material-alpha-f-box: :material-alpha-c-box-outline: [fan cages][13] to cover the fan blades. There are a large number of fan sizes supported, each with a matching TPU :material-alpha-f-box: :material-alpha-g-box-outline: fan gasket. The gaskets are optional and serve to reduce noise.
+Externally mounted fans use [:material-alpha-f-box: :material-alpha-c-box-outline: fan cages][13] to cover the fan blades. There are a large number of fan sizes supported, each with a matching TPU :material-alpha-f-box: :material-alpha-g-box-outline: fan gasket. The gaskets are optional and serve to reduce noise.
 
 [1]: img/printed_parts/core.png
 [2]: img/printed_parts/trays.png
