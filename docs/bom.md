@@ -130,7 +130,7 @@ See the [Supported Parts Overview][8] for a full list of parts and mounting loca
 [8]: support/index.md
 [9]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU
 [10]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display
-[11]: https://github.com/jon-harper/OmniBox/Fan%20Cages
+[11]: https://github.com/jon-harper/OmniBox/Fans
 <!-- Fork connectors -->
 [12]: https://www.amazon.com/Baomain-Insulated-Connector-Electrical-Terminal/dp/B01B1DL4OA 
 <!-- Spade connectors -->

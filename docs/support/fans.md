@@ -27,7 +27,7 @@ OmniBox also has optional, concealed mounts for 40x40x10mm fans. These are compa
 [3]: https://www.amazon.com/Security-01-Bearing-Brushless-Cooling-AV-F6015MB/dp/B071G2T6DV 
 [4]: https://www.amazon.com/Wathai-60mm-Cooling-Brushless-Cooler/dp/B07NRYLRDZ
 [5]: https://www.amazon.com/Security-01-Bearing-Brushless-Cooling-AV-F8025MB/dp/B071WLX5JZ
-[6]: https://github.com/jon-harper/OmniBox/Fan%20Cages
+[6]: https://github.com/jon-harper/OmniBox/Fans
 [7]: https://www.amazon.com/Wathai-60mm-25mm-Brushless-Cooling/dp/B07Q2JWNFX
 [8]: https://www.amazon.com/GDSTIME-Brushless-Cooling-Sleeve-Bearing/dp/B07MDYBSGR
 [9]: https://www.amazon.com/GDSTIME-90x90x25mm-Inches-Brushless-Cooling/dp/B07LFZKCC6

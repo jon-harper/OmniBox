@@ -46,7 +46,7 @@ This is a checklist of parts to print. Most of these parts have variations; see 
 [3]: https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Crossbar.stl
 [4]: https://github.com/jon-harper/OmniBox/tree/main/Core/Mean%20Well%20LRS-350
 [5]: https://github.com/jon-harper/OmniBox/tree/main/Core/Mean%20Well%20RSP-500
-[6]: https://github.com/jon-harper/OmniBox/tree/main/Fan%20Cages
+[6]: https://github.com/jon-harper/OmniBox/tree/main/Fans
 [7]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU
 [8]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU
 [9]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display

@@ -138,8 +138,8 @@ Additionally, if you wish to mount a fan in the front main body air intake, you 
 [16]: ../img/assembly/core_2.jpg
 [17]: ../img/assembly/crossbar_1.jpg
 [18]: ../img/assembly/crossbar_2.jpg
-[19]: https://github.com/jon-harper/OmniBox/blob/main/Fan%20Cages/40mm%20x%2010mm%20Fan/4010%20Fan%20Cage.stl
-[20]: https://github.com/jon-harper/OmniBox/blob/main/Fan%20Cages/40mm%20x%2010mm%20Fan/4010%20Fan%20Gasket%2C%20TPU.stl
+[19]: https://github.com/jon-harper/OmniBox/blob/main/Fans/40mm%20x%2010mm%20Fan/4010%20Fan%20Cage.stl
+[20]: https://github.com/jon-harper/OmniBox/blob/main/Fans/40mm%20x%2010mm%20Fan/4010%20Fan%20Gasket%2C%20TPU.stl
 [21]: ../img/assembly/fan_cage.jpg
 [22]: ../img/assembly/fan_gasket.jpg
 [24]: ../img/assembly/fan_screws1.jpg

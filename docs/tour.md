@@ -209,7 +209,7 @@ Externally mounted fans use [:material-alpha-f-box: :material-alpha-c-box-outlin
 [3]: img/printed_parts/panels.png
 [4]: printing.md#core-parts-with-variants
 [5]: support/boards.md
-[6]: https://github.com/jon-harper/OmniBox/tree/main/Fan%20Cages
+[6]: https://github.com/jon-harper/OmniBox/tree/main/Fans
 [7]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20LRS-350/Main%20Body%20-%20Front%20with%2040mm%20Intake.stl
 [8]: https://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20LRS-350/Main%20Body%20-%20Front%20with%2060mm%20Intake.stl
 [9]: ttps://github.com/jon-harper/OmniBox/blob/main/Core/Mean%20Well%20RSP-500/Main%20Body%20-%20Front%20with%2040mm%20Intake.stl
