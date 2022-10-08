@@ -7,6 +7,9 @@ date: 2022-07-22
 
 This page lists CPUs and MCUs that are currently compatible with OmniBox.
 
+!!! tip
+    Looking for a board that isn't listed? [Open an issue!][14]
+
 ## Single Board Computers/CPUs
 
 <figure markdown>
@@ -40,7 +43,7 @@ Micro-controller unit (MCU) board are mounted on :material-alpha-t-box: :materia
 | [BTT SKR E3 Turbo][5] | All      | ![img](../img/parts/btt_skr_e3_turbo.jpg) |
 | [Creality boards][5]  | All      | ![img](../img/parts/creality_board.jpg) |
 
-[1]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPURaspberry%20Pi%203B%20Plus
+[1]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/Raspberry%20Pi%203B%20Plus
 [2]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/Raspberry%20Pi%204B
 [3]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20Octopus
 [4]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR
@@ -53,3 +56,4 @@ Micro-controller unit (MCU) board are mounted on :material-alpha-t-box: :materia
 [11]: ../img/parts/rpi_3b_plus.jpg
 [12]: ../img/parts/rpi_4b.jpg
 [13]: ../img/examples/mcu.png
+[14]: https://github.com/jon-harper/OmniBox/issues "OmniBox Issues: https://github.com/jon-harper/OmniBox/issues"

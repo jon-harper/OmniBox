@@ -242,5 +242,5 @@ Externally mounted fans use [:material-alpha-f-box: :material-alpha-c-box-outlin
 [41]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl
 [42]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear.stl
 [43]: https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Crossbar.stl
-[44]: http://127.0.0.1:8000/OmniBox/support/panel_mounts/
+[44]: support/panel_mounts.md
 [45]: support/displays.md
