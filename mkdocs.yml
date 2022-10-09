@@ -41,7 +41,9 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.superfences
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append: 
+        - include/links.md
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.emoji:
@@ -69,6 +71,7 @@ nav:
     - assembly/panels.md
   - Version History:
     - history/index.md
+    - history/v0.9.8.1.md
     - history/v0.9.8.md
     - history/v0.9.7.md
     - history/v0.9.5.md

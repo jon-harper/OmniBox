@@ -9,7 +9,7 @@ date: 2022-05-15
 
 OmniBox is 3D printable, modular electronics case for 3D printers. OmniBox comes with support for a wide variety of parts and includes templates to add support for new ones. 
 
-This project is derived from Steve Burcham's [Stand Alone Main Control Case][10] V3 footprint.
+This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgdog] V3 footprint.
 
 !!! info
     To switch between :material-lightbulb-on: Light and :material-lightbulb-off-outline: Dark reading mode, click the icon next to the search box.
@@ -62,17 +62,14 @@ See the [Version History][4] page for information on the latest release, fixes, 
   <figcaption>Render of an OmniBox with a 3.5" TFT display.</figcaption>
 </figure>
 
-
-
 [1]: img/gallery_0.9.8/front_left.png
 [2]: img/gallery_0.9.8.1/gallery_high.png
 [3]: img/gallery_0.9.8/oscar_right.jpg
 [4]: history/index.md "Version History (Current Release)"
 
-[10]: https://www.thingiverse.com/thing:3999751 "BGDog's Stand Alone Main Control Case: https://www.thingiverse.com/thing:3999751"
 [11]: tour.md "Visual Guided Tour"
 [12]: support/index.md "Supported Parts List"
 [13]: bom.md "Bill of Materials"
 [14]: printing.md "Printing Guide"
-[15]: https://github.com/jon-harper/OmniBox "Git Repository: https://github.com/jon-harper/OmniBox"
+
 [16]: assembly/index.md "Assembly Guide"

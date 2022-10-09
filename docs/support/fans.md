@@ -7,9 +7,9 @@ date: 2022-07-03
 
 This is a list of all fans that are supported by OmniBox.
 
-An assortment of :material-alpha-f-box: :material-alpha-c-box-outline: fan cages and :material-alpha-f-box: :material-alpha-g-box-outline: fan gaskets are available in the [Fan Cages][6] git folder for all listed fans.
+An assortment of :material-alpha-f-box: :material-alpha-c-box-outline: fan cages and :material-alpha-f-box: :material-alpha-g-box-outline: fan gaskets are available in the [Fan Cages][git_fans] git folder for all listed fans.
 
-OmniBox also has optional, concealed mounts for 40x40x10mm fans. These are compatible with gaskets but do not use fan cages.
+OmniBox also has optional, concealed mounts for 40x40x10mm fans. These do not use fan cages or gaskets.
 
 | Description | Image | Product Link |
 |---|---|---|
@@ -27,7 +27,6 @@ OmniBox also has optional, concealed mounts for 40x40x10mm fans. These are compa
 [3]: https://www.amazon.com/Security-01-Bearing-Brushless-Cooling-AV-F6015MB/dp/B071G2T6DV 
 [4]: https://www.amazon.com/Wathai-60mm-Cooling-Brushless-Cooler/dp/B07NRYLRDZ
 [5]: https://www.amazon.com/Security-01-Bearing-Brushless-Cooling-AV-F8025MB/dp/B071WLX5JZ
-[6]: https://github.com/jon-harper/OmniBox/Fans
 [7]: https://www.amazon.com/Wathai-60mm-25mm-Brushless-Cooling/dp/B07Q2JWNFX
 [8]: https://www.amazon.com/GDSTIME-Brushless-Cooling-Sleeve-Bearing/dp/B07MDYBSGR
 [9]: https://www.amazon.com/GDSTIME-90x90x25mm-Inches-Brushless-Cooling/dp/B07LFZKCC6

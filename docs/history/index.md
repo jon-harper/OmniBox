@@ -1,37 +1,34 @@
 ---
-title: 0.9.8.1 Release (Current)
+title: 0.9.9 Release (Current)
 summary: Changelog for the current and past releases of OmniBox
 authors: Jon Harper
-date: 2022-08-24
+date: 2022-10-09
 ---
 
-The current release is 0.9.8.1, released on 2022-09-15.
+!!! tip
+    Want to know more about OmniBox and what's next? Follow [@jonspaceharper on :material-twitter: Twitter][twitter]
 
-<!-- ## Fixes -->
+The current release is 0.9.9, released on 2022-10-??.
 
 <!-- ### Completed Requests
 
 | Hardware | Mount Location(s) | Notes |
 |----------|-------------------|-------| -->
 
-## Core
+## New Features
 
-- Print time and material usage is slightly reduced for the front and rear base components.
-
-## Panels and Trays
-
-- Lid for filament spools added.
-    - An adaptation of my [Tighter T.U.S.H. spool holder](https://www.thingiverse.com/thing:4737072) (a remix of the original T.U.S.H.).
-    - It mounts on a lid that integrates the spool holder guide.
-    - The guide makes the spool holder adjustable to spool width (up to about 120mm).
-- Lid for dryboxes added.
-    - Fitted for Rubbermaid 21 cup container used as a 1kg spool drybox.
-    - These containers are about $10 each at [Ace Hardware](https://www.acehardware.com/departments/home-and-decor/kitchen-utensils-and-gadgets/food-storage/6192892). They are more expensive on [Amazon](https://www.amazon.com/Rubbermaid-LEPUSEMTE469-711717429496-Container-Everyday/dp/B00XJRMW5M).
-    - There are often clones of these on Amazon that are similarly priced (about $8-10 ea).
-    - May have lids for other containers in the near future as a user contribution.
-- Raspberry Pi CPU trays have a version with a 6-pin Micro Fit 3 panel mount cutout.
-    - Allow using an ADXL345 accelerometer via SPI.
-    - Cutout is on the tray to give shortest wiring run possible.
+- [Issue #14][1]: Universal power supply mount
+- Main body zip tie anchors added:
+    - Six (6) added to crossbar
+    - Four (4) added to front main body (under MCU pillars)
+    - Twelve (12) added to rear main body
+        - Four (4) under MCU pillars
+        - Six (6) above MCU pillars
+        - Two (2) by PSU wiring cutout
+- Redesigned side vents for main body:
+    - Easier print
+    - Looks rad
+- Base now has three front vents, all with 40mm fan mounts
 
 ### Experimental Hardware Support
 
@@ -44,36 +41,37 @@ These parts still need to be tested for fit and other issues.
 
 ### New Hardware Support
 
-This hardware is now fit-tested as working.
-
 | Hardware | Mount Location(s) | Notes |
 |----------|-------------------|-------|
-| Fotek SSR-60 DA solid state relay | Lower bay | |
-| Raspberry Pi TFTs | Display mount or half-lid | See below. |
+| Wago 221 Lever Nuts | Lower Bay | 3-wire and 5-wire |
 
-Note: Smaller TFTs (e.g., BigTreeTech's 5" PiTFT) will fit on the standard half-lid. Use the "XL" STL file for the official 7" and similarly large TFTs. 
+## Fixes
+
+- [Issue #18][2]: Fan mount blocks screw hole for mounting base
+    - Fan mount moved left and up as part of intake redesign
+- [Issue #35][3]: IEC socket hex nut is hard to reach
+    - Removed hex nuts
+    - Screws thread directly in plastic now
+- [Issue #33][4]: Base zip tie anchors need adjustment
+    - Removed rearmost zip tie that was troublesome
+    - Adjusted position of others
 
 ## Documentation & Repository
 
 - Documentation site
-    - Modified color scheme and fonts for readability.
-    - Added new dark color theme.
-    - Implemented several Material for Mkdocs features, including icons to help with part identification.
-    - Improved site navigation.
+    - Added tooltips to links
+    - Consolidated external links to a reference page for convenience
 - Repository
-    - Reorganized lids folder into "Full-Length" and "Half-Lenth" subfolders.
-    - Added more readme.md files for folders.
+    - Added `/include` subfolder for external documentation files
+
 ## Known Issues
 
-- The front main body with a 40mm intake fan partially obscures a mounting hole for the base to the main body. This leave seven (7) other mount points and is not a significant issue. The hole can safely be left empty.
 
 ## Gallery
 
-| Images and Renders | |
-|---|---|
-| Lid with built-in spool roller | [![rendering of a case with a spool holder on top][3]][3] |
-| Stackable case lid | [![case with a stackable lid][4]][4] |
 
 
-[3]: ../img/gallery_0.9.8.1/spool_holder.png
-[4]: ../img/gallery_0.9.8.1/stackable_lid.jpg
+[1]: https://github.com/jon-harper/OmniBox/issues/14
+[2]: https://github.com/jon-harper/OmniBox/issues/18
+[3]: https://github.com/jon-harper/OmniBox/issues/35
+[4]: https://github.com/jon-harper/OmniBox/issues/33

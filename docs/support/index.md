@@ -36,7 +36,7 @@ See [Lower Bay Components][4] for a complete list of parts with trays available.
 
 ### :material-alpha-p-box: :material-alpha-f-box-outline: Front and :material-alpha-p-box: :material-alpha-r-box-outline: Rear Panels
 
-These panels are typically used for [panel mounted connectors and extensions](panel_mounts.md).
+These panels are typically used for [panel mounted connectors and extensions][1].
 
 Generic rear panels are available with cutouts to pass wiring directly without using connectors.
 
@@ -48,7 +48,7 @@ The front and rear main bodies come in versions with and without fans. The rear 
 
 See the [Guided Tour][6] to help choose the best configuration for your available parts.
 
-[1]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel
+[1]: panel_mounts.md
 [2]: boards.md
 [3]: displays.md
 [4]: lower_bay.md
