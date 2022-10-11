@@ -55,6 +55,8 @@ These parts still need to be tested for fit and other issues.
 - [Issue #33][4]: Base zip tie anchors need adjustment
     - Removed rearmost zip tie that was troublesome
     - Adjusted position of others
+- [Issue #39][5]: Display screen partially blocks two front main body/base screws
+    - Added cutout for access
 
 ## Documentation & Repository
 
@@ -75,3 +77,4 @@ These parts still need to be tested for fit and other issues.
 [2]: https://github.com/jon-harper/OmniBox/issues/18
 [3]: https://github.com/jon-harper/OmniBox/issues/35
 [4]: https://github.com/jon-harper/OmniBox/issues/33
+[5]: https://github.com/jon-harper/OmniBox/issues/39

@@ -1,7 +1,7 @@
 <!-- OmniBox GitHub Pages -->
-[git_home]: https://github.com/jon-harper/OmniBox "OmniBox GitHub Repository"
-[git_issues]: https://github.com/jon-harper/OmniBox/issues "OmniBox Issues"
-[git_discussions]: https://github.com/jon-harper/OmniBox/discussions "OmniBox Discussions"
+[git_home]:         https://github.com/jon-harper/OmniBox               "OmniBox GitHub Repository"
+[git_issues]:       https://github.com/jon-harper/OmniBox/issues        "OmniBox GitHub: Issues"
+[git_discussions]:  https://github.com/jon-harper/OmniBox/discussions   "OmniBox GitHub: Discussions"
 
 <!-- 
     OmniBox GitHub Folders 
@@ -9,17 +9,17 @@
 <!-- /Core     -->
 
 <!-- /Fans     -->
-[git_fans]: https://github.com/jon-harper/OmniBox/Fans "GitHub: /Fans"
+[git_fans]:         https://github.com/jon-harper/OmniBox/Fans          "OmniBox GitHub: Fans"
 
 <!-- /Panels     -->
 <!--      /Display -->
-[git_display]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display
-[git_btt_tft_35]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%203.5%20TFT
-[git_btt_tft_24]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%202.4%20TFT
-[git_mini_12864]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Mini%2012864
-[git_generic_12864]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Generic%2012864
-[git_display_knob]: https://github.com/jon-harper/OmniBox/blob/main/Panels/Display/Display%20Knob.stl
-[git_display_pi_tft]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Half-Length/Pi%20TFT
+[git_display]:          https://github.com/jon-harper/OmniBox/tree/main/Panels/Display                      "OmniBox GitHub: Display Panels"
+[git_btt_tft_35]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%203.5%20TFT      "OmniBox GitHub: BIGTREETECH 3.5" TFT Display Panel"
+[git_btt_tft_24]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%202.4%20TFT      "OmniBox GitHub: BIGTREETECH 2.4" TFT Display Panel"
+[git_mini_12864]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Mini%2012864         "OmniBox GitHub: FYSETC Mini12864 Display Panel (and compatible)"
+[git_generic_12864]:    https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Generic%2012864      "OmniBox GitHub: Generic 12864 Display Panel"
+[git_display_knob]:     https://github.com/jon-harper/OmniBox/blob/main/Panels/Display/Display%20Knob.stl   "OmniBox GitHub: Replacement Display Knob STL"
+[git_display_pi_tft]:   https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Half-Length/Pi%20TFT     "OmniBox GitHub: Raspberry Pi TFT Display Panel"
 
 <!--      /Front Panel -->
 <!--      /Lid -->
