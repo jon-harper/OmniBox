@@ -71,10 +71,51 @@ These parts still need to be tested for fit and other issues.
 
 ## Gallery
 
+<figure markdown>
+  [![front right render][11]{ width="480" }][11]
+  <figcaption>The CPU bay has moved to the rear. The power supply has additional ventilation in front.</figcaption>
+</figure>
 
+<figure markdown>
+  [![front left render][12]{ width="480" }][12]
+  <figcaption>There is a matching bay on the opposite side, as well. Also note the new fan intake.</figcaption>
+</figure>
+
+<figure markdown>
+  [![front right render][14]{ width="480" }][14]
+  <figcaption>New, universal power supply mount. The mount is off-center and has a passthrough for power switch wiring.</figcaption>
+</figure>
+
+<figure markdown>
+  [![front left render][13]{ width="480" }][13]
+  <figcaption>The power supply no longer hangs freely; instead, it adds rigidity to the case when installed. Also: all three front vents have an optional fan mount on the inside (one occupied in the render).</figcaption>
+</figure>
+
+<figure markdown>
+  [![front right render][15]{ width="480" }][15]
+  <figcaption>The CPU tray is moved slightly forward and now mounts with M3 screws. The rear wiring passthrough no longer exposes the power socket.</figcaption>
+</figure>
+
+<figure markdown>
+  [![front left render][17]{ width="480" }][17]
+  <figcaption>Hex flooring for better ventilation and sturdier build.</figcaption>
+</figure>
+
+<figure markdown>
+  [![front left render][16]{ width="480" }][16]
+  <figcaption>The two CPU bays are elevated to make room for lower bay tray mounts. Unused bays can hold a short lower bay tray.</figcaption>
+</figure>
 
 [1]: https://github.com/jon-harper/OmniBox/issues/14
 [2]: https://github.com/jon-harper/OmniBox/issues/18
 [3]: https://github.com/jon-harper/OmniBox/issues/35
 [4]: https://github.com/jon-harper/OmniBox/issues/33
 [5]: https://github.com/jon-harper/OmniBox/issues/39
+
+[11]: ../img/gallery_0.9.9/render1.png
+[12]: ../img/gallery_0.9.9/render2.png
+[13]: ../img/gallery_0.9.9/render3.png
+[14]: ../img/gallery_0.9.9/render4.png
+[15]: ../img/gallery_0.9.9/render5.png
+[16]: ../img/gallery_0.9.9/render6.png
+[17]: ../img/gallery_0.9.9/render7.png

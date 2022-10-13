@@ -27,7 +27,7 @@ This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgd
 
 [:material-television-guide: Visual Guided Tour][11]{ .md-button }
 
-[:octicons-checklist-24: Supported Part List][12]{ .md-button }
+[:octicons-checklist-24: Supported Parts List][12]{ .md-button }
 
 [:octicons-list-ordered-24: Bill of Materials][13]{ .md-button }
 
@@ -35,7 +35,7 @@ This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgd
 
 [:material-printer-3d-nozzle: Printing Guide][14]{ .md-button }
 
-[:material-github: GitHub with STLs][15]{ .md-button }
+[:material-github: GitHub with STLs][git_home]{ .md-button }
 
 ### Assembly
 
