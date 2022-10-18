@@ -6,29 +6,43 @@ date: 2022-10-09
 ---
 
 !!! tip
-    Want to know more about OmniBox and what's next? Follow [@jonspaceharper on :material-twitter: Twitter][twitter]
+    Want to know more about OmniBox and what's next? Follow [@TheOmniBox on :material-twitter: Twitter][twitter]
 
 The current release is 0.9.9, released on 2022-10-??.
 
-<!-- ### Completed Requests
-
-| Hardware | Mount Location(s) | Notes |
-|----------|-------------------|-------| -->
-
 ## New Features
 
-- [Issue #14][1]: Universal power supply mount
-- Main body zip tie anchors added:
+### Major New Features
+
+- **Base:** [Issue #14][1]: Universal power supply mount
+- **Main Body:** Moved CPU bay from front main body to rear, added a second bay on opposite side.
+    - Unused second bay is an additional "side panel"
+    - Can be used to mount an extra 40mm fan, panel mounts, or leave covered with a blank plate.
+- **Main Body:** Zip tie anchors added:
     - Six (6) added to crossbar
     - Four (4) added to front main body (under MCU pillars)
-    - Twelve (12) added to rear main body
+    - Fifteen (15) added to rear main body
         - Four (4) under MCU pillars
         - Six (6) above MCU pillars
-        - Two (2) by PSU wiring cutout
-- Redesigned side vents for main body:
+        - Five (5) by PSU wiring cutout
+- **Bottom Panel (New):** Removable bottom panels to prevent finger-pokey by curious children and dust intrusion (see Completed Requests below).
+
+### Additional Improvements
+
+- **All:** All core parts now have embossed version numbers to help with intermixing version numbers.
+- **Main Body** Redesigned intakes and modified exhaust mounts
     - Easier print
-    - Looks rad
-- Base now has three front vents, all with 40mm fan mounts
+    - Leaves room at base for running wires through for external fans
+- **Base:** Added a third front air vent
+- **Base:** All three front vents how have 40mm fan mounts
+
+### Completed Requests
+
+| Hardware | Mount Location(s) | Notes |
+|----------|-------------------|-------|
+| Bottom panel | Bottom Panel | Has cutouts for speed/strength, but too small for kids' fingers. |
+| Closed bottom panel | Bottom Panel | Solid to prevent dust intrusion. |
+| Unified base | Core | This is a one-piece version of the base. |
 
 ### Experimental Hardware Support
 
@@ -44,15 +58,16 @@ These parts still need to be tested for fit and other issues.
 | Hardware | Mount Location(s) | Notes |
 |----------|-------------------|-------|
 | Wago 221 Lever Nuts | Lower Bay | 3-wire and 5-wire |
+| Neopixel (WS2812B) LEDs | Front panel | Backing piece for attaching lights behind front vents. |
 
 ## Fixes
 
 - [Issue #18][2]: Fan mount blocks screw hole for mounting base
     - Fan mount moved left and up as part of intake redesign
-- [Issue #35][3]: IEC socket hex nut is hard to reach
+- [Issue #35][3]: Hex nut for mounting IEC socket is hard to reach
     - Removed hex nuts
-    - Screws thread directly in plastic now
-- [Issue #33][4]: Base zip tie anchors need adjustment
+    - Screws attach directly in plastic
+    - [Issue #33][4]: Base zip tie anchors need adjustment
     - Removed rearmost zip tie that was troublesome
     - Adjusted position of others
 - [Issue #39][5]: Display screen partially blocks two front main body/base screws
@@ -73,27 +88,27 @@ These parts still need to be tested for fit and other issues.
 
 <figure markdown>
   [![front right render][11]{ width="480" }][11]
-  <figcaption>The CPU bay has moved to the rear. The power supply has additional ventilation in front.</figcaption>
+  <figcaption>1. The CPU bay is now part of the rear body. 2. The power supply has additional ventilation in front. 3. Optional Neopixel LEDs are visible behind the front vent.</figcaption>
 </figure>
 
 <figure markdown>
   [![front left render][12]{ width="480" }][12]
-  <figcaption>There is a matching bay on the opposite side, as well. Also note the new fan intake.</figcaption>
+  <figcaption>There is a matching CPU bay on the opposite side.</figcaption>
 </figure>
 
 <figure markdown>
   [![front right render][14]{ width="480" }][14]
-  <figcaption>New, universal power supply mount. The mount is off-center and has a passthrough for power switch wiring.</figcaption>
+  <figcaption>Universal power supply mount. The mount is off-center and has a passthrough for power switch wiring.</figcaption>
 </figure>
 
 <figure markdown>
   [![front left render][13]{ width="480" }][13]
-  <figcaption>The power supply no longer hangs freely; instead, it adds rigidity to the case when installed. Also: all three front vents have an optional fan mount on the inside (one occupied in the render).</figcaption>
+  <figcaption>1. The power supply no longer hangs freely. When installed it adds rigidity to the case. 2. Each front vent has an optional fan mount on the inside (one is occupied in the render).</figcaption>
 </figure>
 
 <figure markdown>
   [![front right render][15]{ width="480" }][15]
-  <figcaption>The CPU tray is moved slightly forward and now mounts with M3 screws. The rear wiring passthrough no longer exposes the power socket.</figcaption>
+  <figcaption>The MCU tray is moved slightly forward and now mounts with M3 screws. The rear wiring passthrough no longer exposes the power socket.</figcaption>
 </figure>
 
 <figure markdown>

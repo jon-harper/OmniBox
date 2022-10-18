@@ -47,5 +47,5 @@
 
 <!-- External Links -->
 [bgdog]: https://www.thingiverse.com/thing:3999751 "BGDog's Stand Alone Main Control Case (Thingiverse)"
-[twitter]: https://twitter.com/jonspaceharper "@jonspaceharper (Twitter)"
+[twitter]: https://twitter.com/TheOmniBox "@TheOmniBox (Twitter)"
 [reddit]: https://www.reddit.com/user/jonspaceharper/ "u/jonspaceharper (Reddit)"
