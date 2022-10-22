@@ -41,6 +41,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.superfences
+  - pymdownx.details
   - pymdownx.snippets:
       auto_append: 
         - include/links.md
