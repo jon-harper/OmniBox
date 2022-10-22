@@ -8,7 +8,7 @@ date: 2022-10-09
 !!! tip
     Want to know more about OmniBox and what's next? Follow [@TheOmniBox on :material-twitter: Twitter][twitter]
 
-The current release is 0.9.9, released on 2022-10-??.
+The current release is 0.9.9, released on 2022-11-??.
 
 ## New Features
 
@@ -25,16 +25,22 @@ The current release is 0.9.9, released on 2022-10-??.
         - Four (4) under MCU pillars
         - Six (6) above MCU pillars
         - Five (5) by PSU wiring cutout
-- **Bottom Panel (New):** Removable bottom panels to prevent finger-pokey by curious children and dust intrusion (see Completed Requests below).
+- **(New) Bottom Panel:** Removable panels for case underside.
+    - Prevents finger-pokey by curious children and dust intrusion (see Completed Requests below).
+    - Adds feet to the case.
 
 ### Additional Improvements
 
 - **All:** All core parts now have embossed version numbers to help with intermixing version numbers.
-- **Main Body** Redesigned intakes and modified exhaust mounts
-    - Easier print
-    - Leaves room at base for running wires through for external fans
-- **Base:** Added a third front air vent
-- **Base:** All three front vents how have 40mm fan mounts
+- **Main Body** Redesigned intakes and modified exhaust mounts.
+    - Easier to print.
+    - Made room at base for running wires through to external fans.
+- **Base:** Added a third front air vent.
+- **Base:** All three front vents how have 40mm fan mounts.
+- **CPU Trays** New template and tray design
+    - Old trays still work.
+    - New tray is an easier print with fewer supports needed.
+    - New releases will only include new trays.
 
 ### Completed Requests
 
@@ -44,21 +50,21 @@ The current release is 0.9.9, released on 2022-10-??.
 | Closed bottom panel | Bottom Panel | Solid to prevent dust intrusion. |
 | Unified base | Core | This is a one-piece version of the base. |
 
-### Experimental Hardware Support
-
-These parts still need to be tested for fit and other issues.
-
-| Hardware | Mount Location(s) | Notes |
-|----------|-------------------|-------|
-| Mean Well RSP-500 power supply | Main body | For the Ender 5 Plus |
-| 92mm fans | Rear panel, lid | 25mm thickness; no compatible mount yet. |
-
 ### New Hardware Support
 
 | Hardware | Mount Location(s) | Notes |
 |----------|-------------------|-------|
 | Wago 221 Lever Nuts | Lower Bay | 3-wire and 5-wire |
 | Neopixel (WS2812B) LEDs | Front panel | Backing piece for attaching lights behind front vents. |
+
+### Experimental Hardware Support
+
+These parts still need to be tested for fit and any other issues.
+
+| Hardware | Mount Location(s) | Notes |
+|----------|-------------------|-------|
+| Mean Well RSP-500 power supply | Main body | For the Ender 5 Plus |
+| 92mm fans | Rear panel, lid | 25mm thickness; no specific mount yet. |
 
 ## Fixes
 
@@ -67,7 +73,7 @@ These parts still need to be tested for fit and other issues.
 - [Issue #35][3]: Hex nut for mounting IEC socket is hard to reach
     - Removed hex nuts
     - Screws attach directly in plastic
-    - [Issue #33][4]: Base zip tie anchors need adjustment
+- [Issue #33][4]: Base zip tie anchors need adjustment
     - Removed rearmost zip tie that was troublesome
     - Adjusted position of others
 - [Issue #39][5]: Display screen partially blocks two front main body/base screws
@@ -81,8 +87,7 @@ These parts still need to be tested for fit and other issues.
 - Repository
     - Added `/include` subfolder for external documentation files
 
-## Known Issues
-
+<!-- ## Known Issues -->
 
 ## Gallery
 

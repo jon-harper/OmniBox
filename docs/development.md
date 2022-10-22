@@ -15,13 +15,13 @@ Enclosed 3D printing requires controlling more hardware than comes with a typica
 - Webcam
 - Thermistor (temperature sensor)
 - Temperature-controlled exhaust fan
-- Always-on Filtration fan
+- Always-on filtration fan
 
-Electronics are typically rated to for short periods at high ambient temperatures, but the 50C (120F) or higher temperatures in a well-insulated enclosure are hazardous to electronics. I printed my first of Steve's cases to remove my electronics from such heat.
+Electronics are typically rated for short periods at high ambient temperatures, but the 50C (120F) or higher temperatures in a well-insulated enclosure are hazardous to electronics. I printed my first of Steve Burcham's cases to remove my electronics from such heat (OmniBox is derived from his work).
 
 ### Managing Devices
 
-Most common devices like fans and lights (and Raspberry Pis!) need a buck converter to work with a 3D printer's power supply. My printed cases for these printer/enclosure combos became cramped. Each buck converter had to sit on a tray above the microcontroller unit (MCU); wiring changes to the MCU required that I first remove up to three buck converter trays.
+Common devices like fans and lights (and Raspberry Pis!) need a buck converter lower the voltage from a 3D printer's power supply. My printed cases for these printer/enclosure combos became cramped with them. Each buck converter had to sit on a tray above the microcontroller unit (MCU); wiring changes to the MCU required that I first remove up to three buck converter trays.
 
 ### Support for Large Boards
 
@@ -31,7 +31,7 @@ With these requirements and goals in mind, I decided to design my own case.
 
 ## Building the OmniBox
 
-This is my second electronics case for the Octopus designed around general shape and layout from Steve's V3 case. I kept full compatibility only with the original display screens. Lids should be easy to modify to fit.
+This is my second electronics case designed around general shape and layout from Steve's V3 case. I kept compatibility only with the original display screens. Lids should be easy to modify to fit.
 
 Templates are provided for all trays and panels to allow further customization and support for new products.
 
