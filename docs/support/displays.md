@@ -17,7 +17,7 @@ date: 2022-07-22
   <figcaption>12864 TFT display mounted on a panel.</figcaption>
 </figure>
 
-Each supported MCU display screen has a subfolder in the [Panels/Display][git_display] git folder. There is an optional `STL` for a [display knob][git_display_knob], as well.
+Each supported MCU display screen has a subfolder in the [`/Panels/Display`][git_display] git folder. There is an optional STL file for a [replacement display knob][git_display_knob], as well.
 
 Component names below link to the corresponding git folder.
 
@@ -46,7 +46,7 @@ Compatible examples include:
 These displays can be attached in one of two ways:
 
 - In place of the MCU display as a [:material-alpha-p-box: :material-alpha-d-box-outline: Display Panel][git_display_pi_tft],
-- Or as a [:material-alpha-p-box: :material-alpha-l-box-outline: Lid][12] above the MCU display mount.
+- Or as a [:material-alpha-p-box: :material-alpha-l-box-outline: Lid][git_lid_pi_tft] above the MCU display mount.
 
 See below for examples.
 
