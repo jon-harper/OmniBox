@@ -22,7 +22,7 @@ These settings are consistent for all parts.
 | Material           | PLA/PLA+    | PETG may take longer to print on many printers but is still possible. |
 | Nozzle Diameter    | 0.4mm       | 0.6mm should also work. If you print a case with a different nozzle size, please share your results! |
 
-### Printing :material-alpha-c-box: Core Components
+### Settings Specific to :material-alpha-c-box: Core
 
 - Supports should be left on.
 - Support blockers are recommended for all zip tie anchors and can be used for fastener holes, as well.

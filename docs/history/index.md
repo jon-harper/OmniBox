@@ -39,8 +39,9 @@ The current release is 0.9.9, released on 2022-11-??.
 - **Base:** All three front vents how have 40mm fan mounts.
 - **CPU Trays** New template and tray design
     - Old trays still work.
-    - New tray is an easier print with fewer supports needed.
+    - New tray is an easier print with fewer supports needed, can be printed in one of two orientations.
     - New releases will only include new trays.
+    - Added Raspberry Pi tray with a 40mm fan intake.
 
 ### Completed Requests
 
@@ -49,6 +50,7 @@ The current release is 0.9.9, released on 2022-11-??.
 | Bottom panel | Bottom Panel | Has cutouts for speed/strength, but too small for kids' fingers. |
 | Closed bottom panel | Bottom Panel | Solid to prevent dust intrusion. |
 | Unified base | Core | This is a one-piece version of the base. |
+| Keystone jacks | Front/side/rear panels | Added STEP file for mating part to build into panels. |
 
 ### New Hardware Support
 
@@ -64,7 +66,11 @@ These parts still need to be tested for fit and any other issues.
 | Hardware | Mount Location(s) | Notes |
 |----------|-------------------|-------|
 | Mean Well RSP-500 power supply | Main body | For the Ender 5 Plus |
-| 92mm fans | Rear panel, lid | 25mm thickness; no specific mount yet. |
+| 92mm fans | Rear panel, lid | 25mm thickness only. |
+| 120mm fans | Lid | 20 & 25mm thicknesses |
+| BIGTREETECH Manta M8P | MCU Tray | |
+| BIGTREETECH 5" TFT | Display Panel | |
+| BIGTREETECH UPS 24V 1.0 | Lower Bay | Short tray only. |
 
 ## Fixes
 
@@ -81,11 +87,13 @@ These parts still need to be tested for fit and any other issues.
 
 ## Documentation & Repository
 
-- Documentation site
+- [Documentation site](https://jon-harper.github.io/OmniBox)
     - Added tooltips to links
     - Consolidated external links to a reference page for convenience
-- Repository
+- [Repository](https://github.com/jon-harper/OmniBox)
     - Added `/include` subfolder for external documentation files
+    - Renamed "Fan Cages" to "Fans"
+    - Further divided lids folders for ease of navigation.
 
 <!-- ## Known Issues -->
 
@@ -93,37 +101,42 @@ These parts still need to be tested for fit and any other issues.
 
 <figure markdown>
   [![front right render][11]{ width="480" }][11]
-  <figcaption>1. The CPU bay is now part of the rear body. 2. The power supply has additional ventilation in front. 3. Optional Neopixel LEDs are visible behind the front vent.</figcaption>
+  <figcaption>1. The CPU bay is now part of the rear body.<br>2. The power supply area has an extra vent in front.<br>3. 40mm, 80mm, 92mm, and 120mm fans are now supported as lid mounts.</figcaption>
 </figure>
 
 <figure markdown>
   [![front left render][12]{ width="480" }][12]
-  <figcaption>There is a matching CPU bay on the opposite side.</figcaption>
+  <figcaption>1. There is a matching CPU bay on the opposite side.<br>2. Optional Neopixel LEDs are visible behind the front vent.</figcaption>
 </figure>
 
 <figure markdown>
-  [![front right render][14]{ width="480" }][14]
-  <figcaption>Universal power supply mount. The mount is off-center and has a passthrough for power switch wiring.</figcaption>
+  [![render from front and undearneath][14]{ width="480" }][14]
+  <figcaption>New universal power supply mount. The mount is off-center and has a passthrough for power switch wiring.</figcaption>
 </figure>
 
 <figure markdown>
-  [![front left render][13]{ width="480" }][13]
-  <figcaption>1. The power supply no longer hangs freely. When installed it adds rigidity to the case. 2. Each front vent has an optional fan mount on the inside (one is occupied in the render).</figcaption>
+  [![render from the side and underneath][13]{ width="480" }][13]
+  <figcaption>1. The power supply no longer hangs freely. When installed it adds rigidity to the case.<br>2. Each front vent has an optional fan mount on the inside.</figcaption>
 </figure>
 
 <figure markdown>
-  [![front right render][15]{ width="480" }][15]
-  <figcaption>The MCU tray is moved slightly forward and now mounts with M3 screws. The rear wiring passthrough no longer exposes the power socket.</figcaption>
+  [![render from the top right rear without rear or top panels on][15]{ width="480" }][15]
+  <figcaption>1. The MCU tray is moved slightly forward and now mounts with M3 screws.<br>2. The rear wiring passthrough no longer exposes the power socket.<br>3. Support for keystone jacks (unoccupied in the render).</figcaption>
 </figure>
 
 <figure markdown>
-  [![front left render][17]{ width="480" }][17]
-  <figcaption>Hex flooring for better ventilation and sturdier build.</figcaption>
+  [![render of the Core of an OmniBox with a Manta MCU mounted][17]{ width="480" }][17]
+  <figcaption>1. Experimental support for the BIGTREETECH Manta M8P (CB1 not pictured).<br>2. Hex flooring for better ventilation and sturdier build.</figcaption>
 </figure>
 
 <figure markdown>
-  [![front left render][16]{ width="480" }][16]
-  <figcaption>The two CPU bays are elevated to make room for lower bay tray mounts. Unused bays can hold a short lower bay tray.</figcaption>
+  [![render of an OmniBox Core from the rear without any panels installed][16]{ width="480" }][16]
+  <figcaption>1. The two CPU bays are elevated to make room for lower bay tray mounts in unused bays.<br>2. Optional brass heat set inserts.</figcaption>
+</figure>
+
+<figure markdown>
+  [![render from below showing the bottom panel][18]{ width="480" }][16]
+  <figcaption>The new bottom panel fully encloses the case. It can be printed with holes for airflow or closed to prevent dust intrusion.</figcaption>
 </figure>
 
 [1]: https://github.com/jon-harper/OmniBox/issues/14
@@ -139,3 +152,5 @@ These parts still need to be tested for fit and any other issues.
 [15]: ../img/gallery_0.9.9/render5.png
 [16]: ../img/gallery_0.9.9/render6.png
 [17]: ../img/gallery_0.9.9/render7.png
+[18]: ../img/gallery_0.9.9/render8.png
+[19]: ../img/gallery_0.9.9/render9.png
