@@ -7,9 +7,18 @@
     OmniBox GitHub Folders 
 -->
 <!-- /Core     -->
+[git_core]:                 https://github.com/jon-harper/OmniBox/tree/main/Core                            "OmniBox GitHub: Core"
+[git_base]:                 https://github.com/jon-harper/OmniBox/tree/main/Core/Base                       "OmniBox GitHub: Core - Base"
+[git_base_front]:           https://github.com/jon-harper/OmniBox/tree/main/Core/Base/Front                 "OmniBox GitHub: Core - Front Base"
+[git_base_rear]:            https://github.com/jon-harper/OmniBox/tree/main/Core/Base/Rear                  "OmniBox GitHub: Core - Rear Base"
+[git_base_unified]:         https://github.com/jon-harper/OmniBox/tree/main/Core/Base/Unified               "OmniBox GitHub: Core - Unified Base"
+[git_main_body]:            https://github.com/jon-harper/OmniBox/tree/main/Core/Main%20Body                "OmniBox GitHub: Core - Main Body"
+[git_main_body_front]:      https://github.com/jon-harper/OmniBox/tree/main/Core/Main%20Body/Front          "OmniBox GitHub: Core - Front Main Body"
+[git_main_body_rear]:       https://github.com/jon-harper/OmniBox/tree/main/Core/Main%20Body/Rear           "OmniBox GitHub: Core - Rear Main Body"
+[git_main_body_crossbar]:   https://github.com/jon-harper/OmniBox/tree/main/Core/Main%20Body/Crossbar       "OmniBox GitHub: Core - Crossbar"
 
 <!-- /Fans     -->
-[git_fans]:         https://github.com/jon-harper/OmniBox/Fans          "OmniBox GitHub: Fans"
+[git_fans]:         https://github.com/jon-harper/OmniBox/tree/main/Fans                                    "OmniBox GitHub: Fans"
 
 <!-- /Panels     -->
 <!--      /Display -->
@@ -19,31 +28,55 @@
 [git_mini_12864]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Mini%2012864         "OmniBox GitHub: FYSETC Mini12864 Display Panel (and compatible)"
 [git_generic_12864]:    https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Generic%2012864      "OmniBox GitHub: Generic 12864 Display Panel"
 [git_display_knob]:     https://github.com/jon-harper/OmniBox/blob/main/Panels/Display/Display%20Knob.stl   "OmniBox GitHub: Replacement Display Knob STL"
-[git_display_pi_tft]:   https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Half-Length/Pi%20TFT     "OmniBox GitHub: Raspberry Pi TFT Display Panel"
+[git_display_pi_tft]:   https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Raspberry%20Pi%20TFT "OmniBox GitHub: Raspberry Pi TFT Display Panel"
+[git_display_template]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Template				"OmniBox GitHub: Display Panel Templates"
 
 <!--      /Front Panel -->
+[git_front_panel]:      https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel                "OmniBox GitHub: Front Panels"
+
 <!--      /Lid -->
-[git_lid]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/
-[git_lid_pi_tft]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Half-Length/Pi%20TFT
+[git_lid]:              https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/                         "OmniBox GitHub: Lids"
+[git_lid_pi_tft]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Half-Length/Pi%20TFT     "OmniBox GitHub: Raspberry Pi TFT Lid"
+
+
 
 <!--      /Rear Panel -->
-[git_rear_panel]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel
+[git_side_panel]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Side%20Panel                 "OmniBox GitHub: Side Panels"
+
+<!--      /Rear Panel -->
+[git_rear_panel]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel                 "OmniBox GitHub: Rear Panels"
+[git_generic_rear]:     https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Generic         "OmniBox GitHub: Generic Rear Panels"
+[git_custom_rear]:      https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Custom          "OmniBox GitHub: Custom Rear Panels"
+[git_molex_rear]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Molex           "OmniBox GitHub: Molex Micro Fit 3 Rear Panels"
+[git_rear_template]:    https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Template          "OmniBox GitHub: Rear Panel Templates"
+
+<!--      /Bottom Panel -->
+[git_bottom_panel]:     https://github.com/jon-harper/OmniBox/tree/main/Panels/Bottom%20Panel                 "OmniBox GitHub: Bottom Panels"
+[git_closed_bottom]:    https://github.com/jon-harper/OmniBox/tree/main/Panels/Bottom%20Panel/Closed          "OmniBox GitHub: Closed Bottom Panel"
+[git_hex_bottom]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Bottom%20Panel/Hex             "OmniBox GitHub: Hexagon Bottom Panel"
 
 <!-- /Trays     -->
-
 <!--      /MCU -->
-[git_mcu]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/
-[git_btt_skr_e3]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR%20E3
-[git_btt_skr]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR
-[git_btt_octopus]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20Octopus
+[git_mcu]:              https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/                          "OmniBox GitHub: MCU Trays"
+[git_btt_skr_e3]:       https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR%20E3            "OmniBox GitHub: BIGTREETECH SKR E3 MCU Tray"
+[git_btt_skr]:          https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR                 "OmniBox GitHub: BIGTREETECH SKR 1.3-2.0 MCU Tray"
+[git_btt_octopus]:      https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20Octopus             "OmniBox GitHub: BIGTREETECH Octopus MCU Tray"
+[git_btt_skr_3]:        https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR%203             "OmniBox GitHub: BIGTREETECH SKR 3 MCU Tray"
+[git_btt_skr_3_ez]:     https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR%203%20EZ        "OmniBox GitHub: BIGTREETECH SKR 3 EZ MCU Tray"
+[git_btt_manta_m8p]:    https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR%203%20EZ        "OmniBox GitHub: BIGTREETECH Manta M8P MCU Tray"
 
 <!--      /CPU -->
-[git_cpu]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/
-[git_cpu_unused]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/Unused%20Tray%20Cover
-[git_rpi_3b_plus]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/Raspberry%20Pi%203B%20Plus
-[git_rpi_4b]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/Raspberry%20Pi%204B
+[git_cpu]:              https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/                              "OmniBox GitHub: CPU Trays"
+[git_cpu_unused]:       https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/Unused%20Tray%20Cover         "OmniBox GitHub: Blank Side Panel (Unused CPU Tray)"
+[git_rpi_3b_plus]:      https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/Raspberry%20Pi%203B%20Plus    "OmniBox GitHub: Raspberry Pi 3B+ Tray"
+[git_rpi_4b]:           https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/Raspberry%20Pi%204B           "OmniBox GitHub: Raspberry Pi 4B Tray"
+[git_rpi_universal]:    https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/Raspberry%20Pi%20Universal    "OmniBox GitHub: Universal Raspberry Pi Tray"
 
 <!--     /Lower Bay -->
+[git_lower_bay]:        https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay/                      "OmniBox GitHub: Lower Bay Trays"
+
+<!--     /PSUs -->
+[git_psu]:              https://github.com/jon-harper/OmniBox/tree/main/Trays/PSU/                              "OmniBox GitHub: Power Supplies (PSUs)"
 
 <!-- External Links -->
 [bgdog]: https://www.thingiverse.com/thing:3999751 "BGDog's Stand Alone Main Control Case (Thingiverse)"

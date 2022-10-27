@@ -71,6 +71,7 @@ These parts still need to be tested for fit and any other issues.
 | BIGTREETECH Manta M8P | MCU Tray | |
 | BIGTREETECH 5" TFT | Display Panel | |
 | BIGTREETECH UPS 24V 1.0 | Lower Bay | Short tray only. |
+| BIGTREETECH SKR 3 EZ | MCU Tray | |
 
 ## Fixes
 
@@ -106,7 +107,7 @@ These parts still need to be tested for fit and any other issues.
 
 <figure markdown>
   [![front left render][12]{ width="480" }][12]
-  <figcaption>1. There is a matching CPU bay on the opposite side.<br>2. Optional Neopixel LEDs are visible behind the front vent.</figcaption>
+  <figcaption>1. There is a matching CPU bay on the opposite side.<br>2. Optional Neopixel LEDs are visible behind the front vent.<br>3. All panels now attach with M3 screws.</figcaption>
 </figure>
 
 <figure markdown>
@@ -121,7 +122,7 @@ These parts still need to be tested for fit and any other issues.
 
 <figure markdown>
   [![render from the top right rear without rear or top panels on][15]{ width="480" }][15]
-  <figcaption>1. The MCU tray is moved slightly forward and now mounts with M3 screws.<br>2. The rear wiring passthrough no longer exposes the power socket.<br>3. Support for keystone jacks (unoccupied in the render).</figcaption>
+  <figcaption>1. 20+ zip tie anchors added.<br>2. The MCU tray now mounts with M3 screws.<br>3. The rear wiring passthrough no longer exposes the power socket.<br>4. New support for keystone jacks (unoccupied in the render).</figcaption>
 </figure>
 
 <figure markdown>
@@ -135,8 +136,13 @@ These parts still need to be tested for fit and any other issues.
 </figure>
 
 <figure markdown>
-  [![render from below showing the bottom panel][18]{ width="480" }][16]
+  [![render from below showing the bottom panel][18]{ width="480" }][18]
   <figcaption>The new bottom panel fully encloses the case. It can be printed with holes for airflow or closed to prevent dust intrusion.</figcaption>
+</figure>
+
+<figure markdown>
+  [![render from below showing the bottom panel][19]{ width="480" }][19]
+  <figcaption>1. The new Generic rear panel has two wiring cutouts to let the user run wires from the top, bottom, or both.<br>2. The Generic panel comes in version with and without a 60mm fan (version with the fan pictured).</figcaption>
 </figure>
 
 [1]: https://github.com/jon-harper/OmniBox/issues/14
