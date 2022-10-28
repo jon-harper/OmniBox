@@ -11,15 +11,21 @@ date: 2022-07-22
 
 ### :material-alpha-p-box: :material-alpha-f-box-outline: Front Panels
 
-The front panel is long and slim and can be used for mounting small hardware ports. The most common examples are SD Card extensions and USB extensions. You can find these files in the [Panels/Front Panel][8] git folder.
+The front panel is long and slim and can be used for mounting small hardware ports. The most common examples are SD Card extensions and USB extensions. You can find these files in the [`Panels/Front Panel`][git_front_panel] git folder.
 
 The example below has a Micro SD extension and USB-C extension with slat-style vents.
 
 ![front panel example](../img/gallery_0.9.7/front_panel.png)
 
+### :material-alpha-p-box: :material-alpha-s-box-outline: Side Panels
+
+Introduced in version 0.9.9, the side panel replaces the old Unused CPU Cover. Side panels can be used for mounting a single 40mm fan, panel mounted connectors, or keystone jacks.
+
+Files for the side panel can be found in the [`Panels/Side Panel`][git_side_panel] git folder.
+
 ### :material-alpha-p-box: :material-alpha-r-box-outline: Rear Panels
 
-Rear Panels are the most customizable part of OmniBox. They can mount connectors and fans and modified to suit each end user. There are also a number of generic templates available in the [Panels/Rear Panel][7] git folder.
+Rear Panels are the most customizable part of OmniBox. They can mount connectors and fans and modified to suit each end user. There are also a number of generic templates available in the [`Panels/Rear Panel`][git_rear_panel] git folder.
 
 This rear panel uses Molex Micro Fit 3 connectors. In addition, it has a cutout for a 60mm fan and USB-C extension.
 

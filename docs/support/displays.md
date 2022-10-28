@@ -13,7 +13,7 @@ date: 2022-07-22
 ## MCU Displays
 
 <figure markdown>
-  [![front left render][1]{ width="480" }][1]
+  [![front left render][img_display]{ width="480" }][img_display]
   <figcaption>12864 TFT display mounted on a panel.</figcaption>
 </figure>
 
@@ -27,12 +27,13 @@ Component names below link to the corresponding git folder.
 | [FYSETC Mini 12864][git_mini_12864] | ![img](../img/parts/mini12864.jpg)  | This includes BTT brand and other clones. |
 | [BigTreeTech 2.4" TFT][git_btt_tft_24] | ![img](../img/parts/btt_tft_2.4.jpg)  | This product is discontinued, but I still use it, so there's a part. |
 | [BigTreeTech 3.5" TFT][git_btt_tft_35] | ![img](../img/parts/btt_tft_3.5.jpg)  | Note that this is not the E3 version, which would use the Generic 12864 mount. |
+| [BigTreeTech 5.0" TFT][git_btt_tft_50] |   | |
 
-All of these mounts require four (4) 8mm M3 screws to fasten the display in place. Some mounts have two pieces and require additional screws.
+Most mounts require four (4) 6mm or M3 screws to fasten the display in place. Some mounts have two or three pieces and require additional screws.
 
 ## Raspberry Pi Displays
 
-## Compatibility
+### Compatibility
 
 Any TFT designed with mounts points for a Raspberry Pi on the back should be compatible.
 
@@ -41,7 +42,7 @@ Compatible examples include:
 - BigTreeTech Pi TFT displays (using included hardware)
 - Raspberry Pi-branded 7" TFT (with additional standoffs and M2.5 screws)
 
-## Mounting Methods
+### Mounting Methods
 
 These displays can be attached in one of two ways:
 
@@ -51,16 +52,16 @@ These displays can be attached in one of two ways:
 See below for examples.
 
 <figure markdown>
-  [![render of Raspberry Pi TFT in place of an MCU display][2]{ width="480" }][2]
+  [![render of Raspberry Pi TFT in place of an MCU display][img_rpi_display]{ width="480" }][img_rpi_display]
   <figcaption>Raspberry Pi TFT on a display panel.</figcaption>
 </figure>
 
 
 <figure markdown>
-  [![render of Raspberry Pi TFT as a secondary display][3]{ width="480" }][3]
+  [![render of Raspberry Pi TFT as a secondary display][img_rpi_lid]{ width="480" }][img_rpi_lid]
   <figcaption>Raspberry Pi TFT mounted as a lid.</figcaption>
 </figure>
 
-[1]: ../img/examples/display.png
-[2]: ../img/examples/rpi_display.png
-[3]: ../img/examples/rpi_lid.png
+[img_display]: ../img/components/display.png
+[img_rpi_display]: ../img/examples/rpi_display.png
+[img_rpi_lid]: ../img/examples/rpi_lid.png

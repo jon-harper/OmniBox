@@ -60,16 +60,17 @@ nav:
     - bom.md
   - Supported Parts:
     - support/index.md
-    - support/boards.md
+    - support/mcu.md
+    - support/cpu.md
     - support/displays.md
     - support/panel_mounts.md
     - support/fans.md
     - support/lower_bay.md
   - Assembly Guide:
-    - assembly/index.md
-    - assembly/core.md
-    - assembly/trays.md
-    - assembly/panels.md
+    - assembly_v2/index.md
+    # - assembly/core.md
+    # - assembly/trays.md
+    # - assembly/panels.md
   - Version History:
     - history/index.md
     - history/v0.9.8.1.md

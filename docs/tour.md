@@ -2,7 +2,7 @@
 title: Guided Tour
 summary: Tour and overview of OmniBox
 authors: Jon Harper
-date: 2022-08-04
+date: 20core-08-04
 ---
 
 This is a visual tour of an OmniBox. This page demonstrates:
@@ -15,7 +15,9 @@ Links are provided to the respective git folder for each component type.
 
 ## Identifying Components
 
-To help quickly identify a component, we use icons next to component names. The first letter is a filled-in box for what category a part is from:
+We use icons next to component names to help quickly identify a component. To avoid clutter, icons are only used the first time a component is mentioned on a page or in a section.
+
+These icons are made of boxed-in letters. The first letter is a filled-in box for what category a part is from:
 
 - :material-alpha-c-box: Core
 - :material-alpha-t-box: Tray
@@ -24,14 +26,14 @@ To help quickly identify a component, we use icons next to component names. The 
 
 The following letters identify the name of the component, usually one or two letters. Examples: 
 
-- :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-f-box-outline: Main Body - Front (a Core component)
-- :material-alpha-p-box: :material-alpha-l-box-outline: Lid (a type of Panel)
+- :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-f-box-outline: Main Body - Front (a :material-alpha-c-box: Core component)
+- :material-alpha-p-box: :material-alpha-l-box-outline: Lid (a type of :material-alpha-p-box: Panel)
 
 ## Overview
 
 <figure markdown>
-  [![overview of an omnibox][21]][21]
-  <figcaption>A generic, finished OmniBox.</figcaption>
+  [![overview of an omnibox][img_overview]][img_overview]{ width="640" }
+  <figcaption>A finished OmniBox.</figcaption>
 </figure>
 
 The configuration in the image above will be our example in this guide. We will start with the Core components and move on to the trays and panels that make OmniBox so modular. 
@@ -40,15 +42,15 @@ The configuration in the image above will be our example in this guide. We will 
 
 Core components form the basis of every case. Core files be found in the [`Core`][git_core] folder in the GitHub repository.
 
-There are two types of Core components, Base and Main Body. A typical OmniBox build has three parts for the main body and two for the base.
-
 !!! important
     Most Core components come with the option of using heat set inserts. These `STL` files have `HSI` in the name.
 
 <figure markdown>
-  [![the core of an OmniBox][1]][1]
+  [![the core of an OmniBox][img_core]][img_core]
   <figcaption>The core components of an OmniBox with fans and power supply mounted.</figcaption>
 </figure>
+
+There are two types of Core components, :material-alpha-c-box: :material-alpha-b-box-outline: Base and :material-alpha-c-box: :material-alpha-m-box-outline: Main Body. A typical OmniBox build has three parts for the main body and two for the base.
 
 - :material-alpha-c-box: :material-alpha-b-box-outline: Base
     - :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-f-box-outline: Base - Front
@@ -62,59 +64,84 @@ There are two types of Core components, Base and Main Body. A typical OmniBox bu
 
 #### :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-f-box-outline: Base - Front
 
-[![front base][31]{ width="480" }][31]
-[![front base][32]{ width="480" }][32]
+[![front base][img_base_front]{ width="480" }][img_base_front]
 
 This is the front of two base pieces that cover the power supply. There is a 30mm x 11mm rocker switch cutout in front, as well as air vents and optional 40mm fan mounts.
 
+- [GitHub Folder][git_base_front]
+
 #### :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-r-box-outline: Base - Rear 
 
-[![front base][33]{ width="480" }][33]
-[![front base][34]{ width="480" }][34]
+[![front base][img_base_rear]{ width="480" }][img_base_rear]
 
 The back covers the rest of the power supply and mounts a fused IEC power plug.
 
-This component is available with heat set inserts.
+- [GitHub Folder][git_base_rear]
+- This component is available with heat set inserts.
 
 #### :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-u-box-outline: Base - Unified
 
+[![front base][img_base_unified]{ width="480" }][img_base_unified]
+
 For owners of large-format printers, the base can be printed as a single piece instead of two. The unified base replaces the rear and front pieces.
 
-This component is available with heat set inserts.
+- [GitHub Folder][git_base_unified]
+- This component is available with heat set inserts.
 
 ### Main Body
 
 #### :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-c-box-outline: Main Body - Crossbar
 
-[![crossbar][25]{ width="480" }][25]
-[![crossbar][26]{ width="480" }][26]
+[![callout of the crossbar][img_crossbar]{ width="480" }][img_crossbar]
 
-This is a crossbar that joins and covers the joint between the lids and front display. There are no variations to the crossbar.
+This is a crossbar that joins and covers the joint between the lids and front display.
 
 - [GitHub Folder][git_main_body_crossbar]
+- There are no variations to the crossbar.
 
 #### :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-f-box-outline: Main Body - Front
 
-[![front main body][27]{ width="480" }][27]
-[![front main body][28]{ width="480" }][28]
+[![front main body with internal fan][img_main_front]{ width="480" }][img_main_front]
 
-The front main body comes in two variations to choose from.
+The front main body comes in two variations to choose from:
 
-The version with a 60mm external fan additional requires the appropriate [:material-alpha-f-box: :material-alpha-c-box-outline: fan cage][6]. Optionally, a TPU gasket can also be used with the fan cage.
+=== "Internal 40mm Fan"
+
+    [![front main body with internal fan][img_front_40]{ width="480" }][img_front_40]
+
+=== "External 60mm Fan"
+
+    [![front main body with external fan][img_front_60]{ width="480" }][img_front_60]
+
+The version with a 60mm external fan additional requires the appropriate [:material-alpha-f-box: :material-alpha-c-box-outline: fan cage][fans]. Optionally, a TPU gasket can also be used with the fan cage.
+
+- [GitHub Folder][git_main_body_front]
+- This component is available with heat set inserts.
 
 #### :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-r-box-outline: Main Body - Rear
 
-[![rear main body][29]{ width="480" }][29]
-[![rear main body][30]{ width="480" }][30]
+The rear main body comes in two variations:
 
-The rear main body also comes in two variations. For the dual 40mm fan version, you will also need to print [40mm :material-alpha-f-box: :material-alpha-c-box-outline: fan cages][6] and (optionally) TPU gaskets.
+=== "No Fan Mounts"
+
+    [![rear main body without fan mounts][img_rear_none]{ width="360" }][img_rear_none]
+
+=== "Dual 40mm Fans"
+
+    [![rear main body with dual fans][img_rear_dual]{ width="360" }][img_rear_dual]
+
+
+For the dual 40mm fan version, you will also need to print [40mm :material-alpha-f-box: :material-alpha-c-box-outline: fan cages][fans] and (optionally) TPU gaskets.
+
+- [GitHub Folder][git_main_body_rear]
+- This component is available with heat set inserts.
 
 ## :material-alpha-t-box: Trays and Power Supply
 
 Trays are used for mounting parts internally. There are four (4) types of trays:
 
 <figure markdown>
-  [![the three types of trays][2]{ width="640" }][2]
+  [![the three types of trays][img_trays]{ width="640" }][img_trays]
   <figcaption>The four types of trays in red.</figcaption>
 </figure>
 
@@ -127,50 +154,50 @@ Tray templates are available in both `STEP` and Fusion 360 format to add support
 
 ### :material-alpha-t-box: :material-alpha-p-box-outline: Power Supply Mount
 
-[![power supply mount][57]{ width="480" }][57]
-[![power supply mount][58]{ width="480" }][58]
+[![power supply mount][img_psu]{ width="480" }][img_psu]
 
 Power supply mounts slide up from underneath the case. Currently two power supplies are supported; a template is availabe to add support for more.
 
+Large (tall) power supplies require the use of a [base extension shim](#base-extensions).
+
 - [GitHub Folder][git_psu]
 - Supported power supplies:
-    - Mean Well LRS-350 series
-    - Mean Well RSP-500 series
+    - [Mean Well LRS-350 series][git_psu_lrs350]
+    - [Mean Well RSP-500 series][git_psu_rsp500] (experimental, requires base extension)
 
 ### :material-alpha-t-box: :material-alpha-m-box-outline: MCU Tray
 
-[![mcu tray][37]{ width="480" }][37]
-[![mcu tray][38]{ width="480" }][38]
+[![mcu tray][img_mcu]{ width="480" }][img_mcu]
 
 MCU trays mount a microcontroller unit--your 3D printer board.
 
 - [GitHub Folder][git_mcu]
-- [List of supported MCUs][9]
+- [List of supported MCUs][mcu]
 
 ### :material-alpha-t-box: :material-alpha-l-box-outline: Lower Bay Trays
 
-[![lower bay tray][41]{ width="480" }][41]
-[![lower bay tray][42]{ width="480" }][42]
+[![lower bay tray][img_lower_bay]{ width="480" }][img_lower_bay]
 
 The lower bay is a configurable area to mount parts like buck converters and MOSFETs. There are four dedicated lower bay trays locations and two more that can occupy an unused CPU tray bay.
 
 - [GitHub Folder][git_lower_bay]
-- [List of supported lower bay parts][10]
+- [List of supported lower bay parts][lower_bay]
 
 ### :material-alpha-t-box: :material-alpha-c-box-outline: CPU Tray
 
-[![cpu tray][39]{ width="480" }][39]
-[![cpu tray][40]{ width="480" }][40]
+[![cpu tray][img_cpu]{ width="480" }][img_cpu]
 
-The CPU tray is an optional mount for a Raspberry Pi or other SoC. There are two CPU trays; one is on each side of the case. An unused tray is replaced by a [Side Panel](#side-panels).
+The CPU tray is an optional mount for a Raspberry Pi or other SoC. There are two bays for CPU trays; one is on each side of the case.
+
+An unused bay is replaced by a [Side Panel](#side-panels). A short lower bay tray can also be installed in an unused CPU bay.
 
 - [GitHub Folder][git_cpu]
-- [List of supported CPUs][11]
+- [List of supported CPUs][cpu]
 
 ## :material-alpha-p-box: Panels
 
 <figure markdown>
-  [![callout of panels and fan cage][3]{ width="640" }][3]
+  [![callout of panels and fan cage][img_panels]{ width="640" }][img_panels]
   <figcaption>The six types of panels.</figcaption>
 </figure>
 
@@ -187,27 +214,25 @@ Panels have a range of supported parts and options. There is a blank `STEP` and 
 
 ### :material-alpha-p-box: :material-alpha-f-box-outline: Front Panel
 
-[![front panel][43]{ width="480" }][43]
-[![front panel][44]{ width="480" }][44]
+[![front panel][img_front_panel]{ width="480" }][img_front_panel]
 
 The front panel serves as an air vent and location to put a MicroSD card reader extension. USB extensions are also a common accessory.
 
 - GitHub Folder: [`Panels/Front Panel`][git_front_panel]
-- [Supported parts][7]
+- [Supported parts][panel_mounts]
 
 ### :material-alpha-p-box: :material-alpha-s-box-outline: Side Panel
 
-[![side panel][49]{ width="480" }][49]
-[![side panel][50]{ width="480" }][50]
+[![side panel][img_side]{ width="480" }][img_side]
 
 Side panel(s) replace a CPU tray and often mount connectors or fans. A blank side panel can also be used.
 
 - GitHub Folder: [`Panels/Side Panel`][git_side_panel]
+- [Supported parts][panel_mounts]
 
 ### :material-alpha-p-box: :material-alpha-b-box-outline: Bottom Panel
 
-[![bottom panel][53]{ width="480" }][53]
-[![bottom panel][54]{ width="480" }][54]
+[![bottom panel][img_bottom]{ width="480" }][img_bottom]
 
 The bottom panels act as a cover for the underside of the case. A fully enclosed option is available to keep dust out.
 
@@ -215,19 +240,17 @@ The bottom panels act as a cover for the underside of the case. A fully enclosed
 
 ### :material-alpha-p-box: :material-alpha-d-box-outline: Display Panel
 
-[![display panel][45]{ width="480" }][45]
-[![display panel][46]{ width="480" }][46]
+[![display panel][img_display]{ width="480" }][img_display]
 
 
 This area mounts LCD displays, from the basic 128x64 character display to Raspbery Pi TFTs.
 
 - GitHub Folder: [`Panels/Display`][git_display]
-- [List of supported displays][8]
+- [List of supported displays][displays]
 
 ### :material-alpha-p-box: :material-alpha-l-box-outline: Lid(s)
 
-[![lid][47]{ width="480" }][47]
-[![lid][48]{ width="480" }][48]
+[![img_lid][img_lid]{ width="480" }][img_lid]
 
 The lid is both a way into your case and a configurable panel. There are two types of lids: short and long lids. You can either print one (1) long lid or two (2) short lids.
 
@@ -236,8 +259,7 @@ The lid is both a way into your case and a configurable panel. There are two typ
 
 ### :material-alpha-p-box: :material-alpha-r-box-outline: Rear Panel
 
-[![rear panel][51]{ width="480" }][51]
-[![rear panel][52]{ width="480" }][52]
+[![rear panel][img_rear]{ width="480" }][img_rear]
 
 The rear panel is used for ventilation, passing wiring out of your case, and optionally an additional fan. There are stock configurations available to suit common uses. A template is also available for customization.
 
@@ -250,63 +272,70 @@ Rear panels with panel mounted connectors are an active area of work.
 | [`Micro Fit 3`][git_molex_rear]    | Use Molex Micro Fit 3 panel mounted connectors. Pinout diagrams for each panel are included. | ...You plan to create a wiring harness for an enclosed printer. |
 | [`Template`][git_rear_template] | A Fusion 360 template with profiles for panel mounted connectors and fans. | ...You want to create your own panel. |
 
-## :material-alpha-f-box: Fans
+## Other Components
 
-[![external fan cages][55]{ width="480" }][55]
-[![external fan cages][56]{ width="480" }][56]
+### :material-alpha-f-box: Fans
 
-Externally mounted fans use [:material-alpha-f-box: :material-alpha-c-box-outline: fan cages][6] to cover the fan blades. There are a large number of fan sizes supported, each with a matching TPU :material-alpha-f-box: :material-alpha-g-box-outline: fan gasket. The gaskets are optional and serve to reduce noise.
+[![external fan cages][img_external_fan]{ width="480" }][img_external_fan]
+
+Externally mounted fans use :material-alpha-f-box: :material-alpha-c-box-outline: fan cages to cover the fan blades. There are a large number of fan sizes supported, each with a matching TPU :material-alpha-f-box: :material-alpha-g-box-outline: fan gasket. The gaskets are optional and serve to reduce noise.
+
+Internally mounted fans are also available, but are limited to 40mm fans.
 
 - GitHub Folder: [`Fans`][git_fans]
-- [Supported Fans][6]
+- [Supported Fans][fans]
 
-[1]:  img/components/core.png
-[2]:  img/components/trays.png
-[3]:  img/components/panels.png
-[4]:  printing.md#core-parts-with-variants
-[5]:  support/boards.md
-[6]:  support/fans.md
-[7]:  support/panel_mounts.md
-[8]:  support/displays.md
-[9]:  support/boards.md#mcu-boards
-[10]: support/lower_bay.md
-[11]: support/boards.md#soc-cpu-boards
+### Base Extensions
 
-[21]: img/components/overview.png
-[22]: img/components/core.png
-[23]: img/components/trays.png
-[24]: img/components/panels.png
-[25]: img/components/crossbar.png#only-light
-[26]: img/components/crossbar_dark.png#only-dark
-[27]: img/components/main_front.png#only-light
-[28]: img/components/main_front_dark.png#only-dark
-[29]: img/components/main_rear.png#only-light
-[30]: img/components/main_rear_dark.png#only-dark
-[31]: img/components/base_front.png#only-light
-[32]: img/components/base_front_dark.png#only-dark
-[33]: img/components/base_rear.png#only-light
-[34]: img/components/base_rear_dark.png#only-dark
-[35]: img/components/base_unified.png#only-light
-[36]: img/components/base_unified_dark.png#only-dark
-[37]: img/components/mcu.png#only-light
-[38]: img/components/mcu_dark.png#only-dark
-[39]: img/components/cpu.png#only-light
-[40]: img/components/cpu_dark.png#only-dark
-[41]: img/components/lower_bay.png#only-light
-[42]: img/components/lower_bay_dark.png#only-dark
-[43]: img/components/front_panel.png#only-light
-[44]: img/components/front_panel_dark.png#only-dark
-[45]: img/components/display.png#only-light
-[46]: img/components/display_dark.png#only-dark
-[47]: img/components/lid.png#only-light
-[48]: img/components/lid_dark.png#only-dark
-[49]: img/components/side.png#only-light
-[50]: img/components/side_dark.png#only-dark
-[51]: img/components/rear.png#only-light
-[52]: img/components/rear_dark.png#only-dark
-[53]: img/components/bottom.png#only-light
-[54]: img/components/bottom_dark.png#only-dark
-[55]: img/components/external_fan.png#only-light
-[56]: img/components/external_fan_dark.png#only-dark
-[57]: img/components/psu.png#only-light
-[58]: img/components/psu_dark.png#only-dark
+[![base extension is highlighted in blue][img_base_extension]{width="480"}][img_base_extension]
+    
+Larger power supplies require the addition of a base extension shim. This mounts between the base and the bottom panel.
+
+- GitHub Folder: [`Core/Base/Extension Shim`][git_base_extension]
+
+### Power Switch
+
+[![rocker switch is highlighted in blue][img_switch]{width="480"}][img_switch]
+
+OmniBox uses a common 30x11mm [:material-cart: snap-in SPST rocker switch][bom_switch] to turn on and off. This is the same switch found on many 3D printers, particularly Creality.
+
+### IEC C14 Power Socket
+
+[![iec socket is highlighted in blue][img_iec]{width="480"}][img_iec]
+
+Power is provided through a standard [:material-cart: fused IEC C14 power socket][bom_iec]. A 5A fuse is typically adequate.
+
+[fans]:  support/fans.md
+[panel_mounts]:  support/panel_mounts.md
+[displays]:  support/displays.md
+[mcu]:  support/mcu.md
+[lower_bay]: support/lower_bay.md
+[cpu]: support/cpu.md
+[img_overview]: img/components/overview.png
+[img_core]: img/components/core.png
+[img_trays]: img/components/trays.png
+[img_panels]: img/components/panels.png
+[img_crossbar]: img/components/crossbar.png
+[img_main_front]: img/components/main_front.png
+[img_main_rear]: img/components/main_rear.png
+[img_base_front]: img/components/base_front.png
+[img_base_rear]: img/components/base_rear.png
+[img_base_unified]: img/components/base_unified.png
+[img_base_extension]: img/components/base_extension.png
+[img_mcu]: img/components/mcu.png
+[img_cpu]: img/components/cpu.png
+[img_lower_bay]: img/components/lower_bay.png
+[img_front_panel]: img/components/front_panel.png
+[img_display]: img/components/display.png
+[img_lid]: img/components/lid.png
+[img_side]: img/components/side.png
+[img_rear]: img/components/rear.png
+[img_bottom]: img/components/bottom.png
+[img_external_fan]: img/components/external_fan.png
+[img_psu]: img/components/psu.png
+[img_front_40]: img/components/front_40mm.png
+[img_front_60]: img/components/front_60mm.png
+[img_rear_none]: img/components/rear_none.png
+[img_rear_dual]: img/components/rear_40mm.png
+[img_switch]: img/components/switch.png
+[img_iec]: img/components/iec.png
