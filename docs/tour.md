@@ -178,7 +178,7 @@ MCU trays mount a microcontroller unit--your 3D printer board.
 
 [![lower bay tray][img_lower_bay]{ width="480" }][img_lower_bay]
 
-The lower bay is a configurable area to mount parts like buck converters and MOSFETs. There are four dedicated lower bay trays locations and two more that can occupy an unused CPU tray bay.
+The lower bay is an area to mount parts like buck converters and MOSFETs. There are four dedicated lower bay trays locations and two more that can occupy an unused CPU tray bay.
 
 - [GitHub Folder][git_lower_bay]
 - [List of supported lower bay parts][lower_bay]
@@ -208,9 +208,9 @@ An unused bay is replaced by a [Side Panel](#side-panels). A short lower bay tra
 - :material-alpha-p-box: :material-alpha-s-box-outline: Side panel
 - :material-alpha-p-box: :material-alpha-b-box-outline: Bottom panel
 
-Panels cover the outside of OmniBox and mount of a range of options. Front, side, and rear panels are typically used for connectors and fans.
+Panels cover the outside of OmniBox and mount of a range of options. Front, side, and rear panels are typically used for connectors, fans, and ventilation.
 
-Panels have a range of supported parts and options. There is a blank `STEP` and Fusion 360 template for each panel category to create new panels.
+There is a blank `STEP` and Fusion 360 template for each panel category to allow users to create new panels.
 
 ### :material-alpha-p-box: :material-alpha-f-box-outline: Front Panel
 
@@ -255,7 +255,7 @@ This area mounts LCD displays, from the basic 128x64 character display to Raspbe
 The lid is both a way into your case and a configurable panel. There are two types of lids: short and long lids. You can either print one (1) long lid or two (2) short lids.
 
 - GitHub Folder: [`Panels/Lids`][git_lid]
-- See the README in the link above for a list of supported configurations.
+- See the README in the GitHub folder for a list of supported configurations.
 
 ### :material-alpha-p-box: :material-alpha-r-box-outline: Rear Panel
 

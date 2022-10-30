@@ -90,15 +90,15 @@ This version of the requires two (2) externally mounted 40mm fans.
 
 | Item                              | Qty | UOM | Note                                                     |
 |-----------------------------------|-----|-----|----------------------------------------------------------|
-| [40x40x10mm axial fans][bom_4010] | 2   | ea  |                                                          |
+| [:material-cart: 40x40x10mm axial fans][bom_4010] | 2   | ea  |                                          |
 | M3 x 20mm machine screws          | 8   | ea	| Use 30mm screws for 20mm fans (not recommended).         |
-| Printed [:material-alpha-f-box: :material-alpha-c-box-outline: fan cage][git_fans]            | 2   | ea  | TPU gaskets are optional.                                |
+| Printed [:material-alpha-f-box: :material-alpha-c-box-outline: fan cage][git_fans] | 2   | ea  | TPU gaskets are optional.                                |
 
 #### No Exhaust Fans
 
 There are no additional materials required for this version. 
 
-!!! warning
+!!! important
     This rear main body must be used with a :material-alpha-p-box: :material-alpha-r-box-outline: rear panel or :material-alpha-p-box: :material-alpha-l-box-outline: lid that provides an exhaust fan.
 
 ## :material-alpha-t-box: Tray and :material-alpha-p-box: Panel Configurations

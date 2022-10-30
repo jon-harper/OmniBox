@@ -16,10 +16,10 @@ Single board computers (SBC) like the Raspberry Pi are mounted on :material-alph
 
 If you do not use an SBC, the side of the bay can be used as a [:material-alpha-p-box: :material-alpha-s-box-outline: Side Panel][panel_mounts].
 
-| Component             | Image |
-|-----------------------|-------|
+| Component                           | Image      |
+|-------------------------------------|------------|
 | [Raspberry Pi 3B+][git_rpi_3b_plus] | ![img][11] |
-| [Raspberry Pi 4B][git_rpi_4b]  | ![img][12] |
+| [Raspberry Pi 4B][git_rpi_4b]       | ![img][12] |
 
 [cpu]: ../img/components/cpu.png
 [11]: ../img/parts/rpi_3b_plus.jpg

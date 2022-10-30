@@ -68,7 +68,8 @@ nav:
     - support/lower_bay.md
   - Assembly Guide:
     - assembly_v2/index.md
-    # - assembly/core.md
+    - assembly_v2/base.md
+    - assembly_v2/core.md
     # - assembly/trays.md
     # - assembly/panels.md
   - Version History:

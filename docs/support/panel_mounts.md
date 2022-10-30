@@ -33,6 +33,8 @@ This rear panel uses Molex Micro Fit 3 connectors. In addition, it has a cutout 
 
 ## Supported Hardware
 
+In addition to [fans][fans], templates and predesigned panels are available to mount the following hardware:
+
 | Connector or Extension | Typical Location | Notes |
 |------------------------|----------|-------|
 | [MicroSD panel mount extension][5] | Front | |
@@ -40,12 +42,13 @@ This rear panel uses Molex Micro Fit 3 connectors. In addition, it has a cutout 
 | [USB C panel mount extension][3] | Front or Rear | |
 | [JST SM panel mount connectors][2] | Rear | 2-5 pins |
 | [Molex Micro Fit 3.0 connectors][1] | Rear | Supported up to [2-row, 16-position][6]. |
+| Keystone Jacks | Front, Side, Rear | Currently only the side panel has a predesigned keystone jack mount. |
 
 [1]:  https://www.digikey.com/en/htmldatasheets/production/1626160/0/0/1/0430300007.html
 [2]:  https://www.amazon.com/gp/product/B07D9HRDT6
 [3]:  https://www.amazon.com/Poyiccot-Extension-Female-Extender-Straight/dp/B086W2R8Z6
 [4]:  https://www.amazon.com/gp/product/B071P2BGK5
 [5]:  https://www.amazon.com/gp/product/B07YYSP5F5
-[6]: https://www.digikey.com/en/products/detail/molex/0430200200/252490
-[7]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel
-[8]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel
+[6]:  https://www.digikey.com/en/products/detail/molex/0430200200/252490
+
+[fans]: fans.md
