@@ -16,11 +16,8 @@ This section is optional. If you are not using a SoC CPU like a Raspberry Pi, us
 |---------------------------|-----|---------------------------------|
 | M3 x 6mm machine screws   | 4   |                                 |
 | M3 x 8mm machine screws   | 4   | May substitute 10mm or 12mm.    |
-| SoC CPU                   | 1   |                                 |
+| SoC CPU                   | 1   | Illustrated: Raspberry Pi 4B    |
 | :material-alpha-t-box: :material-alpha-c-box-outline: CPU Tray | 1   | :material-printer-3d-nozzle: Printed |
-
-- Illustrated: Raspberry Pi 4B
-- Additional materials: N/A
 
 ## Directions
                                                             

@@ -18,9 +18,9 @@ Common aftermarket TFT displays have an extra step of mounting the display to a 
 |---------------------------|-----|---------------------------------|
 | M4 x 6mm machine screws   | 4   |                                 |
 | M4 x 8mm machine screws   | 4   | May substitute 10mm or 12mm.    |
-| LCD display               | 1   | Ex: Generic 12864 LCD           |
-| Printed :material-alpha-p-box: :material-alpha-d-box-outline: Display Panel | 1   | |
-| Printed display knob.
+| LCD display               | 1   | Illustrated: Generic 12864 LCD  |
+| :material-alpha-p-box: :material-alpha-d-box-outline: Display Panel | 1   | :material-printer-3d-nozzle: Printed |
+| Display Knob | 1 | :material-printer-3d-nozzle: Printed, Optional |
 
 ## Directions
                                                             
@@ -57,8 +57,6 @@ Common aftermarket TFT displays have an extra step of mounting the display to a 
 ## Finished Reference
 
 ![illustration][display_final]
-
-[checklist]: ../printing.md#printed-component-checklist "Print Checklist"
 
 [display1]: ../img/assembly/panels/display/display1.png
 [display2]: ../img/assembly/panels/display/display2.png

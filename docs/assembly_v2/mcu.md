@@ -5,22 +5,21 @@ authors: Jon Harper
 date: 2022-10-30
 ---
 
+## MCU Installation
+
 ??? note "Video Overview"
     ![type:video][vid_mcu]
 
-## Materials
+### Materials
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
 | M3 x 6mm machine screws   | 4   | Some boards may use 5 or more.  |
 | M3 x 8mm machine screws   | 4   | May substitute 10mm or 12mm.    |
-| Compatible MCU            | 1   |                                 |
+| Compatible MCU            | 1   | Illustrated: BIGTREETECH SKR 2  |
 | :material-alpha-t-box: :material-alpha-m-box-outline: MCU Tray | 1   | :material-printer-3d-nozzle: Printed |
 
-- Illustrated: BIGTREETECH SKR 2
-- Additional materials: N/A
-
-## Directions
+### Directions
                                                             
 <figure markdown>
   [![illustration][mcu1]{width="480"}][mcu1]
@@ -45,9 +44,13 @@ date: 2022-10-30
   <figcaption>4. TODO</figcaption>
 </figure>
 
-## Finished Reference
+### Finished Reference
 
 ![illustration][mcu_final]
+
+## MCU Wiring
+
+TODO
 
 [mcu1]: ../img/assembly/trays/mcu/mcu1.png
 [mcu2]: ../img/assembly/trays/mcu/mcu2.png

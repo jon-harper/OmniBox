@@ -82,7 +82,7 @@ nav:
       - assembly_v2/core.md
     - Trays & Internal Wiring:
       - assembly_v2/cpu.md
-      # - assembly_v2/lower_bay.md
+      - assembly_v2/lower_bay.md
       - assembly_v2/mcu.md
     - Panels & Closing Up:
       # - assembly_v2/front.md

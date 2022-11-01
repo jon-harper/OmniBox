@@ -17,7 +17,7 @@ Welcome to the Assembly Guide for OmniBox. This page covers:
 
 This guide is divided into three main sections:
 
-#### Part 1: :material-alpha-c-box: Core & :material-alpha-t-box: :material-alpha-p-box-outline: PSU Tray
+#### Part 1: :material-alpha-c-box: Core & :material-alpha-t-box: :material-alpha-p-box-outline: PSU
 
 1. :material-alpha-t-box: :material-alpha-p-box-outline: PSU Tray & :material-alpha-c-box: :material-alpha-b-box-outline: Base
 2. AC Wiring

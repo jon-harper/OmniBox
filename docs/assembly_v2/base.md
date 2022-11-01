@@ -17,11 +17,8 @@ We will start by assembling the :material-alpha-c-box: :material-alpha-b-box-out
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
 | M4 x 6mm machine screws   | 4   | No longer than 8mm.             |
-| Compatible power supply   | 1   |                                 |
+| Compatible power supply   | 1   | Illustrated: Mean Well LRS-350-24 |
 | :material-alpha-t-box: :material-alpha-p-box-outline: PSU Tray  | 1   | :material-printer-3d-nozzle: Printed, 2 files. |
-
-- Illustrated: Mean Well LRS-350-24
-- Additional materials: N/A
 
 ### Directions
 
