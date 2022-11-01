@@ -1,32 +1,65 @@
 ---
-title: Base Assembly
-summary: Instructiosn for assembling the base and PSU tray.
+title: Base and PSU
+summary: Instructions for assembling the base and PSU tray.
 authors: Jon Harper
 date: 2022-10-29
 ---
 
-In this section we will assemble the :material-alpha-c-box: :material-alpha-b-box-outline: Base and :material-alpha-t-box: :material-alpha-p-box-outline: PSU Tray.
+We will start by assembling the :material-alpha-c-box: :material-alpha-b-box-outline: Base and :material-alpha-t-box: :material-alpha-p-box-outline: PSU Tray.
 
-## Power Supply Tray
+## PSU Tray
+
+??? note "Video Overview"
+    ![type:video][vid_psu]
+
+### Materials
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
-| M3 x 16mm machine screws  | 2   | Can use screws up to 20mm.      |
-| Compatible power supply   | 1   | Ex: Mean Well LRS-350           |
-| Printed :material-alpha-t-box: :material-alpha-p-box-outline: PSU Tray halves  | 1   | Both left and right STLs.       |
+| M4 x 6mm machine screws   | 4   | No longer than 8mm.             |
+| Compatible power supply   | 1   |                                 |
+| :material-alpha-t-box: :material-alpha-p-box-outline: PSU Tray  | 1   | :material-printer-3d-nozzle: Printed, 2 files. |
 
-| Steps | Illustration |
-|-------|--------------|
-| Orient the power supply so that the terminals are facing away from you and oriented upwards. | ![illustratino][psu1] |
-| Place the  | ![illustration][psu2] |
-|  | ![illustration][psu3] |
-|  | ![illustration][psu4] |
-|  | ![illustration][psu5] |
+- Illustrated: Mean Well LRS-350-24
+- Additional materials: N/A
 
+### Directions
+
+<figure markdown>
+  [![illustration][psu1]{width="480"}][psu1]
+  <figcaption>1. Set the power supply so that the terminals are facing away from you and oriented downwards.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][psu2]{width="480"}][psu2]
+  <figcaption>2. The right PSU tray mount is marked with an 'R'. Place it against right side of the power supply with the 'R' facing upwards.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][psu3]{width="480"}][psu3]
+  <figcaption>3. Use two (2) M4 screws to attach the tray mount.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][psu4]{width="480"}][psu4]
+  <figcaption>4. Set the left tray mount against the other side of the power supply. The 'L' should face upwards.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][psu5]{width="480"}][psu5]
+  <figcaption>5. Secure using two (2) M4 screws.</figcaption>
+</figure>
+
+### Finished Reference
+
+[![illustration][psu_final]{width="640"}][psu_final]
 
 ## Prepare the Base
 
-You will need:
+??? note "Video Overview"
+    ![type:video][vid_prep]
+
+### Materials
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
@@ -35,47 +68,101 @@ You will need:
 | 40mm x 10mm axial fan     | 0-3 | Optional, up to three.          |
 | SPST toggle switch        | 1   |                                 |
 | IEC C14 socket with fuse  | 1   |                                 |
-| :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-f-box-outline: Base - Front | 1   | [Base - Front.stl][git_base_front] |
-| :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-r-box-outline: Base - Rear  | 1   | [Base - Rear.stl][git_base_rear]   |
+| :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-f-box-outline: Base - Front | 1   | :material-printer-3d-nozzle: Printed |
+| :material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-r-box-outline: Base - Rear  | 1   | :material-printer-3d-nozzle: Printed |
 
 !!! note
     The [unified base][git_base_unified] replaces both the front and rear bases and requires no additional parts.
 
-| Steps | Illustration |
-|-------|--------------|
-| | ![illustration][base1] |
-| | ![illustration][base2] |
-| | ![illustration][base3] |
-| | ![illustration][base4] |
-| | ![illustration][base5] |
+### Directions
+
+<figure markdown>
+  [![illustration][base_prep1]{width="480"}][base_prep1]
+  <figcaption>1. Slide the toggle switch into the open slot on the front base. The flaps on the side compress and snap the switch in place once inserted.</figcaption>
+</figure>
+
+!!! note
+    The front vents mount up to three fans. It is up to you how many fans to use; in this example we will use one (1). Repeat the next two (2) steps for any additional fans.
+
+<figure markdown>
+  [![illustration][base_prep2]{width="480"}][base_prep2]
+  <figcaption>2. Place a 40mm fan against the front vent and align with the screw holes. Most users will want the airflow entering from the front.</figcaption>
+</figure>
+
+!!! note
+    On most fans, the direction of airflow is towards the sticker on the motor. In this case, the sticker should face away from the vent.
+
+!!! caution
+    Once the main body is installed, the fan will press directly against the floor. If the fan wiring passes *upwards* through a strain relief notch in the fan case, the wiring will become trapped between the fan and case body. Either turn the fan 90 degrees or the remove the wiring from the strain relief notch.
+
+<figure markdown>
+  [![illustration][base_prep3]{width="480"}][base_prep3]
+  <figcaption>3. Attach the fan with four (4) M3 x 16mm screws.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][base_prep4]{width="480"}][base_prep4]
+  <figcaption>Insert the IEC power switch socket into the rear of the base.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][base_prep5]{width="480"}][base_prep5]
+  <figcaption>Secure with two (2) M3 x 12mm screws.</figcaption>
+</figure>
+
+### Finished Reference
+
+[![illustration][base_prep_final]{width="640"}][base_prep_final]
 
 ## Combine Base and PSU
+
+??? note "Video Overview"
+    ![type:video][vid_base]
+
+### Materials
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
 | M3 x 16mm machine screws  | 6   | Can use screws up to 20mm.      |
 
-| Steps | Illustration |
-|-------|--------------|
-| Turn the PSU tray assembly so that the PSU terminals are oriented downards and away from you. | ![illustration][psu6] |
-| Setup the base halves and power supply, lining up the screw holes in the base with the side of the PSU tray. | ![illustration][base6] |
-| Use the 16mm M3 screws to attach the base to the PSU tray. | ![illustration][base7] |
+### Directions
 
-[trays]: trays.md "Tray Assembly"
-[panels]:  panels.md "Panel Assembly"
-[checklist]: ../printing.md#print-checklist "Print Checklist"
+<figure markdown>
+  [![illustration][psu_final]{width="480"}][psu_final]
+  <figcaption>Turn the PSU tray assembly so that the PSU terminals are oriented downards and away from you.</figcaption>
+</figure>
 
-[psu1]: ../img/assembly/psu/psu1.png
-[psu2]: ../img/assembly/psu/psu2.png
-[psu3]: ../img/assembly/psu/psu3.png
-[psu4]: ../img/assembly/psu/psu4.png
-[psu5]: ../img/assembly/psu/psu5.png
-[psu6]: ../img/assembly/psu/psu6.png
+<figure markdown>
+  [![illustration][base1]{width="480"}][base1]
+  <figcaption>Place the base pieces around the PSU tray. The edges should fit together. Note that the power supply terminals are facing downwards.</figcaption>
+</figure>
 
-[base1]: ../img/assembly/base/base1.png
-[base2]: ../img/assembly/base/base2.png
-[base3]: ../img/assembly/base/base3.png
-[base4]: ../img/assembly/base/base4.png
-[base5]: ../img/assembly/base/base5.png
-[base6]: ../img/assembly/base/base6.png
-[base7]: ../img/assembly/base/base7.png
+<figure markdown>
+  [![illustration][base2]{width="480"}][base2]
+  <figcaption>Use six (6) 16mm M3 screws to attach the base to the PSU tray.</figcaption>
+</figure>
+
+### Finished Reference
+
+[![illustration][base_final]{width="640"}][base_final]
+
+[psu1]: ../img/assembly/trays/psu/psu1.png
+[psu2]: ../img/assembly/trays/psu/psu2.png
+[psu3]: ../img/assembly/trays/psu/psu3.png
+[psu4]: ../img/assembly/trays/psu/psu4.png
+[psu5]: ../img/assembly/trays/psu/psu5.png
+[psu_final]: ../img/assembly/trays/psu/psu_final.png
+[vid_psu]: ../video/psu.mp4
+
+[base_prep1]: ../img/assembly/core/base/base_prep1.png
+[base_prep2]: ../img/assembly/core/base/base_prep2.png
+[base_prep3]: ../img/assembly/core/base/base_prep3.png
+[base_prep4]: ../img/assembly/core/base/base_prep4.png
+[base_prep5]: ../img/assembly/core/base/base_prep5.png
+[base_prep_final]: ../img/assembly/core/base/base_prep_final.png
+[vid_prep]: ../video/base_prep.mp4
+
+[base1]:        ../img/assembly/core/base/base1.png
+[base2]:        ../img/assembly/core/base/base2.png
+[base_final]:   ../img/assembly/core/base/base_final.png
+[vid_base]: ../video/base.mp4

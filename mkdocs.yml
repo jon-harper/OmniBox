@@ -50,14 +50,15 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins: 
+  - mkdocs-video:
+      video_autoplay: False
       
 nav:
   - index.md
   - development.md
   - tour.md
-  - Requirements:
-    - printing.md
-    - bom.md
   - Supported Parts:
     - support/index.md
     - support/mcu.md
@@ -66,17 +67,36 @@ nav:
     - support/panel_mounts.md
     - support/fans.md
     - support/lower_bay.md
+  - Requirements:
+    - printing.md
+    - bom.md
   - Assembly Guide:
     - assembly_v2/index.md
-    - assembly_v2/base.md
-    - assembly_v2/core.md
-    # - assembly/trays.md
-    # - assembly/panels.md
+    - Heat Set Inserts:
+      - assembly_v2/hsi_base.md
+      - assembly_v2/hsi_front.md
+      - assembly_v2/hsi_rear.md
+    - Core & PSU:
+      - assembly_v2/base.md
+      - assembly_v2/psu_wiring.md
+      - assembly_v2/core.md
+    - Trays & Internal Wiring:
+      - assembly_v2/cpu.md
+      # - assembly_v2/lower_bay.md
+      - assembly_v2/mcu.md
+    - Panels & Closing Up:
+      # - assembly_v2/front.md
+      - assembly_v2/side.md
+      # - assembly_v2/rear.md
+      - assembly_v2/display.md
+      # - assembly_v2/bottom.md
+      # - assembly_v2/lid.md
   - Version History:
     - history/index.md
-    - history/v0.9.8.1.md
-    - history/v0.9.8.md
-    - history/v0.9.7.md
-    - history/v0.9.5.md
-    - history/v0.9.md
+    - Prior Releases:
+      - history/v0.9.8.1.md
+      - history/v0.9.8.md
+      - history/v0.9.7.md
+      - history/v0.9.5.md
+      - history/v0.9.md
   

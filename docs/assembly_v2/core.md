@@ -11,88 +11,177 @@ Let's get started.
 
 ## Attach the :material-alpha-c-box: :material-alpha-m-box-outline: Main Body
 
+### Materials
+
 | Parts                        | Qty | Note                            |
 |------------------------------|-----|---------------------------------|
 | #6 x 3/4" sharp point screws | 8   |                                 |
-| Printed :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-f-box-outline: Main Body - Front | 1   | |
-| Printed :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-r-box-outline: Main Body - Rear  | 1   | |
+| :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-f-box-outline: Main Body - Front | 1   | :material-printer-3d-nozzle: Printed |
+| :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-r-box-outline: Main Body - Rear  | 1   | :material-printer-3d-nozzle: Printed |
 
-| Steps | Illustration |
-|-------|--------------|
-| Set the Front Main Body over the front of the base. Note the alignment of the edges. | ![illustration][core1] |
-| Repeat with the Rear Main Body. | ![illustration][core2] |
-| Begin inserting #6 screws to the base, tightening about halfway. | ![illustration][core3] |
-| Continue fastening screws halfway. If insertion becomes difficult, back out and check alignment of the screws inserted so far. | ![illustration][core4] |
-| Finish tightening the screws down completely. Check for gaps between the Base and Main Body. | |
+### Directions
 
+<figure markdown>
+  [![illustration][main1]{width="480"}][main1]
+  <figcaption>Set the Front Main Body over the front of the base. Note the alignment of the edges.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][main2]{width="480"}][main2]
+  <figcaption>Repeat with the Rear Main Body.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][main3]{width="480"}][main3]
+  <figcaption>Begin inserting #6 screws to the base, tightening about halfway.</figcaption>
+</figure>
+<figure markdown>
+  [![illustration][main4]{width="480"}][main4]
+  <figcaption>Continue fastening screws halfway. If insertion becomes difficult, back out and check alignment of the screws inserted so far.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][main5]{width="480"}][main5]
+  <figcaption>Finish tightening the screws down completely. Check for gaps between the Base and Main Body.</figcaption>
+</figure>
+
+### Finished Reference
+
+[![illustration][main_final]{width="640"}][main_final]
 
 ## Secure and Align the Center
 
-You will need:
+### Materials
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
-| M3 x 8mm machine screws   | 6   | Can use 10mm screws as well.    |
+| M3 x 8mm machine screws   | 6   | Can use 10mm screws instead.    |
 
-| Steps | Illustration |
-|-------|--------------|
-| | ![illustration][core5] |
-| | ![illustration][core6] |
+### Directions
+
+<figure markdown>
+  [![illustration][center1]{width="480"}][center1]
+  <figcaption>TODO</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][center2]{width="480"}][center2]
+  <figcaption>TODO</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][center3]{width="480"}][center3]
+  <figcaption>TODO</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][center4]{width="480"}][center4]
+  <figcaption>TODO</figcaption>
+</figure>
+
+### Finished Reference
+
+[![illustration][center_final]{width="640"}][center_final]
 
 ## Add Fans
 
-### Internal 40mm Fan
+### Materials
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
+| M3 x 16mm machine screws  | 4   | For front fan                   |
+| M3 x 20mm machine screws  | 8   | For rear fans                   |
+| 40x40x10mm axial fan      | 3   |                                 |
+| :material-alpha-f-box: :material-alpha-c-box-outline: 40mmx10mm Fan Cage | 2 | :material-printer-3d-nozzle: Printed |
+| :material-alpha-f-box: :material-alpha-g-box-outline: 40mmx10mm Fan Gasket | 2 | :material-printer-3d-nozzle: Printed TPU, Optional |
 
-| Steps | Illustration |
-|-------|--------------|
-| | ![illustration][fan1] |
-| | ![illustration][fan2] |
+### Directions
 
-### External 40mm Fans
+<figure markdown>
+  [![illustration][internal_fan1]{width="480"}][internal_fan1]
+  <figcaption>TODO</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][internal_fan2]{width="480"}][internal_fan2]
+  <figcaption>TODO</figcaption>
+</figure>
+
+<!-- ### Finished Reference
+
+![illustration][internal_fan_final] -->
+
+<!-- ### External 40mm Fans
 
 | Parts                     | Qty | Note                            |
-|---------------------------|-----|---------------------------------|
+|---------------------------|-----|---------------------------------| -->
+
+<figure markdown>
+  [![illustration][external_fan1]{width="480"}][external_fan1]
+  <figcaption>TODO</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][external_fan2]{width="480"}][external_fan2]
+  <figcaption>TODO</figcaption>
+</figure>
 
 
-| Steps | Illustration |
-|-------|--------------|
-| | ![illustration][fan3] |
-| | ![illustration][fan4] |
+### Finished Reference
 
+[![illustration][external_fan_final]{width="640"}][external_fan_final]
 
-## Finish Up
+## Attach Crossbar
 
+### Materials 
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
 | M3 x 20mm machine screws  | 2   |                                 |
-| Printed Crossbar          | 1   |                                 |
+| :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-c-box-outline: Main Body - Crossbar | 1   | :material-printer-3d-nozzle: Printed |
 
-| Steps | Illustration |
-|-------|--------------|
-| Set the crossbar as shown in the picture to the right. Note that the lip should be facing forward. | ![illustratino][crossbar1] |
-| Fasten the crossbar in place with two (2) M3 x 20mm screws. Avoid overtightening. | ![illustration][crossbar2] |
+### Directions
 
+<figure markdown>
+  [![illustration][crossbar1]{width="480"}][crossbar1]
+  <figcaption>Set the crossbar between the screw holes at the top of the front main body. Note that the lip should face forward.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][crossbar2]{width="480"}][crossbar2]
+  <figcaption>Fasten the crossbar in place with two (2) M3 x 20mm screws. Avoid overtightening.</figcaption>
+</figure>
+
+### Finished Reference
+
+[![illustration][crossbar_final]{width="640"}][crossbar_final]
 
 [base]: base.md "Base Assembly"
 [trays]: trays.md "Tray Assembly"
 [panels]:  panels.md "Panel Assembly"
 [checklist]: ../printing.md#print-checklist "Print Checklist"
 
-[core1]: ../img/assembly/core/core1.png
-[core2]: ../img/assembly/core/core2.png
-[core3]: ../img/assembly/core/core3.png
-[core4]: ../img/assembly/core/core4.png
-[core5]: ../img/assembly/core/core5.png
-[core6]: ../img/assembly/core/core6.png
+[main1]: ../img/assembly/core/main/main1.png
+[main2]: ../img/assembly/core/main/main2.png
+[main3]: ../img/assembly/core/main/main3.png
+[main4]: ../img/assembly/core/main/main4.png
+[main5]: ../img/assembly/core/main/main5.png
+[main_final]: ../img/assembly/core/main/main_final.png
 
-[fan1]: ../img/assembly/fans/fan1.png
-[fan2]: ../img/assembly/fans/fan2.png
-[fan3]: ../img/assembly/fans/fan3.png
-[fan4]: ../img/assembly/fans/fan4.png
+[center1]: ../img/assembly/core/center/center1.png
+[center2]: ../img/assembly/core/center/center2.png
+[center3]: ../img/assembly/core/center/center3.png
+[center4]: ../img/assembly/core/center/center4.png
+[center_final]: ../img/assembly/core/main/main_final.png
 
-[crossbar1]: ../img/assembly/crossbar/crossbar1.png
-[crossbar2]: ../img/assembly/crossbar/crossbar2.png
+[internal_fan1]: ../img/assembly/core/fans/internal_fan1.png
+[internal_fan2]: ../img/assembly/core/fans/internal_fan2.png
+[internal_fan_final]: ../img/assembly/core/fans/internal_fan_final.png
+[external_fan1]: ../img/assembly/core/fans/external_fan1.png
+[external_fan2]: ../img/assembly/core/fans/external_fan2.png
+[external_fan_final]: ../img/assembly/core/fans/external_fan_final.png
+
+
+[crossbar1]: ../img/assembly/core/crossbar/crossbar1.png
+[crossbar2]: ../img/assembly/core/crossbar/crossbar2.png
+[crossbar_final]: ../img/assembly/core/crossbar/crossbar_final.png

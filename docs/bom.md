@@ -32,9 +32,9 @@ These parts are common to all case builds. See below for additional requirements
 | M4 x 8mm machine screws                | 12  | ea  |                                                          |
 | M4 x 12mm machine screws               | 4   | ea  |                                                          |
 | M4 x 16mm machine screws               | 4   | ea  |                                                          |
-| 16 awg wire                            | 0.5 | m   | Red or black.                                            |
-| [:material-cart: Spade connectors, 14-16 awg, Female][bom_spade_connector] | 3   | ea  |                      |
-| [:material-cart: Fork connectors, 14-16 awg][bom_fork_connector]       | 1   | ea  |                          |
+| 16 awg stranded hookup wire            | 0.5 | m   | Red or black.                                            |
+| [:material-cart: Spade connectors, 14-16 awg, Female Insulated][bom_spade_connector] | 3   | ea  |                      |
+| [:material-cart: Fork connectors, 14-16 awg, Insulated][bom_fork_connector]       | 1   | ea  |                          |
 | [:material-cart: SPST snap-in rocker switch][bom_switch]        | 1   | ea  | 30mm x 11mm profile. Identical to Creality Ender power switch. |
 | MCU (3D printer control board)         | 1   | ea  | See the [Supported Parts][support] list.                 |
 | [:material-cart: IEC C14 socket with fuse][bom_iec]          | 1   | ea  | Identical profile to Creality Ender series power socket. |

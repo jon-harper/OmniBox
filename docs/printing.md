@@ -5,9 +5,9 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
-This page has commonly used settings for printing OmniBox and a printed part checklist. See the [guided tour][22] for help choosing the correct parts.
+This page has common settings for printing OmniBox and a printed component checklist. See the [guided tour][22] for help choosing the correct parts.
 
-## Print Settings
+## 3D Printing Settings
 
 ### General Settings
 
@@ -17,7 +17,7 @@ These settings are consistent for all parts.
 |--------------------|-------------|------|
 | Layer Height       | 0.2-0.24mm  | Coarser settings have not been tested. |
 | Adaptive Layer Height | Optional | Can improve appearance and reduce print time.    |
-| Perimeters (Walls) | 1.2mm+      | 3 perimeters with a 0.4mm nozzle. 1.5mm+ will print solid main body side walls. |
+| Perimeters (Walls) | 1.2mm+      | 3 perimeters with a 0.4mm nozzle. 1.5mm+ results in solid main body side walls. |
 | Infill             | 20-25%      | Cubic is a good tradeoff for time and durability. |
 | Material           | PLA/PLA+    | PETG may take longer to print on many printers but is still possible. |
 | Nozzle Diameter    | 0.4mm       | 0.6mm should also work. If you print a case with a different nozzle size, please share your results! |
@@ -26,12 +26,12 @@ These settings are consistent for all parts.
 
 - Supports should be left on.
 - Support blockers are recommended for all zip tie anchors and can be used for fastener holes, as well.
-- Use a brim or adhesive. Lifting will cause misalignment.
+- Use a brim or adhesive. Lifting can cause misalignment of the finished case body.
 - Cantilever bed printers (e.g., Ender 5 Pro) should move large bodies towards to the supported side of the bed.
 
-## Print Checklist
+## Printed Component Checklist
 
-This is a checklist of parts to print. Most of these parts have variations; see the [guided tour][22] for help selecting the right STL files from the git repository.
+This is a checklist of *types* parts to print. See the [guided tour][22] for help selecting the right STL files from the git repository.
 
 | Component                                                                                                  | Quantity | Required | Notes |
 |------------------------------------------------------------------------------------------------------------|----------|----------|-------|
