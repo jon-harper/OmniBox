@@ -72,7 +72,7 @@ nav:
     - bom.md
   - Assembly Guide:
     - assembly_v2/index.md
-    - Heat Set Inserts:
+    - Heat Set Inserts (HSI):
       - assembly_v2/hsi_base.md
       - assembly_v2/hsi_front.md
       - assembly_v2/hsi_rear.md
@@ -80,14 +80,14 @@ nav:
       - assembly_v2/base.md
       - assembly_v2/psu_wiring.md
       - assembly_v2/core.md
-    - Trays & Internal Wiring:
+    - CPU and Lower Bay Trays:
       - assembly_v2/cpu.md
-      - assembly_v2/lower_bay.md
-      - assembly_v2/mcu.md
-    - Panels & Closing Up:
-      # - assembly_v2/front.md
       - assembly_v2/side.md
+      - assembly_v2/lower_bay.md
+      # - assembly_v2/front.md
+    - MCU & Panels:
       # - assembly_v2/rear.md
+      - assembly_v2/mcu.md
       - assembly_v2/display.md
       # - assembly_v2/bottom.md
       # - assembly_v2/lid.md

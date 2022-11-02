@@ -87,7 +87,7 @@
 
 <!-- /Misc     -->
 [git_display_knob]:     https://github.com/jon-harper/OmniBox/blob/main/Panels/Display/Display%20Knob.stl   "OmniBox GitHub: Replacement Display Knob STL"
-
+[git_hsi_practice]:     https://github.com/jon-harper/OmniBox/tree/main/Misc/Heat%20Set%20Insert%20Practice%20Block/ "OmniBox GitHub: Heat Set Insert Practice Block"
 <!-- External Links -->
 [bgdog]: https://www.thingiverse.com/thing:3999751 "BGDog's Stand Alone Main Control Case (Thingiverse)"
 [twitter]: https://twitter.com/TheOmniBox "@TheOmniBox (Twitter)"

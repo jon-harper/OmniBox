@@ -1,5 +1,5 @@
 ---
-title: MCU
+title: MCU & MCU Wiring
 summary: Instructions for installing the MCU tray.
 authors: Jon Harper
 date: 2022-10-30
@@ -27,7 +27,9 @@ date: 2022-10-30
 </figure>
 
 !!! important
-    Smaller boards with symmetric screw holes can be mounted in either direction. Larger trays (e.g. BIGTREETECH Octopus or Manta M8P) will only fit in the case if the board is oriented one way.
+    Smaller boards with symmetric screw holes can be mounted in either direction.
+    
+    Larger trays (e.g. BIGTREETECH Octopus or Manta M8P) will only fit in the case if the board is oriented one way, as the trays are not symmetrical. If you have a large board, test which orientation is correct before securing the MCU.
 
 <figure markdown>
   [![illustration][mcu2]{width="480"}][mcu2]
@@ -36,12 +38,12 @@ date: 2022-10-30
 
 <figure markdown>
   [![illustration][mcu3]{width="480"}][mcu3]
-  <figcaption>3. TODO</figcaption>
+  <figcaption>3. Set the MCU tray on the pillars in the case. Ideally, the MCU power connectors should orient to the back of the case or to the side.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][mcu4]{width="480"}][mcu4]
-  <figcaption>4. TODO</figcaption>
+  <figcaption>4. Secure with four (4) M3 x 8mm screws (or longer).</figcaption>
 </figure>
 
 ### Finished Reference
@@ -49,8 +51,6 @@ date: 2022-10-30
 ![illustration][mcu_final]
 
 ## MCU Wiring
-
-TODO
 
 [mcu1]: ../img/assembly/trays/mcu/mcu1.png
 [mcu2]: ../img/assembly/trays/mcu/mcu2.png

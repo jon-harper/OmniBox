@@ -13,31 +13,37 @@ Welcome to the Assembly Guide for OmniBox. This page covers:
 - Accounting for differences in configuration from this guide; and
 - Best practices during assembly.
 
+!!! important "Version Note"
+    Instructions in this Guide are for **Release 0.9.9**. Details may differ for older or newer versions of OmniBox.
+
 ### Table of Contents
 
-This guide is divided into three main sections:
+The OmniBox Assembly Guide is divided into four main sections:
 
-#### Part 1: :material-alpha-c-box: Core & :material-alpha-t-box: :material-alpha-p-box-outline: PSU
+#### 1. Heat Set Inserts (HSI)
 
-1. :material-alpha-t-box: :material-alpha-p-box-outline: PSU Tray & :material-alpha-c-box: :material-alpha-b-box-outline: Base
-2. AC Wiring
-3. :material-alpha-c-box: :material-alpha-m-box-outline: Main Body
+This section introduces HSIs, using them, and installing them in the case.
 
-#### Part 2: :material-alpha-t-box: Trays & Internal Wiring
+Skip this section if you did not print an HSI case.
 
-1. [:material-alpha-t-box: :material-alpha-c-box-outline: CPU Tray][cpu]
-2. [:material-alpha-t-box: :material-alpha-l-box-outline: Lower Bay][lower_bay]
-3. [:material-alpha-t-box: :material-alpha-m-box-outline: MCU][mcu]
-4. Initial Power-up Test
+!!! note
+    There are 24 inserts. Experienced users following this guide should be able to install all inserts in less than 30 minutes.
+    
+    Gaining some experience with inserts saves time later and lowers the chances of damaging a printed part. If you plan to use inserts and have not practiced, it is recommended that you print at least one [practice block][git_hsi_practice] to gain a level of comfort.
 
-#### Part 3: :material-alpha-p-box: Panels & Closing Up 
+#### 2. :material-alpha-c-box: Core & :material-alpha-t-box: :material-alpha-p-box-outline: PSU
 
-1. :material-alpha-p-box: :material-alpha-f-box-outline: Front Panel & :material-alpha-p-box: :material-alpha-f-box-outline: Side Panel(s)
-2. Rear Panel & Display
-3. Complete Wiring
-4. Bottom Panels and Lid(s)
+Assembly starts in earnest by building the Base around the PSU and wiring it up. This acts as a first layer of the case that we will build upwards from.
 
-Instructions are for the 0.9.9 release. If you have an older or newer version, some details may differ.
+The section finishes by installing the front and rear main body.
+
+#### 3. :material-alpha-t-box: :material-alpha-c-box-outline: CPU & :material-alpha-t-box: :material-alpha-l-box-outline: Lower Bay Trays
+
+The second layer of the case adds the SoC CPU and lower bay components (e.g., buck converters). By the end of this section, all electronics not mounted on a panel will be installed and wired.
+
+#### 4. :material-alpha-t-box: :material-alpha-m-box-outline: MCU & :material-alpha-p-box: Panels
+
+At this point, assembly centers around the MCU, final wiring, and closing up the case.
 
 ### Format
 
@@ -52,7 +58,7 @@ All graphics can be enlarged to see detail by clicking or tapping.
 
 ### Time
 
-Assembly takes approximately two (2) hours.
+Most of the case can be assembled in approximately two (2) hours.
 
 This estimate assumes that you:
 
@@ -63,12 +69,7 @@ This estimate does *not* include:
 
 - Time needed to run and attach wiring;
 - Power up and configuration tests; and
-- Time needed for heat set insert (HSI) installation, if necessary.
-
-!!! note "Heat Set Inserts"
-    There are 24 inserts. Experienced users following this guide should be able to install all inserts in less than 30 minutes.
-    
-    Experience in installing inserts saves time during installation and lowers the chances of destroying a printed part. If you plan to use inserts and have not practiced, it is recommended that you print at least one (TODO PRACTICE BLOCK) for practice.
+- Time needed for heat set insert (HSI) installation, if applicable.
 
 ### Configurations
 
@@ -82,17 +83,17 @@ Areas where the :material-alpha-c-box: Core variants may differ from instruction
 
 Assembly relies on a few concepts that are reused through this guide.
 
-### Fasteners
+### Fastening Screws
 
 Screws thread directly into the walls of the plastic where heat set inserts are not used.
 
 For example, lower bay trays attach to the main body with M3 screws. The trays have holes larger than the diameter of the screw, but the holes in the standoff are *smaller*. This lets the screw "bite" the plastic of the standoff and the screw head to clamp down on the tray.
 
-### Orientation
+### Example Image Orientation
 
 Images for assembly are provided from a limited set of overhead/angled perspectives. The component (or components) used in the current step is highlighted in blue.
 
-### Fans
+### Mounting Fans
 
 The procedure for both internal and external fan mounting is covered in the guide.
 

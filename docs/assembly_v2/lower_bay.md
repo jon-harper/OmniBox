@@ -18,7 +18,7 @@ date: 2022-10-30
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
 | M3 x 6mm machine screws   | 8   |                                 |
-| Compatible hardware       | 2   | Illustrated: Generic LM2596 Buck Converter |
+| Compatible hardware       | 2   | Illustrated: Basic LM2596 Buck Converter |
 | Long :material-alpha-t-box: :material-alpha-l-box-outline: Lower Bay Tray | 1   | :material-printer-3d-nozzle: Printed |
 
 ### Directions
@@ -56,22 +56,22 @@ date: 2022-10-30
 ### Directions
                                                             
 <figure markdown>
-  [![illustration][lower_bay1]{width="480"}][lower_bay5]
+  [![illustration][lower_bay5]{width="480"}][lower_bay5]
   <figcaption>1. TODO</figcaption>
 </figure>
 
 <figure markdown>
-  [![illustration][lower_bay2]{width="480"}][lower_bay6]
+  [![illustration][lower_bay6]{width="480"}][lower_bay6]
   <figcaption>2. TODO</figcaption>
 </figure>
 
 <figure markdown>
-  [![illustration][lower_bay3]{width="480"}][lower_bay7]
+  [![illustration][lower_bay7]{width="480"}][lower_bay7]
   <figcaption>3. TODO</figcaption>
 </figure>
 
 <figure markdown>
-  [![illustration][lower_bay4]{width="480"}][lower_bay8]
+  [![illustration][lower_bay8]{width="480"}][lower_bay8]
   <figcaption>4. TODO</figcaption>
 </figure>
 
