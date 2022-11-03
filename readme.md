@@ -15,12 +15,14 @@ This project focuses on modularity, accessibility to users, and reusability. The
 - Follow **[@TheOmniBox](https://twitter.com/TheOmniBox)** on Twitter for updates and discussion.
 - Join in the **[Discussions](https://github.com/jon-harper/OmniBox/discussions)** board here on GitHub.
 
-### Current Stable Release
+### Current Release
 
 The current release is version 0.9.8.1. A changelog and download list are available on the **[release page](https://github.com/jon-harper/OmniBox/releases/tag/0.9.8.1)**.
 
 ### Upcoming Release
 
-Version 0.9.9 is under active development. Release is expected in November 2022.
+The Core case for 0.9.9 is *stable*; some trays and panels still need fit testing and documentation.
+
+Release is expected in late November 2022.
 
 ![banner image](../../raw/main/docs/img/gallery_0.9.8.1/gallery.png)
