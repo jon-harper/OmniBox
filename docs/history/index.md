@@ -37,7 +37,7 @@ The current release is 0.9.9, released on 2022-11-??.
     - Made room at base for running wires through to external fans.
 - **Base:** Added a third front air vent.
 - **Base:** All three front vents how have 40mm fan mounts.
-- **CPU Trays** New template and tray design
+- **CPU Trays:** New template and tray design
     - Old trays still work.
     - New tray is an easier print with fewer supports needed, can be printed in one of two orientations.
     - New releases will only include new trays.
@@ -50,7 +50,7 @@ The current release is 0.9.9, released on 2022-11-??.
 | Bottom panel | Bottom Panel | Has cutouts for speed/strength, but too small for kids' fingers. |
 | Closed bottom panel | Bottom Panel | Solid to prevent dust intrusion. |
 | Unified base | Core | This is a one-piece version of the base. |
-| Keystone jacks | Front/side/rear panels | Added STEP file for mating part to build into panels. |
+| Keystone jacks | Front/side/rear panels | Added STEP file for mating part to build into panels and an example side panel. |
 
 ### New Hardware Support
 
@@ -58,6 +58,7 @@ The current release is 0.9.9, released on 2022-11-??.
 |----------|-------------------|-------|
 | Wago 221 Lever Nuts | Lower Bay | 3-wire and 5-wire |
 | Neopixel (WS2812B) LEDs | Front panel | Backing piece for attaching lights behind front vents. |
+| DROK 3A LM2596 with LED Buck Converter | Lower Bay | Single and dual, short and long trays. |
 
 ### Experimental Hardware Support
 
@@ -71,33 +72,37 @@ These parts still need to be tested for fit and any other issues.
 | BIGTREETECH Manta M8P | MCU Tray | |
 | BIGTREETECH 5" TFT | Display Panel | |
 | BIGTREETECH UPS 24V 1.0 | Lower Bay | Short tray only. |
+| BIGTREETECH SKR 3 | MCU Tray | |
 | BIGTREETECH SKR 3 EZ | MCU Tray | |
 
 ## Fixes
 
 - [Issue #18][2]: Fan mount blocks screw hole for mounting base
-    - Fan mount moved left and up as part of intake redesign
+    - Fan mount moved left and up as part of intake redesign.
 - [Issue #35][3]: Hex nut for mounting IEC socket is hard to reach
-    - Removed hex nuts
-    - Screws attach directly in plastic
+    - Removed hex nuts.
+    - Screws attach directly in plastic.
 - [Issue #33][4]: Base zip tie anchors need adjustment
-    - Removed rearmost zip tie that was troublesome
-    - Adjusted position of others
+    - Removed rearmost zip tie that was troublesome.
+    - Adjusted position of others.
 - [Issue #39][5]: Display screen partially blocks two front main body/base screws
-    - Added cutout for access
+    - Added cutout for access.
+- [Issue #37][6]: Documentation site is missing license page
 
 ## Documentation & Repository
 
 - [Documentation site](https://jon-harper.github.io/OmniBox)
-    - Added tooltips to links
-    - Consolidated external links to a reference page for convenience
+    - Added tooltips to links.
+    - Consolidated external links and added tooltips.
+    - Replaced assembly and illustration pictures with uniformly styled generated graphics.
+- Assembly Guide
+    - Completely rewritten for 0.9.9.
+    - Basic wiring instructions included.
+    - **Video overviews** for each section.
 - [Repository](https://github.com/jon-harper/OmniBox)
-    - Added `/include` subfolder for external documentation files
-    - Renamed "Fan Cages" to "Fans"
+    - Added `/include` subfolder for external documentation files.
+    - Renamed "Fan Cages" to "Fans".
     - Further divided lids folders for ease of navigation.
-
-<!-- ## Known Issues -->
-
 ## Gallery
 
 <figure markdown>
@@ -150,6 +155,7 @@ These parts still need to be tested for fit and any other issues.
 [3]: https://github.com/jon-harper/OmniBox/issues/35
 [4]: https://github.com/jon-harper/OmniBox/issues/33
 [5]: https://github.com/jon-harper/OmniBox/issues/39
+[6]: https://github.com/jon-harper/OmniBox/issues/37
 
 [11]: ../img/gallery_0.9.9/render1.png
 [12]: ../img/gallery_0.9.9/render2.png

@@ -1,11 +1,17 @@
 ---
-title: License
+title: Contributing and License
 summary: License page for OmniBox.
 authors: Jon Harper
 date: 2022-11-03
 ---
 
-OmniBox is released under the MIT License, reproduced below.
+## Contributing to OmniBox
+
+(Coming Soon)
+
+## License
+
+OmniBox is released under the MIT License.
 
 ```
 MIT License
