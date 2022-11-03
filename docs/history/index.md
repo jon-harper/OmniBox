@@ -74,6 +74,7 @@ These parts still need to be tested for fit and any other issues.
 | BIGTREETECH UPS 24V 1.0 | Lower Bay | Short tray only. |
 | BIGTREETECH SKR 3 | MCU Tray | |
 | BIGTREETECH SKR 3 EZ | MCU Tray | |
+| Duet3D Duet 3 Mini 5+ | MCU Tray | |
 
 ## Fixes
 
