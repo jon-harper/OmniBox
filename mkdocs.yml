@@ -44,7 +44,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.snippets:
       auto_append: 
-        - include/links.md
+        - include/git_links.md
+        - include/bom_links.md
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.emoji:

@@ -96,15 +96,3 @@
 [twitter]: https://twitter.com/TheOmniBox "@TheOmniBox (Twitter)"
 [reddit]: https://www.reddit.com/user/jonspaceharper/ "u/jonspaceharper (Reddit)"
 [crimp_guide]: https://www.fscables.com/sites/admin/plugins/elfinder/files/fscables/other%20pdf/cablecraft_crimp_guide.pdf "Cablecraft: A Comprehensive Guide to Good Crimping Practice"
-
-<!-- Part Links -->
-[bom_switch]:           https://www.amazon.com/gp/product/B07QQ22DTB                                             "Amazon: SPST snap-in rocker switch"
-[bom_iec]:              https://www.amazon.com/gp/product/B081ZFHRGW                                             "Amazon: IEC C14 socket with fuse"
-[bom_fork_connector]:   https://www.amazon.com/Baomain-Insulated-Connector-Electrical-Terminal/dp/B01B1DL4OA     "Amazon: Fork connectors, 14-16awg"
-[bom_spade_connector]:  https://www.amazon.com/gp/product/B07FQB6WXP                                             "Amazon: Female spade connectors, 14-16awg"
-[bom_lrs350]:           https://www.amazon.com/MEAN-WELL-LRS-350-24-Printer-Industrial/dp/B07VRK86SP             "Amazon: Mean Well LRS-350-24"
-[bom_rsp500]:           https://www.amazon.com/MEAN-WELL-RSP-500-24-Switching-Enclosed/dp/B00UWCD22O             "Amazon: Mean Well RSP-500-24"
-[bom_wood_screw]:       https://www.amazon.com/gp/product/B08LV4D8SB                                             "Amazon: #6 x 3/4" Pan Head Sharp Point Screw"
-[bom_4010]:             https://www.amazon.com/dp/B08R9L9YR2                                                     "Amazon: 40mm x 40mm x 10mm Fan"
-[bom_6015]:             https://www.amazon.com/Wathai-Exhaust-Cooler-Brushless-Cooling/dp/B07Q2JRYZR             "Amazon: 60mm x 60mm x 15mm Fan"
-
