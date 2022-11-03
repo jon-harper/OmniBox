@@ -8,8 +8,7 @@ date: 2022-10-30
 ## Introduction
 
 ??? note "Video Overview"
-    ![type:video][vid_lower_bay]
-
+    <iframe src="https://jon-harper.github.io/OmniBox/video/lower_bay.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
 
 ## Long Trays
 

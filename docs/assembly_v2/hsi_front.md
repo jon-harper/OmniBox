@@ -5,8 +5,9 @@ authors: Jon Harper
 date: 2022-11-01
 ---
 
+
 ??? note "Video Overview"
-    ![type:video][vid_hsi_front]
+    <iframe src="https://jon-harper.github.io/OmniBox/video/hsi_front.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
 
 ### Materials
 
@@ -47,4 +48,3 @@ date: 2022-11-01
 [hsi_front3]: ../img/assembly/hsi/front/front_hsi3.png
 [hsi_front4]: ../img/assembly/hsi/front/front_hsi4.png
 [hsi_front_final]: ../img/assembly/hsi/front/front_hsi_final.png
-[vid_hsi_front]: ../video/hsi_front.mp4

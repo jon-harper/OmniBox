@@ -7,8 +7,9 @@ date: 2022-10-30
 
 ## MCU Installation
 
+
 ??? note "Video Overview"
-    ![type:video][vid_mcu]
+    <iframe src="https://jon-harper.github.io/OmniBox/video/mcu.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
 
 ### Materials
 
@@ -68,4 +69,3 @@ date: 2022-10-30
 [mcu3]: ../img/assembly/trays/mcu/mcu3.png
 [mcu4]: ../img/assembly/trays/mcu/mcu4.png
 [mcu_final]: ../img/assembly/trays/mcu/mcu_final.png
-[vid_mcu]: ../video/mcu.mp4

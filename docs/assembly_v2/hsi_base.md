@@ -6,7 +6,7 @@ date: 2022-10-30
 ---
 
 ??? note "Video Overview"
-    ![type:video][vid_hsi_base]
+    <iframe src="https://jon-harper.github.io/OmniBox/video/hsi_base.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
 
 ## Materials
 
@@ -41,4 +41,3 @@ date: 2022-10-30
 [hsi_base2]: ../img/assembly/hsi/base/base_hsi2.png
 [hsi_base3]: ../img/assembly/hsi/base/base_hsi3.png
 [hsi_base_final]: ../img/assembly/hsi/base/base_hsi_final.png
-[vid_hsi_base]: ../video/hsi_base.mp4

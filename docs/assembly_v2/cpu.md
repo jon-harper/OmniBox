@@ -8,7 +8,7 @@ date: 2022-10-30
 This section is optional. If you are not using a SoC CPU like a Raspberry Pi, use a second [side panel][side] during that portion of assembly.
 
 ??? note "Video Overview"
-    ![type:video][vid_cpu]
+    <iframe src="https://jon-harper.github.io/OmniBox/video/cpu.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
 
 ## Materials
 

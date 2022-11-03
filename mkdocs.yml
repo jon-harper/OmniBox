@@ -51,16 +51,16 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
-plugins: 
-  - mkdocs-video:
-      video_autoplay: False
+# plugins: 
+#   - mkdocs-video:
+#       video_autoplay: False
       
 nav:
   - index.md
   - development.md
   - tour.md
   - license.md
-  
+
   - Supported Parts:
     - support/index.md
     - support/mcu.md

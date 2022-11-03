@@ -9,6 +9,9 @@ So far we have assembled the :material-alpha-c-box: :material-alpha-b-box-outlin
 
 ## Attach the :material-alpha-c-box: :material-alpha-m-box-outline: Main Body
 
+??? note "Video Overview"
+    <iframe src="https://jon-harper.github.io/OmniBox/video/main_floor.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+
 ### Materials
 
 | Parts                        | Qty | Note                            |
@@ -52,6 +55,9 @@ So far we have assembled the :material-alpha-c-box: :material-alpha-b-box-outlin
 
 ## Secure and Align the Center
 
+??? note "Video Overview"
+    <iframe src="https://jon-harper.github.io/OmniBox/video/main_center.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+
 ### Materials
 
 | Parts                     | Qty | Note                            |
@@ -86,6 +92,9 @@ So far we have assembled the :material-alpha-c-box: :material-alpha-b-box-outlin
 
 ## Add Fans
 
+??? note "Video Overview"
+    <iframe src="https://jon-harper.github.io/OmniBox/video/fans.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+
 ### Materials
 
 | Parts                     | Qty | Note                            |
@@ -108,15 +117,6 @@ So far we have assembled the :material-alpha-c-box: :material-alpha-b-box-outlin
   <figcaption>TODO</figcaption>
 </figure>
 
-<!-- ### Finished Reference
-
-![illustration][internal_fan_final] -->
-
-<!-- ### External 40mm Fans
-
-| Parts                     | Qty | Note                            |
-|---------------------------|-----|---------------------------------| -->
-
 <figure markdown>
   [![illustration][external_fan1]{width="480"}][external_fan1]
   <figcaption>TODO</figcaption>
@@ -133,6 +133,9 @@ So far we have assembled the :material-alpha-c-box: :material-alpha-b-box-outlin
 [![illustration][external_fan_final]{width="640"}][external_fan_final]
 
 ## Attach Crossbar
+
+??? note "Video Overview"
+    <iframe src="https://jon-harper.github.io/OmniBox/video/crossbar.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
 
 ### Materials 
 
@@ -181,7 +184,6 @@ So far we have assembled the :material-alpha-c-box: :material-alpha-b-box-outlin
 [external_fan1]: ../img/assembly/core/fans/external_fan1.png
 [external_fan2]: ../img/assembly/core/fans/external_fan2.png
 [external_fan_final]: ../img/assembly/core/fans/external_fan_final.png
-
 
 [crossbar1]: ../img/assembly/core/crossbar/crossbar1.png
 [crossbar2]: ../img/assembly/core/crossbar/crossbar2.png

@@ -6,7 +6,7 @@ date: 2022-11-01
 ---
 
 ??? note "Video Overview"
-    ![type:video][vid_hsi_rear]
+    <iframe src="https://jon-harper.github.io/OmniBox/video/hsi_rear.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
 
 ### Materials
 
@@ -70,4 +70,3 @@ date: 2022-11-01
 [hsi_rear7]: ../img/assembly/hsi/rear/rear_hsi7.png
 [hsi_rear8]: ../img/assembly/hsi/rear/rear_hsi8.png
 [hsi_rear_final]: ../img/assembly/hsi/rear/rear_hsi_final.png
-[vid_hsi_rear]: ../video/hsi_rear.mp4

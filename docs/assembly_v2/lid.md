@@ -7,8 +7,8 @@ date: 2022-11-03
 
 ## Lids
 
-<!-- ??? note "Video Overview" -->
-<!--     ![type:video][vid_lid] -->
+<!-- ??? note "Video Overview"
+    <iframe src="https://jon-harper.github.io/OmniBox/video/lid.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe> -->
 
 ### Materials
 
