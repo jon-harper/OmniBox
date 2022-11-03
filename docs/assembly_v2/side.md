@@ -32,3 +32,4 @@ date: 2022-10-30
 [side1]: ../img/assembly/panels/side/side1.png
 [side2]: ../img/assembly/panels/side/side2.png
 [side_final]: ../img/assembly/panels/side/side_final.png
+[vid_side]: ../video/side.mp4

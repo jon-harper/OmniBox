@@ -35,11 +35,11 @@ Skip this section if you did not print an HSI case.
 
 Assembly starts in earnest by building the Base around the PSU and wiring it up. This acts as a first layer of the case that we will build upwards from.
 
-The section finishes by installing the front and rear main body.
+The section finishes by installing the Main Body.
 
 #### 3. :material-alpha-t-box: :material-alpha-c-box-outline: CPU & :material-alpha-t-box: :material-alpha-l-box-outline: Lower Bay Trays
 
-The second layer of the case adds the SoC CPU and lower bay components (e.g., buck converters). By the end of this section, all electronics not mounted on a panel will be installed and wired.
+The second layer of the case adds the SoC CPU and lower bay components. By the end of this section, all electronics not mounted on a panel will be installed and wired.
 
 #### 4. :material-alpha-t-box: :material-alpha-m-box-outline: MCU & :material-alpha-p-box: Panels
 

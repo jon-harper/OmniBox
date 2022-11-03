@@ -59,6 +59,8 @@ nav:
   - index.md
   - development.md
   - tour.md
+  - license.md
+  
   - Supported Parts:
     - support/index.md
     - support/mcu.md
@@ -90,7 +92,7 @@ nav:
       - assembly_v2/mcu.md
       - assembly_v2/display.md
       # - assembly_v2/bottom.md
-      # - assembly_v2/lid.md
+      - assembly_v2/lid.md
   - Version History:
     - history/index.md
     - Prior Releases:

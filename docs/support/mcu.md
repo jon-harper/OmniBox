@@ -17,17 +17,26 @@ This page lists MCUs that are currently compatible with OmniBox.
 
 Micro-controller unit (MCU) board are mounted on :material-alpha-t-box: :material-alpha-m-box-outline: MCU Trays. These parts are in the [`Trays/MCU`][git_mcu] git folder, with each component in its own subfolder. There are `STEP` and Fusion 360 template files available for adding support for other boards.
 
-| Component                          | Versions | Image |
-|------------------------------------|----------|-------|
-| [BTT Octopus][git_btt_octopus]     | All      | ![img](../img/parts/btt_octopus_1.jpg) |
-| [BTT SKR][git_btt_skr]             | 1.3-2.0  | ![img](../img/parts/btt_skr_2.jpg) |
-| [BTT SKR Mini E3][git_btt_skr_e3]  | All      | ![img](../img/parts/btt_skr_mini_e3_v3.jpg) |
-| [BTT SKR E3 Turbo][git_btt_skr_e3] | All      | ![img](../img/parts/btt_skr_e3_turbo.jpg) |
-| [Creality boards][git_btt_skr_e3]  | 1.x-4.x  | ![img](../img/parts/creality_board.jpg) |
-| [BTT SKR 3][git_btt_skr_3]         | 3        | |
-| [BTT SKR 3 EZ][git_btt_skr_3_ez]   | 3 EZ 1.0 | |
-| [BTT Manta M8P][git_btt_manta_m8p] | 1.0      | |
+| Component                             | Versions | Image |
+|---------------------------------------|----------|-------|
+| [BTT Octopus][git_btt_octopus]        | All      | ![img][img_btt_octopus] |
+| [BTT SKR][git_btt_skr]                | 1.3-2.0  | ![img][img_btt_skr_2] |
+| [BTT SKR 3][git_btt_skr_3]            | 3.0      | ![img][img_btt_skr_3] |
+| [BTT SKR 3][git_btt_skr_3_ez]         | 3.0 EZ 1.0 | ![img][img_btt_skr_3_ez] |
+| [BTT SKR Mini E3][git_btt_skr_e3]     | All      | ![img][img_btt_skr_mini_e3_v3] |
+| [BTT SKR E3/E3 Turbo][git_btt_skr_e3] | All      | ![img][img_btt_skr_e3_turbo] |
+| [Creality boards][git_btt_skr_e3]     | 1.x-4.x  | ![img][img_creality] |
+| [BTT Manta M8P][git_btt_manta_m8p]    | 1.0      | ![img][img_btt_manta_m8p] |
 
 <!-- TODO: add missing images -->
 
 [img_mcu]: ../img/components/mcu.png
+
+[img_btt_octopus]: ../img/parts/btt_octopus_1.jpg
+[img_btt_skr_2]: ../img/parts/btt_skr_2.jpg
+[img_btt_skr_3]: ../img/parts/btt_skr_3.jpg
+[img_btt_skr_3_ez]: ../img/parts/btt_skr_3_ez.jpg
+[img_btt_manta_m8p]: ../img/parts/btt_manta_m8p.jpg
+[img_creality]: ../img/parts/creality_board.jpg
+[img_btt_skr_e3_turbo]: ../img/parts/btt_skr_e3_turbo.jpg
+[img_btt_skr_mini_e3_v3]: ../img/parts/btt_skr_mini_e3_v3.jpg

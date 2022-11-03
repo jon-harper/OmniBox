@@ -60,7 +60,7 @@ We will start by assembling the :material-alpha-c-box: :material-alpha-b-box-out
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
-| M3 x 12mm machine screws  | 2   | Can use screws up to 20mm.      |
+| M3 x 8mm machine screws   | 2   |                                 |
 | M3 x 16mm machine screws  | 4   | Four per fan.                   |
 | 40mm x 10mm axial fan     | 0-3 | Optional, up to three.          |
 | SPST toggle switch        | 1   |                                 |
@@ -104,7 +104,7 @@ We will start by assembling the :material-alpha-c-box: :material-alpha-b-box-out
 
 <figure markdown>
   [![illustration][base_prep5]{width="480"}][base_prep5]
-  <figcaption>Secure with two (2) M3 x 12mm screws.</figcaption>
+  <figcaption>Secure with two (2) M3 x 8mm screws.</figcaption>
 </figure>
 
 ### Finished Reference
@@ -120,7 +120,7 @@ We will start by assembling the :material-alpha-c-box: :material-alpha-b-box-out
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
-| M3 x 16mm machine screws  | 6   | Can use screws up to 20mm.      |
+| M3 x 12mm machine screws  | 6   | Can use screws up to 20mm.      |
 
 ### Directions
 
@@ -136,7 +136,7 @@ We will start by assembling the :material-alpha-c-box: :material-alpha-b-box-out
 
 <figure markdown>
   [![illustration][base2]{width="480"}][base2]
-  <figcaption>Use six (6) 16mm M3 screws to attach the base to the PSU tray.</figcaption>
+  <figcaption>Use six (6) 12mm M3 screws to attach the base to the PSU tray.</figcaption>
 </figure>
 
 ### Finished Reference

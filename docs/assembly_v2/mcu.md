@@ -12,12 +12,23 @@ date: 2022-10-30
 
 ### Materials
 
-| Parts                     | Qty | Note                            |
-|---------------------------|-----|---------------------------------|
-| M3 x 6mm machine screws   | 4   | Some boards may use 5 or more.  |
-| M3 x 8mm machine screws   | 4   | May substitute 10mm or 12mm.    |
-| Compatible MCU            | 1   | Illustrated: BIGTREETECH SKR 2  |
-| :material-alpha-t-box: :material-alpha-m-box-outline: MCU Tray | 1   | :material-printer-3d-nozzle: Printed |
+=== "Stock"
+
+    | Parts                     | Qty | Note                            |
+    |---------------------------|-----|---------------------------------|
+    | M3 x 6mm machine screws   | 4   | Some boards may use 5 or more.  |
+    | M3 x 8mm machine screws   | 4   | May substitute 10mm or 12mm.    |
+    | Compatible MCU            | 1   | Illustrated: BIGTREETECH SKR 2  |
+    | :material-alpha-t-box: :material-alpha-m-box-outline: MCU Tray | 1   | :material-printer-3d-nozzle: Printed |
+
+=== "HSI"
+
+    | Parts                     | Qty | Note                            |
+    |---------------------------|-----|---------------------------------|
+    | M3 x 6mm machine screws   | 4   | Some boards may use 5 or more.  |
+    | M3 x 8mm machine screws   | 4   | May substitute 6mm.             |
+    | Compatible MCU            | 1   | Illustrated: BIGTREETECH SKR 2  |
+    | :material-alpha-t-box: :material-alpha-m-box-outline: MCU Tray | 1   | :material-printer-3d-nozzle: Printed |
 
 ### Directions
                                                             
@@ -43,7 +54,7 @@ date: 2022-10-30
 
 <figure markdown>
   [![illustration][mcu4]{width="480"}][mcu4]
-  <figcaption>4. Secure with four (4) M3 x 8mm screws (or longer).</figcaption>
+  <figcaption>4. Secure with four (4) M3 x 8mm screws.</figcaption>
 </figure>
 
 ### Finished Reference

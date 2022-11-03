@@ -7,8 +7,6 @@ date: 2022-10-29
 
 So far we have assembled the :material-alpha-c-box: :material-alpha-b-box-outline: Base. Next we'll add the :material-alpha-c-box: :material-alpha-m-box-outline: Main Body. This is made of front and rear pieces that fasten to one another and the Base.
 
-Let's get started.
-
 ## Attach the :material-alpha-c-box: :material-alpha-m-box-outline: Main Body
 
 ### Materials
@@ -37,8 +35,11 @@ Let's get started.
 </figure>
 <figure markdown>
   [![illustration][main4]{width="480"}][main4]
-  <figcaption>Continue fastening screws halfway. If insertion becomes difficult, back out and check alignment of the screws inserted so far.</figcaption>
+  <figcaption>Continue fastening screws halfway.</figcaption>
 </figure>
+
+!!! note
+    If inserting the screws becomes difficult, back out and check alignment of the screws inserted so far. Also check that both halves of the main body are still correctly aligned.
 
 <figure markdown>
   [![illustration][main5]{width="480"}][main5]
@@ -61,22 +62,22 @@ Let's get started.
 
 <figure markdown>
   [![illustration][center1]{width="480"}][center1]
-  <figcaption>TODO</figcaption>
+  <figcaption>Insert an M3 x 8mm screw in the top hole on one side of the Rear Main Body and fasten to the mating hole on the Front Main Body. Screws must be inserted *back to front*.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][center2]{width="480"}][center2]
-  <figcaption>TODO</figcaption>
+  <figcaption>Repeat with the top hole on the other side of the Rear Main Body.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][center3]{width="480"}][center3]
-  <figcaption>TODO</figcaption>
+  <figcaption>Use two (2) more M3 screws to fill in the remaining screw holes.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][center4]{width="480"}][center4]
-  <figcaption>TODO</figcaption>
+  <figcaption>Repeat with the final two (2) screw holes on the opposite side.</figcaption>
 </figure>
 
 ### Finished Reference

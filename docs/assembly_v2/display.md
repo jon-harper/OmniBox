@@ -14,13 +14,25 @@ Common aftermarket TFT displays have an extra step of mounting the display to a 
 
 ## Materials
 
-| Parts                     | Qty | Note                            |
-|---------------------------|-----|---------------------------------|
-| M4 x 6mm machine screws   | 4   |                                 |
-| M4 x 8mm machine screws   | 4   | May substitute 10mm or 12mm.    |
-| LCD display               | 1   | Illustrated: Generic 12864 LCD  |
-| :material-alpha-p-box: :material-alpha-d-box-outline: Display Panel | 1   | :material-printer-3d-nozzle: Printed |
-| Display Knob | 1 | :material-printer-3d-nozzle: Printed, Optional |
+=== "Stock"
+
+    | Parts                     | Qty | Note                            |
+    |---------------------------|-----|---------------------------------|
+    | M4 x 6mm machine screws   | 4   |                                 |
+    | M4 x 8mm machine screws   | 4   | May substitute 10mm or 12mm.    |
+    | LCD display               | 1   | Illustrated: Generic 12864 LCD  |
+    | :material-alpha-p-box: :material-alpha-d-box-outline: Display Panel | 1   | :material-printer-3d-nozzle: Printed |
+    | Display Knob | 1 | :material-printer-3d-nozzle: Printed, Optional |
+
+=== "HSI"
+
+    | Parts                     | Qty | Note                            |
+    |---------------------------|-----|---------------------------------|
+    | M4 x 6mm machine screws   | 4   |                                 |
+    | M4 x 8mm machine screws   | 4   |                                 |
+    | LCD display               | 1   | Illustrated: Generic 12864 LCD  |
+    | :material-alpha-p-box: :material-alpha-d-box-outline: Display Panel | 1   | :material-printer-3d-nozzle: Printed |
+    | Display Knob | 1 | :material-printer-3d-nozzle: Printed, Optional |
 
 ## Directions
                                                             

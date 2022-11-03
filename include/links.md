@@ -38,8 +38,9 @@
 
 <!--      /Lid -->
 [git_lid]:              https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/                         "OmniBox GitHub: Lids"
-[git_lid_pi_tft]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Half-Length/Pi%20TFT     "OmniBox GitHub: Raspberry Pi TFT Lid"
-
+[git_lid_pi_tft]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Short/Pi%20TFT           "OmniBox GitHub: Raspberry Pi TFT Lid"
+[git_lid_handle_long]:  https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Long/Carry%20Lid         "OmniBox GitHub: Long Carry Lid"
+[git_lid_handle_short]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Short/Carry%20Lid        "OmniBox GitHub: Short Carry Lid"
 
 
 <!--      /Rear Panel -->
@@ -86,12 +87,15 @@
 [git_psu_rsp500]:       https://github.com/jon-harper/OmniBox/tree/main/Core/Trays/PSU/Mean%20Well%20RSP-500    "OmniBox GitHub: Mean Well RSP-500 Series PSUs"
 
 <!-- /Misc     -->
-[git_display_knob]:     https://github.com/jon-harper/OmniBox/blob/main/Panels/Display/Display%20Knob.stl   "OmniBox GitHub: Replacement Display Knob STL"
+[git_display_knob]:     https://github.com/jon-harper/OmniBox/blob/main/Misc/Display%20Knob                     "OmniBox GitHub: Replacement Display Knob"
 [git_hsi_practice]:     https://github.com/jon-harper/OmniBox/tree/main/Misc/Heat%20Set%20Insert%20Practice%20Block/ "OmniBox GitHub: Heat Set Insert Practice Block"
+[git_carry_handle]:     https://github.com/jon-harper/OmniBox/blob/main/Misc/Carry%20Handle                     "OmniBox GitHub: Carry Handle for Lids"
+
 <!-- External Links -->
 [bgdog]: https://www.thingiverse.com/thing:3999751 "BGDog's Stand Alone Main Control Case (Thingiverse)"
 [twitter]: https://twitter.com/TheOmniBox "@TheOmniBox (Twitter)"
 [reddit]: https://www.reddit.com/user/jonspaceharper/ "u/jonspaceharper (Reddit)"
+[crimp_guide]: https://www.fscables.com/sites/admin/plugins/elfinder/files/fscables/other%20pdf/cablecraft_crimp_guide.pdf "Cablecraft: A Comprehensive Guide to Good Crimping Practice"
 
 <!-- Part Links -->
 [bom_switch]:           https://www.amazon.com/gp/product/B07QQ22DTB                                             "Amazon: SPST snap-in rocker switch"
