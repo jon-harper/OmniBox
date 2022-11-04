@@ -21,6 +21,15 @@
 <!-- /Fans     -->
 [git_fans]:             https://github.com/jon-harper/OmniBox/tree/main/Fans                                "OmniBox GitHub: Fans"
 [git_fans_template]:    https://github.com/jon-harper/OmniBox/tree/main/Fans/Template                       "OmniBox GitHub: Fan Templates"
+[git_fans_4010]:        https://github.com/jon-harper/OmniBox/tree/main/Fans/40x10                          "OmniBox GitHub: 40mm x 10mm Fans"
+[git_fans_4020]:        https://github.com/jon-harper/OmniBox/tree/main/Fans/40x20                          "OmniBox GitHub: 40mm x 20mm Fans"
+[git_fans_6015]:        https://github.com/jon-harper/OmniBox/tree/main/Fans/60x15                          "OmniBox GitHub: 60mm x 15mm Fans"
+[git_fans_6020]:        https://github.com/jon-harper/OmniBox/tree/main/Fans/60x20                          "OmniBox GitHub: 60mm x 20mm Fans"
+[git_fans_6025]:        https://github.com/jon-harper/OmniBox/tree/main/Fans/60x25                          "OmniBox GitHub: 60mm x 25mm Fans"
+[git_fans_8020]:        https://github.com/jon-harper/OmniBox/tree/main/Fans/80x20                          "OmniBox GitHub: 80mm x 20mm Fans"
+[git_fans_8025]:        https://github.com/jon-harper/OmniBox/tree/main/Fans/80x25                          "OmniBox GitHub: 80mm x 25mm Fans"
+[git_fans_9225]:        https://github.com/jon-harper/OmniBox/tree/main/Fans/92x25                          "OmniBox GitHub: 92mm x 25mm Fans"
+[git_fans_12025]:        https://github.com/jon-harper/OmniBox/tree/main/Fans/120x25                          "OmniBox GitHub: 120mm x 25mm Fans"
 
 <!-- /Panels     -->
 <!--      /Display -->
@@ -68,6 +77,8 @@
 [git_btt_skr_3]:        https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR%203             "OmniBox GitHub: BIGTREETECH SKR 3 MCU Tray"
 [git_btt_skr_3_ez]:     https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR%203%20EZ        "OmniBox GitHub: BIGTREETECH SKR 3 EZ MCU Tray"
 [git_btt_manta_m8p]:    https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR%203%20EZ        "OmniBox GitHub: BIGTREETECH Manta M8P MCU Tray"
+[git_duet_3_6hc]:       https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/Duet3D%20Duet%203%206HC/      "OmniBox GitHub: Duet3D Duet 3 6C"
+[git_duet_3_mini_5+]:   https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/Duet3D%20Duet%203%20Mini%205+ "OmniBox GitHub: Duet3D Duet 3 Mini 5+"
 
 <!--      /CPU -->
 [git_cpu]:              https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/                              "OmniBox GitHub: CPU Trays"

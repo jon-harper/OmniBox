@@ -29,25 +29,15 @@ The [`Fans/Template`][git_fans_template] folder contains parametric Fusion 360 f
 
 | Description | Image | Product Link |
 |---|---|---|
-| 40x40x10mm Axial Fan | ![4010 axial fan][img_4010]{ width="360" } | [:material-cart: Example][1] |
-| 40x40x20mm Axial Fan | ![4020 axial fan][img_4020]{ width="360" } | [:material-cart: Example][2] |
-| 60x60x15mm Axial Fan | ![6015 axial fan][img_6015]{ width="360" } | [:material-cart: Example][3] |
-| 60x60x20mm Axial Fan | ![6020 axial fan][img_6020]{ width="360" } | [:material-cart: Example][4] |
-| 60x60x25mm Axial Fan | ![6025 axial fan][img_6025]{ width="360" } | [:material-cart: Example][7] |
-| 80x80x20mm Axial Fan | ![8020 axial fan][img_8020]{ width="360" } | [:material-cart: Example][8] |
-| 80x80x25mm Axial Fan | ![8025 axial fan][img_8025]{ width="360" } | [:material-cart: Example][5] |
-| 92x92x25mm Axial Fan | ![92mm axial fan][img_9225]{ width="360" } | [:material-cart: Example][9] |
-| 120x120x20mm Axial Fan | | |
-| 120x120x25mm Axial Fan | | |
-
-[1]: https://www.amazon.com/WINSINN-Ender-Upgrade-Bearing-CR-10S/dp/B08R9JRTCT/
-[2]: https://www.amazon.com/Wathai-40x40x20mm-40mm-Burshless-Cooling/dp/B07PYWVPMY
-[3]: https://www.amazon.com/Security-01-Bearing-Brushless-Cooling-AV-F6015MB/dp/B071G2T6DV 
-[4]: https://www.amazon.com/Wathai-60mm-Cooling-Brushless-Cooler/dp/B07NRYLRDZ
-[5]: https://www.amazon.com/Security-01-Bearing-Brushless-Cooling-AV-F8025MB/dp/B071WLX5JZ
-[7]: https://www.amazon.com/Wathai-60mm-25mm-Brushless-Cooling/dp/B07Q2JWNFX
-[8]: https://www.amazon.com/GDSTIME-Brushless-Cooling-Sleeve-Bearing/dp/B07MDYBSGR
-[9]: https://www.amazon.com/GDSTIME-90x90x25mm-Inches-Brushless-Cooling/dp/B07LFZKCC6
+| [40x40x10mm Axial Fan][git_fans_4010] | ![4010 axial fan][img_4010]{ width="360" } | [:material-cart: Example][bom_4010] |
+| [40x40x20mm Axial Fan][git_fans_4020] | ![4020 axial fan][img_4020]{ width="360" } | [:material-cart: Example][bom_4020] |
+| [60x60x15mm Axial Fan][git_fans_6015] | ![6015 axial fan][img_6015]{ width="360" } | [:material-cart: Example][bom_6015] |
+| [60x60x20mm Axial Fan][git_fans_6020] | ![6020 axial fan][img_6020]{ width="360" } | [:material-cart: Example][bom_6020] |
+| [60x60x25mm Axial Fan][git_fans_6025] | ![6025 axial fan][img_6025]{ width="360" } | [:material-cart: Example][bom_6025] |
+| [80x80x20mm Axial Fan][git_fans_8020] | ![8020 axial fan][img_8020]{ width="360" } | [:material-cart: Example][bom_8020] |
+| [80x80x25mm Axial Fan][git_fans_8025] | ![8025 axial fan][img_8025]{ width="360" } | [:material-cart: Example][bom_8025] |
+| [92x92x25mm Axial Fan][git_fans_9225] | ![92mm axial fan][img_9225]{ width="360" } | [:material-cart: Example][bom_9225] |
+| [120x120x25mm Axial Fan][git_fans_12025] | ![12025 axial fan][img_12025]{ width="360" } | [:material-cart: Example][bom_12025] |
 
 [external_fan]: ../img/components/external_fan.png
 [internal_fan]: ../img/components/internal_fan.png
@@ -60,5 +50,4 @@ The [`Fans/Template`][git_fans_template] folder contains parametric Fusion 360 f
 [img_8020]: ../img/parts/fan_8020.jpg
 [img_8025]: ../img/parts/fan_8025.jpg
 [img_9225]: ../img/parts/fan_9225.jpg
-<!-- [img_12020]: 
-[img_12025]:  -->
+[img_12025]: ../img/parts/fan_12025.jpg
