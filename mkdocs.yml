@@ -5,6 +5,7 @@ site_url: https://jon-harper.github.io/OmniBox
 repo_url: https://github.com/jon-harper/OmniBox
 repo_name: jon-harper/OmniBox
 edit_uri: ""
+copyright: Copyright &copy; 2022 Jonathan Harper
 
 theme:
   name: material
@@ -52,9 +53,17 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
-# plugins: 
-#   - mkdocs-video:
-#       video_autoplay: False
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/TheOmniBox
+      name: TheOmniBox on Twitter
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/user/jonspaceharper
+      name: u/jonspaceharper on Reddit
+
+extra_css:
+  - stylesheets/extra.css
       
 nav:
   - index.md
