@@ -10,9 +10,9 @@ date: 2022-05-15
 
 ## About OmniBox
 
-OmniBox is 3D printable, modular electronics case for 3D printers. OmniBox comes with support for a wide variety of parts and includes templates to add support for new ones. 
+OmniBox is 3D printable, modular electronics case for 3D printers. OmniBox comes with [support][support] for a wide variety of parts and includes templates to add support for new ones. 
 
-This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgdog] V3 footprint.
+This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgdog] V3 footprint. It released under the [MIT License][license].
 
 <figure markdown>
   [![gallery of OmniBox part combinations][gallery_thumb]][gallery]
@@ -52,7 +52,7 @@ Printing OmniBox is a time investment. This makes incompatibility between versio
 !!! note
     Prior versions of this page had the Version Stability Guarantee fully in place. I have relaxed it until version 1.0 to deprecate M4-mounted parts and to improve the Core design before version 1.0.
 
-    No reprinting is necessary to use deprecated M4 panels with button head M3 screws (socket head are too small). Until version 1.0, component mounts will be issued with STLs for both M3 and M4 screws.
+    No reprinting is necessary to use deprecated M4 panels with M3 screws. Until version 1.0, component mounts will be issued with STLs for both M3 and M4 screws.
 
 ### Current Release (Pre-1.0)
 
@@ -76,3 +76,4 @@ See the [Guided Tour][tour] to see how this works in practice.
 [printing]: printing.md "Printing Guide"
 
 [assembly]: assembly/index.md "Assembly Guide"
+[license]: license.md

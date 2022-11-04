@@ -180,6 +180,8 @@ MCU trays mount a microcontroller unit--your 3D printer board.
 
 The lower bay is an area to mount parts like buck converters and MOSFETs. There are four dedicated lower bay trays locations and two more that can occupy an unused CPU tray bay.
 
+There are  of these trays: Short and Long. A Long length tray covers the mount points of two Short trays and must be mounted from front to back of the case.
+
 - [GitHub Folder][git_lower_bay]
 - [List of supported lower bay parts][lower_bay]
 

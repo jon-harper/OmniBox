@@ -56,9 +56,10 @@ The current release is 0.9.9, released on 2022-11-??.
 
 | Hardware | Mount Location(s) | Notes |
 |----------|-------------------|-------|
-| Wago 221 Lever Nuts | Lower Bay | 3-wire and 5-wire |
+| Wago 221 Lever Nuts | Lower Bay | 3-position and 5-position |
 | Neopixel (WS2812B) LEDs | Front panel | Backing piece for attaching lights behind front vents. |
 | DROK 3A LM2596 with LED Buck Converter | Lower Bay | Single and dual, short and long trays. |
+| Duet3D Duet 3 Mini 5+ | MCU Tray | |
 
 ### Experimental Hardware Support
 
@@ -68,13 +69,13 @@ These parts still need to be tested for fit and any other issues.
 |----------|-------------------|-------|
 | Mean Well RSP-500 power supply | Main body | For the Ender 5 Plus |
 | 92mm fans | Rear panel, lid | 25mm thickness only. |
-| 120mm fans | Lid | 20 & 25mm thicknesses |
+| 120mm fans | Lid | 25mm thickness only. |
 | BIGTREETECH Manta M8P | MCU Tray | |
 | BIGTREETECH 5" TFT | Display Panel | |
 | BIGTREETECH UPS 24V 1.0 | Lower Bay | Short tray only. |
 | BIGTREETECH SKR 3 | MCU Tray | |
 | BIGTREETECH SKR 3 EZ | MCU Tray | |
-| Duet3D Duet 3 Mini 5+ | MCU Tray | |
+| Duet3D Duet 3 6HC | MCU Tray | |
 
 ## Fixes
 
