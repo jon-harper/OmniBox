@@ -4,32 +4,27 @@
 
 This tray mounts multiple types of boards.
 
-| Field                 | Description               |
-|-----------------------|---------------------------|
-| Category              | MCU Tray                  |
-| Product Supported     | See below                 |
-| STEP File             | Yes                       |
-| Fusion 360 Archive    | No                        |
-| Version Added         | 0.9                       |
+- Category: MCU Tray
+- Product: *See below*
+- Added: 0.9
+- Updated: 0.9.9
 
 This tray is compatible with the following board families:
 
 - Creality 1.X.Y series
 - Creality 4.X.Y series
-- BigTreeTech SKR E3 (all versions)
+- BIGTREETECH SKR E3 (all versions)
 
 ## STL Files
 
 ### `MCU Tray - BTT SKR E3 - M3.stl`
 
-| Field                 | Description                   |
-|-----------------------|-------------------------------|
-| Mounting Hardware     | 4x M3 x 6mm machine screws    |
-| Print with Supports   | No                            |
+- Supports: No
+- Mounting Hardware: 4x M3 x 6mm machine screws
 
 ### `MCU Tray - BTT SKR E3 - M4.stl`
 
-| Field                 | Description                   |
-|-----------------------|-------------------------------|
-| Mounting Hardware     | 4x M4 x 6mm machine screws    |
-| Print with Supports   | No                            |
+Note: M4 files are for users of 0.9.8 and earlier and are deprecated.
+
+- Supports: No
+- Mounting Hardware: 4x M4 x 6mm machine screws
