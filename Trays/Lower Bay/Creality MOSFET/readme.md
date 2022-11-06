@@ -14,11 +14,11 @@ These trays mount a MOSFET conveter found in the Creality Ender 5 Plus (at least
 
 ## STL Files
 
-### `Lower Bay Tray - Creality MOSFET - Large.stl`
+### `Lower Bay Tray - Creality MOSFET - Long.stl`
 
 | Field                 | Description                   |
 |-----------------------|-------------------------------|
-| Tray Length           | Full                          |
+| Tray Length           | Long                          |
 | Quantity Mounted      | 1                             |
 | Mounting Hardware     | 4x M3 x 6mm machine screws    |
 | Print with Supports   | No                            |
@@ -27,7 +27,7 @@ These trays mount a MOSFET conveter found in the Creality Ender 5 Plus (at least
 
 | Field                 | Description                   |
 |-----------------------|-------------------------------|
-| Tray Length           | Half                          |
+| Tray Length           | Short                         |
 | Quantity Mounted      | 1                             |
 | Mounting Hardware     | 4x M3 x 6mm machine screws    |
 | Print with Supports   | No                            |
