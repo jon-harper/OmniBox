@@ -6,4 +6,3 @@ Head to the **[documentation](https://jon-harper.github.io/OmniBox)** for more i
 
 You are in an **unstable** branch. Changes may be merged in at any time and some files may be untested.
 
-![banner image](../../raw/main/docs/img/gallery_0.9.8.1/gallery.png)
