@@ -19,9 +19,9 @@ This project focuses on modularity, accessibility to users, and reusability. The
 
 The current release is version 0.9.8.1. A changelog and download list are available on the **[release page](https://github.com/jon-harper/OmniBox/releases/tag/0.9.8.1)**.
 
-### Upcoming Release
+### Current Beta
 
-The Core case for 0.9.9 is *stable*; some trays and panels still need fit testing and documentation.
+[Version 0.9.9 is currently in beta](https://github.com/jon-harper/OmniBox/tree/0.9.9-beta); some trays and panels still need fit testing and documentation.
 
 Release is expected in late November 2022.
 
