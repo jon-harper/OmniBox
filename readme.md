@@ -1,6 +1,10 @@
-Welcome to the OmniBox repository! OmniBox is a modular, 3D printed electronics case for controlling 3D printers. It is conceptually derived from Steve Burcham's [Stand Alone Main Control Case](https://www.thingiverse.com/thing:3999751) V3.
+Welcome to the OmniBox repository! OmniBox is a modular, 3D printed electronics case for controlling 3D printers. It is conceptually derived from Steve Burcham's **[Stand Alone Main Control Case](https://www.thingiverse.com/thing:3999751)** V3.
 
 This project focuses on modularity, accessibility to users, and reusability. The goal of OmniBox is to make your printer's electronics as valuable and re-usable an asset as the printer it controls.
+
+## Interested in the Beta?
+
+Version 0.9.9 is currently in open beta. See **[Current Beta](#current-beta)** below for details.
 
 ## Documentation & Help
 
@@ -17,12 +21,15 @@ This project focuses on modularity, accessibility to users, and reusability. The
 
 ### Current Release
 
-The current release is version 0.9.8.1. A changelog and download list are available on the **[release page](https://github.com/jon-harper/OmniBox/releases/tag/0.9.8.1)**.
+- The current release is version 0.9.8.1, released 2022-09-15.
+- A changelog and download list are available on the **[release page](https://github.com/jon-harper/OmniBox/releases/tag/0.9.8.1)**.
 
 ### Current Beta
 
-[Version 0.9.9 is currently in beta](https://github.com/jon-harper/OmniBox/tree/0.9.9-beta); some trays and panels still need fit testing and documentation.
-
-Release is expected in late November 2022.
+- **[Branch 0.9.9-beta is open](https://github.com/jon-harper/OmniBox/tree/0.9.9-beta)**.
+- Some trays and panels still need fit testing and documentation
+- The Core case is feature frozen and passed two fit tests (i.e., it works).
+- The **[Announcement Discussion](https://github.com/jon-harper/OmniBox/discussions/61)** has more details.
+- Release is expected in late November 2022.
 
 ![banner image](../../raw/main/docs/img/gallery_0.9.8.1/gallery.png)
