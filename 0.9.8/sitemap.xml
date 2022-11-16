@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/bom/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/bom/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/development/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/development/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/printing/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/printing/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/tour/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/tour/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/assembly/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/assembly/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/assembly/core/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/assembly/core/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/assembly/panels/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/assembly/panels/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/assembly/trays/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/assembly/trays/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/history/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/history/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/history/v0.9.5/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/history/v0.9.5/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/history/v0.9.7/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/history/v0.9.7/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/history/v0.9.8/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/history/v0.9.8/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/history/v0.9/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/history/v0.9/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/support/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/support/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/support/boards/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/support/boards/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/support/displays/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/support/displays/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/support/fans/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/support/fans/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/support/lower_bay/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/support/lower_bay/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jon-harper.github.io/OmniBox/0.9.8/support/panel_mounts/</loc>
+         <loc>https://jon-harper.github.io/OmniBox/latest/support/panel_mounts/</loc>
          <lastmod>2022-11-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
