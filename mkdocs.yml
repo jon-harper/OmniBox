@@ -54,7 +54,8 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
-  - mike
+  - mike:
+      canonical_version: latest
   - search
 
 extra:
