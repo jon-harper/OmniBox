@@ -1,11 +1,31 @@
 site_name: OmniBox Documentation
-site_description: Instructions for printing and assembly the OmniBox.
+site_description: Documentation for the OmniBox 3D printer electronics case.
 site_author: Jon Harper
 site_url: https://jon-harper.github.io/OmniBox
 repo_url: https://github.com/jon-harper/OmniBox
 repo_name: jon-harper/OmniBox
 edit_uri: ""
 copyright: Copyright &copy; 2022 Jonathan Harper
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - abbr
+  - md_in_html
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.snippets:
+      auto_append: 
+        - include/git_links.md
+        - include/bom_links.md
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 theme:
   name: material
@@ -33,25 +53,7 @@ theme:
         icon: material/lightbulb-off-outline
         name: Switch to light mode
 
-markdown_extensions:
-  - admonition
-  - attr_list
-  - abbr
-  - md_in_html
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.superfences
-  - pymdownx.details
-  - pymdownx.snippets:
-      auto_append: 
-        - include/git_links.md
-        - include/bom_links.md
-  - pymdownx.tabbed:
-      alternate_style: true 
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+
 
 extra:
   social:
@@ -72,25 +74,74 @@ nav:
   - index.md
   - development.md
   - tour.md
+  # - faq.md
+  - license.md
+
+  - Product Support:
+    - support/index.md
+    - Supported Parts:
+      - support/mcu.md
+      - support/cpu.md
+      - support/displays.md
+      - support/panel_mounts.md
+      - support/fans.md
+      - support/lower_bay.md
   - Requirements:
     - printing.md
     - bom.md
-  - Supported Parts:
-    - support/index.md
-    - support/boards.md
-    - support/displays.md
-    - support/panel_mounts.md
-    - support/fans.md
-    - support/lower_bay.md
   - Assembly Guide:
-    - assembly/index.md
-    - assembly/core.md
-    - assembly/trays.md
-    - assembly/panels.md
+    - assembly_v2/index.md
+    - Heat Set Inserts (HSI):
+      - assembly_v2/hsi_base.md
+      - assembly_v2/hsi_front.md
+      - assembly_v2/hsi_rear.md
+    - Core & PSU:
+      - assembly_v2/base.md
+      - assembly_v2/psu_wiring.md
+      - assembly_v2/core.md
+    - CPU and Lower Bay Trays:
+      - assembly_v2/cpu.md
+      - assembly_v2/side.md
+      - assembly_v2/lower_bay.md
+      - assembly_v2/front.md
+    - MCU & Panels:
+      - assembly_v2/mcu.md
+      - assembly_v2/display.md
+      - assembly_v2/rear_lid.md
+      - assembly_v2/bottom.md
   - Version History:
     - history/index.md
-    - history/v0.9.8.md
-    - history/v0.9.7.md
-    - history/v0.9.5.md
-    - history/v0.9.md
+    - Prior Releases:
+      - history/v0.9.8.1.md
+      - history/v0.9.8.md
+      - history/v0.9.7.md
+      - history/v0.9.5.md
+      - history/v0.9.md
+  
+      
+# nav:
+#   - index.md
+#   - development.md
+#   - tour.md
+#   - Requirements:
+#     - printing.md
+#     - bom.md
+#   - Supported Parts:
+#     - support/index.md
+#     - support/boards.md
+#     - support/displays.md
+#     - support/panel_mounts.md
+#     - support/fans.md
+#     - support/lower_bay.md
+#   - Assembly Guide:
+#     - assembly/index.md
+#     - assembly/core.md
+#     - assembly/trays.md
+#     - assembly/panels.md
+#   - Version History:
+#     - history/index.md
+#     - history/v0.9.8.md
+#     - history/v0.9.7.md
+#     - history/v0.9.5.md
+#     - history/v0.9.md
   
