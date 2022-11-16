@@ -4,6 +4,10 @@ summary: OmniBox documentation landing page
 authors: Jon Harper
 date: 2022-05-15
 ---
+
+!!! important "Important: Beta Documentation"
+    This is the documentation for latest beta release of OmniBox. You can switch to the documentation for a different release from the drop-down box above.
+
 ## About OmniBox
 
 OmniBox is a 3D printable, modular electronics case for 3D printers. It supports a wide variety of parts and includes templates to add new ones. 
@@ -53,35 +57,38 @@ Printing OmniBox is an investment. The way trays and panels attach to OmniBox be
 
     No reprinting is necessary to use legacy M4 panels with M3 screws.
 
-### Currently (Before Version 1.0)
+### Currently
 
-Prior to version 1.0, changes may still be made to how panels and trays interface with the Core case. If this happens, parts using the old method are considered "deprecated". Deprecated parts remain available and supported through the release of 1.0 but will be removed after. 
+Until version 1.0, it is still possible for changes to be made to the design of panels and trays. If this happens, parts using the old method are considered "deprecated". Deprecated parts remain available and supported through the release of 1.0 but will be removed after. 
 
-Every effort is made to avoid incompatibilities between versions.
-
-Thus far, all deprecated printed parts remain compatible with new cases.
+Every effort is made to avoid incompatibilities between versions, and so far all deprecated printed parts remain compatible with new cases.
 
 ### Version 1.0
 
 With version 1.0, changes may be made that cause deprecated parts to lose compatibility. This is a final chance to "lock in" the design.
 
-### After Version 1.0
+At this point, OmniBox releases will come with a Version Stability Guarantee:
 
-Starting with version 1.0, OmniBox will have a "Version Stability Guarantee":
-
-The Core printed components of OmniBox will be "stable" or "frozen" in how they connect with with other parts. If you choose to print a newer version of a Core part, no panels or trays will need to be reprinted. New products added in future releases can likewise be used in the Core case body from a prior release.
+The way that Core components fit together and panels and trays attach to the case will be "frozen" and stable. If you choose to print a newer version of a Core part, no panels or trays will need to be reprinted. New products added in future releases can likewise be used in the Core case body from a prior release.
 
 !!! example
-    As an example, the design for CPU trays was modified for 0.9.9.
+    As an example, the design for CPU trays was modified for 0.9.9. Version 0.9.8-style trays are considered deprecated. The following shows how this works.
     
-    A CPU tray from 0.9.8 will:
+    A version 0.9.8 case:
 
-    - Work with a case from 0.9.9 and
-    - May not work with version 1.0.
+    - [x] Can use 0.9.8 CPU trays
+    - [ ] Cannot use 0.9.9 trays.
 
     A version 0.9.9 case:
 
-    - Can use CPU trays from any release.
+    - [x] Can use deprecated 0.9.8 CPU trays.
+    - [x] Can use 0.9.9 CPU trays.
+
+    If the design does not change again before version 1.0, a version 1.0 case:
+
+    - [x] Can use CPU trays from any release from 0.9.9 or later.
+    - [x] Can use any CPU tray from *future* releases, e.g., 1.1.
+    - [ ] Can not use version 0.9.8 trays.
 
 See the [Guided Tour][tour] to see how the components of an OmniBox fit together in practice.
 

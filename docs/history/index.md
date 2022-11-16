@@ -85,6 +85,7 @@ These parts still need to be tested for fit and any other issues.
 | BIGTREETECH UPS 24V 1.0           | Lower Bay         | Short tray only.      |
 | BIGTREETECH SKR 3                 | MCU Tray          |                       |
 | BIGTREETECH SKR 3 EZ              | MCU Tray          |                       |
+| BIGTREETECH Relay 1.2             | Lower Bay         | Long tray only.       |
 
 ## Fixes
 
@@ -108,6 +109,7 @@ These parts still need to be tested for fit and any other issues.
     - Added tooltips to links.
     - Consolidated external links and added tooltips.
     - Replaced assembly and illustration pictures with uniformly styled generated graphics.
+    - Documentation site is now versioned.
 - Assembly Guide
     - Completely rewritten for 0.9.9.
     - Basic wiring instructions included.
