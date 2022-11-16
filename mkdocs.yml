@@ -53,7 +53,9 @@ theme:
         icon: material/lightbulb-off-outline
         name: Switch to light mode
 
-
+plugins:
+  - mike
+  - search
 
 extra:
   social:
