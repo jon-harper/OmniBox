@@ -5,60 +5,76 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
-This page has commonly used settings for printing OmniBox and a printed part checklist. See the [guided tour](tour.md) for help choosing the correct parts.
+This page has common settings for printing OmniBox and a printed component checklist. See the [guided tour][tour] for help choosing the correct parts.
 
-## Print Settings
+## 3D Printing Settings
 
-These settings are consistent for all parts.
+### General Settings
 
-| Setting            | Value       | Note |
+These settings are consistent for all parts but the optional fan gaskets.
+
+| Setting            | Value       | Notes |
 |--------------------|-------------|------|
-| Layer Height       | 0.2-0.24mm  | Adaptive layer heights can be used. Coarser settings have not been tested. |
-| Perimeters (Walls) | 3           | Walls should be at least 1.2mm thick. |
-| Infill             | 20-25%      | Cubic is a good tradeoff of time and durability. |
-| Material           | PLA or PLA+ | PETG is somewhat brittle and may take longer to print on many printers. |
-| Nozzle Diameter    | 0.4mm       | 0.6mm should also work. If you print a case with a different nozzle size, please share your results! |
+| Layer Height       | 0.2-0.24mm  | Coarser settings have not been tested. |
+| Adaptive Layer Height | Optional | Can improve appearance and reduce print time.    |
+| Perimeters (Walls) | 1.2mm+      | 3 perimeters with a 0.4mm nozzle. 1.5mm+ results in solid main body side walls. |
+| Infill             | 20-25%      | Cubic is a good tradeoff for time and durability. |
+| Material           | PLA/PLA+    | See note below. |
+| Nozzle Diameter    | 0.4mm, 0.6mm | If you print a case with a different nozzle size, please share your results! |
 
-## Print Checklist
+!!! note
+    - The case can be printed in PETG but may take longer.
+    - TPU is only used with fan gaskets, which are optional.
 
-This is a checklist of parts to print. Most of these parts have variations; see the [guided tour](tour.md) for help selecting the right STL files from the git repository.
+### Settings Specific to Core
 
-| Component                                                                                                  | Quantity | Required | Notes |
-|------------------------------------------------------------------------------------------------------------|----------|----------|-------|
-| [:material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-f-box-outline: Base - Front][1]             | 1        | Yes      |       |
-| [:material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-r-box-outline: Base - Rear][2]              | 1        | Yes      |       |
-| [:material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-e-box-outline: Base - Front Extension][19]  | 1        | See note | Required when using a Mean Well RSP-500 power supply. |
-| [:material-alpha-c-box: :material-alpha-b-box-outline: :material-alpha-e-box-outline: Base - Rear Extension][20]   | 1        | See note | Required when using a Mean Well RSP-500 power supply. |
-| [:material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-c-box-outline: Main Body - Crossbar][3]     | 1        | Yes      |       |
-| :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-f-box-outline: Main Body - Front             | 1        | Yes      | See the [tour][21] on choosing a version to print. |
-| :material-alpha-c-box: :material-alpha-m-box-outline: :material-alpha-r-box-outline: Main Body - Rear              | 1        | Yes      | See the [tour][21] on choosing a version to print. |
-| [:material-alpha-t-box: :material-alpha-m-box-outline: MCU Tray][7]                 | 1        | Yes      |       |
-| [:material-alpha-t-box: :material-alpha-c-box-outline: CPU Tray][8]                 | 1        | See note | Blank cover plate can be used instead. |
-| [:material-alpha-p-box: :material-alpha-d-box-outline: Display Mount][9]            | 1        | Yes      |       |
-| [:material-alpha-p-box: :material-alpha-d-box-outline: Lid][10]                     | 1-2      | Yes      | One full-length lid or two half-length lids. |
-| [:material-alpha-p-box: :material-alpha-d-box-outline: Rear Panel][11]              | 1        | Yes      |       |
-| [:material-alpha-t-box: :material-alpha-l-box-outline: Lower Bay Trays][13]         | 0-4      | No       | Type and quantity are specific to configuration. |
-| [:material-alpha-f-box: :material-alpha-c-box-outline: Fan Cages][6]                | See note | Yes      | Quantity and size depend on configuration. |
-| [:material-alpha-f-box: :material-alpha-g-box-outline: Fan Gaskets][6]          | See note | No       | Quantity and size depend on configuration and pair with fan cages. |
+- Supports should be left on.
+- Support blockers are recommended for all zip tie anchors and can be used for fastener holes, as well.
+- Use a brim or adhesive. Lifting can cause misalignment of the finished case body.
+- Cantilever bed printers (e.g., Ender 5 Pro) should move large bodies towards to the supported side of the bed.
 
-[1]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front.stl
-[2]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear.stl
-[3]: https://github.com/jon-harper/OmniBox/blob/main/Core/Main%20Body%20-%20Crossbar.stl
-[4]: https://github.com/jon-harper/OmniBox/tree/main/Core/Mean%20Well%20LRS-350
-[5]: https://github.com/jon-harper/OmniBox/tree/main/Core/Mean%20Well%20RSP-500
-[6]: https://github.com/jon-harper/OmniBox/tree/main/Fan%20Cages
-[7]: https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU
-[8]: https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU
-[9]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Display
-[10]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid
-[11]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel
-[12]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel
-[13]: https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay
-[14]: https://github.com/jon-harper/OmniBox/tree/main/Core/
-[15]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Generic
-[16]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Custom
-[17]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Molex
-[18]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel/Template
-[19]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Front%20Extension.stl
-[20]: https://github.com/jon-harper/OmniBox/blob/main/Core/Base%20-%20Rear%20Extension.stl
-[21]: tour.md#core-parts-with-variants
+## Printed Component Checklist
+
+This is a checklist of *types* parts to print. See the [guided tour][tour] for help selecting the right STL files from the git repository.
+
+### Core
+
+| Component                                                        | Quantity | Required | Notes  |
+|------------------------------------------------------------------|----------|----------|--------|
+| [:material-git: Base - Front][git_base_front]                    | 1        | Yes      |        |
+| [:material-git: Base - Rear][git_base_rear]                      | 1        | Yes      |        |
+| [:material-git: Main Body - Crossbar][git_main_body_crossbar]    | 1        | Yes      |        |
+| [:material-git: Main Body - Front][git_main_body_front]          | 1        | Yes      | See the [tour][tour] on choosing a version to print. |
+| [:material-git: Main Body - Rear][git_main_body_rear]            | 1        | Yes      | See the [tour][tour] on choosing a version to print. |
+| [:material-git: Base Extension][git_base_extension]              | 1        | See note | Required when using a Mean Well RSP-500 power supply, otherwise optional. |
+
+### Trays
+
+| Component                                       | Quantity | Required | Notes  |
+|-------------------------------------------------|----------|----------|--------|
+| [:material-git: PSU Tray][git_psu]              | 1        | Yes      |        |
+| [:material-git: MCU Tray][git_mcu]              | 1        | Yes      |        |
+| [:material-git: CPU Tray][git_cpu]              | 0-1      | No       | If unused, replace with an extra side panel. |
+| [:material-git: Lower Bay Trays][git_lower_bay] | 0-6      | No       | Type and quantity are specific to configuration. |
+
+### Panels
+
+| Component                                       | Quantity | Required | Notes  |
+|-------------------------------------------------|----------|----------|--------|
+| [:material-git: Display Mount][git_display]     | 1        | Yes      |       |
+| [:material-git: Lid][git_lid]                   | 1-2      | Yes      | One (1) long lid or two (2) short lids. |
+| [:material-git: Rear Panel][git_rear_panel]     | 1        | Yes      |       |
+| [:material-git: Bottom Panel][git_bottom_panel] | 1        | Yes      |       |
+| [:material-git: Side Panel][git_side_panel]     | 1-2      | Yes      | One (1) with a CPU tray, two (2) without. |
+
+### Other Components
+
+!!! note
+    Quantity and type of fan cage depend on configuration.
+
+| Component                                       | Quantity | Required | Notes  |
+|-------------------------------------------------|----------|----------|--------|
+| [:material-git: Fan Cages][git_fans]            | See note | Yes      | Required in some Core configurations. |
+| [:material-git: Fan Gaskets][git_fans]          | See note | No       |        |
+
+[tour]: tour.md "Visual Guided Tour"

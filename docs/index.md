@@ -4,67 +4,94 @@ summary: OmniBox documentation landing page
 authors: Jon Harper
 date: 2022-05-15
 ---
-
 ## About OmniBox
 
-OmniBox is 3D printable, modular electronics case for 3D printers. OmniBox comes with support for a wide variety of parts and includes templates to add support for new ones. 
+OmniBox is a 3D printable, modular electronics case for 3D printers. It supports a wide variety of parts and includes templates to add new ones. 
 
-This project is derived from Steve Burcham's [Stand Alone Main Control Case](https://www.thingiverse.com/thing:3999751) V3 footprint.
+This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgdog] V3 footprint. It is released under the [MIT License][license].
 
 !!! info
     To switch between :material-lightbulb-on: Light and :material-lightbulb-off-outline: Dark reading mode, click the icon next to the search box.
 
 <figure markdown>
-  [![gallery of OmniBox part combinations][2]][2]
+  [![gallery of OmniBox part combinations][gallery_thumb]][gallery]
   <figcaption>Gallery of several possible OmniBox configurations</figcaption>
 </figure>
-
-
 
 ## Quick Links
 
 ### Getting Started
 
-[:material-television-guide: Visual Guided Tour](tour.md){ .md-button }
+[:material-television-guide: Visual Guided Tour][tour]{ .md-button }
 
-[:octicons-checklist-24: Supported Part List](support/index.md){ .md-button }
+[:octicons-checklist-24: Supported Parts List][support]{ .md-button }
 
-[:octicons-list-ordered-24: Bill of Materials](bom.md){ .md-button }
+[:octicons-list-ordered-24: Bill of Materials][bom]{ .md-button }
 
 ### Printing
 
-[:material-printer-3d-nozzle: Printing Guide](printing.md){ .md-button }
+[:material-printer-3d-nozzle: Printing Guide][printing]{ .md-button }
 
-[:material-github: GitHub with STLs](https://github.com/jon-harper/OmniBox){ .md-button }
+[:material-github: GitHub with STLs][git_home]{ .md-button }
 
 ### Assembly
 
-[:material-directions: Assembly Guide](assembly/index.md){ .md-button }
-
-## Version Stability Guarantee
-
-Printing OmniBox is a time investment. This makes incompatibility between versions painful; upgrading one printed part should not require others to be reprinted. Thankfully, OmniBox is highly modular and can be upgrade piecemeal.
-
-I've extended that modularity with a "Version Stability Guarantee":
-
-The printed components of OmniBox are "stable" or "frozen" in how they connect with other printed parts. This means that if you choose to print a newer version of a core part, no panels or trays will need to be reprinted.
-
-See the [Visual Guided Tour](tour.md) to see how this works in practice.
+[:material-directions: Assembly Guide][assembly]{ .md-button }
 
 ## Current Status
 
-OmniBox is currently pre-1.0 but mature enough for everyday use.
+Although OmniBox has not reached version 1.0, it is mature enough for everyday use. A complete OmniBox made of parts from one release is tested to fit and work. Trays and panels are compatible with all releases (see [Version Stability Guarantee](#version-stability-guarantee) for details).
 
-See the [Version History][4] page for information on the latest release, fixes, new features, and known issues.
+The [Version History][current_release] page contains information on the latest release, fixes, new features, and known issues.
 
-<figure markdown>
-  [![front left render][1]{ width="640" }][1]
-  <figcaption>Render of an OmniBox with a 3.5" TFT display.</figcaption>
-</figure>
+## Version Stability Guarantee
 
+Printing OmniBox is an investment. The way trays and panels attach to OmniBox between versions is carefully fixed. The result is a modular case that can be upgraded piece by piece.
 
+!!! note
+    Prior versions of this page had the Version Stability Guarantee fully in place. I have relaxed it until version 1.0 in order to deprecate M4-mounted parts.
 
-[1]: img/gallery_0.9.8/front_left.png
-[2]: img/gallery_0.9.8.1/gallery_high.png
-[3]: img/gallery_0.9.8/oscar_right.jpg
-[4]: history/index.md
+    No reprinting is necessary to use legacy M4 panels with M3 screws.
+
+### Currently (Before Version 1.0)
+
+Prior to version 1.0, changes may still be made to how panels and trays interface with the Core case. If this happens, parts using the old method are considered "deprecated". Deprecated parts remain available and supported through the release of 1.0 but will be removed after. 
+
+Every effort is made to avoid incompatibilities between versions.
+
+Thus far, all deprecated printed parts remain compatible with new cases.
+
+### Version 1.0
+
+With version 1.0, changes may be made that cause deprecated parts to lose compatibility. This is a final chance to "lock in" the design.
+
+### After Version 1.0
+
+Starting with version 1.0, OmniBox will have a "Version Stability Guarantee":
+
+The Core printed components of OmniBox will be "stable" or "frozen" in how they connect with with other parts. If you choose to print a newer version of a Core part, no panels or trays will need to be reprinted. New products added in future releases can likewise be used in the Core case body from a prior release.
+
+!!! example
+    As an example, the design for CPU trays was modified for 0.9.9.
+    
+    A CPU tray from 0.9.8 will:
+
+    - Work with a case from 0.9.9 and
+    - May not work with version 1.0.
+
+    A version 0.9.9 case:
+
+    - Can use CPU trays from any release.
+
+See the [Guided Tour][tour] to see how the components of an OmniBox fit together in practice.
+
+[gallery_thumb]: img/examples/gallery_thumb.png
+[gallery]: img/examples/gallery.png
+
+[current_release]: history/index.md "Version History (Current Release)"
+[tour]:     tour.md                 "Guided Tour"
+[support]:  support/index.md        "Supported Parts List"
+[bom]:      bom.md                  "Bill of Materials"
+[printing]: printing.md             "Printing Guide"
+[assembly]: assembly_v2/index.md       "Assembly Guide"
+[license]:  license.md              "Contributing and License"
