@@ -54,7 +54,8 @@ theme:
         name: Switch to light mode
 
 plugins:
-  - mike
+  - mike:
+      canonical_version: latest
   - search
 
 extra:
