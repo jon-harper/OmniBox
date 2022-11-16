@@ -5,11 +5,12 @@ site_url: https://jon-harper.github.io/OmniBox
 repo_url: https://github.com/jon-harper/OmniBox
 repo_name: jon-harper/OmniBox
 edit_uri: ""
+copyright: Copyright &copy; 2022 Jonathan Harper
 
 theme:
   name: material
-  icon:
-    logo: material/book-open-variant
+  logo: img/logo.png
+  favicon: img/favicon.png
   features:
     - navigation.instant
     - navigation.sections
@@ -41,12 +42,31 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.superfences
-  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.snippets:
+      auto_append: 
+        - include/git_links.md
+        - include/bom_links.md
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/TheOmniBox
+      name: TheOmniBox on Twitter
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/user/jonspaceharper
+      name: u/jonspaceharper on Reddit
+    - icon: simple/kofi
+      link: https://ko-fi.com/jonspaceharper
+      name: Support me on Ko-Fi!
+
+extra_css:
+  - stylesheets/extra.css
       
 nav:
   - index.md
