@@ -35,12 +35,14 @@
   }  
 
 .md-header__title, h1{
-    font-family: Hack, monospace;
+    font-family: var(--md-code-font);
 }
 
 .md-button {
-  width: 360px;
-  text-align: center;
+    font-family: var(--md-code-font);
+    font-size: 0.75rem;
+    width: 360px;
+    text-align: center;
 }
 
 :root {

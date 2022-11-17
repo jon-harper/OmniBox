@@ -344,22 +344,36 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../support/panel_mounts/" class="md-nav__link">
+        Connector Panels
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_5_2">
+        <label class="md-nav__link" for="__nav_5_3">
           Supported Parts
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Supported Parts" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_2">
+        <label class="md-nav__title" for="__nav_5_3">
           <span class="md-nav__icon md-icon"></span>
           Supported Parts
         </label>
@@ -401,20 +415,6 @@
     <li class="md-nav__item">
       <a href="../support/displays/" class="md-nav__link">
         Display Panels
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../support/panel_mounts/" class="md-nav__link">
-        Panel Mounts
       </a>
     </li>
   
@@ -1280,39 +1280,39 @@
 </thead>
 <tbody>
 <tr>
-<td>Layer Height</td>
+<td><strong>Layer Height</strong></td>
 <td>0.2-0.24mm</td>
 <td>Coarser settings have not been tested.</td>
 </tr>
 <tr>
-<td>Adaptive Layer Height</td>
+<td><strong>Adaptive Layer Height</strong></td>
 <td>Optional</td>
 <td>Can improve appearance and reduce print time.</td>
 </tr>
 <tr>
-<td>Perimeters (Walls)</td>
+<td><strong>Perimeters (Walls)</strong></td>
 <td>1.2mm+</td>
 <td>3 perimeters with a 0.4mm nozzle. 1.5mm+ results in solid main body side walls.</td>
 </tr>
 <tr>
-<td>Infill</td>
+<td><strong>Infill</strong></td>
 <td>20-25%</td>
 <td>Cubic is a good tradeoff for time and durability.</td>
 </tr>
 <tr>
-<td>Material</td>
+<td><strong>Material</strong></td>
 <td>PLA/PLA+</td>
 <td>See note below.</td>
 </tr>
 <tr>
-<td>Nozzle Diameter</td>
+<td><strong>Nozzle Diameter</strong></td>
 <td>0.4mm, 0.6mm</td>
 <td>If you print a case with a different nozzle size, please share your results!</td>
 </tr>
 </tbody>
 </table>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Note: Materials</p>
 <ul>
 <li>The case can be printed in PETG but may take longer.</li>
 <li>TPU is only used with fan gaskets, which are optional.</li>
@@ -1320,13 +1320,13 @@
 </div>
 <h3 id="settings-specific-to-core">Settings Specific to Core</h3>
 <ul>
-<li>Supports should be left on.</li>
-<li>Support blockers are recommended for all zip tie anchors and can be used for fastener holes, as well.</li>
-<li>Use a brim or adhesive. Lifting can cause misalignment of the finished case body.</li>
-<li>Cantilever bed printers (e.g., Ender 5 Pro) should move large bodies towards to the supported side of the bed.</li>
+<li>Supports must be on.</li>
+<li>Support blockers are recommended for all zip tie anchors and fastener holes.</li>
+<li>Use a brim or adhesive.</li>
+<li>Cantilever bed printers (e.g., Ender 5 Pro) should move large parts to the supported side of the bed.</li>
 </ul>
 <h2 id="printed-component-checklist">Printed Component Checklist</h2>
-<p>This is a checklist of <em>types</em> parts to print. See the <a href="../tour/" title="Visual Guided Tour">guided tour</a> for help selecting the right STL files from the git repository.</p>
+<p>This is a checklist of <em>types</em> parts to print. See the <a href="../tour/" title="Visual Guided Tour">Guided Tour</a> for help selecting the right STL files from the git repository.</p>
 <h3 id="core">Core</h3>
 <table>
 <thead>
@@ -1457,10 +1457,6 @@
 </tbody>
 </table>
 <h3 id="other-components">Other Components</h3>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Quantity and type of fan cage depend on configuration.</p>
-</div>
 <table>
 <thead>
 <tr>
@@ -1475,13 +1471,13 @@
 <td><a href="https://github.com/jon-harper/OmniBox/tree/0.9.9-beta/Fans" title="OmniBox GitHub: Fans"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Fan Cages</a></td>
 <td>See note</td>
 <td>Yes</td>
-<td>Required in some Core configurations.</td>
+<td>Quantity and type depend on configuration.</td>
 </tr>
 <tr>
 <td><a href="https://github.com/jon-harper/OmniBox/tree/0.9.9-beta/Fans" title="OmniBox GitHub: Fans"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Fan Gaskets</a></td>
 <td>See note</td>
 <td>No</td>
-<td></td>
+<td>Optional add-on to fan cages.</td>
 </tr>
 </tbody>
 </table>

@@ -344,22 +344,36 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../support/panel_mounts/" class="md-nav__link">
+        Connector Panels
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_5_2">
+        <label class="md-nav__link" for="__nav_5_3">
           Supported Parts
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Supported Parts" data-md-level="2">
-        <label class="md-nav__title" for="__nav_5_2">
+        <label class="md-nav__title" for="__nav_5_3">
           <span class="md-nav__icon md-icon"></span>
           Supported Parts
         </label>
@@ -401,20 +415,6 @@
     <li class="md-nav__item">
       <a href="../support/displays/" class="md-nav__link">
         Display Panels
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../support/panel_mounts/" class="md-nav__link">
-        Panel Mounts
       </a>
     </li>
   
@@ -1297,9 +1297,10 @@
 <p>The Universal Bill of Materials is a base list common to all builds. Additional components based on your build configuration are listed separately.</p>
 <ul>
 <li>There are no affiliate links used on this site.</li>
-<li>The <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> shopping cart icon indicates an external link.</li>
+<li>The <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> shopping cart icon indicates an external link to a shopping website.</li>
+<li>These links are for reference, not an endorsement.</li>
 <li>The design allows for longer-than-specified screws in certain locations. The <a href="../assembly_v2/">assembly guide</a> notes where substitutions can be made.</li>
-<li>Wiring is only specified for the IEC power socket, power switch, and power supply. Additional wiring for the MCU and CPU are configuration-specific.</li>
+<li>Wiring is only specified for the IEC power socket, power switch, and power supply. Additional wiring and fusing considerations are configuration-specific.</li>
 </ul>
 <h2 id="universal-bill-of-materials">Universal Bill of Materials</h2>
 <p>These parts are common to all case builds. See below for additional requirements based on configuration.</p>
@@ -1414,8 +1415,8 @@
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note: Fast Blow Glass Fuses</p>
-<p>You will need a fuse of the correct amperage for your power supply. If you are on 120V AC power and have a 350W power supply, a 3 amp fuse should be sufficient, for example.</p>
-<p>Determining the correct fuse for a given printer is beyond the scope of this documentation.</p>
+<p>Socket fuses do <em>not</em> replace inline fuses.</p>
+<p>Determining the correct fuse for a given configuration is beyond the scope of this documentation.</p>
 </div>
 <h2 id="heat-set-inserts-hsis">Heat Set Inserts (HSIs)</h2>
 <p>If you are a printing an HSI case, you will need:</p>
