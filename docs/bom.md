@@ -8,9 +8,10 @@ date: 2022-05-15
 The Universal Bill of Materials is a base list common to all builds. Additional components based on your build configuration are listed separately.
 
 - There are no affiliate links used on this site.
-- The :material-cart: shopping cart icon indicates an external link.
+- The :material-cart: shopping cart icon indicates an external link to a shopping website.
+- These links are for reference, not an endorsement.
 - The design allows for longer-than-specified screws in certain locations. The [assembly guide][assembly] notes where substitutions can be made.
-- Wiring is only specified for the IEC power socket, power switch, and power supply. Additional wiring for the MCU and CPU are configuration-specific.
+- Wiring is only specified for the IEC power socket, power switch, and power supply. Additional wiring and fusing considerations are configuration-specific.
 
 ## Universal Bill of Materials
 
@@ -41,9 +42,9 @@ These parts are common to all case builds. See below for additional requirements
     To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
 
 !!! note "Note: Fast Blow Glass Fuses"
-    You will need a fuse of the correct amperage for your power supply. If you are on 120V AC power and have a 350W power supply, a 3 amp fuse should be sufficient, for example.
+    Socket fuses do *not* replace inline fuses.
 
-    Determining the correct fuse for a given printer is beyond the scope of this documentation.
+    Determining the correct fuse for a given configuration is beyond the scope of this documentation.
 
 ## Heat Set Inserts (HSIs)
 

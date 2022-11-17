@@ -12,7 +12,7 @@ This is a list of all fans sizes that OmniBox currently supports via fan cages. 
   <figcaption>40mm fans are the most commonly used. Rear panels can support fans up to 80mm and lids up to 120mm.</figcaption>
 </figure>
 
-Fan cages and fan gaskets are stored in the [:material-git: `Fans`][git_fans] git folder. The [:material-git: `Fans/Template`][git_fans_template] folder contains parametric Fusion 360 files to add support for additional fans.
+Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] git folder. The [:material-git: `/Fans/Template`][git_fans_template] folder contains parametric Fusion 360 files to add support for additional fans.
 
 <!-- Template
 [![product picture][img_]{width="200"}][img_]
@@ -25,7 +25,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `Fans`][git_fans] gi
 
 ### 40mm x 10mm
 
-[:material-git: Files: `40x10`][git_fans_4010]{ .md-button }
+[:material-git: 40x10][git_fans_4010]{ .md-button }
 
 [:material-cart: Product Link][bom_4010]{ .md-button }
 
@@ -35,7 +35,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `Fans`][git_fans] gi
 
 ### 40mm x 20mm
 
-[:material-git: Files: `40x20`][git_fans_4020]{ .md-button }
+[:material-git: 40x20][git_fans_4020]{ .md-button }
 
 [:material-cart: Product Link][bom_4020]{ .md-button }
 
@@ -47,7 +47,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `Fans`][git_fans] gi
 
 ### 60mm x 15mm
 
-[:material-git: Files: `60x15`][git_fans_6015]{ .md-button }
+[:material-git: 60x15][git_fans_6015]{ .md-button }
 
 [:material-cart: Product Link][bom_6015]{ .md-button }
 
@@ -57,7 +57,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `Fans`][git_fans] gi
 
 ### 60mm x 20mm
 
-[:material-git: Files: `60x20`][git_fans_6020]{ .md-button }
+[:material-git: 60x20][git_fans_6020]{ .md-button }
 
 [:material-cart: Product Link][bom_6020]{ .md-button }
 
@@ -67,7 +67,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `Fans`][git_fans] gi
 
 ### 60mm x 25mm
 
-[:material-git: Files: `60x25`][git_fans_6025]{ .md-button }
+[:material-git: 60x25][git_fans_6025]{ .md-button }
 
 [:material-cart: Product Link][bom_6025]{ .md-button }
 
@@ -79,7 +79,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `Fans`][git_fans] gi
 
 ### 80mm x 20mm
 
-[:material-git: Files: `80x20`][git_fans_8020]{ .md-button }
+[:material-git: 80x20][git_fans_8020]{ .md-button }
 
 [:material-cart: Product Link][bom_8020]{ .md-button }
 
@@ -89,7 +89,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `Fans`][git_fans] gi
 
 ### 80mm x 25mm
 
-[:material-git: Files: `80x25`][git_fans_8025]{ .md-button }
+[:material-git: 80x25][git_fans_8025]{ .md-button }
 
 [:material-cart: Product Link][bom_8025]{ .md-button }
 
@@ -101,7 +101,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `Fans`][git_fans] gi
 
 ### 92mm x 25mm
 
-[:material-git: Files: `92x25`][git_fans_9225]{ .md-button }
+[:material-git: 92x25][git_fans_9225]{ .md-button }
 
 [:material-cart: Product Link][bom_9225]{ .md-button }
 
@@ -111,7 +111,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `Fans`][git_fans] gi
 
 ### 120mm x 25mm
 
-[:material-git: Files: `120x25`][git_fans_12025]{ .md-button }
+[:material-git: 120x25][git_fans_12025]{ .md-button }
 
 [:material-cart: Product Link][bom_12025]{ .md-button }
 

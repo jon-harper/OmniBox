@@ -1,5 +1,5 @@
 ---
-title: Panel Mounts
+title: Connector Panels
 summary: A list of panel mounted components supported by OmniBox
 authors: Jon Harper
 date: 2022-07-22
@@ -13,7 +13,7 @@ date: 2022-07-22
 
 ![front panel example][img_front]{ width="360" }
 
-The front panel is long and slim and can be used for mounting small hardware ports. The most common examples are SD Card extensions and USB extensions. You can find these files in the [:material-git:`Panels/Front Panel`][git_front_panel] git folder.
+The front panel is long and slim and can be used for mounting small hardware ports. The most common examples are SD Card extensions and USB extensions. You can find these files in the [:material-git: `/Panels/Front Panel`][git_front_panel] git folder.
 
 ### Side Panels
 
@@ -21,13 +21,22 @@ The front panel is long and slim and can be used for mounting small hardware por
 
 Introduced in version 0.9.9, the side panel replaces the old Unused CPU Cover. Side panels can be used for mounting a single 40mm fan, panel mounted connectors, or keystone jacks.
 
-Files for the side panel can be found in the [:material-git:`Panels/Side Panel`][git_side_panel] git folder.
+Files for the side panel can be found in the [:material-git: `/Panels/Side Panel`][git_side_panel] git folder.
 
 ### Rear Panels
 
 ![rear panel example][img_rear]{ width="360" }
 
-Rear Panels are the most customizable part of OmniBox. They can mount connectors and fans and modified to suit each end user. There are also a number of generic templates available in the [:material-git:`Panels/Rear Panel`][git_rear_panel] git folder.
+Rear Panels are the most customizable part of OmniBox. They can mount connectors and fans and modified to suit each end user. There are also a number of generic templates available in the [:material-git: `/Panels/Rear Panel`][git_rear_panel] git folder.
+
+The table below breaks down where to get started.
+
+| Folder           | Description | Use If You... |
+|------------------|-------------|-----------|
+| [:material-git: `Generic`][git_generic_rear]  | These have large holes for passing wires through and come in a number of common variations. | ...Want a simple, off-the-shelf solution and there is not a custom panel that suits. |
+| [:material-git: `Custom`][git_custom_rear]   | Designed for users of common printer configurations. | ...Have a configuration available for your printer. |
+| [:material-git: `Micro Fit 3`][git_molex_rear]    | Use Molex Micro Fit 3 panel mounted connectors. Pinout diagrams for each panel are included. | ...Want to create a diconnectable wiring harness for your printer. |
+| [:material-git: `Template`][git_rear_template] | A Fusion 360 template with profiles for panel mounted connectors and fans. | ...Want to create your own panel. |
 
 ## Supported Hardware
 

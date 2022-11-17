@@ -12,7 +12,7 @@ This page lists MCUs that are currently compatible with OmniBox.
   <figcaption>MCUs are mounted near the lid for accessibility.</figcaption>
 </figure>
 
-Micro-controller unit (MCU) board are mounted on MCU Trays. These parts are in the [:material-git:`Trays/MCU`][git_mcu] git folder, with each component in its own subfolder. There are `STEP` and Fusion 360 template files available for adding support for other boards.
+Micro-controller unit (MCU) board are mounted on MCU Trays. These parts are in the [:material-git: `/Trays/MCU`][git_mcu] git folder, with each component in its own subfolder. There are `STEP` and Fusion 360 template files available for adding support for other boards.
 
 !!! tip
     Looking for a board that isn't listed? [Open an issue!][git_issues]
@@ -32,7 +32,7 @@ Micro-controller unit (MCU) board are mounted on MCU Trays. These parts are in t
 
 #### SKR 1.3 - 2.0
 
-[:material-git: Files: `BTT SKR`][git_btt_skr]{ .md-button }
+[:material-git: BTT SKR][git_btt_skr]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_skr_2]{ .md-button }
 
@@ -43,7 +43,7 @@ Micro-controller unit (MCU) board are mounted on MCU Trays. These parts are in t
 
 #### SKR 3
 
-[:material-git: Files: `BTT SKR 3`][git_btt_skr_3]{ .md-button }
+[:material-git: BTT SKR 3][git_btt_skr_3]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_skr_3]{ .md-button }
 
@@ -54,7 +54,7 @@ Micro-controller unit (MCU) board are mounted on MCU Trays. These parts are in t
 
 #### SKR 3 EZ
 
-[:material-git: Files: `BTT SKR 3 EZ`][git_btt_skr_3_ez]{ .md-button }
+[:material-git: BTT SKR 3 EZ][git_btt_skr_3_ez]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_skr_3_ez]{ .md-button }
 
@@ -67,7 +67,7 @@ Micro-controller unit (MCU) board are mounted on MCU Trays. These parts are in t
 
 All versions of the SKR E3 series are compatible with one tray, uncluding the Mini, Turbo, and RRF versions.
 
-[:material-git: Files: `BTT SKR E3`][git_btt_skr_e3]{ .md-button }
+[:material-git: BTT SKR E3][git_btt_skr_e3]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_skr_e3_mini]{ .md-button }
 
@@ -82,7 +82,7 @@ The Manta M4P is not currently supported, but may be added in a future release.
 
 #### Manta M8P
 
-[:material-git: Files: `BTT Manta M8P`][git_btt_manta_m8p]{ .md-button }
+[:material-git: BTT Manta M8P][git_btt_manta_m8p]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_manta_m8p]{ .md-button }
 
@@ -95,7 +95,7 @@ The Manta M4P is not currently supported, but may be added in a future release.
 The Octopus Pro is not currently supported, but may be added in a future release.
 #### Octopus
 
-[:material-git: Files: `BTT Octopus`][git_btt_octopus]{ .md-button }
+[:material-git: BTT Octopus][git_btt_octopus]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_octopus]{ .md-button }
 
@@ -109,7 +109,7 @@ The Octopus Pro is not currently supported, but may be added in a future release
 
 Compatible with all versions.
 
-[:material-git: Files: `Duet3D Duet 3 Mini 5+`][git_duet_3_mini_5+]{ .md-button }
+[:material-git: Duet3D Duet 3 Mini 5+][git_duet_3_mini_5+]{ .md-button }
 
 [:material-cart: Product Link][bom_duet_3_mini_5+]{ .md-button }
 
@@ -121,7 +121,7 @@ Compatible with all versions.
 
 Compatible with all versions.
 
-[:material-git: Files: `Duet3D Duet 3 6HC`][git_duet_3_6hc]{ .md-button }
+[:material-git: Duet3D Duet 3 6HC][git_duet_3_6hc]{ .md-button }
 
 [:material-cart: Product Link][bom_duet_3_6hc]{ .md-button }
 
@@ -134,7 +134,7 @@ Compatible with all versions.
 
 ### Creality
 
-[:material-git: Files: `BTT SKR E3`][git_btt_skr_e3]{ .md-button }
+[:material-git: BTT SKR E3][git_btt_skr_e3]{ .md-button }
 
 [:material-cart: Product Link][bom_creality_4x]{ .md-button }
 

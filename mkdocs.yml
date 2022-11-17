@@ -85,11 +85,11 @@ nav:
 
   - Product Support:
     - support/index.md
+    - support/panel_mounts.md
     - Supported Parts:
       - support/mcu.md
       - support/cpu.md
       - support/displays.md
-      - support/panel_mounts.md
       - support/fans.md
       - support/lower_bay.md
   - Requirements:

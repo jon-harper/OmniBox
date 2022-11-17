@@ -5,22 +5,15 @@ authors: Jon Harper
 date: 20core-08-04
 ---
 
+## Introduction
+
 This is a visual tour of an OmniBox. This page demonstrates:
 
 1. The core parts of OmniBox and their variations;
 2. Trays and panels; and
 3. How these pieces fit together.
 
-Links are provided to the respective git folder for each component type.
-
-!!! note
-
-    Links to external sites are tagged with icons to identify purpose:
-
-    - A link with the :material-git: Git icon points to the OmniBox GitHub. 
-    - Sample links to shopping websites have a :material-cart: icon next to them.
-
-## Overview
+### Overview
 
 <figure markdown>
   [![overview of an omnibox][img_overview]][img_overview]{ width="640" }
@@ -29,37 +22,46 @@ Links are provided to the respective git folder for each component type.
 
 The configuration in the image above will be our example in this guide. We will start with the Core components and move on to the trays and panels that make OmniBox so modular. 
 
+### Links
+
+Links on this site to external resources have prefix icons to identify what they do:
+
+- :material-git: The git icon is used for links to the OmniBox GitHub. 
+- :material-cart: identifies an example link to a shopping site.
+
+Internal page links in this tour are marked with an :material-directions: arrow sign.
+
 ## Core Components
 
-Core components form the basis of every case. Core files be found in the [:material-git: `Core`][git_core] folder in the GitHub repository.
+Core components form the basis of every case. No end-user parts attach to core components. Instead, components are attached to trays and panels, which then mount on the Core case body.
 
 !!! important
-    Most Core components come with the option of using heat set inserts. These `STL` files have `HSI` in the name.
+    Most Core components come with the option of using heat set inserts for mounting commonly-removed panels and trays. These `STL` files have `HSI` in the name.
 
 <figure markdown>
   [![the core of an OmniBox][img_core]][img_core]
   <figcaption>The core components of an OmniBox with fans and power supply mounted.</figcaption>
 </figure>
 
-There are two types of Core components, Base and Main Body. A typical OmniBox build has three parts for the main body and two for the base.
+There are two types of Core components: Base and Main Body. A typical OmniBox build has two parts for the base and three for the main body.
 
 - Base
-    - Front
-    - Rear
-    - Unified (replaces the above two)
+    - [:material-directions: Front](#base---front)
+    - [:material-directions: Rear](#base---rear)
+    - [:material-directions: Unified](#base---unified) (replaces the above two)
 - Main Body
-    - Crossbar
-    - Front
-    - Rear
+    - [:material-directions: Crossbar](#main-body---crossbar)
+    - [:material-directions: Front](#main-body---front)
+    - [:material-directions: Rear](#main-body---rear)
 ### Base
 
 #### Base - Front
 
 [![front base][img_base_front]{ width="480" }][img_base_front]
 
-This is the front of two base pieces that cover the power supply. There is a 30mm x 11mm rocker switch cutout in front, as well as air vents and optional 40mm fan mounts.
+This is the front of two base pieces that cover the power supply. There is a cutout for a 30mm x 11mm SPST switch in front, as well as air vents and optional 40mm fan mounts.
 
-- [:material-git: GitHub Folder][git_base_front]
+[:material-git: /Core/Base/Front][git_base_front]{ .md-button }
 
 #### Base - Rear 
 
@@ -67,16 +69,19 @@ This is the front of two base pieces that cover the power supply. There is a 30m
 
 The back covers the rest of the power supply and mounts a fused IEC power plug.
 
-- [:material-git: GitHub Folder][git_base_rear]
-- This component is available with heat set inserts.
- Base - Unified
+This component is available with heat set inserts.
+
+[:material-git: /Core/Base/Rear][git_base_rear]{ .md-button }
+
+#### Base - Unified
 
 [![front base][img_base_unified]{ width="480" }][img_base_unified]
 
 For owners of large-format printers, the base can be printed as a single piece instead of two. The unified base replaces the rear and front pieces.
 
-- [:material-git: GitHub Folder][git_base_unified]
-- This component is available with heat set inserts.
+This component is available with heat set inserts.
+
+[:material-git: /Core/Base/Unified][git_base_unified]{ .md-button }
 
 ### Main Body
 
@@ -86,44 +91,53 @@ For owners of large-format printers, the base can be printed as a single piece i
 
 This is a crossbar that joins and covers the joint between the lids and front display.
 
-- [:material-git: GitHub Folder][git_main_body_crossbar]
-- There are no variations to the crossbar.
+[:material-git: /Core/Main Body/Crossbar][git_main_body_crossbar]{ .md-button }
 
 #### Main Body - Front
 
 [![front main body with internal fan][img_main_front]{ width="480" }][img_main_front]
 
-The front main body comes in two variations to choose from:
+The front half of the Main Body mounts the display and front panel. It also has a side air intake that comes in one of two configurations.
+
+This component is available with heat set inserts.
 
 === "Internal 40mm Fan"
 
     [![front main body with internal fan][img_front_40]{ width="360" }][img_front_40]
 
+    This version has a side vent with an internal mount for a 40mm fan.
+
 === "External 60mm Fan"
 
     [![front main body with external fan][img_front_60]{ width="360" }][img_front_60]
 
-The version with a 60mm external fan additional requires the appropriate [fan cage][fans]. Optionally, a TPU gasket can also be used with the fan cage.
+    This version requires the appropriate [:material-directions: fan cage](#fans). Optionally, a TPU gasket can also be used with the fan cage.
 
-- [:material-git: GitHub Folder][git_main_body_front]
-- This component is available with heat set inserts.
+[:material-git: /Core/Main Body/Front][git_main_body_front]{ .md-button }
 
 #### Main Body - Rear
 
-The rear main body comes in two variations:
+<!-- TODO Image shows fans highlighted, not rear main body -->
+
+The rear half of the Main Body is the largest single piece of the case and operates with two levels. The lower level has CPU and lower bay trays. The upper level mounts the MCU.
+
+This component is available with heat set inserts.
+
+There are two variations of the rear main body:
 
 === "Dual 40mm Fans"
 
     [![rear main body with dual fans][img_rear_dual]{ width="360" }][img_rear_dual]
 
+    You will also need to print [:material-directions: 40mm fan cages](#fans) and (optionally) TPU gaskets for this variation.
+
 === "No Fan Mounts"
 
     [![rear main body without fan mounts][img_rear_none]{ width="360" }][img_rear_none]
 
-For the dual 40mm fan version, you will also need to print [40mm fan cages][fans] and (optionally) TPU gaskets.
+    This versions of the rear main body *requires* either rear panel or lid-mounted fans.
 
-- [:material-git: GitHub Folder][git_main_body_rear]
-- This component is available with heat set inserts.
+[:material-git: /Core/Main Body/Rear][git_main_body_rear]{ .md-button }
 
 ## Trays
 
@@ -134,10 +148,10 @@ Trays are used for mounting parts internally. There are four (4) types of trays:
   <figcaption>The four types of trays in red.</figcaption>
 </figure>
 
-- Power supply tray (PSU tray)
-- MCU tray
-- Lower bay tray
-- CPU tray
+- [:material-directions: PSU Tray](#psu-tray)
+- [:material-directions: MCU Tray](#mcu-tray)
+- [:material-directions: Lower Bay Trays](#lower-bay-trays)
+- [:material-directions: CPU Tray](#cpu-tray)
 
 Tray templates are available in both `STEP` and Fusion 360 format to add support for new products.
 
@@ -147,12 +161,14 @@ Tray templates are available in both `STEP` and Fusion 360 format to add support
 
 Power supply (PSU) trays slide up from underneath the case. Currently two power supplies are supported; a template is availabe to add support for more.
 
-Large (tall) power supplies require the use of a [base extension shim](#base-extensions).
+Large (tall) power supplies require the use of a [:material-directions: base extension shim](#base-extensions).
 
-- [:material-git: GitHub Folder][git_psu]
-- Supported power supplies:
-    - [Mean Well LRS-350 series][git_psu_lrs350]
-    - [Mean Well RSP-500 series][git_psu_rsp500] (prelimary, requires base extensions)
+[:material-git: /Trays/PSU][git_psu]{ .md-button }
+
+Supported power supplies:
+
+- [:material-git: Mean Well LRS-350 series][git_psu_lrs350]
+- [:material-git: Mean Well RSP-500 series][git_psu_rsp500] (prelimary, requires base extensions)
 
 ### MCU Tray
 
@@ -160,8 +176,9 @@ Large (tall) power supplies require the use of a [base extension shim](#base-ext
 
 MCU trays mount a microcontroller unit--your 3D printer board.
 
-- [:material-git: GitHub Folder][git_mcu]
-- [List of supported MCUs][mcu]
+[:material-git: /Trays/MCU][git_mcu]{ .md-button }
+
+[:octicons-checklist-24: Supported MCUs][mcu]{ .md-button }
 
 ### Lower Bay Trays
 
@@ -171,8 +188,9 @@ The lower bay is an area to mount parts like buck converters and MOSFETs. There 
 
 There are  of these trays: Short and Long. A Long length tray covers the mount points of two Short trays and must be mounted from front to back of the case.
 
-- [:material-git: GitHub Folder][git_lower_bay]
-- [List of supported lower bay parts][lower_bay]
+[:material-git: /Trays/Lower Bay][git_lower_bay]{ .md-button }
+
+[:octicons-checklist-24: Supported Lower Bay Components][lower_bay]{ .md-button }
 
 ### CPU Tray
 
@@ -180,10 +198,11 @@ There are  of these trays: Short and Long. A Long length tray covers the mount p
 
 The CPU tray is an optional mount for a Raspberry Pi or other SoC. There are two bays for CPU trays; one is on each side of the case.
 
-An unused bay is replaced by a [Side Panel](#side-panels). A short lower bay tray can also be installed in an unused CPU bay.
+An unused bay is replaced by a [:material-directions: Side Panel](#side-panels). A short lower bay tray can also be installed in an unused CPU bay.
 
-- [:material-git: GitHub Folder][git_cpu]
-- [List of supported CPUs][cpu]
+[:material-git: /Trays/CPU][git_cpu]{ .md-button }
+
+[:octicons-checklist-24: Supported SoC CPUs][cpu]{ .md-button }
 
 ## Panels
 
@@ -192,12 +211,12 @@ An unused bay is replaced by a [Side Panel](#side-panels). A short lower bay tra
   <figcaption>The six types of panels.</figcaption>
 </figure>
 
-- Front panel
-- Display panel
-- Lid
-- Rear panel
-- Side panel
-- Bottom panel
+- [:material-directions: Front panel](#front-panel)
+- [:material-directions: Display panel](#display-panel)
+- [:material-directions: Lid](#lids)
+- [:material-directions: Rear panel](#rear-panel)
+- [:material-directions: Side panel](#side-panel)
+- [:material-directions: Bottom panel](#bottom-panel)
 
 Panels cover the outside of OmniBox and mount of a range of options. Front, side, and rear panels are typically used for connectors, fans, and ventilation.
 
@@ -209,17 +228,19 @@ There is a blank `STEP` and Fusion 360 template for each panel category to allow
 
 The front panel serves as an air vent and location to put a MicroSD card reader extension. USB extensions are also a common accessory.
 
-- [:material-git: GitHub Folder][git_front_panel]
-- [Supported parts][panel_mounts]
+[:material-git: /Panels/Front Panel][git_front_panel]{ .md-button }
+
+[Connector Panels][panel_mounts]{ .md-button }
 
 ### Side Panel
 
 [![side panel][img_side]{ width="480" }][img_side]
 
-Side panel(s) replace a CPU tray and often mount connectors or fans. A blank side panel can also be used.
+A side panel replaces a CPU tray and often mounts connectors or fans. A blank side panel can be used if necessary.
 
-- [:material-git: GitHub Folder][git_side_panel]
-- [Supported parts][panel_mounts]
+[:material-git: /Panels/Side Panel][git_side_panel]{ .md-button }
+
+[Connector Panels][panel_mounts]{ .md-button }
 
 ### Bottom Panel
 
@@ -227,17 +248,17 @@ Side panel(s) replace a CPU tray and often mount connectors or fans. A blank sid
 
 The bottom panels act as a cover for the underside of the case. A fully enclosed option is available to keep dust out.
 
-- [:material-git: GitHub Folder][git_bottom_panel]
+[:material-git: /Panels/Bottom Panel][git_bottom_panel]{ .md-button }
 
 ### Display Panel
 
 [![display panel][img_display]{ width="480" }][img_display]
 
-
 This area mounts LCD displays, from the basic 128x64 character display to Raspbery Pi TFTs.
 
-- [:material-git: GitHub Folder][git_display]
-- [List of supported displays][displays]
+[:material-git: /Panels/Display][git_display]{ .md-button }
+
+[:octicons-checklist-24: Supported Displays][displays]{ .md-button }
 
 ### Lid(s)
 
@@ -245,25 +266,30 @@ This area mounts LCD displays, from the basic 128x64 character display to Raspbe
 
 The lid is both a way into your case and a configurable panel. There are two types of lids: short and long lids. You can either print one (1) long lid or two (2) short lids.
 
-- [:material-git: GitHub Folder][git_lid]
-- See the README in the GitHub folder for a list of supported configurations.
+See the README in the GitHub folder for a list of supported configurations.
+
+[:material-git: /Panels/Lid][git_lid]{ .md-button }
 
 ### Rear Panel
 
 [![rear panel][img_rear]{ width="480" }][img_rear]
 
-The rear panel is used for ventilation, passing wiring out of your case, and optionally an additional fan. There are stock configurations available to suit common uses. A template is also available for customization.
+The rear panel is used for ventilation, passing wiring out of your case, and optionally an additional fan. There are stock configurations available to suit common uses. A template is available for customization.
 
 Rear panels with panel mounted connectors are an active area of work.
 
-| Folder           | Description | Use If... |
-|------------------|-------------|-----------|
-| [:material-git: `Generic`][git_generic_rear]  | These have large holes for passing wires through and come in a number of common variations. | ...You want a simple, off-the-shelf solution and there is not a custom panel that suits. |
-| [:material-git: `Custom`][git_custom_rear]   | Designed for users of common printer configurations. | ...Your printer has a configuration available. |
-| [:material-git: `Micro Fit 3`][git_molex_rear]    | Use Molex Micro Fit 3 panel mounted connectors. Pinout diagrams for each panel are included. | ...You plan to create a wiring harness for an enclosed printer. |
-| [:material-git: `Template`][git_rear_template] | A Fusion 360 template with profiles for panel mounted connectors and fans. | ...You want to create your own panel. |
+[:material-git: /Panels/Rear Panel][git_rear_panel]{ .md-button }
+
+[Connector Panels][panel_mounts]{ .md-button }
 
 ## Other Components
+
+Several other components deserve mention in this tour; not all of these are 3D printed parts.
+
+- [:material-directions: Fans](#fans)
+- [:material-directions: Base Extensions](#base-extensions)
+- [:material-directions: Power Switches](#power-switch)
+- [:material-directions: IEC C14 Power Sockets](#iec-c14-power-socket)
 
 ### Fans
 
@@ -273,8 +299,9 @@ Externally mounted fans use fan cages to cover the fan blades. There are a large
 
 Internally mounted fans are also available, but are limited to 40mm fans.
 
-- [:material-git: GitHub Folder][git_fans]
-- List of [supported fans][fans]
+[:material-git: /Fans][git_fans]{ .md-button }
+
+[:octicons-checklist-24: Supported Fans][fans]{ .md-button }
 
 ### Base Extensions
 
@@ -282,7 +309,7 @@ Internally mounted fans are also available, but are limited to 40mm fans.
     
 Larger power supplies require the addition of a base extension shim. This mounts between the base and the bottom panel.
 
-- [:material-git: GitHub Folder][git_base_extension]
+[:material-git: /Core/Base/Extension Shim][git_base_extension]{ .md-button }
 
 ### Power Switch
 

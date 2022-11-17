@@ -30,7 +30,7 @@ Component names below link to the corresponding git folder. Most mounts require 
  -->
 ### Generic 12864
 
-[:material-git: Files: `Generic 12864`][git_generic_12864]{ .md-button }
+[:material-git: Generic 12864][git_generic_12864]{ .md-button }
 
 [:material-cart: Product Link][bom_generic_12864]{ .md-button }
 
@@ -41,7 +41,7 @@ Component names below link to the corresponding git folder. Most mounts require 
 
 ### FYSETC Mini 12864
 
-[:material-git: Files: `Mini 12864`][git_mini_12864]{ .md-button }
+[:material-git: Mini 12864][git_mini_12864]{ .md-button }
 
 [:material-cart: Product Link][bom_mini_12864]{ .md-button }
 
@@ -52,7 +52,7 @@ Component names below link to the corresponding git folder. Most mounts require 
 
 ### BIGTREETECH 2.4" TFT
 
-[:material-git: Files: `BTT 2.4 TFT`][git_btt_tft_24]{ .md-button }
+[:material-git: BTT 2.4 TFT][git_btt_tft_24]{ .md-button }
 
 [![product picture][img_btt_tft24]{width="200"}][img_btt_tft24]
 
@@ -61,7 +61,7 @@ Component names below link to the corresponding git folder. Most mounts require 
 
 ### BIGTREETECH 3.5" TFT
 
-[:material-git: Files: `BTT 3.5 TFT`][git_btt_tft_35]{ .md-button }
+[:material-git: BTT 3.5 TFT][git_btt_tft_35]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_tft35]{ .md-button }
 
@@ -72,7 +72,7 @@ Component names below link to the corresponding git folder. Most mounts require 
 
 ### BIGTREETECH 3.5" TFT E3
 
-[:material-git: Files: `Generic 12864`][git_generic_12864]{ .md-button }
+[:material-git: Generic 12864][git_generic_12864]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_tft35_e3]{ .md-button }
 

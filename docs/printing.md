@@ -13,29 +13,29 @@ This page has common settings for printing OmniBox and a printed component check
 
 These settings are consistent for all parts but the optional fan gaskets.
 
-| Setting            | Value       | Notes |
-|--------------------|-------------|------|
-| Layer Height       | 0.2-0.24mm  | Coarser settings have not been tested. |
-| Adaptive Layer Height | Optional | Can improve appearance and reduce print time.    |
-| Perimeters (Walls) | 1.2mm+      | 3 perimeters with a 0.4mm nozzle. 1.5mm+ results in solid main body side walls. |
-| Infill             | 20-25%      | Cubic is a good tradeoff for time and durability. |
-| Material           | PLA/PLA+    | See note below. |
-| Nozzle Diameter    | 0.4mm, 0.6mm | If you print a case with a different nozzle size, please share your results! |
+| Setting                   | Value        | Notes |
+|---------------------------|--------------|------|
+| **Layer Height**          | 0.2-0.24mm   | Coarser settings have not been tested. |
+| **Adaptive Layer Height** | Optional     | Can improve appearance and reduce print time.    |
+| **Perimeters (Walls)**    | 1.2mm+       | 3 perimeters with a 0.4mm nozzle. 1.5mm+ results in solid main body side walls. |
+| **Infill**                | 20-25%       | Cubic is a good tradeoff for time and durability. |
+| **Material**              | PLA/PLA+     | See note below. |
+| **Nozzle Diameter**       | 0.4mm, 0.6mm | If you print a case with a different nozzle size, please share your results! |
 
-!!! note
+!!! note "Note: Materials"
     - The case can be printed in PETG but may take longer.
     - TPU is only used with fan gaskets, which are optional.
 
 ### Settings Specific to Core
 
-- Supports should be left on.
-- Support blockers are recommended for all zip tie anchors and can be used for fastener holes, as well.
-- Use a brim or adhesive. Lifting can cause misalignment of the finished case body.
-- Cantilever bed printers (e.g., Ender 5 Pro) should move large bodies towards to the supported side of the bed.
+- Supports must be on.
+- Support blockers are recommended for all zip tie anchors and fastener holes.
+- Use a brim or adhesive.
+- Cantilever bed printers (e.g., Ender 5 Pro) should move large parts to the supported side of the bed.
 
 ## Printed Component Checklist
 
-This is a checklist of *types* parts to print. See the [guided tour][tour] for help selecting the right STL files from the git repository.
+This is a checklist of *types* parts to print. See the [Guided Tour][tour] for help selecting the right STL files from the git repository.
 
 ### Core
 
@@ -69,12 +69,9 @@ This is a checklist of *types* parts to print. See the [guided tour][tour] for h
 
 ### Other Components
 
-!!! note
-    Quantity and type of fan cage depend on configuration.
-
 | Component                                       | Quantity | Required | Notes  |
 |-------------------------------------------------|----------|----------|--------|
-| [:material-git: Fan Cages][git_fans]            | See note | Yes      | Required in some Core configurations. |
-| [:material-git: Fan Gaskets][git_fans]          | See note | No       |        |
+| [:material-git: Fan Cages][git_fans]            | See note | Yes      | Quantity and type depend on configuration. |
+| [:material-git: Fan Gaskets][git_fans]          | See note | No       | Optional add-on to fan cages. |
 
 [tour]: tour.md "Visual Guided Tour"
