@@ -15,6 +15,8 @@ OmniBox is a 3D printable, modular electronics case for 3D printers. It supports
 This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgdog] V3 footprint. It is released under the [MIT License][license].
 
 !!! info
+    To change documentation versions, select a version number from the drop down box on header bar.
+
     To switch between :material-lightbulb-on: Light and :material-lightbulb-off-outline: Dark reading mode, click the icon next to the search box.
 
 <figure markdown>
