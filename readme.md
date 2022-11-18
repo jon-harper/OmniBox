@@ -27,7 +27,7 @@ Version 0.9.9 is currently in open beta. See **[Current Beta](#current-beta)** b
 ### Current Beta!
 
 - **[Branch 0.9.9-beta is open](https://github.com/jon-harper/OmniBox/tree/0.9.9-beta)**.
-- **[Documentation for the beta is here](https://jon-harper.github.io/OmniBox-docs/)**. This is temporary until the docsite is versioned.
+- **[Documentation for the beta is here](https://jon-harper.github.io/OmniBox/testing)**.
 - Some trays and panels still need fit testing and documentation
 - The Core case is feature frozen and passed two fit tests (i.e., it works).
 - The **[Announcement Discussion](https://github.com/jon-harper/OmniBox/discussions/61)** has more details.
