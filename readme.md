@@ -24,7 +24,7 @@ Version 0.9.9 is currently in open beta. See **[Current Beta](#current-beta)** b
 - The current release is version 0.9.8.1, released 2022-09-15.
 - A changelog and download list are available on the **[release page](https://github.com/jon-harper/OmniBox/releases/tag/0.9.8.1)**.
 
-### Current Beta
+### Current Beta!
 
 - **[Branch 0.9.9-beta is open](https://github.com/jon-harper/OmniBox/tree/0.9.9-beta)**.
 - **[Documentation for the beta is here](https://jon-harper.github.io/OmniBox-docs/)**. This is temporary until the docsite is versioned.
@@ -33,4 +33,4 @@ Version 0.9.9 is currently in open beta. See **[Current Beta](#current-beta)** b
 - The **[Announcement Discussion](https://github.com/jon-harper/OmniBox/discussions/61)** has more details.
 - Release is expected in late November 2022.
 
-![banner image](../../raw/main/docs/img/gallery_0.9.8.1/gallery.png)
+![coming_soon](https://user-images.githubusercontent.com/11852387/202786259-c3b27ae9-53a1-4979-b84f-7b28fd680cff.png)
