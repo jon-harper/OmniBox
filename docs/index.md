@@ -38,7 +38,7 @@ This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgd
 
 [:material-printer-3d-nozzle: Printing Guide][printing]{ .md-button }
 
-[:material-github: GitHub with STLs][git_home]{ .md-button }
+[:material-git: GitHub with STLs][git_home]{ .md-button }
 
 ### Assembly
 
