@@ -102,12 +102,12 @@ The example below uses a single, long lid. The procedure for installing two shor
 
 <figure markdown>
   [![illustration][lid2]{width="480"}][lid2]
-  <figcaption>2. Flip the lid over and fasten the handle in place with two M3 x 8mm screws.</figcaption>
+  <figcaption>2. Flip the lid over and fasten the handle in place with two (2) M3 x 8mm screws.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][lid3]{width="480"}][lid3]
-  <figcaption>3. Place the assembled lid on top of the case. It is reversible.</figcaption>
+  <figcaption>3. Place the assembled lid on top of the case. The lid is reversible.</figcaption>
 </figure>
 
 <figure markdown>
