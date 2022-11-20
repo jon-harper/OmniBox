@@ -24,21 +24,17 @@ So far we have assembled the Base. Next we'll add the Main Body. This is made of
 
 <figure markdown>
   [![illustration][main1]{width="480"}][main1]
-  <figcaption>1. Set the front Main Body over the front of the base and align the edges.</figcaption>
+  <figcaption>1. Set the front and rear Main Bodies over the base and the align the edges.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][main2]{width="480"}][main2]
-  <figcaption>2. Repeat with the rear Main Body.</figcaption>
+  <figcaption>2. Begin inserting #6 screws to the base, tightening about halfway. Before fastening each screw, check that the main body and base are still lined up.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][main3]{width="480"}][main3]
-  <figcaption>3. Inserting #6 screws to the base, tightening about halfway.</figcaption>
-</figure>
-<figure markdown>
-  [![illustration][main4]{width="480"}][main4]
-  <figcaption>4. Continue fastening screws halfway.</figcaption>
+  <figcaption>3. Continue fastening screws halfway until all eight (8) are partially inserted.</figcaption>
 </figure>
 
 !!! note "Note: Alignment"
@@ -49,8 +45,8 @@ So far we have assembled the Base. Next we'll add the Main Body. This is made of
     
 
 <figure markdown>
-  [![illustration][main5]{width="480"}][main5]
-  <figcaption>5. Finish tightening the screws down completely. Check for gaps between the Base and Main Body.</figcaption>
+  [![illustration][main4]{width="480"}][main4]
+  <figcaption>4. Check for any alignment problems between the Base and Main Body. When satisfied, finish tightening the screws down completely.</figcaption>
 </figure>
 
 ### Finished Reference
@@ -111,8 +107,6 @@ The illustrated examples are 40mm Internal Fan for the front and Dual 40mm Fans 
     |---------------------------|-----|---------------------------------|
     | M3 x 16mm machine screws  | 4   |                                 |
     | 40x40x10mm axial fan      | 1   |                                 |
-    | [:material-git: 40mmx10mm Fan Cage][git_fans_4010] | 2 | :material-printer-3d-nozzle: Printed |
-    | [:material-git: 40mmx10mm Fan Gasket][git_fans_4010] | 2 | :material-printer-3d-nozzle: Printed TPU, Optional |
 
 === "60mm External Fan"
 
@@ -159,7 +153,17 @@ The illustrated examples are 40mm Internal Fan for the front and Dual 40mm Fans 
 
 <figure markdown>
   [![illustration][external_fan2]{width="480"}][external_fan2]
-  <figcaption>4. Attach the fan with M3 x 20mm screws. Repeat steps 3 and 4 for the second external fan.</figcaption>
+  <figcaption>4. Insert the fan wiring through the intake, then line up the fan assembly with the mounting holes.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][external_fan3]{width="480"}][external_fan3]
+  <figcaption>5. Secure the fan and cage with four (4) M3 x 20mm screws.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][external_fan4]{width="480"}][external_fan4]
+  <figcaption>6. Repeat steps 3-5 for the second fan.</figcaption>
 </figure>
 
 ### Finished Reference
@@ -203,7 +207,6 @@ The illustrated examples are 40mm Internal Fan for the front and Dual 40mm Fans 
 [main2]: ../img/assembly/core/main/main2.png
 [main3]: ../img/assembly/core/main/main3.png
 [main4]: ../img/assembly/core/main/main4.png
-[main5]: ../img/assembly/core/main/main5.png
 [main_final]: ../img/assembly/core/main/main_final.png
 
 [center1]: ../img/assembly/core/center/center1.png
@@ -217,6 +220,8 @@ The illustrated examples are 40mm Internal Fan for the front and Dual 40mm Fans 
 [internal_fan_final]: ../img/assembly/core/fans/internal_fan_final.png
 [external_fan1]: ../img/assembly/core/fans/external_fan1.png
 [external_fan2]: ../img/assembly/core/fans/external_fan2.png
+[external_fan3]: ../img/assembly/core/fans/external_fan3.png
+[external_fan4]: ../img/assembly/core/fans/external_fan4.png
 [external_fan_final]: ../img/assembly/core/fans/external_fan_final.png
 
 [crossbar1]: ../img/assembly/core/crossbar/crossbar1.png

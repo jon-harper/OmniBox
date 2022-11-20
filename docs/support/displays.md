@@ -1,6 +1,6 @@
 ---
-title: Display Panels
-summary: List of displays with compatbile OmniBox mounts.
+title: Displays
+summary: List of displays with compatible OmniBox mounts.
 authors: Jon Harper
 date: 2022-07-22
 ---

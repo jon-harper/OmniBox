@@ -167,7 +167,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
-| M3 x 12mm machine screws  | 6   | Can use screws up to 20mm.      |
+| M3 x 12mm machine screws  | 8   |                                 |
 
 ### Directions
 
@@ -183,7 +183,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
 <figure markdown>
   [![illustration][base2]{width="480"}][base2]
-  <figcaption>3. Use six (6) 12mm M3 screws to attach the base to the PSU tray.</figcaption>
+  <figcaption>3. Use eight (8) 12mm M3 screws to attach the base to the PSU tray.</figcaption>
 </figure>
 
 ### Finished Reference
