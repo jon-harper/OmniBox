@@ -414,7 +414,7 @@
   
     <li class="md-nav__item">
       <a href="../../support/displays/" class="md-nav__link">
-        Display Panels
+        Displays
       </a>
     </li>
   
@@ -1220,11 +1220,7 @@
 <p>In this section you will need to crimp closed barrel connectors. If you have never performed crimping before, it is strongly recommended that you practice before proceeding.</p>
 <p>Cablecraft has an excellent, <a href="https://www.fscables.com/sites/admin/plugins/elfinder/files/fscables/other%20pdf/cablecraft_crimp_guide.pdf" title="Cablecraft: A Comprehensive Guide to Good Crimping Practice"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.5 14.33c.79 0 1.63.08 2.5.24v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.33-4.5.99v-1.69c1.17-.53 2.67-.8 4.5-.8M13 12.46c1.29-.53 2.79-.79 4.5-.79.79 0 1.63.07 2.5.23v1.5c-.62-.16-1.46-.24-2.5-.24-1.9 0-3.39.34-4.5.99m4.5-3.65c-1.9 0-3.39.32-4.5 1V9.84c1.23-.56 2.73-.84 4.5-.84.79 0 1.63.08 2.5.23v1.55c-.74-.19-1.59-.28-2.5-.28m3.5 8V7c-1.04-.33-2.21-.5-3.5-.5-2.05 0-3.88.5-5.5 1.5v11.5c1.62-1 3.45-1.5 5.5-1.5 1.19 0 2.36.16 3.5.5m-3.5-14c2.35 0 4.19.5 5.5 1.5v14.56c0 .12-.05.24-.16.35-.11.09-.23.17-.34.17-.11 0-.19-.02-.25-.05-1.28-.69-2.87-1.03-4.75-1.03-2.05 0-3.88.5-5.5 1.5-1.34-1-3.17-1.5-5.5-1.5-1.66 0-3.25.36-4.75 1.07-.03.01-.07.01-.12.03-.04.01-.08.02-.13.02-.11 0-.23-.04-.34-.12a.475.475 0 0 1-.16-.35V6c1.34-1 3.18-1.5 5.5-1.5 2.33 0 4.16.5 5.5 1.5 1.34-1 3.17-1.5 5.5-1.5Z"/></svg></span> in-depth guide</a> to crimping common terminal types.</p>
 </div>
-<figure>
-<p><a href="../../img/assembly/core/base/base_final.png"><img alt="illustration" src="../../img/assembly/core/base/base_final.png" width="480" /></a>
-  </p>
-<figcaption></figcaption>
-</figure>
+<p>The Overview video in this section is limited to attaching the prepared wiring.</p>
 <h3 id="materials">Materials</h3>
 <table>
 <thead>
@@ -1254,8 +1250,8 @@
 </table>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>For this example, we will use red wires for the power switch and use them for the <em>positive</em> (+) run from the power socket to switch to PSU.</p>
-<p>If you are using black wires, connect the <em>negative</em> (-) terminals with the crimped wires instead.</p>
+<p>For this example, we will use red wires for the power switch and use them for the <em>line</em> run from the power socket to switch to PSU (normally labeled 'L' on the PSU).</p>
+<p>If you are using black wires, connect the <em>neutral</em> (N) terminals with the crimped wires instead.</p>
 </div>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
@@ -1275,17 +1271,47 @@
 <li>Crimp the second wire with a spade terminal on one end.</li>
 <li>Crimp a fork connector on the other end.</li>
 </ol>
+<figure>
+<p><a href="../../img/assembly/core/psu/wires.png"><img alt="illustration" src="../../img/assembly/core/psu/wires.png" width="480" /></a>
+  </p>
+<figcaption>The prepared wires should look roughly like the above.</figcaption>
+</figure>
 <h4 id="wiring-installation">Wiring Installation</h4>
-<ol>
-<li>Remove the red wire from the IEC socket's positive (+) terminal.</li>
-<li>Attach one end of the wire with two spade connectors to the socket's positive (+) terminal.</li>
-<li>Run the wire through the PSU tray's wiring hole and attach it to the power switch.</li>
-<li>Attach the spade connector on the remaining wire to the remaining free switch terminal.</li>
-<li>Run the wire back through the PSU tray's wiring hole.</li>
-<li>Secure the fork terminal to the PSU's positive (+) AC terminal.</li>
-<li>If desired, use zip ties to secure the wiring.</li>
-</ol>
+<details class="overview">
+<summary>Overview</summary>
+<p><iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/psu_wiring.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe></p>
+</details>
+<figure>
+<p><a href="../../img/assembly/core/psu/wire1.png"><img alt="illustration" src="../../img/assembly/core/psu/wire1.png" width="480" /></a>
+  </p>
+<figcaption>1. Remove the red wire from the IEC socket's line (L) terminal. Note that this view is from the bottom up; the line (L) wire is the red wire on bottom.</figcaption>
+</figure>
+<figure>
+<p><a href="../../img/assembly/core/psu/wire2.png"><img alt="illustration" src="../../img/assembly/core/psu/wire2.png" width="480" /></a>
+  </p>
+<figcaption>2. Attach one end of the wire with two spade connectors to the socket's line (L) terminal.</figcaption>
+</figure>
+<figure>
+<p><a href="../../img/assembly/core/psu/wire3.png"><img alt="illustration" src="../../img/assembly/core/psu/wire3.png" width="480" /></a>
+  </p>
+<figcaption>3. Run the wire through the PSU tray's wiring hole and attach it to either terminal on the power switch.</figcaption>
+</figure>
+<figure>
+<p><a href="../../img/assembly/core/psu/wire4.png"><img alt="illustration" src="../../img/assembly/core/psu/wire4.png" width="480" /></a>
+  </p>
+<figcaption>4. Attach the spade connector on the remaining wire to the remaining free switch terminal.</figcaption>
+</figure>
+<figure>
+<p><a href="../../img/assembly/core/psu/wire5.png"><img alt="illustration" src="../../img/assembly/core/psu/wire5.png" width="480" /></a>
+  </p>
+<figcaption>5. Run the wire back through the PSU tray's wiring hole and secure the fork terminal to the PSU's line (L) AC terminal.</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>There are zip tie anchors in the side walls to secure power switch wiring and any excess.</p>
+</div>
 <h3 id="finished-reference">Finished Reference</h3>
+<p><img alt="finished illustration" src="../../img/assembly/core/psu/wire_finished.png" /></p>
 <!-- OmniBox GitHub Pages -->
 <!-- 
     OmniBox GitHub Folders 
