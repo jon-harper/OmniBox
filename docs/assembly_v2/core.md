@@ -1,6 +1,6 @@
 ---
 title: Core Assembly
-summary: Instructiosn for assembling the Core of an OmniBox.
+summary: Instructions for assembling the Core of an OmniBox.
 authors: Jon Harper
 date: 2022-10-29
 ---
