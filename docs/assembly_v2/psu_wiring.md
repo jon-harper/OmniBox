@@ -12,10 +12,7 @@ At this point, it is a good idea to wire the power supply, power switch, and IEC
 
     Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp_guide] to crimping common terminal types.
 
-<figure markdown>
-  [![illustration][intro]{width="480"}][intro]
-  <figcaption></figcaption>
-</figure>
+The Overview video in this section is limited to attaching the prepared wiring.
 
 ### Materials
 
@@ -26,9 +23,9 @@ At this point, it is a good idea to wire the power supply, power switch, and IEC
 | Spade connectors, 14-16 awg, insulated        | 3    |                                     |
 
 !!! important
-    For this example, we will use red wires for the power switch and use them for the *positive* (+) run from the power socket to switch to PSU.
+    For this example, we will use red wires for the power switch and use them for the *line* run from the power socket to switch to PSU (normally labeled 'L' on the PSU).
     
-    If you are using black wires, connect the *negative* (-) terminals with the crimped wires instead.
+    If you are using black wires, connect the *neutral* (N) terminals with the crimped wires instead.
 
 !!! caution
     Be careful of polarity and check your work!
@@ -48,18 +45,57 @@ At this point, it is a good idea to wire the power supply, power switch, and IEC
 4. Crimp the second wire with a spade terminal on one end.
 5. Crimp a fork connector on the other end.
 
+<figure markdown>
+  [![illustration][wires]{width="480"}][wires]
+  <figcaption>The prepared wires should look roughly like the above.</figcaption>
+</figure>
+
 ####  Wiring Installation
 
-1. Remove the red wire from the IEC socket's positive (+) terminal.
-2. Attach one end of the wire with two spade connectors to the socket's positive (+) terminal.
-3. Run the wire through the PSU tray's wiring hole and attach it to the power switch.
-4. Attach the spade connector on the remaining wire to the remaining free switch terminal.
-5. Run the wire back through the PSU tray's wiring hole.
-6. Secure the fork terminal to the PSU's positive (+) AC terminal.
-7. If desired, use zip ties to secure the wiring.
+??? Overview
+    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/psu_wiring.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+
+<figure markdown>
+  [![illustration][psu1]{width="480"}][psu1]
+  <figcaption>1. Remove the red wire from the IEC socket's line (L) terminal. Note that this view is from the bottom up; the line (L) wire is the red wire on bottom.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][psu2]{width="480"}][psu2]
+  <figcaption>2. Attach one end of the wire with two spade connectors to the socket's line (L) terminal.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][psu3]{width="480"}][psu3]
+  <figcaption>3. Run the wire through the PSU tray's wiring hole and attach it to either terminal on the power switch.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][psu4]{width="480"}][psu4]
+  <figcaption>4. Attach the spade connector on the remaining wire to the remaining free switch terminal.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][psu5]{width="480"}][psu5]
+  <figcaption>5. Run the wire back through the PSU tray's wiring hole and secure the fork terminal to the PSU's line (L) AC terminal.</figcaption>
+</figure>
+
+!!! note
+    There are zip tie anchors in the side walls to secure power switch wiring and any excess.
 
 ### Finished Reference
+
+![finished illustration][psu_final]
 
 [checklist]: ../printing.md#printed-component-checklist "Print Checklist"
 
 [intro]:   ../img/assembly/core/base/base_final.png
+
+[psu1]: ../img/assembly/core/psu/wire1.png
+[psu2]: ../img/assembly/core/psu/wire2.png
+[psu3]: ../img/assembly/core/psu/wire3.png
+[psu4]: ../img/assembly/core/psu/wire4.png
+[psu5]: ../img/assembly/core/psu/wire5.png
+[psu6]: ../img/assembly/core/psu/wire6.png
+[psu_final]: ../img/assembly/core/psu/wire_finished.png
+[wires]: ../img/assembly/core/psu/wires.png

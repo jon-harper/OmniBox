@@ -7,10 +7,14 @@ date: 2022-10-30
 
 ## Introduction
 
+Lower bay trays can be mounted in one of six (6) locations for short trays and one of two (2) locations for long trays. This flexibility is useful if tray placement is planned ahead (e.g., a buck converter can be located near the device it powers for shorter wiring).
+
 ??? overview
     <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/lower_bay.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
 
 ## Long Trays
+
+Long trays can be mounted on the left or right side of the lower bay. Long trays will only mount when oriented with the long side front-to-back.
 
 ### Materials
 
@@ -56,6 +60,8 @@ date: 2022-10-30
 </figure>
 
 ## Short Trays
+
+Short trays can mount anywhere in the lower bay, including in an unoccupied CPU bay.
 
 ### Materials
 

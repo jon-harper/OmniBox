@@ -14,11 +14,22 @@ So far we have assembled the Base. Next we'll add the Main Body. This is made of
 
 ### Materials
 
-| Parts                        | Qty | Note                            |
-|------------------------------|-----|---------------------------------|
-| #6 x 3/4" sharp point screws | 8   |                                 |
-| [:material-git: Main Body - Front][git_main_body_front] | 1   | :material-printer-3d-nozzle: Printed |
-| [:material-git: Main Body - Rear][git_main_body_rear]  | 1   | :material-printer-3d-nozzle: Printed |
+=== "As Illustrated"
+
+    | Parts                        | Qty | Note                            |
+    |------------------------------|-----|---------------------------------|
+    | #6 x 3/4" sharp point screws | 8   |                                 |
+    | [:material-git: `Main Body - Front - HSI - 40mm Internal.stl`][git_main_body_front] | 1   | :material-printer-3d-nozzle: Printed |
+    | [:material-git: `Main Body - Rear - HSI - Dual 40mm Fans.stl`][git_main_body_rear]  | 1   | :material-printer-3d-nozzle: Printed |
+
+
+=== "Generic"
+
+    | Parts                        | Qty | Note                            |
+    |------------------------------|-----|---------------------------------|
+    | #6 x 3/4" sharp point screws | 8   |                                 |
+    | [:material-git: Main Body - Front][git_main_body_front] | 1   | :material-printer-3d-nozzle: Printed |
+    | [:material-git: Main Body - Rear][git_main_body_rear]  | 1   | :material-printer-3d-nozzle: Printed |
 
 ### Directions
 
@@ -78,7 +89,7 @@ So far we have assembled the Base. Next we'll add the Main Body. This is made of
 
 <figure markdown>
   [![illustration][center3]{width="480"}][center3]
-  <figcaption>3. Use two (2) more M3 screws to fill in the remaining screw holes.</figcaption>
+  <figcaption>3. Use two (2) more M3 screws to fill in the bottom two screw holes on one side.</figcaption>
 </figure>
 
 <figure markdown>
@@ -186,12 +197,12 @@ The illustrated examples are 40mm Internal Fan for the front and Dual 40mm Fans 
 
 <figure markdown>
   [![illustration][crossbar1]{width="480"}][crossbar1]
-  <figcaption>1. Set the crossbar between the screw holes at the top of the front main body. Note that the lip should face forward.</figcaption>
+  <figcaption>1. Hold the crossbar between the screw holes at the top of the front main body. Note that the lip should face forward.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][crossbar2]{width="480"}][crossbar2]
-  <figcaption>2. Fasten the crossbar in place with two (2) M3 x 20mm screws. Tightness can be adjusted to square the top of the case body.</figcaption>
+  <figcaption>2. Fasten the crossbar in place with two (2) M3 x 20mm screws. Tightness can be adjusted to help square the sides of the case body.</figcaption>
 </figure>
 
 ### Finished Reference
