@@ -13,7 +13,7 @@ date: 2022-10-30
 | Parts                                       | Qty | Note                            |
 |---------------------------------------------|-----|---------------------------------|
 | Heat set inserts, M3, 4.5x5.7mm             | 2   |                                 |
-| [:material-git: Base - Rear][git_base_rear] | 1   | :material-printer-3d-nozzle: Printed |
+| [:material-git: `Base - Rear - HSI.stl`][git_base_rear] | 1   | :material-printer-3d-nozzle: Printed |
 
 ## Directions
                                                             

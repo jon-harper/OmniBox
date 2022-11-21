@@ -77,8 +77,8 @@ Assembly of the case starts with the Base and PSU Tray.
     | SPST toggle switch        | 1   |                                 |
     | IEC C14 socket with fuse holder | 1   |                           |
     | Fuse, Glass, 5x20mm, Fast Blow | 1 | |                            |
-    | [:material-git: Base - Front][git_base_front] | 1   | :material-printer-3d-nozzle: Printed |
-    | [:material-git: Base - Rear][git_base_rear]  | 1   | :material-printer-3d-nozzle: Printed |
+    | [:material-git: `Base - Front.stl`][git_base_front] | 1   | :material-printer-3d-nozzle: Printed |
+    | [:material-git: `Base - Rear - HSI.stl`][git_base_rear]  | 1   | :material-printer-3d-nozzle: Printed |
 
 === "Generic"
     | Parts                     | Qty | Note                            |
@@ -196,7 +196,6 @@ Assembly of the case starts with the Base and PSU Tray.
 [psu4]: ../img/assembly/trays/psu/psu4.png
 [psu5]: ../img/assembly/trays/psu/psu5.png
 [psu_final]: ../img/assembly/trays/psu/psu_final.png
-[vid_psu]: ../video/psu.mp4
 
 [iec1]: ../img/assembly/iec/iec1.png
 [iec2]: ../img/assembly/iec/iec2.png
@@ -207,9 +206,7 @@ Assembly of the case starts with the Base and PSU Tray.
 [base_prep4]: ../img/assembly/core/base/base_prep4.png
 [base_prep5]: ../img/assembly/core/base/base_prep5.png
 [base_prep_final]: ../img/assembly/core/base/base_prep_final.png
-[vid_prep]: ../video/base_prep.mp4
 
 [base1]:        ../img/assembly/core/base/base1.png
 [base2]:        ../img/assembly/core/base/base2.png
 [base_final]:   ../img/assembly/core/base/base_final.png
-[vid_base]: ../video/base.mp4

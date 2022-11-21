@@ -101,7 +101,7 @@ The illustrated examples are 40mm Internal Fan for the front and Dual 40mm Fans 
 
 #### Front
 
-=== "40mm Internal Fan"
+=== "40mm Internal Fan (Illustrated)"
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
@@ -121,7 +121,7 @@ The illustrated examples are 40mm Internal Fan for the front and Dual 40mm Fans 
 
 #### Rear
 
-=== "Dual 40mm Fans"
+=== "Dual 40mm Fans (Illustrated)"
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
@@ -191,28 +191,28 @@ The illustrated examples are 40mm Internal Fan for the front and Dual 40mm Fans 
 
 <figure markdown>
   [![illustration][crossbar2]{width="480"}][crossbar2]
-  <figcaption>2. Fasten the crossbar in place with two (2) M3 x 20mm screws. Avoid overtightening.</figcaption>
+  <figcaption>2. Fasten the crossbar in place with two (2) M3 x 20mm screws. Tightness can be adjusted to square the top of the case body.</figcaption>
 </figure>
 
 ### Finished Reference
 
 [![illustration][crossbar_final]{width="640"}][crossbar_final]
 
-[base]: base.md "Base Assembly"
-[trays]: trays.md "Tray Assembly"
-[panels]:  panels.md "Panel Assembly"
-[checklist]: ../printing.md#print-checklist "Print Checklist"
+[base]:         base.md "Base Assembly"
+[trays]:        trays.md "Tray Assembly"
+[panels]:       panels.md "Panel Assembly"
+[checklist]:    ../printing.md#print-checklist "Print Checklist"
 
-[main1]: ../img/assembly/core/main/main1.png
-[main2]: ../img/assembly/core/main/main2.png
-[main3]: ../img/assembly/core/main/main3.png
-[main4]: ../img/assembly/core/main/main4.png
-[main_final]: ../img/assembly/core/main/main_final.png
+[main1]:        ../img/assembly/core/main/main1.png
+[main2]:        ../img/assembly/core/main/main2.png
+[main3]:        ../img/assembly/core/main/main3.png
+[main4]:        ../img/assembly/core/main/main4.png
+[main_final]:   ../img/assembly/core/main/main_final.png
 
-[center1]: ../img/assembly/core/center/center1.png
-[center2]: ../img/assembly/core/center/center2.png
-[center3]: ../img/assembly/core/center/center3.png
-[center4]: ../img/assembly/core/center/center4.png
+[center1]:      ../img/assembly/core/center/center1.png
+[center2]:      ../img/assembly/core/center/center2.png
+[center3]:      ../img/assembly/core/center/center3.png
+[center4]:      ../img/assembly/core/center/center4.png
 [center_final]: ../img/assembly/core/main/main_final.png
 
 [internal_fan1]: ../img/assembly/core/fans/internal_fan1.png
@@ -224,6 +224,6 @@ The illustrated examples are 40mm Internal Fan for the front and Dual 40mm Fans 
 [external_fan4]: ../img/assembly/core/fans/external_fan4.png
 [external_fan_final]: ../img/assembly/core/fans/external_fan_final.png
 
-[crossbar1]: ../img/assembly/core/crossbar/crossbar1.png
-[crossbar2]: ../img/assembly/core/crossbar/crossbar2.png
+[crossbar1]:    ../img/assembly/core/crossbar/crossbar1.png
+[crossbar2]:    ../img/assembly/core/crossbar/crossbar2.png
 [crossbar_final]: ../img/assembly/core/crossbar/crossbar_final.png

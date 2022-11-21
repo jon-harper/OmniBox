@@ -7,6 +7,8 @@ date: 2022-11-01
 
 Adding inserts finishes with the rear of the Main Body.
 
+These instructions are the same for both HSI versions of the rear Main Body.
+
 ??? overview
     <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/hsi_rear.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
 
@@ -15,7 +17,7 @@ Adding inserts finishes with the rear of the Main Body.
 | Parts                                                 | Qty | Note                            |
 |-------------------------------------------------------|-----|---------------------------------|
 | Heat set inserts, M3, 4.5x5.7mm                       | 16  |                                 |
-| [:material-git: Main Body - Rear][git_main_body_rear] | 1   | :material-printer-3d-nozzle: Printed |
+| [:material-git: `Main Body - Rear - HSI - Dual 40mm Fans.stl`][git_main_body_rear] | 1   | :material-printer-3d-nozzle: Printed |
 
 ### Directions
                                                             

@@ -7,6 +7,8 @@ date: 2022-11-01
 
 The front of the Main Body has eight (8) inserts, with four (4) canted at an angle for the display.
 
+These instructions are the same for both HSI versions of the front Main Body.
+
 !!! note
     The display screen is at a **50 degree** angle, not 45. The [:material-git: practice block][git_hsi_practice] has six holes at this angle for practice purposes.
 
@@ -21,7 +23,7 @@ The front of the Main Body has eight (8) inserts, with four (4) canted at an ang
 | Parts                             | Qty | Note                            |
 |-----------------------------------|-----|---------------------------------|
 | Heat set inserts, M3, 4.5x5.7mm   | 8   |                                 |
-| [:material-git: Main Body - Front][git_main_body_front] | 1   | :material-printer-3d-nozzle: Printed |
+| [:material-git: `Main Body - Front - HSI - 40mm Internal.stl`][git_main_body_front] | 1   | :material-printer-3d-nozzle: Printed |
 
 ### Directions
                                                             
