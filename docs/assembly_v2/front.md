@@ -34,12 +34,12 @@ date: 2022-11-03
 ### Directions
                                                             
 <figure markdown>
-  [![illustration][front1]{width="480"}][front1]
+  [![illustration][front1]][front1]
   <figcaption>1. TODO</figcaption>
 </figure>
 
 <figure markdown>
-  [![illustration][front2]{width="480"}][front2]
+  [![illustration][front2]][front2]
   <figcaption>2. TODO</figcaption>
 </figure>
 

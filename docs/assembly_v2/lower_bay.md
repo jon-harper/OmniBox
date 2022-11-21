@@ -41,22 +41,22 @@ Long trays can be mounted on the left or right side of the lower bay. Long trays
                                                             
 <figure markdown>
   [![illustration][lower_bay1]{width="480"}][lower_bay1]
-  <figcaption>1. TODO</figcaption>
+  <figcaption>1. Set a buck converter on the tray, aligning with the screw holes.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][lower_bay2]{width="480"}][lower_bay2]
-  <figcaption>2. TODO</figcaption>
+  <figcaption>2. Fasten with two (2) M3 x 6mm screws.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][lower_bay3]{width="480"}][lower_bay3]
-  <figcaption>3. TODO</figcaption>
+  <figcaption>3. Repeat the first two steps with the second buck converter.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][lower_bay4]{width="480"}][lower_bay4]
-  <figcaption>4. TODO</figcaption>
+  <figcaption>4. The tray will fit on either left or right side, set longways as pictured. Secure with four (4) M4 x 6mm screws.</figcaption>
 </figure>
 
 ## Short Trays
@@ -87,23 +87,18 @@ Short trays can mount anywhere in the lower bay, including in an unoccupied CPU 
 ### Directions
                                                             
 <figure markdown>
-  [![illustration][lower_bay5]{width="480"}][lower_bay5]
-  <figcaption>1. TODO</figcaption>
+  [![illustration][lower_bay5]][lower_bay5]
+  <figcaption>1. Set the UPS on the lower bay tray.</figcaption>
 </figure>
 
 <figure markdown>
-  [![illustration][lower_bay6]{width="480"}][lower_bay6]
-  <figcaption>2. TODO</figcaption>
+  [![illustration][lower_bay6]][lower_bay6]
+  <figcaption>2. Fasten the UPS to the tray with four (4) M4 x 6mm screws.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][lower_bay7]{width="480"}][lower_bay7]
-  <figcaption>3. TODO</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][lower_bay8]{width="480"}][lower_bay8]
-  <figcaption>4. TODO</figcaption>
+  <figcaption>3. Secure the tray to the case with four (4) M4 x 6mm screws.</figcaption>
 </figure>
 
 ## Finished Reference
@@ -117,6 +112,4 @@ Short trays can mount anywhere in the lower bay, including in an unoccupied CPU 
 [lower_bay5]: ../img/assembly/trays/lower_bay/lower_bay5.png
 [lower_bay6]: ../img/assembly/trays/lower_bay/lower_bay6.png
 [lower_bay7]: ../img/assembly/trays/lower_bay/lower_bay7.png
-[lower_bay8]: ../img/assembly/trays/lower_bay/lower_bay8.png
 [lower_bay_final]: ../img/assembly/trays/lower_bay/lower_bay_final.png
-[vid_lower_bay]: ../video/lower_bay.mp4
