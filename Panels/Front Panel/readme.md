@@ -28,6 +28,8 @@ There are three variants:
 - USB C
 - No USB panel mount
 
+All three variants require printing the holder and cap files in `Misc/Lanmu Micro SD Extension`.
+
 *If you do not have an SD card extension, flashing your MCU will require removing the lid or display to access the SD card slot.*
 
 ## `Template`
