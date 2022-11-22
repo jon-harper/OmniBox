@@ -108,16 +108,18 @@ These parts still need to be tested for fit and any other issues.
 - [Documentation site](https://jon-harper.github.io/OmniBox)
     - Added tooltips to links.
     - Consolidated external links and added tooltips.
-    - Replaced assembly and illustration pictures with uniformly styled generated graphics.
+    - Replaced assembly and illustration pictures with uniformly-styled generated graphics.
     - Documentation site is now versioned.
 - Assembly Guide
     - Completely rewritten for 0.9.9.
     - Basic wiring instructions included.
+    - Added links to additional guides for some areas.
     - **Video overviews** for each section.
 - [Repository](https://github.com/jon-harper/OmniBox)
-    - Added `/include` subfolder for external documentation files.
+    - Documentation is no longer in the main repository.
     - Renamed "Fan Cages" to "Fans".
     - Further divided lids folders for ease of navigation.
+    - Lots of miscellaneous cleanup.
 ## Gallery
 
 <figure markdown>
