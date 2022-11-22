@@ -69,7 +69,7 @@ Every effort is made to avoid incompatibilities between versions, and so far all
 
 With version 1.0, changes may be made that cause deprecated parts to lose compatibility. This is a final chance to "lock in" the design.
 
-At this point, OmniBox releases will come with a Version Stability Guarantee:
+At this point, OmniBox releases will come with a **Version Stability Guarantee**:
 
 The way that Core components fit together and panels and trays attach to the case will be "frozen" and stable. If you choose to print a newer version of a Core part, no panels or trays will need to be reprinted. New products added in future releases can likewise be used in the Core case body from a prior release.
 

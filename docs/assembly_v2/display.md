@@ -21,7 +21,7 @@ Common aftermarket TFT displays have an extra step of mounting the display to a 
     | M3 x 6mm machine screws   | 4   |                                 |
     | M3 x 8mm machine screws   | 4   | May substitute 10mm or 12mm.    |
     | Generic 12864 LCD         | 1   | Comes with many Creality printers. |
-    | [:material-git: Display Panel][git_generic_12864] | 1   | :material-printer-3d-nozzle: Printed |
+    | [:material-git: `Display Panel - Generic 12864.stl`][git_generic_12864] | 1   | :material-printer-3d-nozzle: Printed |
     | [:material-git: Display Knob][git_display_knob] | 1 | :material-printer-3d-nozzle: Printed, Optional |
 
 
@@ -29,21 +29,22 @@ Common aftermarket TFT displays have an extra step of mounting the display to a 
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M3 x 12mm machine screws  | 4   | Can also use 10mm.              |
+    | M3 x 10mm machine screws  | 4   | Can also use 12mm.              |
     | Compatible LCD display    | 1   |                                 |
-    | Display Panel | 1   | :material-printer-3d-nozzle: Printed |
+    | Display Panel             | 1   | :material-printer-3d-nozzle: Printed |
+    | [:material-git: Display Knob][git_display_knob] | 1 | :material-printer-3d-nozzle: Printed, Optional |
 
 === "HSI"
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
     | M3 x 8mm machine screws   | 4   |                                 |
-    | Compatible LCD display    | 1   | |
-    | Display Panel | 1   | :material-printer-3d-nozzle: Printed |
-
+    | Compatible LCD display    | 1   |                                 |
+    | Display Panel             | 1   | :material-printer-3d-nozzle: Printed |
+    | [:material-git: Display Knob][git_display_knob] | 1 | :material-printer-3d-nozzle: Printed, Optional |
 
 !!! note
-    The Stock and HSI materials lists do not include the hardware needed to mount the display to the panel. Only hardware common to all configurations are listed.
+    Only the fasteners required to mount the printed panel to the case are listed in the Stock and HSI materials.
     
 ## Directions
                                                             
@@ -59,7 +60,7 @@ Common aftermarket TFT displays have an extra step of mounting the display to a 
 
 <figure markdown>
   [![illustration][display3]{width="480"}][display3]
-  <figcaption>3. Push the knob back in place. If you have a printed knob, use it in place of the original.</figcaption>
+  <figcaption>3. If you have a printed knob, push it back in place of the original. Otherwise, push the original knob back.</figcaption>
 </figure>
 
 <figure markdown>

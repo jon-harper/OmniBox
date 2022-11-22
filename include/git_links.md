@@ -121,3 +121,4 @@
 [twitter]: https://twitter.com/TheOmniBox "@TheOmniBox (Twitter)"
 [reddit]: https://www.reddit.com/user/jonspaceharper/ "u/jonspaceharper (Reddit)"
 [crimp_guide]: https://www.fscables.com/sites/admin/plugins/elfinder/files/fscables/other%20pdf/cablecraft_crimp_guide.pdf "Cablecraft: A Comprehensive Guide to Good Crimping Practice"
+[ground_guide]: https://support.th3dstudio.com/helpcenter/printer-grounding-how-to-check-your-psu-and-grounding-your-bed/ "TH3D Bed Grounding Guide"

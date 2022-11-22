@@ -1,62 +1,63 @@
 ---
-title: Rear Panel and Lid(s)
-summary: Adding the rear panel, wiring, and closing up.
+title: Bottom Panel & Lid
+summary: Final steps to close up the printer.
 authors: Jon Harper
-date: 2022-11-03
+date: 2022-11-15
 ---
 
-## Rear Panel
+This is the last section of the build. Here we close up the bottom and top of the case.
+
+## Bottom Panel
 
 ??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/rear.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/bottom.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
 
 ### Materials
+
+Note that builds requiring a base extension will need longer screws.
 
 === "As Illustrated"
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M3 x 8mm machine screws   | 8   | May substitute 6mm screws.      |
-    | [:material-git: Rear Panel - Generic, No USB, No Fan][git_generic_rear] | 1  | :material-printer-3d-nozzle: Printed |
+    | M3 x 8mm machine screws   | 8   |                                 |
+    | [:material-git: Closed Bottom Panel][git_closed_bottom] | 1  | :material-printer-3d-nozzle: Printed, two (2) files |
 
 === "Generic"
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
     | M3 x 8mm machine screws   | 8   | May substitute 10mm or 12mm.    |
-    | Rear Panel                | 1  | :material-printer-3d-nozzle: Printed |
+    | Bottom Panel              | 1  | :material-printer-3d-nozzle: Printed, two (2) files |
 
-=== "HSI"
+=== "With Base Extension"
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M3 x 8mm machine screws   | 8   | May substitute 6mm screws.      |
-    | Rear Panel                | 1   | :material-printer-3d-nozzle: Printed |
+    | M3 x 20mm machine screws  | 8   |                                 |
+    | Bottom Panel              | 1   | :material-printer-3d-nozzle: Printed, two (2) files |
+    | [:material-git: Base Extension][git_base_extension] | 1 | :material-printer-3d-nozzle: Printed, two (2) files |
 
 ### Directions
                                                             
 <figure markdown>
-  [![illustration][rear1]{width="480"}][rear1]
-  <figcaption>1. Fit the rear panel against the back of the case.</figcaption>
+  [![illustration][bottom1]{width="480"}][bottom1]
+  <figcaption>1. Line up the front bottom panel with the front base.</figcaption>
 </figure>
 
 <figure markdown>
-  [![illustration][rear2]{width="480"}][rear2]
-  <figcaption>1. Fasten in place using eight (8) M3 screws.</figcaption>
+  [![illustration][bottom2]{width="480"}][bottom2]
+  <figcaption>2. Use four (4) M3 x 8mm screws to attach the panel.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][bottom3]{width="480"}][bottom3]
+  <figcaption>3. Use the same procedure for the rear bottom panel with four (4) more M3 x 8mm screws.</figcaption>
 </figure>
 
 ### Finished Reference
 
-![illustration][rear_final]
-
-## MCU Wiring
-
-Before we install the lid, all remaining wiring for the MCU and any other components should be completed.
-
-The number of combinations of printers and MCUs is nearly infinite. MCU wiring is therefore beyond the scope of this guide.
-
-!!! tip
-    It's often a good idea to run basic tests on your printer and MCU wiring before the next section.
+![illustration][bottom_final]
 
 ## Lid(s)
 
@@ -119,12 +120,21 @@ The example below uses a single, long lid. The procedure for installing two shor
 
 ![illustration][lid_final]
 
+<div align="center" markdown>
+## :material-check: That's it!
+   
+You've built an OmniBox! Congratulations!
+
+![logo][logo]
+</div>
+
 [lid1]: ../img/assembly/panels/lid/lid1.png
 [lid2]: ../img/assembly/panels/lid/lid2.png
 [lid3]: ../img/assembly/panels/lid/lid3.png
 [lid4]: ../img/assembly/panels/lid/lid4.png
 [lid_final]: ../img/assembly/panels/lid/lid_final.png
-
-[rear1]: ../img/assembly/panels/rear/rear1.png
-[rear2]: ../img/assembly/panels/rear/rear2.png
-[rear_final]: ../img/assembly/panels/rear/rear_final.png
+[bottom1]: ../img/assembly/panels/bottom/bottom1.png
+[bottom2]: ../img/assembly/panels/bottom/bottom2.png
+[bottom3]: ../img/assembly/panels/bottom/bottom3.png
+[bottom_final]: ../img/assembly/panels/bottom/bottom_final.png
+[logo]: ../img/favicon.png

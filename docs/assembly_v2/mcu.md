@@ -1,5 +1,5 @@
 ---
-title: MCU & MCU Wiring
+title: MCU Tray
 summary: Instructions for installing the MCU tray.
 authors: Jon Harper
 date: 2022-10-30
@@ -18,27 +18,22 @@ date: 2022-10-30
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
     | M3 x 6mm machine screws   | 4   | Some boards may use 5 or more.  |
-    | M3 x 8mm machine screws   | 4   | May substitute 10mm or 12mm.    |
+    | M3 x 8mm machine screws   | 4   | See note.                       |
     | BIGTREETECH SKR 2         | 1   |                                 |
     | [:material-git: MCU Tray - BTT SKR 1.3-2][git_btt_skr] | 1   | :material-printer-3d-nozzle: Printed |
 
-=== "Stock"
+=== "Generic"
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
     | M3 x 6mm machine screws   | 4   | Some boards may use 5 or more.  |
-    | M3 x 8mm machine screws   | 4   | May substitute 10mm or 12mm.    |
-    | Compatible MCU            | 1   | Illustrated: BIGTREETECH SKR 2  |
+    | M3 x 8mm machine screws   | 4   | See note.                       |
+    | Compatible MCU            | 1   |                                 |
     | MCU Tray                  | 1   | :material-printer-3d-nozzle: Printed |
 
-=== "HSI"
-
-    | Parts                     | Qty | Note                            |
-    |---------------------------|-----|---------------------------------|
-    | M3 x 6mm machine screws   | 4   | Some boards may use 5 or more.  |
-    | M3 x 8mm machine screws   | 4   | May substitute 6mm.             |
-    | Compatible MCU            | 1   | Illustrated: BIGTREETECH SKR 2  |
-    | MCU Tray                  | 1   | :material-printer-3d-nozzle: Printed |
+!!! note "Note: M3 x 8mm machine screws"
+    - Stock builds may use longer screws as the plastic wears.
+    - HSI builds may use 6mm screws instead.
 
 ### Directions
                                                             
@@ -48,9 +43,7 @@ date: 2022-10-30
 </figure>
 
 !!! important
-    Smaller boards with symmetric screw holes can be mounted in either direction.
-    
-    Larger trays (e.g. BIGTREETECH Octopus or Manta M8P) will only fit in the case if the board is oriented one way, as the trays are not symmetrical. If you have a large board, test which orientation is correct before securing the MCU.
+    Larger trays (e.g. BIGTREETECH Octopus or Manta M8P) will only fit in the case if the board is oriented one way, as the trays are not symmetrical. If you have a large MCU board, check which direction fits in the case before securing the MCU to the tray.
 
 <figure markdown>
   [![illustration][mcu2]{width="480"}][mcu2]
@@ -58,13 +51,13 @@ date: 2022-10-30
 </figure>
 
 <figure markdown>
-  [![illustration][mcu3]{width="480"}][mcu3]
+  [![illustration][mcu3]][mcu3]
   <figcaption>3. Set the MCU tray on the pillars in the case. Ideally, the MCU power connectors should orient to the back of the case or to the side.</figcaption>
 </figure>
 
 <figure markdown>
-  [![illustration][mcu4]{width="480"}][mcu4]
-  <figcaption>4. Secure with four (4) M3 x 8mm screws.</figcaption>
+  [![illustration][mcu4]][mcu4]
+  <figcaption>4. Fasten to the case with four (4) M3 x 8mm screws.</figcaption>
 </figure>
 
 ### Finished Reference
