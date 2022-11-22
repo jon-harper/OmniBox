@@ -55,7 +55,7 @@ Long trays can be mounted on the left or right side of the lower bay. Long trays
 </figure>
 
 <figure markdown>
-  [![illustration][lower_bay4]{width="480"}][lower_bay4]
+  [![illustration][lower_bay4]][lower_bay4]
   <figcaption>4. The tray will fit on either left or right side, set longways as pictured. Secure with four (4) M4 x 6mm screws.</figcaption>
 </figure>
 
@@ -97,7 +97,7 @@ Short trays can mount anywhere in the lower bay, including in an unoccupied CPU 
 </figure>
 
 <figure markdown>
-  [![illustration][lower_bay7]{width="480"}][lower_bay7]
+  [![illustration][lower_bay7]][lower_bay7]
   <figcaption>3. Secure the tray to the case with four (4) M4 x 6mm screws.</figcaption>
 </figure>
 

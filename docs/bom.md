@@ -22,7 +22,7 @@ These parts are common to all case builds. See below for additional requirements
 | PLA/PLA+ filament                      | 2   | kg  | Typical use is less than 1.5kg.                          |
 | TPU 95A filament                       | 0.05| kg  | **Optional.** Quantity is maximum estimated.             |
 | M3 x 8mm machine screws                | 50  | ea  |                                                          |
-| M3 x 12mm machine screws               | 6   | ea  |                                                          |
+| M3 x 12mm machine screws               | 8   | ea  |                                                          |
 | M3 x 20mm machine screws               | 2   | ea  |                                                          |
 | [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8   | ea  | See note below.             |
 | 16 awg stranded hookup wire            | 0.5 | m   | Red or black.                                            |
@@ -35,16 +35,16 @@ These parts are common to all case builds. See below for additional requirements
 | 128x64 or TFT LCD display              | 1   | ea  | See the [Supported Parts][support] list.                 |
 | Compatible power supply                | 1   | ea  | See the [Supported Parts][support] list.                 |
 
-<!-- | M3 x 6mm machine screws                | 4   | ea  |                                                          |
-| M4 x 6mm machine screws                | 4   | ea  |                                                          | -->
-
 !!! note "Note: Sharp Point Wood Screws"
     To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
 
 !!! note "Note: Fast Blow Glass Fuses"
-    Socket fuses do *not* replace inline fuses.
+    Socket fuses do *not* replace the fuses on your board or inline fuses.
 
-    Determining the correct fuse for a given configuration is beyond the scope of this documentation.
+    Determining the correct fuse for a given configuration is beyond the scope of this documentation. The Oznium blog has an [excellent guide][fuse_guide] on choosing a fuse size, however.
+
+!!! note "Note: Wiring and Connectors"
+    This list is not all-encompassing for wiring. Additional connectors and wiring will probably be needed, including for [grounding your bed/frame to earth][ground_guide].
 
 ## Heat Set Inserts (HSIs)
 

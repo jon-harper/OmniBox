@@ -35,7 +35,7 @@ These lists are per side panel.
                                                             
 <figure markdown>
   [![illustration][side1]{width="480"}][side1]
-  <figcaption>1. Place the side panel against the case body.</figcaption>
+  <figcaption>1. Place the side panel against the case body. Note that the top and bottom screw holes are not symmetrical.</figcaption>
 </figure>
 
 <figure markdown>

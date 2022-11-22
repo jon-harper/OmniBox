@@ -34,7 +34,7 @@ These instructions are the same for both HSI versions of the front Main Body.
 
 <figure markdown>
   [![illustration][hsi_front2]{width="480"}][hsi_front2]
-  <figcaption>2. Use a soldering iron the set the inserts.</figcaption>
+  <figcaption>2. Use a soldering iron to set the inserts.</figcaption>
 </figure>
 
 <figure markdown>
@@ -44,7 +44,7 @@ These instructions are the same for both HSI versions of the front Main Body.
 
 <figure markdown>
   [![illustration][hsi_front4]{width="480"}][hsi_front4]
-  <figcaption>4. Carefully set the inserts, checking that the inserts end flush with the display screen mount.</figcaption>
+  <figcaption>4. Carefully set the inserts, checking that the inserts finish flush with the display screen mount.</figcaption>
 </figure>
 
 

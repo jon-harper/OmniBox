@@ -130,9 +130,9 @@ Assembly of the case starts with the Base and PSU Tray.
     The next two steps are necessary if:
 
     - The IEC socket does not have a fuse; or
-    - The IEC socket has a fuse of the wrong capacity for your printer.
+    - The IEC socket has a fuse of the wrong capacity for your configuration.
 
-    Your printer typically comes with a fused socket of the correct capacity. It does not hurt to check anyway.
+    Consult with a professional if uncertain what capacity fuse you should use.
 
 <figure markdown>
   ![illustration][iec1]
@@ -141,7 +141,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
 <figure markdown>
   ![illustration][iec2]
-  <figcaption>5. Insert the a fuse into the fuse holder. If necessary, remove the fuse that came with the socket.</figcaption>
+  <figcaption>5. Insert a fuse into the fuse holder. If necessary, remove the fuse that came with the socket.</figcaption>
 </figure>
 
 <figure markdown>

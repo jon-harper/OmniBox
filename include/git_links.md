@@ -115,6 +115,7 @@
 [git_display_knob]:     https://github.com/jon-harper/OmniBox/blob/main/Misc/Display%20Knob                     "OmniBox GitHub: Replacement Display Knob"
 [git_hsi_practice]:     https://github.com/jon-harper/OmniBox/tree/0.9.9-beta/Misc/Heat%20Set%20Insert%20Practice%20Block/ "OmniBox GitHub: Heat Set Insert Practice Block"
 [git_carry_handle]:     https://github.com/jon-harper/OmniBox/blob/main/Misc/Carry%20Handle                     "OmniBox GitHub: Carry Handle for Lids"
+[git_microsd_extension]: https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Misc/MicroSD%20Extension%20-%20Lanmu "OmniBox GitHub: MicroSD Extension - Lanmu"
 
 <!-- External Links -->
 [bgdog]: https://www.thingiverse.com/thing:3999751 "BGDog's Stand Alone Main Control Case (Thingiverse)"
@@ -122,3 +123,4 @@
 [reddit]: https://www.reddit.com/user/jonspaceharper/ "u/jonspaceharper (Reddit)"
 [crimp_guide]: https://www.fscables.com/sites/admin/plugins/elfinder/files/fscables/other%20pdf/cablecraft_crimp_guide.pdf "Cablecraft: A Comprehensive Guide to Good Crimping Practice"
 [ground_guide]: https://support.th3dstudio.com/helpcenter/printer-grounding-how-to-check-your-psu-and-grounding-your-bed/ "TH3D Bed Grounding Guide"
+[fuse_guide]: https://www.oznium.com/blog/how-to-determine-the-fuse-wire-size-for-your-project/ "Oznium Blog: How to Determine the Fuse/Wire Size for Your Project"

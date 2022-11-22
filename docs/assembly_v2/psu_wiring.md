@@ -7,12 +7,38 @@ date: 2022-10-31
 
 At this point, it is a good idea to wire the power supply, power switch, and IEC socket. There are zip tie anchors available in the sides to secure the power switch wiring. The large hole in the right PSU tray mount allows wiring to pass through.
 
-!!! caution
-    In this section you will need to crimp closed barrel connectors. If you have never performed crimping before, it is strongly recommended that you practice before proceeding.
+## Considerations
 
-    Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp_guide] to crimping common terminal types.
+### Cautions
 
-The Overview video in this section is limited to attaching the prepared wiring.
+!!! important
+    For this example, we will use *red* wires for the power switch and use them for the *line* run from the power socket to switch to PSU (normally labeled 'L' on the PSU).
+    
+    If you are using *black* wires, connect the *neutral* (N) terminals with the crimped wires instead.
+
+!!! Warning
+    Be careful of polarity and always check your work!
+
+### Limitations
+
+!!! warning 
+    - **This guide is not meant to be a complete manual for wiring.**
+    - **I am not liable for any damage or injury that may result.**
+
+- The Overview video in this section is limited to attaching the prepared wiring.
+- This section of the guide does not cover all possible scenarios.
+- IEC sockets typically ship with short wires with precrimped connectors attached.
+    - If yours is not pre-wired, you will need two additional wires for the other poles of the IEC socket.
+    - Preparing and installing these wires is beyond the scope of this guide.
+
+### Crimping
+
+In this section you will need to crimp closed barrel connectors. If you have never performed crimping before, it is strongly recommended that you practice before proceeding.
+
+Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp_guide] to crimping common terminal types.
+
+
+## Wiring the PSU
 
 ### Materials
 
@@ -22,18 +48,7 @@ The Overview video in this section is limited to attaching the prepared wiring.
 | Fork connectors, 14-16 awg, female insulated  | 1    |                                     |
 | Spade connectors, 14-16 awg, insulated        | 3    |                                     |
 
-!!! important
-    For this example, we will use red wires for the power switch and use them for the *line* run from the power socket to switch to PSU (normally labeled 'L' on the PSU).
-    
-    If you are using black wires, connect the *neutral* (N) terminals with the crimped wires instead.
 
-!!! caution
-    Be careful of polarity and check your work!
-
-!!! note
-    IEC sockets typically ship with short wires with precrimped connectors attached. If yours is not pre-wired, you will need two additional wires for the other poles of the IEC socket.
-
-    Preparing and installing these wires is beyond the scope of this guide.
 
 ### Directions
 

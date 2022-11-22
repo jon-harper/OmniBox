@@ -11,7 +11,7 @@ date: 2022-11-03
 
 ## License
 
-OmniBox is released under the MIT License.
+OmniBox and its documentation are released under the MIT License.
 
 ```
 MIT License
