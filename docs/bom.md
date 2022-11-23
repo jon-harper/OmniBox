@@ -26,13 +26,13 @@ These parts are common to all case builds. See below for additional requirements
 | M3 x 20mm machine screws               | 2   | ea  |                                                          |
 | [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8   | ea  | See note below.             |
 | 16 awg stranded hookup wire            | 0.5 | m   | Red or black.                                            |
-| [:material-cart: Spade connectors, 14-16 awg, Female Insulated][bom_spade_connector] | 3   | ea  |                      |
-| [:material-cart: Fork connectors, 14-16 awg, Insulated][bom_fork_connector]       | 1   | ea  |                          |
+| [:material-cart: Spade connectors, 14-16 awg, Female, Insulated][bom_spade_connector] | 3   | ea  |                      |
+| [:material-cart: Fork connectors, 14-16 awg, #8, Insulated][bom_fork_connector]       | 1   | ea  | Ring connectors can be used as well. |
 | [:material-cart: SPST snap-in rocker switch][bom_switch]        | 1   | ea  | 30mm x 11mm profile. Identical to Creality Ender power switch. |
-| MCU (3D printer control board)         | 1   | ea  | See the [Supported Parts][support] list.                 |
 | [:material-cart: IEC C14 socket with fuse][bom_iec]          | 1   | ea  | Identical profile to Creality Ender series power socket. |
-| Fuse, 5x20mm, Glass, Fast Blow         | 1   | ea  | See note below. |
-| 128x64 or TFT LCD display              | 1   | ea  | See the [Supported Parts][support] list.                 |
+| Fuse, 5x20mm, Glass, Fast Blow         | 1   | ea  | See note below.                                          |
+| Compatible MCU                         | 1   | ea  | See the [Supported Parts][support] list.                 |
+| Compatible 128x64 or TFT LCD display   | 1   | ea  | See the [Supported Parts][support] list.                 |
 | Compatible power supply                | 1   | ea  | See the [Supported Parts][support] list.                 |
 
 !!! note "Note: Sharp Point Wood Screws"
@@ -44,9 +44,9 @@ These parts are common to all case builds. See below for additional requirements
     Determining the correct fuse for a given configuration is beyond the scope of this documentation. The Oznium blog has an [excellent guide][fuse_guide] on choosing a fuse size, however.
 
 !!! note "Note: Wiring and Connectors"
-    This list is not all-encompassing for wiring. Additional connectors and wiring will probably be needed, including for [grounding your bed/frame to earth][ground_guide].
+    This list is not all-encompassing for wiring. Additional connectors and wiring may be needed, including for [grounding your bed/frame to earth][ground_guide].
 
-## Heat Set Inserts (HSIs)
+### Heat Set Inserts (HSIs)
 
 If you are a printing an HSI case, you will need:
 
@@ -124,7 +124,7 @@ The rear body also has two versions: one with dual exhausts and one without any.
 
 ## Tray and Panel Configurations
 
-The Universal Bill of Materials includes the fasteners needed to mount panels and the the required trays. It does *not* include the hardware needed to attach anything to those panels and trays, as these are specific the hardware.
+The Universal Bill of Materials includes the fasteners needed to mount panels and the the required trays. It does *not* include the hardware needed to attach anything to those panels and trays. You can find mounting information for each component on the supported parts pages below.
 
 ### Power Supply Trays
 
@@ -135,16 +135,25 @@ Currently, two power supply models are supported. You will need one (1) of the f
 | [:material-cart: Mean Well LRS-350][bom_lrs350]   | Most Creality Ender-series printers use the LRS-350-24.  |
 | [:material-cart: Mean Well RSP-500][bom_rsp500]   | **(Beta)** RSP-500-24 is used in the Ender 5 Plus.       |
 
+Power supplies mount with M4 x 6mm screws.
+
+### MCUs
+
+Although every configuration has an MCU, there is not a standard mounting method. Specific mounting information is 
+
 ### CPU Trays and Display Panels
 
-Most configurations use a display and many have an SBC, such as a Raspberry Pi. See the [:material-git:`Trays/CPU`][git_cpu] and [:material-git:`Panels/Display`][git_display] folders for mounting information specific to your CPU tray and display panel.
+Most configurations use a display and many have an single-board computer (SBC), such as a Raspberry Pi. See the [supported SoC CPU][support_cpu] and [supported display][support_display] pages for mounting information specific to your CPU tray and display panel.
 
 ### Other Supported Parts
 
 See the [Supported Parts Overview][support] for a full list of parts and mounting locations. Some configurations require additional fasteners or fans.
 
-[support]: support/index.md
-[assembly]: assembly_v2/index.md
+[support]:          support/index.md    "Overview of supported parts"
+[support_display]:  support/displays.md "List of supported displays"
+[suport_mcu]:       support/mcu.md      "List of supported MCUs"
+[support_cpu]:      support/cpu.md      "List of supported SoC CPUs"
+[assembly]:         assembly_v2/index.md "Assembly documentation"
 
 [img_front_40mm]: img/components/front_40mm.png
 [img_front_60mm]: img/components/front_60mm.png

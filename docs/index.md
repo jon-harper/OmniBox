@@ -6,7 +6,7 @@ date: 2022-05-15
 ---
 
 !!! important "Important: Beta Documentation"
-    This is the documentation for latest beta release of OmniBox. You can switch to the documentation for a different release from the drop-down box above.
+    This documentation is for the latest beta release of OmniBox. You can switch to the documentation for a different release from the drop-down box above.
 
 ## About OmniBox
 
