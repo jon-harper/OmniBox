@@ -29,7 +29,7 @@ Common aftermarket TFT displays have an extra step of mounting the display to a 
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M3 x 10mm machine screws  | 4   | Can also use 12mm.              |
+    | M3 x 10mm machine screws  | 4   | May also use 12mm.              |
     | Compatible LCD display    | 1   |                                 |
     | Display Panel             | 1   | :material-printer-3d-nozzle: Printed |
     | [:material-git: Display Knob][git_display_knob] | 1 | :material-printer-3d-nozzle: Printed, Optional |

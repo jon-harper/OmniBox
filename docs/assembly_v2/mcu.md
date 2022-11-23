@@ -52,7 +52,7 @@ date: 2022-10-30
 
 <figure markdown>
   [![illustration][mcu3]][mcu3]
-  <figcaption>3. Set the MCU tray on the pillars in the case. Ideally, the MCU power connectors should orient to the back of the case or to the side.</figcaption>
+  <figcaption>3. Set the MCU tray on the pillars in the case. Ideally, the board's power connectors should orient to the back of the case or to the side.</figcaption>
 </figure>
 
 <figure markdown>

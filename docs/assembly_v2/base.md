@@ -34,7 +34,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
 <figure markdown>
   [![illustration][psu1]{width="480"}][psu1]
-  <figcaption>1. Set the power supply so that the terminals are facing away from you and oriented downwards.</figcaption>
+  <figcaption>1. Set the power supply with the terminals are facing downwards and away from you.</figcaption>
 </figure>
 
 <figure markdown>
@@ -101,12 +101,12 @@ Assembly of the case starts with the Base and PSU Tray.
 </figure>
 
 !!! note
-    The front vents mount up to three fans. It is up to you how many fans to use; in this example we will use one (1). 
+    The front vents mount up to three fans. In this example we will use one (1). 
     
     Repeat the next two (2) steps for any additional fans.
 
 !!! caution
-    Once the main body is installed, the fan will press directly against the floor of the main body. If the fan's wiring passes upwards through a strain relief notch in the fan case, the wiring will become trapped between the fan and case body. Either turn the fan 90 degrees or the remove the wiring from the strain relief notch.
+    The fan(s) will press directly against the floor of the main body once it is installed. If the wiring passes upwards through a strain relief notch in the fan case, the wires will be trapped between the fan and case body. Either turn the fan 90 degrees or the remove the wiring from the strain relief notch.
 
 <figure markdown>
   [![illustration][base_prep2]{width="480"}][base_prep2]
@@ -122,9 +122,9 @@ Assembly of the case starts with the Base and PSU Tray.
 </figure>
 
 !!! important "Important: Screw Lengths"
-    The holes for internally mounted fans are 6mm deep. With a 10mm fan, this means screws should never be longer than 16mm.
+    The holes for internally mounted fans are 6mm deep. With a 10mm fan, screws should never be longer than 16mm.
 
-    Some fans have 4mm deep cutouts for screw heads. If your fan has these, use 10mm or 12mm screws instead.
+    Some fans have cutouts for screw heads. If your fan has these, use 10mm or 12mm screws instead.
 
 !!! note
     The next two steps are necessary if:
@@ -132,7 +132,7 @@ Assembly of the case starts with the Base and PSU Tray.
     - The IEC socket does not have a fuse; or
     - The IEC socket has a fuse of the wrong capacity for your configuration.
 
-    Consult with a professional if uncertain what capacity fuse you should use.
+    [This guide][fuse_guide] can help get you started. Consult with a professional if uncertain what capacity fuse you should use.
 
 <figure markdown>
   ![illustration][iec1]

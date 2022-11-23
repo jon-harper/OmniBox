@@ -54,10 +54,13 @@ Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp
 
 #### Preparing Materials
 
+!!! note
+    When crimping closed barrel connectors, the bare wire should extend no more than 1mm from the end of the crimp.
+
 1. Cut one (1) length of hookup wire approximately 30cm (12") long and strip the ends.
-2. Crimp a spade terminal on each end.
+2. Crimp a spade terminal on each end and set the wire aside.
 3. Cut one (1) length of wire approximately 37cm (15") long and strip the ends.
-4. Crimp the second wire with a spade terminal on one end.
+4. Crimp a spade terminal on one end.
 5. Crimp a fork connector on the other end.
 
 <figure markdown>
