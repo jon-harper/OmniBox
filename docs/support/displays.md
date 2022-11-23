@@ -27,8 +27,11 @@ Component names below link to the corresponding git folder. Most mounts require 
 [:material-cart: Product Link][bom_]{ .md-button }
 
 [![product picture][img_]{width="200"}][img_]
+
+- Mounting: 
+- Notes:
  -->
-### Generic 12864
+### Generic 12864 Display
 
 [:material-git: Generic 12864][git_generic_12864]{ .md-button }
 
@@ -36,8 +39,10 @@ Component names below link to the corresponding git folder. Most mounts require 
 
 [![product picture][img_12864]{width="200"}][img_12864]
 
-- Mounting: 4x M3
-- Notes: Also known as Creality CR-10 stock display; comes on most Creality printers.
+- Mounting: 4x M3 x 6mm
+- Notes: 
+    - Also known as Creality CR-10 stock display; comes on most Creality printers.
+    - Called RepRap Discount Smart Controller in Marlin.
 
 ### FYSETC Mini 12864
 
@@ -47,7 +52,9 @@ Component names below link to the corresponding git folder. Most mounts require 
 
 [![product picture][img_mini12864]{width="200"}][img_mini12864]
 
-- Mounting: 4x M3
+- Mounting: 
+    - 4x M3 x 6mm
+    - 4x M3 x 20mm
 - Notes: This includes BIGTREETECH brand and other clones.
 
 ### BIGTREETECH 2.4" TFT
@@ -56,7 +63,9 @@ Component names below link to the corresponding git folder. Most mounts require 
 
 [![product picture][img_btt_tft24]{width="200"}][img_btt_tft24]
 
-- Mounting: 4x M3
+- Mounting: 
+    - 4x M3 x 6mm
+    - 4x M3 x 8mm
 - Notes: This product is discontinued, but I still use it, so there's a part.
 
 ### BIGTREETECH 3.5" TFT
@@ -67,8 +76,10 @@ Component names below link to the corresponding git folder. Most mounts require 
 
 [![product picture][img_btt_tft35]{width="200"}][img_btt_tft35]
 
-- Mounting: 4x M3
-- Notes: This is not the E3 version, which would use the Generic 12864 mount. 
+- Mounting: 
+    - 4x M3 x 6mm
+    - 4x M3 x 8mm
+- Notes: This is not the E3 version, which uses the Generic 12864 mount. 
 
 ### BIGTREETECH 3.5" TFT E3
 
@@ -78,7 +89,7 @@ Component names below link to the corresponding git folder. Most mounts require 
 
 [![product picture][img_btt_tft35_e3]{width="200"}][img_btt_tft35_e3]
 
-- Mounting: 4x M3
+- Mounting: 4x M3 x 6mm
 - Notes: Uses the Generic 12864 mount.
 
 <!-- ### BIGTREETECH 5.0
@@ -101,7 +112,7 @@ Any TFT designed with mounts points for a Raspberry Pi on the back should be com
 Compatible examples include:
 
 - BIGTREETECH Pi TFT displays (using included hardware)
-- Raspberry Pi-branded 7" TFT (with additional standoffs and M2.5 screws)
+- Raspberry Pi-branded 7" TFT (with additional 10-12mm standoffs and M2.5 screws)
 
 ### Mounting Methods
 

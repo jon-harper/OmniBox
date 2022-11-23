@@ -31,7 +31,8 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 [![product picture][img_4010]{width="200"}][img_4010]
 
-- Mounting: 4x M3 x 16mm (12mm if counterbored)
+- Internal Mounting: 4x M3 x 16mm (12mm if counterbored)
+- External Mounting: 4x M3 x 20mm
 
 ### 40mm x 20mm
 
@@ -41,7 +42,8 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 [![product picture][img_4020]{width="200"}][img_4020]
 
-- Mounting: 4x M3 x 30mm (25mm if counterbored)
+- Internal Mounting: 4x M3 x 25mm (20mm if counterbored)
+- External Mounting: 4x M3 x 30mm
 
 ## 60mm Axial Fans
 

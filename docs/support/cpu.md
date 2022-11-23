@@ -34,7 +34,7 @@ If you do not use an SBC, the side of the bay can be used as a [Side Panel][pane
 
 [![product picture][img_rpi_3b]{width="200"}][img_rpi_3b]
 
-Mounting: 4x M3
+Mounting: 4x M3 x 6mm
 
 ### Raspberry Pi 4B
 
@@ -44,13 +44,13 @@ Mounting: 4x M3
 
 [![product picture][img_rpi_4b]{width="200"}][img_rpi_4b]
 
-Mounting: 4x M3
+Mounting: 4x M3 x 6mm
 
 ### Universal Mount
 
 [:material-git: Raspberry Pi Universal][git_rpi_universal]{ .md-button }
 
-- Mounting: 4x M3
+- Mounting: 4x M3 x 6mm
 - Note: This tray should be compatible with *any* board using the Raspberry Pi mounting hole pattern.
 
 [cpu]: ../img/components/cpu.png
