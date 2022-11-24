@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-07-22
 ---
 
-Lower Bay Trays mount below the MCU board and are used for a wide range of parts. Parts compatible with the lower bay are listed here. The [:material-git: /Trays/Lower Bay][git_lower_bay] git folder is organized with subfolders for each supported part. All variations based around that part are in the same folder.
+Lower Bay Trays mount below the MCU board and are used for a wide range of parts. Parts compatible with the lower bay are listed here. The [:material-git: `/Trays/Lower Bay`][git_lower_bay] git folder is organized with subfolders for each supported part. All variations based around that part are in the same folder.
 
 There are two types of Lower Bay Trays: Short and Long. A Long length tray covers the mount points of two Short trays and must be mounted from the front to the back of the case.
 
