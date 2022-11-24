@@ -43,7 +43,7 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -400,7 +400,21 @@
   
     <li class="md-nav__item">
       <a href="../support/cpu/" class="md-nav__link">
-        SoC CPUs
+        SoC CPUs/SBCs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/psu/" class="md-nav__link">
+        Power Supplies/PSUs
       </a>
     </li>
   
@@ -606,29 +620,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#power-supply-trays" class="md-nav__link">
-    Power Supply Trays
+  <a href="#psu-trays" class="md-nav__link">
+    PSU Trays
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#mcus" class="md-nav__link">
-    MCUs
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cpu-trays-and-display-panels" class="md-nav__link">
-    CPU Trays and Display Panels
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#other-supported-parts" class="md-nav__link">
-    Other Supported Parts
+  <a href="#lower-bay-trays" class="md-nav__link">
+    Lower Bay Trays
   </a>
   
 </li>
@@ -689,7 +689,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/" class="md-nav__link">
+      <a href="../assembly/" class="md-nav__link">
         Getting Started
       </a>
     </li>
@@ -729,7 +729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/hsi_base/" class="md-nav__link">
+      <a href="../assembly/hsi_base/" class="md-nav__link">
         Rear Base
       </a>
     </li>
@@ -743,7 +743,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/hsi_front/" class="md-nav__link">
+      <a href="../assembly/hsi_front/" class="md-nav__link">
         Front Main Body
       </a>
     </li>
@@ -757,7 +757,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/hsi_rear/" class="md-nav__link">
+      <a href="../assembly/hsi_rear/" class="md-nav__link">
         Rear Main Body
       </a>
     </li>
@@ -804,7 +804,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/base/" class="md-nav__link">
+      <a href="../assembly/base/" class="md-nav__link">
         Base and PSU
       </a>
     </li>
@@ -818,7 +818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/psu_wiring/" class="md-nav__link">
+      <a href="../assembly/psu_wiring/" class="md-nav__link">
         PSU Wiring
       </a>
     </li>
@@ -832,7 +832,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/core/" class="md-nav__link">
+      <a href="../assembly/core/" class="md-nav__link">
         Core Assembly
       </a>
     </li>
@@ -879,7 +879,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/cpu/" class="md-nav__link">
+      <a href="../assembly/cpu/" class="md-nav__link">
         CPU
       </a>
     </li>
@@ -893,7 +893,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/side/" class="md-nav__link">
+      <a href="../assembly/side/" class="md-nav__link">
         Side Panel(s)
       </a>
     </li>
@@ -907,7 +907,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/lower_bay/" class="md-nav__link">
+      <a href="../assembly/lower_bay/" class="md-nav__link">
         Lower Bay Trays
       </a>
     </li>
@@ -921,7 +921,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/front/" class="md-nav__link">
+      <a href="../assembly/front/" class="md-nav__link">
         Front Panel
       </a>
     </li>
@@ -968,7 +968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/mcu/" class="md-nav__link">
+      <a href="../assembly/mcu/" class="md-nav__link">
         MCU Tray
       </a>
     </li>
@@ -982,7 +982,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/display/" class="md-nav__link">
+      <a href="../assembly/display/" class="md-nav__link">
         Display Panel
       </a>
     </li>
@@ -996,7 +996,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/rear/" class="md-nav__link">
+      <a href="../assembly/rear/" class="md-nav__link">
         Rear Panel and Wiring
       </a>
     </li>
@@ -1010,7 +1010,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/bottom_lid/" class="md-nav__link">
+      <a href="../assembly/bottom_lid/" class="md-nav__link">
         Bottom Panel & Lid
       </a>
     </li>
@@ -1271,29 +1271,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#power-supply-trays" class="md-nav__link">
-    Power Supply Trays
+  <a href="#psu-trays" class="md-nav__link">
+    PSU Trays
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#mcus" class="md-nav__link">
-    MCUs
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cpu-trays-and-display-panels" class="md-nav__link">
-    CPU Trays and Display Panels
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#other-supported-parts" class="md-nav__link">
-    Other Supported Parts
+  <a href="#lower-bay-trays" class="md-nav__link">
+    Lower Bay Trays
   </a>
   
 </li>
@@ -1325,7 +1311,7 @@
 <li>There are no affiliate links used on this site.</li>
 <li>The <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> shopping cart icon indicates an external link to a shopping website.</li>
 <li>These links are for reference, not an endorsement.</li>
-<li>The design allows for longer-than-specified screws in certain locations. The <a href="../assembly_v2/" title="Assembly documentation">assembly guide</a> notes where substitutions can be made.</li>
+<li>The design allows for longer-than-specified screws in certain locations. The <a href="../assembly/" title="Assembly documentation">assembly guide</a> notes where substitutions can be made.</li>
 <li>Wiring is only specified for the IEC power socket, power switch, and power supply. Additional wiring and fusing considerations are configuration-specific.</li>
 </ul>
 <h2 id="universal-bill-of-materials">Universal Bill of Materials</h2>
@@ -1628,34 +1614,12 @@
 </div>
 </div>
 <h2 id="tray-and-panel-configurations">Tray and Panel Configurations</h2>
-<p>The Universal Bill of Materials includes the fasteners needed to mount panels and the the required trays. It does <em>not</em> include the hardware needed to attach anything to those panels and trays. You can find mounting information for each component on the supported parts pages below.</p>
-<h3 id="power-supply-trays">Power Supply Trays</h3>
-<p>Currently, two power supply models are supported. You will need one (1) of the following:</p>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Note</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://www.amazon.com/MEAN-WELL-LRS-350-24-Printer-Industrial/dp/B07VRK86SP" title="Amazon: Mean Well LRS-350-24"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Mean Well LRS-350</a></td>
-<td>Most Creality Ender-series printers use the LRS-350-24.</td>
-</tr>
-<tr>
-<td><a href="https://www.amazon.com/MEAN-WELL-RSP-500-24-Switching-Enclosed/dp/B00UWCD22O" title="Amazon: Mean Well RSP-500-24"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Mean Well RSP-500</a></td>
-<td><strong>(Beta)</strong> RSP-500-24 is used in the Ender 5 Plus.</td>
-</tr>
-</tbody>
-</table>
-<p>Power supplies mount with M4 x 6mm screws.</p>
-<h3 id="mcus">MCUs</h3>
-<p>Although every configuration has an MCU, there is not a standard mounting method. Specific mounting information is </p>
-<h3 id="cpu-trays-and-display-panels">CPU Trays and Display Panels</h3>
-<p>Most configurations use a display and many have an single-board computer (SBC), such as a Raspberry Pi. See the <a href="../support/cpu/" title="List of supported SoC CPUs">supported SoC CPU</a> and <a href="../support/displays/" title="List of supported displays">supported display</a> pages for mounting information specific to your CPU tray and display panel.</p>
-<h3 id="other-supported-parts">Other Supported Parts</h3>
-<p>See the <a href="../support/" title="Overview of supported parts">Supported Parts Overview</a> for a full list of parts and mounting locations. Some configurations require additional fasteners or fans.</p>
+<p>The Universal Bill of Materials includes the fasteners needed to mount panels and the the required trays. It does <em>not</em> include the hardware needed to attach anything to those panels and trays.</p>
+<p>The <a href="../support/" title="Overview of supported parts">Supported Parts Overview</a> has a full list of parts and mounting locations. Some configurations require additional fasteners or fans.</p>
+<h3 id="psu-trays">PSU Trays</h3>
+<p>Power supplies are notable for mounting to the tray with M4 x 6mm screws. See the <a href="../support/psu/" title="List of supported PSUs">list of supported PSUs</a> for quantities.</p>
+<h3 id="lower-bay-trays">Lower Bay Trays</h3>
+<p>Each tray (short or long) uses four (4) M3 x 6mm screws to mount the tray. Additional materials are listed on the <a href="../support/lower_bay/" title="List of supported lower bay components">Lower Bay Components</a> page.</p>
 <!-- OmniBox GitHub Pages -->
 <!-- 
     OmniBox GitHub Folders 
@@ -1733,7 +1697,7 @@
       
       
         
-        <a href="../assembly_v2/" class="md-footer__link md-footer__link--next" aria-label="Next: Getting Started" rel="next">
+        <a href="../assembly/" class="md-footer__link md-footer__link--next" aria-label="Next: Getting Started" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">

@@ -43,7 +43,7 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -400,7 +400,21 @@
   
     <li class="md-nav__item">
       <a href="../support/cpu/" class="md-nav__link">
-        SoC CPUs
+        SoC CPUs/SBCs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/psu/" class="md-nav__link">
+        Power Supplies/PSUs
       </a>
     </li>
   
@@ -562,7 +576,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/" class="md-nav__link">
+      <a href="../assembly/" class="md-nav__link">
         Getting Started
       </a>
     </li>
@@ -602,7 +616,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/hsi_base/" class="md-nav__link">
+      <a href="../assembly/hsi_base/" class="md-nav__link">
         Rear Base
       </a>
     </li>
@@ -616,7 +630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/hsi_front/" class="md-nav__link">
+      <a href="../assembly/hsi_front/" class="md-nav__link">
         Front Main Body
       </a>
     </li>
@@ -630,7 +644,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/hsi_rear/" class="md-nav__link">
+      <a href="../assembly/hsi_rear/" class="md-nav__link">
         Rear Main Body
       </a>
     </li>
@@ -677,7 +691,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/base/" class="md-nav__link">
+      <a href="../assembly/base/" class="md-nav__link">
         Base and PSU
       </a>
     </li>
@@ -691,7 +705,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/psu_wiring/" class="md-nav__link">
+      <a href="../assembly/psu_wiring/" class="md-nav__link">
         PSU Wiring
       </a>
     </li>
@@ -705,7 +719,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/core/" class="md-nav__link">
+      <a href="../assembly/core/" class="md-nav__link">
         Core Assembly
       </a>
     </li>
@@ -752,7 +766,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/cpu/" class="md-nav__link">
+      <a href="../assembly/cpu/" class="md-nav__link">
         CPU
       </a>
     </li>
@@ -766,7 +780,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/side/" class="md-nav__link">
+      <a href="../assembly/side/" class="md-nav__link">
         Side Panel(s)
       </a>
     </li>
@@ -780,7 +794,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/lower_bay/" class="md-nav__link">
+      <a href="../assembly/lower_bay/" class="md-nav__link">
         Lower Bay Trays
       </a>
     </li>
@@ -794,7 +808,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/front/" class="md-nav__link">
+      <a href="../assembly/front/" class="md-nav__link">
         Front Panel
       </a>
     </li>
@@ -841,7 +855,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/mcu/" class="md-nav__link">
+      <a href="../assembly/mcu/" class="md-nav__link">
         MCU Tray
       </a>
     </li>
@@ -855,7 +869,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/display/" class="md-nav__link">
+      <a href="../assembly/display/" class="md-nav__link">
         Display Panel
       </a>
     </li>
@@ -869,7 +883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/rear/" class="md-nav__link">
+      <a href="../assembly/rear/" class="md-nav__link">
         Rear Panel and Wiring
       </a>
     </li>
@@ -883,7 +897,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../assembly_v2/bottom_lid/" class="md-nav__link">
+      <a href="../assembly/bottom_lid/" class="md-nav__link">
         Bottom Panel & Lid
       </a>
     </li>
@@ -1272,7 +1286,7 @@
 <p class="admonition-title">Tip</p>
 <p>Want to know more about OmniBox and what's next? Follow <a href="https://twitter.com/TheOmniBox" title="@TheOmniBox (Twitter)">@TheOmniBox on <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23Z"/></svg></span> Twitter</a></p>
 </div>
-<p>The current release is 0.9.9-beta, released on 2022-11-??.</p>
+<p>The current release is 0.9.9, released on 2022-11-26.</p>
 <h2 id="new-features">New Features</h2>
 <h3 id="major-new-features">Major New Features</h3>
 <ul>
@@ -1508,47 +1522,47 @@
 </ul>
 <h2 id="gallery">Gallery</h2>
 <figure>
-<p><a href="../img/gallery_0.9.9/render1.png"><img alt="front right render" src="../img/gallery_0.9.9/render1.png" width="480" /></a>
+<p><a href="../img/gallery/0.9.9/render1.png"><img alt="front right render" src="../img/gallery/0.9.9/render1.png" width="480" /></a>
   </p>
 <figcaption>1. The CPU bay is now part of the rear body.<br>2. The power supply area has an extra vent in front.<br>3. 40mm, 80mm, 92mm, and 120mm fans are now supported as lid mounts.</figcaption>
 </figure>
 <figure>
-<p><a href="../img/gallery_0.9.9/render2.png"><img alt="front left render" src="../img/gallery_0.9.9/render2.png" width="480" /></a>
+<p><a href="../img/gallery/0.9.9/render2.png"><img alt="front left render" src="../img/gallery/0.9.9/render2.png" width="480" /></a>
   </p>
 <figcaption>1. There is a matching CPU bay on the opposite side.<br>2. Optional Neopixel LEDs are visible behind the front vent.<br>3. All panels now attach with M3 screws.</figcaption>
 </figure>
 <figure>
-<p><a href="../img/gallery_0.9.9/render4.png"><img alt="render from front and undearneath" src="../img/gallery_0.9.9/render4.png" width="480" /></a>
+<p><a href="../img/gallery/0.9.9/render4.png"><img alt="render from front and undearneath" src="../img/gallery/0.9.9/render4.png" width="480" /></a>
   </p>
 <figcaption>New universal power supply mount. The mount is off-center and has a passthrough for power switch wiring.</figcaption>
 </figure>
 <figure>
-<p><a href="../img/gallery_0.9.9/render3.png"><img alt="render from the side and underneath" src="../img/gallery_0.9.9/render3.png" width="480" /></a>
+<p><a href="../img/gallery/0.9.9/render3.png"><img alt="render from the side and underneath" src="../img/gallery/0.9.9/render3.png" width="480" /></a>
   </p>
 <figcaption>1. The power supply no longer hangs freely. When installed it adds rigidity to the case.<br>2. Each front vent has an optional fan mount on the inside.</figcaption>
 </figure>
 <figure>
-<p><a href="../img/gallery_0.9.9/render5.png"><img alt="render from the top right rear without rear or top panels on" src="../img/gallery_0.9.9/render5.png" width="480" /></a>
+<p><a href="../img/gallery/0.9.9/render5.png"><img alt="render from the top right rear without rear or top panels on" src="../img/gallery/0.9.9/render5.png" width="480" /></a>
   </p>
 <figcaption>1. 20+ zip tie anchors added.<br>2. The MCU tray now mounts with M3 screws.<br>3. The rear wiring passthrough no longer exposes the power socket.<br>4. New support for keystone jacks (unoccupied in the render).</figcaption>
 </figure>
 <figure>
-<p><a href="../img/gallery_0.9.9/render7.png"><img alt="render of the Core of an OmniBox with a Manta MCU mounted" src="../img/gallery_0.9.9/render7.png" width="480" /></a>
+<p><a href="../img/gallery/0.9.9/render7.png"><img alt="render of the Core of an OmniBox with a Manta MCU mounted" src="../img/gallery/0.9.9/render7.png" width="480" /></a>
   </p>
 <figcaption>1. Experimental support for the BIGTREETECH Manta M8P (CB1 not pictured).<br>2. Hex flooring for better ventilation and sturdier build.</figcaption>
 </figure>
 <figure>
-<p><a href="../img/gallery_0.9.9/render6.png"><img alt="render of an OmniBox Core from the rear without any panels installed" src="../img/gallery_0.9.9/render6.png" width="480" /></a>
+<p><a href="../img/gallery/0.9.9/render6.png"><img alt="render of an OmniBox Core from the rear without any panels installed" src="../img/gallery/0.9.9/render6.png" width="480" /></a>
   </p>
 <figcaption>1. The two CPU bays are elevated to make room for lower bay tray mounts in unused bays.<br>2. Optional brass heat set inserts.</figcaption>
 </figure>
 <figure>
-<p><a href="../img/gallery_0.9.9/render8.png"><img alt="render from below showing the bottom panel" src="../img/gallery_0.9.9/render8.png" width="480" /></a>
+<p><a href="../img/gallery/0.9.9/render8.png"><img alt="render from below showing the bottom panel" src="../img/gallery/0.9.9/render8.png" width="480" /></a>
   </p>
 <figcaption>The new bottom panel fully encloses the case. It can be printed with holes for airflow or closed to prevent dust intrusion.</figcaption>
 </figure>
 <figure>
-<p><a href="../img/gallery_0.9.9/render9.png"><img alt="render from below showing the bottom panel" src="../img/gallery_0.9.9/render9.png" width="480" /></a>
+<p><a href="../img/gallery/0.9.9/render9.png"><img alt="render from below showing the bottom panel" src="../img/gallery/0.9.9/render9.png" width="480" /></a>
   </p>
 <figcaption>1. The new Generic rear panel has two wiring cutouts to let the user run wires from the top, bottom, or both.<br>2. The Generic panel comes in version with and without a 60mm fan (version with the fan pictured).</figcaption>
 </figure>
@@ -1613,7 +1627,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../assembly_v2/bottom_lid/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Bottom Panel &amp; Lid" rel="prev">
+        <a href="../assembly/bottom_lid/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Bottom Panel &amp; Lid" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>

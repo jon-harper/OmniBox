@@ -43,7 +43,7 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -404,7 +404,21 @@
   
     <li class="md-nav__item">
       <a href="../cpu/" class="md-nav__link">
-        SoC CPUs
+        SoC CPUs/SBCs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../psu/" class="md-nav__link">
+        Power Supplies/PSUs
       </a>
     </li>
   
@@ -711,7 +725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/" class="md-nav__link">
+      <a href="../../assembly/" class="md-nav__link">
         Getting Started
       </a>
     </li>
@@ -751,7 +765,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/hsi_base/" class="md-nav__link">
+      <a href="../../assembly/hsi_base/" class="md-nav__link">
         Rear Base
       </a>
     </li>
@@ -765,7 +779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/hsi_front/" class="md-nav__link">
+      <a href="../../assembly/hsi_front/" class="md-nav__link">
         Front Main Body
       </a>
     </li>
@@ -779,7 +793,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/hsi_rear/" class="md-nav__link">
+      <a href="../../assembly/hsi_rear/" class="md-nav__link">
         Rear Main Body
       </a>
     </li>
@@ -826,7 +840,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/base/" class="md-nav__link">
+      <a href="../../assembly/base/" class="md-nav__link">
         Base and PSU
       </a>
     </li>
@@ -840,7 +854,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/psu_wiring/" class="md-nav__link">
+      <a href="../../assembly/psu_wiring/" class="md-nav__link">
         PSU Wiring
       </a>
     </li>
@@ -854,7 +868,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/core/" class="md-nav__link">
+      <a href="../../assembly/core/" class="md-nav__link">
         Core Assembly
       </a>
     </li>
@@ -901,7 +915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/cpu/" class="md-nav__link">
+      <a href="../../assembly/cpu/" class="md-nav__link">
         CPU
       </a>
     </li>
@@ -915,7 +929,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/side/" class="md-nav__link">
+      <a href="../../assembly/side/" class="md-nav__link">
         Side Panel(s)
       </a>
     </li>
@@ -929,7 +943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/lower_bay/" class="md-nav__link">
+      <a href="../../assembly/lower_bay/" class="md-nav__link">
         Lower Bay Trays
       </a>
     </li>
@@ -943,7 +957,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/front/" class="md-nav__link">
+      <a href="../../assembly/front/" class="md-nav__link">
         Front Panel
       </a>
     </li>
@@ -990,7 +1004,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/mcu/" class="md-nav__link">
+      <a href="../../assembly/mcu/" class="md-nav__link">
         MCU Tray
       </a>
     </li>
@@ -1004,7 +1018,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/display/" class="md-nav__link">
+      <a href="../../assembly/display/" class="md-nav__link">
         Display Panel
       </a>
     </li>
@@ -1018,7 +1032,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/rear/" class="md-nav__link">
+      <a href="../../assembly/rear/" class="md-nav__link">
         Rear Panel and Wiring
       </a>
     </li>
@@ -1032,7 +1046,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/bottom_lid/" class="md-nav__link">
+      <a href="../../assembly/bottom_lid/" class="md-nav__link">
         Bottom Panel & Lid
       </a>
     </li>
@@ -1362,8 +1376,9 @@
 
   <h1>Lower Bay Components</h1>
 
-<p>Lower Bay Trays mount below the MCU board and are used for a wide range of parts. Parts compatible with the lower bay are listed here. The <a href="https://github.com/jon-harper/OmniBox/tree/0.9.9-beta/Trays/Lower%20Bay/" title="OmniBox GitHub: Lower Bay Trays"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> /Trays/Lower Bay</a> git folder is organized with subfolders for each supported part. All variations based around that part are in the same folder.</p>
-<p>There are two types of Lower Bay Trays: Short and Long. A Long length tray covers the mount points of two Short trays and must be mounted from front to back of the case.</p>
+<p>Lower Bay Trays mount below the MCU board and are used for a wide range of parts. Parts compatible with the lower bay are listed here. The <a href="https://github.com/jon-harper/OmniBox/tree/0.9.9-beta/Trays/Lower%20Bay/" title="OmniBox GitHub: Lower Bay Trays"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <code>/Trays/Lower Bay</code></a> git folder is organized with subfolders for each supported part. All variations based around that part are in the same folder.</p>
+<p>There are two types of Lower Bay Trays: Short and Long. A Long length tray covers the mount points of two Short trays and must be mounted from the front to the back of the case.</p>
+<p>Every tray (short or long) attaches to the Core case body with four (4) M3 x 6mm screws. Additional fasteners are listed with each component.</p>
 <figure>
 <p><a href="../../img/components/lower_bay.png"><img alt="img" src="../../img/components/lower_bay.png" width="480" /></a>
   </p>
@@ -1387,7 +1402,7 @@
 <p><a class="md-button" href="https://www.amazon.com/Valefod-Efficiency-Voltage-Regulator-Converter/dp/B076H3XHXP" title="Amazon: Basic 2A LM2596 Buck Converter"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/lm2596.jpg"><img alt="product picture" src="../../img/parts/lm2596.jpg" width="200" /></a></p>
 <ul>
-<li>Mounting: 2x M3</li>
+<li>Materials: 2x M3 x 6mm</li>
 <li>Trays:<ul>
 <li>Short (single, dual)</li>
 <li>Long (single, dual)</li>
@@ -1399,7 +1414,7 @@
 <p><a class="md-button" href="https://www.amazon.com/Converter-DROK-Transformer-Regulator-Stabilizer/dp/B00JUFJ1GA" title="Amazon: HROK 2A LM2596 Buck Converter"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/lm2596_led.jpg"><img alt="product picture" src="../../img/parts/lm2596_led.jpg" width="200" /></a></p>
 <ul>
-<li>Mounting: 4x M3</li>
+<li>Materials: 4x M3 x 6mm</li>
 <li>Hole Pattern: 60.5mm x 30.5mm</li>
 <li>Tray:<ul>
 <li>Short (single)</li>
@@ -1412,7 +1427,7 @@
 <p><a class="md-button" href="https://www.amazon.com/HiLetgo-Step-down-Converter-1-25-37V-Voltmeter/dp/B00LSEBYHU/" title="Amazon: HiLetGo 2A LM2596 Buck Converter"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/lm2596_led_2.jpg"><img alt="product picture" src="../../img/parts/lm2596_led_2.jpg" width="200" /></a></p>
 <ul>
-<li>Mounting: 4x M3</li>
+<li>Materials: 4x M3 x 6mm</li>
 <li>Hole Pattern: 49.5mm x 27.5mm </li>
 <li>Trays:<ul>
 <li>Short (single)</li>
@@ -1425,11 +1440,9 @@
 <p><a class="md-button" href="https://www.amazon.com/gp/product/B07N3QT628" title="Amazon: DROK 3A LM2596 Buck Converter"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/buck_3a_drok.jpg"><img alt="product picture" src="../../img/parts/buck_3a_drok.jpg" width="200" /></a></p>
 <ul>
-<li>Mounting: 4x M3</li>
+<li>Materials: 4x M3 x 6mm</li>
 <li>Hole Pattern: 52.5mm x 28.75mm</li>
-<li>
-<p>Trays:</p>
-<ul>
+<li>Trays:<ul>
 <li>Short (single)</li>
 </ul>
 </li>
@@ -1438,10 +1451,13 @@
 <p><a href="../../img/parts/buck_5a_drok.jpg"><img alt="product picture" src="../../img/parts/buck_5a_drok.jpg" width="200" /></a></p>
 <p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/0.9.9-beta/Trays/Lower%20Bay/DROK%205A%20Buck%20with%20LED" title="OmniBox GitHub: Drok 5A Buck Converter"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> DROK 5A Buck with LED</a></p>
 <p><a class="md-button" href="https://www.amazon.com/DROK-Adjustable-Converter-Transformer-Protective/dp/B07JZ2GQJF" title="Amazon: DROK 5A LM2596 Buck Converter"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
-<p>Mounting: 4x M3, 63mm x 40.5mm</p>
-<p>Trays:</p>
 <ul>
+<li>Materials: 4x M3 x 6mm</li>
+<li>Hole Pattern: 63mm x 40.5mm</li>
+<li>Trays: <ul>
 <li>Long (single)</li>
+</ul>
+</li>
 </ul>
 <h2 id="mosfets">MOSFETs</h2>
 <h3 id="creality-mosfet">Creality MOSFET</h3>
@@ -1449,7 +1465,7 @@
 <p><a class="md-button" href="https://www.tinymachines3d.com/products/crmfet" title="TinyMachines3D: Creality MOSFET"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/mosfet_creality.jpeg"><img alt="product picture" src="../../img/parts/mosfet_creality.jpeg" width="200" /></a></p>
 <ul>
-<li>Mounting: 2x M3</li>
+<li>Materials: 2x M3 x 6mm</li>
 <li>Trays:<ul>
 <li>Short (single)</li>
 <li>Long (single)</li>
@@ -1462,7 +1478,7 @@
 <p><a class="md-button" href="https://www.amazon.com/SSR-40DA-Solid-Output-24-380V-SSR-40/dp/B07FVHWN82" title="Amazon: Fotek SSR-40DA"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/fotek_ssr-40_da.jpeg"><img alt="product picture" src="../../img/parts/fotek_ssr-40_da.jpeg" width="200" /></a></p>
 <ul>
-<li>Mounting: 2x M3</li>
+<li>Materials: 2x M3 x 6mm</li>
 <li>Trays:<ul>
 <li>Short (single)</li>
 <li>Long (single)</li>
@@ -1487,7 +1503,11 @@
 <p><a class="md-button" href="https://www.amazon.com/dp/B08R5WWWPS" title="Amazon: Wago 221 Lever Nut Assortment"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/wago_nuts.jpg"><img alt="product picture" src="../../img/parts/wago_nuts.jpg" width="200" /></a></p>
 <ul>
-<li>Notes: 3 position &amp; 5 position</li>
+<li>Notes: <ul>
+<li>Support for 3 position &amp; 5 position</li>
+<li>No mounting hardware; snap-in</li>
+</ul>
+</li>
 <li>Trays:<ul>
 <li>Short, 4x 3 position</li>
 <li>Long, 4x 5 position</li>
@@ -1500,7 +1520,12 @@
 <p><a class="md-button" href="https://www.amazon.com/dp/B08R9L9YR2" title="Amazon: 40mm x 40mm x 10mm Fan"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/fan_4010.jpg"><img alt="product picture" src="../../img/parts/fan_4010.jpg" width="200" /></a></p>
 <ul>
-<li>Notes: Also available on long trays for buck converters.</li>
+<li>Materials: 4x M3</li>
+<li>Notes:<ul>
+<li>Screw length depends on mounting direction and thickness of the fan.</li>
+<li>Also available on long trays for buck converters.</li>
+</ul>
+</li>
 <li>Trays:<ul>
 <li>Short (single)</li>
 </ul>

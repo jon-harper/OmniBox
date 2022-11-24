@@ -43,7 +43,7 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -404,7 +404,21 @@
   
     <li class="md-nav__item">
       <a href="../cpu/" class="md-nav__link">
-        SoC CPUs
+        SoC CPUs/SBCs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../psu/" class="md-nav__link">
+        Power Supplies/PSUs
       </a>
     </li>
   
@@ -671,7 +685,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/" class="md-nav__link">
+      <a href="../../assembly/" class="md-nav__link">
         Getting Started
       </a>
     </li>
@@ -711,7 +725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/hsi_base/" class="md-nav__link">
+      <a href="../../assembly/hsi_base/" class="md-nav__link">
         Rear Base
       </a>
     </li>
@@ -725,7 +739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/hsi_front/" class="md-nav__link">
+      <a href="../../assembly/hsi_front/" class="md-nav__link">
         Front Main Body
       </a>
     </li>
@@ -739,7 +753,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/hsi_rear/" class="md-nav__link">
+      <a href="../../assembly/hsi_rear/" class="md-nav__link">
         Rear Main Body
       </a>
     </li>
@@ -786,7 +800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/base/" class="md-nav__link">
+      <a href="../../assembly/base/" class="md-nav__link">
         Base and PSU
       </a>
     </li>
@@ -800,7 +814,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/psu_wiring/" class="md-nav__link">
+      <a href="../../assembly/psu_wiring/" class="md-nav__link">
         PSU Wiring
       </a>
     </li>
@@ -814,7 +828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/core/" class="md-nav__link">
+      <a href="../../assembly/core/" class="md-nav__link">
         Core Assembly
       </a>
     </li>
@@ -861,7 +875,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/cpu/" class="md-nav__link">
+      <a href="../../assembly/cpu/" class="md-nav__link">
         CPU
       </a>
     </li>
@@ -875,7 +889,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/side/" class="md-nav__link">
+      <a href="../../assembly/side/" class="md-nav__link">
         Side Panel(s)
       </a>
     </li>
@@ -889,7 +903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/lower_bay/" class="md-nav__link">
+      <a href="../../assembly/lower_bay/" class="md-nav__link">
         Lower Bay Trays
       </a>
     </li>
@@ -903,7 +917,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/front/" class="md-nav__link">
+      <a href="../../assembly/front/" class="md-nav__link">
         Front Panel
       </a>
     </li>
@@ -950,7 +964,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/mcu/" class="md-nav__link">
+      <a href="../../assembly/mcu/" class="md-nav__link">
         MCU Tray
       </a>
     </li>
@@ -964,7 +978,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/display/" class="md-nav__link">
+      <a href="../../assembly/display/" class="md-nav__link">
         Display Panel
       </a>
     </li>
@@ -978,7 +992,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/rear/" class="md-nav__link">
+      <a href="../../assembly/rear/" class="md-nav__link">
         Rear Panel and Wiring
       </a>
     </li>
@@ -992,7 +1006,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../assembly_v2/bottom_lid/" class="md-nav__link">
+      <a href="../../assembly/bottom_lid/" class="md-nav__link">
         Bottom Panel & Lid
       </a>
     </li>
@@ -1302,7 +1316,7 @@
 
 [![product picture][img_]{width="200"}][img_]
 
-- Mounting: 
+- Materials: 
 - Notes:
  -->
 <h3 id="generic-12864-display">Generic 12864 Display</h3>
@@ -1310,7 +1324,7 @@
 <p><a class="md-button" href="https://www.amazon.com/CHPOWER-Display-Screen-Creality-Printers/dp/B07DL3ZBD7" title="Amazon: Generic 128x64 Display"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/classic_12864.jpg"><img alt="product picture" src="../../img/parts/classic_12864.jpg" width="200" /></a></p>
 <ul>
-<li>Mounting: 4x M3 x 6mm</li>
+<li>Materials: 4x M3 x 6mm</li>
 <li>Notes: <ul>
 <li>Also known as Creality CR-10 stock display; comes on most Creality printers.</li>
 <li>Called RepRap Discount Smart Controller in Marlin.</li>
@@ -1322,7 +1336,7 @@
 <p><a class="md-button" href="https://www.amazon.com/FYSETC-Controller-Supports-Accessories-RGB-Backlight/dp/B08R9ZH7S2" title="Amazon: FYSETC Mini12864 v2.1 Display"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/mini12864.jpg"><img alt="product picture" src="../../img/parts/mini12864.jpg" width="200" /></a></p>
 <ul>
-<li>Mounting: <ul>
+<li>Materials: <ul>
 <li>4x M3 x 6mm</li>
 <li>4x M3 x 20mm</li>
 </ul>
@@ -1333,7 +1347,7 @@
 <p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/0.9.9-beta/Panels/Display/BTT%202.4%20TFT" title="OmniBox GitHub: BIGTREETECH 2.4&quot; TFT Display Panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> BTT 2.4 TFT</a></p>
 <p><a href="../../img/parts/btt_tft_2.4.jpg"><img alt="product picture" src="../../img/parts/btt_tft_2.4.jpg" width="200" /></a></p>
 <ul>
-<li>Mounting: <ul>
+<li>Materials: <ul>
 <li>4x M3 x 6mm</li>
 <li>4x M3 x 8mm</li>
 </ul>
@@ -1345,7 +1359,7 @@
 <p><a class="md-button" href="https://www.amazon.com/BIGTREETECH-Graphic-Display-Controller-Printer/dp/B07VWF4W3J" title="Amazon: BIGTREETECH TFT35 V3"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/btt_tft_3.5.jpg"><img alt="product picture" src="../../img/parts/btt_tft_3.5.jpg" width="200" /></a></p>
 <ul>
-<li>Mounting: <ul>
+<li>Materials: <ul>
 <li>4x M3 x 6mm</li>
 <li>4x M3 x 8mm</li>
 </ul>
@@ -1357,7 +1371,7 @@
 <p><a class="md-button" href="https://www.amazon.com/BIGTREETECH-TFT35-E3-V3-0-1-Motherboard/dp/B08182XHZZ" title="Amazon: BIGTREETECH TFT35 E3 v3.0.1"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/btt_35tft_e3.jpg"><img alt="product picture" src="../../img/parts/btt_35tft_e3.jpg" width="200" /></a></p>
 <ul>
-<li>Mounting: 4x M3 x 6mm</li>
+<li>Materials: 4x M3 x 6mm</li>
 <li>Notes: Uses the Generic 12864 mount.</li>
 </ul>
 <!-- ### BIGTREETECH 5.0
@@ -1368,7 +1382,7 @@
 
 [![product picture][img_]{width="200"}][img_]
 
-- Mounting: 4x M3
+- Materials: 4x M3
 - Notes: **Preliminary support** -->
 
 <h2 id="raspberry-pi-displays">Raspberry Pi Displays</h2>
@@ -1457,7 +1471,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../cpu/" class="md-footer__link md-footer__link--prev" aria-label="Previous: SoC CPUs" rel="prev">
+        <a href="../psu/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Power Supplies/PSUs" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -1466,7 +1480,7 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              SoC CPUs
+              Power Supplies/PSUs
             </div>
           </div>
         </a>
