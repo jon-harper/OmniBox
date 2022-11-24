@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/hack-regular.woff2?sha=3114f1256') format('woff2'), url('../fonts/hack-regular.woff?sha=3114f1256') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/hack-bold.woff2?sha=3114f1256') format('woff2'), url('../fonts/hack-bold.woff?sha=3114f1256') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/hack-italic.woff2?sha=3114f1256') format('woff2'), url('../fonts/hack-italic.woff?sha=3114f1256') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/hack-bolditalic.woff2?sha=3114f1256') format('woff2'), url('../fonts/hack-bolditalic.woff?sha=3114f1256') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+:root {
+  --md-code-font: Hack, Monospace;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 205; 
+  }  
+
+.md-header__title, h1{
+    font-family: var(--md-code-font);
+}
+
+.md-button {
+    font-family: var(--md-code-font);
+    font-size: 0.75rem;
+    width: 360px;
+    text-align: center;
+}
+
+:root {
+    --md-admonition-icon--video: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 10.5V7a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3.5l4 4v-11l-4 4Z"/></svg>')
+  }
+  .md-typeset .admonition.overview,
+  .md-typeset details.overview {
+    border-color: rgb(123, 43, 155);
+  }
+  .md-typeset .overview > .admonition-title,
+  .md-typeset .overview > summary {
+    background-color: rgba(123, 43, 155, 0.1);
+  }
+  .md-typeset .overview > .admonition-title::before,
+  .md-typeset .overview > summary::before {
+    background-color: rgb(123, 43, 155);
+    -webkit-mask-image: var(--md-admonition-icon--video);
+            mask-image: var(--md-admonition-icon--video);
+  }
+  
