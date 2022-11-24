@@ -124,36 +124,24 @@ The rear body also has two versions: one with dual exhausts and one without any.
 
 ## Tray and Panel Configurations
 
-The Universal Bill of Materials includes the fasteners needed to mount panels and the the required trays. It does *not* include the hardware needed to attach anything to those panels and trays. You can find mounting information for each component on the supported parts pages below.
+The Universal Bill of Materials includes the fasteners needed to mount panels and the the required trays. It does *not* include the hardware needed to attach anything to those panels and trays.
 
-### Power Supply Trays
+The [Supported Parts Overview][support] has a full list of parts and mounting locations. Some configurations require additional fasteners or fans.
 
-Currently, two power supply models are supported. You will need one (1) of the following:
+### PSU Trays
 
-| Item                              | Note                                                     |
-|-----------------------------------|----------------------------------------------------------|
-| [:material-cart: Mean Well LRS-350][bom_lrs350]   | Most Creality Ender-series printers use the LRS-350-24.  |
-| [:material-cart: Mean Well RSP-500][bom_rsp500]   | **(Beta)** RSP-500-24 is used in the Ender 5 Plus.       |
+Power supplies are notable for mounting to the tray with M4 x 6mm screws. See the [list of supported PSUs][psu] for quantities.
 
-Power supplies mount with M4 x 6mm screws.
+### Lower Bay Trays
 
-### MCUs
-
-Although every configuration has an MCU, there is not a standard mounting method. Specific mounting information is 
-
-### CPU Trays and Display Panels
-
-Most configurations use a display and many have an single-board computer (SBC), such as a Raspberry Pi. See the [supported SoC CPU][support_cpu] and [supported display][support_display] pages for mounting information specific to your CPU tray and display panel.
-
-### Other Supported Parts
-
-See the [Supported Parts Overview][support] for a full list of parts and mounting locations. Some configurations require additional fasteners or fans.
+Each tray (short or long) uses four (4) M3 x 6mm screws to mount the tray. Additional materials are listed on the [Lower Bay Components][lower_bay] page.
 
 [support]:          support/index.md    "Overview of supported parts"
-[support_display]:  support/displays.md "List of supported displays"
+[psu]:              support/psu.md      "List of supported PSUs"
 [suport_mcu]:       support/mcu.md      "List of supported MCUs"
 [support_cpu]:      support/cpu.md      "List of supported SoC CPUs"
-[assembly]:         assembly_v2/index.md "Assembly documentation"
+[lower_bay]:        support/lower_bay.md "List of supported lower bay components"
+[assembly]:         assembly/index.md "Assembly documentation"
 
 [img_front_40mm]: img/components/front_40mm.png
 [img_front_60mm]: img/components/front_60mm.png
