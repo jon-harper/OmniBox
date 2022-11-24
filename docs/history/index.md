@@ -8,7 +8,7 @@ date: 2022-10-09
 !!! tip
     Want to know more about OmniBox and what's next? Follow [@TheOmniBox on :material-twitter: Twitter][twitter]
 
-The current release is 0.9.9-beta, released on 2022-11-??.
+The current release is 0.9.9, released on 2022-11-26.
 
 ## New Features
 
@@ -102,7 +102,6 @@ These parts still need to be tested for fit and any other issues.
 - [Issue #37][6]: Documentation site is missing license page
 - [Issue #51][7]: Basic LM2596 mounting holes are incorrect
 
-
 ## Documentation & Repository
 
 - [Documentation site](https://jon-harper.github.io/OmniBox)
@@ -175,12 +174,12 @@ These parts still need to be tested for fit and any other issues.
 [6]: https://github.com/jon-harper/OmniBox/issues/37
 [7]: https://github.com/jon-harper/OmniBox/issues/51
 
-[11]: ../img/gallery_0.9.9/render1.png
-[12]: ../img/gallery_0.9.9/render2.png
-[13]: ../img/gallery_0.9.9/render3.png
-[14]: ../img/gallery_0.9.9/render4.png
-[15]: ../img/gallery_0.9.9/render5.png
-[16]: ../img/gallery_0.9.9/render6.png
-[17]: ../img/gallery_0.9.9/render7.png
-[18]: ../img/gallery_0.9.9/render8.png
-[19]: ../img/gallery_0.9.9/render9.png
+[11]: ../img/gallery/0.9.9/render1.png
+[12]: ../img/gallery/0.9.9/render2.png
+[13]: ../img/gallery/0.9.9/render3.png
+[14]: ../img/gallery/0.9.9/render4.png
+[15]: ../img/gallery/0.9.9/render5.png
+[16]: ../img/gallery/0.9.9/render6.png
+[17]: ../img/gallery/0.9.9/render7.png
+[18]: ../img/gallery/0.9.9/render8.png
+[19]: ../img/gallery/0.9.9/render9.png
