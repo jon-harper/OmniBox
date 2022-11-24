@@ -102,5 +102,5 @@ See the [Guided Tour][tour] to see how the components of an OmniBox fit together
 [support]:  support/index.md        "Supported Parts List"
 [bom]:      bom.md                  "Bill of Materials"
 [printing]: printing.md             "Printing Guide"
-[assembly]: assembly_v2/index.md       "Assembly Guide"
+[assembly]: assembly/index.md       "Assembly Guide"
 [license]:  license.md              "Contributing and License"

@@ -26,7 +26,7 @@ These settings are consistent for all parts but the optional fan gaskets.
     - The case can be printed in PETG but may take longer.
     - TPU is only used with fan gaskets, which are optional.
 
-### Settings Specific to Core
+### Settings Specific to Core Components
 
 - Supports must be on.
 - Support blockers are recommended for all zip tie anchors and fastener holes.

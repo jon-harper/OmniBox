@@ -17,22 +17,12 @@ This is an overview of components supported by OmniBox. The linked git folders s
   <figcaption>The four types of trays in red.</figcaption>
 </figure>
 
-### Power Supplies
+Trays mount most of the key hardware in your case.
 
-OmniBox supports the Mean Well LRS-350 and clones (e.g., Landy-branded). There is preliminary support for the Mean Well RSP-500.
-
-A template is available to add additional support.
-
-| Power Supply                        | Note                                                     |
-|-------------------------------------|----------------------------------------------------------|
-| [Mean Well LRS-350][git_psu_lrs350] | Most Creality Ender-series printers use the LRS-350-24.  |
-| [Mean Well RSP-500][git_psu_rsp500] | **(Preliminary)** RSP-500-24 is used in the Ender 5 Plus.|
-
-### Other Trays
-
-- [MCU Boards][mcu] for MCU Trays
-- [SoC CPUs][cpu] for CPU Trays
-- [Lower Bay Components][lower_bay] lists parts mountable on a Lower Bay Tray
+- [MCU Trays][mcu] mounts MCU boards.
+- [CPU Trays][cpu] are for SBCs.
+- [PSU Trays][psu] mount power supplies.
+- [Lower Bay Trays][lower_bay] contains trays for miscellaneous accessories, such as buck converters and solid state relays.
 
 ## Panels
 
@@ -62,6 +52,7 @@ See the [Guided Tour][tour] to help choose the best configuration for your avail
 [panel_mounts]: panel_mounts.md
 [cpu]: cpu.md
 [mcu]: mcu.md
+[psu]: psu.md
 [displays]: displays.md
 [lower_bay]: lower_bay.md
 [fans]: fans.md

@@ -48,9 +48,9 @@ These photos detail some of the evolution of Steve's original case into OmniBox.
 | Closed up for the first time, front view. | [![closed up, front][2]][2] |
 | Closed up for the first time, rear view. | [![closed up, front][1]][1] |
 
-[1]:  img/gallery/closed_up.jpg
-[2]:  img/gallery/front_view.jpg
-[3]:  img/gallery/finished_rear.jpg
-[4]:  img/gallery/one_and_two.jpg
-[5]:  img/gallery/size_comparison.jpg
-[6]:  img/gallery/prototype.jpg
+[1]:  img/gallery/0.9/closed_up.jpg
+[2]:  img/gallery/0.9/front_view.jpg
+[3]:  img/gallery/0.9/finished_rear.jpg
+[4]:  img/gallery/0.9/one_and_two.jpg
+[5]:  img/gallery/0.9/size_comparison.jpg
+[6]:  img/gallery/0.9/prototype.jpg

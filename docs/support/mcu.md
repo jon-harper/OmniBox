@@ -38,7 +38,7 @@ Micro-controller unit (MCU) board are mounted on MCU Trays. These parts are in t
 
 [![product picture][img_btt_skr_2]{width="200"}][img_btt_skr_2]
 
-- Mounting: 4x M3 x 6mm
+- Materials: 4x M3 x 6mm
 - Notes: SKR 3 and SKR 3 EZ are incompatible. See below.
 
 #### SKR 3
@@ -49,7 +49,7 @@ Micro-controller unit (MCU) board are mounted on MCU Trays. These parts are in t
 
 [![product picture][img_btt_skr_3]{width="200"}][img_btt_skr_3]
 
-- Mounting: 4x M3 x 6mm
+- Materials: 4x M3 x 6mm
 - Notes: SKR 3 EZ and earlier SKR models are incompatible.
 
 #### SKR 3 EZ
@@ -60,7 +60,7 @@ Micro-controller unit (MCU) board are mounted on MCU Trays. These parts are in t
 
 [![product picture][img_btt_skr_3_ez]{width="200"}][img_btt_skr_3_ez]
 
-- Mounting: 4x M3 x 6mm
+- Materials: 4x M3 x 6mm
 - Notes: Not compatible with other SKR trays.
 
 ### SKR 3 E3 Series
@@ -73,7 +73,7 @@ All versions of the SKR E3 series are compatible with one tray, uncluding the Mi
 
 [![skr mini e3 v3][img_btt_skr_mini_e3_v3]{width="200"}][img_btt_skr_mini_e3_v3]
 
-- Mounting: 4-5x M3 x 6mm
+- Materials: 4-5x M3 x 6mm
 - Notes: Same mounting hole pattern as Creality boards.
 
 ### Manta Series
@@ -88,7 +88,7 @@ The Manta M4P is not currently supported, but may be added in a future release.
 
 [![product picture][img_btt_manta_m8p]{width="200"}][img_btt_manta_m8p]
 
-- Mounting: 4x M3 x 6mm
+- Materials: 4x M3 x 6mm
 
 ### Octopus Series
 
@@ -101,7 +101,7 @@ The Octopus Pro is not currently supported, but may be added in a future release
 
 [![product picture][img_btt_octopus]{width="200"}][img_btt_octopus]
 
-- Mounting: 4x M3 x 6mm
+- Materials: 4x M3 x 6mm
 
 ## Duet3D
 
@@ -115,7 +115,7 @@ Compatible with all versions.
 
 [![product picture][img_duet_3_mini_5+]{width="200"}][img_duet_3_mini_5+]
 
-- Mounting: 4x M3 x 6mm
+- Materials: 4x M3 x 6mm
 
 ### Duet 3 6HC
 
@@ -127,7 +127,7 @@ Compatible with all versions.
 
 [![product picture][img_duet_3_6hc]{width="200"}][img_duet_3_6hc]
 
-- Mounting: 4x M3 x 6mm
+- Materials: 4x M3 x 6mm
 
 
 ## Other Boards
@@ -140,7 +140,7 @@ Compatible with all versions.
 
 [![product picture][img_creality]{width="200"}][img_creality]
 
-- Mounting: 4-5x M3 x 6mm
+- Materials: 4-5x M3 x 6mm
 - Notes: Compatible with version 1.x to 4.x.
 
 [img_mcu]: ../img/components/mcu.png

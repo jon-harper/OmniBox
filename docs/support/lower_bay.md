@@ -7,7 +7,9 @@ date: 2022-07-22
 
 Lower Bay Trays mount below the MCU board and are used for a wide range of parts. Parts compatible with the lower bay are listed here. The [:material-git: /Trays/Lower Bay][git_lower_bay] git folder is organized with subfolders for each supported part. All variations based around that part are in the same folder.
 
-There are two types of Lower Bay Trays: Short and Long. A Long length tray covers the mount points of two Short trays and must be mounted from front to back of the case.
+There are two types of Lower Bay Trays: Short and Long. A Long length tray covers the mount points of two Short trays and must be mounted from the front to the back of the case.
+
+Every tray (short or long) attaches to the Core case body with four (4) M3 x 6mm screws. Additional fasteners are listed with each component.
 
 <figure markdown>
   [![img][img_lower_bay]{ width="480" }][img_lower_bay]
@@ -37,7 +39,7 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 
 [![product picture][img_basic_lm2596]{width="200"}][img_basic_lm2596]
 
-- Mounting: 2x M3
+- Materials: 2x M3 x 6mm
 - Trays:
     - Short (single, dual)
     - Long (single, dual)
@@ -50,7 +52,7 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 
 [![product picture][img_led_lm2596]{width="200"}][img_led_lm2596]
 
-- Mounting: 4x M3
+- Materials: 4x M3 x 6mm
 - Hole Pattern: 60.5mm x 30.5mm
 - Tray:
     - Short (single)
@@ -64,7 +66,7 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 
 [![product picture][img_hiletgo_2a]{width="200"}][img_hiletgo_2a]
 
-- Mounting: 4x M3
+- Materials: 4x M3 x 6mm
 - Hole Pattern: 49.5mm x 27.5mm 
 - Trays:
     - Short (single)
@@ -78,10 +80,9 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 
 [![product picture][img_drok_3a]{width="200"}][img_drok_3a]
 
-- Mounting: 4x M3
+- Materials: 4x M3 x 6mm
 - Hole Pattern: 52.5mm x 28.75mm
 - Trays:
-
     - Short (single)
 
 ### DROK 5A Buck with LED
@@ -92,11 +93,10 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 
 [:material-cart: Product Link][bom_drok_5A]{ .md-button }
 
-Mounting: 4x M3, 63mm x 40.5mm
-
-Trays:
-
-- Long (single)
+- Materials: 4x M3 x 6mm
+- Hole Pattern: 63mm x 40.5mm
+- Trays: 
+    - Long (single)
 
 ## MOSFETs
 
@@ -109,7 +109,7 @@ Trays:
 
 [![product picture][img_creality_mosfet]{width="200"}][img_creality_mosfet]
 
-- Mounting: 2x M3
+- Materials: 2x M3 x 6mm
 - Trays:
     - Short (single)
     - Long (single)
@@ -124,7 +124,7 @@ Trays:
 
 [![product picture][img_fotek_ssr_40da]{width="200"}][img_fotek_ssr_40da]
 
-- Mounting: 2x M3
+- Materials: 2x M3 x 6mm
 - Trays:
     - Short (single)
     - Long (single)
@@ -151,7 +151,9 @@ Trays:
 
 [![product picture][img_wago_nuts]{width="200"}][img_wago_nuts]
 
-- Notes: 3 position & 5 position
+- Notes: 
+    - Support for 3 position & 5 position
+    - No mounting hardware; snap-in
 - Trays:
     - Short, 4x 3 position
     - Long, 4x 5 position
@@ -165,7 +167,11 @@ Trays:
 
 [![product picture][img_4010]{width="200"}][img_4010]
 
-- Notes: Also available on long trays for buck converters.
+
+- Materials: 4x M3
+- Notes:
+    - Screw length depends on mounting direction and thickness of the fan.
+    - Also available on long trays for buck converters.
 - Trays:
     - Short (single)
 

@@ -1,18 +1,18 @@
 ---
-title: SoC CPUs
+title: SoC CPUs/SBCs
 summary: List of SoC CPUs supported by OmniBox
 authors: Jon Harper
 date: 2022-07-22
 ---
 
-This page lists CPUs currently compatible with OmniBox.
+This page lists system-on-a-chip (SoC) CPUs currently compatible with OmniBox. These are also known single board computers (SBCs).
 
 <figure markdown>
   [![front left render][cpu]{ width="480" }][cpu]
   <figcaption>CPU trays can be mounted on the left or right side of the case.</figcaption>
 </figure>
 
-Single board computers (SBC) like the Raspberry Pi are mounted on CPU Trays. These parts are in the [:material-git: `/Trays/CPU`][git_cpu] git folder; each component has its own subfolder. Currently, SBCs other than the Raspberry Pi are not supported.
+CPU Trays are in the [:material-git: `/Trays/CPU`][git_cpu] git folder; each component has its own subfolder. Currently, SBCs other than the Raspberry Pi are not supported.
 
 If you do not use an SBC, the side of the bay can be used as a [Side Panel][panel_mounts].
 
@@ -34,7 +34,7 @@ If you do not use an SBC, the side of the bay can be used as a [Side Panel][pane
 
 [![product picture][img_rpi_3b]{width="200"}][img_rpi_3b]
 
-Mounting: 4x M3 x 6mm
+Materials: 4x M3 x 6mm
 
 ### Raspberry Pi 4B
 
@@ -44,13 +44,13 @@ Mounting: 4x M3 x 6mm
 
 [![product picture][img_rpi_4b]{width="200"}][img_rpi_4b]
 
-Mounting: 4x M3 x 6mm
+Materials: 4x M3 x 6mm
 
 ### Universal Mount
 
 [:material-git: Raspberry Pi Universal][git_rpi_universal]{ .md-button }
 
-- Mounting: 4x M3 x 6mm
+- Materials: 4x M3 x 6mm
 - Note: This tray should be compatible with *any* board using the Raspberry Pi mounting hole pattern.
 
 [cpu]: ../img/components/cpu.png

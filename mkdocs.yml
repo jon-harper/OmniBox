@@ -74,7 +74,7 @@ extra:
       name: Support me on Ko-Fi!
 
 extra_css:
-  - stylesheets/extra.css
+  - assets/stylesheets/extra.css
       
 nav:
   - index.md
@@ -89,6 +89,7 @@ nav:
     - Supported Parts:
       - support/mcu.md
       - support/cpu.md
+      - support/psu.md
       - support/displays.md
       - support/fans.md
       - support/lower_bay.md
@@ -96,25 +97,25 @@ nav:
     - printing.md
     - bom.md
   - Assembly Guide:
-    - assembly_v2/index.md
+    - assembly/index.md
     - Heat Set Inserts (HSI):
-      - assembly_v2/hsi_base.md
-      - assembly_v2/hsi_front.md
-      - assembly_v2/hsi_rear.md
+      - assembly/hsi_base.md
+      - assembly/hsi_front.md
+      - assembly/hsi_rear.md
     - Core & PSU:
-      - assembly_v2/base.md
-      - assembly_v2/psu_wiring.md
-      - assembly_v2/core.md
+      - assembly/base.md
+      - assembly/psu_wiring.md
+      - assembly/core.md
     - CPU and Lower Bay Trays:
-      - assembly_v2/cpu.md
-      - assembly_v2/side.md
-      - assembly_v2/lower_bay.md
-      - assembly_v2/front.md
+      - assembly/cpu.md
+      - assembly/side.md
+      - assembly/lower_bay.md
+      - assembly/front.md
     - MCU & Panels:
-      - assembly_v2/mcu.md
-      - assembly_v2/display.md
-      - assembly_v2/rear.md
-      - assembly_v2/bottom_lid.md
+      - assembly/mcu.md
+      - assembly/display.md
+      - assembly/rear.md
+      - assembly/bottom_lid.md
   - Version History:
     - history/index.md
     - Prior Releases:
@@ -123,31 +124,3 @@ nav:
       - history/v0.9.7.md
       - history/v0.9.5.md
       - history/v0.9.md
-  
-      
-# nav:
-#   - index.md
-#   - development.md
-#   - tour.md
-#   - Requirements:
-#     - printing.md
-#     - bom.md
-#   - Supported Parts:
-#     - support/index.md
-#     - support/boards.md
-#     - support/displays.md
-#     - support/panel_mounts.md
-#     - support/fans.md
-#     - support/lower_bay.md
-#   - Assembly Guide:
-#     - assembly/index.md
-#     - assembly/core.md
-#     - assembly/trays.md
-#     - assembly/panels.md
-#   - Version History:
-#     - history/index.md
-#     - history/v0.9.8.md
-#     - history/v0.9.7.md
-#     - history/v0.9.5.md
-#     - history/v0.9.md
-  
