@@ -1,5 +1,5 @@
 ---
-title: 0.9.9-beta Release (Current)
+title: 0.9.9 Release (Current)
 summary: Changelog for the current and past releases of OmniBox
 authors: Jon Harper
 date: 2022-10-09

@@ -16,7 +16,7 @@ date: 2022-11-03
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M3 x 8mm machine screws   | 8   | May substitute 6mm screws.      |
+    | M3 x 6mm machine screws   | 8   |                                 |
     | [:material-git: Rear Panel - Generic, No USB, No Fan][git_generic_rear] | 1  | :material-printer-3d-nozzle: Printed |
 
 === "Generic"
@@ -30,7 +30,7 @@ date: 2022-11-03
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M3 x 8mm machine screws   | 8   | May substitute 6mm screws.      |
+    | M3 x 6mm machine screws   | 8   |                                 |
     | Rear Panel                | 1   | :material-printer-3d-nozzle: Printed |
 
 ### Directions
@@ -57,8 +57,9 @@ Before we install the lid, all remaining wiring for the MCU and any other compon
 
 - Double-check your work.
 - Be prepared to cut power instantly during both power on and testing the printer.
-- **Safe your printer against ground faults!**
+- **Consider safing your printer against ground faults!**
     - Grounding to earth protects in case of a number of issues, e.g., a short in the bed touching the frame.
+    - This is very important for AC-powered beds.
     - Connect your frame to the AC ground (usually a yellow or green wire, **not** the black neutral wire).
     - Do not assume your power supply case is safely earthed—test with a multimeter.
     - [TH3D has a page with helpful videos on the subject][ground_guide].

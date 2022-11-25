@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-10-29
 ---
 
-This section covers assembling a generic 12864 display panel, like the kind commonly found on old Creality Ender-series printers.
+This section covers assembling a generic 12864 display panel, like the kind commonly found on older Creality Ender-series printers.
 
 Common aftermarket TFT displays have an extra step of mounting the display to a cover. The cover then attaches to the panel. Other than this, the installation process remains the same.
 

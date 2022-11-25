@@ -55,7 +55,7 @@ date: 2022-11-03
 
 <figure markdown>
   [![illustration][front3]{width="480"}][front3]
-  <figcaption>5. Slot the assembly into the front panel. Orientation does not matter.</figcaption>
+  <figcaption>5. Slot the assembly into the front panel. Vertical orientation does not matter.</figcaption>
 </figure>
 
 <figure markdown>

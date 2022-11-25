@@ -20,23 +20,16 @@ These parts are common to all case builds. See below for additional requirements
 | Item                                   | Qty | UOM | Note                                                     |
 |----------------------------------------|-----|-----|----------------------------------------------------------|
 | PLA/PLA+ filament                      | 2   | kg  | Typical use is less than 1.5kg.                          |
-| TPU 95A filament                       | 0.05| kg  | **Optional.** Quantity is maximum estimated.             |
-| M3 x 8mm machine screws                | 50  | ea  |                                                          |
-| M3 x 12mm machine screws               | 8   | ea  |                                                          |
-| M3 x 20mm machine screws               | 2   | ea  |                                                          |
-| [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8   | ea  | See note below.             |
+| TPU 95A filament                       | 0.05| kg  | Optional. Quantity is maximum estimated.                 |
 | 16 awg stranded hookup wire            | 0.5 | m   | Red or black.                                            |
 | [:material-cart: Spade connectors, 14-16 awg, Female, Insulated][bom_spade_connector] | 3   | ea  |                      |
 | [:material-cart: Fork connectors, 14-16 awg, #8, Insulated][bom_fork_connector]       | 1   | ea  | Ring connectors can be used as well. |
 | [:material-cart: SPST snap-in rocker switch][bom_switch]        | 1   | ea  | 30mm x 11mm profile. Identical to Creality Ender power switch. |
-| [:material-cart: IEC C14 socket with fuse][bom_iec]          | 1   | ea  | Identical profile to Creality Ender series power socket. |
+| [:material-cart: IEC C14 socket with fuse][bom_iec]          | 1   | ea  |                                    |
 | Fuse, 5x20mm, Glass, Fast Blow         | 1   | ea  | See note below.                                          |
 | Compatible MCU                         | 1   | ea  | See the [Supported Parts][support] list.                 |
 | Compatible 128x64 or TFT LCD display   | 1   | ea  | See the [Supported Parts][support] list.                 |
 | Compatible power supply                | 1   | ea  | See the [Supported Parts][support] list.                 |
-
-!!! note "Note: Sharp Point Wood Screws"
-    To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
 
 !!! note "Note: Fast Blow Glass Fuses"
     Socket fuses do *not* replace the fuses on your board or inline fuses.
@@ -46,14 +39,34 @@ These parts are common to all case builds. See below for additional requirements
 !!! note "Note: Wiring and Connectors"
     This list is not all-encompassing for wiring. Additional connectors and wiring may be needed, including for [grounding your bed/frame to earth][ground_guide].
 
-### Heat Set Inserts (HSIs)
+### Fasteners
 
-If you are a printing an HSI case, you will need:
+Cases with heat set inserts use shorter fasteners in some locations. Use the Stock list if you are not printing a case with inserts.
 
-| Item                                   | Qty | UOM | Note                                                     |
-|----------------------------------------|-----|-----|----------------------------------------------------------|
-| [:material-cart: Heat Set Insert, M3, 4.6mm OD][bom_hsi_m3] | 24  | ea  | Tested with knurled inserts, 5.7mm length. Larger diameters may not work. |
-| [:material-cart: M3 soldering iron tip for heat set inserts][bom_hsi_tips] | 1 | ea | |
+=== "Stock"
+
+    | Fasteners                              | Qty | UOM | Note                                                     |
+    |----------------------------------------|-----|-----|----------------------------------------------------------|
+    | M3 x 8mm machine screws                | 50  | ea  |                                                          |
+    | M3 x 12mm machine screws               | 8   | ea  |                                                          |
+    | M3 x 20mm machine screws               | 2   | ea  |                                                          |
+    | [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8   | ea  | See note below.             |
+
+=== "HSI"
+    
+    | Fasteners                              | Qty | UOM | Note                                                     |
+    |----------------------------------------|-----|-----|----------------------------------------------------------|
+    | [:material-cart: Heat Set Insert, M3, 4.6mm OD][bom_hsi_m3] | 24  | ea  | Tested with knurled inserts, 5.7mm length. Larger diameters may not work. |
+    | M3 x 6mm machine screws                | 20  | ea  |                                                          |
+    | M3 x 8mm machine screws                | 30  | ea  |                                                          |
+    | M3 x 12mm machine screws               | 8   | ea  |                                                          |
+    | M3 x 20mm machine screws               | 2   | ea  |                                                          |
+    | [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8   | ea  | See note below.             |
+
+    Additionally, you will need an [:material-cart: M3 soldering iron tip for heat set inserts][bom_hsi_tips].
+
+!!! note "Note: Sharp Point Wood Screws"
+    To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
 
 ## Core Configurations with Fans
 
