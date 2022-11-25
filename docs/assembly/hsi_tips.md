@@ -47,7 +47,7 @@ These blocks have holes in two orientations: flat and set at a 50 degree angle. 
 
 1. Pre-set an insert into the hole using your fingers or needle-nosed pliers. It drop in until it reaches the first set of knurles (or pop in place with some pressure).
 2. Place the tip of the soldering iron on the insert. Do not apply pressure yet.
-3. As the insert heats, it will start softening the plastic around it. Apply gentle pressure with the iron.
+3. As the insert heats, it will soften the plastic around it. Apply gentle pressure with the iron.
 4. Let the shape of the hole guide the insert.
 5. Once the insert is flush or slightly below the surface, remove the iron.
 6. Check if the insert is off-center by looking for gaps around the edges. The plastic should be evenly melted around the insert.

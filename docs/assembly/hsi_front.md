@@ -34,17 +34,17 @@ These instructions are the same for both HSI versions of the front Main Body.
 
 <figure markdown>
   [![illustration][hsi_front2]{width="480"}][hsi_front2]
-  <figcaption>2. Use a soldering iron to set the inserts.</figcaption>
+  <figcaption>2. Heat and set the inserts.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][hsi_front3]{width="480"}][hsi_front3]
-  <figcaption>3. Turn the front body so that the four display mounting holes face you. Place inserts in each hole.</figcaption>
+  <figcaption>3. Turn the front body so that the four display panel mounting holes face you. Place inserts in each hole.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][hsi_front4]{width="480"}][hsi_front4]
-  <figcaption>4. Carefully set the inserts, checking that the inserts finish flush with the display screen mount.</figcaption>
+  <figcaption>4. Carefully set the inserts, checking that the inserts finish flush with the surrounding plastic.</figcaption>
 </figure>
 
 
