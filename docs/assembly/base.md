@@ -49,7 +49,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
 <figure markdown>
   [![illustration][psu4]{width="480"}][psu4]
-  <figcaption>4. Set the left tray mount against the other side of the power supply. The 'L' should face upwards.</figcaption>
+  <figcaption>4. Set the left tray mount against the opposite side of the power supply. The 'L' should face upwards.</figcaption>
 </figure>
 
 <figure markdown>

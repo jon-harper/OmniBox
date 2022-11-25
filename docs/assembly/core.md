@@ -89,7 +89,7 @@ So far we have assembled the Base. Next we'll add the Main Body. This is made of
 
 <figure markdown>
   [![illustration][center3]{width="480"}][center3]
-  <figcaption>3. Use two (2) more M3 screws to fill in the bottom two screw holes on one side.</figcaption>
+  <figcaption>3. Use two (2) more M3 screws to fill in the remaining screw holes on one side.</figcaption>
 </figure>
 
 <figure markdown>
