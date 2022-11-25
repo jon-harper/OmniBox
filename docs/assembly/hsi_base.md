@@ -5,6 +5,8 @@ authors: Jon Harper
 date: 2022-10-30
 ---
 
+The rear Base only has two (2) inserts, so we will start with it.
+
 ??? overview
     <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/hsi_base.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
 
@@ -24,26 +26,13 @@ date: 2022-10-30
 
 <figure markdown>
   [![illustration][hsi_base2]{width="480"}][hsi_base2]
-  <figcaption>2. Use your fingers or pliers to push a heat set insert into each of the two (2) 4.5mm holes. The insert should drop in until it reaches the first set of knurles.</figcaption>
+  <figcaption>2. Use your fingers or pliers to push a heat set insert into each of the two (2) holes.</figcaption>
 </figure>
-
-!!! note
-    ![heat set insert][img_hsi]{ width="128" align="right"}
-    The insert has a rounded lip on one side. This end "sits" in the hole and maintains alignment with the hole during heating and insertion.
-
-!!! tip
-    The insert holes have a slight inward slope. Resistance will gradually increase as the insert slides in place. Resistance greatly increases when the insert deviates from the hole.
 
 <figure markdown>
   [![illustration][hsi_base3]{width="480"}][hsi_base3]
-  <figcaption>3. Set your soldering iron to a low heat (~200C), preferably with an M3 insert tip. Place the tip of the iron on the insert.<br>
-  4. As the insert heats and begins softening the plastic around it, lightly push down into the hole until the insert is flush or slightly below the surface.</figcaption>
+  <figcaption>3. Heat and set the inserts.</figcaption>
 </figure>
-
-!!! note
-    If the insert enters at an angle, reheating the insert with the soldering iron and tilting it upright will fix the issue. The plastic around the insert will deform around the insert as it is tilted upright.
-
-    This issue may go unnoticed until later in assembly; this is fine. The most common symptom is a loud squealing noise when inserting screws. If this happens, stop assembly to fix the insert.
 
 ## Finished Reference
 
@@ -53,4 +42,3 @@ date: 2022-10-30
 [hsi_base2]: ../img/assembly/hsi/base/base_hsi2.png
 [hsi_base3]: ../img/assembly/hsi/base/base_hsi3.png
 [hsi_base_final]: ../img/assembly/hsi/base/base_hsi_final.png
-[img_hsi]: ../img/bom/hsi.png

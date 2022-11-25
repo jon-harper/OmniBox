@@ -22,17 +22,11 @@ The OmniBox Assembly Guide is divided into four main sections:
 
 ### 1. Heat Set Inserts (HSI)
 
-Skip this section if you did not print an HSI case.
-
-This section introduces HSIs, using them, and installing them in the case. Experienced users following this guide should be able to install all inserts in less than 30 minutes.
-
-Gaining experience with inserts saves time and lowers the chances of printed part damage. If you are using inserts for the first time, it is recommended that you print at least one [practice block][git_hsi_practice] to gain a level of comfort.
+This section introduces HSIs, using them, and installing them in the case. Skip this section if you did not print an HSI case.
 
 ### 2. Core & PSU
 
 Assembly starts by building the Base around the PSU tray. This acts as a first layer of the case that we will build upwards from.
-
-The section finishes by installing the Main Body.
 
 ### 3. CPU & Lower Bay Trays
 
@@ -44,11 +38,11 @@ At this point, assembly centers around the MCU, wiring, and closing up the case.
 
 ### Format
 
-Each section of the assembly has four parts:
+Each section of assembly guide has four parts:
 
-- A short (5-15 second) optional video overview of the section;
-- A list of materials needed and quantity;
-- Step-by-step illustrated instructions; and
+- A short (5-15 second) video overview of the section;
+- A materials list;
+- Step-by-step instructions; and
 - A final reference image.
 
 Most graphics can be enlarged to see detail.

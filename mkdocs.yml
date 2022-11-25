@@ -99,6 +99,7 @@ nav:
   - Assembly Guide:
     - assembly/index.md
     - Heat Set Inserts (HSI):
+      - assembly/hsi_tips.md
       - assembly/hsi_base.md
       - assembly/hsi_front.md
       - assembly/hsi_rear.md
