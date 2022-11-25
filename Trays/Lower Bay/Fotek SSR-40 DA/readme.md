@@ -14,20 +14,20 @@ These trays are for mounting a Fotek solid state relay.
 
 ## STL Files
 
-### `Lower Bay Tray - Fotek SSR-40 DA - Long.stl`
+### `Lower Bay Tray - Fotek SSR-40 DA.stl`
 
 | Field                 | Description                   |
 |-----------------------|-------------------------------|
-| Tray Length           | Long                          |
+| Tray Length           | Full                          |
 | Quantity Mounted      | 1                             |
 | Mounting Hardware     | 2x M4 x 8mm machine screws    |
 | Print with Supports   | No                            |
 
-### `Lower Bay Tray - Fotek SSR-40 DA - Short.stl`
+### `Lower Bay Tray - Fotek SSR-40 DA - Half.stl`
 
 | Field                 | Description                   |
 |-----------------------|-------------------------------|
-| Tray Length           | Short                         |
+| Tray Length           | Half                          |
 | Quantity Mounted      | 1                             |
 | Mounting Hardware     | 2x M4 x 8mm machine screws    |
 | Print with Supports   | No                            |

@@ -4,21 +4,22 @@
 
 This tray mounts a single Raspberry Pi 4B.
 
-- Category: CPU Tray
-- Product: Raspberry Pi 4B
-- Added: 0.9
-- Updated: 0.9.9
+| Field                 | Description               |
+|-----------------------|---------------------------|
+| Category              | CPU Tray                  |
+| Product Supported     | [Raspberry Pi 4B][1]      |
+| STEP File             | Yes                       |
+| Fusion 360 Archive    | Yes                       |
+| Version Added         | 0.9                       |
 
 ## STL Files
 
-### `CPU Tray - RPi 4B.stl`
+### [`CPU Tray - RPi 4B.stl`][2]
 
-- Supports: Recommended
-- Mounting Hardware: 4x M3 x 6mm machine screws
+| Field                 | Description                   |
+|-----------------------|-------------------------------|
+| Mounting Hardware     | 4x M3 x 6mm machine screws    |
+| Print with Supports   | Recommended                   |
 
-### `CPU Tray - RPi 4B with SPI.stl`
-
-- Supports: Recommended
-- Mounting Hardware: 4x M3 x 6mm machine screws
-- Additional Hardware: 
-	- 1x Micro Fit 3 panel mount connector, 2 Row, 6 Position (for SPI port)
+[1]: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
+[2]: CPU%20Tray%20-%20RPi%204B.stl

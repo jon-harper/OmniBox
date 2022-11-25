@@ -1,1 +1,0 @@
-The Unused Tray Cover is now located in `Panels/Side Panel/Blank`.
