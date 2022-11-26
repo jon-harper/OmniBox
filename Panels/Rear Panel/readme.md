@@ -24,7 +24,7 @@ You can find the generic panels in the `Panels/Rear Panels/Generic` folders. Eac
 
 ## Molex Panel Mounts
 
-This area is in active development. The `Panels/Rear Panels/Template` folder has a Fusion file with panel mount profiles for most Molex Micro Fit 3 connectors (along with many others).
+This area is in active development and may not be availabe in stable branches. The `Panels/Rear Panels/Template` folder has a Fusion file with panel mount profiles for most Molex Micro Fit 3 connectors (along with many others).
 
 There are two approaches to using panel mounted connectors:
 
