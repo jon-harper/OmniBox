@@ -5,9 +5,6 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
-!!! important "Important: Beta Documentation"
-    This documentation is for the latest beta release of OmniBox. You can switch to the documentation for a different release from the drop-down box above.
-
 ## About OmniBox
 
 OmniBox is a 3D printable, modular electronics case for 3D printers. It supports a wide variety of parts and includes templates to add new ones. 
@@ -73,24 +70,14 @@ At this point, OmniBox releases will come with a **Version Stability Guarantee**
 
 The way that Core components fit together and panels and trays attach to the case will be "frozen" and stable. If you choose to print a newer version of a Core part, no panels or trays will need to be reprinted. New products added in future releases can likewise be used in the Core case body from a prior release.
 
-!!! example
-    As an example, the design for CPU trays was modified for 0.9.9. Version 0.9.8-style trays are considered deprecated. The following shows how this works.
-    
-    A version 0.9.8 case:
+### Compatibility Example
 
-    - [x] Can use 0.9.8 CPU trays
-    - [ ] Cannot use 0.9.9 trays.
+As an example, the design for CPU trays was modified for 0.9.9. Version 0.9.8-style trays are considered deprecated. The following shows how trays and Core cases and compatible with one another.
 
-    A version 0.9.9 case:
-
-    - [x] Can use deprecated 0.9.8 CPU trays.
-    - [x] Can use 0.9.9 CPU trays.
-
-    If the design does not change again before version 1.0, a version 1.0 case:
-
-    - [x] Can use CPU trays from any release from 0.9.9 or later.
-    - [x] Can use any CPU tray from *future* releases, e.g., 1.1.
-    - [ ] Can not use version 0.9.8 trays.
+| CPU Tray / Core Case  | 0.9.8              | 0.9.9 - 1.0        | 1.0 and Later        |
+|-----------------------|:------------------:|:------------------:|:--------------------:|
+| **Old (0.9.8) trays** | :white_check_mark: | :white_check_mark: | :x:                  |
+| **New (0.9.9) trays** | :x:                | :white_check_mark: | :white_check_mark:   |
 
 See the [Guided Tour][tour] to see how the components of an OmniBox fit together in practice.
 

@@ -17,7 +17,7 @@ date: 2022-11-03
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
     | M3 x 6mm machine screws   | 4   |                                 |
-    | M3 x 8mm machine screws   | 2   | May substitute 10mm or 12mm.    |
+    | M3 x 10mm machine screws  | 2   | May substitute 12mm.            |
     | [:material-git: `Front Panel - MicroSD, Slats.stl`][git_front_sd_no_usb] | 1  | :material-printer-3d-nozzle: Printed |
     | [:material-git: `LANMU MicroSD Holder Body.stl`][git_front_sd_no_usb] | 1  | :material-printer-3d-nozzle: Printed |
     | [:material-git: `LANMU MicroSD Holder Cap.stl`][git_front_sd_no_usb] | 1  | :material-printer-3d-nozzle: Printed |
@@ -27,7 +27,7 @@ date: 2022-11-03
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M3 x 8mm machine screws   | 2   | May substitute 10mm or 12mm.    |
+    | M3 x 10mm machine screws  | 2   | May substitute 12mm.            |
     | Front Panel | 1  | :material-printer-3d-nozzle: Printed |
 
 !!! note "Note: LED Backing Panel"
@@ -70,7 +70,7 @@ date: 2022-11-03
 
 <figure markdown>
   [![illustration][front6]{width="480"}][front6]
-  <figcaption>6. Attach the panel with two (2) M3 x 8mm screws.</figcaption>
+  <figcaption>6. Attach the panel with two (2) M3 x 10mm screws.</figcaption>
 </figure>
 
 ### Finished Reference

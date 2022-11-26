@@ -7,8 +7,13 @@ date: 2022-07-03
 
 This is an overview of components supported by OmniBox. The linked git folders should contain both an `STL` for printing and `STEP` files for modification. Fusion 360 source files are also usually available.
 
-!!! tip
-    Looking for a part that isn't listed? [Open an issue!][git_issues]
+## Fit Testing
+
+Before a tray or panel is merged into the `main` or another stable branch, it has to be fit tested. Parts that have not been tested for fit are marked:
+
+!!! caution "Fit Test Pending: Issue #NNN"
+
+If you print one of these parts, please report your results! There is usually an open [:material-git: issue on GitHub][git_issues] for that hardware component.
 
 ## Trays
 

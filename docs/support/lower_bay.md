@@ -100,7 +100,6 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 
 ## MOSFETs
 
-
 ### Creality MOSFET 
 
 [:material-git: Creality MOSFET][git_creality_mosfet]{ .md-button }
@@ -131,17 +130,33 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 
 ## Other Products
 
-<!-- ### BIGTREETECH UPS 24V 1.0 
+### BIGTREETECH UPS 24V 1.0 
 
-[:material-git: ][git_]{ .md-button }
+!!! caution "Fit Test Pending [:material-git: Issue #24](https://github.com/jon-harper/OmniBox/issues/24)"
+
+[:material-git: BTT UPS 24V 1.0][git_btt_ups_24v]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_ups_24v]{ .md-button }
 
 [![product picture][img_btt_ups_24v]{width="200"}][img_btt_ups_24v]
 
-- Mounting:
+- Mounting: 4x M3 x 6mm
 - Trays:
-    - Short (single) -->
+    - Short (single)
+
+### BIGTREETECH Relay 1.2
+
+!!! caution "Fit Test Pending: [:material-git: Issue #63](https://github.com/jon-harper/OmniBox/issues/63)"
+
+[:material-git: BTT Relay 1.2][git_btt_relay_1.2]{ .md-button }
+
+[:material-cart: Product Link][bom_btt_relay_1.2]{ .md-button }
+
+[![product picture][img_btt_relay]{width="200"}][img_btt_relay]
+
+- Mounting: 4x M3 x 6mm
+- Trays:
+    - Long (single)
 
 ### Wago 221 Lever Nuts 
 
@@ -186,3 +201,4 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 [img_wago_nuts]: ../img/parts/wago_nuts.jpg
 [img_btt_ups_24v]: ../img/parts/btt_ups_24v.jpg
 [img_4010]: ../img/parts/fan_4010.jpg
+[img_btt_relay]: ../img/parts/btt_relay_1.2.jpg

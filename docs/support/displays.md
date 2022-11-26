@@ -10,6 +10,8 @@ Display Panels mount two different types of display screens:
 - MCU displays include various TFT and older 128x64 character LCD diplays.
 - Raspberry Pi displays are TFT displays, usually used with OctoPrint or Klipper.
 
+It is impotant to note that displays larger than 6" are too large for the panel and should be lid-mounted. 7" Raspberry Pi TFTs are an example.
+
 ## MCU Displays
 
 <figure markdown>
@@ -94,6 +96,9 @@ Component names below link to the corresponding git folder. Most mounts require 
 
 <!-- ### BIGTREETECH 5.0
 
+!!! caution "Fit Test Pending"
+    [:material-git: Issue #24](https://github.com/jon-harper/OmniBox/issues/24)
+
 [:material-git: Files: ][git_btt_tft_50]{ .md-button }
 
 [:material-cart: Product Link][bom_]{ .md-button }
@@ -101,42 +106,34 @@ Component names below link to the corresponding git folder. Most mounts require 
 [![product picture][img_]{width="200"}][img_]
 
 - Materials: 4x M3
-- Notes: **Preliminary support** -->
+-->
 
 ## Raspberry Pi Displays
 
-### Compatibility
-
-Any TFT designed with mounts points for a Raspberry Pi on the back should be compatible.
-
-Compatible examples include:
-
-- BIGTREETECH Pi TFT displays (using included hardware)
-- Raspberry Pi-branded 7" TFT (with additional 10-12mm standoffs and M2.5 screws)
-
-### Mounting Methods
+Any TFT designed with mounts points for a Raspberry Pi on the back should be compatible with OmniBox.
 
 These displays can be attached in one of two ways:
 
-- In place of the MCU display as a Display Panel,
-- Or as a [:material-git: Lid][git_lid_pi_tft] above the MCU display mount.
+- In place of the MCU display as a Display Panel
+- Or as a [:material-git: Lid][git_lid_pi_tft] above the MCU display mount. 
 
-See below for examples.
+Compatibility with the *display panel* depends on size:
 
-<figure markdown>
-  [![render of Raspberry Pi TFT in place of an MCU display][img_rpi_display]{ width="480" }][img_rpi_display]
-  <figcaption>Raspberry Pi TFT on a display panel.</figcaption>
-</figure>
+| Display / Mounting Location | Display Panel      | Lid                |
+|-----------------------------|:------------------:|:------------------:|
+| BIGTREETECH PI TFT43        | :white_check_mark: | :white_check_mark: |
+| BIGTREETECH PI TFT50        | :white_check_mark: | :white_check_mark: |
+| BIGTREETECH PI TFT70        | :x:                | :white_check_mark: |
+| Raspberry Pi 7" TFT         | :x:                | :white_check_mark: |
 
+### Materials
 
-<figure markdown>
-  [![render of Raspberry Pi TFT as a secondary display][img_rpi_lid]{ width="480" }][img_rpi_lid]
-  <figcaption>Raspberry Pi TFT mounted as a lid.</figcaption>
-</figure>
+Official Raspberry Pi 7" TFT require additional M2.5 10-12mm standoffs. They should come with M2.5 screws.
+
+BIGTREETECH Pi TFT displays come with the necessary standoffs and screws.
+
 
 [img_display]: ../img/components/display.png
-[img_rpi_display]: ../img/examples/rpi_display.png
-[img_rpi_lid]: ../img/examples/rpi_lid.png
 [img_btt_tft35_e3]: ../img/parts/btt_35tft_e3.jpg
 [img_12864]: ../img/parts/classic_12864.jpg
 [img_mini12864]: ../img/parts/mini12864.jpg

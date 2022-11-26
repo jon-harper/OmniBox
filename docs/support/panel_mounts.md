@@ -35,8 +35,11 @@ The table below breaks down where to get started.
 |------------------|-------------|-----------|
 | [:material-git: `Generic`][git_generic_rear]  | These have large holes for passing wires through and come in a number of common variations. | ...Want a simple, off-the-shelf solution and there is not a custom panel that suits. |
 | [:material-git: `Custom`][git_custom_rear]   | Designed for users of common printer configurations. | ...Have a configuration available for your printer. |
-| [:material-git: `Micro Fit 3`][git_molex_rear]    | Use Molex Micro Fit 3 panel mounted connectors. Pinout diagrams for each panel are included. | ...Want to create a diconnectable wiring harness for your printer. |
 | [:material-git: `Template`][git_rear_template] | A Fusion 360 template with profiles for panel mounted connectors and fans. | ...Want to create your own panel. |
+<!-- | [:material-git: `Micro Fit 3`][git_molex_rear]    | Use Molex Micro Fit 3 panel mounted connectors. Pinout diagrams for each panel are included. | ...Want to create a diconnectable wiring harness for your printer. | -->
+
+!!! note "Note: Micro Fit 3"
+    Rear panels using Molex Micro Fit 3 connectors were available in early releases. They have been pulled to continue development.
 
 ## Supported Hardware
 

@@ -15,7 +15,7 @@ This page lists MCUs that are currently compatible with OmniBox.
 Micro-controller unit (MCU) board are mounted on MCU Trays. These parts are in the [:material-git: `/Trays/MCU`][git_mcu] git folder, with each component in its own subfolder. There are `STEP` and Fusion 360 template files available for adding support for other boards.
 
 !!! tip
-    Looking for a board that isn't listed? [Open an issue!][git_issues]
+    Looking for a board that isn't listed? [:material-git: Open an issue!][git_issues]
 
 
 <!-- Template 
@@ -43,6 +43,9 @@ Micro-controller unit (MCU) board are mounted on MCU Trays. These parts are in t
 
 #### SKR 3
 
+!!! caution "Fit Test Pending: [:material-git: Issue #48](https://github.com/jon-harper/OmniBox/issues/48)"
+    
+
 [:material-git: BTT SKR 3][git_btt_skr_3]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_skr_3]{ .md-button }
@@ -53,6 +56,8 @@ Micro-controller unit (MCU) board are mounted on MCU Trays. These parts are in t
 - Notes: SKR 3 EZ and earlier SKR models are incompatible.
 
 #### SKR 3 EZ
+
+!!! caution "Fit Test Pending: [:material-git: Issue #48](https://github.com/jon-harper/OmniBox/issues/48)"
 
 [:material-git: BTT SKR 3 EZ][git_btt_skr_3_ez]{ .md-button }
 
@@ -81,6 +86,8 @@ All versions of the SKR E3 series are compatible with one tray, uncluding the Mi
 The Manta M4P is not currently supported, but may be added in a future release.
 
 #### Manta M8P
+
+!!! caution "Fit Test Pending"
 
 [:material-git: BTT Manta M8P][git_btt_manta_m8p]{ .md-button }
 

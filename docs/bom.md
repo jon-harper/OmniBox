@@ -47,7 +47,9 @@ Cases with heat set inserts use shorter fasteners in some locations. Use the Sto
 
     | Fasteners                              | Qty | UOM | Note                                                     |
     |----------------------------------------|-----|-----|----------------------------------------------------------|
-    | M3 x 8mm machine screws                | 50  | ea  |                                                          |
+    | M3 x 6mm machine screws                | 4   | ea  |                                                          |
+    | M3 x 8mm machine screws                | 44  | ea  |                                                          |
+    | M3 x 10mm machine screws               | 6   | ea  | May use 12mm instead to simplify materials.              |
     | M3 x 12mm machine screws               | 8   | ea  |                                                          |
     | M3 x 20mm machine screws               | 2   | ea  |                                                          |
     | [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8   | ea  | See note below.             |
@@ -57,8 +59,9 @@ Cases with heat set inserts use shorter fasteners in some locations. Use the Sto
     | Fasteners                              | Qty | UOM | Note                                                     |
     |----------------------------------------|-----|-----|----------------------------------------------------------|
     | [:material-cart: Heat Set Insert, M3, 4.6mm OD][bom_hsi_m3] | 24  | ea  | Tested with knurled inserts, 5.7mm length. Larger diameters may not work. |
-    | M3 x 6mm machine screws                | 20  | ea  |                                                          |
-    | M3 x 8mm machine screws                | 30  | ea  |                                                          |
+    | M3 x 6mm machine screws                | 24  | ea  |                                                          |
+    | M3 x 8mm machine screws                | 28  | ea  |                                                          |
+    | M3 x 10mm machine screws               | 2   | ea  | May use 12mm instead to simplify materials.              |
     | M3 x 12mm machine screws               | 8   | ea  |                                                          |
     | M3 x 20mm machine screws               | 2   | ea  |                                                          |
     | [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8   | ea  | See note below.             |
