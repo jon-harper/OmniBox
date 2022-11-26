@@ -57,6 +57,9 @@ These blocks have holes in two orientations: flat and set at a 50 degree angle. 
 
 Sometimes an off-center insert is not discovered until later. The most common symptom is a squealing noise when inserting screws. If this happens, stop assembly to fix the insert.
 
+!!! note
+    These instructions are still being fine-tuned.
+
 1. Preheat the soldering iron to a low temperature, as before.
 2. Set the iron's tip on the insert, but *do not press down*.
 3. Allow roughtly three (3) seconds for the insert to heat.

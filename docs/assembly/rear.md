@@ -75,10 +75,10 @@ Before we install the lid, all remaining wiring for the MCU and any other compon
 - Label connectors with where they attach to the MCU board for easy removal and reconnection later (e.g., `TB` for the bed thermistor header).
 - Check connector pins:
     - Many connector pins are not designed for frequent removal: wires may pull free from the pin or pin from the connector.
-    - They can become damaged or have come loose during removal, particularly if force was needed.
-    - This is particularly true for JST XH connectors, usually used for fans, thermistors, and endstops.
+    - Pin can become damaged or come loose during removal.
+    - JST XH connectors are particularly prone to pin issues (usually used for fans, thermistors, and endstops).
 - Zip tie anchors:
-    - The zip tie anchors in the sides of the case are very helpful for longer wires.
+    - The zip tie anchors in the sides of the case are helpful for securing longer wires.
     - If you are crimping your own wires, extra length can be used to keep the wiring clean.
 
 <figure markdown>
@@ -86,8 +86,8 @@ Before we install the lid, all remaining wiring for the MCU and any other compon
   <figcaption>Ex: Each connector is labeled and zip-tied out of the way.</figcaption>
 </figure>
 
-!!! note "Before Continuing"
-    It is a good idea to perform initial power on tests before proceeding and closing the case.
+!!! tip "Before Continuing"
+    It is a good idea to perform initial power on tests now.
 
 
 [rear1]: ../img/assembly/panels/rear/rear1.png
