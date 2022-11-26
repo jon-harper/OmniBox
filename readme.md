@@ -2,4 +2,4 @@ Welcome to the OmniBox repository! OmniBox is a modular, 3D printed electronics 
 
 This project focuses on modularity, accessibility to users, and reusability. The goal of OmniBox is to make your printer's electronics as valuable and re-usable an asset as the printer it controls.
 
-**You are currently in the documentation branch.**
+**You are currently in a documentation branch.**
