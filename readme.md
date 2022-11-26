@@ -27,6 +27,8 @@ This project focuses on modularity, accessibility to users, and reusability. The
 - No current beta is available.
 - Untested parts can be found in the `unstable` branch.
 
+![photobooth picture][gallery_pic]
+
 [changelog]: https://jon-harper.github.io/OmniBox/latest/history/
 [testing_docs]: https://jon-harper.github.io/OmniBox/testing
-[gallery_pic]:  
+[gallery_pic]:  https://jon-harper.github.io/OmniBox/gallery/photobooth6.jpg
