@@ -1,1 +1,1 @@
-The Unused Tray Cover is now located in `Panels/Side Panel/Blank`.
+The Unused Tray Cover is now located in [`Panels/Side Panel/Blank`](../../../Panels/Side%20Panel/Blank).

@@ -13,7 +13,7 @@ These trays also come in two sizes, half-length and full-length. More informatio
 
 ## Requirements
 
-Folders often contain multiple variants. Each folder has a readme that discusses fastener and component requirements for each variant.
+Folders often contain multiple variants. See the [documentation][1] for details.
 
 ## Template Files
 
