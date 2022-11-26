@@ -8,6 +8,8 @@ This project focuses on modularity, accessibility to users, and reusability. The
 - If the documentation site does not answer your question, ask in the **[Discussions](https://github.com/jon-harper/OmniBox/discussions)** board.
 - Problems? Have a board that is not supported? Open a ticket on the **[Issues](https://github.com/jon-harper/OmniBox/issues)** page.
 
+![gallery_pic2][gallery_pic2]
+
 ## Updates & Releases
 
 ### Updates
@@ -32,3 +34,4 @@ This project focuses on modularity, accessibility to users, and reusability. The
 [changelog]: https://jon-harper.github.io/OmniBox/latest/history/
 [testing_docs]: https://jon-harper.github.io/OmniBox/testing
 [gallery_pic]:  https://jon-harper.github.io/OmniBox/gallery/photobooth6.jpg
+[gallery_pic2]: https://jon-harper.github.io/OmniBox/gallery/photobooth3.jpg
