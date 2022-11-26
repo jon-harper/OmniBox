@@ -517,15 +517,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#compatibility" class="md-nav__link">
-    Compatibility
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mounting-methods" class="md-nav__link">
-    Mounting Methods
+  <a href="#materials" class="md-nav__link">
+    Materials
   </a>
   
 </li>
@@ -718,6 +711,20 @@
           Heat Set Inserts (HSI)
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assembly/hsi_tips/" class="md-nav__link">
+        HSI Introduction & Tips
+      </a>
+    </li>
+  
+
+            
           
             
               
@@ -1064,7 +1071,7 @@
   
     <li class="md-nav__item">
       <a href="../../history/" class="md-nav__link">
-        0.9.9-beta Release (Current)
+        0.9.9 Release (Current)
       </a>
     </li>
   
@@ -1261,15 +1268,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#compatibility" class="md-nav__link">
-    Compatibility
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mounting-methods" class="md-nav__link">
-    Mounting Methods
+  <a href="#materials" class="md-nav__link">
+    Materials
   </a>
   
 </li>
@@ -1301,13 +1301,14 @@
 <li>MCU displays include various TFT and older 128x64 character LCD diplays.</li>
 <li>Raspberry Pi displays are TFT displays, usually used with OctoPrint or Klipper.</li>
 </ul>
+<p>It is impotant to note that displays larger than 6" are too large for the panel and should be lid-mounted. 7" Raspberry Pi TFTs are an example.</p>
 <h2 id="mcu-displays">MCU Displays</h2>
 <figure>
 <p><a href="../../img/components/display.png"><img alt="front left render" src="../../img/components/display.png" width="480" /></a>
   </p>
 <figcaption>12864 TFT display mounted on a panel.</figcaption>
 </figure>
-<p>Each supported MCU display screen has a subfolder in the <a href="https://github.com/jon-harper/OmniBox/tree/0.9.9-beta/Panels/Display" title="OmniBox GitHub: Display Panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <code>/Panels/Display</code></a> git folder. There is an optional STL file for a <a href="https://github.com/jon-harper/OmniBox/blob/main/Misc/Display%20Knob" title="OmniBox GitHub: Replacement Display Knob"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> replacement display knob</a>, as well.</p>
+<p>Each supported MCU display screen has a subfolder in the <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display" title="OmniBox GitHub: Display Panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <code>/Panels/Display</code></a> git folder. There is an optional STL file for a <a href="https://github.com/jon-harper/OmniBox/blob/main/Misc/Display%20Knob" title="OmniBox GitHub: Replacement Display Knob"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> replacement display knob</a>, as well.</p>
 <p>Component names below link to the corresponding git folder. Most mounts require four (4) 6mm or M3 screws to fasten the display in place. Some mounts have two or three pieces and require additional screws.</p>
 <!-- Template
 [:material-git: Files: ][git_]{ .md-button }
@@ -1320,7 +1321,7 @@
 - Notes:
  -->
 <h3 id="generic-12864-display">Generic 12864 Display</h3>
-<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/0.9.9-beta/Panels/Display/Generic%2012864" title="OmniBox GitHub: Generic 12864 Display Panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Generic 12864</a></p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Generic%2012864" title="OmniBox GitHub: Generic 12864 Display Panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Generic 12864</a></p>
 <p><a class="md-button" href="https://www.amazon.com/CHPOWER-Display-Screen-Creality-Printers/dp/B07DL3ZBD7" title="Amazon: Generic 128x64 Display"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/classic_12864.jpg"><img alt="product picture" src="../../img/parts/classic_12864.jpg" width="200" /></a></p>
 <ul>
@@ -1332,7 +1333,7 @@
 </li>
 </ul>
 <h3 id="fysetc-mini-12864">FYSETC Mini 12864</h3>
-<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/0.9.9-beta/Panels/Display/Mini%2012864" title="OmniBox GitHub: FYSETC Mini12864 Display Panel (and compatible)"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Mini 12864</a></p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Mini%2012864" title="OmniBox GitHub: FYSETC Mini12864 Display Panel (and compatible)"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Mini 12864</a></p>
 <p><a class="md-button" href="https://www.amazon.com/FYSETC-Controller-Supports-Accessories-RGB-Backlight/dp/B08R9ZH7S2" title="Amazon: FYSETC Mini12864 v2.1 Display"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/mini12864.jpg"><img alt="product picture" src="../../img/parts/mini12864.jpg" width="200" /></a></p>
 <ul>
@@ -1344,7 +1345,7 @@
 <li>Notes: This includes BIGTREETECH brand and other clones.</li>
 </ul>
 <h3 id="bigtreetech-24-tft">BIGTREETECH 2.4" TFT</h3>
-<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/0.9.9-beta/Panels/Display/BTT%202.4%20TFT" title="OmniBox GitHub: BIGTREETECH 2.4&quot; TFT Display Panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> BTT 2.4 TFT</a></p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%202.4%20TFT" title="OmniBox GitHub: BIGTREETECH 2.4&quot; TFT Display Panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> BTT 2.4 TFT</a></p>
 <p><a href="../../img/parts/btt_tft_2.4.jpg"><img alt="product picture" src="../../img/parts/btt_tft_2.4.jpg" width="200" /></a></p>
 <ul>
 <li>Materials: <ul>
@@ -1355,7 +1356,7 @@
 <li>Notes: This product is discontinued, but I still use it, so there's a part.</li>
 </ul>
 <h3 id="bigtreetech-35-tft">BIGTREETECH 3.5" TFT</h3>
-<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/0.9.9-beta/Panels/Display/BTT%203.5%20TFT" title="OmniBox GitHub: BIGTREETECH 3.5&quot; TFT Display Panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> BTT 3.5 TFT</a></p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%203.5%20TFT" title="OmniBox GitHub: BIGTREETECH 3.5&quot; TFT Display Panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> BTT 3.5 TFT</a></p>
 <p><a class="md-button" href="https://www.amazon.com/BIGTREETECH-Graphic-Display-Controller-Printer/dp/B07VWF4W3J" title="Amazon: BIGTREETECH TFT35 V3"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/btt_tft_3.5.jpg"><img alt="product picture" src="../../img/parts/btt_tft_3.5.jpg" width="200" /></a></p>
 <ul>
@@ -1367,7 +1368,7 @@
 <li>Notes: This is not the E3 version, which uses the Generic 12864 mount. </li>
 </ul>
 <h3 id="bigtreetech-35-tft-e3">BIGTREETECH 3.5" TFT E3</h3>
-<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/0.9.9-beta/Panels/Display/Generic%2012864" title="OmniBox GitHub: Generic 12864 Display Panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Generic 12864</a></p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Generic%2012864" title="OmniBox GitHub: Generic 12864 Display Panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Generic 12864</a></p>
 <p><a class="md-button" href="https://www.amazon.com/BIGTREETECH-TFT35-E3-V3-0-1-Motherboard/dp/B08182XHZZ" title="Amazon: BIGTREETECH TFT35 E3 v3.0.1"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
 <p><a href="../../img/parts/btt_35tft_e3.jpg"><img alt="product picture" src="../../img/parts/btt_35tft_e3.jpg" width="200" /></a></p>
 <ul>
@@ -1376,6 +1377,9 @@
 </ul>
 <!-- ### BIGTREETECH 5.0
 
+!!! caution "Fit Test Pending"
+    [:material-git: Issue #24](https://github.com/jon-harper/OmniBox/issues/24)
+
 [:material-git: Files: ][git_btt_tft_50]{ .md-button }
 
 [:material-cart: Product Link][bom_]{ .md-button }
@@ -1383,33 +1387,50 @@
 [![product picture][img_]{width="200"}][img_]
 
 - Materials: 4x M3
-- Notes: **Preliminary support** -->
+-->
 
 <h2 id="raspberry-pi-displays">Raspberry Pi Displays</h2>
-<h3 id="compatibility">Compatibility</h3>
-<p>Any TFT designed with mounts points for a Raspberry Pi on the back should be compatible.</p>
-<p>Compatible examples include:</p>
-<ul>
-<li>BIGTREETECH Pi TFT displays (using included hardware)</li>
-<li>Raspberry Pi-branded 7" TFT (with additional 10-12mm standoffs and M2.5 screws)</li>
-</ul>
-<h3 id="mounting-methods">Mounting Methods</h3>
+<p>Any TFT designed with mounts points for a Raspberry Pi on the back should be compatible with OmniBox.</p>
 <p>These displays can be attached in one of two ways:</p>
 <ul>
-<li>In place of the MCU display as a Display Panel,</li>
-<li>Or as a <a href="https://github.com/jon-harper/OmniBox/tree/0.9.9-beta/Panels/Lid/Short/Pi%20TFT" title="OmniBox GitHub: Raspberry Pi TFT Lid"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Lid</a> above the MCU display mount.</li>
+<li>In place of the MCU display as a Display Panel</li>
+<li>Or as a <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Short/Pi%20TFT" title="OmniBox GitHub: Raspberry Pi TFT Lid"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Lid</a> above the MCU display mount. </li>
 </ul>
-<p>See below for examples.</p>
-<figure>
-<p><a href="../../img/examples/rpi_display.png"><img alt="render of Raspberry Pi TFT in place of an MCU display" src="../../img/examples/rpi_display.png" width="480" /></a>
-  </p>
-<figcaption>Raspberry Pi TFT on a display panel.</figcaption>
-</figure>
-<figure>
-<p><a href="../../img/examples/rpi_lid.png"><img alt="render of Raspberry Pi TFT as a secondary display" src="../../img/examples/rpi_lid.png" width="480" /></a>
-  </p>
-<figcaption>Raspberry Pi TFT mounted as a lid.</figcaption>
-</figure>
+<p>Compatibility with the <em>display panel</em> depends on size:</p>
+<table>
+<thead>
+<tr>
+<th>Display / Mounting Location</th>
+<th align="center">Display Panel</th>
+<th align="center">Lid</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BIGTREETECH PI TFT43</td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+</tr>
+<tr>
+<td>BIGTREETECH PI TFT50</td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+</tr>
+<tr>
+<td>BIGTREETECH PI TFT70</td>
+<td align="center"><img alt="❌" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/274c.svg" title=":x:" /></td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+</tr>
+<tr>
+<td>Raspberry Pi 7" TFT</td>
+<td align="center"><img alt="❌" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/274c.svg" title=":x:" /></td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+</tr>
+</tbody>
+</table>
+<h3 id="materials">Materials</h3>
+<p>Official Raspberry Pi 7" TFT require additional M2.5 10-12mm standoffs. They should come with M2.5 screws.</p>
+<p>BIGTREETECH Pi TFT displays come with the necessary standoffs and screws.</p>
 <!-- OmniBox GitHub Pages -->
 <!-- 
     OmniBox GitHub Folders 

@@ -342,6 +342,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#compatibility-example" class="md-nav__link">
+    Compatibility Example
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -721,6 +728,20 @@
   
   
     <li class="md-nav__item">
+      <a href="assembly/hsi_tips/" class="md-nav__link">
+        HSI Introduction & Tips
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="assembly/hsi_base/" class="md-nav__link">
         Rear Base
       </a>
@@ -1060,7 +1081,7 @@
   
     <li class="md-nav__item">
       <a href="history/" class="md-nav__link">
-        0.9.9-beta Release (Current)
+        0.9.9 Release (Current)
       </a>
     </li>
   
@@ -1270,6 +1291,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#compatibility-example" class="md-nav__link">
+    Compatibility Example
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1292,10 +1320,6 @@
 
   <h1>Overview</h1>
 
-<div class="admonition important">
-<p class="admonition-title">Important: Beta Documentation</p>
-<p>This documentation is for the latest beta release of OmniBox. You can switch to the documentation for a different release from the drop-down box above.</p>
-</div>
 <h2 id="about-omnibox">About OmniBox</h2>
 <p>OmniBox is a 3D printable, modular electronics case for 3D printers. It supports a wide variety of parts and includes templates to add new ones. </p>
 <p>This project is derived from Steve Burcham's <a href="https://www.thingiverse.com/thing:3999751" title="BGDog's Stand Alone Main Control Case (Thingiverse)">Stand Alone Main Control Case</a> V3 footprint. It is released under the <a href="license/" title="Contributing and License">MIT License</a>.</p>
@@ -1336,26 +1360,32 @@
 <p>With version 1.0, changes may be made that cause deprecated parts to lose compatibility. This is a final chance to "lock in" the design.</p>
 <p>At this point, OmniBox releases will come with a <strong>Version Stability Guarantee</strong>:</p>
 <p>The way that Core components fit together and panels and trays attach to the case will be "frozen" and stable. If you choose to print a newer version of a Core part, no panels or trays will need to be reprinted. New products added in future releases can likewise be used in the Core case body from a prior release.</p>
-<div class="admonition example">
-<p class="admonition-title">Example</p>
-<p>As an example, the design for CPU trays was modified for 0.9.9. Version 0.9.8-style trays are considered deprecated. The following shows how this works.</p>
-<p>A version 0.9.8 case:</p>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Can use 0.9.8 CPU trays</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Cannot use 0.9.9 trays.</li>
-</ul>
-<p>A version 0.9.9 case:</p>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Can use deprecated 0.9.8 CPU trays.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Can use 0.9.9 CPU trays.</li>
-</ul>
-<p>If the design does not change again before version 1.0, a version 1.0 case:</p>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Can use CPU trays from any release from 0.9.9 or later.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Can use any CPU tray from <em>future</em> releases, e.g., 1.1.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Can not use version 0.9.8 trays.</li>
-</ul>
-</div>
+<h3 id="compatibility-example">Compatibility Example</h3>
+<p>As an example, the design for CPU trays was modified for 0.9.9. Version 0.9.8-style trays are considered deprecated. The following shows how trays and Core cases and compatible with one another.</p>
+<table>
+<thead>
+<tr>
+<th>CPU Tray / Core Case</th>
+<th align="center">0.9.8</th>
+<th align="center">0.9.9 - 1.0</th>
+<th align="center">1.0 and Later</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Old (0.9.8) trays</strong></td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+<td align="center"><img alt="❌" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/274c.svg" title=":x:" /></td>
+</tr>
+<tr>
+<td><strong>New (0.9.9) trays</strong></td>
+<td align="center"><img alt="❌" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/274c.svg" title=":x:" /></td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+</tr>
+</tbody>
+</table>
 <p>See the <a href="tour/" title="Guided Tour">Guided Tour</a> to see how the components of an OmniBox fit together in practice.</p>
 <!-- OmniBox GitHub Pages -->
 <!-- 
