@@ -16,6 +16,6 @@
 
 The blank display mount is part of Steve Burcham's [3DPrinterCase](https://www.thingiverse.com/thing:3999751) project and is his design. It is individually licensed under the [Creative Commons - Attribution](https://creativecommons.org/licenses/by/4.0/) license.
 
-## `Display Knob.stl`
+## Replacement Display Knobs
 
-This is an optional printable file that fits most display screens and replaces the stock knob.
+In the `Misc/Display Knob` folder there is a replacement display knob that will fit most TFT displays.

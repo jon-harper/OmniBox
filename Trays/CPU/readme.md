@@ -2,8 +2,14 @@
 
 ## Overview
 
-These trays slide into the right side of the case and mount a system-on-a-chip (SoC) CPU board.
+These trays slide into the either the right or left side of the case. Each mounts a system-on-a-chip (SoC) CPU board. Unused CPU bays can be filled by a Side Panel (see `Panels/Side Panel`).
 
-Use [Unused CPU Tray Cover.stl][1] to cover the tray bay if you do not plan to use an SoC CPU.
+## Products
 
-[1]: Unused%20CPU%20Tray%20Cover/Unused%20CPU%20Tray%20Cover.stl
+Trays currently come in these form factors:
+
+- Raspberry Pi 3B+
+- Raspberry Pi 4B
+- Raspberry Pi Universal
+
+The first two trays have cutouts for the USB and Ethernet ports. The Universal tray has these ports inside the case and can mount any SoC CPU with the Raspberry Pi mounting hole pattern.

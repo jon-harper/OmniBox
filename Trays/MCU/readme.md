@@ -4,15 +4,9 @@
 
 MCU trays sit in the center of the main body and mount a micro-controller unit (MCU) board.
 
-## Product Support
+## M3/M4 Versions
 
-| Board Name            | Subfolder       |
-|-----------------------|-----------------|
-| BigTreeTech Octopus   | `BTT Octopus`   |
-| BigTreeTech SKR v1.3+ | `BTT SKR`       |
-| BigTreeTech SKR E3    | `BTT SKR E3`    |
-| Creality v1.1.X       | `BTT SKR E3`    |
-| Creality v4.X         | `BTT SKR E3`    |
+Users of OmniBox before version 0.9.9 should use the M4 files. These are forward-compatible using M3 screws if you choose to upgrade later.
 
 ## Template Files
 

@@ -10,7 +10,7 @@ There are still two configuration options:
 - USB B panel mount (SKR and most other boards)
 - USB C panel mount (BTT Octopus and many newer boards)
 
-Micro-USB to USB B panel mount connectors are available. Ex: Creality and many 8-bit boards use these.
+Micro-USB to USB B panel mount connectors are available. Ex: Old Creality and many 8-bit boards use Micro-USB.
 
 ## 60mm Fan Cutout
 
