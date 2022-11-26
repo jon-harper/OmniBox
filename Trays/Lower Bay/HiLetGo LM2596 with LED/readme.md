@@ -14,9 +14,9 @@ These trays mounts one (1) or two (2) compact "HiLetgo"-style LM2596 buck conver
 
 ## STL Files
 
-### `Lower Bay Tray - HiLetGo LM2596 - Full Dual.stl`
+### `Lower Bay Tray - HiLetGo LM2596 - Long Dual.stl`
 
-- Tray Length: Full
+- Tray Length: Long
 - Print with Supports: No
 
 | Bill of Materials           | Quantity |
@@ -24,9 +24,9 @@ These trays mounts one (1) or two (2) compact "HiLetgo"-style LM2596 buck conver
 | HiLetGo LM2596 buck converter  | 2        |
 | M3 x 6mm machine screws     | 4-8      |
 
-### `Lower Bay Tray - HiLetGo LM2596 - Half Single.stl`
+### `Lower Bay Tray - HiLetGo LM2596 - Short Single.stl`
 
-- Tray Length: Half
+- Tray Length: Short
 - Print with Supports: No
 
 | Bill of Materials           | Quantity |
@@ -34,9 +34,9 @@ These trays mounts one (1) or two (2) compact "HiLetgo"-style LM2596 buck conver
 | HiLetGo LM2596 buck converter  | 1        |
 | M3 x 6mm machine screws     | 2-4      |
 
-### `Lower Bay Tray - HiLetGo LM2596 - Full Dual with Fan.stl`
+### `Lower Bay Tray - HiLetGo LM2596 - Long Dual with Fan.stl`
 
-- Tray Length: Full
+- Tray Length: Long
 - Print with Supports: Optional
 
 | Bill of Materials           | Quantity |
@@ -45,9 +45,9 @@ These trays mounts one (1) or two (2) compact "HiLetgo"-style LM2596 buck conver
 | 40x40x10mm axial fan        | 1        |
 | M3 x 6mm machine screws     | 4-8      |
 | M3 x 16mm machine screws    | 4        |
-### `Lower Bay Tray - HiLetGo LM2596 - Full Single with Fan.stl`
+### `Lower Bay Tray - HiLetGo LM2596 - Long Single with Fan.stl`
 
-- Tray Length: Full
+- Tray Length: Long
 - Print with Supports: Optional
 
 | Bill of Materials           | Quantity |

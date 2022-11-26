@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a single, half-length tray for adding a lower bay 40mm fan. Nothing fancy.
+This is a short tray for adding a lower bay 40mm fan. Nothing fancy.
 
 | Field                 | Description               |
 |-----------------------|---------------------------|
@@ -18,7 +18,7 @@ This is a single, half-length tray for adding a lower bay 40mm fan. Nothing fanc
 
 | Field                 | Description                   |
 |-----------------------|-------------------------------|
-| Tray Length           | Half                          |
+| Tray Length           | Short                         |
 | Quantity Mounted      | 1                             |
 | Mounting Hardware     | 4x M3 machine screws (see below) |
 | Print with Supports   | Optional                      |
