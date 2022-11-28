@@ -137,6 +137,33 @@ Compatible with all versions.
 - Materials: 4x M3 x 6mm
 
 
+## MakerBase
+
+### MKS Monster8
+
+!!! caution "Fit Test Pending: [Issue #74](https://github.com/jon-harper/OmniBox/issues/74)"
+
+[:material-git: BTT Manta M8P][git_mks_monster8]{ .md-button }
+
+[:material-cart: Product Link][bom_mks_monster8]{ .md-button }
+
+[![product picture][img_mks_monster8]{width="200"}][img_mks_monster8]
+
+- Materials: 4x M3 x 6mm
+- Compatibility: 1.0, 2.0
+### MKS Skipr
+
+!!! caution "Fit Test Pending: [Issue #70](https://github.com/jon-harper/OmniBox/issues/70)"
+
+[:material-git: BTT Manta M8P][git_mks_skipr]{ .md-button }
+
+[:material-cart: Product Link][bom_mks_skipr]{ .md-button }
+
+[![product picture][img_mks_skipr]{width="200"}][img_mks_skipr]
+
+- Materials: 4x M3 x 6mm
+
+
 ## Other Boards
 
 ### Creality
@@ -162,3 +189,5 @@ Compatible with all versions.
 [img_btt_skr_mini_e3_v3]: ../img/parts/btt_skr_mini_e3_v3.jpg
 [img_duet_3_mini_5+]: ../img/parts/duet3_mini_5plus.jpg
 [img_duet_3_6hc]: ../img/parts/duet3_6hc.jpg
+[img_mks_monster8]: ../img/parts/mks_monster8.jpg
+[img_mks_skipr]: ../img/parts/mks_skipr.jpg

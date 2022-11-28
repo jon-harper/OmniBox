@@ -82,6 +82,8 @@
 [git_btt_manta_m8p]:    https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/MCU/BTT%20SKR%203%20EZ        "OmniBox GitHub: BIGTREETECH Manta M8P MCU Tray"
 [git_duet_3_6hc]:       https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/Duet3D%20Duet%203%206HC/      "OmniBox GitHub: Duet3D Duet 3 6C"
 [git_duet_3_mini_5+]:   https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/Duet3D%20Duet%203%20Mini%205+ "OmniBox GitHub: Duet3D Duet 3 Mini 5+"
+[git_mks_monster8]:     https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/MCU/MKS%20Monster8      "OmniBox GitHub: MKS Monster8"
+[git_mks_skipr]:        https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/MCU/MKS%20Skipr         "OmniBox GitHub: MKS Skipr"
 
 <!--      /CPU -->
 [git_cpu]:              https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/                              "OmniBox GitHub: CPU Trays"

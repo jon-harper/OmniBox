@@ -32,6 +32,8 @@
 [bom_btt_octopus]:      https://www.amazon.com/BIGTREETECH-Motherboard-Compatible-Firmware-Raspberry/dp/B094NPRYDP   "Amazon: BIGTREETECH Octopus"
 [bom_creality_4x]:      https://www.amazon.com/Official-Creality-3D-Upgraded-Motherboard/dp/B09NMJMPN1               "Amazon: Creality 4.2.7"
 [bom_btt_manta_m8p]:    https://www.amazon.com/BIGTREETECH-Integrated-Motherboard-Firmware-Compatible/dp/B0B7W53JSY  "Amazon: BIGTREETECH Manta M8P"
+[bom_mks_skipr]:        https://www.aliexpress.us/item/3256804323039950.html                                     "AliExpress: MakerBase MKS Skipr"
+[bom_mks_monster8]:     https://www.aliexpress.us/item/3256803106583492.html                                     "AliExpress: MakerBase MKS Monster8"
 
 <!-- SoC CPUs -->
 [bom_rpi_3b_plus]:      https://www.adafruit.com/product/3055                                                    "Adafruit: Raspberry Pi 3B+"
