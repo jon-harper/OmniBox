@@ -115,6 +115,24 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 
 ## Solid State Relays
 
+### Omron G3A/G3NA Puck Relays
+
+!!! caution "Fit Test Pending"
+
+[:material-git: 48mm SSR][git_48mm_ssr]{ .md-button }
+
+[:material-cart: Product Link][bom_omron_ssr]{ .md-button }
+
+[![product picture][img_omron_ssr]{width="200"}][img_omron_ssr]
+
+- Materials: 2x M4 x 6mm
+- Trays:
+    - Short (single)
+    - Long (single)
+- Notes: 
+    - Mounting holes distance is 47.5mm to about 52mm.
+    - Long tray has zip tie anchors. 
+
 ### Fotek SSR-40 DA 
 
 [:material-git: Fotek SSR-40 DA][git_fotek_ssr40da]{ .md-button }
@@ -123,10 +141,13 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 
 [![product picture][img_fotek_ssr_40da]{width="200"}][img_fotek_ssr_40da]
 
-- Materials: 2x M3 x 6mm
+- Materials: 2x M4 x 6mm
 - Trays:
     - Short (single)
     - Long (single)
+- Notes: 
+    - Mounting holes distance is 47mm to about 52mm.
+    - Long tray has zip tie anchors.
 
 ## Other Products
 
@@ -202,3 +223,4 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 [img_btt_ups_24v]: ../img/parts/btt_ups_24v.jpg
 [img_4010]: ../img/parts/fan_4010.jpg
 [img_btt_relay]: ../img/parts/btt_relay_1.2.jpg
+[img_omron_ssr]: ../img/parts/omron_ssr.jpg

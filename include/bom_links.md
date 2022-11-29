@@ -55,6 +55,7 @@
 
 <!--     SSRs -->
 [bom_fotek_ssr_40da]:   https://www.amazon.com/SSR-40DA-Solid-Output-24-380V-SSR-40/dp/B07FVHWN82                "Amazon: Fotek SSR-40DA"
+[bom_omron_ssr]:        https://kb-3d.com/store/omron/171-omron-solid-state-relay-g3na-210b-utu-ssr-4536854807954.html "KB-3D: Omron G3NA-210B-UTU SSR"
 
 <!--     MOSFETs -->
 [bom_creality_mosfet]:  https://www.tinymachines3d.com/products/crmfet                                           "TinyMachines3D: Creality MOSFET"
