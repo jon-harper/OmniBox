@@ -30,6 +30,7 @@ markdown_extensions:
       custom_checkbox: true
 theme:
   name: material
+  custom_dir: overrides
   logo: img/logo.png
   favicon: img/favicon.png
   features:
@@ -63,15 +64,18 @@ extra:
   version:
     provider: mike
   social:
+    - icon: simple/kofi
+      link: https://ko-fi.com/jonspaceharper
+      name: Support me on Ko-Fi!
     - icon: fontawesome/brands/twitter 
       link: https://twitter.com/TheOmniBox
       name: TheOmniBox on Twitter
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/user/jonspaceharper
       name: u/jonspaceharper on Reddit
-    - icon: simple/kofi
-      link: https://ko-fi.com/jonspaceharper
-      name: Support me on Ko-Fi!
+    - icon: simple/mastodon
+      link: https://mastodon.online/@jonspaceharper
+      name: "Mastodon: jonspaceharper@mastodon.online"
 
 extra_css:
   - assets/stylesheets/extra.css
