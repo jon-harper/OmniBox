@@ -64,9 +64,6 @@ extra:
   version:
     provider: mike
   social:
-    - icon: simple/kofi
-      link: https://ko-fi.com/jonspaceharper
-      name: Support me on Ko-Fi!
     - icon: fontawesome/brands/twitter 
       link: https://twitter.com/TheOmniBox
       name: TheOmniBox on Twitter
@@ -76,6 +73,12 @@ extra:
     - icon: simple/mastodon
       link: https://mastodon.online/@jonspaceharper
       name: "Mastodon: jonspaceharper@mastodon.online"
+    - icon: fontawesome/regular-newspaper
+      link: https://post.news/jonspaceharper
+      name: "Post.news: jonspaceharper"
+    - icon: simple/kofi
+      link: https://ko-fi.com/jonspaceharper
+      name: Support me on Ko-Fi!
 
 extra_css:
   - assets/stylesheets/extra.css
