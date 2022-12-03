@@ -12,9 +12,9 @@ At this point, it is a good idea to wire the power supply, power switch, and IEC
 ### Cautions
 
 !!! important
-    For this example, we will use *red* wires for the power switch and use them for the *line* run from the power socket to switch to PSU (normally labeled 'L' on the PSU).
+    For this example, we will use *red* wires for the power switch and use them for the *line* leg from the power socket to switch to PSU (normally labeled 'L' on the PSU).
     
-    If you are using *black* wires, connect the *neutral* (N) terminals with the crimped wires instead.
+    It is strongly recommended that the switch operate on the line wire instead of the neutral.
 
 !!! Warning
     Be careful of polarity and always check your work!
@@ -44,7 +44,7 @@ Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp
 
 | Parts                                         | Qty  | Note                                |
 |-----------------------------------------------|------|-------------------------------------|
-| 16awg stranded hookup wire                    | 0.7m | 14 or 16 gauge                      |
+| 16awg red stranded hookup wire                | 0.7m | 14 or 16 gauge                      |
 | Fork connectors, 14-16 awg, female insulated  | 1    |                                     |
 | Spade connectors, 14-16 awg, insulated        | 3    |                                     |
 

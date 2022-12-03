@@ -18,7 +18,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M4 x 6mm machine screws   | 4   | No longer than 8mm.             |
+    | M4 x 6mm machine screws   | 4   | Button head only; no longer than 8mm. |
     | Mean Well LRS-350-24      | 1   |                                 |
     | [:material-git: PSU Tray][git_psu_lrs350]  | 1   | :material-printer-3d-nozzle: Printed, 2 files. |
 
@@ -26,7 +26,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M4 x 6mm machine screws   | 4-8 | No longer than 8mm.             |
+    | M4 x 6mm machine screws   | 4-8 | Button head only; no longer than 8mm. |
     | Compatible power supply   | 1   |  |
     | PSU Tray                  | 1   | :material-printer-3d-nozzle: Printed, 2 files. |
 

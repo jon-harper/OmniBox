@@ -14,6 +14,9 @@ This page lists power supplies (PSUs) currently supported by OmniBox.
 
 PSU trays are found in the [:material-git: `/Trays/PSU`][git_psu] git folder. Expanding support for new power supplies is an area of focus; a template will be available in future releases.
 
+!!! note "Note: M4 Screws"
+    Power supplies will only work with M4 *button head* screws. Socket head cap screws have heads that are too tall to fit the PSU in the case.
+
 <!-- Template
 [![product picture][img_btt_skr_3]{width="200"}][img_]
 
@@ -34,7 +37,7 @@ There are several brands of clones, usually using the same model number. The mod
 
 [![product picture][img_lrs_350]{width="200"}][img_lrs_350]
 
-- Materials: 4x M4 x 6mm
+- Materials: 4x M4 x 6mm button head screws
 
 ### RSP-500 Series
 
@@ -46,7 +49,7 @@ There are several brands of clones, usually using the same model number. The mod
 
 [![product picture][img_rsp_500]{width="200"}][img_rsp_500]
 
-- Materials: 8x M4 x 6mm
+- Materials: 8x M4 x 6mm button head screws
 - Notes: Requires a [:material-git: base extension][git_base_extension].
 
 [psu]: ../img/components/psu.png

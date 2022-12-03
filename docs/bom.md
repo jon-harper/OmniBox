@@ -21,20 +21,20 @@ These parts are common to all case builds. See below for additional requirements
 |----------------------------------------|-----|-----|----------------------------------------------------------|
 | PLA/PLA+ filament                      | 2   | kg  | Typical use is less than 1.5kg.                          |
 | TPU 95A filament                       | 0.05| kg  | Optional. Quantity is maximum estimated.                 |
-| 16 awg stranded hookup wire            | 0.5 | m   | Red or black.                                            |
+| 16 red awg stranded hookup wire        | 0.5 | m   |                                                          |
 | [:material-cart: Spade connectors, 14-16 awg, Female, Insulated][bom_spade_connector] | 3   | ea  |                      |
 | [:material-cart: Fork connectors, 14-16 awg, #8, Insulated][bom_fork_connector]       | 1   | ea  | Ring connectors can be used as well. |
 | [:material-cart: SPST snap-in rocker switch][bom_switch]        | 1   | ea  | 30mm x 11mm profile. Identical to Creality Ender power switch. |
 | [:material-cart: IEC C14 socket with fuse][bom_iec]          | 1   | ea  |                                    |
-| Fuse, 5x20mm, Glass, Fast Blow         | 1   | ea  | See note below.                                          |
+| Fuse, 5x20mm, Glass                    | 1   | ea  | See note below.                                          |
 | Compatible MCU                         | 1   | ea  | See the [Supported Parts][support] list.                 |
 | Compatible 128x64 or TFT LCD display   | 1   | ea  | See the [Supported Parts][support] list.                 |
 | Compatible power supply                | 1   | ea  | See the [Supported Parts][support] list.                 |
 
-!!! note "Note: Fast Blow Glass Fuses"
+!!! note "Note: Glass Fuses"
     Socket fuses do *not* replace the fuses on your board or inline fuses.
 
-    Determining the correct fuse for a given configuration is beyond the scope of this documentation. The Oznium blog has an [excellent guide][fuse_guide] on choosing a fuse size, however.
+    Users will typically want to fuse with fast or medium blow fuses on the socket. Determining the correct fuse for a given configuration is beyond the scope of this documentation. The Oznium blog has an [excellent guide][fuse_guide] on choosing a fuse size.
 
 !!! note "Note: Wiring and Connectors"
     This list is not all-encompassing for wiring. Additional connectors and wiring may be needed, including for [grounding your bed/frame to earth][ground_guide].
