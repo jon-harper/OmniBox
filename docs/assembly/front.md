@@ -21,7 +21,12 @@ date: 2022-11-03
     | [:material-git: `Front Panel - MicroSD, Slats.stl`][git_front_sd_no_usb] | 1  | :material-printer-3d-nozzle: Printed |
     | [:material-git: `LANMU MicroSD Holder Body.stl`][git_front_sd_no_usb] | 1  | :material-printer-3d-nozzle: Printed |
     | [:material-git: `LANMU MicroSD Holder Cap.stl`][git_front_sd_no_usb] | 1  | :material-printer-3d-nozzle: Printed |
-    | [:material-cart: LANMU Micro SD Card Extension][bom_lanmu_micro_sd] | 1   | |
+    | [:material-cart: ELECTOP MicroSD Reader Extension][bom_electop_micro_sd] | 1   | See note. |
+
+    !!! note: "Note: MicroSD Reader Extension"
+        Each MCU tray entry mentions if a short (LANMU) or long (ELECTOP) reader extension is needed. The illustrated SRR 2 requires a long extension.
+
+        The assembly process for both is identical.
 
 === "Generic"
 

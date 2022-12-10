@@ -46,8 +46,8 @@ The table below breaks down where to get started.
 In addition to [fans][fans], templates and predesigned panels are available to mount the following hardware:
 
 | Connector or Extension | Typical Location | Notes |
-|------------------------|----------|-------|
-| [:material-cart: MicroSD panel mount extension][bom_lanmu_micro_sd] | Front | |
+|------------------------|------------------|-------|
+| MicroSD reader extension | Front | [:material-cart: Short][bom_lanmu_micro_sd], [:material-cart: Long][bom_electop_micro_sd] |
 | [:material-cart: USB B panel mount extension][bom_usb_b_extension] | Front or Rear | Right angle connector fits most boards more easily. |
 | [:material-cart: USB C panel mount extension][bom_usb_c_extension] | Front or Rear | |
 | [:material-cart: JST SM panel mount connectors][bom_jst_sm_kit] | Rear | 2-5 pins |

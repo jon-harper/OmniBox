@@ -71,6 +71,13 @@ Cases with heat set inserts use shorter fasteners in some locations. Use the Sto
 !!! note "Note: Sharp Point Wood Screws"
     To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
 
+### MicroSD Reader Extensions
+
+Each MCU tray entry has a field for whether a short or long MicroSD card reader extension is necessary (if using one for the front panel).
+
+- Short: [:material-cart: LANMU MicroSD Card Reader Extension][bom_lanmu_micro_sd]
+- Long: [:material-cart: ELECTOP MicroSD Card Reader Extension][bom_electop_micro_sd]
+
 ## Core Configurations with Fans
 
 Most Core component configurations mount at least one fan. The materials necessary are specified below.
