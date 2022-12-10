@@ -23,8 +23,8 @@ date: 2022-11-03
     | [:material-git: `LANMU MicroSD Holder Cap.stl`][git_front_sd_no_usb] | 1  | :material-printer-3d-nozzle: Printed |
     | [:material-cart: ELECTOP MicroSD Reader Extension][bom_electop_micro_sd] | 1   | See note. |
 
-    !!! note: "Note: MicroSD Reader Extension"
-        Each MCU tray entry mentions if a short (LANMU) or long (ELECTOP) reader extension is needed. The illustrated SRR 2 requires a long extension.
+    !!! note "Note: MicroSD Reader Extension"
+        Each MCU tray entry mentions if a short (6" LANMU) or long (18" ELECTOP) reader extension is needed. The illustrated SKR 2 requires a long extension.
 
         The assembly process for both is identical.
 
@@ -41,7 +41,8 @@ date: 2022-11-03
 ### Directions
 
 <figure markdown>
-  <figcaption>1. (Not pictured) Carefully pry open the outer plastic shell around the MicroSD card reader extension. Discard the shell.</figcaption>
+  [![illustration][reader1]{ width="480"}][reader1]
+  <figcaption>1. Carefully pry open the outer plastic shell around the MicroSD card reader extension. Discard the shell.</figcaption>
 </figure>
 
 <figure markdown>
@@ -89,4 +90,4 @@ date: 2022-11-03
 [front5]: ../img/assembly/panels/front/front5.png
 [front6]: ../img/assembly/panels/front/front6.png
 [front_final]: ../img/assembly/panels/front/front_final.png
-<!-- [vid_lid]: ../video/lid.mp4 -->
+[reader1]: ../img/assembly/misc/reader1.png
