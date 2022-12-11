@@ -1,3 +1,3 @@
-## Don't forget the SD Card extension files!
+## Where Did The Files Go?
 
-Make sure you also print the holder and cap files in `Misc/Lanmu Micro SD Extension`.
+They've been moved to ["../MicroSD Extension"](../MicroSD%20Extension).
