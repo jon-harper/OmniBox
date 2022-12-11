@@ -44,7 +44,7 @@
 
 <!--      /Front Panel -->
 [git_front_panel]:      https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel                "OmniBox GitHub: Front Panels"
-[git_front_sd_no_usb]:  https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Panels/Front%20Panel/Lanmu%20Micro%20SD%20Extension/No%20USB "OmniBox GitHub: Front Panel with MicroSD Extension (No USB)"
+[git_front_sd_no_usb]:  https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel/MicroSD%20Extension/No%20USB "OmniBox GitHub: Front Panel with MicroSD Extension (No USB)"
 
 
 <!--      /Lid -->
@@ -79,7 +79,7 @@
 [git_btt_octopus]:      https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20Octopus             "OmniBox GitHub: BIGTREETECH Octopus MCU Tray"
 [git_btt_skr_3]:        https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/MCU/BTT%20SKR%203             "OmniBox GitHub: BIGTREETECH SKR 3 MCU Tray"
 [git_btt_skr_3_ez]:     https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/MCU/BTT%20SKR%203%20EZ        "OmniBox GitHub: BIGTREETECH SKR 3 EZ MCU Tray"
-[git_btt_manta_m8p]:    https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/MCU/BTT%20SKR%203%20EZ        "OmniBox GitHub: BIGTREETECH Manta M8P MCU Tray"
+[git_btt_manta_m8p]:    https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/MCU/BTT%20Manta%20M8P        "OmniBox GitHub: BIGTREETECH Manta M8P MCU Tray"
 [git_duet_3_6hc]:       https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/Duet3D%20Duet%203%206HC/      "OmniBox GitHub: Duet3D Duet 3 6C"
 [git_duet_3_mini_5+]:   https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/Duet3D%20Duet%203%20Mini%205+ "OmniBox GitHub: Duet3D Duet 3 Mini 5+"
 [git_mks_monster8]:     https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/MCU/MKS%20Monster8      "OmniBox GitHub: MKS Monster8"
@@ -118,8 +118,8 @@
 <!-- /Misc     -->
 [git_display_knob]:     https://github.com/jon-harper/OmniBox/blob/main/Misc/Display%20Knob                     "OmniBox GitHub: Replacement Display Knob"
 [git_hsi_practice]:     https://github.com/jon-harper/OmniBox/tree/main/Misc/Heat%20Set%20Insert%20Practice%20Block/ "OmniBox GitHub: Heat Set Insert Practice Block"
-[git_carry_handle]:     https://github.com/jon-harper/OmniBox/blob/main/Misc/Carry%20Handle                     "OmniBox GitHub: Carry Handle for Lids"
-[git_microsd_extension]: https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Misc/MicroSD%20Extension%20-%20Lanmu "OmniBox GitHub: MicroSD Extension - Lanmu"
+[git_carry_handle]:     https://github.com/jon-harper/OmniBox/tree/main/Misc/Carry%20Handle                     "OmniBox GitHub: Carry Handle for Lids"
+[git_microsd_extension]: https://github.com/jon-harper/OmniBox/tree/main/Misc/MicroSD%20Extension "OmniBox GitHub: MicroSD Extension"
 
 <!-- External Links -->
 [bgdog]: https://www.thingiverse.com/thing:3999751 "BGDog's Stand Alone Main Control Case (Thingiverse)"
