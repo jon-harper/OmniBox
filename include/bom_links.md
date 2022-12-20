@@ -18,6 +18,10 @@
 [bom_usb_c_extension]:  https://www.amazon.com/Poyiccot-Extension-Female-Extender-Straight/dp/B086W2R8Z6         "Amazon: USB-C Panel Mount Extension"
 [bom_jst_sm_kit]:       https://www.amazon.com/gp/product/B07D9HRDT6                                             "Amazon: JST-SM Connector Kit"
 [bom_molex]:            https://www.digikey.com/en/htmldatasheets/production/1626160/0/0/1/0430300007.html       "Digikey: Molex Micro Fit 3.0 Connectors"
+[bom_key_usb3]:         https://www.amazon.com/gp/product/B07FSMVH32/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1 "Amazon: USB 3 Keystone Extension"
+[bom_key_hdmi]:         https://www.amazon.com/Monoprice-106852-Keystone-Coupler-Adapter/dp/B005VKKB7Q           "Amazon: HDMI Coupler Keystone Jack"
+[bom_key_ethernet]:     https://www.amazon.com/VCE-Listed-5-Pack-Keystone-Coupler-White/dp/B0116T7XMQ            "Amazon: Ethernet Coupler Keystone Jacks"
+[bom_key_usb_c]:        https://www.amazon.com/Keystone-Extention-Keystone-Convertor-Extension/dp/B08GSLLVG2     "Amazon: USB C Keystone Extension"
 
 <!-- PSU -->
 [bom_lrs350]:           https://www.amazon.com/MEAN-WELL-LRS-350-24-Printer-Industrial/dp/B07VRK86SP             "Amazon: Mean Well LRS-350-24"

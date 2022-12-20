@@ -1,5 +1,5 @@
 ---
-title: Connector Panels
+title: Panel Mounts
 summary: A list of panel mounted components supported by OmniBox
 authors: Jon Harper
 date: 2022-07-22
@@ -43,16 +43,59 @@ The table below breaks down where to get started.
 
 ## Supported Hardware
 
-In addition to [fans][fans], templates and predesigned panels are available to mount the following hardware:
+In addition to [fans][fans], templates and predesigned panels are available to mount a variety of hardware.
 
-| Connector or Extension | Typical Location | Notes |
-|------------------------|------------------|-------|
-| MicroSD reader extension | Front | [:material-cart: Short][bom_lanmu_micro_sd], [:material-cart: Long][bom_electop_micro_sd] |
-| [:material-cart: USB B panel mount extension][bom_usb_b_extension] | Front or Rear | Right angle connector fits most boards more easily. |
-| [:material-cart: USB C panel mount extension][bom_usb_c_extension] | Front or Rear | |
-| [:material-cart: JST SM panel mount connectors][bom_jst_sm_kit] | Rear | 2-5 pins |
-| [:material-cart: Molex Micro Fit 3.0 connectors][bom_molex] | Rear | Supported up to 2-row, 16-position. |
-| Keystone Jacks | Front, Side, Rear | Currently only the side panel has a predesigned keystone jack mount. |
+### MicroSD Extensions
+
+These are availabe in short or long versions and are typically used with MCUs. They can also be used to give access to other SD card slots, such as an SoC CPU.
+
+Each MCU lists whether it can use a short extension (about 6" long) or of the longer extension is needed (about 18").
+
+- Short: [:material-cart: LANMU MicroSD Card Reader Extension][bom_lanmu_micro_sd]
+- Long: [:material-cart: ELECTOP MicroSD Card Reader Extension][bom_electop_micro_sd]
+
+### USB Extensions
+
+USB extensions are usually USB B or USB C. Some boards still use Micro-USB; for these extensions, a keystone jack extension is needed.
+
+Right angle connectors are often a good choice, particularly for larger boards.
+
+- [:material-cart: USB B panel mount extension][bom_usb_b_extension]
+- [:material-cart: USB C panel mount extension][bom_usb_c_extension]
+
+### Keystone Jacks
+
+Keystone jacks support a variety of multimedia cables: USB, HDMI, and Ethernet, among others. As a result, keystone jacks offer flexibility in choosing which connectors to mount. A blank plate can occupy an unused jack cutout.
+
+These are commonly used on the front, side, or rear panels. Currently, designs with keystone jack cutouts exist for the front and side panels.
+
+Below are several common keystone jacks.
+
+| Description                                       | External connector  | Internal Connector | Cable Length |
+|---------------------------------------------------|---------------------|--------------------|--------------|
+| [:material-cart: USB 3.0 extension][bom_key_usb3] | USB3.0 Type A       | USB 3.0 Type A     | 6"           |
+| [:material-cart: HDMI][bom_key_hdmi]              | HDMI                | HDMI               | Coupler only |
+| [:material-cart: Ethernet][bom_key_ethernet]      | RJ-45 (Ethernet)    | RJ-45 (Ethernet)   | Coupler only |
+| [:material-cart: USB C][bom_key_usb_c]            | USB C               | USB C              | 8"           |
+
+
+### Other Connectors
+
+JST SM and Molex's Micro Fit 3.0 connectors can both be panel-mounted. These are useful when creating detachable wiring harnesses.
+
+#### JST SM
+
+[:material-cart: JST SM Connector Kit][bom_jst_sm_kit]
+
+[:material-book-open: JST SM on The Clockmaker Project][clk_jst_sm]
+
+#### Molex Micro Fit 3.0
+
+Supported up to 2-row, 16-position, althouhg up to 24 position are available. Larger than 16 pin can be hard to disconnect.
+
+[:material-cart: Molex Micro Fit 3.0 connectors][bom_molex]
+
+[:material-book-open: Molex Micro Fit 3.0 on The Clockmaker Project][clk_mf3]
 
 [fans]: fans.md
 

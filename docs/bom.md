@@ -159,11 +159,16 @@ Power supplies are notable for mounting to the tray with M4 x 6mm screws. See th
 
 Each tray (short or long) uses four (4) M3 x 6mm screws to mount the tray. Additional materials are listed on the [Lower Bay Components][lower_bay] page.
 
+### Panel Mounted Parts
+
+Panel mounts are a way of providing external connectors to internal parts, such as the MCU or CPU board USB ports. The [Panel Mounts][panel_mount] page discusses this in more detail.
+
 [support]:          support/index.md    "Overview of supported parts"
 [psu]:              support/psu.md      "List of supported PSUs"
 [suport_mcu]:       support/mcu.md      "List of supported MCUs"
 [support_cpu]:      support/cpu.md      "List of supported SoC CPUs"
 [lower_bay]:        support/lower_bay.md "List of supported lower bay components"
+[panel_mount]:      support/panel_mounts.md "Panel mount overview"
 [assembly]:         assembly/index.md "Assembly documentation"
 
 [img_front_40mm]: img/components/front_40mm.png
