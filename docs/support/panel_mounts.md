@@ -73,7 +73,7 @@ Below are several common keystone jacks.
 
 | Description                                       | External connector  | Internal Connector | Cable Length |
 |---------------------------------------------------|---------------------|--------------------|--------------|
-| [:material-cart: USB 3.0 extension][bom_key_usb3] | USB3.0 Type A       | USB 3.0 Type A     | 6"           |
+| [:material-cart: USB 3.0 extension][bom_key_usb3] | USB 3.0 Type A      | USB 3.0 Type A     | 6"           |
 | [:material-cart: HDMI][bom_key_hdmi]              | HDMI                | HDMI               | Coupler only |
 | [:material-cart: Ethernet][bom_key_ethernet]      | RJ-45 (Ethernet)    | RJ-45 (Ethernet)   | Coupler only |
 | [:material-cart: USB C][bom_key_usb_c]            | USB C               | USB C              | 8"           |
