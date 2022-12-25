@@ -13,7 +13,7 @@ This project focuses on modularity, accessibility to users, and reusability. The
 ### Updates
 
 - ~~Follow **[@TheOmniBox](https://twitter.com/TheOmniBox)** on Twitter for updates and discussion.~~
-- Hop on the [Discord server](https://discord.gg/3XVhDsuP) for questions, discussion, and feedback.
+- Hop on the **[Discord server](https://discord.gg/3XVhDsuP)** for questions, discussion, and feedback.
 - Join in the **[Discussions](https://github.com/jon-harper/OmniBox/discussions)** board here on GitHub.
 - Major updates are also announced on Reddit in several subreddits.
 
