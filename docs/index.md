@@ -47,11 +47,11 @@ This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgd
 
 ## Current Status
 
-Although OmniBox has not reached version 1.0, it is mature enough for everyday use. A complete OmniBox made of parts from one release is tested to fit and work. Trays and panels are compatible with all releases (see [Version Stability Guarantee](#version-stability-guarantee) for details).
+Although OmniBox has not reached version 1.0, it is mature enough for everyday use. A complete OmniBox made of parts from one release is tested to fit and work. Trays and panels are compatibile between releases (see [Compatibility and Upgrades](#compatibility-and-upgrades) for details).
 
 The [Version History][current_release] page contains information on the latest release, fixes, new features, and known issues.
 
-## Version Stability Guarantee
+## Compatibility and Upgrades
 
 Printing OmniBox is an investment. The way trays and panels attach to OmniBox between versions is carefully fixed. The result is a modular case that can be upgraded piece by piece.
 
@@ -65,6 +65,9 @@ Printing OmniBox is an investment. The way trays and panels attach to OmniBox be
 Until version 1.0, it is still possible for changes to be made to the design of panels and trays. If this happens, parts using the old method are considered "deprecated". Deprecated parts remain available and supported through the release of 1.0 but will be removed after. 
 
 Every effort is made to avoid incompatibilities between versions, and so far all deprecated printed parts remain compatible with new cases.
+
+!!! example
+    Early versions M4 screws to mount some panels to the case. New panels use M3 screws instead. The "M4-style" panels were deprecated but remain available.
 
 ### Version 1.0
 
