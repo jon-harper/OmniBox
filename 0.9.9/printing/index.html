@@ -552,8 +552,35 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#general-settings" class="md-nav__link">
-    General Settings
+  <a href="#materials" class="md-nav__link">
+    Materials
+  </a>
+  
+    <nav class="md-nav" aria-label="Materials">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tested-materials" class="md-nav__link">
+    Tested Materials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-petg" class="md-nav__link">
+    Printing PETG
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pla-print-settings" class="md-nav__link">
+    PLA Print Settings
   </a>
   
 </li>
@@ -1218,8 +1245,35 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#general-settings" class="md-nav__link">
-    General Settings
+  <a href="#materials" class="md-nav__link">
+    Materials
+  </a>
+  
+    <nav class="md-nav" aria-label="Materials">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tested-materials" class="md-nav__link">
+    Tested Materials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-petg" class="md-nav__link">
+    Printing PETG
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pla-print-settings" class="md-nav__link">
+    PLA Print Settings
   </a>
   
 </li>
@@ -1296,7 +1350,19 @@
 
 <p>This page has common settings for printing OmniBox and a printed component checklist. See the <a href="../tour/" title="Visual Guided Tour">guided tour</a> for help choosing the correct parts.</p>
 <h2 id="3d-printing-settings">3D Printing Settings</h2>
-<h3 id="general-settings">General Settings</h3>
+<h3 id="materials">Materials</h3>
+<p>OmniBox prints best with modified PLA. Fan gaskets are an optional noise reducer and require TPU.</p>
+<h4 id="tested-materials">Tested Materials</h4>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Modified PLA (PLA+/PLA Pro)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> PETG</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Unmodified PLA</li>
+</ul>
+<p>Unmodified PLA (generally prints at 180-200C) is prints easily but is a rigid, weak material. Modified PLA is more flexible, among other benefits.</p>
+<h4 id="printing-petg">Printing PETG</h4>
+<p>When printing with PETG, use 1.6mm walls/perimeters. If printing in a drafty room, consider a partial enclosure to help layer adhesion.</p>
+<p>Printing in PETG typically takes longer than PLA.</p>
+<h3 id="pla-print-settings">PLA Print Settings</h3>
 <p>These settings are consistent for all parts but the optional fan gaskets.</p>
 <table>
 <thead>
@@ -1328,33 +1394,26 @@
 <td>Cubic is a good tradeoff for time and durability.</td>
 </tr>
 <tr>
-<td><strong>Material</strong></td>
-<td>PLA/PLA+</td>
-<td>See note below.</td>
-</tr>
-<tr>
 <td><strong>Nozzle Diameter</strong></td>
 <td>0.4mm, 0.6mm</td>
 <td>If you print a case with a different nozzle size, please share your results!</td>
 </tr>
+<tr>
+<td><strong>Support Overhang Angle</strong></td>
+<td>At least 60 degrees</td>
+<td>Nearly all printers can print 60 degree overhangs. This reduces support material.</td>
+</tr>
 </tbody>
 </table>
-<div class="admonition note">
-<p class="admonition-title">Note: Materials</p>
-<ul>
-<li>The case can be printed in PETG but may take longer.</li>
-<li>TPU is only used with fan gaskets, which are optional.</li>
-</ul>
-</div>
 <h3 id="settings-specific-to-core-components">Settings Specific to Core Components</h3>
 <ul>
 <li>Supports must be on.</li>
-<li>Support blockers are recommended for all zip tie anchors and fastener holes.</li>
-<li>Use a brim or adhesive.</li>
-<li>Cantilever bed printers (e.g., Ender 5 Pro) should move large parts to the supported side of the bed.</li>
+<li>Support blockers are recommended for zip tie anchors and fastener holes.</li>
+<li>Use a brim or adhesive for large parts.</li>
+<li>Cantilever bed printers (e.g., Ender 5 Pro) should move heavier prints to the supported side of the bed.</li>
 </ul>
 <h2 id="printed-component-checklist">Printed Component Checklist</h2>
-<p>This is a checklist of <em>types</em> parts to print. See the <a href="../tour/" title="Visual Guided Tour">Guided Tour</a> for help selecting the right STL files from the git repository.</p>
+<p>This is a checklist of types parts to print. See the <a href="../tour/" title="Visual Guided Tour">Guided Tour</a> for help selecting the right STL files from the git repository.</p>
 <h3 id="core">Core</h3>
 <table>
 <thead>
