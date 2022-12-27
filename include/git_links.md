@@ -77,13 +77,13 @@
 [git_btt_skr_e3]:       https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR%20E3            "OmniBox GitHub: BIGTREETECH SKR E3 MCU Tray"
 [git_btt_skr]:          https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20SKR                 "OmniBox GitHub: BIGTREETECH SKR 1.3-2.0 MCU Tray"
 [git_btt_octopus]:      https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/BTT%20Octopus             "OmniBox GitHub: BIGTREETECH Octopus MCU Tray"
-[git_btt_skr_3]:        https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/MCU/BTT%20SKR%203             "OmniBox GitHub: BIGTREETECH SKR 3 MCU Tray"
-[git_btt_skr_3_ez]:     https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/MCU/BTT%20SKR%203%20EZ        "OmniBox GitHub: BIGTREETECH SKR 3 EZ MCU Tray"
-[git_btt_manta_m8p]:    https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/MCU/BTT%20Manta%20M8P        "OmniBox GitHub: BIGTREETECH Manta M8P MCU Tray"
+[git_btt_skr_3]:        https://github.com/jon-harper/OmniBox/tree/unstable/Trays/MCU/BTT%20SKR%203             "OmniBox GitHub: BIGTREETECH SKR 3 MCU Tray"
+[git_btt_skr_3_ez]:     https://github.com/jon-harper/OmniBox/tree/unstable/Trays/MCU/BTT%20SKR%203%20EZ        "OmniBox GitHub: BIGTREETECH SKR 3 EZ MCU Tray"
+[git_btt_manta_m8p]:    https://github.com/jon-harper/OmniBox/tree/unstable/Trays/MCU/BTT%20Manta%20M8P        "OmniBox GitHub: BIGTREETECH Manta M8P MCU Tray"
 [git_duet_3_6hc]:       https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/Duet3D%20Duet%203%206HC/      "OmniBox GitHub: Duet3D Duet 3 6C"
 [git_duet_3_mini_5+]:   https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/Duet3D%20Duet%203%20Mini%205+ "OmniBox GitHub: Duet3D Duet 3 Mini 5+"
-[git_mks_monster8]:     https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/MCU/MKS%20Monster8      "OmniBox GitHub: MKS Monster8"
-[git_mks_skipr]:        https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/MCU/MKS%20Skipr         "OmniBox GitHub: MKS Skipr"
+[git_mks_monster8]:     https://github.com/jon-harper/OmniBox/tree/unstable/Trays/MCU/MKS%20Monster8      "OmniBox GitHub: MKS Monster8"
+[git_mks_skipr]:        https://github.com/jon-harper/OmniBox/tree/unstable/Trays/MCU/MKS%20Skipr         "OmniBox GitHub: MKS Skipr"
 
 <!--      /CPU -->
 [git_cpu]:              https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/                              "OmniBox GitHub: CPU Trays"
@@ -106,9 +106,9 @@
 [git_wago_221]:         https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay/Wago%20Lever%20Nuts   "OmniBox GitHub: Wago 221 Lever Nuts Trays"
 [git_fotek_ssr40da]:    https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay/Fotek%20SSR-40%20DA   "OmniBox GitHub: Fotek SSR-40 DA Tray"
 [git_creality_mosfet]:  https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay/Creality%20MOSFET      "OmniBox GitHub: Creality MOSFET Tray"
-[git_btt_ups_24v]:      https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/Lower%20Bay/BTT%20UPS%2024V%201.0 "OmniBox GitHub: BIGTREETECH UPS 24V 1.0"
-[git_btt_relay_1.2]:    https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/Lower%20Bay/BTT%20Relay%201.2 "OmniBox GitHub: BIGTREETECH Relay 1.2"
-[git_48mm_ssr]:         https://github.com/jon-harper/OmniBox/tree/0.9.9-unstable/Trays/Lower%20Bay/48mm%20SSR  "OmniBox GitHub: Puck-style Solid State Relay"
+[git_btt_ups_24v]:      https://github.com/jon-harper/OmniBox/tree/unstable/Trays/Lower%20Bay/BTT%20UPS%2024V%201.0 "OmniBox GitHub: BIGTREETECH UPS 24V 1.0"
+[git_btt_relay_1.2]:    https://github.com/jon-harper/OmniBox/tree/unstable/Trays/Lower%20Bay/BTT%20Relay%201.2 "OmniBox GitHub: BIGTREETECH Relay 1.2"
+[git_48mm_ssr]:         https://github.com/jon-harper/OmniBox/tree/unstable/Trays/Lower%20Bay/48mm%20SSR  "OmniBox GitHub: Puck-style Solid State Relay"
 
 <!--     /PSUs -->
 [git_psu]:              https://github.com/jon-harper/OmniBox/tree/main/Trays/PSU/                              "OmniBox GitHub: Power Supplies (PSUs)"
