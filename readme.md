@@ -4,18 +4,14 @@ This project focuses on modularity, accessibility to users, and reusability. The
 
 ## Documentation & Help
 
-- Head to the **[documentation](https://jon-harper.github.io/OmniBox)** for more information, including a Bill of Materials, list of supported parts, and guides for both printing and assembly.
-- If the documentation site does not answer your question, ask in the **[Discussions](https://github.com/jon-harper/OmniBox/discussions)** board.
-- Problems? Have a board that is not supported? Open a ticket on the **[Issues](https://github.com/jon-harper/OmniBox/issues)** page.
+The **[documentation](https://jon-harper.github.io/OmniBox)** includes a visual tour, a full bill of materials, list of supported parts, and guides for both printing and assembly.
 
-## Updates & Releases
+### Beyond the Documentation
 
-### Updates
+- **[OmniBox Discord server](https://discord.gg/nKmJZMhfz5)**
+- **[GitHub Discussions](https://github.com/jon-harper/OmniBox/discussions)**
 
-- ~~Follow **[@TheOmniBox](https://twitter.com/TheOmniBox)** on Twitter for updates and discussion.~~
-- Hop on the **[Discord server](https://discord.gg/3XVhDsuP)** for questions, discussion, and feedback.
-- Join in the **[Discussions](https://github.com/jon-harper/OmniBox/discussions)** board here on GitHub.
-- Major updates are also announced on Reddit in several subreddits.
+## Releases
 
 ### Current Release
 
@@ -26,10 +22,11 @@ This project focuses on modularity, accessibility to users, and reusability. The
 ### Current Beta
 
 - No current beta is available.
-- Untested parts can be found in the `unstable` branch.
+- Untested parts can be found in the **[`unstable`][unstable]** branch.
 
 ![photobooth picture][gallery_pic]
 
 [changelog]: https://jon-harper.github.io/OmniBox/latest/history/
 [testing_docs]: https://jon-harper.github.io/OmniBox/testing
 [gallery_pic]:  https://jon-harper.github.io/OmniBox/gallery/photobooth6.jpg
+[unstable]: https://github.com/jon-harper/OmniBox/tree/unstable
