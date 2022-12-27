@@ -29,6 +29,8 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
+  # - neoteroi.cards
+
 theme:
   name: material
   custom_dir: overrides
@@ -65,23 +67,18 @@ extra:
   version:
     provider: mike
   social:
+    - icon: simple/discord
+      link: https://discord.gg/nKmJZMhfz5
+      name: OmniBox Discord Server
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/user/jonspaceharper
       name: u/jonspaceharper on Reddit
-    - icon: fontawesome/brands/twitter 
-      link: https://twitter.com/TheOmniBox
-      name: TheOmniBox on Twitter
-    - icon: simple/mastodon
-      link: https://mastodon.online/@jonspaceharper
-      name: "Mastodon: jonspaceharper@mastodon.online"
-    - icon: fontawesome/regular/newspaper
-      link: https://post.news/jonspaceharper
-      name: "Post.news: jonspaceharper"
     - icon: simple/kofi
       link: https://ko-fi.com/jonspaceharper
       name: Support me on Ko-Fi!
 
 extra_css:
+  # - assets/stylesheets/neoteroi.css
   - assets/stylesheets/extra.css
       
 nav:
