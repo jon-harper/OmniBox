@@ -9,7 +9,25 @@ This page has common settings for printing OmniBox and a printed component check
 
 ## 3D Printing Settings
 
-### General Settings
+### Materials
+
+OmniBox prints best with modified PLA. Fan gaskets are an optional noise reducer and require TPU.
+
+#### Tested Materials
+
+- [x] Modified PLA (PLA+/PLA Pro)
+- [x] PETG
+- [ ] Unmodified PLA
+
+Unmodified PLA (generally prints at 180-200C) is prints easily but is a rigid, weak material. Modified PLA is more flexible, among other benefits.
+
+#### Printing PETG
+
+When printing with PETG, use 1.6mm walls/perimeters. If printing in a drafty room, consider a partial enclosure to help layer adhesion.
+
+Printing in PETG typically takes longer than PLA.
+
+### PLA Print Settings
 
 These settings are consistent for all parts but the optional fan gaskets.
 
@@ -19,23 +37,19 @@ These settings are consistent for all parts but the optional fan gaskets.
 | **Adaptive Layer Height** | Optional     | Can improve appearance and reduce print time.    |
 | **Perimeters (Walls)**    | 1.2mm+       | 3 perimeters with a 0.4mm nozzle. 1.5mm+ results in solid main body side walls. |
 | **Infill**                | 20-25%       | Cubic is a good tradeoff for time and durability. |
-| **Material**              | PLA/PLA+     | See note below. |
 | **Nozzle Diameter**       | 0.4mm, 0.6mm | If you print a case with a different nozzle size, please share your results! |
-
-!!! note "Note: Materials"
-    - The case can be printed in PETG but may take longer.
-    - TPU is only used with fan gaskets, which are optional.
+| **Support Overhang Angle** | At least 60 degrees | Nearly all printers can print 60 degree overhangs. This reduces support material. |
 
 ### Settings Specific to Core Components
 
 - Supports must be on.
-- Support blockers are recommended for all zip tie anchors and fastener holes.
-- Use a brim or adhesive.
-- Cantilever bed printers (e.g., Ender 5 Pro) should move large parts to the supported side of the bed.
+- Support blockers are recommended for zip tie anchors and fastener holes.
+- Use a brim or adhesive for large parts.
+- Cantilever bed printers (e.g., Ender 5 Pro) should move heavier prints to the supported side of the bed.
 
 ## Printed Component Checklist
 
-This is a checklist of *types* parts to print. See the [Guided Tour][tour] for help selecting the right STL files from the git repository.
+This is a checklist of types parts to print. See the [Guided Tour][tour] for help selecting the right STL files from the git repository.
 
 ### Core
 

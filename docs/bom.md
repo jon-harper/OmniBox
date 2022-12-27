@@ -19,7 +19,7 @@ These parts are common to all case builds. See below for additional requirements
 
 | Item                                   | Qty | UOM | Note                                                     |
 |----------------------------------------|-----|-----|----------------------------------------------------------|
-| PLA/PLA+ filament                      | 2   | kg  | Typical use is less than 1.5kg.                          |
+| PLA+/PETG filament                     | 2   | kg  | Typical use is less than 1.5kg (PLA+).                   |
 | TPU 95A filament                       | 0.05| kg  | Optional. Quantity is maximum estimated.                 |
 | 16 red awg stranded hookup wire        | 0.5 | m   |                                                          |
 | [:material-cart: Spade connectors, 14-16 awg, Female, Insulated][bom_spade_connector] | 3   | ea  |                      |

@@ -31,15 +31,19 @@ This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgd
 
 [:octicons-list-ordered-24: Bill of Materials][bom]{ .md-button }
 
-### Printing
+### Printing & Assembly
 
 [:material-printer-3d-nozzle: Printing Guide][printing]{ .md-button }
 
-[:material-git: GitHub with STLs][git_home]{ .md-button }
-
-### Assembly
+[:material-git: Printable Files on GitHub][git_home]{ .md-button }
 
 [:material-directions: Assembly Guide][assembly]{ .md-button }
+
+### Community Links
+
+[:simple-discord: Discord Server][discord]{ .md-button }
+
+[:simple-github: GitHub Discussions][git_discussions]{ .md-button }
 
 ## Current Status
 

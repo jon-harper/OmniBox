@@ -6,3 +6,4 @@
 [fuse_guide]: https://www.oznium.com/blog/how-to-determine-the-fuse-wire-size-for-your-project/ "Oznium Blog: How to Determine the Fuse/Wire Size for Your Project"
 [clk_jst_sm]: https://jon-harper.github.io/clockmaker-project/wiring/connectors/#jst-sm
 [clk_mf3]: https://jon-harper.github.io/clockmaker-project/wiring/connectors/#molex-micro-fit-30
+[discord]: https://discord.gg/nKmJZMhfz5
