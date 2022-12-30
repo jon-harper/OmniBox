@@ -11,39 +11,46 @@ OmniBox is a 3D printable, modular electronics case for 3D printers. It supports
 
 This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgdog] V3 footprint. It is released under the [MIT License][license].
 
-!!! info
-    To change documentation versions, select a version number from the drop down box on header bar.
+!!! tip
+    To change documentation versions, select a version number from the drop down box at the top of the page.
 
     To switch between :material-lightbulb-on: Light and :material-lightbulb-off-outline: Dark reading mode, click the icon next to the search box.
 
 <figure markdown>
   [![gallery of OmniBox part combinations][gallery_thumb]][gallery]
-  <figcaption>Gallery of several possible OmniBox configurations</figcaption>
+  <figcaption>A gallery of several OmniBox configurations.</figcaption>
 </figure>
 
 ## Quick Links
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-card">
 ### Getting Started
 
-[:material-television-guide: Visual Guided Tour][tour]{ .md-button }
-
-[:octicons-checklist-24: Supported Parts List][support]{ .md-button }
-
-[:octicons-list-ordered-24: Bill of Materials][bom]{ .md-button }
-
+<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
+[:material-television-guide: Visual Guided Tour][tour]
+[:octicons-checklist-24: Supported Parts List][support]
+[:octicons-list-ordered-24: Bill of Materials][bom]
+</div>
+</div>
+<div markdown class="jh-card">
 ### Printing & Assembly
 
-[:material-printer-3d-nozzle: Printing Guide][printing]{ .md-button }
-
-[:material-git: Printable Files on GitHub][git_home]{ .md-button }
-
-[:material-directions: Assembly Guide][assembly]{ .md-button }
-
+<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
+[:material-printer-3d-nozzle: Printing Guide][printing]
+[:material-git: Printable Files on GitHub][git_home]
+[:material-directions: Assembly Guide][assembly]
+</div>
+</div>
+<div markdown class="jh-card">
 ### Community Links
 
-[:simple-discord: Discord Server][discord]{ .md-button }
-
-[:simple-github: GitHub Discussions][git_discussions]{ .md-button }
+<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
+[:simple-discord: Discord Server][discord]
+[:simple-github: GitHub Discussions][git_discussions]
+</div>
+</div>
+</div>
 
 ## Current Status
 
@@ -56,18 +63,16 @@ The [Version History][current_release] page contains information on the latest r
 Printing OmniBox is an investment. The way trays and panels attach to OmniBox between versions is carefully fixed. The result is a modular case that can be upgraded piece by piece.
 
 !!! note
-    Prior versions of this page had the Version Stability Guarantee fully in place. I have relaxed it until version 1.0 in order to deprecate M4-mounted parts.
-
-    No reprinting is necessary to use legacy M4 panels with M3 screws.
+    Prior versions of this page had the Version Stability Guarantee fully in place. I have relaxed it until version 1.0 to allow more design growth.
 
 ### Currently
-
+<!-- TODO Reword -->
 Until version 1.0, it is still possible for changes to be made to the design of panels and trays. If this happens, parts using the old method are considered "deprecated". Deprecated parts remain available and supported through the release of 1.0 but will be removed after. 
 
 Every effort is made to avoid incompatibilities between versions, and so far all deprecated printed parts remain compatible with new cases.
 
 !!! example
-    Early versions M4 screws to mount some panels to the case. New panels use M3 screws instead. The "M4-style" panels were deprecated but remain available.
+    Early releases used M4 screws to mount some panels to the case; new panels use M3 screws. The "M4-style" panels were deprecated but remain available.
 
 ### Version 1.0
 
