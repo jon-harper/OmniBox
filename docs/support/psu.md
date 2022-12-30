@@ -31,26 +31,36 @@ There are several brands of clones, usually using the same model number. The mod
 
 ### LRS-350 Series
 
-[:material-git: LRS-350][git_rpi_3b_plus]{ .md-button }
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+[:material-git: LRS-350 Files][git_rpi_3b_plus]{ .md-button }
 
 [:material-cart: Product Link][bom_lrs350]{ .md-button }
 
-[![product picture][img_lrs_350]{width="200"}][img_lrs_350]
-
 - Materials: 4x M4 x 6mm button head screws
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_lrs_350]{width="200"}][img_lrs_350]
+</div>
+</div>
 
 ### RSP-500 Series
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 !!! caution "Fit Test Pending: [:material-git: Issue #14](https://github.com/jon-harper/OmniBox/issues/14)"
 
-[:material-git: RSP-500][git_psu_rsp500]{ .md-button }
+[:material-git: RSP-500 Files][git_psu_rsp500]{ .md-button }
 
 [:material-cart: Product Link][bom_rsp500]{ .md-button }
 
-[![product picture][img_rsp_500]{width="200"}][img_rsp_500]
-
 - Materials: 8x M4 x 6mm button head screws
 - Notes: Requires a [:material-git: base extension][git_base_extension].
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_rsp_500]{width="200"}][img_rsp_500]
+</div>
+</div>
 
 [psu]: ../img/components/psu.png
 [img_lrs_350]: ../img/parts/mw_lrs_350_24.jpg
