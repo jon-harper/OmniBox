@@ -23,79 +23,114 @@ Each supported MCU display screen has a subfolder in the [:material-git: `/Panel
 
 Component names below link to the corresponding git folder. Most mounts require four (4) 6mm or M3 screws to fasten the display in place. Some mounts have two or three pieces and require additional screws.
 
-<!-- Template
-[:material-git: Files: ][git_]{ .md-button }
+<!-- Template 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+[:material-git: Files][git_]{ .md-button }
 
 [:material-cart: Product Link][bom_]{ .md-button }
 
-[![product picture][img_]{width="200"}][img_]
-
-- Materials: 
+- Materials:
 - Notes:
- -->
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_]][img_]
+</div>
+</div>
+-->
+
+ 
 ### Generic 12864 Display
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: Generic 12864][git_generic_12864]{ .md-button }
 
 [:material-cart: Product Link][bom_generic_12864]{ .md-button }
-
-[![product picture][img_12864]{width="200"}][img_12864]
 
 - Materials: 4x M3 x 6mm
 - Notes: 
     - Also known as Creality CR-10 stock display; comes on most Creality printers.
     - Called RepRap Discount Smart Controller in Marlin.
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_12864]][img_12864]
+</div>
+</div>
 
 ### FYSETC Mini 12864
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: Mini 12864][git_mini_12864]{ .md-button }
 
 [:material-cart: Product Link][bom_mini_12864]{ .md-button }
-
-[![product picture][img_mini12864]{width="200"}][img_mini12864]
 
 - Materials: 
     - 4x M3 x 6mm
     - 4x M3 x 20mm
 - Notes: This includes BIGTREETECH brand and other clones.
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_mini12864]][img_mini12864]
+</div>
+</div>
 
 ### BIGTREETECH 2.4" TFT
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: BTT 2.4 TFT][git_btt_tft_24]{ .md-button }
-
-[![product picture][img_btt_tft24]{width="200"}][img_btt_tft24]
 
 - Materials: 
     - 4x M3 x 6mm
     - 4x M3 x 8mm
 - Notes: This product is discontinued, but I still use it, so there's a part.
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_btt_tft24]][img_btt_tft24]
+</div>
+</div>
 
 ### BIGTREETECH 3.5" TFT
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: BTT 3.5 TFT][git_btt_tft_35]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_tft35]{ .md-button }
-
-[![product picture][img_btt_tft35]{width="200"}][img_btt_tft35]
 
 - Materials: 
     - 4x M3 x 6mm
     - 4x M3 x 8mm
 - Notes: This is not the E3 version, which uses the Generic 12864 mount. 
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_btt_tft35]][img_btt_tft35]
+</div>
+</div>
 
 ### BIGTREETECH 3.5" TFT E3
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: Generic 12864][git_generic_12864]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_tft35_e3]{ .md-button }
 
-[![product picture][img_btt_tft35_e3]{width="200"}][img_btt_tft35_e3]
-
 - Materials: 4x M3 x 6mm
 - Notes: Uses the Generic 12864 mount.
 
-<!-- ### BIGTREETECH 5.0
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_btt_tft35_e3]][img_btt_tft35_e3]
+</div>
+</div>
 
+<!-- ### BIGTREETECH TFT5
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 !!! caution "Fit Test Pending"
     [:material-git: Issue #24](https://github.com/jon-harper/OmniBox/issues/24)
 
@@ -103,9 +138,12 @@ Component names below link to the corresponding git folder. Most mounts require 
 
 [:material-cart: Product Link][bom_]{ .md-button }
 
-[![product picture][img_]{width="200"}][img_]
-
 - Materials: 4x M3
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_]][img_]
+</div>
+</div>
 -->
 
 ## Raspberry Pi Displays
