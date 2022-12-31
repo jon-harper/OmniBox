@@ -18,11 +18,18 @@ PSU trays are found in the [:material-git: `/Trays/PSU`][git_psu] git folder. Ex
     Power supplies will only work with M4 *button head* screws. Socket head cap screws have heads that are too tall to fit the PSU in the case.
 
 <!-- Template
-[![product picture][img_btt_skr_3]{width="200"}][img_]
-
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: Files: ][git_]
 
 [:material-cart: Product Link][bom_]
+
+- Materials: 
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_]][img_]
+</div>
+</div>
  -->
 
 ## Mean Well

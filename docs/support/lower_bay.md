@@ -16,16 +16,21 @@ Every tray (short or long) attaches to the Core case body with four (4) M3 x 6mm
   <figcaption>Long trays fit as pictured on the left side or right. Short trays will also fit in an empty CPU bay.</figcaption>
 </figure>
 
-<!-- Template
+<!-- Template 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: ][git_]{ .md-button }
 
 [:material-cart: Product Link][bom_]{ .md-button }
 
-[![product picture][img_]{width="200"}][img_]
-
 - Mounting:
 - Trays:
- -->
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_]][img_]
+</div>
+</div>
+-->
 
 ## Buck Converters
 
@@ -33,62 +38,82 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 
 ### Basic 2A LM2596
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: Generic LM2596][git_basic_lm2596]{ .md-button }
 
 [:material-cart: Product Link][bom_basic_lm2596]{ .md-button }
-
-[![product picture][img_basic_lm2596]{width="200"}][img_basic_lm2596]
 
 - Materials: 2x M3 x 6mm
 - Trays:
     - Short (single, dual)
     - Long (single, dual)
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_basic_lm2596]][img_basic_lm2596]
+</div>
+</div>
 
 ### DROK 2A LM2596 with LED
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: DROK LM2596 with LED][git_drok_2A]{ .md-button }
 
 [:material-cart: Product Link][bom_drok_2A]{ .md-button }
-
-[![product picture][img_led_lm2596]{width="200"}][img_led_lm2596]
 
 - Materials: 4x M3 x 6mm
 - Hole Pattern: 60.5mm x 30.5mm
 - Tray:
     - Short (single)
     - Long (single, dual)
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_led_lm2596]][img_led_lm2596]
+</div>
+</div>
 
 ### HiLetGo 2A LM2596 with LED
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: HiLetGo LM2596 with LED][git_hiletgo_2A]{ .md-button }
 
 [:material-cart: Product Link][bom_hiletgo_2A]{ .md-button }
-
-[![product picture][img_hiletgo_2a]{width="200"}][img_hiletgo_2a]
 
 - Materials: 4x M3 x 6mm
 - Hole Pattern: 49.5mm x 27.5mm 
 - Trays:
     - Short (single)
     - Long (single, dual)
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_hiletgo_2a]][img_hiletgo_2a]
+</div>
+</div>
 
 ### DROK 3A LM2596 with LED
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: DROK 3A LM2596 with LED][git_drok_3A]{ .md-button }
 
 [:material-cart: Product Link][bom_drok_3A]{ .md-button }
-
-[![product picture][img_drok_3a]{width="200"}][img_drok_3a]
 
 - Materials: 4x M3 x 6mm
 - Hole Pattern: 52.5mm x 28.75mm
 - Trays:
     - Short (single)
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_drok_3a]][img_drok_3a]
+</div>
+</div>
 
 ### DROK 5A Buck with LED
 
-[![product picture][img_drok_5a]{width="200"}][img_drok_5a]
-
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: DROK 5A Buck with LED][git_drok_5A]{ .md-button }
 
 [:material-cart: Product Link][bom_drok_5A]{ .md-button }
@@ -97,33 +122,43 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 - Hole Pattern: 63mm x 40.5mm
 - Trays: 
     - Long (single)
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_drok_5a]][img_drok_5a]
+</div>
+</div>
 
 ## MOSFETs
 
 ### Creality MOSFET 
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: Creality MOSFET][git_creality_mosfet]{ .md-button }
 
 [:material-cart: Product Link][bom_creality_mosfet]{ .md-button }
-
-[![product picture][img_creality_mosfet]{width="200"}][img_creality_mosfet]
 
 - Materials: 2x M3 x 6mm
 - Trays:
     - Short (single)
     - Long (single)
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_creality_mosfet]][img_creality_mosfet]
+</div>
+</div>
 
 ## Solid State Relays
 
 ### Omron G3A/G3NA Puck Relays
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 !!! caution "Fit Test Pending"
 
 [:material-git: 48mm SSR][git_48mm_ssr]{ .md-button }
 
 [:material-cart: Product Link][bom_omron_ssr]{ .md-button }
-
-[![product picture][img_omron_ssr]{width="200"}][img_omron_ssr]
 
 - Materials: 2x M4 x 6mm
 - Trays:
@@ -132,14 +167,19 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 - Notes: 
     - Mounting holes distance is 47.5mm to about 52mm.
     - Long tray has zip tie anchors. 
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_omron_ssr]][img_omron_ssr]
+</div>
+</div>
 
 ### Fotek SSR-40 DA 
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: Fotek SSR-40 DA][git_fotek_ssr40da]{ .md-button }
 
 [:material-cart: Product Link][bom_fotek_ssr_40da]{ .md-button }
-
-[![product picture][img_fotek_ssr_40da]{width="200"}][img_fotek_ssr_40da]
 
 - Materials: 2x M4 x 6mm
 - Trays:
@@ -148,44 +188,59 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 - Notes: 
     - Mounting holes distance is 47mm to about 52mm.
     - Long tray has zip tie anchors.
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_fotek_ssr_40da]][img_fotek_ssr_40da]
+</div>
+</div>
 
 ## Other Products
 
 ### BIGTREETECH UPS 24V 1.0 
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 !!! caution "Fit Test Pending [:material-git: Issue #24](https://github.com/jon-harper/OmniBox/issues/24)"
 
 [:material-git: BTT UPS 24V 1.0][git_btt_ups_24v]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_ups_24v]{ .md-button }
 
-[![product picture][img_btt_ups_24v]{width="200"}][img_btt_ups_24v]
-
 - Mounting: 4x M3 x 6mm
 - Trays:
     - Short (single)
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_btt_ups_24v]][img_btt_ups_24v]
+</div>
+</div>
 
 ### BIGTREETECH Relay 1.2
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 !!! caution "Fit Test Pending: [:material-git: Issue #63](https://github.com/jon-harper/OmniBox/issues/63)"
 
 [:material-git: BTT Relay 1.2][git_btt_relay_1.2]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_relay_1.2]{ .md-button }
 
-[![product picture][img_btt_relay]{width="200"}][img_btt_relay]
-
 - Mounting: 4x M3 x 6mm
 - Trays:
     - Long (single)
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_btt_relay]][img_btt_relay]
+</div>
+</div>
 
 ### Wago 221 Lever Nuts 
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: Wago Lever Nuts][git_wago_221]{ .md-button }
 
 [:material-cart: Product Link][bom_wago_nuts]{ .md-button }
-
-[![product picture][img_wago_nuts]{width="200"}][img_wago_nuts]
 
 - Notes: 
     - Support for 3 position & 5 position
@@ -194,15 +249,19 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
     - Short, 4x 3 position
     - Long, 4x 5 position
     - Long, 4x 5 position, 2x 3 position
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_wago_nuts]][img_wago_nuts]
+</div>
+</div>
 
 ### 4010/4020 Fans 
 
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
 [:material-git: 40mm Fan][git_tray_4010]{ .md-button }
 
 [:material-cart: Product Link][bom_4010]{ .md-button }
-
-[![product picture][img_4010]{width="200"}][img_4010]
-
 
 - Materials: 4x M3
 - Notes:
@@ -210,6 +269,11 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
     - Also available on long trays for buck converters.
 - Trays:
     - Short (single)
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_4010]][img_4010]
+</div>
+</div>
 
 [img_lower_bay]: ../img/components/lower_bay.png
 [img_drok_3a]: ../img/parts/buck_3a_drok.jpg
