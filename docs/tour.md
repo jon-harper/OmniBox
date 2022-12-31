@@ -49,16 +49,16 @@ There are two types of Core components: Base and Main Body. A typical OmniBox bu
 <div markdown>
 **Base**
 
-- [:material-directions: Front](#front-base)
-- [:material-directions: Rear](#rear-base)
-- [:material-directions: Unified](#unified-base)
+- [:material-directions: Front Base](#front-base)
+- [:material-directions: Rear Base](#rear-base)
+- [:material-directions: Unified Base](#unified-base)
 </div>
 <div markdown>
 **Main Body**
 
 - [:material-directions: Crossbar](#main-body-crossbar)
-- [:material-directions: Front](#front-main-body)
-- [:material-directions: Rear](#rear-main-body)
+- [:material-directions: Front Main Body](#front-main-body)
+- [:material-directions: Rear Main Body](#rear-main-body)
 </div>
 </div>
 
@@ -184,19 +184,24 @@ There are two versions of the rear main body:
 
 ## Trays
 
-Trays are used for mounting parts internally. There are four (4) types of trays:
+Trays are used for mounting parts internally. There are four (4) types of trays.
+
+Templates are available in both `STEP` and Fusion 360 formats to add support for new products.
+
+!!! note
+    PSU trays are a new feature and do not yet have a template.
 
 <figure markdown>
   [![the three types of trays][img_trays]{ width="640" }][img_trays]
   <figcaption>The four types of trays in red.</figcaption>
 </figure>
 
+**Trays**
+
 - [:material-directions: PSU Tray](#psu-tray)
 - [:material-directions: MCU Tray](#mcu-tray)
 - [:material-directions: Lower Bay Trays](#lower-bay-trays)
 - [:material-directions: CPU Tray](#cpu-tray)
-
-Tray templates are available in both `STEP` and Fusion 360 format to add support for new products.
 
 ### PSU Tray
 
@@ -271,16 +276,20 @@ An unused bay is replaced by a [:material-directions: Side Panel](#side-panels).
   <figcaption>The six types of panels, visible in grey.</figcaption>
 </figure>
 
-<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-container jh-grid-3">
 <div markdown class="jh-grid-para">
-- [:material-directions: Front panel](#front-panel)
+**General Panels**
+
 - [:material-directions: Display panel](#display-panel)
 - [:material-directions: Lid](#lids)
+- [:material-directions: Bottom panel](#bottom-panel)
 </div>
 <div markdown class="jh-grid-para">
+**Connector Panels**
+
+- [:material-directions: Front panel](#front-panel)
 - [:material-directions: Rear panel](#rear-panel)
 - [:material-directions: Side panel](#side-panel)
-- [:material-directions: Bottom panel](#bottom-panel)
 </div>
 </div>
 
