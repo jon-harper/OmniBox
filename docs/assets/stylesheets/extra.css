@@ -146,6 +146,7 @@
     border-color: var(--md-accent-fg-color);
     background-color: var(--md-accent-fg-color);
     color: var(--md-primary-bg-color);
+    transition: color 125ms, background-color 125ms, border-color 125ms;
 }
 
 .jh-card {
@@ -159,18 +160,18 @@
 }
 
 .jh-card:is(:focus, :hover) {
-    box-shadow: 0px 0px 3px 0px var(--md-default-fg-color--light), 2px 2px 1px 2px var(--md-default-fg-color--lightest);
+    box-shadow: 0px 0px 3px 0px var(--md-default-fg-color--lightest), 2px 2px 1px 2px var(--md-default-fg-color--lightest);
     transition: 125ms;
 }
 
-.jh-card h3, .jh-card h4, .jh-card h5 {
+.jh-card>h2, .jh-card>h3, .jh-card>h4, .jh-card>h5, .jh-card>h6 {
     margin-top: 0.25em;
 }
 
-.jh-grid-container .jh-grid-para {
+.jh-grid-container>.jh-grid-para {
     vertical-align: top;
 }
 
-.jh-grid-container .jh-grid-img {
+.jh-grid-container>.jh-grid-img {
     margin: 0 1rem;
 }
