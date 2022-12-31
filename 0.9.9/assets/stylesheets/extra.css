@@ -35,7 +35,7 @@
 
 [data-md-color-scheme="slate"] {
     --md-hue: 205; 
-  }  
+}  
 
 .md-header__title, h1{
     font-family: var(--md-code-font);
@@ -84,3 +84,94 @@
     mask-image: var(--jh-pro-icon);
     background-color: #1EBB52;
 } 
+
+.jh-grid-container {
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-flow: row;
+    gap: 0.5rem 0.25rem;
+    max-width: 100%;
+    padding: 1px;
+    /* align-items: center; */
+}
+
+.jh-grid-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.jh-grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.jh-grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.jh-grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.jh-grid-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.jh-grid-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+@media only screen and (max-width: 400px) {
+    .jh-grid-container {
+        grid-template-columns:repeat(1, 1fr) !important
+    }
+}
+
+.jh-link-grid p {
+    display: contents;
+}
+
+.jh-link-grid a {
+    text-align: center;
+    padding: 10px 5px;
+    border: 2px solid var(--md-primary-fg-color);
+    border-radius: 3px;
+    background-color: var(--md-primary-bg-color--lighter);
+    color: var(--md-primary-fg-color);
+    transition: color 125ms,background-color 125ms,border-color 125ms;
+    font-family: var(--md-code-font);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.jh-link-grid a:is(:focus, :hover) {
+    border-color: var(--md-accent-fg-color);
+    background-color: var(--md-accent-fg-color);
+    color: var(--md-primary-bg-color);
+    transition: color 125ms, background-color 125ms, border-color 125ms;
+}
+
+.jh-card {
+    margin: 0rem 0.2rem;
+    padding: 0.25rem 0.5rem 0.2rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--md-default-fg-color--light);
+    border-radius: 3px;
+    background-color: var(--md-default-fg-color--lightest)
+}
+
+.jh-card:is(:focus, :hover) {
+    box-shadow: 0px 0px 3px 0px var(--md-default-fg-color--lightest), 0px 0px 1px 2px var(--md-default-fg-color--lightest);
+    transition: 125ms;
+}
+
+.jh-card>h2, .jh-card>h3, .jh-card>h4, .jh-card>h5, .jh-card>h6 {
+    margin-top: 0.25em;
+}
+
+.jh-grid-container>.jh-grid-para {
+    vertical-align: top;
+}
+
+.jh-grid-container>.jh-grid-img {
+    margin: 0 1rem;
+}
