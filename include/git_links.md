@@ -113,7 +113,7 @@
 <!--     /PSUs -->
 [git_psu]:              https://github.com/jon-harper/OmniBox/tree/main/Trays/PSU/                              "OmniBox GitHub: Power Supplies (PSUs)"
 [git_psu_lrs350]:       https://github.com/jon-harper/OmniBox/tree/main/Core/Trays/PSU/Mean%20Well%20LRS-350    "OmniBox GitHub: Mean Well LRS-350 Series PSUs"
-[git_psu_rsp500]:       https://github.com/jon-harper/OmniBox/tree/main/Core/Trays/PSU/Mean%20Well%20RSP-500    "OmniBox GitHub: Mean Well RSP-500 Series PSUs"
+[git_psu_rsp500]:       https://github.com/jon-harper/OmniBox/tree/unstable/Core/Trays/PSU/Mean%20Well%20RSP-500    "OmniBox GitHub: Mean Well RSP-500 Series PSUs"
 
 <!-- /Misc     -->
 [git_display_knob]:     https://github.com/jon-harper/OmniBox/blob/main/Misc/Display%20Knob                     "OmniBox GitHub: Replacement Display Knob"
