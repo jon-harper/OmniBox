@@ -156,6 +156,45 @@ The Octopus Pro is not currently supported, but may be added in a future release
 </div>
 </div>
 
+## Creality
+
+### Creality 1.X & 4.X
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+[:material-git: BTT SKR E3][git_btt_skr_e3]{ .md-button }
+
+[:material-cart: Product Link][bom_creality_4x]{ .md-button }
+
+- Materials: 4-5x M3 x 6mm
+- MicroSD Extension: N/A, uses full-sized SD cards
+- Notes: Compatible with version 1.x/4.x.
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_creality]][img_creality]
+</div>
+</div>
+
+### Creality 2.X
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+!!! info "Contributed by [Mr Meh][contrib_mr_meh]"
+
+[:octicons-link-external-24: Printables - Creality 2.5.2 Board][src_creality_2_x]{ .md-button }
+
+[:material-cart: Product Link][bom_creality_4x]{ .md-button }
+
+- Materials: 4x M3 x 6mm
+- MicroSD Extension: N/A, uses full-sized SD cards
+- Notes: Tested with a 2.5.2 board
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_creality_252]][img_creality_252]
+</div>
+</div>
+
 ## Duet3D
 
 ### Duet 3 Mini 5+ 
@@ -197,6 +236,28 @@ Compatible with all versions.
 </div>
 </div>
 
+## FYSETC
+
+### FYSETC Spider 2.x
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+!!! info "Contributed by [MaffoClock][contrib_maffooclock]"
+
+[:material-git: MKS Monster8][git_mks_monster8]{ .md-button }
+
+[:material-cart: Product Link][bom_mks_monster8]{ .md-button }
+
+- Materials: 4x M3 x 6mm
+- MicroSD Extension: [:material-cart: Short][bom_lanmu_micro_sd]
+- Compatibility: 2.x tested; may work with 1.x
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_mks_monster8]][img_mks_monster8]
+
+</div>
+</div>
+
 ## MakerBase
 
 ### MKS Monster8
@@ -205,7 +266,7 @@ Compatible with all versions.
 <div markdown class="jh-grid-para">
 !!! caution "Fit Test Pending: [Issue #74](https://github.com/jon-harper/OmniBox/issues/74)"
 
-[:material-git: BTT Manta M8P][git_mks_monster8]{ .md-button }
+[:material-git: MKS Monster8][git_mks_monster8]{ .md-button }
 
 [:material-cart: Product Link][bom_mks_monster8]{ .md-button }
 
@@ -223,9 +284,9 @@ Compatible with all versions.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-!!! caution "Fit Test Pending: [Issue #70](https://github.com/jon-harper/OmniBox/issues/70)"
+!!! info "Contributed by [Killajoedotcom][contrib_killajoedotcom]"
 
-[:material-git: BTT Manta M8P][git_mks_skipr]{ .md-button }
+[:material-git: MKS Skipr][git_mks_skipr]{ .md-button }
 
 [:material-cart: Product Link][bom_mks_skipr]{ .md-button }
 
@@ -238,31 +299,6 @@ Compatible with all versions.
 </div>
 </div>
 
-## Other Boards
-
-### Creality
-
-#### Creality 1.X & 4.X
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-[:material-git: BTT SKR E3][git_btt_skr_e3]{ .md-button }
-
-[:material-cart: Product Link][bom_creality_4x]{ .md-button }
-
-- Materials: 4-5x M3 x 6mm
-- MicroSD Extension: [:material-cart: Short][bom_lanmu_micro_sd]
-- Notes: Compatible with version 1.x/4.x.
-</div>
-<div markdown class="jh-grid-img">
-[![product picture][img_creality]][img_creality]
-</div>
-</div>
-
-#### Creality 2.X
-
-[Issue #85](https://github.com/jon-harper/OmniBox/issues/85)
-
 [img_mcu]: ../img/components/mcu.png
 
 [img_btt_octopus]: ../img/parts/btt_octopus_1.jpg
@@ -271,6 +307,7 @@ Compatible with all versions.
 [img_btt_skr_3_ez]: ../img/parts/btt_skr_3_ez.jpg
 [img_btt_manta_m8p]: ../img/parts/btt_manta_m8p.jpg
 [img_creality]: ../img/parts/creality_board.jpg
+[img_creality_252]: ../img/parts/creality_2_5_2.jpg
 [img_btt_skr_e3_turbo]: ../img/parts/btt_skr_e3_turbo.jpg
 [img_btt_skr_mini_e3_v3]: ../img/parts/btt_skr_mini_e3_v3.jpg
 [img_duet_3_mini_5+]: ../img/parts/duet3_mini_5plus.jpg

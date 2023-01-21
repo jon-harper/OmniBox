@@ -22,6 +22,7 @@ markdown_extensions:
         - include/git_links.md
         - include/bom_links.md
         - include/other_links.md
+        - include/contrib_links.md
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.emoji:
