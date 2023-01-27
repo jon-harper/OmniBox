@@ -8,6 +8,7 @@
 | BIGTREETECH Mini 12864    | `Mini 12864`      |
 | BIGTREETECH TFT3.5 V3.0   | `BTT 3.5 TFT`     |
 | BIGTREETECH TFT2.4        | `BTT 2.4 TFT`     |
+| BIGTREETECH PI TFT50 V2.0 | `BTT PI TFT50`    |
 | Generic 128x64 displays   | `Generic 12864`   |
 | Creality Stock display    | `Generic 12864`   |
 | BIGTREETECH TFT3.5 E3     | `Generic 12864`   |
