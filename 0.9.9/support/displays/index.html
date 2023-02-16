@@ -509,16 +509,30 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#raspberry-pi-displays" class="md-nav__link">
-    Raspberry Pi Displays
+  <a href="#cpu-displays" class="md-nav__link">
+    CPU Displays
   </a>
   
-    <nav class="md-nav" aria-label="Raspberry Pi Displays">
+    <nav class="md-nav" aria-label="CPU Displays">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#materials" class="md-nav__link">
-    Materials
+  <a href="#universal-short-lid" class="md-nav__link">
+    Universal Short Lid
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#universal-display-panel" class="md-nav__link">
+    Universal Display Panel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bigtreetech-5-pi-tft" class="md-nav__link">
+    BIGTREETECH 5" Pi TFT
   </a>
   
 </li>
@@ -1260,16 +1274,30 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#raspberry-pi-displays" class="md-nav__link">
-    Raspberry Pi Displays
+  <a href="#cpu-displays" class="md-nav__link">
+    CPU Displays
   </a>
   
-    <nav class="md-nav" aria-label="Raspberry Pi Displays">
+    <nav class="md-nav" aria-label="CPU Displays">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#materials" class="md-nav__link">
-    Materials
+  <a href="#universal-short-lid" class="md-nav__link">
+    Universal Short Lid
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#universal-display-panel" class="md-nav__link">
+    Universal Display Panel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bigtreetech-5-pi-tft" class="md-nav__link">
+    BIGTREETECH 5" Pi TFT
   </a>
   
 </li>
@@ -1301,7 +1329,6 @@
 <li>MCU displays include various TFT and older 128x64 character LCD diplays.</li>
 <li>Raspberry Pi displays are TFT displays, usually used with OctoPrint or Klipper.</li>
 </ul>
-<p>It is impotant to note that displays larger than 6" are too large for the panel and should be lid-mounted. 7" Raspberry Pi TFTs are an example.</p>
 <h2 id="mcu-displays">MCU Displays</h2>
 <figure>
 <p><a href="../../img/components/display.png"><img alt="front left render" src="../../img/components/display.png" width="480" /></a>
@@ -1411,39 +1438,39 @@
 <p><a href="../../img/parts/btt_35tft_e3.jpg"><img alt="product picture" src="../../img/parts/btt_35tft_e3.jpg" /></a></p>
 </div>
 </div>
-<!-- ### BIGTREETECH TFT5
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-!!! caution "Fit Test Pending"
-    [:material-git: Issue #24](https://github.com/jon-harper/OmniBox/issues/24)
-
-[:material-git: Files: ][git_btt_tft_50]{ .md-button }
-
-[:material-cart: Product Link][bom_]{ .md-button }
-
-- Materials: 4x M3
+<h2 id="cpu-displays">CPU Displays</h2>
+<p>Many Klipper and Octoprint users have a CPU display attached to their Raspberry Pi (or other SBC), and some forego an MCU display entirely.</p>
+<p>Any TFT designed with mounts points for a Raspberry Pi on the back should be compatible with OmniBox. These can all be mounted on short lids; some can be mounted as display panels. Users have also contributed additional display panel designs for specific TFT models.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">On a Short Lid</label><label for="__tabbed_1_2">On a Display Panel</label><label for="__tabbed_1_3">As a Flush-Mount Display Panel</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><figure markdown>
+<img alt="display panel tft" src="../../img/components/rpi_tft_lid.png" width="360px" />
+<figcaption markdown>Displays up to 7" can be attached to the lid.</figcaption>
+</figure></p>
 </div>
-<div markdown class="jh-grid-img">
-[![product picture][img_]][img_]
+<div class="tabbed-block">
+<p><figure markdown>
+<img alt="display panel tft" src="../../img/components/rpi_tft_display.png" width="360px" />
+<figcaption markdown>Although any display can be mounted to the panel, 7-inch displays block the mounting holes.</figcaption>
+</figure></p>
+</div>
+<div class="tabbed-block">
+<p><figure markdown>
+<img alt="display panel tft" src="../../img/components/rpi_tft_display_flush.png" width="360px" />
+<figcaption markdown>Flush-mount panels are available for certain models. Illustrated is <a href="https://github.com/MaffooClock" title="GitHub Profile: MaffooClock">MaffooClock</a>'s panel for the BIGTREETECH PITFT50.</figcaption>
+</figure></p>
 </div>
 </div>
--->
-
-<h2 id="raspberry-pi-displays">Raspberry Pi Displays</h2>
-<p>Any TFT designed with mounts points for a Raspberry Pi on the back should be compatible with OmniBox.</p>
-<p>These displays can be attached in one of two ways:</p>
-<ul>
-<li>In place of the MCU display as a Display Panel</li>
-<li>Or as a <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Short/Pi%20TFT" title="OmniBox GitHub: Raspberry Pi TFT Lid"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Lid</a> above the MCU display mount. </li>
-</ul>
-<p>Compatibility with the <em>display panel</em> depends on size:</p>
+</div>
+<p>Known compatible displays are listed below, along with mounting options.</p>
 <table>
 <thead>
 <tr>
 <th>Display / Mounting Location</th>
 <th align="center">Display Panel</th>
 <th align="center">Lid</th>
+<th align="center">Custom Display Panel</th>
 </tr>
 </thead>
 <tbody>
@@ -1451,9 +1478,11 @@
 <td>BIGTREETECH PI TFT43</td>
 <td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
 <td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+<td align="center"><img alt="❌" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/274c.svg" title=":x:" /></td>
 </tr>
 <tr>
 <td>BIGTREETECH PI TFT50</td>
+<td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
 <td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
 <td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
 </tr>
@@ -1461,17 +1490,82 @@
 <td>BIGTREETECH PI TFT70</td>
 <td align="center"><img alt="❌" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/274c.svg" title=":x:" /></td>
 <td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+<td align="center"><img alt="❌" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/274c.svg" title=":x:" /></td>
 </tr>
 <tr>
 <td>Raspberry Pi 7" TFT</td>
 <td align="center"><img alt="❌" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/274c.svg" title=":x:" /></td>
 <td align="center"><img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /></td>
+<td align="center"><img alt="❌" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/274c.svg" title=":x:" /></td>
 </tr>
 </tbody>
 </table>
-<h3 id="materials">Materials</h3>
-<p>Official Raspberry Pi 7" TFT require additional M2.5 10-12mm standoffs. They should come with M2.5 screws.</p>
-<p>BIGTREETECH Pi TFT displays come with the necessary standoffs and screws.</p>
+<h3 id="universal-short-lid">Universal Short Lid</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<div class="admonition caution">
+<p class="admonition-title">Caution: Use the XL file for 7-inch TFTs</p>
+</div>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Short/Pi%20TFT" title="OmniBox GitHub: Raspberry Pi TFT Lid"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Pi TFT</a></p>
+<ul>
+<li>Materials:<ul>
+<li>4x M2.5 screws</li>
+<li>4x M2.5 brass standoffs (10-12mm)</li>
+</ul>
+</li>
+<li>Notes:<ul>
+<li>The Raspberry Pi 7" TFT may not come with the necessary standoffs.</li>
+<li>Materials are included with all models of the BIGTREETECH PITFT.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="jh-grid-img">
+<p><img alt="lid tft" src="../../img/components/rpi_tft_lid.png" width="360px" /></p>
+</div>
+</div>
+<h3 id="universal-display-panel">Universal Display Panel</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Raspberry%20Pi%20TFT" title="OmniBox GitHub: Raspberry Pi TFT Display Panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Rasperry Pi TFT</a></p>
+<ul>
+<li>Materials:<ul>
+<li>4x M2.5 screws</li>
+<li>4x M2.5 brass standoffs (10-12mm)</li>
+</ul>
+</li>
+<li>Notes:<ul>
+<li>The Raspberry Pi 7" TFT may not come with the necessary standoffs.</li>
+<li>Materials are included with all models of the BIGTREETECH PITFT.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="jh-grid-img">
+<p><img alt="display panel tft" src="../../img/components/rpi_tft_display.png" width="360px" /></p>
+</div>
+</div>
+<h3 id="bigtreetech-5-pi-tft">BIGTREETECH 5" Pi TFT</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<div class="admonition info">
+<p class="admonition-title">Contributed by <a href="https://github.com/MaffooClock" title="GitHub Profile: MaffooClock">MaffooClock</a></p>
+</div>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%20PI%20TFT50" title="OmniBox GitHub: BIGTREETECH 5&quot; Pi TFT Display Panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> BTT PI TFT50</a></p>
+<p><a class="md-button" href="https://www.amazon.com/BIGTREETECH-Screen-Display-800x480-Raspberry/dp/B08FD2YZ23" title="Amazon: BIGTREETECH PI TFT50 V2"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Product Link</a></p>
+<ul>
+<li>Materials:<ul>
+<li>8x M2.5 x 6mm screws</li>
+<li>4x M3 x 6mm screws</li>
+<li><em>(HSI version)</em> 4x M3 5mm OD x 4mm heat set inserts</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="jh-grid-img">
+<p><a href="../../img/parts/btt_pitft_5.0.jpg"><img alt="product picture" src="../../img/parts/btt_pitft_5.0.jpg" /></a></p>
+</div>
+</div>
 <!-- OmniBox GitHub Pages -->
 <!-- 
     OmniBox GitHub Folders 
