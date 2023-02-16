@@ -9,25 +9,22 @@ This page has common settings for printing OmniBox and a printed component check
 
 ## 3D Printing Settings
 
-### Materials
+### Recommended Materials
 
-OmniBox prints best with modified PLA. Fan gaskets are an optional noise reducer and require TPU.
-
-#### Tested Materials
-
+<div markdown class="jh-proconlist">
 - [x] Modified PLA (PLA+/PLA Pro)
 - [x] PETG
 - [ ] Unmodified PLA
+</div>
+
+OmniBox prints best with modified PLA. Printing in PETG typically takes longer than PLA but otherwise produces good results.
 
 Unmodified PLA (generally prints at 180-200C) is prints easily but is a rigid, weak material. Modified PLA is more flexible, among other benefits.
 
-#### Printing PETG
+!!! note
+    Fan gaskets are an optional noise reducer and require TPU.
 
-When printing with PETG, use 1.6mm walls/perimeters. If printing in a drafty room, consider a partial enclosure to help layer adhesion.
-
-Printing in PETG typically takes longer than PLA.
-
-### PLA Print Settings
+### Print Settings
 
 These settings are consistent for all parts but the optional fan gaskets.
 
@@ -38,9 +35,14 @@ These settings are consistent for all parts but the optional fan gaskets.
 | **Perimeters (Walls)**    | 1.2mm+       | 3 perimeters with a 0.4mm nozzle. 1.5mm+ results in solid main body side walls. |
 | **Infill**                | 20-25%       | Cubic is a good tradeoff for time and durability. |
 | **Nozzle Diameter**       | 0.4mm, 0.6mm | If you print a case with a different nozzle size, please share your results! |
-| **Support Overhang Angle** | At least 60 degrees | Nearly all printers can print 60 degree overhangs. This reduces support material. |
+| **Support Overhang Angle** | >= 60 degrees | This reduces print time & support material. |
 
-### Settings Specific to Core Components
+#### PETG Settings
+
+- Use 1.6mm walls/perimeters (1.8mm for 0.6mm nozzles).
+- If printing in a drafty room, consider a partial enclosure to help layer adhesion.
+
+#### Core Component Settings
 
 - Supports must be on.
 - Support blockers are recommended for zip tie anchors and fastener holes.
