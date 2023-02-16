@@ -127,6 +127,25 @@ Component names below link to the corresponding git folder. Most mounts require 
 </div>
 </div>
 
+### BIGTREETECH 5" Pi TFT
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+[:material-git: BTT PI TFT50][git_btt_pitft_50]{ .md-button }
+
+[:material-cart: Product Link][bom_btt_pitft50]{ .md-button }
+
+- Materials:
+    - 8x M2.5x6 BHCS or SHCS for attaching display to rear shell
+    - 4x M3x5ODx4L heat-set inserts (for HSI version)
+    - 4x M3x6 BHCS or SHCS for attaching rear shell assembly to front panel
+
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_btt_pitft50]][img_btt_pitft50]
+</div>
+</div>
+
 <!-- ### BIGTREETECH TFT5
 
 <div markdown class="jh-grid-container jh-grid-2">
@@ -160,9 +179,11 @@ Compatibility with the *display panel* depends on size:
 | Display / Mounting Location | Display Panel      | Lid                |
 |-----------------------------|:------------------:|:------------------:|
 | BIGTREETECH PI TFT43        | :white_check_mark: | :white_check_mark: |
-| BIGTREETECH PI TFT50        | :white_check_mark: | :white_check_mark: |
+| BIGTREETECH PI TFT50*       | :white_check_mark: | :white_check_mark: |
 | BIGTREETECH PI TFT70        | :x:                | :white_check_mark: |
 | Raspberry Pi 7" TFT         | :x:                | :white_check_mark: |
+
+*Note: BIGTREETECH PI TFT50 now has a [dedicated flush-mount panel][#bigtreetech-5-pi-tft].*
 
 ### Materials
 
@@ -177,3 +198,4 @@ BIGTREETECH Pi TFT displays come with the necessary standoffs and screws.
 [img_mini12864]: ../img/parts/mini12864.jpg
 [img_btt_tft24]: ../img/parts/btt_tft_2.4.jpg
 [img_btt_tft35]: ../img/parts/btt_tft_3.5.jpg
+[img_btt_pitft50]: ../img/parts/btt_pitft_5.0.jpg

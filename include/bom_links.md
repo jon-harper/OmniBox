@@ -49,6 +49,7 @@
 [bom_generic_12864]:   https://www.amazon.com/CHPOWER-Display-Screen-Creality-Printers/dp/B07DL3ZBD7             "Amazon: Generic 128x64 Display"
 [bom_mini_12864]:      https://www.amazon.com/FYSETC-Controller-Supports-Accessories-RGB-Backlight/dp/B08R9ZH7S2 "Amazon: FYSETC Mini12864 v2.1 Display"
 [bom_btt_tft35]:       https://www.amazon.com/BIGTREETECH-Graphic-Display-Controller-Printer/dp/B07VWF4W3J       "Amazon: BIGTREETECH TFT35 V3"
+[bom_btt_pitft50]:     https://www.amazon.com/BIGTREETECH-Screen-Display-800x480-Raspberry/dp/B08FD2YZ23         "Amazon: BIGTREETECH PI TFT50 V2"
 
 <!-- Lower Bay -->
 <!--     Bucks -->
