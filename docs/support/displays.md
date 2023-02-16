@@ -10,8 +10,6 @@ Display Panels mount two different types of display screens:
 - MCU displays include various TFT and older 128x64 character LCD diplays.
 - Raspberry Pi displays are TFT displays, usually used with OctoPrint or Klipper.
 
-It is impotant to note that displays larger than 6" are too large for the panel and should be lid-mounted. 7" Raspberry Pi TFTs are an example.
-
 ## MCU Displays
 
 <figure markdown>
@@ -127,69 +125,97 @@ Component names below link to the corresponding git folder. Most mounts require 
 </div>
 </div>
 
+## CPU Displays
+
+Many Klipper and Octoprint users have a CPU display attached to their Raspberry Pi (or other SBC), and some forego an MCU display entirely.
+
+Any TFT designed with mounts points for a Raspberry Pi on the back should be compatible with OmniBox. These can all be mounted on short lids; some can be mounted as display panels. Users have also contributed additional display panel designs for specific TFT models.
+
+=== "On a Short Lid"
+    <figure markdown>
+    ![display panel tft](../img/components/rpi_tft_lid.png){width="360px"}
+    <figcaption markdown>Displays up to 7" can be attached to the lid.</figcaption>
+    </figure>
+=== "On a Display Panel"
+    <figure markdown>
+    ![display panel tft](../img/components/rpi_tft_display.png){width="360px"}
+    <figcaption markdown>Although any display can be mounted to the panel, 7-inch displays block the mounting holes.</figcaption>
+    </figure>
+=== "As a Flush-Mount Display Panel"
+    <figure markdown>
+    ![display panel tft](../img/components/rpi_tft_display_flush.png){width="360px"}
+    <figcaption markdown>Flush-mount panels are available for certain models. Illustrated is [MaffooClock][contrib_maffooclock]'s panel for the BIGTREETECH PITFT50.</figcaption>
+    </figure>
+
+Known compatible displays are listed below, along with mounting options.
+
+| Display / Mounting Location | Display Panel      | Lid                | Custom Display Panel |
+|-----------------------------|:------------------:|:------------------:|:--------------------:|
+| BIGTREETECH PI TFT43        | :white_check_mark: | :white_check_mark: | :x:                  |
+| BIGTREETECH PI TFT50        | :white_check_mark: | :white_check_mark: | :white_check_mark:   |
+| BIGTREETECH PI TFT70        | :x:                | :white_check_mark: | :x:                  |
+| Raspberry Pi 7" TFT         | :x:                | :white_check_mark: | :x:                  |
+
+### Universal Short Lid
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+!!! caution "Caution: Use the XL file for 7-inch TFTs"
+
+[:material-git: Pi TFT][git_lid_pi_tft]{ .md-button }
+
+- Materials:
+    - 4x M2.5 screws
+    - 4x M2.5 brass standoffs (10-12mm)
+- Notes:
+    - The Raspberry Pi 7" TFT may not come with the necessary standoffs.
+    - Materials are included with all models of the BIGTREETECH PITFT.
+</div>
+<div markdown class="jh-grid-img">
+![lid tft](../img/components/rpi_tft_lid.png){width="360px"}
+</div>
+</div>
+
+### Universal Display Panel
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+[:material-git: Rasperry Pi TFT][git_display_pi_tft]{ .md-button }
+
+- Materials:
+    - 4x M2.5 screws
+    - 4x M2.5 brass standoffs (10-12mm)
+- Notes:
+    - The Raspberry Pi 7" TFT may not come with the necessary standoffs.
+    - Materials are included with all models of the BIGTREETECH PITFT.
+
+</div>
+<div markdown class="jh-grid-img">
+![display panel tft](../img/components/rpi_tft_display.png){width="360px"}
+</div>
+</div>
+
 ### BIGTREETECH 5" Pi TFT
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
+!!! info "Contributed by [MaffooClock][contrib_maffooclock]"
+
 [:material-git: BTT PI TFT50][git_btt_pitft_50]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_pitft50]{ .md-button }
 
 - Materials:
-    - 8x M2.5x6 BHCS or SHCS for attaching display to rear shell
-    - 4x M3x5ODx4L heat-set inserts (for HSI version)
-    - 4x M3x6 BHCS or SHCS for attaching rear shell assembly to front panel
+    - 8x M2.5 x 6mm screws
+    - 4x M3 x 6mm screws
+    - *(HSI version)* 4x M3 5mm OD x 4mm heat set inserts
 
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_btt_pitft50]][img_btt_pitft50]
 </div>
 </div>
-
-<!-- ### BIGTREETECH TFT5
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-!!! caution "Fit Test Pending"
-    [:material-git: Issue #24](https://github.com/jon-harper/OmniBox/issues/24)
-
-[:material-git: Files: ][git_btt_tft_50]{ .md-button }
-
-[:material-cart: Product Link][bom_]{ .md-button }
-
-- Materials: 4x M3
-</div>
-<div markdown class="jh-grid-img">
-[![product picture][img_]][img_]
-</div>
-</div>
--->
-
-## Raspberry Pi Displays
-
-Any TFT designed with mounts points for a Raspberry Pi on the back should be compatible with OmniBox.
-
-These displays can be attached in one of two ways:
-
-- In place of the MCU display as a Display Panel
-- Or as a [:material-git: Lid][git_lid_pi_tft] above the MCU display mount. 
-
-Compatibility with the *display panel* depends on size:
-
-| Display / Mounting Location | Display Panel      | Lid                |
-|-----------------------------|:------------------:|:------------------:|
-| BIGTREETECH PI TFT43        | :white_check_mark: | :white_check_mark: |
-| BIGTREETECH PI TFT50*       | :white_check_mark: | :white_check_mark: |
-| BIGTREETECH PI TFT70        | :x:                | :white_check_mark: |
-| Raspberry Pi 7" TFT         | :x:                | :white_check_mark: |
-
-*Note: BIGTREETECH PI TFT50 now has a [dedicated flush-mount panel][#bigtreetech-5-pi-tft].*
-
-### Materials
-
-Official Raspberry Pi 7" TFT require additional M2.5 10-12mm standoffs. They should come with M2.5 screws.
-
-BIGTREETECH Pi TFT displays come with the necessary standoffs and screws.
 
 
 [img_display]: ../img/components/display.png

@@ -242,7 +242,7 @@ Compatible with all versions.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-!!! info "Contributed by [MaffoClock][contrib_maffooclock]"
+!!! info "Contributed by [MaffooClock][contrib_maffooclock]"
 
 [:material-git: MKS Monster8][git_mks_monster8]{ .md-button }
 
