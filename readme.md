@@ -22,7 +22,10 @@ The **[documentation](https://jon-harper.github.io/OmniBox)** includes a visual 
 ### Current Beta
 
 - No current beta is available.
-- Untested parts can be found in the **[`unstable`][unstable]** branch.
+- Untested parts can be found in the **[`unstable`][unstable]** branch\*.
+- The is an [improved Core Main Body](https://github.com/jon-harper/OmniBox/discussions/92) in the `unstable` branch.
+
+\* If you use an untesed part, please let us know!
 
 ![photobooth picture][gallery_pic]
 
