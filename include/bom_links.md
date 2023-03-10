@@ -22,6 +22,7 @@
 [bom_key_hdmi]:         https://www.amazon.com/Monoprice-106852-Keystone-Coupler-Adapter/dp/B005VKKB7Q           "Amazon: HDMI Coupler Keystone Jack"
 [bom_key_ethernet]:     https://www.amazon.com/VCE-Listed-5-Pack-Keystone-Coupler-White/dp/B0116T7XMQ            "Amazon: Ethernet Coupler Keystone Jacks"
 [bom_key_usb_c]:        https://www.amazon.com/Keystone-Extention-Keystone-Convertor-Extension/dp/B08GSLLVG2     "Amazon: USB C Keystone Extension"
+[bom_16awg_wire]:       https://www.amazon.com/BNTECHGO-Silicone-Flexible-Strands-Stranded/dp/B00TG1TRL2         "Amazon: 5ft 16 awg stranded silicone wire, red & black"
 
 <!-- PSU -->
 [bom_lrs350]:           https://www.amazon.com/MEAN-WELL-LRS-350-24-Printer-Industrial/dp/B07VRK86SP             "Amazon: Mean Well LRS-350-24"

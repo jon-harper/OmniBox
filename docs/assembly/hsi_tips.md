@@ -5,7 +5,12 @@ authors: Jon Harper
 date: 2022-11-25
 ---
 
-Heat set inserts were introduced in version 0.9.9.
+Heat set inserts were introduced in version 0.9.9. 
+
+!!! note "Heat Set Inserts"
+    M3 x 4.6mm x 5.6mm inserts will be replaced in future versions with the more common "Voron-style" inserts that are M3 x 5mm x 4mm.
+    
+    User mods that require inserts universally use the Voron-style inserts.
 
 ## Time
 
@@ -55,16 +60,16 @@ These blocks have holes in two orientations: flat and set at a 50 degree angle. 
 
 ### Fixing a Cooled Insert
 
-Sometimes an off-center insert is not discovered until later. The most common symptom is a squealing noise when inserting screws. If this happens, stop assembly to fix the insert.
+Sometimes an off-center insert is not discovered until later. The most common symptom is a squealing noise when inserting screws. If this happens, back out the screw and try again; the screw may be threading at an angle. If this does not correct the issue, stop assembly to fix the insert.
 
 !!! note
     These instructions are still being fine-tuned.
 
-1. Preheat the soldering iron to a low temperature, as before.
+1. Preheat the soldering iron to a low temperature.
 2. Set the iron's tip on the insert, but *do not press down*.
-3. Allow roughtly three (3) seconds for the insert to heat.
-4. *Gently* tilt the soldering iron to straighten the insert in the hole. Do not press hard; wait for the plastic to soften instead.
-5. Once the insert is upright, remove the iron. The plastic will re-cool around the insert.
+3. Allow three (3) to five (5) seconds for the insert to heat.
+4. Take an M3x20 or longer machine screw and thread one (1) or two (2) turns into the insert.
+5. Use the screw to straighten the insert before the plastic cools around it.
 
 
 [img_hsi]: ../img/bom/hsi.png

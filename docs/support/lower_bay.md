@@ -36,6 +36,9 @@ Every tray (short or long) attaches to the Core case body with four (4) M3 x 6mm
 
 Long trays for buck converters often have a 40mm fan mount. This is particularly useful for 2A buck converters that are rated to 3A with cooling.
 
+!!! note "Powering a Raspberry Pi"
+    The Raspberry Pi 4B requires up to 3A of power, but typically uses less than 2.5A.  The LM2596 is rated to 2A of current without cooling; adding a heatsink or modest airflow allows it power a Raspberry Pi without issue.
+
 ### Basic 2A LM2596
 
 <div markdown class="jh-grid-container jh-grid-2">

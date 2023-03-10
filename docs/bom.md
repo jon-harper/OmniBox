@@ -21,8 +21,8 @@ These parts are common to all case builds. See below for additional requirements
 |----------------------------------------|-----|-----|----------------------------------------------------------|
 | PLA+/PETG filament                     | 2   | kg  | Typical use is less than 1.5kg (PLA+).                   |
 | TPU 95A filament                       | 0.05| kg  | Optional. Quantity is maximum estimated.                 |
-| 16 red awg stranded hookup wire        | 0.5 | m   |                                                          |
-| [:material-cart: Spade connectors, 14-16 awg, Female, Insulated][bom_spade_connector] | 3   | ea  |                      |
+| [:material-cart: 16 awg/1.25mm stranded hookup wire][bom_16awg_wire] | 0.5 | m   | Prefer red.                |
+| [:material-cart: Spade connectors, 14-16 awg, Female, Insulated][bom_spade_connector] | 3   | ea  |           |
 | [:material-cart: Fork connectors, 14-16 awg, #8, Insulated][bom_fork_connector]       | 1   | ea  | Ring connectors can be used as well. |
 | [:material-cart: SPST snap-in rocker switch][bom_switch]        | 1   | ea  | 30mm x 11mm profile. Identical to Creality Ender power switch. |
 | [:material-cart: IEC C14 socket with fuse][bom_iec]          | 1   | ea  |                                    |
@@ -70,6 +70,11 @@ Cases with heat set inserts use shorter fasteners in some locations. Use the Sto
 
 !!! note "Note: Sharp Point Wood Screws"
     To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
+
+!!! note "Heat Set Inserts"
+    These M3 x 4.6mm x 5.6mm inserts will be replaced in future versions with the more common "Voron-style" inserts that are M3 x 5mm x 4mm.
+    
+    User mods that require inserts universally use the Voron-style inserts.
 
 ### MicroSD Reader Extensions
 
