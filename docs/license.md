@@ -5,10 +5,6 @@ authors: Jon Harper
 date: 2022-11-03
 ---
 
-## Contributing to OmniBox
-
-(Coming Soon)
-
 ## License
 
 OmniBox and its documentation are released under the MIT License.
@@ -16,7 +12,7 @@ OmniBox and its documentation are released under the MIT License.
 ```
 MIT License
 
-Copyright (c) 2022 Jon Harper
+Copyright (c) 2022-2023 Jon Harper
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -36,3 +32,26 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+## Contributing to OmniBox
+
+!!! note "Note: This section is in progress."
+
+Users may contribute directly or indirectly to OmniBox. Accepted contributions are accredited in the documentation.
+
+### Direct Contribution
+
+Direct contributions to OmniBox are completed through git:
+
+1. Fork the OmniBox [`unstable` branch][git_unstable].
+2. Add your files in the correct subfolder (e.g. an MCU tray belongs under `/Trays/MCU/[Product Name]`).
+3. Submit a pull request to merge your files.
+
+### Indirect Contribution
+
+If you would prefer to contribute your changes under a different license or otherwise upload them elsewhere, consider [Printables.com][printables]. Users who do not contribute directly have (so far) chosen to upload to Printables.
+
+1. Upload your file to Printables or another site.
+2. Open an [Issue][git_issues] on GitHub with a link to your file(s).
+3. If the link does not include installation instructions, include them in the issue.
+

@@ -7,3 +7,4 @@
 [clk_jst_sm]: https://jon-harper.github.io/clockmaker-project/wiring/connectors/#jst-sm
 [clk_mf3]: https://jon-harper.github.io/clockmaker-project/wiring/connectors/#molex-micro-fit-30
 [discord]: https://discord.gg/nKmJZMhfz5
+[printables]: https://printables.com
