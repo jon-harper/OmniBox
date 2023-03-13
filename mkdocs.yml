@@ -84,8 +84,8 @@ extra_css:
       
 nav:
   - index.md
-  - development.md
   - tour.md
+  - development.md
   # - faq.md
   - license.md
 

@@ -7,8 +7,6 @@ date: 2022-08-04
 
 ## The Requirements
 
-### Enclosed Printing
-
 Enclosed 3D printing requires controlling more hardware than comes with a typical 3D printer:
 
 - Lighting
@@ -17,25 +15,21 @@ Enclosed 3D printing requires controlling more hardware than comes with a typica
 - Temperature-controlled exhaust fan
 - Always-on filtration fan
 
-Electronics are typically rated for short periods at high ambient temperatures, but the 50C (120F) or higher temperatures in a well-insulated enclosure are hazardous to electronics. I printed my first of Steve Burcham's cases to remove my electronics from such heat (OmniBox is derived from his work).
+### Isolation From Heat
 
-### Managing Devices
+Most electronics will overheat in the 50C (120F) or higher ambient temperatures of a well-insulated enclosure. I printed my first of Steve Burcham's cases to remove my electronics from such heat; OmniBox is derived from his work.
 
-Common devices like fans and lights (and Raspberry Pis!) need a buck converter lower the voltage from a 3D printer's power supply. My printed cases for these printer/enclosure combos became cramped with them. Each buck converter had to sit on a tray above the microcontroller unit (MCU); wiring changes to the MCU required that I first remove up to three buck converter trays.
+### Flexibility and Accessibility
 
-### Support for Large Boards
+Devices like fans and lights--and Raspberry Pis!--need a buck converter lower the voltage from a 3D printer's power supply. My cases soon were cramped with bucks. Each one mounted on a tray above the microcontroller unit (MCU); wiring changes to the MCU required that I first remove up to three buck converter trays.
 
-Additionally, I wanted to use the BIGTREETECH's Octopus in a case, which I had used to success with another project. The Octopus 1.1 is a solid board that provides ample power sources and signal pins. The Octopus does not fit the cases I had already printed; I also had several ideas to improve upon Steve's case.
+### Ample Room
+
+After I discovered BIGTREETECH's Octopus in another project, I wanted a case for it. The Octopus does not fit the cases I had already printed; I also had several ideas to improve upon Steve's case.
 
 With these requirements and goals in mind, I decided to design my own case.
 
-## Building the OmniBox
-
-This is my second electronics case designed around general shape and layout from Steve's V3 case. I kept compatibility only with the original display screens. Lids should be easy to modify to fit.
-
-Templates are provided for all trays and panels to allow further customization and support for new products.
-
-## Development Gallery
+## Early Development Gallery
 
 These photos detail some of the evolution of Steve's original case into OmniBox.
 
