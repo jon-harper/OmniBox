@@ -154,7 +154,7 @@ Known compatible displays are listed below, along with mounting options.
 | BIGTREETECH PI TFT43        | :white_check_mark: | :white_check_mark: | :x:                  |
 | BIGTREETECH PI TFT50        | :white_check_mark: | :white_check_mark: | :white_check_mark:   |
 | BIGTREETECH PI TFT70        | :x:                | :white_check_mark: | :x:                  |
-| Raspberry Pi 7" TFT         | :x:                | :white_check_mark: | :x:                  |
+| Raspberry Pi 7" TFT         | :x:                | :white_check_mark: | :white_check_mark:   |
 
 ### Universal Short Lid
 
@@ -217,6 +217,26 @@ Known compatible displays are listed below, along with mounting options.
 </div>
 </div>
 
+### Raspberry Pi 7" TFT
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+!!! info "Contributed by [Anton Chebotaev][contrib_anton]"
+
+[:material-git: Raspberry Pi Touchscreen][git_rpi_tft]{ .md-button }
+
+[:material-cart: Product Link][bom_btt_pitft50]{ .md-button }
+
+- Materials:
+    - 4x M3 x 8mm screws **or**
+    - 4x M3 x 16mm screws
+
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_rpi_tft]][img_rpi_tft]
+</div>
+</div>
+
 
 [img_display]: ../img/components/display.png
 [img_btt_tft35_e3]: ../img/parts/btt_35tft_e3.jpg
@@ -225,3 +245,4 @@ Known compatible displays are listed below, along with mounting options.
 [img_btt_tft24]: ../img/parts/btt_tft_2.4.jpg
 [img_btt_tft35]: ../img/parts/btt_tft_3.5.jpg
 [img_btt_pitft50]: ../img/parts/btt_pitft_5.0.jpg
+[img_rpi_tft]: ../img/parts/rpi_tft.jpg
