@@ -3,9 +3,21 @@
 		-->
 
 <!-- Fasteners -->
-[bom_wood_screw]:       https://www.amazon.com/gp/product/B08LV4D8SB                                             "Amazon: #6 x 3/4" Pan Head Sharp Point Screw"
+[bom_wood_screw]:       https://www.boltdepot.com/Product-Details.aspx?product=11595                             "Bolt Depot: #6 x 3/4" Round Head Sharp Point Screw"
 [bom_hsi_m3]:           https://www.amazon.com/iplusmile-Embedment-Threaded-Printing-Projects/dp/B087NBYF65      "Amazon: Heat Set Insert, M3, 4.6x5.7mm"
 [bom_hsi_tips]:         https://www.amazon.com/HanTof-Heat-set-Compatible-Soldering-Connecting/dp/B0B4JNQLNB/    "Amazon: Heat Set Insert Tips for Soldering Irons"
+[bom_m3_6]:             https://www.boltdepot.com/Product-Details.aspx?product=6378     "Bolt Depot: M3 x 6mm Socket Head Cap Screw"
+[bom_m3_8]:             https://www.boltdepot.com/Product-Details.aspx?product=6379     "Bolt Depot: M3 x 8mm Socket Head Cap Screw"
+[bom_m3_10]:            https://www.boltdepot.com/Product-Details.aspx?product=6380     "Bolt Depot: M3 x 10mm Socket Head Cap Screw"
+[bom_m3_12]:            https://www.boltdepot.com/Product-Details.aspx?product=6381     "Bolt Depot: M3 x 12mm Socket Head Cap Screw"
+[bom_m3_16]:            https://www.boltdepot.com/Product-Details.aspx?product=6382     "Bolt Depot: M3 x 16mm Socket Head Cap Screw"
+[bom_m3_20]:            https://www.boltdepot.com/Product-Details.aspx?product=6383     "Bolt Depot: M3 x 20mm Socket Head Cap Screw"
+[bom_m4_25]:            https://www.boltdepot.com/Product-Details.aspx?product=6399     "Bolt Depot: M4 x 25mm Socket Head Cap Screw"
+
+<!-- Filament -->
+[bom_pla]:              https://www.amazon.com/Polymaker-Filament-1-75mm-Rigidity-Cardboard/dp/B099KBJNZN       "Amazon: 1kg Polymaker PolyLite PLA+ Filament, 1.85mm"
+[bom_tpu]:              https://www.amazon.com/dp/B09KL2FXNJ/                                                   "Amazon: 750g Polymaker TPU 95A Filament, 1.85mm"
+[bom_petg]:             https://www.amazon.com/Polymaker-Filament-1-75mm-Strong-Cardboard/dp/B09DKRTSXW         "Amazon: 1kg Polymaker PolyLite PETG Filament, 1.85mm"
 
 <!-- Misc Electrical -->
 [bom_switch]:           https://www.amazon.com/gp/product/B07QQ22DTB                                             "Amazon: SPST snap-in rocker switch"
