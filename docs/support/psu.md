@@ -55,7 +55,6 @@ There are several brands of clones, usually using the same model number. The mod
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-!!! caution "Fit Test Pending: [:material-git: Issue #14](https://github.com/jon-harper/OmniBox/issues/14)"
 
 [:material-git: RSP-500 Files][git_psu_rsp500]{ .md-button }
 
