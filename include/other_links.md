@@ -8,3 +8,5 @@
 [clk_mf3]: https://jon-harper.github.io/clockmaker-project/wiring/connectors/#molex-micro-fit-30
 [discord]: https://discord.gg/nKmJZMhfz5
 [printables]: https://printables.com
+[clk_xt60]: https://jon-harper.github.io/clockmaker-project/wiring/connectors/#xt60
+[clk_mfj]:  https://jon-harper.github.io/clockmaker-project/wiring/connectors/#molex-mini-fit-jr

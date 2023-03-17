@@ -35,6 +35,9 @@
 [bom_key_ethernet]:     https://www.amazon.com/VCE-Listed-5-Pack-Keystone-Coupler-White/dp/B0116T7XMQ            "Amazon: Ethernet Coupler Keystone Jacks"
 [bom_key_usb_c]:        https://www.amazon.com/Keystone-Extention-Keystone-Convertor-Extension/dp/B08GSLLVG2     "Amazon: USB C Keystone Extension"
 [bom_16awg_wire]:       https://www.amazon.com/BNTECHGO-Silicone-Flexible-Strands-Stranded/dp/B00TG1TRL2         "Amazon: 5ft 16 awg stranded silicone wire, red & black"
+[bom_xt60]:             https://www.amazon.com/gp/product/B0BC1TPNSK                                            "Amazon: 2x XT60E-M Male Panel Mount"
+[bom_mfj2]:             https://www.amazon.com/Molex-Connector-Matched-18-24-Mini-Fit/dp/B074M1RZHX             "Amazon: 6x Molex Mini Fit Jr 2R, 2P Set"
+[bom_mfj4]:             https://www.amazon.com/Molex-4-Pin-Connector-4-20mm-0165-Mini-Fit/dp/B07DLLN2VL         "Amazon: 5x Molex Mini Fit Jr 2R, 4P Set"
 
 <!-- PSU -->
 [bom_lrs350]:           https://www.amazon.com/MEAN-WELL-LRS-350-24-Printer-Industrial/dp/B07VRK86SP             "Amazon: Mean Well LRS-350-24"

@@ -9,6 +9,8 @@ date: 2022-07-22
 
  Connector panel mounts will typically be on the rear panel and connect with the printer. Extensions can be mounted on the front or rear and are typically for SD Cards and USB ports.
 
+ Each panel type comes with a template for making your own panels. See [Creating New Panels](#creating-new-panels) below for more.
+
 ### Front Panels
 
 ![front panel example][img_front]{ width="360" }
@@ -38,9 +40,6 @@ The table below breaks down where to get started.
 | [:material-git: `Template`][git_rear_template] | A Fusion 360 template with profiles for panel mounted connectors and fans. | ...Want to create your own panel. |
 <!-- | [:material-git: `Micro Fit 3`][git_molex_rear]    | Use Molex Micro Fit 3 panel mounted connectors. Pinout diagrams for each panel are included. | ...Want to create a diconnectable wiring harness for your printer. | -->
 
-!!! note "Note: Micro Fit 3"
-    Rear panels using Molex Micro Fit 3 connectors were available in early releases. They have been pulled to continue development.
-
 ## Supported Hardware
 
 In addition to [fans][fans], templates and predesigned panels are available to mount a variety of hardware.
@@ -51,8 +50,9 @@ These are availabe in short or long versions and are typically used with MCUs. T
 
 Each MCU lists whether it can use a short extension (about 6" long) or of the longer extension is needed (about 18").
 
-- Short: [:material-cart: LANMU MicroSD Card Reader Extension][bom_lanmu_micro_sd]
-- Long: [:material-cart: ELECTOP MicroSD Card Reader Extension][bom_electop_micro_sd]
+[:material-cart: Short MicroSD Card Reader Extension][bom_lanmu_micro_sd]{ .md-button }
+
+[:material-cart: Long MicroSD Card Reader Extension][bom_electop_micro_sd]{ .md-button }
 
 ### USB Extensions
 
@@ -60,9 +60,9 @@ USB extensions are usually USB B or USB C. Some boards still use Micro-USB; for 
 
 Right angle connectors are often a good choice, particularly for larger boards.
 
-- [:material-cart: USB B panel mount extension][bom_usb_b_extension]
-- [:material-cart: USB C panel mount extension][bom_usb_c_extension]
+[:material-cart: USB B panel mount extension][bom_usb_b_extension]{ .md-button }
 
+[:material-cart: USB C panel mount extension][bom_usb_c_extension]{ .md-button }
 ### Keystone Jacks
 
 Keystone jacks support a variety of multimedia cables: USB, HDMI, and Ethernet, among others. As a result, keystone jacks offer flexibility in choosing which connectors to mount. A blank plate can occupy an unused jack cutout.
@@ -85,17 +85,55 @@ JST SM and Molex's Micro Fit 3.0 connectors can both be panel-mounted. These are
 
 #### JST SM
 
-[:material-cart: JST SM Connector Kit][bom_jst_sm_kit]
+These are good, low-curren (3A) connectors for devices such as limit switches, lights, steppers, and fans.
 
-[:material-book-open: JST SM on The Clockmaker Project][clk_jst_sm]
+!!! caution
+    Avoid use for the hotends on enclosed printers.
+
+[:material-cart: JST SM Connector Kit][bom_jst_sm_kit]{ .md-button }
+
+Further reading: [:material-book-open: JST SM on The Clockmaker Project][clk_jst_sm]
 
 #### Molex Micro Fit 3.0
 
-Supported up to 2-row, 16-position, althouhg up to 24 position are available. Larger than 16 pin can be hard to disconnect.
+These make excellent connectors for printers, particularly for hotends. They are rated to 5A (higher with gold pins).
 
-[:material-cart: Molex Micro Fit 3.0 connectors][bom_molex]
+Connectors up to 2 row, 24 positions are available.
 
-[:material-book-open: Molex Micro Fit 3.0 on The Clockmaker Project][clk_mf3]
+[:material-cart: Molex Micro Fit 3.0 connectors][bom_molex]{ .md-button }
+
+Further reading: [:material-book-open: Molex Micro Fit 3.0 on The Clockmaker Project][clk_mf3]
+
+#### XT-60
+
+This connector is most well known for RC electronics and Creality printer beds. They should be used with 12 AWG wire for their rated current, though 13 AWG/2.5mm^2^ is often used for 220W beds.
+
+[:material-cart: Male XT-60 Panel Mounts][bom_xt60]{ .md-button }
+
+Further reading: [:material-book-open: XT-60 on The Clockmaker Project][clk_xt60]
+
+#### Molex Mini Fit Jr.
+
+Mini Fit Jr connectors are commonly seen in computers for the ATX and PCIE connectors. They are reliable connectors rated up to 9.5A with 18 AWG (~1 mm^2^) wires.
+
+[:material-cart: Mini Fit Jr 2 Position Connector Sets][bom_mfj2]{ .md-button }
+
+[:material-cart: Mini Fit Jr 4 Position Connector Sets][bom_mfj4]{ .md-button }
+
+Further reading: [:material-book-open: Mini Fit Jr on The Clockmaker Project][clk_mfj]
+
+## Creating New Panels
+
+In addition to templates for the panels, there are also templates for the cutouts needed to add panels mounts available in the git folder below.
+
+[:material-git: Panel Mounts][git_panel_mounts]{ .md-button }
+
+The solid bodies in the `STEP` and Fusion 360 files:
+
+- Have sufficient clearance to insert the connector; and
+- Are the correct thickness for the connector (e.g. for panel mount ears to engage).
+
+The Fusion 360 file also contains sketches for cut-and-paste.
 
 [fans]: fans.md
 
