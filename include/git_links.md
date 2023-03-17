@@ -123,3 +123,4 @@
 [git_hsi_practice]:     https://github.com/jon-harper/OmniBox/tree/main/Misc/Heat%20Set%20Insert%20Practice%20Block/ "OmniBox GitHub: Heat Set Insert Practice Block"
 [git_carry_handle]:     https://github.com/jon-harper/OmniBox/tree/main/Misc/Carry%20Handle                     "OmniBox GitHub: Carry Handle for Lids"
 [git_microsd_extension]: https://github.com/jon-harper/OmniBox/tree/main/Misc/MicroSD%20Extension "OmniBox GitHub: MicroSD Extension"
+[git_panel_mounts]:     https://github.com/jon-harper/OmniBox/tree/main/Misc/Panel%20Mounts                     "OmniBox GitHub: Panel Mounts"
