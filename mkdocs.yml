@@ -126,6 +126,7 @@ nav:
   - Version History:
     - history/index.md
     - Prior Releases:
+      - history/v0.9.9.md
       - history/v0.9.8.1.md
       - history/v0.9.8.md
       - history/v0.9.7.md
