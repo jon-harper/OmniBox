@@ -5,9 +5,6 @@ authors: Jon Harper
 date: 2022-10-09
 ---
 
-!!! tip
-    Want to know more about OmniBox and what's next? Follow [@TheOmniBox on :material-twitter: Twitter][twitter]
-
 The current release is 0.9.9, released on 2022-11-26.
 
 ## New Features
