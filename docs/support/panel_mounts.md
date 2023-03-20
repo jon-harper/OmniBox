@@ -85,10 +85,9 @@ JST SM and Molex's Micro Fit 3.0 connectors can both be panel-mounted. These are
 
 #### JST SM
 
-These are good, low-curren (3A) connectors for devices such as limit switches, lights, steppers, and fans.
+!!! caution "Caution: Avoid JST SM as a hotend connector on enclosed printers"
 
-!!! caution
-    Avoid use for the hotends on enclosed printers.
+These are good, low-curren (3A) connectors for devices such as limit switches, lights, steppers, and fans.
 
 [:material-cart: JST SM Connector Kit][bom_jst_sm_kit]{ .md-button }
 
@@ -124,7 +123,7 @@ Further reading: [:material-book-open: Mini Fit Jr on The Clockmaker Project][cl
 
 ## Creating New Panels
 
-In addition to templates for the panels, there are also templates for the cutouts needed to add panels mounts available in the git folder below.
+In addition to templates for the base panels, templates are available for the panel mounted connector cutouts.
 
 [:material-git: Panel Mounts][git_panel_mounts]{ .md-button }
 
@@ -134,6 +133,12 @@ The solid bodies in the `STEP` and Fusion 360 files:
 - Are the correct thickness for the connector (e.g. for panel mount ears to engage).
 
 The Fusion 360 file also contains sketches for cut-and-paste.
+
+### Other Templates
+
+[Ginger Saw][contrib_ginger_saw] published on Printables a more extensive set of JST SM panel mounts, up to 10 pins.
+
+[:octicons-link-external-24: JST SM Panel Mounts for 1.5-2mm panels][src_jst_panel_mounts]{ .md-button }
 
 [fans]: fans.md
 
