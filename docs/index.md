@@ -54,42 +54,37 @@ This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgd
 
 ## Current Status
 
-Although OmniBox has not reached version 1.0, it is mature enough for everyday use. A complete OmniBox made of parts from one release is tested to fit and work. Trays and panels are compatibile between releases (see [Compatibility and Upgrades](#compatibility-and-upgrades) for details).
+OmniBox is mature enough for everyday use. A complete OmniBox made of parts from one release is tested to fit and work. Trays and panels are compatibile between releases (see [Compatibility and Upgrades](#compatibility-and-upgrades) for details).
 
 The [Version History][current_release] page contains information on the latest release, fixes, new features, and known issues.
 
 ## Compatibility and Upgrades
 
-Printing OmniBox is an investment. The way trays and panels attach to OmniBox between versions is carefully fixed. The result is a modular case that can be upgraded piece by piece.
+A finished OmniBox is an investment that can grow with your needs. The Core case is designed for flexibility and reuse.
 
-!!! note
-    Prior versions of this page had the Version Stability Guarantee fully in place. I have relaxed it until version 1.0 to allow more design growth.
+Until version 1.0, changes *may* occur between releases in how a given panel or tray mounts. If this happens, parts using the old method are considered deprecated. Deprecated parts remain available and supported through the release of 1.0 but will be removed afterwards.
 
-### Currently
-<!-- TODO Reword -->
-Until version 1.0, it is still possible for changes to be made to the design of panels and trays. If this happens, parts using the old method are considered "deprecated". Deprecated parts remain available and supported through the release of 1.0 but will be removed after. 
-
-Every effort is made to avoid incompatibilities between versions, and so far all deprecated printed parts remain compatible with new cases.
+Every effort is made to avoid incompatibilities between versions.
 
 !!! example
-    Early releases used M4 screws to mount some panels to the case; new panels use M3 screws. The "M4-style" panels were deprecated but remain available.
+    Early releases used M4 screws to mount MCU trays to the case; new trays use M3 screws. The "M4-style" panels were deprecated but remain available.
 
 ### Version 1.0
 
-With version 1.0, changes may be made that cause deprecated parts to lose compatibility. This is a final chance to "lock in" the design.
+Version 1.0 is a final chance to "lock in" the design. After version 1.0, OmniBox releases will come with a **Version Stability Guarantee**:
 
-At this point, OmniBox releases will come with a **Version Stability Guarantee**:
-
-The way that Core components fit together and panels and trays attach to the case will be "frozen" and stable. If you choose to print a newer version of a Core part, no panels or trays will need to be reprinted. New products added in future releases can likewise be used in the Core case body from a prior release.
+Panels and trays interfaces will be "frozen" and stable. If you choose to print a newer version of a Core part, no panels or trays will need to be reprinted. New products added in future releases can likewise be used in the Core case body from a prior release.
 
 ### Compatibility Example
 
-As an example, the design for CPU trays was modified for 0.9.9. Version 0.9.8-style trays are considered deprecated. The following shows how trays and Core cases and compatible with one another.
+As an example, the design for CPU trays was modified for version 0.9.9. Old-style trays are considered deprecated but may still work.
 
-| CPU Tray / Core Case  | 0.9.8              | 0.9.9 - 1.0        | 1.0 and Later        |
-|-----------------------|:------------------:|:------------------:|:--------------------:|
-| **Old (0.9.8) trays** | :white_check_mark: | :white_check_mark: | :x:                  |
-| **New (0.9.9) trays** | :x:                | :white_check_mark: | :white_check_mark:   |
+The following shows how trays and Core cases how support works for deprecated panels and trays—a checkmark indicates the part is supported.
+
+|               | 0.9.8      | 0.9.9 until 1.0    | 1.0+                         |
+|---------------|:----------:|:------------------:|:----------------------------:|
+| **Old trays** | :white_check_mark: | :white_check_mark: | :x:                  |
+| **New trays** | :x:                | :white_check_mark: | :white_check_mark:   |
 
 See the [Guided Tour][tour] to see how the components of an OmniBox fit together in practice.
 
