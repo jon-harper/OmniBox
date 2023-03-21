@@ -4,7 +4,7 @@
 
 <!-- Fasteners -->
 [bom_wood_screw]:       https://www.boltdepot.com/Product-Details.aspx?product=11595                             "Bolt Depot: #6 x 3/4" Round Head Sharp Point Screw"
-[bom_hsi_m3]:           https://www.amazon.com/uxcell-Knurled-Insert-Female-Embedding/dp/B09MCWTBCC/      "Amazon: Heat Set Insert, M3, 5mm OD x 4mm L"
+[bom_hsi_m3]:           https://www.amazon.com/M3x4-0mm-OD4-6mm-Staking-Threaded-Quik-Tek/dp/B08T7M2H4S      "Amazon: Heat Set Insert, M3, 4.6mm OD x 4mm L"
 [bom_hsi_tips]:         https://www.amazon.com/HanTof-Heat-set-Compatible-Soldering-Connecting/dp/B0B4JNQLNB/    "Amazon: Heat Set Insert Tips for Soldering Irons"
 [bom_m3_6]:             https://www.boltdepot.com/Product-Details.aspx?product=6378     "Bolt Depot: M3 x 6mm Socket Head Cap Screw"
 [bom_m3_8]:             https://www.boltdepot.com/Product-Details.aspx?product=6379     "Bolt Depot: M3 x 8mm Socket Head Cap Screw"

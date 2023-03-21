@@ -49,23 +49,23 @@ OmniBox is compatible with both socket head and button head cap screws. All link
 
     | Fasteners                              | Qty | UOM | Note                                                     |
     |----------------------------------------|-----|-----|----------------------------------------------------------|
-    | [:material-cart: M3 x 6mm machine screws][bom_m3_6]    | 4   | ea  |                                                          |
-    | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 44  | ea  |                                                          |
-    | [:material-cart: M3 x 10mm machine screws][bom_m3_10]  | 6   | ea  | May use 12mm instead to simplify materials.              |
-    | [:material-cart: M3 x 12mm machine screws][bom_m3_12]  | 8   | ea  |                                                          |
-    | [:material-cart: M3 x 20mm machine screws][bom_m3_20]  | 2   | ea  |                                                          |
+    | [:material-cart: M3 x 6mm machine screws][bom_m3_6]    | 4   | ea  | |
+    | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 44  | ea  | |
+    | [:material-cart: M3 x 10mm machine screws][bom_m3_10]  | 6   | ea  | May use 12mm instead to simplify materials. |
+    | [:material-cart: M3 x 12mm machine screws][bom_m3_12]  | 8   | ea  | |
+    | [:material-cart: M3 x 20mm machine screws][bom_m3_20]  | 2   | ea  | |
     | [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8   | ea  | See note below.             |
 
 === "HSI"
     
     | Fasteners                              | Qty | UOM | Note                                                     |
     |----------------------------------------|-----|-----|----------------------------------------------------------|
-    | [:material-cart: Heat Set Insert, M3, 4.6mm OD][bom_hsi_m3] | 24  | ea  | Tested with knurled inserts, 5.7mm length. Larger diameters may not work. |
-    | [:material-cart: M3 x 6mm machine screws][bom_m3_6]    | 24  | ea  |                                                          |
-    | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 28  | ea  |                                                          |
-    | [:material-cart: M3 x 10mm machine screws][bom_m3_10]  | 2   | ea  | May use 12mm instead to simplify materials.              |
-    | [:material-cart: M3 x 12mm machine screws][bom_m3_12]  | 8   | ea  |                                                          |
-    | [:material-cart: M3 x 20mm machine screws][bom_m3_20]  | 2   | ea  |                                                          |
+    | [:material-cart: Heat Set Insert, M3, 4.6mm OD][bom_hsi_m3] | 24  | ea  | Tested with both 4mm and 5.7mm length. |
+    | [:material-cart: M3 x 6mm machine screws][bom_m3_6]    | 24  | ea  | |
+    | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 28  | ea  | |
+    | [:material-cart: M3 x 10mm machine screws][bom_m3_10]  | 2   | ea  | May use 12mm instead to simplify materials. |
+    | [:material-cart: M3 x 12mm machine screws][bom_m3_12]  | 8   | ea  | |
+    | [:material-cart: M3 x 20mm machine screws][bom_m3_20]  | 2   | ea  | |
     | [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8   | ea  | See note below.             |
 
     Additionally, you will need an [:material-cart: M3 soldering iron tip for heat set inserts][bom_hsi_tips].
@@ -74,7 +74,7 @@ OmniBox is compatible with both socket head and button head cap screws. All link
     To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
 
 !!! note "Heat Set Inserts"
-    These M3 x 4.6mm x 5.6mm inserts will be replaced in future versions with the more common "Voron-style" inserts that are M3 x 5mm x 4mm.
+    M3 x 4.6mm outer diameter inserts will be replaced in future releases with the more common "Voron-style" inserts that are M3 x 5mm outer diameter and 4mm in length.
     
     User mods that require inserts universally use the Voron-style inserts.
 
