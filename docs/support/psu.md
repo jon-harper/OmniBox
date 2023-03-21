@@ -68,6 +68,28 @@ There are several brands of clones, usually using the same model number. The mod
 </div>
 </div>
 
+### RS-25-5
+
+The RS-25-5 is a common second power supply for SBCs and fits on a lower bay tray.
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+!!! info "Contributed by [edgy][contrib_edgy]"
+
+[:octicons-link-external-24: Printables - Mean Well RS-25-5][src_rs_25_5]{ .md-button }
+
+[:material-cart: Product Link][bom_rs_25_5]{ .md-button }
+
+- Materials: 6x M4 x 6mm screws
+- Notes: This is a lower bay tray.
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_rs_25_5]{width="200"}][img_rs_25_5]
+</div>
+</div>
+
 [psu]: ../img/components/psu.png
 [img_lrs_350]: ../img/parts/mw_lrs_350_24.jpg
 [img_rsp_500]: ../img/parts/mw_rsp_500_24.jpg
+[img_rs_25_5]: ../img/parts/rs_25_5.png
