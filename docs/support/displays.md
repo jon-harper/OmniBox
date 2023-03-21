@@ -161,7 +161,7 @@ Known compatible displays are listed below, along with mounting options.
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-!!! caution "Caution: Use the XL file for 7-inch TFTs"
+!!! note "Note: Use the XL file for 7-inch TFTs"
 
 [:material-git: Pi TFT][git_lid_pi_tft]{ .md-button }
 

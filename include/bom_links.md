@@ -4,7 +4,7 @@
 
 <!-- Fasteners -->
 [bom_wood_screw]:       https://www.boltdepot.com/Product-Details.aspx?product=11595                             "Bolt Depot: #6 x 3/4" Round Head Sharp Point Screw"
-[bom_hsi_m3]:           https://www.amazon.com/iplusmile-Embedment-Threaded-Printing-Projects/dp/B087NBYF65      "Amazon: Heat Set Insert, M3, 4.6x5.7mm"
+[bom_hsi_m3]:           https://www.amazon.com/uxcell-Knurled-Insert-Female-Embedding/dp/B09MCWTBCC/      "Amazon: Heat Set Insert, M3, 5mm OD x 4mm L"
 [bom_hsi_tips]:         https://www.amazon.com/HanTof-Heat-set-Compatible-Soldering-Connecting/dp/B0B4JNQLNB/    "Amazon: Heat Set Insert Tips for Soldering Irons"
 [bom_m3_6]:             https://www.boltdepot.com/Product-Details.aspx?product=6378     "Bolt Depot: M3 x 6mm Socket Head Cap Screw"
 [bom_m3_8]:             https://www.boltdepot.com/Product-Details.aspx?product=6379     "Bolt Depot: M3 x 8mm Socket Head Cap Screw"
@@ -15,9 +15,9 @@
 [bom_m4_25]:            https://www.boltdepot.com/Product-Details.aspx?product=6399     "Bolt Depot: M4 x 25mm Socket Head Cap Screw"
 
 <!-- Filament -->
-[bom_pla]:              https://www.amazon.com/Polymaker-Filament-1-75mm-Rigidity-Cardboard/dp/B099KBJNZN       "Amazon: 1kg Polymaker PolyLite PLA+ Filament, 1.85mm"
+[bom_pla]:              https://www.amazon.com/Polymaker-Filament-1-75mm-Rigidity-Cardboard/dp/B099KSLJCQ       "Amazon: 1kg Polymaker PolyLite PLA Pro Filament, 1.85mm"
 [bom_tpu]:              https://www.amazon.com/dp/B09KL2FXNJ/                                                   "Amazon: 750g Polymaker TPU 95A Filament, 1.85mm"
-[bom_petg]:             https://www.amazon.com/Polymaker-Filament-1-75mm-Strong-Cardboard/dp/B09DKRTSXW         "Amazon: 1kg Polymaker PolyLite PETG Filament, 1.85mm"
+[bom_petg]:             https://www.amazon.com/Polymaker-Filament-1-75mm-Strong-Cardboard/dp/B09DKSCRSX         "Amazon: 1kg Polymaker PolyLite PETG Filament, 1.85mm"
 
 <!-- Misc Electrical -->
 [bom_switch]:           https://www.amazon.com/gp/product/B07QQ22DTB                                             "Amazon: SPST snap-in rocker switch"
@@ -42,6 +42,7 @@
 <!-- PSU -->
 [bom_lrs350]:           https://www.amazon.com/MEAN-WELL-LRS-350-24-Printer-Industrial/dp/B07VRK86SP             "Amazon: Mean Well LRS-350-24"
 [bom_rsp500]:           https://www.amazon.com/MEAN-WELL-RSP-500-24-Switching-Enclosed/dp/B00UWCD22O             "Amazon: Mean Well RSP-500-24"
+[bom_rs_25_5]:          https://www.amazon.com/MEAN-WELL-323282-RS-25-5-Supply/dp/B09KVG6PBZ
 
 <!-- MCU Boards -->
 [bom_duet_3_6hc]:       https://www.amazon.com/Duet3D-Duet-3-Mainboard-6HC/dp/B08W295FKT                         "Amazon: Duet3D Duet 3 6HC"
