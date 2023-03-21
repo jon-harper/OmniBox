@@ -43,7 +43,7 @@ These parts are common to all case builds. See below for additional requirements
 
 Cases with heat set inserts use shorter fasteners in some locations. Use the Stock list if you are not printing a case with inserts.
 
-OmniBox is compatible with both socket head and button head cap screws. All links are to socket head screws, where applicable.
+OmniBox is largely assembled with M3 screws and is compatible with both socket head and button head cap screws. All links are to socket head screws, where applicable. [Power supplies](#psu-trays) are the exception, and use M4 button head cap screws.
 
 === "Stock"
 
@@ -60,7 +60,7 @@ OmniBox is compatible with both socket head and button head cap screws. All link
     
     | Fasteners                              | Qty | UOM | Note                                                     |
     |----------------------------------------|-----|-----|----------------------------------------------------------|
-    | [:material-cart: Heat Set Insert, M3, 4.6mm OD][bom_hsi_m3] | 24  | ea  | Tested with knurled inserts, 5.7mm length. Larger diameters may not work. |
+    | [:material-cart: Heat Set Insert, M3, 5mm OD x 4mm L][bom_hsi_m3] | 24  | ea  | Commonly called "Voron-style". |
     | [:material-cart: M3 x 6mm machine screws][bom_m3_6]    | 24  | ea  |                                                          |
     | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 28  | ea  |                                                          |
     | [:material-cart: M3 x 10mm machine screws][bom_m3_10]  | 2   | ea  | May use 12mm instead to simplify materials.              |
@@ -74,13 +74,11 @@ OmniBox is compatible with both socket head and button head cap screws. All link
     To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
 
 !!! note "Heat Set Inserts"
-    These M3 x 4.6mm x 5.6mm inserts will be replaced in future versions with the more common "Voron-style" inserts that are M3 x 5mm x 4mm.
-    
-    User mods that require inserts universally use the Voron-style inserts.
+    Starting with v0.9.10, OmniBox exclusively uses "Voron-style" (M3 x 5mm x 4mm) HSIs. User mods that require inserts universally use the Voron-style inserts.
 
 ### MicroSD Reader Extensions
 
-Each MCU tray entry has a field for whether a short or long MicroSD card reader extension is necessary (if using one for the front panel).
+Each MCU tray on the [MCU support page](support/mcu.md) has a field for whether a short or long MicroSD card reader extension is necessary (if using one for the front panel).
 
 - Short: [:material-cart: LANMU MicroSD Card Reader Extension][bom_lanmu_micro_sd]
 - Long: [:material-cart: ELECTOP MicroSD Card Reader Extension][bom_electop_micro_sd]
@@ -154,13 +152,16 @@ The rear body also has two versions: one with dual exhausts and one without any.
 
 ## Tray and Panel Configurations
 
-The Universal Bill of Materials includes the fasteners needed to mount panels and the the required trays. It does *not* include the hardware needed to attach anything to those panels and trays.
+The Universal Bill of Materials includes the fasteners needed to mount panels and the the required trays. It does not include the hardware needed to attach electronics to those panels and trays.
 
 The [Supported Parts Overview][support] has a full list of parts and mounting locations. Some configurations require additional fasteners or fans.
 
 ### PSU Trays
 
-Power supplies are notable for mounting to the tray with M4 x 6mm screws. See the [list of supported PSUs][psu] for quantities.
+Power supplies are notable for mounting to the tray with M4 x 6mm button head cap screws. See the [list of supported PSUs][psu] for quantities.
+
+!!! note "Note: M4 Screws"
+    Socket head cap screws have heads that are too tall to fit the PSU in the case.
 
 ### Lower Bay Trays
 

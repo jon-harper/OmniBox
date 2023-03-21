@@ -12,21 +12,22 @@ The current beta release is 0.9.10, released on 2023-XX-XX.
 ### Major New Features
 
 - Added two (2) new CPU bays for a total of four (4).
-- Changed heat set insert support to M3 x 5mm x 4mm (Voron-style).
+- Heat set insert support changed to M3 x 5mm (OD) x 4mm (L) (Voron-style).
+- Front base support for toggle switches (instead of rocker).
 
 ### Additional Improvements
 
-- Crossbar version added with HSI support.
-- Long lower bay trays now mount sideways.
-- Numerous additional zip tie anchors, particularly to the front main body.
-- Lower bay tray guides take up significantly less room.
-- Added support for 12mm and 12.5mm toggle switches.
+- **New/Improved:** Crossbar version added with HSI support.
+- **Improved:** Long lower bay trays now mount sideways.
+- **Added:** Numerous additional zip tie anchors, particularly to the front main body.
+- **Improved:** Lower bay tray guides take up significantly less room.
+- **New:** Support for 12mm and 12.5mm toggle switches.
 
 ### New Hardware Support
 
 | Hardware                          | Mount Location(s) | Notes |
 |-----------------------------------|-------------------|-------|
-| Creality 2.X MCUs                 | MCU Tray          |       |
+| Creality 2.X MCUs                 | MCU Tray          | Contributed by [Mr Meh][contrib_mr_meh]. |
 | 50mm x 10mm fans                  | Any panel         | Contributed by [MaffooClock][contrib_maffooclock]. |
 | FYSETC Spider                     | MCU Tray          | Contributed by [Killajoedotcom][contrib_killajoedotcom]. |
 | MKS Monster8                      | MCU Tray          | Fit test needed. |
@@ -39,13 +40,18 @@ The current beta release is 0.9.10, released on 2023-XX-XX.
 - [Issue #91][1]: Display template is faulty
 - [Issue #81][2]: Lower bay tray standoffs need a fillet
 - [Issue #59][3]: Micro Fit 3 pinouts for rear panels are missing
+- [Issue #94][4]: Add a power switch cover to prevent accidental bumping
 
 ## Documentation & Repository
 
 - [Documentation site](https://jon-harper.github.io/OmniBox)
     - Added basic contribution information.
+    - Cleaned up wording on introductory pages.
+    - All fixed BOM parts have example links.
 <!-- - Assembly Guide -->
-<!-- - [Repository](https://github.com/jon-harper/OmniBox) -->
+- [Repository](https://github.com/jon-harper/OmniBox)
+    - Some file names have additional qualifiers where multiple variations now exist, e.g. "stock" vs. "HSI".
+    
     
 ## Gallery
 
@@ -53,3 +59,4 @@ The current beta release is 0.9.10, released on 2023-XX-XX.
 [1]: https://github.com/jon-harper/OmniBox/issues/91
 [2]: https://github.com/jon-harper/OmniBox/issues/81
 [3]: https://github.com/jon-harper/OmniBox/issues/59
+[4]: https://github.com/jon-harper/OmniBox/issues/94
