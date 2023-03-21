@@ -73,7 +73,7 @@ Every effort is made to avoid incompatibilities between versions.
 
 Version 1.0 is a final chance to "lock in" the design. After version 1.0, OmniBox releases will come with a **Version Stability Guarantee**:
 
-Panels and trays interfaces will be "frozen" and stable. If you choose to print a newer version of a Core part, no panels or trays will need to be reprinted. New products added in future releases can likewise be used in the Core case body from a prior release.
+Panels and trays interfaces will be stable. If you choose to print a newer version of a Core part, no panels or trays will need to be reprinted. New products added in future releases can likewise be used in the Core case body from a prior release.
 
 ### Compatibility Example
 
