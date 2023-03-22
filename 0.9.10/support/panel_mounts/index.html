@@ -461,8 +461,42 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#xt-60" class="md-nav__link">
+    XT-60
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#molex-mini-fit-jr" class="md-nav__link">
+    Molex Mini Fit Jr.
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-new-panels" class="md-nav__link">
+    Creating New Panels
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating New Panels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#other-templates" class="md-nav__link">
+    Other Templates
+  </a>
   
 </li>
         
@@ -1096,7 +1130,7 @@
   
     <li class="md-nav__item">
       <a href="../../history/" class="md-nav__link">
-        0.9.9 Release (Current)
+        0.9.10 Release (Testing)
       </a>
     </li>
   
@@ -1128,6 +1162,20 @@
           Prior Releases
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../history/v0.9.9/" class="md-nav__link">
+        0.9.9 Release
+      </a>
+    </li>
+  
+
+            
           
             
               
@@ -1321,8 +1369,42 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#xt-60" class="md-nav__link">
+    XT-60
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#molex-mini-fit-jr" class="md-nav__link">
+    Molex Mini Fit Jr.
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-new-panels" class="md-nav__link">
+    Creating New Panels
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating New Panels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#other-templates" class="md-nav__link">
+    Other Templates
+  </a>
   
 </li>
         
@@ -1350,6 +1432,7 @@
 
 <h2 id="using-panel-mounts">Using Panel Mounts</h2>
 <p>Connector panel mounts will typically be on the rear panel and connect with the printer. Extensions can be mounted on the front or rear and are typically for SD Cards and USB ports.</p>
+<p>Each panel type comes with a template for making your own panels. See <a href="#creating-new-panels">Creating New Panels</a> below for more.</p>
 <h3 id="front-panels">Front Panels</h3>
 <p><img alt="front panel example" src="../../img/components/front_panel.png" width="360" /></p>
 <p>The front panel is long and slim and can be used for mounting small hardware ports. The most common examples are SD Card extensions and USB extensions. You can find these files in the <a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel" title="OmniBox GitHub: Front Panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <code>/Panels/Front Panel</code></a> git folder.</p>
@@ -1389,26 +1472,18 @@
 </table>
 <!-- | [:material-git: `Micro Fit 3`][git_molex_rear]    | Use Molex Micro Fit 3 panel mounted connectors. Pinout diagrams for each panel are included. | ...Want to create a diconnectable wiring harness for your printer. | -->
 
-<div class="admonition note">
-<p class="admonition-title">Note: Micro Fit 3</p>
-<p>Rear panels using Molex Micro Fit 3 connectors were available in early releases. They have been pulled to continue development.</p>
-</div>
 <h2 id="supported-hardware">Supported Hardware</h2>
 <p>In addition to <a href="../fans/">fans</a>, templates and predesigned panels are available to mount a variety of hardware.</p>
 <h3 id="microsd-extensions">MicroSD Extensions</h3>
 <p>These are availabe in short or long versions and are typically used with MCUs. They can also be used to give access to other SD card slots, such as an SoC CPU.</p>
 <p>Each MCU lists whether it can use a short extension (about 6" long) or of the longer extension is needed (about 18").</p>
-<ul>
-<li>Short: <a href="https://www.amazon.com/gp/product/B07WWVBK8V" title="Amazon: LANMU MicroSD Extension"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> LANMU MicroSD Card Reader Extension</a></li>
-<li>Long: <a href="https://www.amazon.com/gp/product/B07YYSP5F5" title="Amazon: ELECTOP MicroSD Extension"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> ELECTOP MicroSD Card Reader Extension</a></li>
-</ul>
+<p><a class="md-button" href="https://www.amazon.com/gp/product/B07WWVBK8V" title="Amazon: LANMU MicroSD Extension"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Short MicroSD Card Reader Extension</a></p>
+<p><a class="md-button" href="https://www.amazon.com/gp/product/B07YYSP5F5" title="Amazon: ELECTOP MicroSD Extension"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Long MicroSD Card Reader Extension</a></p>
 <h3 id="usb-extensions">USB Extensions</h3>
 <p>USB extensions are usually USB B or USB C. Some boards still use Micro-USB; for these extensions, a keystone jack extension is needed.</p>
 <p>Right angle connectors are often a good choice, particularly for larger boards.</p>
-<ul>
-<li><a href="https://www.amazon.com/gp/product/B071P2BGK5" title="Amazon: USB B Panel Mount Extension"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> USB B panel mount extension</a></li>
-<li><a href="https://www.amazon.com/Poyiccot-Extension-Female-Extender-Straight/dp/B086W2R8Z6" title="Amazon: USB-C Panel Mount Extension"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> USB C panel mount extension</a></li>
-</ul>
+<p><a class="md-button" href="https://www.amazon.com/gp/product/B071P2BGK5" title="Amazon: USB B Panel Mount Extension"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> USB B panel mount extension</a></p>
+<p><a class="md-button" href="https://www.amazon.com/Poyiccot-Extension-Female-Extender-Straight/dp/B086W2R8Z6" title="Amazon: USB-C Panel Mount Extension"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> USB C panel mount extension</a></p>
 <h3 id="keystone-jacks">Keystone Jacks</h3>
 <p>Keystone jacks support a variety of multimedia cables: USB, HDMI, and Ethernet, among others. As a result, keystone jacks offer flexibility in choosing which connectors to mount. A blank plate can occupy an unused jack cutout.</p>
 <p>These are commonly used on the front, side, or rear panels. Currently, designs with keystone jack cutouts exist for the front and side panels.</p>
@@ -1452,12 +1527,38 @@
 <h3 id="other-connectors">Other Connectors</h3>
 <p>JST SM and Molex's Micro Fit 3.0 connectors can both be panel-mounted. These are useful when creating detachable wiring harnesses.</p>
 <h4 id="jst-sm">JST SM</h4>
-<p><a href="https://www.amazon.com/gp/product/B07D9HRDT6" title="Amazon: JST-SM Connector Kit"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> JST SM Connector Kit</a></p>
-<p><a href="https://jon-harper.github.io/clockmaker-project/wiring/connectors/#jst-sm"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 12h7v1.5h-7m0-4h7V11h-7m0 3.5h7V16h-7m8-12H3a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 15h-9V6h9"/></svg></span> JST SM on The Clockmaker Project</a></p>
+<div class="admonition caution">
+<p class="admonition-title">Caution: Avoid JST SM as a hotend connector on enclosed printers</p>
+</div>
+<p>These are good, low-curren (3A) connectors for devices such as limit switches, lights, steppers, and fans.</p>
+<p><a class="md-button" href="https://www.amazon.com/gp/product/B07D9HRDT6" title="Amazon: JST-SM Connector Kit"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> JST SM Connector Kit</a></p>
+<p>Further reading: <a href="https://jon-harper.github.io/clockmaker-project/wiring/connectors/#jst-sm"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 12h7v1.5h-7m0-4h7V11h-7m0 3.5h7V16h-7m8-12H3a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 15h-9V6h9"/></svg></span> JST SM on The Clockmaker Project</a></p>
 <h4 id="molex-micro-fit-30">Molex Micro Fit 3.0</h4>
-<p>Supported up to 2-row, 16-position, althouhg up to 24 position are available. Larger than 16 pin can be hard to disconnect.</p>
-<p><a href="https://www.digikey.com/en/htmldatasheets/production/1626160/0/0/1/0430300007.html" title="Digikey: Molex Micro Fit 3.0 Connectors"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Molex Micro Fit 3.0 connectors</a></p>
-<p><a href="https://jon-harper.github.io/clockmaker-project/wiring/connectors/#molex-micro-fit-30"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 12h7v1.5h-7m0-4h7V11h-7m0 3.5h7V16h-7m8-12H3a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 15h-9V6h9"/></svg></span> Molex Micro Fit 3.0 on The Clockmaker Project</a></p>
+<p>These make excellent connectors for printers, particularly for hotends. They are rated to 5A (higher with gold pins).</p>
+<p>Connectors up to 2 row, 24 positions are available.</p>
+<p><a class="md-button" href="https://www.digikey.com/en/htmldatasheets/production/1626160/0/0/1/0430300007.html" title="Digikey: Molex Micro Fit 3.0 Connectors"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Molex Micro Fit 3.0 connectors</a></p>
+<p>Further reading: <a href="https://jon-harper.github.io/clockmaker-project/wiring/connectors/#molex-micro-fit-30"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 12h7v1.5h-7m0-4h7V11h-7m0 3.5h7V16h-7m8-12H3a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 15h-9V6h9"/></svg></span> Molex Micro Fit 3.0 on The Clockmaker Project</a></p>
+<h4 id="xt-60">XT-60</h4>
+<p>This connector is most well known for RC electronics and Creality printer beds. They should be used with 12 AWG wire for their rated current, though 13 AWG/2.5mm<sup>2</sup> is often used for 220W beds.</p>
+<p><a class="md-button" href="https://www.amazon.com/gp/product/B0BC1TPNSK" title="Amazon: 2x XT60E-M Male Panel Mount"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Male XT-60 Panel Mounts</a></p>
+<p>Further reading: <a href="https://jon-harper.github.io/clockmaker-project/wiring/connectors/#xt60"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 12h7v1.5h-7m0-4h7V11h-7m0 3.5h7V16h-7m8-12H3a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 15h-9V6h9"/></svg></span> XT-60 on The Clockmaker Project</a></p>
+<h4 id="molex-mini-fit-jr">Molex Mini Fit Jr.</h4>
+<p>Mini Fit Jr connectors are commonly seen in computers for the ATX and PCIE connectors. They are reliable connectors rated up to 9.5A with 18 AWG (~1 mm<sup>2</sup>) wires.</p>
+<p><a class="md-button" href="https://www.amazon.com/Molex-Connector-Matched-18-24-Mini-Fit/dp/B074M1RZHX" title="Amazon: 6x Molex Mini Fit Jr 2R, 2P Set"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Mini Fit Jr 2 Position Connector Sets</a></p>
+<p><a class="md-button" href="https://www.amazon.com/Molex-4-Pin-Connector-4-20mm-0165-Mini-Fit/dp/B07DLLN2VL" title="Amazon: 5x Molex Mini Fit Jr 2R, 4P Set"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> Mini Fit Jr 4 Position Connector Sets</a></p>
+<p>Further reading: <a href="https://jon-harper.github.io/clockmaker-project/wiring/connectors/#molex-mini-fit-jr"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 12h7v1.5h-7m0-4h7V11h-7m0 3.5h7V16h-7m8-12H3a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 15h-9V6h9"/></svg></span> Mini Fit Jr on The Clockmaker Project</a></p>
+<h2 id="creating-new-panels">Creating New Panels</h2>
+<p>In addition to templates for the base panels, templates are available for the panel mounted connector cutouts.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Misc/Panel%20Mounts" title="OmniBox GitHub: Panel Mounts"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Panel Mounts</a></p>
+<p>The solid bodies in the <code>STEP</code> and Fusion 360 files:</p>
+<ul>
+<li>Have sufficient clearance to insert the connector; and</li>
+<li>Are the correct thickness for the connector (e.g. for panel mount ears to engage).</li>
+</ul>
+<p>The Fusion 360 file also contains sketches for cut-and-paste.</p>
+<h3 id="other-templates">Other Templates</h3>
+<p><a href="https://www.printables.com/social/226009-ginger-saw/about" title="Printables.com Profile: Ginger Saw">Ginger Saw</a> published on Printables a more extensive set of JST SM panel mounts, up to 10 pins.</p>
+<p><a class="md-button" href="https://www.printables.com/model/345134-jst-sm-panel-mounts-for-15-2mm-panels" title="Printables.com - Ginger Saw - JST SM Panel Mounts for 1.5-2mm panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25z"/></svg></span> JST SM Panel Mounts for 1.5-2mm panels</a></p>
 <!-- OmniBox GitHub Pages -->
 <!-- 
     OmniBox GitHub Folders 
