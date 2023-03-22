@@ -21,6 +21,7 @@
 
 <!-- Misc Electrical -->
 [bom_switch]:           https://www.amazon.com/gp/product/B07QQ22DTB                                             "Amazon: SPST snap-in rocker switch"
+[bom_toggle_switch]:    https://www.amazon.com/Gardner-Bender-GSW-121-Heavy-Duty-Electrical/dp/B000HEIY1Q        "Amazon: SPST toggle switch"
 [bom_iec]:              https://www.amazon.com/gp/product/B081ZFHRGW                                             "Amazon: IEC C14 socket with fuse"
 [bom_fork_connector]:   https://www.amazon.com/Baomain-Insulated-Connector-Electrical-Terminal/dp/B01B1DL4OA     "Amazon: Fork connectors, 14-16awg"
 [bom_spade_connector]:  https://www.amazon.com/gp/product/B07FQB6WXP                                             "Amazon: Female spade connectors, 14-16awg"

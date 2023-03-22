@@ -24,7 +24,6 @@ These parts are common to all case builds. See below for additional requirements
 | [:material-cart: 16 awg/1.25mm stranded hookup wire][bom_16awg_wire] | 0.5 | m   | Prefer red.                |
 | [:material-cart: Spade connectors, 14-16 awg, Female, Insulated][bom_spade_connector] | 3   | ea  |           |
 | [:material-cart: Fork connectors, 14-16 awg, #8, Insulated][bom_fork_connector]       | 1   | ea  | Ring connectors can be used as well. |
-| [:material-cart: SPST snap-in rocker switch][bom_switch]        | 1   | ea  | 30mm x 11mm profile. Identical to Creality Ender power switch. |
 | [:material-cart: IEC C14 socket with fuse][bom_iec]          | 1   | ea  |                                    |
 | Glass Fuse, 5x20mm                     | 1   | ea  | See note below.                                          |
 | Compatible MCU                         | 1   | ea  | See the [Supported Parts][support] list.                 |
@@ -49,24 +48,24 @@ OmniBox is largely assembled with M3 screws and is compatible with both socket h
 
     | Fasteners                              | Qty | UOM | Note                                                     |
     |----------------------------------------|-----|-----|----------------------------------------------------------|
-    | [:material-cart: M3 x 6mm machine screws][bom_m3_6]    | 4   | ea  |                                                          |
-    | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 44  | ea  |                                                          |
-    | [:material-cart: M3 x 10mm machine screws][bom_m3_10]  | 6   | ea  | May use 12mm instead to simplify materials.              |
-    | [:material-cart: M3 x 12mm machine screws][bom_m3_12]  | 8   | ea  |                                                          |
-    | [:material-cart: M3 x 20mm machine screws][bom_m3_20]  | 2   | ea  |                                                          |
-    | [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8   | ea  | See note below.             |
+    | [:material-cart: M3 x 6mm machine screws][bom_m3_6]    | 4   | ea  |           |
+    | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 44  | ea  |           |
+    | [:material-cart: M3 x 10mm machine screws][bom_m3_10]  | 6   | ea  | May use 12mm instead. |
+    | [:material-cart: M3 x 12mm machine screws][bom_m3_12]  | 8   | ea  |           |
+    | [:material-cart: M3 x 20mm machine screws][bom_m3_20]  | 2   | ea  |           |
+    | [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8   | ea  | See note below. |
 
 === "HSI"
     
     | Fasteners                              | Qty | UOM | Note                                                     |
     |----------------------------------------|-----|-----|----------------------------------------------------------|
-    | [:material-cart: Heat Set Insert, M3, 5mm OD x 4mm L][bom_hsi_m3] | 24  | ea  | Commonly called "Voron-style". |
-    | [:material-cart: M3 x 6mm machine screws][bom_m3_6]    | 24  | ea  |                                                          |
-    | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 28  | ea  |                                                          |
-    | [:material-cart: M3 x 10mm machine screws][bom_m3_10]  | 2   | ea  | May use 12mm instead to simplify materials.              |
-    | [:material-cart: M3 x 12mm machine screws][bom_m3_12]  | 8   | ea  |                                                          |
-    | [:material-cart: M3 x 20mm machine screws][bom_m3_20]  | 2   | ea  |                                                          |
-    | [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8   | ea  | See note below.             |
+    | [:material-cart: Heat Set Insert, M3, 5mm OD x 4mm L][bom_hsi_m3] | 24 | ea | See note below. |
+    | [:material-cart: M3 x 6mm machine screws][bom_m3_6]    | 24  | ea  |           |
+    | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 28  | ea  |           |
+    | [:material-cart: M3 x 10mm machine screws][bom_m3_10]  | 2   | ea  | May use 12mm instead. |
+    | [:material-cart: M3 x 12mm machine screws][bom_m3_12]  | 8   | ea  |           |
+    | [:material-cart: M3 x 20mm machine screws][bom_m3_20]  | 2   | ea  |           |
+    | [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8 | ea | See note below. |
 
     Additionally, you will need an [:material-cart: M3 soldering iron tip for heat set inserts][bom_hsi_tips].
 
@@ -74,7 +73,7 @@ OmniBox is largely assembled with M3 screws and is compatible with both socket h
     To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
 
 !!! note "Heat Set Inserts"
-    Starting with v0.9.10, OmniBox exclusively uses "Voron-style" (M3 x 5mm x 4mm) HSIs. User mods that require inserts universally use the Voron-style inserts.
+    Starting with v0.9.10, OmniBox exclusively uses "Voron-style" (M3 x 5mm x 4mm) heat set inserts. User mods that require inserts universally use the Voron-style inserts.
 
 ### MicroSD Reader Extensions
 
@@ -83,11 +82,24 @@ Each MCU tray on the [MCU support page](support/mcu.md) has a field for whether 
 - Short: [:material-cart: LANMU MicroSD Card Reader Extension][bom_lanmu_micro_sd]
 - Long: [:material-cart: ELECTOP MicroSD Card Reader Extension][bom_electop_micro_sd]
 
-## Core Configurations with Fans
+## Core Configurations
 
-Most Core component configurations mount at least one fan. The materials necessary are specified below.
+### Power Switch
 
-### Base - Front
+The Front Base comes in a "rocker" or "toggle" version.
+
+You will need one of the following:
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-img">
+[:material-cart: 30mm x 11mm SPST snap-in rocker switch][bom_switch]
+</div>
+<div markdown class="jh-grid-img">
+
+[:material-cart: 12mm or 12.5mm SPST toggle switch][bom_toggle_switch]
+</div>
+</div>
+
+### Front Base Fans
 
 The base can mount up to three concealed 40mm fans in the intakes. The following are needed to mount *each* fan:
 
@@ -96,37 +108,9 @@ The base can mount up to three concealed 40mm fans in the intakes. The following
 | [:material-cart: 40x40x10mm axial fan][bom_4010]      | 1   | ea  |                                          |
 | [:material-cart: M3 x 16mm machine screws][bom_m3_16] | 4   | ea	| Some fans have recesses that instead use 10-12mm screws. |
 
-### Main Body - Front
+### Rear Main Body Fans
 
-There are two versions of the front main body.
-
-=== "Internal 40mm Intake"
-
-    [![illustration][img_front_40mm]{ width="300" }][img_front_40mm]
-
-    This version of the front main body has an optional 40mm fan.
-
-    | Item                              | Qty | UOM | Note                                                     |
-    |-----------------------------------|-----|-----|----------------------------------------------------------|
-    | [:material-cart: 40x40x10mm axial fan][bom_4010]      | 1   | ea  |                                                          |
-    | [:material-cart: M3 x 16mm machine screws][bom_m3_16] | 4   | ea	| Some fans have recesses that instead use 10-12mm screws. |
-
-=== "External 60mm Intake"
-
-    [![illustration][img_front_60mm]{ width="300" }][img_front_60mm]
-
-    This version of the front main body requires an externally mounted 60mm fan.
-
-    | Item                              | Qty | UOM | Note                                                     |
-    |-----------------------------------|-----|-----|----------------------------------------------------------|
-    | [:material-cart: 60x60x15mm axial fan][bom_6015] | 1   | ea  | May also use 20mm or 25mm thick fans.     |
-    | [:material-cart: M4 x 25mm machine screws][bom_m4_25]          | 4   | ea  | Add 10mm to fan depth for thicker fans.                  |
-    | [:material-git: Fan Cage][git_fans] | 1   | ea  | :material-printer-3d-nozzle: Printed.                  |
-    | [:material-git: Fan Gasket][git_fans] | 1   | ea  | :material-printer-3d-nozzle: Printed TPU. Optional.  |
-
-### Main Body - Rear
-
-The rear body also has two versions: one with dual exhausts and one without any.
+The rear body has two versions: one with dual exhausts and one without any.
 
 === "Dual 40mm Exhausts"
 
