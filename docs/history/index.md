@@ -13,14 +13,14 @@ The current beta release is 0.9.10, released on 2023-XX-XX.
 
 - Added two (2) new CPU bays for a total of four (4).
 - Heat set insert support changed to M3 x 5mm (OD) x 4mm (L) (Voron-style).
-- Front base support for toggle switches (instead of rocker).
+- Front base support for toggle switches.
 
 ### Additional Improvements
 
 - **New/Improved:** Crossbar version added with HSI support.
 - **Improved:** Long lower bay trays now mount sideways.
 - **Added:** Numerous additional zip tie anchors, particularly to the front main body.
-- **Improved:** Lower bay tray guides take up significantly less room.
+- **Improved:** CPU tray guides take up significantly less room.
 - **New:** Support for 12mm and 12.5mm toggle switches.
 
 ### New Hardware Support
