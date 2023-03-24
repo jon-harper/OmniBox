@@ -72,42 +72,35 @@ Use 1.6mm walls/perimeters (1.8mm for 0.6mm nozzles).
 
 This is a checklist of types parts to print. See the [Guided Tour][tour] for help selecting the right STL files from the git repository.
 
-### Core
+### Core - Base
 
-The base and main body can each be printed as two pieces or as a unified part.
-
-#### Base
-
-!!! note "Note: RSP-500"
-    RSP-500 users will need to print the Unified Extended base.
+Print one (1) version of the Front Base and one (1) of the Front Rear *or* print a Unified base. See the [tour][tour] for help choosing a version to print.
 
 <div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-img">
+<div markdown class="jh-grid-para">
 **Front & Rear**
 
 [:material-git: Base - Front][git_base_front]
 
 [:material-git: Base - Rear][git_base_rear]
 </div>
-<div markdown class="jh-grid-img">
+<div markdown class="jh-grid-para">
 **Unified**
 
 [:material-git: Base - Unified][git_base_unified]
 </div>
 </div>
 
+### Core - Main Body
 
+Print one (1) version of each of the Crossbar, Front, and Rear Main Bodies. See the [tour][tour] for help choosing a version to print.
 
+[:material-git: Main Body - Crossbar][git_main_body_crossbar]
 
+[:material-git: Main Body - Front][git_main_body_front]
 
-| Component                                                        | Quantity | Required | Notes  |
-|------------------------------------------------------------------|----------|----------|--------|
-|                     | 1        | Yes      |        |
-|                       | 1        | Yes      |        |
-| [:material-git: Main Body - Crossbar][git_main_body_crossbar]    | 1        | Yes      |        |
-| [:material-git: Main Body - Front][git_main_body_front]          | 1        | Yes      | See the [tour][tour] on choosing a version to print. |
-| [:material-git: Main Body - Rear][git_main_body_rear]            | 1        | Yes      | See the [tour][tour] on choosing a version to print. |
-| [:material-git: Base Extension][git_base_extension]              | 1        | See note | Required when using a Mean Well RSP-500 power supply, otherwise optional. |
+[:material-git: Main Body - Rear][git_main_body_rear]
+
 
 ### Trays
 
