@@ -19,7 +19,7 @@
     
     
       
-        <title>0.9.10 Release (Testing) - OmniBox Documentation</title>
+        <title>0.9.9 Release (Current) - OmniBox Documentation</title>
       
     
     
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              0.9.10 Release (Testing)
+              0.9.9 Release (Current)
             
           </span>
         </div>
@@ -978,12 +978,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          0.9.10 Release (Testing)
+          0.9.9 Release (Current)
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        0.9.10 Release (Testing)
+        0.9.9 Release (Current)
       </a>
       
         
@@ -1022,8 +1022,22 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#completed-requests" class="md-nav__link">
+    Completed Requests
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#new-hardware-support" class="md-nav__link">
     New Hardware Support
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#experimental-hardware-support" class="md-nav__link">
+    Experimental Hardware Support
   </a>
   
 </li>
@@ -1088,20 +1102,6 @@
           Prior Releases
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="v0.9.9/" class="md-nav__link">
-        0.9.9 Release
-      </a>
-    </li>
-  
-
-            
           
             
               
@@ -1233,8 +1233,22 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#completed-requests" class="md-nav__link">
+    Completed Requests
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#new-hardware-support" class="md-nav__link">
     New Hardware Support
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#experimental-hardware-support" class="md-nav__link">
+    Experimental Hardware Support
   </a>
   
 </li>
@@ -1280,23 +1294,100 @@
                   
 
 
-  <h1>0.9.10 Release (Testing)</h1>
+  <h1>0.9.9 Release (Current)</h1>
 
-<p>The current beta release is 0.9.10, released on 2023-XX-XX.</p>
+<p>The current release is 0.9.9, released on 2022-11-26.</p>
 <h2 id="new-features">New Features</h2>
 <h3 id="major-new-features">Major New Features</h3>
 <ul>
-<li>Added two (2) new CPU bays for a total of four (4).</li>
-<li>Changed heat set insert support to M3 x 5mm x 4mm (Voron-style).</li>
+<li><strong>Base:</strong> <a href="https://github.com/jon-harper/OmniBox/issues/14">Issue #14</a>: Universal power supply mount<ul>
+<li>Attaches to the base instead of main body.</li>
+<li>PSU slides in from underneath.</li>
+<li>Allows replacing the PSU without removing other components.</li>
+</ul>
+</li>
+<li><strong>Main Body</strong> Moved CPU bay from front main body to rear:<ul>
+<li>Added a second bay on opposite side.</li>
+<li>Unused second bay is an additional "side panel".</li>
+<li>Can be used to mount an extra 40mm fan, panel mounts, or leave covered with a blank plate.</li>
+</ul>
+</li>
+<li><strong>Main Body</strong> Zip tie anchors added:<ul>
+<li>Six (6) added to crossbar.</li>
+<li>Four (4) added to front main body (under MCU pillars).</li>
+<li>Fifteen (15) added to rear main body:<ul>
+<li>Four (4) under MCU pillars.</li>
+<li>Six (6) above MCU pillars.</li>
+<li>Five (5) by PSU wiring cutout.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>(New) Bottom Panel</strong> <ul>
+<li>Removable panels for case underside.</li>
+<li>Prevents finger-pokey by curious children and dust intrusion (see Completed Requests below).</li>
+<li>Adds feet to the case.</li>
+</ul>
+</li>
 </ul>
 <h3 id="additional-improvements">Additional Improvements</h3>
 <ul>
-<li>Crossbar version added with HSI support.</li>
-<li>Long lower bay trays now mount sideways.</li>
-<li>Numerous additional zip tie anchors, particularly to the front main body.</li>
-<li>Lower bay tray guides take up significantly less room.</li>
-<li>Added support for 12mm and 12.5mm toggle switches.</li>
+<li><strong>Core</strong> <ul>
+<li>All core parts now have embossed version numbers to help with intermixing version numbers.</li>
 </ul>
+</li>
+<li><strong>Main Body</strong><ul>
+<li>Redesigned intakes and modified exhaust mounts.</li>
+<li>Easier to print.</li>
+<li>Made room at base for running wires through to external fans.</li>
+</ul>
+</li>
+<li><strong>Base</strong> <ul>
+<li>Added a third front air vent.</li>
+<li>All three front vents how have 40mm fan mounts.</li>
+</ul>
+</li>
+<li><strong>CPU Trays</strong><ul>
+<li>New template and tray design</li>
+<li>Old trays still work.</li>
+<li>New tray is an easier print with fewer supports needed, can be printed in one of two orientations.</li>
+<li>New releases will only include new trays.</li>
+<li>Added Raspberry Pi tray with a 40mm fan intake.</li>
+</ul>
+</li>
+</ul>
+<h3 id="completed-requests">Completed Requests</h3>
+<table>
+<thead>
+<tr>
+<th>Hardware</th>
+<th>Mount Location(s)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bottom panel</td>
+<td>Bottom Panel</td>
+<td>Has cutouts for speed/strength, but too small for kids' fingers.</td>
+</tr>
+<tr>
+<td>Closed bottom panel</td>
+<td>Bottom Panel</td>
+<td>Solid to prevent dust intrusion.</td>
+</tr>
+<tr>
+<td>Unified base</td>
+<td>Core</td>
+<td>This is a one-piece version of the base.</td>
+</tr>
+<tr>
+<td>Keystone jacks</td>
+<td>Front/side/rear panels</td>
+<td>Added STEP file for mating part to build into panels and an example side panel.</td>
+</tr>
+</tbody>
+</table>
 <h3 id="new-hardware-support">New Hardware Support</h3>
 <table>
 <thead>
@@ -1308,59 +1399,183 @@
 </thead>
 <tbody>
 <tr>
-<td>Creality 2.X MCUs</td>
+<td>Duet3D Duet 3 Mini 5+</td>
 <td>MCU Tray</td>
 <td></td>
 </tr>
 <tr>
-<td>50mm x 10mm fans</td>
-<td>Any panel</td>
-<td>Contributed by <a href="https://github.com/MaffooClock" title="GitHub Profile: MaffooClock">MaffooClock</a>.</td>
-</tr>
-<tr>
-<td>FYSETC Spider</td>
+<td>Duet3D Duet 3 6HC</td>
 <td>MCU Tray</td>
-<td>Contributed by <a href="https://github.com/Killajoedotcom" title="GitHub Profile: Killajoedotcom">Killajoedotcom</a>.</td>
+<td></td>
 </tr>
 <tr>
-<td>MKS Monster8</td>
+<td>Wago 221 Lever Nuts</td>
+<td>Lower Bay</td>
+<td>3-position and 5-position</td>
+</tr>
+<tr>
+<td>Neopixel (WS2812B) LEDs</td>
+<td>Front panel</td>
+<td>Backing piece for attaching lights behind front vents.</td>
+</tr>
+<tr>
+<td>DROK 3A LM2596 Buck Converter</td>
+<td>Lower Bay</td>
+<td>Single and dual, short and long trays.</td>
+</tr>
+<tr>
+<td>92mm fans</td>
+<td>Rear panel, Lid</td>
+<td>25mm thickness only.</td>
+</tr>
+<tr>
+<td>120mm fans</td>
+<td>Lid</td>
+<td>25mm thickness only.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="experimental-hardware-support">Experimental Hardware Support</h3>
+<p>These parts still need to be tested for fit and any other issues.</p>
+<table>
+<thead>
+<tr>
+<th>Hardware</th>
+<th>Mount Location(s)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mean Well RSP-500 power supply</td>
+<td>PSU Tray</td>
+<td>For the Ender 5 Plus</td>
+</tr>
+<tr>
+<td>BIGTREETECH Manta M8P</td>
 <td>MCU Tray</td>
-<td>Fit test needed.</td>
+<td></td>
 </tr>
 <tr>
-<td>MKS Skipr</td>
-<td>MCU Tray</td>
-<td>Fit test needed.</td>
-</tr>
-<tr>
-<td>Mean Well LRS-25-5</td>
-<td>Lower bay tray</td>
-<td>Contributed by <a href="https://www.printables.com/social/319608-mr-meh/about" title="Printables.com Profile: Mr Meh">Mr Meh</a>.</td>
-</tr>
-<tr>
-<td>BIGTREETECH 5" Pi TFT</td>
+<td>BIGTREETECH 5" TFT</td>
 <td>Display Panel</td>
-<td>Contributed by <a href="https://github.com/MaffooClock" title="GitHub Profile: MaffooClock">MaffooClock</a>.</td>
+<td></td>
+</tr>
+<tr>
+<td>BIGTREETECH UPS 24V 1.0</td>
+<td>Lower Bay</td>
+<td>Short tray only.</td>
+</tr>
+<tr>
+<td>BIGTREETECH SKR 3</td>
+<td>MCU Tray</td>
+<td></td>
+</tr>
+<tr>
+<td>BIGTREETECH SKR 3 EZ</td>
+<td>MCU Tray</td>
+<td></td>
+</tr>
+<tr>
+<td>BIGTREETECH Relay 1.2</td>
+<td>Lower Bay</td>
+<td>Long tray only.</td>
 </tr>
 </tbody>
 </table>
 <h2 id="fixes">Fixes</h2>
 <ul>
-<li><a href="https://github.com/jon-harper/OmniBox/issues/91">Issue #91</a>: Display template is faulty</li>
-<li><a href="https://github.com/jon-harper/OmniBox/issues/81">Issue #81</a>: Lower bay tray standoffs need a fillet</li>
-<li><a href="https://github.com/jon-harper/OmniBox/issues/59">Issue #59</a>: Micro Fit 3 pinouts for rear panels are missing</li>
+<li><a href="https://github.com/jon-harper/OmniBox/issues/18">Issue #18</a>: Fan mount blocks screw hole for mounting base<ul>
+<li>Fan mount moved left and up as part of intake redesign.</li>
+</ul>
+</li>
+<li><a href="https://github.com/jon-harper/OmniBox/issues/35">Issue #35</a>: Hex nut for mounting IEC socket is hard to reach<ul>
+<li>Removed hex nuts.</li>
+<li>Screws attach directly in plastic.</li>
+</ul>
+</li>
+<li><a href="https://github.com/jon-harper/OmniBox/issues/33">Issue #33</a>: Base zip tie anchors need adjustment<ul>
+<li>Removed rearmost zip tie that was troublesome.</li>
+<li>Adjusted position of others.</li>
+</ul>
+</li>
+<li><a href="https://github.com/jon-harper/OmniBox/issues/39">Issue #39</a>: Display screen partially blocks two front main body/base screws<ul>
+<li>Added cutout for access.</li>
+</ul>
+</li>
+<li><a href="https://github.com/jon-harper/OmniBox/issues/37">Issue #37</a>: Documentation site is missing license page</li>
+<li><a href="https://github.com/jon-harper/OmniBox/issues/51">Issue #51</a>: Basic LM2596 mounting holes are incorrect</li>
 </ul>
 <h2 id="documentation-repository">Documentation &amp; Repository</h2>
 <ul>
 <li><a href="https://jon-harper.github.io/OmniBox">Documentation site</a><ul>
-<li>Added basic contribution information.</li>
+<li>Added tooltips to links.</li>
+<li>Consolidated external links and added tooltips.</li>
+<li>Replaced assembly and illustration pictures with uniformly-styled generated graphics.</li>
+<li>Documentation site is now versioned.</li>
+</ul>
+</li>
+<li>Assembly Guide<ul>
+<li>Completely rewritten for 0.9.9.</li>
+<li>Basic wiring instructions included.</li>
+<li>Added links to additional guides for some areas.</li>
+<li><strong>Video overviews</strong> for each section.</li>
+</ul>
+</li>
+<li><a href="https://github.com/jon-harper/OmniBox">Repository</a><ul>
+<li>Documentation is no longer in the main repository.</li>
+<li>Renamed "Fan Cages" to "Fans".</li>
+<li>Further divided lids folders for ease of navigation.</li>
+<li>Lots of miscellaneous cleanup.</li>
 </ul>
 </li>
 </ul>
-<!-- - Assembly Guide -->
-<!-- - [Repository](https://github.com/jon-harper/OmniBox) -->
-
 <h2 id="gallery">Gallery</h2>
+<figure>
+<p><a href="../img/gallery/0.9.9/render1.png"><img alt="front right render" src="../img/gallery/0.9.9/render1.png" width="480" /></a>
+  </p>
+<figcaption>1. The CPU bay is now part of the rear body.<br>2. The power supply area has an extra vent in front.<br>3. 40mm, 80mm, 92mm, and 120mm fans are now supported as lid mounts.</figcaption>
+</figure>
+<figure>
+<p><a href="../img/gallery/0.9.9/render2.png"><img alt="front left render" src="../img/gallery/0.9.9/render2.png" width="480" /></a>
+  </p>
+<figcaption>1. There is a matching CPU bay on the opposite side.<br>2. Optional Neopixel LEDs are visible behind the front vent.<br>3. All panels now attach with M3 screws.</figcaption>
+</figure>
+<figure>
+<p><a href="../img/gallery/0.9.9/render4.png"><img alt="render from front and undearneath" src="../img/gallery/0.9.9/render4.png" width="480" /></a>
+  </p>
+<figcaption>New universal power supply mount. The mount is off-center and has a passthrough for power switch wiring.</figcaption>
+</figure>
+<figure>
+<p><a href="../img/gallery/0.9.9/render3.png"><img alt="render from the side and underneath" src="../img/gallery/0.9.9/render3.png" width="480" /></a>
+  </p>
+<figcaption>1. The power supply no longer hangs freely. When installed it adds rigidity to the case.<br>2. Each front vent has an optional fan mount on the inside.</figcaption>
+</figure>
+<figure>
+<p><a href="../img/gallery/0.9.9/render5.png"><img alt="render from the top right rear without rear or top panels on" src="../img/gallery/0.9.9/render5.png" width="480" /></a>
+  </p>
+<figcaption>1. 20+ zip tie anchors added.<br>2. The MCU tray now mounts with M3 screws.<br>3. The rear wiring passthrough no longer exposes the power socket.<br>4. New support for keystone jacks (unoccupied in the render).</figcaption>
+</figure>
+<figure>
+<p><a href="../img/gallery/0.9.9/render7.png"><img alt="render of the Core of an OmniBox with a Manta MCU mounted" src="../img/gallery/0.9.9/render7.png" width="480" /></a>
+  </p>
+<figcaption>1. Experimental support for the BIGTREETECH Manta M8P (CB1 not pictured).<br>2. Hex flooring for better ventilation and sturdier build.</figcaption>
+</figure>
+<figure>
+<p><a href="../img/gallery/0.9.9/render6.png"><img alt="render of an OmniBox Core from the rear without any panels installed" src="../img/gallery/0.9.9/render6.png" width="480" /></a>
+  </p>
+<figcaption>1. The two CPU bays are elevated to make room for lower bay tray mounts in unused bays.<br>2. Optional brass heat set inserts.</figcaption>
+</figure>
+<figure>
+<p><a href="../img/gallery/0.9.9/render8.png"><img alt="render from below showing the bottom panel" src="../img/gallery/0.9.9/render8.png" width="480" /></a>
+  </p>
+<figcaption>The new bottom panel fully encloses the case. It can be printed with holes for airflow or closed to prevent dust intrusion.</figcaption>
+</figure>
+<figure>
+<p><a href="../img/gallery/0.9.9/render9.png"><img alt="render from below showing the bottom panel" src="../img/gallery/0.9.9/render9.png" width="480" /></a>
+  </p>
+<figcaption>1. The new Generic rear panel has two wiring cutouts to let the user run wires from the top, bottom, or both.<br>2. The Generic panel comes in version with and without a 60mm fan (version with the fan pictured).</figcaption>
+</figure>
 <!-- OmniBox GitHub Pages -->
 <!-- 
     OmniBox GitHub Folders 
@@ -1438,13 +1653,13 @@
       
       
         
-        <a href="v0.9.9/" class="md-footer__link md-footer__link--next" aria-label="Next: 0.9.9 Release" rel="next">
+        <a href="v0.9.8.1/" class="md-footer__link md-footer__link--next" aria-label="Next: 0.9.8.1 Release" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              0.9.9 Release
+              0.9.8.1 Release
             </div>
           </div>
           <div class="md-footer__button md-icon">
