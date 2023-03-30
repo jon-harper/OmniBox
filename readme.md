@@ -19,11 +19,11 @@ The **[documentation](https://jon-harper.github.io/OmniBox)** includes a visual 
 - **[Changelog][changelog]**
 - **[Documentation][testing_docs]**
 
-### Current Beta
+### In Development
 
-- No current beta is available.
 - Untested parts can be found in the **[`unstable`][unstable]** branch\*.
-- The is an [improved Core Main Body](https://github.com/jon-harper/OmniBox/discussions/92) in the `unstable` branch.
+- **Core case improvements for 0.9.10 are in progress. See the `/Core` folder in the `unstable` branch.**
+- [See this discussion](https://github.com/jon-harper/OmniBox/discussions/103) for more on the 0.9.10 release.
 
 \* If you use an untested part, please let us know!
 
