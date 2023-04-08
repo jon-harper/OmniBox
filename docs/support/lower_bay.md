@@ -222,7 +222,6 @@ Long trays for buck converters often have a 40mm fan mount. This is particularly
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-!!! caution "Fit Test Pending: [:material-git: Issue #63](https://github.com/jon-harper/OmniBox/issues/63)"
 
 [:material-git: BTT Relay 1.2][git_btt_relay_1.2]{ .md-button }
 

@@ -123,7 +123,6 @@ The Manta M4P is not currently supported, but may be added in a future release.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-!!! caution "Fit Test Pending"
 
 [:material-git: BTT Manta M8P][git_btt_manta_m8p]{ .md-button }
 
