@@ -19,11 +19,16 @@ The **[documentation](https://jon-harper.github.io/OmniBox)** includes a visual 
 - **[Changelog][changelog]**
 - **[Documentation][testing_docs]**
 
+### Current Beta
+
+- **The Core case for 0.9.10 is now in beta.**
+- Files for the beta are in the [`0.9.10-beta` branch](https://github.com/jon-harper/OmniBox/tree/0.9.10-beta)
+- [See this discussion](https://github.com/jon-harper/OmniBox/discussions/109) for more on the 0.9.10 release.
+
+
 ### In Development
 
-- Untested parts can be found in the **[`unstable`][unstable]** branch\*.
-- **Core case improvements for 0.9.10 are in progress. See the `/Core` folder in the `unstable` branch.**
-- [See this discussion](https://github.com/jon-harper/OmniBox/discussions/103) for more on the 0.9.10 release.
+Untested parts can be found in the **[`unstable`][unstable]** branch\*.
 
 \* If you use an untested part, please let us know!
 
