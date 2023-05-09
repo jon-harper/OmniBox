@@ -17,9 +17,10 @@ The current beta release is 0.9.10, released on 2023-XX-XX.
 
 ### Additional Improvements
 
-- **New/Improved:** Crossbar version added with HSI support.
+- **Improved:** Crossbar version added with HSI support.
+- **New:** Crossbar that mounts 40mm fans added (HSI only).
 - **Improved:** Long lower bay trays now mount sideways.
-- **Added:** Numerous additional zip tie anchors, particularly to the front main body.
+- **Added:** Additional zip tie anchors, particularly to the front main body.
 - **Improved:** CPU tray guides take up significantly less room.
 - **New:** Support for 12mm and 12.5mm toggle switches.
 
@@ -28,7 +29,7 @@ The current beta release is 0.9.10, released on 2023-XX-XX.
 | Hardware                          | Mount Location(s) | Notes |
 |-----------------------------------|-------------------|-------|
 | Creality 2.X MCUs                 | MCU Tray          | Contributed by [Mr Meh][contrib_mr_meh]. |
-| 50mm x 10mm fans                  | Any panel         | Contributed by [MaffooClock][contrib_maffooclock]. |
+| 50mm x 10mm fans                  | Any panel         |  |
 | FYSETC Spider                     | MCU Tray          | Contributed by [Killajoedotcom][contrib_killajoedotcom]. |
 | MKS Monster8                      | MCU Tray          | Fit test needed. |
 | MKS Skipr                         | MCU Tray          | Fit test needed. |

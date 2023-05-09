@@ -1,18 +1,18 @@
 ---
-title: MCUs/Control Boards
+title: Microcontroller Boards
 summary: List of MCU control boards.
 authors: Jon Harper
 date: 2022-07-22
 ---
 
-This page lists MCUs that are currently compatible with OmniBox.
+This page lists microcontroller boards that are currently compatible with OmniBox.
 
 <figure markdown>
   [![front left render][img_mcu]{ width="480" }][img_mcu]
   <figcaption>MCUs are mounted near the lid for accessibility.</figcaption>
 </figure>
 
-Micro-controller unit (MCU) board are mounted on MCU Trays. These parts are in the [:material-git: `/Trays/MCU`][git_mcu] git folder, with each component in its own subfolder. There are `STEP` and Fusion 360 template files available for adding support for other boards.
+MCU boards are mounted on MCU Trays. These parts are in the [:material-git: `/Trays/MCU`][git_mcu] git folder, with each component in its own subfolder. There are `STEP` and Fusion 360 template files available for adding support for other boards.
 
 For each entry, `Materials` are the fasteners required to mount the board, while the `MicroSD Extension` for the front panel is optional (but recommended).
 

@@ -19,7 +19,7 @@ Display Panels mount two different types of display screens:
 
 Each supported MCU display screen has a subfolder in the [:material-git: `/Panels/Display`][git_display] git folder. There is an optional STL file for a [:material-git: replacement display knob][git_display_knob], as well.
 
-Component names below link to the corresponding git folder. Most mounts require four (4) 6mm or M3 screws to fasten the display in place. Some mounts have two or three pieces and require additional screws.
+Component names below link to the corresponding git folder. Most mounts require four (4) 6mm M3 screws to fasten the display in place. Some mounts have two or three pieces and require additional materials.
 
 <!-- Template 
 <div markdown class="jh-grid-container jh-grid-2">
@@ -83,7 +83,7 @@ Component names below link to the corresponding git folder. Most mounts require 
 - Materials: 
     - 4x M3 x 6mm
     - 4x M3 x 8mm
-- Notes: This product is discontinued, but I still use it, so there's a part.
+- Notes: This product is discontinued.
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_btt_tft24]][img_btt_tft24]
@@ -101,7 +101,7 @@ Component names below link to the corresponding git folder. Most mounts require 
 - Materials: 
     - 4x M3 x 6mm
     - 4x M3 x 8mm
-- Notes: This is not the E3 version, which uses the Generic 12864 mount. 
+- Notes: This is not the E3 version, which uses the [Generic 12864](#generic-12864-display) display mount. 
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_btt_tft35]][img_btt_tft35]

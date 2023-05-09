@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-07-22
 ---
 
-This page lists system-on-a-chip (SoC) CPUs currently compatible with OmniBox. These are also known single board computers (SBCs).
+This page lists system-on-a-chip (SoC) CPUs currently compatible with OmniBox. These are commonly known as single board computers (SBC).
 
 <figure markdown>
   [![front left render][cpu]{ width="480" }][cpu]

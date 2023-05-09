@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-07-22
 ---
 
-This page lists power supplies (PSUs) currently supported by OmniBox.
+This page lists power supplies (PSU) currently supported by OmniBox.
 
 <figure markdown>
   [![front left render][psu]{ width="480" }][psu]
