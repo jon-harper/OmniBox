@@ -33,10 +33,10 @@ Internal page links in this tour are marked with an :material-directions: arrow 
 
 ## Core Components
 
-Core components form the basis of every case. No end-user parts attach to core components. Instead, components are attached to trays and panels, which then mount on the Core case body.
+Core components form the basis of every case. End-user parts normally do not attach to core components; instead, components are attached to trays and panels, which then mount on the Core case.
 
 !!! important
-    Most Core components come with the option of using heat set inserts for mounting commonly-removed panels and trays. These `STL` files have `HSI` in the name.
+    Most Core components come with the option of using heat set inserts to attach most trays and panels. These `STL` files have "HSI" in the name.
 
 <figure markdown>
   [![the core of an OmniBox][img_core]][img_core]
@@ -64,11 +64,15 @@ There are two types of Core components: Base and Main Body. A typical OmniBox bu
 
 ### Base
 
+The Base serves as a cover and mount for the power supply. It helps with wire routing and acts as a rigid base for the rest of the Core case.
+
 #### Front Base
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-This is the front of two base pieces that cover the power supply. There is a cutout for a 30mm x 11mm SPST switch in front, as well as air vents and optional 40mm fan mounts.
+This is the front of two halves. All versions come with front air vents and optional 40mm fan mounts.
+
+The Front can be printed to fit a 30mm x 11mm rocker switch or a 12mm toggle switch.
 
 [:material-git: Front Base Files][git_base_front]{ .md-button }
 </div>
@@ -81,7 +85,7 @@ This is the front of two base pieces that cover the power supply. There is a cut
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-The back covers the rest of the power supply and mounts a fused IEC power plug.
+The back half mounts a fused IEC power plug and part of the [Rear Panel](#rear-panel).
 
 This component is available with heat set inserts.
 
@@ -96,7 +100,9 @@ This component is available with heat set inserts.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-The base can be printed as a single piece instead of two on printers with a bed at least 300mm on one axis. The unified base replaces the rear and front pieces.
+The base can be printed as a single piece instead halves on printers with a bed at least 300mm on one axis.
+
+A version is available for the RSP-500. This file is 10mm taller than the normal base to account for the height of the PSU.
 
 This component is available with heat set inserts.
 
@@ -115,10 +121,24 @@ This component is available with heat set inserts.
 <div markdown class="jh-grid-para">
 This is a crossbar that joins and covers the joint between the lids and front display.
 
+This component is available with heat set inserts.
+
+Two versions 
+
 [:material-git: Crossbar Files][git_main_body_crossbar]{ .md-button }
 </div>
-<div markdown class="jh-grid-img">
-[![callout of the crossbar][img_crossbar]][img_crossbar]
+<div markdown class="jh-card">
+=== "Stock"
+
+    [![stock crossbar][img_crossbar]{ width="360" }][img_crossbar]
+
+    The default crossbar has a number of zip tie anchors built-in.
+
+=== "Dual 40mm Fans"
+
+    [![front main body with external fan][img_front_60]{ width="360" }][img_front_60]
+
+    This version mounts up to two (2) 40mm fans. It only comes with HSI.
 </div>
 </div>
 
@@ -126,7 +146,7 @@ This is a crossbar that joins and covers the joint between the lids and front di
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-The front half of the Main Body mounts the display and front panel. It also has a side air intake that comes in one of two configurations.
+The front half of the Main Body mounts the display and front panel.
 
 This component is available with heat set inserts.
 
@@ -134,21 +154,6 @@ This component is available with heat set inserts.
 </div>
 <div markdown class="jh-grid-img">
 [![front main body with internal fan][img_main_front]][img_main_front]
-</div>
-<div markdown class="jh-grid-para">
-There are two versions of the front Main Body:
-
-=== "Internal 40mm Fan"
-
-    [![front main body with internal fan][img_front_40]{ width="360" }][img_front_40]
-
-    This version has a side vent with an internal mount for a 40mm fan.
-
-=== "External 60mm Fan"
-
-    [![front main body with external fan][img_front_60]{ width="360" }][img_front_60]
-
-    This version requires the appropriate [:material-directions: fan cage](#fans). Optionally, a TPU gasket can also be used with the fan cage.
 </div>
 </div>
 
@@ -162,12 +167,7 @@ This component is available with heat set inserts.
 
 [:material-git: Rear Main Body Files][git_main_body_rear]{ .md-button }
 </div>
-<div markdown class="jh-grid-img">
-<!-- TODO Image shows fans highlighted, not rear main body -->
-</div>
-<div markdown class="jh-grid-para">
-There are two versions of the rear main body:
-
+<div markdown class="jh-card">
 === "Dual 40mm Fans"
 
     [![rear main body with dual fans][img_rear_dual]{ width="360" }][img_rear_dual]
@@ -209,7 +209,7 @@ Templates are available in both `STEP` and Fusion 360 formats to add support for
 <div markdown class="jh-grid-para">
 Power supply (PSU) trays slide up from underneath the case.
 
-Large (tall) power supplies require the use of a [:material-directions: base extension shim](#base-extensions).
+Large (tall) power supplies require the use of an [:material-directions: extended Unified Base](#unified-base) or a [:material-directions: base extension](#base-extensions).
 
 [:material-git: PSU Tray Files][git_psu]{ .md-button }
 
@@ -224,7 +224,7 @@ Large (tall) power supplies require the use of a [:material-directions: base ext
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-MCU trays mount a microcontroller unit--your 3D printer board.
+MCU trays mount a microcontroller unit--your 3D printer board. These are 
 
 [:material-git: MCU][git_mcu]{ .md-button }
 
@@ -239,9 +239,9 @@ MCU trays mount a microcontroller unit--your 3D printer board.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-The lower bay is an area to mount parts like buck converters and MOSFETs. There are four dedicated lower bay trays locations and two more that can occupy an unused CPU tray bay.
+The lower bay is an area to mount parts like buck converters and MOSFETs. There are two dedicated lower bay trays locations and four more that can occupy an unused CPU tray bay.
 
-There are  of these trays: Short and Long. A Long length tray covers the mount points of two Short trays and must be mounted from front to back of the case.
+These trays can be Short or Long. A Long tray covers the mount points of two Short trays and must be mounted from side-to-side in the case.
 
 [:material-git: Lower Bay][git_lower_bay]{ .md-button }
 
@@ -256,13 +256,13 @@ There are  of these trays: Short and Long. A Long length tray covers the mount p
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-The CPU tray is an optional mount for a Raspberry Pi or other SoC. There are two bays for CPU trays; one is on each side of the case.
+The CPU tray is an optional mount for a Raspberry Pi or other SBC. There are two bays for CPU trays; one is on each side of the case.
 
 An unused bay is replaced by a [:material-directions: Side Panel](#side-panels). A short lower bay tray can also be installed in an unused CPU bay.
 
 [:material-git: CPU][git_cpu]{ .md-button }
 
-[:octicons-checklist-24: Supported SoC CPUs][cpu]{ .md-button }
+[:octicons-checklist-24: Supported SBCs][cpu]{ .md-button }
 </div>
 <div markdown class="jh-grid-img">
 [![cpu tray][img_cpu]][img_cpu]
@@ -362,8 +362,6 @@ This area mounts LCD displays, from the basic 128x64 character display to Raspbe
 <div markdown class="jh-grid-para">
 The lid is both a way into your case and a configurable panel. There are two types of lids: short and long lids. You can either print one (1) long lid or two (2) short lids.
 
-See the README in the GitHub folder for a list of supported configurations.
-
 [:material-git: Lid][git_lid]{ .md-button }
 </div>
 <div markdown class="jh-grid-img">
@@ -418,7 +416,7 @@ Internally mounted fans are also available, but are limited to 40mm fans.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-Larger power supplies require the addition of a base extension shim. This mounts between the base and the bottom panel.
+Larger power supplies require the addition of a base extension shim (or a [:material-directions: extended Unified Base](#unified-base)). This mounts between the base and the bottom panel.
 
 [:material-git: Extension Shim][git_base_extension]{ .md-button }
 </div>
@@ -432,10 +430,13 @@ Larger power supplies require the addition of a base extension shim. This mounts
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-OmniBox uses a common 30x11mm [:material-cart: snap-in SPST rocker switch][bom_switch] to turn on and off. This is the same switch found on many 3D printers, particularly Creality.
+OmniBox supports two types of master power switches: a 30x11mm [:material-cart: snap-in SPST rocker switch][bom_switch] or [:material-cart: 12mm toggle switch][bom_toggle_switch].
 </div>
-<div markdown class="jh-grid-img">
-[![rocker switch is highlighted in blue][img_switch]][img_switch]
+<div markdown class="jh-card">
+=== "Rocker Switch"
+    [![rocker switch is highlighted in blue][img_switch]][img_switch]
+=== "Toggle Switch"
+    [![toggle switch is highlighted in blue][img_switch]][img_toggle_switch]
 </div>
 </div>
 
