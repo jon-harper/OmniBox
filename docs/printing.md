@@ -37,7 +37,7 @@ These settings are consistent for all parts except the TPU fan gaskets.
 |---------------------------|--------------|------|
 | **Layer Height**          | 0.16-0.24mm  | Coarser settings have not been tested. |
 | **Adaptive Layer Height** | Optional     | Can improve appearance and reduce print time.    |
-| **Perimeters (Walls)**    | See below.   |  |
+| **Perimeters (Walls)**    | [See below.](#material-specific-settings)   |  |
 | **Infill**                | 20-25%       | Cubic is a good tradeoff for time and durability. |
 | **Nozzle Diameter**       | 0.4mm, 0.6mm | If you print a case with a different nozzle size, please share your results! |
 | **Support Overhang Angle** | >= 60 degrees | This reduces print time & support material. |
@@ -45,6 +45,7 @@ These settings are consistent for all parts except the TPU fan gaskets.
 - Use a brim, adhesive, or both for large parts (e.g., the rear main body).
 - Cantilever bed printers with only one side of the bed supported (e.g., Ender 5 Pro) should move heavier prints to the supported side of the bed.
 - If printing in a drafty room, consider a partial enclosure to help layer adhesion.
+- Long lids will fit on 220x220mm beds if printed without a skirt or brim.
 
 ### Material-Specific Settings
 
@@ -66,7 +67,7 @@ Use 1.6mm walls/perimeters (1.8mm for 0.6mm nozzles).
 
 - Supports must be on for the main body.
 - The base may be printed without supports.
-- Support blockers are recommended for zip tie anchors and fastener holes.
+- Support blockers are recommended for all zip tie anchors and fastener holes.
 
 ## Printed Component Checklist
 
@@ -127,5 +128,6 @@ Print one (1) version of each of the Crossbar, Front, and Rear Main Bodies. See 
 |-------------------------------------------------|----------|----------|--------|
 | [:material-git: Fan Cages][git_fans]            | See note | Yes      | Quantity and type depend on configuration. |
 | [:material-git: Fan Gaskets][git_fans]          | See note | No       | Optional add-on to fan cages. |
+| [:material-git: Power Switch Cover][git_switch_cover] | 1  | No       | Recommended cover for rocker switches. |
 
 [tour]: tour.md "Visual Guided Tour"

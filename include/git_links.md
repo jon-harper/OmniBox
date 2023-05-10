@@ -124,3 +124,4 @@
 [git_carry_handle]:     https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Misc/Carry%20Handle                     "OmniBox GitHub: Carry Handle for Lids"
 [git_microsd_extension]: https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Misc/MicroSD%20Extension "OmniBox GitHub: MicroSD Extension"
 [git_panel_mounts]:     https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Misc/Panel%20Mounts                     "OmniBox GitHub: Panel Mounts"
+[git_switch_cover]:     https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Misc/Power%20Switch%20Protector "OmniBox GitHub: Power Switch Protector"

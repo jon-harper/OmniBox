@@ -431,12 +431,16 @@ Larger power supplies require the addition of a base extension shim (or a [:mate
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 OmniBox supports two types of master power switches: a 30x11mm [:material-cart: snap-in SPST rocker switch][bom_switch] or [:material-cart: 12mm toggle switch][bom_toggle_switch].
+
+A cover is available for rocker switches to prevent accidental power-off.
+
+[:material-git: Rocker Switch Protector][git_switch_cover]{ .md-button }
 </div>
 <div markdown class="jh-card">
 === "Rocker Switch"
     [![rocker switch is highlighted in blue][img_switch]][img_switch]
 === "Toggle Switch"
-    [![toggle switch is highlighted in blue][img_switch]][img_toggle_switch]
+    [![toggle switch is highlighted in blue][img_toggle_switch]][img_toggle_switch]
 </div>
 </div>
 
