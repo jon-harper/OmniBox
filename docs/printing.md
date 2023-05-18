@@ -11,18 +11,19 @@ This page has common settings for printing OmniBox and a printed component check
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-#### :octicons-check-circle-fill-16:{.jh-green} Modified PLA
+**:octicons-check-circle-fill-16:{.jh-green} Modified PLA**
 
 OmniBox prints best with modified PLA, usually called PLA+ or PLA Pro.
 </div>
 <div markdown class="jh-grid-para">
-#### :octicons-check-circle-fill-16:{.jh-green} PETG
+**:octicons-x-circle-fill-16:{.jh-red} Unmodified PLA**
 
-Printing in PETG typically takes longer than PLA but otherwise produces good results.
+Unmodified PLA (generally prints at 180-200C) is prints easily but is a rigid, weak material. Use modified PLA instead.
 </div>
 <div markdown class="jh-grid-para">
-#### :octicons-x-circle-fill-16:{.jh-red} Unmodified PLA
-Unmodified PLA (generally prints at 180-200C) is prints easily but is a rigid, weak material. Use modified PLA instead.
+**:octicons-check-circle-fill-16:{.jh-green} PETG**
+
+Printing in PETG typically takes longer than PLA but otherwise produces good results.
 </div>
 </div>
  
@@ -37,27 +38,22 @@ These settings are consistent for all parts except the TPU fan gaskets.
 |---------------------------|--------------|------|
 | **Layer Height**          | 0.16-0.24mm  | Coarser settings have not been tested. |
 | **Adaptive Layer Height** | Optional     | Can improve appearance and reduce print time.    |
-| **Perimeters (Walls)**    | [See below.](#material-specific-settings)   |  |
+| **Perimeters (Walls)**    | [*See below*](#material-specific-settings)   | Correct value depends on material. |
 | **Infill**                | 20-25%       | Cubic is a good tradeoff for time and durability. |
 | **Nozzle Diameter**       | 0.4mm, 0.6mm | If you print a case with a different nozzle size, please share your results! |
 | **Support Overhang Angle** | >= 60 degrees | This reduces print time & support material. |
-
-- Use a brim, adhesive, or both for large parts (e.g., the rear main body).
-- Cantilever bed printers with only one side of the bed supported (e.g., Ender 5 Pro) should move heavier prints to the supported side of the bed.
-- If printing in a drafty room, consider a partial enclosure to help layer adhesion.
-- Long lids will fit on 220x220mm beds if printed without a skirt or brim.
 
 ### Material-Specific Settings
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-#### PLA
+**PLA**
 
 Print with 1.2mm or thicker walls (3 perimeters with a 0.4mm nozzle). 1.5mm+ results in solid main body side walls.
 
 </div>
 <div markdown class="jh-grid-para">
-#### PETG
+**PETG**
 
 Use 1.6mm walls/perimeters (1.8mm for 0.6mm nozzles).
 </div>
@@ -68,6 +64,13 @@ Use 1.6mm walls/perimeters (1.8mm for 0.6mm nozzles).
 - Supports must be on for the main body.
 - The base may be printed without supports.
 - Support blockers are recommended for all zip tie anchors and fastener holes.
+
+### General Tips
+
+- For large parts (e.g., the rear main body) use a brim, adhesive, or both.
+- Cantilever bed printers (where the bed is supported by a single Z stepper; e.g., Ender 5 Pro) should move heavier prints to the supported side of the bed.
+- If printing in a drafty room, consider a partial enclosure to help layer adhesion.
+- Long lids will fit on 220x220mm beds if printed without a skirt or brim.
 
 ## Printed Component Checklist
 
@@ -126,8 +129,8 @@ Print one (1) version of each of the Crossbar, Front, and Rear Main Bodies. See 
 
 | Component                                       | Quantity | Required | Notes  |
 |-------------------------------------------------|----------|----------|--------|
-| [:material-git: Fan Cages][git_fans]            | See note | Yes      | Quantity and type depend on configuration. |
-| [:material-git: Fan Gaskets][git_fans]          | See note | No       | Optional add-on to fan cages. |
+| [:material-git: Fan Cages][git_fans]            | Varies | Yes      | Quantity and type depend on configuration. |
+| [:material-git: Fan Gaskets][git_fans]          | Varies | No       | Optional add-on to fan cages. |
 | [:material-git: Power Switch Cover][git_switch_cover] | 1  | No       | Recommended cover for rocker switches. |
 
 [tour]: tour.md "Visual Guided Tour"
