@@ -78,9 +78,16 @@ This is a checklist of types parts to print. See the [Guided Tour][tour] for hel
 
 ### Core - Base
 
-Print one (1) version of the Front Base and one (1) of the Front Rear *or* print a Unified base. See the [tour][tour] for help choosing a version to print.
+Print a Front Base and a Rear Base. A Unified Base may be printed instead if you have a print bed with least 300mm on one axis. See the [Base section of the Tour](tour.md#base) for more information.
+
+Ender 5 Plus/RSP-500 users *must* print the Unified Extended Base.
 
 <div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+**Unified**
+
+[:material-git: Base - Unified][git_base_unified]
+</div>
 <div markdown class="jh-grid-para">
 **Front & Rear**
 
@@ -88,16 +95,11 @@ Print one (1) version of the Front Base and one (1) of the Front Rear *or* print
 
 [:material-git: Base - Rear][git_base_rear]
 </div>
-<div markdown class="jh-grid-para">
-**Unified**
-
-[:material-git: Base - Unified][git_base_unified]
-</div>
 </div>
 
 ### Core - Main Body
 
-Print one (1) version of each of the Crossbar, Front, and Rear Main Bodies. See the [tour][tour] for help choosing a version to print.
+Print one (1) version of each of the Crossbar, Front Main Body, and Rear Main Body. See the [Main Body section of the Tour](tour.md#main-body) for help choosing a version to print.
 
 [:material-git: Main Body - Crossbar][git_main_body_crossbar]
 
@@ -112,7 +114,7 @@ Print one (1) version of each of the Crossbar, Front, and Rear Main Bodies. See 
 |-------------------------------------------------|----------|----------|--------|
 | [:material-git: PSU Tray][git_psu]              | 1        | Yes      |        |
 | [:material-git: MCU Tray][git_mcu]              | 1        | Yes      |        |
-| [:material-git: CPU Tray][git_cpu]              | 0-4      | No       | Typically only one (1). Takes the place of a side panel. |
+| [:material-git: CPU Tray][git_cpu]              | 0-1      | No       | Typically only one (1). Takes the place of a side panel. |
 | [:material-git: Lower Bay Trays][git_lower_bay] | 0-6      | No       | Type and quantity are specific to configuration. |
 
 ### Panels
@@ -123,7 +125,7 @@ Print one (1) version of each of the Crossbar, Front, and Rear Main Bodies. See 
 | [:material-git: Lid][git_lid]                   | 1-2      | Yes      | One (1) long lid or two (2) short lids. |
 | [:material-git: Rear Panel][git_rear_panel]     | 1        | Yes      |       |
 | [:material-git: Bottom Panel][git_bottom_panel] | 1        | Yes      |       |
-| [:material-git: Side Panel][git_side_panel]     | 1-4      | Yes      | Four (4) side panels, minus the number of CPU trays installed. |
+| [:material-git: Side Panel][git_side_panel]     | 3-4      | Yes      | Four (4) side panels, minus the number of CPU trays installed. |
 
 ### Other Components
 

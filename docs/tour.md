@@ -127,18 +127,8 @@ Two versions
 
 [:material-git: Crossbar Files][git_main_body_crossbar]{ .md-button }
 </div>
-<div markdown class="jh-card">
-=== "Stock"
-
-    [![stock crossbar][img_crossbar]{ width="360" }][img_crossbar]
-
-    The default crossbar has a number of zip tie anchors built-in.
-
-=== "Dual 40mm Fans"
-
-    [![front main body with external fan][img_front_60]{ width="360" }][img_front_60]
-
-    This version mounts up to two (2) 40mm fans. It only comes with HSI.
+<div markdown class="jh-grid-img">
+[![stock crossbar][img_crossbar]{ width="360" }][img_crossbar]
 </div>
 </div>
 
