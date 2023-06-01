@@ -13,10 +13,10 @@
 [git_base_front]:           https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Core/Base/Front                 "OmniBox GitHub: Core - Front Base"
 [git_base_rear]:            https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Core/Base/Rear                  "OmniBox GitHub: Core - Rear Base"
 [git_base_unified]:         https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Core/Base/Unified               "OmniBox GitHub: Core - Unified Base"
-[git_main_body]:            https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Core/0.9.9-frozen%20Body                "OmniBox GitHub: Core - Main Body"
-[git_main_body_front]:      https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Core/0.9.9-frozen%20Body/Front          "OmniBox GitHub: Core - Front Main Body"
-[git_main_body_rear]:       https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Core/0.9.9-frozen%20Body/Rear           "OmniBox GitHub: Core - Rear Main Body"
-[git_main_body_crossbar]:   https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Core/0.9.9-frozen%20Body/Crossbar       "OmniBox GitHub: Core - Crossbar"
+[git_main_body]:            https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Core/Main%20Body                "OmniBox GitHub: Core - Main Body"
+[git_main_body_front]:      https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Core/Main%20Body/Front          "OmniBox GitHub: Core - Front Main Body"
+[git_main_body_rear]:       https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Core/Main%20Body/Rear           "OmniBox GitHub: Core - Rear Main Body"
+[git_main_body_crossbar]:   https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Core/Main%20Body/Crossbar       "OmniBox GitHub: Core - Crossbar"
 [git_base_extension]:       https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Core/Base/Extension%20Shim      "OmniBox GitHub: Base Extension Shim"
 
 <!-- /Fans     -->
