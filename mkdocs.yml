@@ -62,7 +62,9 @@ theme:
 plugins:
   - mike:
       canonical_version: latest
+      alias_type: copy
   - search
+  - macros
 
 extra:
   version:
@@ -77,6 +79,9 @@ extra:
     - icon: simple/kofi
       link: https://ko-fi.com/jonspaceharper
       name: Support me on Ko-Fi!
+  meta:
+    version: 0.9.10 (Beta)
+
 
 extra_css:
   # - assets/stylesheets/neoteroi.css

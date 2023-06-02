@@ -3,7 +3,13 @@ title: Overview
 summary: OmniBox documentation landing page
 authors: Jon Harper
 date: 2022-05-15
+hide: toc
 ---
+# OmniBox v{{ extra.meta.version }}
+!!! tip
+    To change documentation versions, select a version number from the drop down box at the top of the page.
+
+    To switch between :material-lightbulb-on: Light and :material-lightbulb-off-outline: Dark reading mode, click the icon next to the search box.
 
 ## About OmniBox
 
@@ -11,10 +17,6 @@ OmniBox is a 3D printable, modular electronics case for 3D printers. It supports
 
 This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgdog] V3 footprint. It is released under the [MIT License][license].
 
-!!! tip
-    To change documentation versions, select a version number from the drop down box at the top of the page.
-
-    To switch between :material-lightbulb-on: Light and :material-lightbulb-off-outline: Dark reading mode, click the icon next to the search box.
 
 <figure markdown>
   [![gallery of OmniBox part combinations][gallery_thumb]][gallery]
@@ -23,7 +25,7 @@ This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgd
 
 ## Quick Links
 
-<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-container jh-grid-3">
 <div markdown class="jh-card">
 ### Getting Started
 
@@ -73,7 +75,7 @@ Every effort is made to avoid incompatibilities between versions.
 
 Version 1.0 is a final chance to "lock in" the design. After version 1.0, OmniBox releases will come with a **Version Stability Guarantee**:
 
-Panels and trays interfaces will be stable. If you choose to print a newer version of a Core part, no panels or trays will need to be reprinted. New products added in future releases can likewise be used in the Core case body from a prior release.
+If you choose to print a newer version of a Core part, no panels or trays will need to be reprinted. New products added in future releases can likewise be used in the Core case body from a prior release.
 
 ### Compatibility Example
 
