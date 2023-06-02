@@ -5,15 +5,13 @@ authors: Jon Harper
 date: 2022-08-04
 ---
 
-## Introduction
-
 This is a visual tour of an OmniBox. This page demonstrates:
 
 1. The core parts of OmniBox and their variations;
 2. Trays and panels; and
 3. How these pieces fit together.
 
-### Overview
+## Overview
 
 <figure markdown>
   [![overview of an omnibox][img_overview]][img_overview]{ width="640" }
@@ -33,7 +31,7 @@ Internal page links in this tour are marked with an :material-directions: arrow 
 
 ## Core Components
 
-Core components form the basis of every case. End-user parts normally do not attach to core components; instead, components are attached to trays and panels, which then mount on the Core case.
+Core components form the basis of every case. End-user parts normally do not attach to core components; instead, user parts are attached to trays and panels, which then mount on the Core case.
 
 !!! important
     Most Core components come with the option of using heat set inserts to attach most trays and panels. These `STL` files have "HSI" in the name.
@@ -43,7 +41,9 @@ Core components form the basis of every case. End-user parts normally do not att
   <figcaption>The core components of an OmniBox with fans and power supply mounted.</figcaption>
 </figure>
 
-There are two types of Core components: Base and Main Body. A typical OmniBox build has two parts for the base and three for the main body. The Unified base can be printed instead of the front and rear pieces.
+There are two types of Core components: Base and Main Body. A typical OmniBox build has two parts for the base and three for the main body.
+
+The Unified base can be printed instead of the front and rear base pieces.
 
 <div markdown class="jh-grid-container jh-grid-3">
 <div markdown>
@@ -76,8 +76,11 @@ The Front can be printed to fit a 30mm x 11mm rocker switch or a 12mm toggle swi
 
 [:material-git: Front Base Files][git_base_front]{ .md-button }
 </div>
-<div markdown class="jh-grid-img">
-[![front base][img_base_front]][img_base_front]
+<div markdown class="jh-card">
+=== "Front - Rocker Switch"
+    [![front base][img_base_front]][img_base_front]
+=== "Front - Toggle Switch"
+    [![front base][img_base_front]][img_base_front]
 </div>
 </div>
 
@@ -102,7 +105,7 @@ This component is available with heat set inserts.
 <div markdown class="jh-grid-para">
 The base can be printed as a single piece instead halves on printers with a bed at least 300mm on one axis.
 
-A version is available for the RSP-500. This file is 10mm taller than the normal base to account for the height of the PSU.
+An extended version is available for the RSP-500 PSU. This file is 10mm taller than the normal base to account for the additional power supply height.
 
 This component is available with heat set inserts.
 
@@ -122,8 +125,6 @@ This component is available with heat set inserts.
 This is a crossbar that joins and covers the joint between the lids and front display.
 
 This component is available with heat set inserts.
-
-Two versions 
 
 [:material-git: Crossbar Files][git_main_body_crossbar]{ .md-button }
 </div>
@@ -291,7 +292,7 @@ There is a blank `STEP` and Fusion 360 template for each panel category to allow
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-The front panel serves as an air vent and location to put a MicroSD card reader extension. USB extensions are also a common accessory.
+The front panel serves as an air vent and location to put a MicroSD card reader extension. USB extensions and RGB LEDs are also common.
 
 [:material-git: Front Panel][git_front_panel]{ .md-button }
 
@@ -307,7 +308,7 @@ The front panel serves as an air vent and location to put a MicroSD card reader 
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-A side panel replaces a CPU tray and often mounts connectors or fans. A blank side panel can be used if necessary.
+A side panel replaces a CPU tray and often mounts connectors or fans. A blank side panel may also be used.
 
 [:material-git: Side Panel][git_side_panel]{ .md-button }
 
@@ -406,7 +407,9 @@ Internally mounted fans are also available, but are limited to 40mm fans.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-Larger power supplies require the addition of a base extension shim (or a [:material-directions: extended Unified Base](#unified-base)). This mounts between the base and the bottom panel.
+A base extension shim mounts between the base and the bottom panel and adds 1cm of height. This was originally needed for the RSP-500 PSU.
+
+If you have printed the [:material-directions: extended Unified Base](#unified-base), this part is not needed.
 
 [:material-git: Extension Shim][git_base_extension]{ .md-button }
 </div>
