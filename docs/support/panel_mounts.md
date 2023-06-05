@@ -7,7 +7,11 @@ date: 2022-07-22
 
 ## Using Panel Mounts
 
- Connector panel mounts will typically be on the rear panel and connect with the printer. Extensions can be mounted on the front or rear and are typically for SD Cards and USB ports.
+ Panel mounts are external connections points that allow the user to disconnect components without opening up the case. Some examples:
+
+ - USB extensions for a webcam.
+ - SD extensions for an MCU or SBC.
+ - Rear panel connectors for quick-disconnect from the printer.
 
  Each panel type comes with a template for making your own panels. See [Creating New Panels](#creating-new-panels) below for more.
 
@@ -15,13 +19,13 @@ date: 2022-07-22
 
 ![front panel example][img_front]{ width="360" }
 
-The front panel is long and slim and can be used for mounting small hardware ports. The most common examples are SD Card extensions and USB extensions. You can find these files in the [:material-git: `/Panels/Front Panel`][git_front_panel] git folder.
+The front panel often mounts small hardware ports; the most common examples are SD Card extensions and USB extensions. You can find predesigned files in the [:material-git: `/Panels/Front Panel`][git_front_panel] git folder along with a template.
 
 ### Side Panels
 
 ![side panel example][img_side]{ width="360" }
 
-Introduced in version 0.9.9, the side panel replaces the old Unused CPU Cover. Side panels can be used for mounting a single 40mm fan, panel mounted connectors, or keystone jacks.
+Introduced in version 0.9.9, the side panel replaces the "Unused CPU Cover". Side panels can be used to mount a single 40mm or 50mm fan, keystone jacks, or panel mounted connectors.
 
 Files for the side panel can be found in the [:material-git: `/Panels/Side Panel`][git_side_panel] git folder.
 
@@ -29,9 +33,9 @@ Files for the side panel can be found in the [:material-git: `/Panels/Side Panel
 
 ![rear panel example][img_rear]{ width="360" }
 
-Rear Panels are the most customizable part of OmniBox. They can mount connectors and fans and modified to suit each end user. There are also a number of generic templates available in the [:material-git: `/Panels/Rear Panel`][git_rear_panel] git folder.
+Rear Panels are the most customizable part of OmniBox and may be modified to suit the user. There are a number of generic files available in the [:material-git: `/Panels/Rear Panel`][git_rear_panel] git folder.
 
-The table below breaks down where to get started.
+The table below explains where to get started.
 
 | Folder           | Description | Use If You... |
 |------------------|-------------|-----------|
@@ -42,7 +46,9 @@ The table below breaks down where to get started.
 
 ## Supported Hardware
 
-In addition to [fans][fans], templates and predesigned panels are available to mount a variety of hardware.
+### Fans
+
+See the [Fans][fans] page.
 
 ### MicroSD Extensions
 
@@ -87,7 +93,7 @@ JST SM and Molex's Micro Fit 3.0 connectors can both be panel-mounted. These are
 
 !!! caution "Caution: Avoid JST SM as a hotend connector on enclosed printers"
 
-These are good, low-curren (3A) connectors for devices such as limit switches, lights, steppers, and fans.
+These are good, low-current (3A) connectors for devices such as limit switches, lights, steppers, and fans.
 
 [:material-cart: JST SM Connector Kit][bom_jst_sm_kit]{ .md-button }
 
