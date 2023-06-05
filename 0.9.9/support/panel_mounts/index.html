@@ -21,7 +21,7 @@
         <link rel="next" href="../mcu/">
       
       <link rel="icon" href="../../img/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.11">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.15">
     
     
       
@@ -29,10 +29,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.85bb2934.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.a6bdf11c.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -344,7 +344,7 @@
   
     <li class="md-nav__item">
       <a href="../" class="md-nav__link">
-        Parts Overview
+        Support Overview
       </a>
     </li>
   
@@ -427,6 +427,13 @@
   
     <nav class="md-nav" aria-label="Supported Hardware">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fans" class="md-nav__link">
+    Fans
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#microsd-extensions" class="md-nav__link">
@@ -1332,6 +1339,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#fans" class="md-nav__link">
+    Fans
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#microsd-extensions" class="md-nav__link">
     MicroSD Extensions
   </a>
@@ -1436,19 +1450,24 @@
   <h1>Panel Mounts</h1>
 
 <h2 id="using-panel-mounts">Using Panel Mounts</h2>
-<p>Connector panel mounts will typically be on the rear panel and connect with the printer. Extensions can be mounted on the front or rear and are typically for SD Cards and USB ports.</p>
+<p>Panel mounts are external connections points that allow the user to disconnect components without opening up the case. Some examples:</p>
+<ul>
+<li>USB extensions for a webcam.</li>
+<li>SD extensions for an MCU or SBC.</li>
+<li>Rear panel connectors for quick-disconnect from the printer.</li>
+</ul>
 <p>Each panel type comes with a template for making your own panels. See <a href="#creating-new-panels">Creating New Panels</a> below for more.</p>
 <h3 id="front-panels">Front Panels</h3>
 <p><img alt="front panel example" src="../../img/components/front_panel.png" width="360" /></p>
-<p>The front panel is long and slim and can be used for mounting small hardware ports. The most common examples are SD Card extensions and USB extensions. You can find these files in the <a href="https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Panels/Front%20Panel" title="OmniBox GitHub: Front Panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <code>/Panels/Front Panel</code></a> git folder.</p>
+<p>The front panel often mounts small hardware ports; the most common examples are SD Card extensions and USB extensions. You can find predesigned files in the <a href="https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Panels/Front%20Panel" title="OmniBox GitHub: Front Panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <code>/Panels/Front Panel</code></a> git folder along with a template.</p>
 <h3 id="side-panels">Side Panels</h3>
 <p><img alt="side panel example" src="../../img/components/side.png" width="360" /></p>
-<p>Introduced in version 0.9.9, the side panel replaces the old Unused CPU Cover. Side panels can be used for mounting a single 40mm fan, panel mounted connectors, or keystone jacks.</p>
+<p>Introduced in version 0.9.9, the side panel replaces the "Unused CPU Cover". Side panels can be used to mount a single 40mm or 50mm fan, keystone jacks, or panel mounted connectors.</p>
 <p>Files for the side panel can be found in the <a href="https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Panels/Side%20Panel" title="OmniBox GitHub: Side Panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <code>/Panels/Side Panel</code></a> git folder.</p>
 <h3 id="rear-panels">Rear Panels</h3>
 <p><img alt="rear panel example" src="../../img/components/rear.png" width="360" /></p>
-<p>Rear Panels are the most customizable part of OmniBox. They can mount connectors and fans and modified to suit each end user. There are also a number of generic templates available in the <a href="https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Panels/Rear%20Panel" title="OmniBox GitHub: Rear Panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <code>/Panels/Rear Panel</code></a> git folder.</p>
-<p>The table below breaks down where to get started.</p>
+<p>Rear Panels are the most customizable part of OmniBox and may be modified to suit the user. There are a number of generic files available in the <a href="https://github.com/jon-harper/OmniBox/tree/0.9.9-frozen/Panels/Rear%20Panel" title="OmniBox GitHub: Rear Panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <code>/Panels/Rear Panel</code></a> git folder.</p>
+<p>The table below explains where to get started.</p>
 <table>
 <thead>
 <tr>
@@ -1478,7 +1497,8 @@
 <!-- | [:material-git: `Micro Fit 3`][git_molex_rear]    | Use Molex Micro Fit 3 panel mounted connectors. Pinout diagrams for each panel are included. | ...Want to create a diconnectable wiring harness for your printer. | -->
 
 <h2 id="supported-hardware">Supported Hardware</h2>
-<p>In addition to <a href="../fans/">fans</a>, templates and predesigned panels are available to mount a variety of hardware.</p>
+<h3 id="fans">Fans</h3>
+<p>See the <a href="../fans/">Fans</a> page.</p>
 <h3 id="microsd-extensions">MicroSD Extensions</h3>
 <p>These are availabe in short or long versions and are typically used with MCUs. They can also be used to give access to other SD card slots, such as an SoC CPU.</p>
 <p>Each MCU lists whether it can use a short extension (about 6" long) or of the longer extension is needed (about 18").</p>
@@ -1535,7 +1555,7 @@
 <div class="admonition caution">
 <p class="admonition-title">Caution: Avoid JST SM as a hotend connector on enclosed printers</p>
 </div>
-<p>These are good, low-curren (3A) connectors for devices such as limit switches, lights, steppers, and fans.</p>
+<p>These are good, low-current (3A) connectors for devices such as limit switches, lights, steppers, and fans.</p>
 <p><a class="md-button" href="https://www.amazon.com/gp/product/B07D9HRDT6" title="Amazon: JST-SM Connector Kit"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> JST SM Connector Kit</a></p>
 <p>Further reading: <a href="https://jon-harper.github.io/clockmaker-project/wiring/connectors/#jst-sm"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 12h7v1.5h-7m0-4h7V11h-7m0 3.5h7V16h-7m8-12H3a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 15h-9V6h9"/></svg></span> JST SM on The Clockmaker Project</a></p>
 <h4 id="molex-micro-fit-30">Molex Micro Fit 3.0</h4>
@@ -1671,7 +1691,7 @@
     <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.sections", "navigation.top"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.fac441b0.min.js"></script>
+      <script src="../../assets/javascripts/bundle.b4d07000.min.js"></script>
       
     
   </body>
