@@ -1,11 +1,11 @@
 ---
-title: Parts Overview
-summary: A list of parts supported by OmniBox
+title: Support Overview
+summary: Introduction to OmniBox product support.
 authors: Jon Harper
 date: 2022-07-03
 ---
 
-This is an overview of components supported by OmniBox. The linked git folders should contain both an `STL` for printing and `STEP` files for modification. Fusion 360 source files are also usually available.
+OmniBox mounts parts on a set of internal trays and external panels. This section documents the products supported by these and includes a bill of materials, as needed.
 
 ## Fit Testing
 
@@ -24,10 +24,10 @@ If you print one of these parts, please report your results! There is usually an
 
 Trays mount most of the key hardware in your case.
 
-- [MCU Trays][mcu] mounts MCU boards.
-- [CPU Trays][cpu] are for SBCs.
-- [PSU Trays][psu] mount power supplies.
-- [Lower Bay Trays][lower_bay] contains trays for miscellaneous accessories, such as buck converters and solid state relays.
+- [MCU Trays][mcu] lists supported MCU boards.
+- [CPU Trays][cpu] replace side panels and mount SBCs.
+- [PSU Trays][psu] mount power supplies under the case.
+- [Lower Bay Trays][lower_bay] lists supported accessories, such as buck converters and solid state relays.
 
 ## Panels
 
@@ -38,7 +38,7 @@ Trays mount most of the key hardware in your case.
 
 ### Display Screen Panels
 
-[Display Panels][displays] are used for LCD displays, including Raspberry Pi TFTs.
+[Display Panels][displays] are used for LCD displays, including Raspberry Pi TFTs. A blank template is available for users without a display.
 
 ### Front, Side, and Rear Panels
 
@@ -51,8 +51,6 @@ Generic rear panels are available with cutouts to pass wiring directly without u
 An assortment of fans are supported and include cages and optional TPU shims. See the [Fans][fans] page for a full list.
 
 The front and rear main bodies come in versions with and without fans. The rear panel and lid can also be used for mounting fans.
-
-See the [Guided Tour][tour] to help choose the best configuration for your available parts.
 
 [panel_mounts]: panel_mounts.md
 [cpu]: cpu.md

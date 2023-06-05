@@ -41,6 +41,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 - Internal Materials: 4x M3 x 16mm (12mm if counterbored)
 - External Materials: 4x M3 x 20mm
+- Fits: Rear Main Body, Side Panel, Lids, Rear Panel
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_4010]][img_4010]
@@ -57,10 +58,33 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 - Internal Materials: 4x M3 x 25mm (20mm if counterbored)
 - External Materials: 4x M3 x 30mm
+- Fits: Rear Main Body, Side Panel, Lids, Rear Panel
 
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_4020]][img_4020]
+</div>
+</div>
+
+## 50mm Axial Fans
+
+### 50mm x 12mm
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+[:material-git: 50x12][git_fans_5012]{ .md-button }
+
+[:material-cart: Product Link][bom_5012]{ .md-button }
+
+- Materials: 4x M3 x 16mm
+- Fits: Side Panel, Lids, Rear Panel
+- Notes:
+    - This part will not fit 10mm deep fans (5010 fans).
+    - These fans are uncommon and normally 12V.
+
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_5012]][img_5012]
 </div>
 </div>
 
@@ -75,6 +99,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 [:material-cart: Product Link][bom_6015]{ .md-button }
 
 - Materials: 4x M3 x 25mm
+- Fits: Lids, Rear Panel
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_6015]][img_6015]
@@ -90,6 +115,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 [:material-cart: Product Link][bom_6020]{ .md-button }
 
 - Materials: 4x M3 x 30mm
+- Fits: Lids, Rear Panel
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_6020]][img_6020]
@@ -106,6 +132,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 [:material-cart: Product Link][bom_6025]{ .md-button }
 
 - Materials: 4x M3 x 35mm
+- Fits: Lids, Rear Panel
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_6025]][img_6025]
@@ -123,6 +150,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 [:material-cart: Product Link][bom_8020]{ .md-button }
 
 - Materials: 4x M4 x 30mm
+- Fits: Lids, Rear Panel
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_8020]][img_8020]
@@ -138,6 +166,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 [:material-cart: Product Link][bom_8025]{ .md-button }
 
 - Materials: 4x M4 x 35mm
+- Fits: Lids, Rear Panel
 
 </div>
 <div markdown class="jh-grid-img">
@@ -156,6 +185,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 [:material-cart: Product Link][bom_9225]{ .md-button }
 
 - Materials: 4x M4 x 35mm
+- Fits: Lids
 
 </div>
 <div markdown class="jh-grid-img">
@@ -172,6 +202,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 [:material-cart: Product Link][bom_12025]{ .md-button }
 
 - Materials: 4x M4 x 35mm
+- Fits: Lids
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_12025]][img_12025]
@@ -183,6 +214,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 [img_4010]: ../img/parts/fan_4010.jpg
 [img_4020]: ../img/parts/fan_4020.jpg
+[img_5012]: ../img/parts/fan_5012.jpg
 [img_6015]: ../img/parts/fan_6015.jpg
 [img_6020]: ../img/parts/fan_6020.jpg
 [img_6025]: ../img/parts/fan_6025.jpg

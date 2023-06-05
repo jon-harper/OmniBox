@@ -90,7 +90,9 @@
 
 <!-- Fans -->
 [bom_4010]:             https://www.amazon.com/dp/B08R9L9YR2                                                     "Amazon: 40mm x 40mm x 10mm Fan"
+[bom_4010_5V]:          https://www.amazon.com/GeeekPi-Raspberry-40x40x10mm-Brushless-Radiator/dp/B07X6CXQLN    "Amazon: 40mm x 40mm x 10mm Fan, 5V"
 [bom_4020]:             https://www.amazon.com/Wathai-40x40x20mm-40mm-Burshless-Cooling/dp/B07PYWVPMY            "Amazon: 40mm x 40mm x 10mm Fan"
+[bom_5012]:             https://www.amazon.com/Cooling-Fan-12V-DC-Brushless/dp/B08ZJDCBJM                       "Amazon: 50mm x 50mm x 12mm Fan, 12V"
 [bom_6015]:             https://www.amazon.com/Wathai-Exhaust-Cooler-Brushless-Cooling/dp/B07Q2JRYZR             "Amazon: 60mm x 60mm x 15mm Fan"
 [bom_6020]:             https://www.amazon.com/Wathai-60mm-Cooling-Brushless-Cooler/dp/B07NRYLRDZ                "Amazon: 60mm x 60mm x 20mm Fan"
 [bom_6025]:             https://www.amazon.com/Wathai-60mm-25mm-Brushless-Cooling/dp/B07Q2JWNFX                  "Amazon: 60mm x 60mm x 25mm Fan"
