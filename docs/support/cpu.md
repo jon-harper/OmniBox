@@ -14,7 +14,9 @@ This page lists system-on-a-chip (SoC) CPUs currently compatible with OmniBox. T
 
 CPU Trays are in the [:material-git: `/Trays/CPU`][git_cpu] git folder; each component has its own subfolder. Currently, SBCs other than the Raspberry Pi are not supported.
 
-If you do not use an SBC, the side of the bay can be used as a [Side Panel][panel_mounts].
+The Raspberry Pi model-specific trays mount with the SBC's USB and Ethernet cables facing *outward* (as panel mounts). If you are using Klipper, this will require an external cable running to your MCU; instead, use the [Universal Mount](#universal-mount).
+
+If you do not use an SBC, the side of the CPU bay can be used as a [Side Panel][panel_mounts].
 
 <!-- Template
 <div markdown class="jh-grid-container jh-grid-2">
@@ -67,13 +69,18 @@ Materials: 4x M3 x 6mm
 </div>
 </div>
 
-### Universal Mount
+## Universal Mount
+
+This tray has the Raspberry Pi mounting hole pattern and is compatible with clones (e.g., Orange Pi, Banana Pi) that use the same hole pattern and PCB dimensions.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 [:material-git: Raspberry Pi Universal][git_rpi_universal]{ .md-button }
 
-- Materials: 4x M3 x 6mm
+- Materials:
+    - 4x M3 x 6mm
+    - *(optional)* [:material-cart: 40mm 5V fan][bom_4010_5V]
+    - *(optional)* 4x M3 x 14-16mm
 - Note: This tray should be compatible with *any* board using the Raspberry Pi mounting hole pattern.
 </div>
 <!-- <div markdown class="jh-grid-img">

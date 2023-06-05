@@ -252,7 +252,7 @@ Compatible with all versions.
 - Compatibility: 2.x tested; may work with 1.x
 </div>
 <div markdown class="jh-grid-img">
-[![product picture][img_mks_monster8]][img_mks_monster8]
+[![product picture][img_fysetc_spider]][img_fysetc_spider]
 
 </div>
 </div>
@@ -313,3 +313,4 @@ Compatible with all versions.
 [img_duet_3_6hc]: ../img/parts/duet3_6hc.jpg
 [img_mks_monster8]: ../img/parts/mks_monster8.jpg
 [img_mks_skipr]: ../img/parts/mks_skipr.jpg
+[img_fysetc_spider]: ../img/parts/fysetc_spider_2_2.jpg
