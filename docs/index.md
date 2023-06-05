@@ -6,6 +6,7 @@ date: 2022-05-15
 hide: toc
 ---
 # OmniBox v{{ extra.meta.version }}
+
 !!! tip
     To change documentation versions, select a version number from the drop down box at the top of the page.
 

@@ -13,10 +13,10 @@
 [git_base_front]:           https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Core/Base/Front                 "OmniBox GitHub: Core - Front Base"
 [git_base_rear]:            https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Core/Base/Rear                  "OmniBox GitHub: Core - Rear Base"
 [git_base_unified]:         https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Core/Base/Unified               "OmniBox GitHub: Core - Unified Base"
-[git_main_body]:            https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Core/0.9.10-beta%20Body                "OmniBox GitHub: Core - Main Body"
-[git_main_body_front]:      https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Core/0.9.10-beta%20Body/Front          "OmniBox GitHub: Core - Front Main Body"
-[git_main_body_rear]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Core/0.9.10-beta%20Body/Rear           "OmniBox GitHub: Core - Rear Main Body"
-[git_main_body_crossbar]:   https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Core/0.9.10-beta%20Body/Crossbar       "OmniBox GitHub: Core - Crossbar"
+[git_main_body]:            https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Core/Main%20Body                "OmniBox GitHub: Core - Main Body"
+[git_main_body_front]:      https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Core/Main%20Body/Front          "OmniBox GitHub: Core - Front Main Body"
+[git_main_body_rear]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Core/Main%20Body/Rear           "OmniBox GitHub: Core - Rear Main Body"
+[git_main_body_crossbar]:   https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Core/Main%20Body/Crossbar       "OmniBox GitHub: Core - Crossbar"
 [git_base_extension]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Core/Base/Extension%20Shim      "OmniBox GitHub: Base Extension Shim"
 
 <!-- /Fans     -->
@@ -24,6 +24,7 @@
 [git_fans_template]:    https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Fans/Template                       "OmniBox GitHub: Fan Templates"
 [git_fans_4010]:        https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Fans/40x10                          "OmniBox GitHub: 40mm x 10mm Fans"
 [git_fans_4020]:        https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Fans/40x20                          "OmniBox GitHub: 40mm x 20mm Fans"
+[git_fans_5012]:        https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Fans/50x12                          "OmniBox GitHub: 50mm x 12mm Fans"
 [git_fans_6015]:        https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Fans/60x15                          "OmniBox GitHub: 60mm x 15mm Fans"
 [git_fans_6020]:        https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Fans/60x20                          "OmniBox GitHub: 60mm x 20mm Fans"
 [git_fans_6025]:        https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Fans/60x25                          "OmniBox GitHub: 60mm x 25mm Fans"

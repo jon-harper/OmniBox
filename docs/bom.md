@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-05-15
 ---
 
-The Universal Bill of Materials is a base list common to all builds. Additional components based on your build configuration are listed separately.
+The Universal Bill of Materials is a base list common to all builds. Additional components (including fasteners) are listed separately below.
 
 - There are no affiliate links used on this site.
 - The :material-cart: shopping cart icon indicates an external link to a shopping website.
@@ -38,13 +38,17 @@ These parts are common to all case builds. See below for additional requirements
 !!! note "Note: Wiring and Connectors"
     This list is not all-encompassing for wiring. Additional connectors and wiring may be needed, including for [grounding your bed/frame to earth][ground_guide].
 
+## Core Configurations
+
 ### Fasteners
 
-Cases with heat set inserts use shorter fasteners in some locations. Use the Stock list if you are not printing a case with inserts.
+Cases with heat set inserts (HSI) use shorter fasteners in many locations. If using HSIs, an [:material-cart: M3 soldering iron tip for heat set inserts][bom_hsi_tips] is recommended.
 
-OmniBox is largely assembled with M3 screws and is compatible with both socket head and button head cap screws. All links are to socket head screws, where applicable. [Power supplies](#psu-trays) are the exception, and use M4 button head cap screws.
+OmniBox is compatible with both M3 socket head and button head cap screws. All links are to SHCS, where applicable. [Power supplies](#psu-trays) are the exception, and use M4 screws.
 
-=== "Stock"
+The list below is the *minimum* required for an OmniBox build. The [Supported Parts](support/index.md) section contains additional fasteners needed for each part.
+
+=== "Stock (No HSI)"
 
     | Fasteners                              | Qty | UOM | Note                                                     |
     |----------------------------------------|-----|-----|----------------------------------------------------------|
@@ -59,7 +63,7 @@ OmniBox is largely assembled with M3 screws and is compatible with both socket h
     
     | Fasteners                              | Qty | UOM | Note                                                     |
     |----------------------------------------|-----|-----|----------------------------------------------------------|
-    | [:material-cart: Heat Set Insert, M3, 5mm OD x 4mm L][bom_hsi_m3] | 24 | ea | See note below. |
+    | [:material-cart: Heat Set Insert, M3, 5mm O.D. x 4mm L][bom_hsi_m3] | 24 | ea | See note below. |
     | [:material-cart: M3 x 6mm machine screws][bom_m3_6]    | 24  | ea  |           |
     | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 28  | ea  |           |
     | [:material-cart: M3 x 10mm machine screws][bom_m3_10]  | 2   | ea  | May use 12mm instead. |
@@ -67,22 +71,11 @@ OmniBox is largely assembled with M3 screws and is compatible with both socket h
     | [:material-cart: M3 x 20mm machine screws][bom_m3_20]  | 2   | ea  |           |
     | [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8 | ea | See note below. |
 
-    Additionally, you will need an [:material-cart: M3 soldering iron tip for heat set inserts][bom_hsi_tips].
-
 !!! note "Note: Sharp Point Wood Screws"
     To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
 
 !!! note "Heat Set Inserts"
-    Starting with v0.9.10, OmniBox exclusively uses "Voron-style" (M3 x 5mm x 4mm) heat set inserts. User mods that require inserts universally use the Voron-style inserts.
-
-### MicroSD Reader Extensions
-
-Each MCU tray on the [MCU support page](support/mcu.md) has a field for whether a short or long MicroSD card reader extension is necessary (if using one for the front panel).
-
-- Short: [:material-cart: LANMU MicroSD Card Reader Extension][bom_lanmu_micro_sd]
-- Long: [:material-cart: ELECTOP MicroSD Card Reader Extension][bom_electop_micro_sd]
-
-## Core Configurations
+    Starting with v0.9.10, OmniBox exclusively uses "Voron-style" (M3 x 5mm O.D. x 4mm Length) heat set inserts. User-contributed parts that require inserts universally use the Voron-style inserts.
 
 ### Power Switch
 
@@ -90,18 +83,22 @@ The Front Base comes in a "rocker" or "toggle" version.
 
 You will need one of the following:
 <div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-img">
+<div markdown class="jh-card">
 [:material-cart: 30mm x 11mm SPST snap-in rocker switch][bom_switch]
+
+Supports any power supply.
 </div>
-<div markdown class="jh-grid-img">
+<div markdown class="jh-card">
 
 [:material-cart: 12mm or 12.5mm SPST toggle switch][bom_toggle_switch]
+
+Supported by smaller power supplies (e.g., Mean Well LRS-350).
 </div>
 </div>
 
 ### Front Base Fans
 
-The base can mount up to three concealed 40mm fans in the intakes. The following are needed to mount *each* fan:
+The base can mount up to three concealed 40mm fans in the intakes. The below are needed to mount each fan:
 
 | Item                              | Qty | UOM | Note                                                     |
 |-----------------------------------|-----|-----|----------------------------------------------------------|
@@ -110,9 +107,9 @@ The base can mount up to three concealed 40mm fans in the intakes. The following
 
 ### Rear Main Body Fans
 
-The rear body has two versions: one with dual exhausts and one without any.
+The rear body has two versions: one with dual fans and one without any.
 
-=== "Dual 40mm Exhausts"
+=== "Dual 40mm Fans"
 
     [![illustration][img_rear_dual_40mm]{ width="300" }][img_rear_dual_40mm]
 
@@ -131,8 +128,8 @@ The rear body has two versions: one with dual exhausts and one without any.
 
     There are no additional materials required for this version. 
 
-    !!! important
-        This rear main body must be used with a rear panel or lid that provides an exhaust fan.
+    !!! warning
+        This rear main body should be used with a rear panel or lid that provides an exhaust fan and/or large vents.
 
 ## Tray and Panel Configurations
 
@@ -142,10 +139,10 @@ The [Supported Parts Overview][support] has a full list of parts and mounting lo
 
 ### PSU Trays
 
-Power supplies are notable for mounting to the tray with M4 x 6mm button head cap screws. See the [list of supported PSUs][psu] for quantities.
+Power supplies are notable for mounting to the tray with **M4** x 6mm cap screws. See the [list of supported PSUs][psu] for quantities.
 
 !!! note "Note: M4 Screws"
-    Socket head cap screws have heads that are too tall to fit the PSU in the case.
+    Earlier OmniBox revisions required M4 BHCS. Both socket head and button head are now supported.
 
 ### Lower Bay Trays
 
@@ -154,6 +151,13 @@ Each tray (short or long) uses four (4) M3 x 6mm screws to mount the tray. Addit
 ### Panel Mounted Parts
 
 Panel mounts are a way of providing external connectors to internal parts, such as the MCU or CPU board USB ports. The [Panel Mounts][panel_mount] page discusses this in more detail.
+
+### MicroSD Reader Extensions
+
+Each MCU tray on the [MCU support page](support/mcu.md) has a field for whether a short or long MicroSD card reader extension is necessary (if using one for the front panel).
+
+- Short: [:material-cart: LANMU MicroSD Card Reader Extension][bom_lanmu_micro_sd]
+- Long: [:material-cart: ELECTOP MicroSD Card Reader Extension][bom_electop_micro_sd]
 
 [support]:          support/index.md    "Overview of supported parts"
 [psu]:              support/psu.md      "List of supported PSUs"
