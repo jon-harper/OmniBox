@@ -41,7 +41,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 - Internal Materials: 4x M3 x 16mm (12mm if counterbored)
 - External Materials: 4x M3 x 20mm
-- Fits: Rear Main Body, Side Panel, Lids, Rear Panel
+- Fits: Side Panel, Lids, Rear Panel
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_4010]][img_4010]
@@ -58,7 +58,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 - Internal Materials: 4x M3 x 25mm (20mm if counterbored)
 - External Materials: 4x M3 x 30mm
-- Fits: Rear Main Body, Side Panel, Lids, Rear Panel
+- Fits: Side Panel, Lids, Rear Panel
 
 </div>
 <div markdown class="jh-grid-img">
