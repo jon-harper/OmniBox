@@ -85,6 +85,7 @@
 [bom_creality_mosfet]:  https://www.tinymachines3d.com/products/crmfet                                           "TinyMachines3D: Creality MOSFET"
 
 <!--     Others -->
+[bom_btt_u2c]:          https://www.amazon.com/BIGTREETECH-Adapter-Supports-Connection-Interface/dp/B0B1X47319   "Amazon: BIGTREETECH U2C CAN Adapter"
 [bom_wago_nuts]:        https://www.amazon.com/dp/B08R5WWWPS                                                     "Amazon: Wago 221 Lever Nut Assortment"
 [bom_btt_ups_24v]:      https://www.amazon.com/BIGTREETECH-DIRECT-Printing-Printer-Ender-3/dp/B081DLBTQC         "Amazon: BIGTREETECH UPS 24V 1.0"
 [bom_btt_relay_1.2]:    https://www.walmart.com/ip/BIGTREETECH-Relay-V1-2-Automatic-Shutdown-Module-After-Printing-Power-Monitoring-Module-3D-Printer-Parts/133836368 "WalMart: BIGTREETECH Relay 1.2"
