@@ -379,8 +379,6 @@ Rear panels with panel mounted connectors are an active area of work.
 
 ## Other Components
 
-Several other components deserve mention in this tour; not all of these are 3D printed parts.
-
 - [:material-directions: Fans](#fans)
 - [:material-directions: Base Extensions](#base-extensions)
 - [:material-directions: Power Switches](#power-switch)
@@ -407,9 +405,9 @@ Internally mounted fans are also available, but are limited to 40mm fans.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-A base extension shim mounts between the base and the bottom panel and adds 1cm of height. This was originally needed for the RSP-500 PSU.
+A base extension shim mounts between the base and the bottom panel and adds 1cm of height. This is needed for the RSP-500 PSU.
 
-If you have printed the [:material-directions: extended Unified Base](#unified-base), this part is not needed.
+This part is not needed if you print the [:material-directions: extended Unified Base](#unified-base).
 
 [:material-git: Extension Shim][git_base_extension]{ .md-button }
 </div>
@@ -423,7 +421,9 @@ If you have printed the [:material-directions: extended Unified Base](#unified-b
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-OmniBox supports two types of master power switches: a 30x11mm [:material-cart: snap-in SPST rocker switch][bom_switch] or [:material-cart: 12mm toggle switch][bom_toggle_switch].
+OmniBox accepts either a 30x11mm [:material-cart: snap-in SPST rocker switch][bom_switch] or a [:material-cart: 12mm toggle switch][bom_toggle_switch] for power on/off.
+
+Larger power supplies will not fit with a toggle switch. Check the [PSU support page](support/psu.md) for more.
 
 A cover is available for rocker switches to prevent accidental power-off.
 
