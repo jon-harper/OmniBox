@@ -75,7 +75,7 @@
 [bom_drok_5A]:          https://www.amazon.com/DROK-Adjustable-Converter-Transformer-Protective/dp/B07JZ2GQJF    "Amazon: DROK 5A LM2596 Buck Converter"
 [bom_drok_2A]:          https://www.amazon.com/Converter-DROK-Transformer-Regulator-Stabilizer/dp/B00JUFJ1GA     "Amazon: HROK 2A LM2596 Buck Converter"
 [bom_hiletgo_2A]:       https://www.amazon.com/HiLetgo-Step-down-Converter-1-25-37V-Voltmeter/dp/B00LSEBYHU/     "Amazon: HiLetGo 2A LM2596 Buck Converter"
-[bom_basic_lm2596]:     https://www.amazon.com/Valefod-Efficiency-Voltage-Regulator-Converter/dp/B076H3XHXP      "Amazon: Basic 2A LM2596 Buck Converter"
+[bom_basic_lm2596]:     https://www.amazon.com/PlusRoc-Converter-Efficiency-Regulator-Adjustable/dp/B0B2CLXGD8      "Amazon: Basic 3A LM2596 Buck Converter"
 
 <!--     SSRs -->
 [bom_fotek_ssr_40da]:   https://www.amazon.com/SSR-40DA-Solid-Output-24-380V-SSR-40/dp/B07FVHWN82                "Amazon: Fotek SSR-40DA"
@@ -85,6 +85,7 @@
 [bom_creality_mosfet]:  https://www.tinymachines3d.com/products/crmfet                                           "TinyMachines3D: Creality MOSFET"
 
 <!--     Others -->
+[bom_lm2596_heatsink]:  https://www.amazon.com/Jienk-Aluminum-Conductive-Adhesive-Regulators/dp/B09M5XJC1S/      "Amazon: 20pcs 9x9x5mm heatsinks"
 [bom_btt_u2c]:          https://www.amazon.com/BIGTREETECH-Adapter-Supports-Connection-Interface/dp/B0B1X47319   "Amazon: BIGTREETECH U2C CAN Adapter"
 [bom_wago_nuts]:        https://www.amazon.com/dp/B08R5WWWPS                                                     "Amazon: Wago 221 Lever Nut Assortment"
 [bom_btt_ups_24v]:      https://www.amazon.com/BIGTREETECH-DIRECT-Printing-Printer-Ender-3/dp/B081DLBTQC         "Amazon: BIGTREETECH UPS 24V 1.0"

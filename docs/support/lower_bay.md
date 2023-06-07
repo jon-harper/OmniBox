@@ -5,23 +5,15 @@ authors: Jon Harper
 date: 2022-07-22
 ---
 
-Lower Bay Trays mount below the MCU board; parts with compatible trays are listed here.
+Lower Bay Trays may be Short or Long. A Long tray covers the mount points of two Short trays and must be mounted from side-to-side in the case.
 
-Lower Bay Trays may be Short or Long. A Long tray covers the mount points of two Short trays and must be mounted from the side-to-side in the case.
+The [:material-git: `/Trays/Lower Bay`][git_lower_bay] git folder is organized with subfolders for each supported part. All variations based around that part are in the same folder. 
 
-Every tray (short or long) attaches to the Core case body with four (4) M3 x 6mm screws. Additional fasteners are listed with each component.
-
-The [:material-git: `/Trays/Lower Bay`][git_lower_bay] git folder is organized with subfolders for each supported part. All variations based around that part are in the same folder. For example, the [Basic 2A LM2596](#basic-2a-lm2596) buck converter comes in the following forms:
-
-1. Short, single mount
-2. Short, dual mount
-3. Long, single mount with fan
-4. Long, dual mount
-5. Long, dual mount with fan
+Every tray (short or long) attaches to the Core case body with four (4) M3 x 6mm screws. Additional materials are listed with each part.
 
 <figure markdown>
   [![img][img_lower_bay]{ width="480" }][img_lower_bay]
-  <figcaption>Long trays fit as pictured on the left side or right. Short trays will also fit in an empty CPU bay.</figcaption>
+  <figcaption>Up to three (3) Long trays will fit in a case, or six (6) Short trays.</figcaption>
 </figure>
 
 <!-- Template 
@@ -42,18 +34,19 @@ The [:material-git: `/Trays/Lower Bay`][git_lower_bay] git folder is organized w
 
 ## Buck Converters
 
-Long trays for buck converters often have a 40mm fan mount. This is particularly useful for 2A buck converters that are rated to 3A with cooling.
+Long trays for step-down ("buck") converters often have a 40mm fan mount for additional cooling.
 
-!!! note "Powering a Raspberry Pi"
-    The Raspberry Pi 4B requires up to 3A of power, but typically uses less than 2.5A.  The LM2596 is rated to 2A of current without cooling; adding a heatsink or modest airflow allows it to power a Raspberry Pi without issue.
+The LM2596 step down is rated to 3A **with a heatsink**, enough to power a Raspberry Pi 4B. Most LM2596-based buck converters are sold without heatsinks and are listed as capable of 2A. Stepping down from 24V to 5V generates additional heat; consider purchasing a buck converter [with a heat sink][bom_basic_lm2596] or [add one][bom_lm2596_heatsink].
 
-### Basic 2A LM2596
+### Basic LM2596
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 [:material-git: Files][git_basic_lm2596]{ .md-button }
 
 **Materials:** 2x M3 x 6mm
+
+**Notes:** This converter requires a heat sink to safely output 3A.
 
 **Trays**
 
