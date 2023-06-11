@@ -10,10 +10,13 @@ Each case has two CPU bays.
 - If you have an SoC CPU, one side panel is already occupied by the CPU tray. In this case, you need one (1) side panel.
 - Otherwise, you will need two (2) side panels.
 
-??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/side.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+## Overview
 
-### Materials
+<video controls="">
+    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/side.mp4" type="video/mp4">
+</video>
+
+## Materials
 
 These lists are per side panel.
 
@@ -31,7 +34,7 @@ These lists are per side panel.
     | M4 x 8mm machine screws   | 4   | May substitute 10mm or 12mm.    |
     | Side Panel                | 1   | :material-printer-3d-nozzle: Printed |
 
-### Directions
+## Directions
                                                             
 <figure markdown>
   [![illustration][side1]{width="480"}][side1]
@@ -44,7 +47,7 @@ These lists are per side panel.
 </figure>
 
 
-### Finished Reference
+## Reference
 
 ![illustration][side_final]
 

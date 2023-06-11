@@ -40,19 +40,23 @@ Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp
 
 ## Wiring the PSU
 
+###  Overview
+
+<video controls="">
+    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/psu_wiring.mp4" type="video/mp4">
+</video>
+
 ### Materials
 
 | Parts                                         | Qty  | Note                                |
 |-----------------------------------------------|------|-------------------------------------|
-| 16awg red stranded hookup wire                | 0.7m | 14 or 16 gauge                      |
+| 16awg/1.5mm^2^ red stranded hookup wire       | 0.7m | 14 or 16 gauge (1.5mm^2^ - 2.5mm^2^) |
 | Fork connectors, 14-16 awg, female insulated  | 1    |                                     |
 | Spade connectors, 14-16 awg, insulated        | 3    |                                     |
 
 
 
-### Directions
-
-#### Preparing Materials
+### Preparing Materials
 
 !!! note
     When crimping closed barrel connectors, the bare wire should extend no more than 1mm from the end of the crimp.
@@ -68,10 +72,7 @@ Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp
   <figcaption>The prepared wires should look roughly like the above.</figcaption>
 </figure>
 
-####  Wiring Installation
-
-??? Overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/psu_wiring.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+### Directions
 
 <figure markdown>
   [![illustration][psu1]{width="480"}][psu1]
@@ -101,7 +102,7 @@ Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp
 !!! note
     There are zip tie anchors in the side walls to secure power switch wiring and any excess.
 
-### Finished Reference
+### Reference
 
 ![finished illustration][psu_final]
 

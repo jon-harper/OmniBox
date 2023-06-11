@@ -9,8 +9,11 @@ This section covers assembling a generic 12864 display panel, like the kind comm
 
 Common aftermarket TFT displays have an extra step of mounting the display to a cover. The cover then attaches to the panel. Other than this, the installation process remains the same.
 
-??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/display.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+## Overview
+
+<video controls="">
+    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/display.mp4" type="video/mp4">
+</video>
 
 ## Materials
 
@@ -78,7 +81,7 @@ Common aftermarket TFT displays have an extra step of mounting the display to a 
   <figcaption>6. Attach the display with four (4) M4 x 8mm screws.</figcaption>
 </figure>
 
-## Finished Reference
+## Reference
 
 ![illustration][display_final]
 

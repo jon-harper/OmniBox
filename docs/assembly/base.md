@@ -10,7 +10,9 @@ Assembly of the case starts with the Base and PSU Tray.
 ## PSU Tray
 
 ??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/psu.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+    <video controls="">
+        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/psu.mp4" type="video/mp4">
+    </video>
 
 ### Materials
 
@@ -57,14 +59,16 @@ Assembly of the case starts with the Base and PSU Tray.
   <figcaption>5. Secure using two (2) M4 screws.</figcaption>
 </figure>
 
-### Finished Reference
+### Reference
 
 [![illustration][psu_final]{width="640"}][psu_final]
 
 ## Prepare the Base
 
 ??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/base_prep.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+    <video controls="">
+        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/base_prep.mp4" type="video/mp4">
+    </video>
 
 ### Materials
 
@@ -154,14 +158,16 @@ Assembly of the case starts with the Base and PSU Tray.
   <figcaption>7. Secure with two (2) M3 x 8mm screws.</figcaption>
 </figure>
 
-### Finished Reference
+### Reference
 
 [![illustration][base_prep_final]{width="640"}][base_prep_final]
 
 ## Combine Base and PSU
 
 ??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/base.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+    <video controls="">
+        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/base.mp4" type="video/mp4">
+    </video>
 
 ### Materials
 
@@ -186,7 +192,7 @@ Assembly of the case starts with the Base and PSU Tray.
   <figcaption>3. Use eight (8) 12mm M3 screws to attach the base to the PSU tray.</figcaption>
 </figure>
 
-### Finished Reference
+### Reference
 
 [![illustration][base_final]{width="640"}][base_final]
 

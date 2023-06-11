@@ -7,9 +7,11 @@ date: 2022-10-30
 
 ## MCU Installation
 
+###  Overview
 
-??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/mcu.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+<video controls="">
+    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/mcu.mp4" type="video/mp4">
+</video>
 
 ### Materials
 
@@ -63,7 +65,7 @@ date: 2022-10-30
   <figcaption>4. Fasten to the case with four (4) M3 x 6mm screws.</figcaption>
 </figure>
 
-### Finished Reference
+### Reference
 
 ![illustration][mcu_final]
 

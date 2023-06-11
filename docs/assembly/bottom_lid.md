@@ -10,7 +10,9 @@ This is the last section of the build. Here we close up the bottom and top of th
 ## Bottom Panel
 
 ??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/bottom.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+    <video controls="">
+        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/bottom.mp4" type="video/mp4">
+    </video>
 
 ### Materials
 
@@ -55,7 +57,7 @@ Note that builds requiring a base extension will need longer screws.
   <figcaption>3. Use the same procedure for the rear bottom panel with four (4) more M3 x 8mm screws.</figcaption>
 </figure>
 
-### Finished Reference
+### Reference
 
 ![illustration][bottom_final]
 
@@ -64,7 +66,9 @@ Note that builds requiring a base extension will need longer screws.
 The example below uses a single, long lid. The procedure for installing two short lids is the same and requires no additional fasteners.
 
 ??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/lid.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+    <video controls="">
+        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/lid.mp4" type="video/mp4">
+    </video>
 
 ### Materials
 
@@ -116,7 +120,7 @@ The example below uses a single, long lid. The procedure for installing two shor
   <figcaption>4. Use eight (8) M3 x 6mm screws to attach the lid.</figcaption>
 </figure>
 
-### Finished Reference
+### Reference
 
 ![illustration][lid_final]
 

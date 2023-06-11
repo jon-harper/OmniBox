@@ -10,7 +10,9 @@ So far we have assembled the Base. Next we'll add the Main Body. This is made of
 ## Attach the Main Body
 
 ??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/main_floor.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+    <video controls="">
+        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/main_floor.mp4" type="video/mp4">
+    </video>
 
 ### Materials
 
@@ -60,14 +62,16 @@ So far we have assembled the Base. Next we'll add the Main Body. This is made of
   <figcaption>4. Check for any alignment problems between the Base and Main Body. When satisfied, finish tightening the screws down completely.</figcaption>
 </figure>
 
-### Finished Reference
+### Reference
 
 [![illustration][main_final]{width="640"}][main_final]
 
 ## Secure and Align the Center
 
 ??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/main_center.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+    <video controls="">
+        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/main_center.mp4" type="video/mp4">
+    </video>
 
 ### Materials
 
@@ -97,14 +101,16 @@ So far we have assembled the Base. Next we'll add the Main Body. This is made of
   <figcaption>4. Repeat with the final two (2) screw holes on the opposite side.</figcaption>
 </figure>
 
-### Finished Reference
+### Reference
 
 [![illustration][center_final]{width="640"}][center_final]
 
 ## Add Fans
 
 ??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/fans.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+    <video controls="">
+        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/fans.mp4" type="video/mp4">
+    </video>
 
 ### Materials
 
@@ -177,7 +183,7 @@ The illustrated examples are 40mm Internal Fan for the front and Dual 40mm Fans 
   <figcaption>6. Repeat steps 3-5 for the second fan.</figcaption>
 </figure>
 
-### Finished Reference
+### Reference
 
 [![illustration][external_fan_final]{width="640"}][external_fan_final]
 
@@ -205,7 +211,7 @@ The illustrated examples are 40mm Internal Fan for the front and Dual 40mm Fans 
   <figcaption>2. Fasten the crossbar in place with two (2) M3 x 20mm screws. Tightness can be adjusted to help square the sides of the case body.</figcaption>
 </figure>
 
-### Finished Reference
+### Reference
 
 [![illustration][crossbar_final]{width="640"}][crossbar_final]
 
