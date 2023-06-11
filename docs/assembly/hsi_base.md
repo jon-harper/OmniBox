@@ -7,8 +7,11 @@ date: 2022-10-30
 
 The rear Base has two (2) inserts; we will start with it. Each section in this guide assumes that your soldering iron is pre-heated.
 
-??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/hsi_base.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+## Overview
+
+<video controls="">
+    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/hsi_base.mp4" type="video/mp4">
+</video>
 
 ## Materials
 
@@ -34,7 +37,7 @@ The rear Base has two (2) inserts; we will start with it. Each section in this g
   <figcaption>3. Heat and set the inserts. Check that the inserts are straight and flush.</figcaption>
 </figure>
 
-## Finished Reference
+## Reference
 
 ![illustration][hsi_base_final]
 

@@ -7,8 +7,11 @@ date: 2022-11-03
 
 ## Rear Panel
 
-??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/rear.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+## Overview
+
+<video controls="">
+    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/rear.mp4" type="video/mp4">
+</video>
 
 ### Materials
 
@@ -45,7 +48,7 @@ date: 2022-11-03
   <figcaption>1. Fasten in place using eight (8) M3 screws.</figcaption>
 </figure>
 
-### Finished Reference
+### Reference
 
 ![illustration][rear_final]
 

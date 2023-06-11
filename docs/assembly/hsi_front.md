@@ -14,9 +14,11 @@ These instructions are the same for both HSI versions of the front Main Body.
 
     It is important that the inserts are flush with the display surface.
 
+## Overview
 
-??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/hsi_front.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+<video controls="">
+    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/hsi_front.mp4" type="video/mp4">
+</video>
 
 ### Materials
 
@@ -48,7 +50,7 @@ These instructions are the same for both HSI versions of the front Main Body.
 </figure>
 
 
-### Finished Reference
+### Reference
 
 [![illustration][hsi_front_final]][hsi_front_final]
 

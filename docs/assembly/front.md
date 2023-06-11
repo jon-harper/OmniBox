@@ -5,12 +5,14 @@ authors: Jon Harper
 date: 2022-11-03
 ---
 
-## Front Panel
 
-??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/front.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+## Overview
 
-### Materials
+<video controls="">
+    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/front.mp4" type="video/mp4">
+</video>
+
+## Materials
 
 === "As Illustrated"
 
@@ -38,7 +40,7 @@ date: 2022-11-03
 !!! note "Note: LED Backing Panel"
     If you are using the LED backer, you will need to substitute M3 x 12mm screws in place of the two (2) M3 x 8mm.
 
-### Directions
+## Directions
 
 <figure markdown>
   [![illustration][reader1]{ width="480"}][reader1]
@@ -79,7 +81,7 @@ date: 2022-11-03
   <figcaption>6. Attach the panel with two (2) M3 x 10mm screws.</figcaption>
 </figure>
 
-### Finished Reference
+## Reference
 
 ![illustration][front_final]
 
