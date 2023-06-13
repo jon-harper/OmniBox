@@ -40,14 +40,47 @@ There are several brands of clones, usually using the same model number. The mod
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-[:material-git: LRS-350 Files][git_rpi_3b_plus]{ .md-button }
+[:material-git: Files][git_psu_lrs350]{ .md-button }
 
 [:material-cart: Product Link][bom_lrs350]{ .md-button }
 
-- Materials: 4x M4 x 6mm button head screws
+- Materials: 4x M4 x 6mm BHCS or SHCS
+- Switch Compatility: Toggle or rocker
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_lrs_350]{width="200"}][img_lrs_350]
+</div>
+</div>
+
+### LRS-450 Series
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+[:material-git: Files][git_psu_lrs450]{ .md-button }
+
+[:material-cart: Product Link][bom_lrs450]{ .md-button }
+
+- Materials: 4x M4 x 6mm BHCS or SHCS
+- Switch Compatility: Rocker
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_lrs_450]{width="200"}][img_lrs_450]
+</div>
+</div>
+
+### LRS-600 Series
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+[:material-git: Files][git_psu_lrs600]{ .md-button }
+
+[:material-cart: Product Link][bom_lrs600]{ .md-button }
+
+- Materials: 4x M4 x 6mm BHCS or SHCS
+- Switch Compatility: Rocker
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_lrs_600]{width="200"}][img_lrs_600]
 </div>
 </div>
 
@@ -56,15 +89,36 @@ There are several brands of clones, usually using the same model number. The mod
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
-[:material-git: RSP-500 Files][git_psu_rsp500]{ .md-button }
+[:material-git: Files][git_psu_rsp500]{ .md-button }
 
 [:material-cart: Product Link][bom_rsp500]{ .md-button }
 
-- Materials: 8x M4 x 6mm button head screws
-- Notes: Requires a [:material-git: base extension][git_base_extension].
+- Materials: 8x M4 x 6mm BHCS or SHCS
+- Switch Compatility: Rocker
+- Notes: Extends 10mm below the base. Requires a [:material-git: base extension][git_base_extension], Unified Extended Base, or other method of raising the case.
+
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_rsp_500]{width="200"}][img_rsp_500]
+</div>
+</div>
+
+### SE-450 Series
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+[:material-git: Files][git_psu_se450]{ .md-button }
+
+[:material-cart: Product Link][bom_se450]{ .md-button }
+
+- Materials: 8x M4 x 6mm BHCS or SHCS
+- Switch Compatility: Rocker
+- Notes: Extends 10mm below the base. Requires a [:material-git: base extension][git_base_extension], Unified Extended Base, or other method of raising the case.
+
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_se_450]{width="200"}][img_se_450]
 </div>
 </div>
 
@@ -93,3 +147,6 @@ The RS-25-5 is a common second power supply for SBCs and fits on a lower bay tra
 [img_lrs_350]: ../img/parts/mw_lrs_350_24.jpg
 [img_rsp_500]: ../img/parts/mw_rsp_500_24.jpg
 [img_rs_25_5]: ../img/parts/rs_25_5.png
+[img_lrs_450]: ../img/parts/lrs_450_24.png
+[img_lrs_600]: ../img/parts/lrs_600_24.png
+[img_se_450]: ../img/parts/se_450_24.png

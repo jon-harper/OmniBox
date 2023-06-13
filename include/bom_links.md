@@ -42,8 +42,11 @@
 
 <!-- PSU -->
 [bom_lrs350]:           https://www.amazon.com/MEAN-WELL-LRS-350-24-Printer-Industrial/dp/B07VRK86SP             "Amazon: Mean Well LRS-350-24"
+[bom_lrs450]:          https://www.amazon.com/Original-LRS-450-24-Switching-Supply-Transformer/dp/B0BWRPYNM9           "Amazon: Mean Well LRS-450-24"
 [bom_rsp500]:           https://www.amazon.com/MEAN-WELL-RSP-500-24-Switching-Enclosed/dp/B00UWCD22O             "Amazon: Mean Well RSP-500-24"
 [bom_rs_25_5]:          https://www.amazon.com/MEAN-WELL-323282-RS-25-5-Supply/dp/B09KVG6PBZ
+[bom_se450]:            https://www.amazon.com/MEAN-WELL-SE-450-24-Supply-Single/dp/B005T6NNKO                   "Amazon: Mean Well SE-450-24"
+[bom_lrs600]:           https://www.omc-stepperonline.com/lrs-600-24-mean-well-600w-24vdc-25a-115-230vac-enclosed-switching-power-supply-lrs-600-24 "StepperOnline: Mean Well LRS-600-24"
 
 <!-- MCU Boards -->
 [bom_duet_3_6hc]:       https://www.amazon.com/Duet3D-Duet-3-Mainboard-6HC/dp/B08W295FKT                         "Amazon: Duet3D Duet 3 6HC"
