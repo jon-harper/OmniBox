@@ -117,7 +117,10 @@
 <!--     /PSUs -->
 [git_psu]:              https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/PSU/                              "OmniBox GitHub: Power Supplies (PSUs)"
 [git_psu_lrs350]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Core/Trays/PSU/Mean%20Well%20LRS-350    "OmniBox GitHub: Mean Well LRS-350 Series PSUs"
+[git_psu_lrs450]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/PSU/Mean%20Well%20LRS-450      "OmniBox GitHub: Mean Well LRS-450 Series PSUs"
+[git_psu_lrs600]:       https://github.com/jon-harper/OmniBox/tree/unstable/Trays/PSU/Mean%20Well%20LRS-600         "OmniBox GitHub: Mean Well LRS-600 Series PSUs"
 [git_psu_rsp500]:       https://github.com/jon-harper/OmniBox/tree/unstable/Core/Trays/PSU/Mean%20Well%20RSP-500    "OmniBox GitHub: Mean Well RSP-500 Series PSUs"
+[git_psu_se450]:        https://github.com/jon-harper/OmniBox/tree/unstable/Trays/PSU/Mean%20Well%20SE-450          "OmniBox GitHub: Mean Well SE-450 Series PSUs"
 
 <!-- /Misc     -->
 [git_display_knob]:     https://github.com/jon-harper/OmniBox/blob/0.9.10-beta/Misc/Display%20Knob                     "OmniBox GitHub: Replacement Display Knob"
