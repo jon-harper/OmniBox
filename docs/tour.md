@@ -38,7 +38,7 @@ Core components form the basis of every case. End-user parts normally do not att
 
 <figure markdown>
   [![the core of an OmniBox][img_core]][img_core]
-  <figcaption>The core components of an OmniBox with fans and power supply mounted.</figcaption>
+  <figcaption>The assembled core components of an OmniBox.</figcaption>
 </figure>
 
 There are two types of Core components: Base and Main Body. A typical OmniBox build has two parts for the base and three for the main body.
@@ -72,15 +72,15 @@ The Base serves as a cover and mount for the power supply. It helps with wire ro
 <div markdown class="jh-grid-para">
 This is the front of two halves. All versions come with front air vents and optional 40mm fan mounts.
 
-The Front can be printed to fit a 30mm x 11mm rocker switch or a 12mm toggle switch.
+The Front can be printed to fit a two types of [:material-directions: power switches](#power-switch).
 
 [:material-git: Front Base Files][git_base_front]{ .md-button }
 </div>
 <div markdown class="jh-card">
 === "Front - Rocker Switch"
-    [![front base][img_base_front]][img_base_front]
+    [![front base][img_base_front_rocker]][img_base_front_rocker]
 === "Front - Toggle Switch"
-    [![front base][img_base_front]][img_base_front]
+    [![front base][img_base_front_toggle]][img_base_front_toggle]
 </div>
 </div>
 
@@ -159,11 +159,9 @@ This component is available with heat set inserts.
 [:material-git: Rear Main Body Files][git_main_body_rear]{ .md-button }
 </div>
 <div markdown class="jh-card">
-=== "Dual 40mm Fans"
+=== "Quad 40mm Fans"
 
-    [![rear main body with dual fans][img_rear_dual]{ width="360" }][img_rear_dual]
-
-    You will also need to print [:material-directions: 40mm fan cages](#fans) and (optionally) TPU gaskets for this variation.
+    [![rear main body with four 40mm fans installed][img_rear_quad]{ width="360" }][img_rear_quad]
 
 === "No Fan Mounts"
 
@@ -184,7 +182,7 @@ Templates are available in both `STEP` and Fusion 360 formats to add support for
 
 <figure markdown>
   [![the three types of trays][img_trays]{ width="640" }][img_trays]
-  <figcaption>The four types of trays in red.</figcaption>
+  <figcaption>The four types of trays in red and blue.</figcaption>
 </figure>
 
 **Trays**
@@ -390,14 +388,14 @@ Rear panels with panel mounted connectors are an active area of work.
 <div markdown class="jh-grid-para">
 Externally mounted fans use fan cages to cover the fan blades. There are a large number of fan sizes supported, each with a matching TPU fan gasket. The gaskets are optional and serve to reduce noise.
 
-Internally mounted fans are also available, but are limited to 40mm fans.
+40mm fans may also be internally mounted in a number of ways.
 
 [:material-git: Fans][git_fans]{ .md-button }
 
 [:octicons-checklist-24: Supported Fans][fans]{ .md-button }
 </div>
 <div markdown class="jh-grid-img">
-[![external fan cages][img_external_fan]][img_external_fan]
+[![external fan cages][img_fans]][img_fans]
 </div>
 </div>
 
@@ -431,7 +429,7 @@ A cover is available for rocker switches to prevent accidental power-off.
 </div>
 <div markdown class="jh-card">
 === "Rocker Switch"
-    [![rocker switch is highlighted in blue][img_switch]][img_switch]
+    [![rocker switch is highlighted in blue][img_rocker_switch]][img_rocker_switch]
 === "Toggle Switch"
     [![toggle switch is highlighted in blue][img_toggle_switch]][img_toggle_switch]
 </div>
@@ -456,17 +454,19 @@ Power is provided through a standard [:material-cart: fused IEC C14 power socket
 [lower_bay]: support/lower_bay.md
 [cpu]: support/cpu.md
 [psu]: support/psu.md
-[img_overview]: img/components/overview.png
-[img_core]: img/components/core.png
-[img_trays]: img/components/trays.png
-[img_panels]: img/components/panels.png
-[img_crossbar]: img/components/crossbar.png
-[img_main_front]: img/components/main_front.png
-[img_main_rear]: img/components/main_rear.png
-[img_base_front]: img/components/base_front.png
-[img_base_rear]: img/components/base_rear.png
-[img_base_unified]: img/components/base_unified.png
-[img_base_extension]: img/components/base_extension.png
+
+[img_overview]: img/components/overview.webp
+[img_core]: img/components/core.webp
+[img_trays]: img/components/trays.webp
+[img_panels]: img/components/panels.webp
+[img_crossbar]: img/components/crossbar.webp
+[img_main_front]: img/components/main_front.webp
+[img_main_rear]: img/components/main_rear.webp
+[img_base_front_rocker]: img/components/base_front_rocker.webp
+[img_base_front_toggle]: img/components/base_front_toggle.webp
+[img_base_rear]: img/components/base_rear.webp
+[img_base_unified]: img/components/base_unified.webp
+[img_base_extension]: img/components/base_extension.webp
 [img_mcu]: img/components/mcu.png
 [img_cpu]: img/components/cpu.png
 [img_lower_bay]: img/components/lower_bay.png
@@ -476,11 +476,10 @@ Power is provided through a standard [:material-cart: fused IEC C14 power socket
 [img_side]: img/components/side.png
 [img_rear]: img/components/rear.png
 [img_bottom]: img/components/bottom.png
-[img_external_fan]: img/components/external_fan.png
+[img_fans]: img/components/fans.webp
 [img_psu]: img/components/psu.png
-[img_front_40]: img/components/front_40mm.png
-[img_front_60]: img/components/front_60mm.png
-[img_rear_none]: img/components/rear_none.png
-[img_rear_dual]: img/components/rear_40mm.png
-[img_switch]: img/components/switch.png
-[img_iec]: img/components/iec.png
+[img_rear_none]: img/components/rear_none.webp
+[img_rear_quad]: img/components/rear_quad.webp
+[img_rocker_switch]: img/components/switch_rocker.webp
+[img_toggle_switch]: img/components/switch_toggle.webp
+[img_iec]: img/components/iec.webp

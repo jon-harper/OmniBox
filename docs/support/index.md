@@ -62,5 +62,5 @@ The front and rear main bodies come in versions with and without fans. The rear 
 [tour]: ../tour.md
 [9]: ../tour.md#core-parts-with-variants
 
-[img_trays]:  ../img/components/trays.png
-[img_panels]:  ../img/components/panels.png
+[img_trays]:  ../img/components/trays.webp
+[img_panels]:  ../img/components/panels.webp

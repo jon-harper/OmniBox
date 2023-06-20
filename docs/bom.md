@@ -44,7 +44,7 @@ These parts are common to all case builds. See below for additional requirements
 
 Cases with heat set inserts (HSI) use shorter fasteners in many locations. If using HSIs, an [:material-cart: M3 soldering iron tip for heat set inserts][bom_hsi_tips] is recommended.
 
-OmniBox is compatible with both M3 socket head and button head cap screws. All links are to SHCS, where applicable. [Power supplies](#psu-trays) are the exception, and use M4 screws.
+OmniBox is compatible with both M3 socket head cap screws (SHCS) and button head cap screws (BHCS). All links are to SHCS, where applicable. [Power supplies](#psu-trays) are the exception; they use M4 screws.
 
 The list below is the *minimum* required for an OmniBox build. The [Supported Parts](support/index.md) section contains additional fasteners needed for each part.
 
@@ -74,8 +74,10 @@ The list below is the *minimum* required for an OmniBox build. The [Supported Pa
 !!! note "Note: Sharp Point Wood Screws"
     To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
 
+    The "Full HSI" base versions do not require wood screws.
+
 !!! note "Heat Set Inserts"
-    Starting with v0.9.10, OmniBox exclusively uses "Voron-style" (M3 x 5mm O.D. x 4mm Length) heat set inserts. User-contributed parts that require inserts universally use the Voron-style inserts.
+    Starting with v0.9.10, OmniBox exclusively uses "Voron-style" (M3 x 5mm O.D. x 4mm Length) heat set inserts. User-contributed parts that require inserts universally use these inserts.
 
 ### Power Switch
 
@@ -109,18 +111,18 @@ The base can mount up to three concealed 40mm fans in the intakes. The below are
 
 The rear body has two versions: one with dual fans and one without any.
 
-=== "Dual 40mm Fans"
+=== "Quad 40mm Fans"
 
-    [![illustration][img_rear_dual_40mm]{ width="300" }][img_rear_dual_40mm]
+    [![illustration][img_rear_quad_40mm]{ width="300" }][img_rear_quad_40mm]
 
-    This version adds two (2) externally mounted 40mm fans.
+    This version can mount up to four(4) internal 40mm fans. Unoccupied fan mounts act as vents.
+
+    The list below is for *each* 40mm fan.
 
     | Item                              | Qty | UOM | Note                                                     |
     |-----------------------------------|-----|-----|----------------------------------------------------------|
-    | [:material-cart: 40x40x10mm axial fans][bom_4010] | 2   | ea  |                                          |
-    | [:material-cart: M3 x 20mm machine screws][bom_m3_20]  | 8   | ea	| Use 30mm screws for 20mm fans (not recommended).         |
-    | [:material-git: Fan Cage][git_fans] | 2   | ea  | :material-printer-3d-nozzle: Printed.                  |
-    | [:material-git: Fan Gasket][git_fans] | 2   | ea  | :material-printer-3d-nozzle: Printed TPU. Optional.  |
+    | [:material-cart: 40x40x10mm axial fans][bom_4010] | 1   | ea  |                                          |
+    | [:material-cart: M3 x 16mm machine screws][bom_m3_16]  | 4   | ea	| |
 
 === "No Exhaust Fans"
 
@@ -167,7 +169,5 @@ Each MCU tray on the [MCU support page](support/mcu.md) has a field for whether 
 [panel_mount]:      support/panel_mounts.md "Panel mount overview"
 [assembly]:         assembly/index.md "Assembly documentation"
 
-[img_front_40mm]: img/components/front_40mm.png
-[img_front_60mm]: img/components/front_60mm.png
-[img_rear_dual_40mm]: img/components/rear_40mm.png
-[img_rear_no_fans]: img/components/rear_none.png
+[img_rear_quad_40mm]: img/components/rear_quad.webp
+[img_rear_no_fans]: img/components/rear_none.webp

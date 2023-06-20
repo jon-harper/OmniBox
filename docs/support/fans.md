@@ -8,7 +8,7 @@ date: 2022-07-03
 This is a list of all fans sizes that OmniBox currently supports via fan cages. OmniBox has optional, concealed mounts for 40mm x 10mm fans. These do not use fan cages or gaskets.
 
 <figure markdown>
-  [![external fan cages][external_fan]{ width="480" }][external_fan]
+  [![external fan cages][img_fans]{ width="480" }][img_fans]
   <figcaption>40mm fans are the most commonly used. Rear panels can support fans up to 80mm and lids up to 120mm.</figcaption>
 </figure>
 
@@ -210,7 +210,7 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 </div>
 
 
-[external_fan]: ../img/components/external_fan.png
+[img_fans]: ../img/components/fans.webp
 
 [img_4010]: ../img/parts/fan_4010.jpg
 [img_4020]: ../img/parts/fan_4020.jpg
