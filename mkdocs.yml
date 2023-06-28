@@ -64,7 +64,8 @@ plugins:
       canonical_version: latest
       alias_type: copy
   - search
-  - macros
+  - macros:
+      module_name: "src"
 
 extra:
   version:
@@ -83,7 +84,9 @@ extra:
     version: 0.9.10 (Beta)
     this_branch: https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/
     test_branch: https://github.com/jon-harper/OmniBox/tree/unstable/
-    bom_file: assets/yaml/bom.yaml
+    bom_files: 
+        - assets/yaml/fastener.yaml
+        - assets/yaml/bom.yaml
     product_file: assets/yaml/products.yaml
 
 extra_css:
