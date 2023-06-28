@@ -1,0 +1,107 @@
+# M3 Socket Head Fasteners
+# Prefix: FS
+- 
+  id: FS300
+  name: "M3 x 4mm SHCS"
+  source:
+    supplier: Bolt Depot
+    url: "https://www.boltdepot.com/Metric_socket_cap_Stainless_steel_316_(A-4)_4mm_x_0.7mm.aspx"
+- 
+  id: FS301
+  name: "M3 x 5mm SHCS"
+  source:
+    supplier: Bolt Depot
+    url: "https://www.boltdepot.com/Product-Details.aspx?product=22496"
+- 
+  id: FS302
+  name: "M3 x 6mm SHCS"
+  source:
+    supplier: Bolt Depot
+    url: "https://www.boltdepot.com/Product-Details.aspx?product=22481"
+- 
+  id: FS303
+  name: "M3 x 8mm SHCS"
+  source:
+    supplier: Bolt Depot
+    url: "https://www.boltdepot.com/Product-Details.aspx?product=22482"
+- 
+  id: FS304
+  name: "M3 x 10mm SHCS"
+  source:
+    supplier: Bolt Depot
+    url: "https://www.boltdepot.com/Product-Details.aspx?product=22483"
+- 
+  id: FS305
+  name: "M3 x 12mm SHCS"
+  source:
+    supplier: Bolt Depot
+    url: "https://www.boltdepot.com/Product-Details.aspx?product=22484"
+- 
+  id: FS306
+  name: "M3 x 14mm SHCS"
+  source:
+    supplier: Bolt Depot
+    url: "https://www.boltdepot.com/Product-Details.aspx?product=22485"
+-
+  id: FS308
+  name: "M3 x 16mm SHCS"
+  source:
+    supplier: Bolt Depot
+    url: "https://www.boltdepot.com/Product-Details.aspx?product=22486"
+-
+  id: FS309
+  name: "M3 x 18mm SHCS"
+  source:
+    supplier: Bolt Depot
+    url: "https://www.boltdepot.com/Product-Details.aspx?product=22487"
+-
+  id: FS310
+  name: "M3 x 20mm SHCS"
+  source:
+    supplier: Bolt Depot
+    url: "https://www.boltdepot.com/Product-Details.aspx?product=22488"
+-
+  id: FS311
+  name: "M3 x 22mm SHCS"
+-
+  id: FS312
+  name: "M3 x 25mm SHCS"
+- 
+  id: FS400
+  name: "M4 x 4mm SHCS"
+- 
+  id: FS401
+  name: "M4 x 5mm SHCS"
+- 
+  id: FS402
+  name: "M4 x 6mm SHCS"
+- 
+  id: FS403
+  name: "M4 x 8mm SHCS"
+- 
+  id: FS404
+  name: "M4 x 10mm SHCS"
+- 
+  id: FS405
+  name: "M4 x 12mm SHCS"
+- 
+  id: FS406
+  name: "M4 x 14mm SHCS"
+-
+  id: FS407
+  name: "M4 x 15mm SHCS"
+-
+  id: FS408
+  name: "M4 x 16mm SHCS"
+-
+  id: FS409
+  name: "M4 x 18mm SHCS"
+-
+  id: FS410
+  name: "M4 x 20mm SHCS"
+-
+  id: FS411
+  name: "M4 x 22mm SHCS"
+-
+  id: FS412
+  name: "M4 x 25mm SHCS"
