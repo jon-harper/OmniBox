@@ -17,7 +17,7 @@ def parse_part_entry(entry : dict) -> Part:
             ret.icon = value
         elif key == "source":
             ret.source = SourceUrl(value["supplier"], value["url"])
-        elif key == "image_url":
+        elif key == "img":
             ret.image_url = value
         elif key == "note":
             ret.note = value

@@ -23,6 +23,6 @@ def define_env(env):
         return "[:material-git: Files ][{}]".format(url) + "{ .md-button }"
     
     @env.macro
-    def product_img(url, text=""):
-        return "[![{}][{}]][{}]".format(text, url, url)
+    def product_img(url, text="", width="480px"):
+        return "[![{}]({})]({})".format(text, url, url)
     

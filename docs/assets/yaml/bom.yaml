@@ -3,6 +3,7 @@
 - 
   id: PSU001
   name: "Mean Well LRS-350 Series"
+  img: "img/parts/mw_lrs_350_24.jpg"
   source:
     supplier: "Amazon"
     url: "https://www.amazon.com/MEAN-WELL-LRS-350-24-Printer-Industrial/dp/B07VRK86SP"
