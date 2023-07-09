@@ -9,8 +9,8 @@ The Universal Bill of Materials is a base list common to all builds. Additional 
 
 - There are no affiliate links used on this site.
 - The :material-cart: shopping cart icon indicates an external link to a shopping website.
-- These links are not an endorsement and for reference only.
-- The design allows for longer-than-specified screws in certain locations. The [assembly guide][assembly] notes where substitutions can be made.
+- These links are not an endorsement and are for reference only.
+- The design allows for longer-than-specified screws in many locations. The [assembly guide][assembly] notes where substitutions can be made.
 - Wiring is only specified for the IEC power socket, power switch, and power supply. Additional wiring and fusing considerations are configuration-specific.
 
 ## Universal Bill of Materials
@@ -26,27 +26,34 @@ These parts are common to all case builds. See below for additional requirements
 | [:material-cart: Fork connectors, 14-16 awg, #8, Insulated][bom_fork_connector]       | 1   | ea  | Ring connectors can be used as well. |
 | [:material-cart: IEC C14 socket with fuse][bom_iec]          | 1   | ea  |                                    |
 | Glass Fuse, 5x20mm                     | 1   | ea  | See note below.                                          |
+| Compatible power switch                | 1   | ea  | See the [Power Switch](#power-switch) section.           |
 | Compatible MCU                         | 1   | ea  | See the [Supported Parts][support] list.                 |
-| Compatible 128x64 or TFT LCD display   | 1   | ea  | See the [Supported Parts][support] list.                 |
-| Compatible power supply                | 1   | ea  | See the [Supported Parts][support] list.                 |
+| Compatible display                     | 1   | ea  | See the [Supported Parts][support] list.                 |
+| Compatible PSU                         | 1   | ea  | See the [Supported Parts][support] list.                 |
 
 !!! note "Note: Glass Fuses"
-    Socket fuses do *not* replace the fuses on your board or inline fuses.
+    Socket fuses do **not** replace the fuses on your board or inline fuses.
 
     Users will typically want to fuse with fast or medium blow fuses on the socket. Determining the correct fuse for a given configuration is beyond the scope of this documentation. The Oznium blog has an [excellent guide][fuse_guide] on choosing a fuse size.
 
 !!! note "Note: Wiring and Connectors"
-    This list is not all-encompassing for wiring. Additional connectors and wiring may be needed, including for [grounding your bed/frame to earth][ground_guide].
+    Additional connectors and wiring may be needed, including for [grounding your bed/frame to earth][ground_guide].
 
 ## Core Configurations
 
 ### Fasteners
 
-Cases with heat set inserts (HSI) use shorter fasteners in many locations. If using HSIs, an [:material-cart: M3 soldering iron tip for heat set inserts][bom_hsi_tips] is recommended.
+#### Cap Screws
 
 OmniBox is compatible with both M3 socket head cap screws (SHCS) and button head cap screws (BHCS). All links are to SHCS, where applicable. [Power supplies](#psu-trays) are the exception; they use M4 screws.
 
-The list below is the *minimum* required for an OmniBox build. The [Supported Parts](support/index.md) section contains additional fasteners needed for each part.
+#### HSI Builds
+
+Cases with heat set inserts (HSI) use shorter fasteners in many locations. If using HSIs, an [:material-cart: M3 soldering iron tip for heat set inserts][bom_hsi_tips] is recommended.
+
+#### Fastener BOM
+
+The lists below are the minimum required for an OmniBox build. The [Supported Parts](support/index.md) section contains additional fasteners needed for each part.
 
 === "Stock (No HSI)"
 
@@ -70,6 +77,10 @@ The list below is the *minimum* required for an OmniBox build. The [Supported Pa
     | [:material-cart: M3 x 12mm machine screws][bom_m3_12]  | 8   | ea  |           |
     | [:material-cart: M3 x 20mm machine screws][bom_m3_20]  | 2   | ea  |           |
     | [:material-cart: #6 x 3/4" sharp point wood screws][bom_wood_screw] | 8 | ea | See note below. |
+
+=== "Full HSI"
+
+    TODO
 
 !!! note "Note: Sharp Point Wood Screws"
     To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
@@ -115,7 +126,7 @@ The rear body has two versions: one with dual fans and one without any.
 
     [![illustration][img_rear_quad_40mm]{ width="300" }][img_rear_quad_40mm]
 
-    This version can mount up to four(4) internal 40mm fans. Unoccupied fan mounts act as vents.
+    This version can mount up to four (4) internal 40mm fans. Unoccupied fan mounts act as vents.
 
     The list below is for *each* 40mm fan.
 
