@@ -1,5 +1,5 @@
 ---
-title: Microcontroller Boards
+title: Microcontroller Boards (MCUs)
 summary: List of MCU control boards.
 authors: Jon Harper
 date: 2022-07-22
@@ -298,7 +298,7 @@ Compatible with all versions.
 </div>
 </div>
 
-[img_mcu]: ../img/components/mcu.png
+[img_mcu]: ../img/components/mcu.webp
 
 [img_btt_octopus]: ../img/parts/btt_octopus_1.jpg
 [img_btt_skr_2]: ../img/parts/btt_skr_2.jpg

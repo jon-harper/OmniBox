@@ -148,6 +148,6 @@ The Fusion 360 file also contains sketches for cut-and-paste.
 
 [fans]: fans.md
 
-[img_rear]: ../img/components/rear.png
-[img_front]: ../img/components/front_panel.png
-[img_side]: ../img/components/side.png
+[img_rear]: ../img/components/rear.webp
+[img_front]: ../img/components/front_panel.webp
+[img_side]: ../img/components/side.webp

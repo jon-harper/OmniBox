@@ -403,7 +403,7 @@ Externally mounted fans use fan cages to cover the fan blades. There are a large
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-A base extension shim mounts between the base and the bottom panel and adds 1cm of height. This is needed for the RSP-500 PSU.
+A base extension shim mounts between the base and the bottom panel and adds 10mm or 13mm of height. This is needed for the RSP-500 and other large PSUs.
 
 This part is not needed if you print the [:material-directions: extended Unified Base](#unified-base).
 
