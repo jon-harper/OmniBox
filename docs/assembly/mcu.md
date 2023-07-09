@@ -69,7 +69,6 @@ date: 2022-10-30
 
 ![illustration][mcu_final]
 
-## MCU Wiring
 
 [mcu1]: ../img/assembly/trays/mcu/mcu1.png
 [mcu2]: ../img/assembly/trays/mcu/mcu2.png

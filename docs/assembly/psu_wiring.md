@@ -117,4 +117,4 @@ Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp
 [psu5]: ../img/assembly/core/psu/wire5.png
 [psu6]: ../img/assembly/core/psu/wire6.png
 [psu_final]: ../img/assembly/core/psu/wire_finished.png
-[wires]: ../img/assembly/core/psu/wires.png
+[wires]: ../img/assembly/core/psu/wires.webp

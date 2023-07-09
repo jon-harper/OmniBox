@@ -203,8 +203,8 @@ Assembly of the case starts with the Base and PSU Tray.
 [psu5]: ../img/assembly/trays/psu/psu5.png
 [psu_final]: ../img/assembly/trays/psu/psu_final.png
 
-[iec1]: ../img/assembly/iec/iec1.png
-[iec2]: ../img/assembly/iec/iec2.png
+[iec1]: ../img/assembly/iec/iec1.webp
+[iec2]: ../img/assembly/iec/iec2.webp
 
 [base_prep1]: ../img/assembly/core/base/base_prep1.png
 [base_prep2]: ../img/assembly/core/base/base_prep2.png

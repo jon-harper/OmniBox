@@ -72,4 +72,4 @@ Sometimes an off-center insert is not discovered until later. The most common sy
 5. Use the screw to straighten the insert before the plastic cools around it.
 
 
-[img_hsi]: ../img/bom/hsi.png
+[img_hsi]: ../img/bom/hsi.webp
