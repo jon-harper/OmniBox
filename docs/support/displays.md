@@ -238,7 +238,7 @@ Known compatible displays are listed below, along with mounting options.
 </div>
 
 
-[img_display]: ../img/components/display.png
+[img_display]: ../img/components/display.webp
 [img_btt_tft35_e3]: ../img/parts/btt_35tft_e3.jpg
 [img_12864]: ../img/parts/classic_12864.jpg
 [img_mini12864]: ../img/parts/mini12864.jpg

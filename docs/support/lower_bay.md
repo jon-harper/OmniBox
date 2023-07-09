@@ -378,7 +378,7 @@ The LM2596 step down is rated to 3A **with a heatsink**, enough to power a Raspb
 </div>
 </div>
 
-[img_lower_bay]: ../img/components/lower_bay.png
+[img_lower_bay]: ../img/components/lower_bay.webp
 [img_drok_3a]: ../img/parts/buck_3a_drok.jpg
 [img_drok_5a]: ../img/parts/buck_5a_drok.jpg
 [img_basic_lm2596]: ../img/parts/lm2596.jpg

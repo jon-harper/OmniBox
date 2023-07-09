@@ -1,5 +1,5 @@
 ---
-title: Power Supplies/PSUs
+title: Power Supplies (PSUs)
 summary: List of power supplies supported by OmniBox.
 authors: Jon Harper
 date: 2022-07-22
@@ -149,7 +149,7 @@ The RS-25-5 is a common second power supply for SBCs and fits on a lower bay tra
 </div>
 </div>
 
-[psu]: ../img/components/psu.png
+[psu]: ../img/components/psu.webp
 [img_lrs_350]: ../img/parts/mw_lrs_350_24.jpg
 [img_rsp_500]: ../img/parts/mw_rsp_500_24.jpg
 [img_rs_25_5]: ../img/parts/rs_25_5.png
