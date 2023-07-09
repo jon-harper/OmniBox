@@ -92,4 +92,4 @@ date: 2022-11-03
 [front5]: ../img/assembly/panels/front/front5.png
 [front6]: ../img/assembly/panels/front/front6.png
 [front_final]: ../img/assembly/panels/front/front_final.png
-[reader1]: ../img/assembly/misc/reader1.png
+[reader1]: ../img/assembly/misc/reader1.webp

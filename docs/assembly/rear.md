@@ -97,5 +97,5 @@ Before we install the lid, all remaining wiring for the MCU and any other compon
 [rear2]: ../img/assembly/panels/rear/rear2.png
 [rear_final]: ../img/assembly/panels/rear/rear_final.png
 
-[earth]: ../img/assembly/earth.png
-[wiring]: ../img/assembly/wiring.jpg
+[earth]: ../img/assembly/earth.webp
+[wiring]: ../img/assembly/wiring.webp
