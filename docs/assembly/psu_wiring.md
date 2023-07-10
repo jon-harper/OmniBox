@@ -108,13 +108,13 @@ Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp
 
 [checklist]: ../printing.md#printed-component-checklist "Print Checklist"
 
-[intro]:   ../img/assembly/core/base/base_final.png
+[intro]:   ../img/assembly/core/base/base_final.webp
 
-[psu1]: ../img/assembly/core/psu/wire1.png
-[psu2]: ../img/assembly/core/psu/wire2.png
-[psu3]: ../img/assembly/core/psu/wire3.png
-[psu4]: ../img/assembly/core/psu/wire4.png
-[psu5]: ../img/assembly/core/psu/wire5.png
-[psu6]: ../img/assembly/core/psu/wire6.png
-[psu_final]: ../img/assembly/core/psu/wire_finished.png
+[psu1]: ../img/assembly/core/psu/wire1.webp
+[psu2]: ../img/assembly/core/psu/wire2.webp
+[psu3]: ../img/assembly/core/psu/wire3.webp
+[psu4]: ../img/assembly/core/psu/wire4.webp
+[psu5]: ../img/assembly/core/psu/wire5.webp
+[psu6]: ../img/assembly/core/psu/wire6.webp
+[psu_final]: ../img/assembly/core/psu/wire_finished.webp
 [wires]: ../img/assembly/core/psu/wires.webp
