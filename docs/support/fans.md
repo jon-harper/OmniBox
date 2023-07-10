@@ -212,13 +212,13 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 [img_fans]: ../img/components/fans.webp
 
-[img_4010]: ../img/parts/fan_4010.jpg
-[img_4020]: ../img/parts/fan_4020.jpg
-[img_5012]: ../img/parts/fan_5012.jpg
-[img_6015]: ../img/parts/fan_6015.jpg
-[img_6020]: ../img/parts/fan_6020.jpg
-[img_6025]: ../img/parts/fan_6025.jpg
-[img_8020]: ../img/parts/fan_8020.jpg
-[img_8025]: ../img/parts/fan_8025.jpg
-[img_9225]: ../img/parts/fan_9225.jpg
-[img_12025]: ../img/parts/fan_12025.jpg
+[img_4010]: ../img/parts/fan_4010.webp
+[img_4020]: ../img/parts/fan_4020.webp
+[img_5012]: ../img/parts/fan_5012.webp
+[img_6015]: ../img/parts/fan_6015.webp
+[img_6020]: ../img/parts/fan_6020.webp
+[img_6025]: ../img/parts/fan_6025.webp
+[img_8020]: ../img/parts/fan_8020.webp
+[img_8025]: ../img/parts/fan_8025.webp
+[img_9225]: ../img/parts/fan_9225.webp
+[img_12025]: ../img/parts/fan_12025.webp

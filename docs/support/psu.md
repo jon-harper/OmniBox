@@ -28,8 +28,7 @@ PSU trays are found in the [:material-git: `/Trays/PSU`][git_psu] git folder. Ex
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_]][img_]
-</div>
-</div>
+</div></div>
  -->
 
 ## Mean Well
@@ -150,9 +149,9 @@ The RS-25-5 is a common second power supply for SBCs and fits on a lower bay tra
 </div>
 
 [psu]: ../img/components/psu.webp
-[img_lrs_350]: ../img/parts/mw_lrs_350_24.jpg
-[img_rsp_500]: ../img/parts/mw_rsp_500_24.jpg
-[img_rs_25_5]: ../img/parts/rs_25_5.png
-[img_lrs_450]: ../img/parts/lrs_450_24.png
-[img_lrs_600]: ../img/parts/lrs_600_24.png
-[img_se_450]: ../img/parts/se_450_24.png
+[img_lrs_350]: ../img/parts/mw_lrs_350_24.webp
+[img_rsp_500]: ../img/parts/mw_rsp_500_24.webp
+[img_rs_25_5]: ../img/parts/rs_25_5.webp
+[img_lrs_450]: ../img/parts/lrs_450_24.webp
+[img_lrs_600]: ../img/parts/lrs_600_24.webp
+[img_se_450]: ../img/parts/se_450_24.webp
