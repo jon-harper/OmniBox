@@ -63,7 +63,7 @@ Next we'll add the front and rear halves of the Main Body to the Base.
     If inserting the screws becomes difficult, back out and check:
 
     - That both halves of the main body are still correctly aligned; and
-    - The alignment of the screws inserted so far (i.e., that they are not canted).
+    - That the inserted screws are straight and not canted to the side.
     
 
 <figure markdown>
