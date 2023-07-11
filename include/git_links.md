@@ -38,6 +38,7 @@
 [git_display]:          https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Display                      "OmniBox GitHub: Display Panels"
 [git_display_template]: https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Display/Template				"OmniBox GitHub: Display Panel Templates"
 [git_btt_tft_35]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Display/BTT%203.5%20TFT      "OmniBox GitHub: BIGTREETECH 3.5" TFT Display Panel"
+[git_btt_tft_35_e3]:    https://github.com/jon-harper/OmniBox/tree/unstable/Panels/Display/BTT%203.5%20TFT%20E3    "OmniBox GitHub: BIGTREETECH 3.5" TFT Display Panel"
 [git_btt_tft_24]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Display/BTT%202.4%20TFT      "OmniBox GitHub: BIGTREETECH 2.4" TFT Display Panel"
 [git_btt_tft_50]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Display/BTT%205.0%20TFT      "OmniBox GitHub: BIGTREETECH 5" TFT Display Panel"
 [git_btt_pitft_50]:     https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Display/BTT%20PI%20TFT50     "OmniBox GitHub: BIGTREETECH 5" Pi TFT Display Panel"

@@ -1,5 +1,5 @@
 ---
-title: Contributing and License
+title: License & Contributing
 summary: License page for OmniBox.
 authors: Jon Harper
 date: 2022-11-03
@@ -7,7 +7,7 @@ date: 2022-11-03
 
 ## License
 
-OmniBox and its documentation are released under the MIT License.
+OmniBox and its documentation are released under the MIT License. OmniBox is free of charge, but [:simple-kofi: donations are welcome](https://ko-fi.com/jonspaceharper) to help offset development costs.
 
 ```
 MIT License
