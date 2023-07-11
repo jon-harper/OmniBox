@@ -377,16 +377,16 @@ The LM2596 step down is rated to 3A **with a heatsink**, enough to power a Raspb
 </div>
 
 [img_lower_bay]: ../img/components/lower_bay.webp
-[img_drok_3a]: ../img/parts/buck_3a_drok.jpg
-[img_drok_5a]: ../img/parts/buck_5a_drok.jpg
-[img_basic_lm2596]: ../img/parts/lm2596.jpg
-[img_led_lm2596]: ../img/parts/lm2596_led.jpg
-[img_creality_mosfet]: ../img/parts/mosfet_creality.jpeg
-[img_fotek_ssr_40da]: ../img/parts/fotek_ssr-40_da.jpeg
-[img_hiletgo_2a]: ../img/parts/lm2596_led_2.jpg
-[img_wago_nuts]: ../img/parts/wago_nuts.jpg
-[img_btt_ups_24v]: ../img/parts/btt_ups_24v.jpg
-[img_4010]: ../img/parts/fan_4010.jpg
-[img_btt_relay]: ../img/parts/btt_relay_1.2.jpg
-[img_omron_ssr]: ../img/parts/omron_ssr.jpg
+[img_drok_3a]: ../img/parts/buck_3a_drok.webp
+[img_drok_5a]: ../img/parts/buck_5a_drok.webp
+[img_basic_lm2596]: ../img/parts/lm2596.webp
+[img_led_lm2596]: ../img/parts/lm2596_led.webp
+[img_creality_mosfet]: ../img/parts/mosfet_creality.webp
+[img_fotek_ssr_40da]: ../img/parts/fotek_ssr-40_da.webp
+[img_hiletgo_2a]: ../img/parts/lm2596_led_2.webp
+[img_wago_nuts]: ../img/parts/wago_nuts.webp
+[img_btt_ups_24v]: ../img/parts/btt_ups_24v.webp
+[img_4010]: ../img/parts/fan_4010.webp
+[img_btt_relay]: ../img/parts/btt_relay_1.2.webp
+[img_omron_ssr]: ../img/parts/omron_ssr.webp
 [img_btt_u2c]: ../img/parts/btt_u2c.webp

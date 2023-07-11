@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-10-29
 ---
 
-So far we have assembled the Base. Next we'll add the Main Body. This is made of front and rear pieces that fasten to one another and the Base.
+Next we'll add the front and rear halves of the Main Body to the Base.
 
 ## Attach the Main Body
 
@@ -21,17 +21,26 @@ So far we have assembled the Base. Next we'll add the Main Body. This is made of
     | Parts                        | Qty | Note                            |
     |------------------------------|-----|---------------------------------|
     | #6 x 3/4" sharp point screws | 8   |                                 |
-    | [:material-git: `Main Body - Front - HSI - 40mm Internal.stl`][git_main_body_front] | 1   | :material-printer-3d-nozzle: Printed |
-    | [:material-git: `Main Body - Rear - HSI - Dual 40mm Fans.stl`][git_main_body_rear]  | 1   | :material-printer-3d-nozzle: Printed |
+    | [:material-git: `Main Body - Front - HSI.stl`][git_main_body_front] | 1   | :material-printer-3d-nozzle: Printed |
+    | [:material-git: `Main Body - Rear - HSI - No Fans.stl`][git_main_body_rear]  | 1   | :material-printer-3d-nozzle: Printed |
 
 
-=== "Generic"
+=== "Stock and HSI"
 
     | Parts                        | Qty | Note                            |
     |------------------------------|-----|---------------------------------|
     | #6 x 3/4" sharp point screws | 8   |                                 |
     | [:material-git: Main Body - Front][git_main_body_front] | 1   | :material-printer-3d-nozzle: Printed |
     | [:material-git: Main Body - Rear][git_main_body_rear]  | 1   | :material-printer-3d-nozzle: Printed |
+
+=== "Full HSI"
+    
+    | Parts                        | Qty | Note                            |
+    |------------------------------|-----|---------------------------------|
+    | M3 x 6mm machine screws      | 8   |                                 |
+    | [:material-git: `Main Body - Front - Full HSI.stl`][git_main_body_front] | 1   | :material-printer-3d-nozzle: Printed |
+    | [:material-git: `Main Body - Rear - Full HSI.stl`][git_main_body_rear]  | 1   | :material-printer-3d-nozzle: Printed |
+
 
 ### Directions
 
@@ -66,7 +75,7 @@ So far we have assembled the Base. Next we'll add the Main Body. This is made of
 
 [![illustration][main_final]{width="640"}][main_final]
 
-## Secure and Align the Center
+## Join the Main Body
 
 ??? overview
     <video controls="">
@@ -75,9 +84,15 @@ So far we have assembled the Base. Next we'll add the Main Body. This is made of
 
 ### Materials
 
-| Parts                     | Qty | Note                            |
-|---------------------------|-----|---------------------------------|
-| M3 x 8mm machine screws   | 6   | Can use 10mm screws instead.    |
+=== "Stock / HSI"
+    | Parts                     | Qty | Note                            |
+    |---------------------------|-----|---------------------------------|
+    | M3 x 8mm machine screws   | 6   | Can use 10mm screws instead.    |
+
+=== "Full HSI"
+    | Parts                     | Qty | Note                            |
+    |---------------------------|-----|---------------------------------|
+    | M3 x 6mm machine screws   | 6   |                                 |
 
 ### Directions
 
@@ -105,89 +120,7 @@ So far we have assembled the Base. Next we'll add the Main Body. This is made of
 
 [![illustration][center_final]{width="640"}][center_final]
 
-## Add Fans
-
-??? overview
-    <video controls="">
-        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/fans.mp4" type="video/mp4">
-    </video>
-
-### Materials
-
-The illustrated examples are 40mm Internal Fan for the front and Dual 40mm Fans for the rear.
-
-#### Front
-
-=== "40mm Internal Fan (Illustrated)"
-
-    | Parts                     | Qty | Note                            |
-    |---------------------------|-----|---------------------------------|
-    | M3 x 16mm machine screws  | 4   |                                 |
-    | 40x40x10mm axial fan      | 1   |                                 |
-
-=== "60mm External Fan"
-
-    The linked fan cages are for a 15mm thick 60mm fan. 20mm and 25mm fans require a different cage.
-
-    | Parts                     | Qty | Note                            |
-    |---------------------------|-----|---------------------------------|
-    | M3 x 25mm machine screws  | 4   | Use screws 10mm longer than fan depth. |
-    | 60x60x15mm axial fan      | 1   |                                 |
-    | [:material-git: 60mmx15mm Fan Cage][git_fans_6015] | 2 | :material-printer-3d-nozzle: Printed |
-    | [:material-git: 60mmx15mm Fan Gasket][git_fans_6015] | 2 | :material-printer-3d-nozzle: Printed TPU, Optional |
-
-#### Rear
-
-=== "Dual 40mm Fans (Illustrated)"
-
-    | Parts                     | Qty | Note                            |
-    |---------------------------|-----|---------------------------------|
-    | M3 x 20mm machine screws  | 8   |                                 |
-    | 40x40x10mm axial fan      | 2   |                                 |
-    | [:material-git: 40mmx10mm Fan Cage][git_fans_4010] | 2 | :material-printer-3d-nozzle: Printed |
-    | [:material-git: 40mmx10mm Fan Gasket][git_fans_4010] | 2 | :material-printer-3d-nozzle: Printed TPU, Optional |
-
-=== "No Rear Fans"
-
-    No additional materials are needed for this configuration.
-
-### Directions
-
-<figure markdown>
-  [![illustration][internal_fan1]{width="480"}][internal_fan1]
-  <figcaption>1. Place a 40mm fan in the Front Main Body intake. Most users will prefer the fan wires to trail off towards the rear of the case.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][internal_fan2]{width="480"}][internal_fan2]
-  <figcaption>2. Attach with M3 x 16mm screws. If using a fan that has counterbored holes, shorter screws will be needed (10-12mm).</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][external_fan1]{width="480"}][external_fan1]
-  <figcaption>3. Set a 40mm fan in the external fan cage. If using a TPU gasket, cover the fan with the gasket. You may wish to cut a notch in the gasket for the fan wiring.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][external_fan2]{width="480"}][external_fan2]
-  <figcaption>4. Insert the fan wiring through the intake, then line up the fan assembly with the mounting holes.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][external_fan3]{width="480"}][external_fan3]
-  <figcaption>5. Secure the fan and cage with four (4) M3 x 20mm screws.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][external_fan4]{width="480"}][external_fan4]
-  <figcaption>6. Repeat steps 3-5 for the second fan.</figcaption>
-</figure>
-
-### Reference
-
-[![illustration][external_fan_final]{width="640"}][external_fan_final]
-
-## Attach Crossbar
+## Attach the Crossbar
 
 ??? overview
     <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/crossbar.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
@@ -220,27 +153,18 @@ The illustrated examples are 40mm Internal Fan for the front and Dual 40mm Fans 
 [panels]:       panels.md "Panel Assembly"
 [checklist]:    ../printing.md#print-checklist "Print Checklist"
 
-[main1]:        ../img/assembly/core/main/main1.png
-[main2]:        ../img/assembly/core/main/main2.png
-[main3]:        ../img/assembly/core/main/main3.png
-[main4]:        ../img/assembly/core/main/main4.png
-[main_final]:   ../img/assembly/core/main/main_final.png
+[main1]:        ../img/assembly/core/main/main1.webp
+[main2]:        ../img/assembly/core/main/main2.webp
+[main3]:        ../img/assembly/core/main/main3.webp
+[main4]:        ../img/assembly/core/main/main4.webp
+[main_final]:   ../img/assembly/core/main/main_final.webp
 
-[center1]:      ../img/assembly/core/center/center1.png
-[center2]:      ../img/assembly/core/center/center2.png
-[center3]:      ../img/assembly/core/center/center3.png
-[center4]:      ../img/assembly/core/center/center4.png
-[center_final]: ../img/assembly/core/main/main_final.png
+[center1]:      ../img/assembly/core/center/center1.webp
+[center2]:      ../img/assembly/core/center/center2.webp
+[center3]:      ../img/assembly/core/center/center3.webp
+[center4]:      ../img/assembly/core/center/center4.webp
+[center_final]: ../img/assembly/core/center/center_final.webp
 
-[internal_fan1]: ../img/assembly/core/fans/internal_fan1.png
-[internal_fan2]: ../img/assembly/core/fans/internal_fan2.png
-[internal_fan_final]: ../img/assembly/core/fans/internal_fan_final.png
-[external_fan1]: ../img/assembly/core/fans/external_fan1.png
-[external_fan2]: ../img/assembly/core/fans/external_fan2.png
-[external_fan3]: ../img/assembly/core/fans/external_fan3.png
-[external_fan4]: ../img/assembly/core/fans/external_fan4.png
-[external_fan_final]: ../img/assembly/core/fans/external_fan_final.png
-
-[crossbar1]:    ../img/assembly/core/crossbar/crossbar1.png
-[crossbar2]:    ../img/assembly/core/crossbar/crossbar2.png
-[crossbar_final]: ../img/assembly/core/crossbar/crossbar_final.png
+[crossbar1]:    ../img/assembly/core/crossbar/crossbar1.webp
+[crossbar2]:    ../img/assembly/core/crossbar/crossbar2.webp
+[crossbar_final]: ../img/assembly/core/crossbar/crossbar_final.webp

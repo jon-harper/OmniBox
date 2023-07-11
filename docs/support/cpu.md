@@ -90,6 +90,6 @@ This tray has the Raspberry Pi mounting hole pattern and is compatible with clon
 
 
 [cpu]: ../img/components/cpu.webp
-[img_rpi_3b]: ../img/parts/rpi_3b_plus.jpg
-[img_rpi_4b]: ../img/parts/rpi_4b.jpg
+[img_rpi_3b]: ../img/parts/rpi_3b_plus.webp
+[img_rpi_4b]: ../img/parts/rpi_4b.webp
 [panel_mounts]: panel_mounts.md

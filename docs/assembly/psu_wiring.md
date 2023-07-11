@@ -12,9 +12,9 @@ At this point, it is a good idea to wire the power supply, power switch, and IEC
 ### Cautions
 
 !!! important
-    For this example, we will use *red* wires for the power switch and use them for the *line* leg from the power socket to switch to PSU (normally labeled 'L' on the PSU).
+    For this example, we will use *red* wires for the power switch and use them for the *live* leg from the power socket to switch to PSU (normally labeled 'L' on the PSU).
     
-    It is strongly recommended that the switch operate on the line wire instead of the neutral.
+    It is strongly recommended that the switch operate on the live wire instead of the neutral.
 
 !!! Warning
     Be careful of polarity and always check your work!
@@ -76,12 +76,12 @@ Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp
 
 <figure markdown>
   [![illustration][psu1]{width="480"}][psu1]
-  <figcaption>1. Remove the red wire from the IEC socket's line (L) terminal. Note that this view is from the bottom up; the line (L) wire is the red wire on bottom.</figcaption>
+  <figcaption>1. Remove the red wire from the IEC socket's live (L) terminal. Note that this view is from the bottom up; the live (L) wire is the red wire on bottom.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][psu2]{width="480"}][psu2]
-  <figcaption>2. Attach one end of the wire with two spade connectors to the socket's line (L) terminal.</figcaption>
+  <figcaption>2. Attach one end of the wire with two spade connectors to the socket's live (L) terminal.</figcaption>
 </figure>
 
 <figure markdown>
@@ -96,11 +96,14 @@ Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp
 
 <figure markdown>
   [![illustration][psu5]{width="480"}][psu5]
-  <figcaption>5. Run the wire back through the PSU tray's wiring hole and secure the fork terminal to the PSU's line (L) AC terminal.</figcaption>
+  <figcaption>5. Run the wire back through the PSU tray's wiring hole and secure the fork terminal to the PSU's live (L) AC terminal.</figcaption>
 </figure>
 
-!!! note
-    There are zip tie anchors in the side walls to secure power switch wiring and any excess.
+<figure markdown>
+  [![illustration][psu6]{width="480"}][psu6]
+  <figcaption>6. Connect the remaining IEC socket connectors to the PSU: neutral and protective earth/ground (often yellow or green).</figcaption>
+</figure>
+
 
 ### Reference
 
@@ -108,13 +111,13 @@ Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp
 
 [checklist]: ../printing.md#printed-component-checklist "Print Checklist"
 
-[intro]:   ../img/assembly/core/base/base_final.png
+[intro]:   ../img/assembly/core/base/base_final.webp
 
-[psu1]: ../img/assembly/core/psu/wire1.png
-[psu2]: ../img/assembly/core/psu/wire2.png
-[psu3]: ../img/assembly/core/psu/wire3.png
-[psu4]: ../img/assembly/core/psu/wire4.png
-[psu5]: ../img/assembly/core/psu/wire5.png
-[psu6]: ../img/assembly/core/psu/wire6.png
-[psu_final]: ../img/assembly/core/psu/wire_finished.png
-[wires]: ../img/assembly/core/psu/wires.png
+[psu1]: ../img/assembly/core/psu/wire1.webp
+[psu2]: ../img/assembly/core/psu/wire2.webp
+[psu3]: ../img/assembly/core/psu/wire3.webp
+[psu4]: ../img/assembly/core/psu/wire4.webp
+[psu5]: ../img/assembly/core/psu/wire5.webp
+[psu6]: ../img/assembly/core/psu/wire6.webp
+[psu_final]: ../img/assembly/core/psu/wire_finished.webp
+[wires]: ../img/assembly/core/psu/wires.webp

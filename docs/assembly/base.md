@@ -78,7 +78,7 @@ Assembly of the case starts with the Base and PSU Tray.
     | M3 x 8mm machine screws   | 2   |                                 |
     | M3 x 16mm machine screws  | 4   | Four per fan.                   |
     | 40mm x 10mm axial fan     | 1   | Optional, up to three.          |
-    | SPST toggle switch        | 1   |                                 |
+    | SPST rocker switch        | 1   |                                 |
     | IEC C14 socket with fuse holder | 1   |                           |
     | Fuse, Glass, 5x20mm, Fast Blow | 1 | |                            |
     | [:material-git: `Base - Front.stl`][git_base_front] | 1   | :material-printer-3d-nozzle: Printed |
@@ -196,23 +196,23 @@ Assembly of the case starts with the Base and PSU Tray.
 
 [![illustration][base_final]{width="640"}][base_final]
 
-[psu1]: ../img/assembly/trays/psu/psu1.png
-[psu2]: ../img/assembly/trays/psu/psu2.png
-[psu3]: ../img/assembly/trays/psu/psu3.png
-[psu4]: ../img/assembly/trays/psu/psu4.png
-[psu5]: ../img/assembly/trays/psu/psu5.png
-[psu_final]: ../img/assembly/trays/psu/psu_final.png
+[psu1]: ../img/assembly/trays/psu/psu1.webp
+[psu2]: ../img/assembly/trays/psu/psu2.webp
+[psu3]: ../img/assembly/trays/psu/psu3.webp
+[psu4]: ../img/assembly/trays/psu/psu4.webp
+[psu5]: ../img/assembly/trays/psu/psu5.webp
+[psu_final]: ../img/assembly/trays/psu/psu_final.webp
 
-[iec1]: ../img/assembly/iec/iec1.png
-[iec2]: ../img/assembly/iec/iec2.png
+[iec1]: ../img/assembly/iec/iec1.webp
+[iec2]: ../img/assembly/iec/iec2.webp
 
-[base_prep1]: ../img/assembly/core/base/base_prep1.png
-[base_prep2]: ../img/assembly/core/base/base_prep2.png
-[base_prep3]: ../img/assembly/core/base/base_prep3.png
-[base_prep4]: ../img/assembly/core/base/base_prep4.png
-[base_prep5]: ../img/assembly/core/base/base_prep5.png
-[base_prep_final]: ../img/assembly/core/base/base_prep_final.png
+[base_prep1]: ../img/assembly/core/base/base_prep1.webp
+[base_prep2]: ../img/assembly/core/base/base_prep2.webp
+[base_prep3]: ../img/assembly/core/base/base_prep3.webp
+[base_prep4]: ../img/assembly/core/base/base_prep4.webp
+[base_prep5]: ../img/assembly/core/base/base_prep5.webp
+[base_prep_final]: ../img/assembly/core/base/base_prep_final.webp
 
-[base1]:        ../img/assembly/core/base/base1.png
-[base2]:        ../img/assembly/core/base/base2.png
-[base_final]:   ../img/assembly/core/base/base_final.png
+[base1]:        ../img/assembly/core/base/base1.webp
+[base2]:        ../img/assembly/core/base/base2.webp
+[base_final]:   ../img/assembly/core/base/base_final.webp

@@ -300,17 +300,17 @@ Compatible with all versions.
 
 [img_mcu]: ../img/components/mcu.webp
 
-[img_btt_octopus]: ../img/parts/btt_octopus_1.jpg
-[img_btt_skr_2]: ../img/parts/btt_skr_2.jpg
-[img_btt_skr_3]: ../img/parts/btt_skr_3.jpg
-[img_btt_skr_3_ez]: ../img/parts/btt_skr_3_ez.jpg
-[img_btt_manta_m8p]: ../img/parts/btt_manta_m8p.jpg
-[img_creality]: ../img/parts/creality_board.jpg
-[img_creality_252]: ../img/parts/creality_2_5_2.jpg
-[img_btt_skr_e3_turbo]: ../img/parts/btt_skr_e3_turbo.jpg
-[img_btt_skr_mini_e3_v3]: ../img/parts/btt_skr_mini_e3_v3.jpg
-[img_duet_3_mini_5+]: ../img/parts/duet3_mini_5plus.jpg
-[img_duet_3_6hc]: ../img/parts/duet3_6hc.jpg
-[img_mks_monster8]: ../img/parts/mks_monster8.jpg
-[img_mks_skipr]: ../img/parts/mks_skipr.jpg
-[img_fysetc_spider]: ../img/parts/fysetc_spider_2_2.jpg
+[img_btt_octopus]: ../img/parts/btt_octopus_1.webp
+[img_btt_skr_2]: ../img/parts/btt_skr_2.webp
+[img_btt_skr_3]: ../img/parts/btt_skr_3.webp
+[img_btt_skr_3_ez]: ../img/parts/btt_skr_3_ez.webp
+[img_btt_manta_m8p]: ../img/parts/btt_manta_m8p.webp
+[img_creality]: ../img/parts/creality_board.webp
+[img_creality_252]: ../img/parts/creality_2_5_2.webp
+[img_btt_skr_e3_turbo]: ../img/parts/btt_skr_e3_turbo.webp
+[img_btt_skr_mini_e3_v3]: ../img/parts/btt_skr_mini_e3_v3.webp
+[img_duet_3_mini_5+]: ../img/parts/duet3_mini_5plus.webp
+[img_duet_3_6hc]: ../img/parts/duet3_6hc.webp
+[img_mks_monster8]: ../img/parts/mks_monster8.webp
+[img_mks_skipr]: ../img/parts/mks_skipr.webp
+[img_fysetc_spider]: ../img/parts/fysetc_spider_2_2.webp

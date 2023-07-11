@@ -5,22 +5,15 @@ authors: Jon Harper
 date: 2022-11-25
 ---
 
-Heat set inserts were introduced in version 0.9.9. 
-
-!!! note "Heat Set Inserts"
-    M3 x 4.6mm x 5.6mm inserts will be replaced in future versions with the more common "Voron-style" inserts that are M3 x 5mm x 4mm.
-    
-    User mods that require inserts universally use the Voron-style inserts.
-
 ## Time
 
-Installation time varies by experience; typically this is between 15 to 45 minutes.
+Installation time varies by experience; typically this is between 15 to 45 minutes. The "Full HSI" build has significantly more inserts than the regular HSI build and requires additional time.
 
 ## Additional Materials
 
 - Soldering iron
 - M3 heat set insert tip for soldering irons
-- Needle-nosed pliers or fine tweezers
+- Fine tweezers
 
 ## Practice Block
 
@@ -56,7 +49,7 @@ These blocks have holes in two orientations: flat and set at a 50 degree angle. 
 4. Let the shape of the hole guide the insert.
 5. Once the insert is flush or slightly below the surface, remove the iron.
 6. Check if the insert is off-center by looking for gaps around the edges. The plastic should be evenly melted around the insert.
-7. If the insert needs adjustment, gently use needle-nosed pliers or tweezers to straighten it (while still hot). See below if it the insert cools.
+7. If the insert needs adjustment, gently use fine tweezers or an M3 x 20mm screw to straighten it (while still hot). See below if the insert cools.
 
 ### Fixing a Cooled Insert
 
@@ -68,8 +61,8 @@ Sometimes an off-center insert is not discovered until later. The most common sy
 1. Preheat the soldering iron to a low temperature.
 2. Set the iron's tip on the insert, but *do not press down*.
 3. Allow three (3) to five (5) seconds for the insert to heat.
-4. Take an M3x20 or longer machine screw and thread one (1) or two (2) turns into the insert.
+4. Take an M3 x 20mm or longer machine screw and thread one (1) or two (2) turns into the insert.
 5. Use the screw to straighten the insert before the plastic cools around it.
 
 
-[img_hsi]: ../img/bom/hsi.png
+[img_hsi]: ../img/bom/hsi.webp
