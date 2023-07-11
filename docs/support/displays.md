@@ -110,14 +110,16 @@ Component names below link to the corresponding git folder. Most mounts require 
 
 ### BIGTREETECH 3.5" TFT E3
 
+{{ issue_tag(115) }}
+
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-[:material-git: Generic 12864][git_generic_12864]{ .md-button }
+[:material-git: BTT 3.5 TFT E3][git_btt_tft_35_e3]{ .md-button }
 
 [:material-cart: Product Link][bom_btt_tft35_e3]{ .md-button }
 
 - Materials: 4x M3 x 6mm
-- Notes: Uses the Generic 12864 mount.
+- Notes: *Not* compatible with the generic 12864 mount.
 
 </div>
 <div markdown class="jh-grid-img">

@@ -1,5 +1,5 @@
 ---
-title: Lower Bay Components
+title: Lower Bay/Other Components
 summary: A complete list of parts supported by OmniBox
 authors: Jon Harper
 date: 2022-07-22
@@ -198,8 +198,6 @@ The LM2596 step down is rated to 3A **with a heatsink**, enough to power a Raspb
 
 ### Omron G3A/G3NA Puck Relays
 
-!!! caution "Fit Test Pending"
-
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
@@ -286,7 +284,7 @@ The LM2596 step down is rated to 3A **with a heatsink**, enough to power a Raspb
 
 ### BIGTREETECH UPS 24V 1.0 
 
-!!! caution "Fit Test Pending [:material-git: Issue #24](https://github.com/jon-harper/OmniBox/issues/24)"
+{{ issue_tag(24) }}
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">

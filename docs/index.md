@@ -16,7 +16,7 @@ hide: toc
 
 OmniBox is a 3D printable, modular electronics case for 3D printers. It supports a wide variety of parts and includes templates to add new ones. 
 
-This project is derived from Steve Burcham's [Stand Alone Main Control Case][bgdog] V3 footprint. It is released under the [MIT License][license].
+This project is loosely derived from Steve Burcham's [Stand Alone Main Control Case][bgdog] V3. It is released under the [MIT License][license] and is distributed free of charge.
 
 
 <figure markdown>
