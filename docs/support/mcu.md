@@ -138,8 +138,7 @@ The Manta M4P is not currently supported, but may be added in a future release.
 
 ### Octopus Series
 
-The Octopus Pro is not currently supported, but may be added in a future release.
-#### Octopus
+All members of the Octopus series are compatible with the mount below.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
