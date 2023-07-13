@@ -7,7 +7,7 @@ date: 2022-10-30
 
 ## Overview
 
-Lower bay trays can be mounted in one of six (6) locations for short trays and one of two (2) locations for long trays. This flexibility is useful if tray placement is planned ahead (e.g., a buck converter can be located near the device it powers for shorter wiring).
+Lower bay trays can be mounted in one of six (6) locations for short trays and one of three (3) locations for long trays. This flexibility is useful when planning ahead (e.g., a buck converter can be located near the device it powers for shorter wiring).
 
 <video controls="">
     <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/lower_bay.mp4" type="video/mp4">
@@ -15,7 +15,7 @@ Lower bay trays can be mounted in one of six (6) locations for short trays and o
 
 ## Long Trays
 
-Long trays can be mounted on the left or right side of the lower bay. Long trays will only mount when oriented with the long side front-to-back.
+Long trays can be mounted in the front, middle, or back of the lower bay. They can only be mounted with the long side oriented sideways.
 
 ### Materials
 
@@ -24,8 +24,8 @@ Long trays can be mounted on the left or right side of the lower bay. Long trays
     | Parts                       | Qty | Note                            |
     |-----------------------------|-----|---------------------------------|
     | M3 x 6mm machine screws     | 8   |                                 |
-    | Basic LM2596 Buck Converter | 2   |  |
-    | [:material-git: Long Lower Bay Tray][git_basic_lm2596] | 1   | :material-printer-3d-nozzle: Printed |
+    | Wago 221-413 Lever Nuts     | 4   |                                 |
+    | [:material-git: `Lower Bay Tray - Wago Nuts - 8x3P.stl`][git_wago_221] | 1   | :material-printer-3d-nozzle: Printed |
 
 
 === "Generic"
@@ -41,28 +41,23 @@ Long trays can be mounted on the left or right side of the lower bay. Long trays
 ### Directions
                                                             
 <figure markdown>
-  [![illustration][lower_bay1]{width="480"}][lower_bay1]
-  <figcaption>1. Set a buck converter on the tray, aligning with the screw holes.</figcaption>
+  [![illustration][long1]{width="480"}][long1]
+  <figcaption>1. Snap the Wago connectors in place. We leave half of the tray unoccupied for future expansion.</figcaption>
 </figure>
 
 <figure markdown>
-  [![illustration][lower_bay2]{width="480"}][lower_bay2]
-  <figcaption>2. Fasten with two (2) M3 x 6mm screws.</figcaption>
+  [![illustration][long2]{width="480"}][long2]
+  <figcaption>2. Determine the best location for the tray. Here, it is set in the center to shorten wiring.</figcaption>
 </figure>
 
 <figure markdown>
-  [![illustration][lower_bay3]{width="480"}][lower_bay3]
-  <figcaption>3. Repeat the first two steps with the second buck converter.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][lower_bay4]][lower_bay4]
-  <figcaption>4. The tray will fit on either left or right side, set longways as pictured. Secure with four (4) M4 x 6mm screws.</figcaption>
+  [![illustration][long3]{width="480"}][long3]
+  <figcaption>3. Secure with four (4) M4 x 6mm screws.</figcaption>
 </figure>
 
 ## Short Trays
 
-Short trays can mount anywhere in the lower bay, including in an unoccupied CPU bay.
+Short trays can be mounted in any one of six (6) locations in the lower bay. Short trays do not always fit next to an occupied CPU bay.
 
 ### Materials
 
@@ -71,9 +66,9 @@ Short trays can mount anywhere in the lower bay, including in an unoccupied CPU 
     
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M3 x 6mm machine screws   | 8   |                                 |
-    | BIGTREETECH UPS 24V 1.0   | 1   |                                 |
-    | [:material-git: Short Lower Bay Tray][git_btt_ups_24v] | 1   | :material-printer-3d-nozzle: Printed |
+    | M3 x 6mm machine screws   | 6   |                                 |
+    | LM2596 Buck Converter     | 1   |                                 |
+    | [:material-git: `Lower Bay Tray - Generic LM2596 - Short Single Tray.stl`][git_basic_lm2596] | 1   | :material-printer-3d-nozzle: Printed |
 
 === "Generic"
 
@@ -81,24 +76,24 @@ Short trays can mount anywhere in the lower bay, including in an unoccupied CPU 
     |---------------------------|-----|---------------------------------|
     | M3 x 6mm machine screws   | 4   |                                 |
     | Compatible hardware       | 1   |                                 |
-    | Short Lower Bay Tray | 1   | :material-printer-3d-nozzle: Printed |
+    | Short Lower Bay Tray      | 1   | :material-printer-3d-nozzle: Printed |
 
     Only screws for mounting the tray are specified in the generic materials list.
 
 ### Directions
                                                             
 <figure markdown>
-  [![illustration][lower_bay5]][lower_bay5]
-  <figcaption>1. Set the UPS on the lower bay tray.</figcaption>
+  [![illustration][short1]{width="480"}][short1]
+  <figcaption>1. Set the buck converter on the tray's standoffs and secure with four (4) M4 x 6mm screws. It is a good idea to ensure the converter's voltage level is set at this point.</figcaption>
 </figure>
 
 <figure markdown>
-  [![illustration][lower_bay6]][lower_bay6]
-  <figcaption>2. Fasten the UPS to the tray with four (4) M4 x 6mm screws.</figcaption>
+  [![illustration][short2]{width="480"}][short2]
+  <figcaption>2. Determine the best location for the tray in the lower bay. In this case, the tray will not fit next to the Raspberry Pi, so it is placed in the back.</figcaption>
 </figure>
 
 <figure markdown>
-  [![illustration][lower_bay7]][lower_bay7]
+  [![illustration][short3]{width="480"}][short3]
   <figcaption>3. Secure the tray to the case with four (4) M4 x 6mm screws.</figcaption>
 </figure>
 
@@ -106,11 +101,11 @@ Short trays can mount anywhere in the lower bay, including in an unoccupied CPU 
 
 ![illustration][lower_bay_final]
 
-[lower_bay1]: ../img/assembly/trays/lower_bay/lower_bay1.png
-[lower_bay2]: ../img/assembly/trays/lower_bay/lower_bay2.png
-[lower_bay3]: ../img/assembly/trays/lower_bay/lower_bay3.png
-[lower_bay4]: ../img/assembly/trays/lower_bay/lower_bay4.png
-[lower_bay5]: ../img/assembly/trays/lower_bay/lower_bay5.png
-[lower_bay6]: ../img/assembly/trays/lower_bay/lower_bay6.png
-[lower_bay7]: ../img/assembly/trays/lower_bay/lower_bay7.png
-[lower_bay_final]: ../img/assembly/trays/lower_bay/lower_bay_final.png
+[long1]: ../img/assembly/trays/lower_bay/long1.webp
+[long2]: ../img/assembly/trays/lower_bay/long2.webp
+[long3]: ../img/assembly/trays/lower_bay/long3.webp
+
+[short1]: ../img/assembly/trays/lower_bay/short1.webp
+[short2]: ../img/assembly/trays/lower_bay/short2.webp
+[short3]: ../img/assembly/trays/lower_bay/short3.webp
+[lower_bay_final]: ../img/assembly/trays/lower_bay/lower_bay_final.webp

@@ -125,8 +125,8 @@ nav:
       - assembly/core.md
     - CPU and Lower Bay Trays:
       - assembly/cpu.md
-      - assembly/side.md
       - assembly/lower_bay.md
+      - assembly/side.md
       - assembly/front.md
     - MCU & Panels:
       - assembly/mcu.md
