@@ -5,6 +5,8 @@ authors: Jon Harper
 date: 2022-11-03
 ---
 
+We are close to completion, so the rear panel and MCU wiring are next.
+
 ## Rear Panel
 
 ## Overview
@@ -20,9 +22,13 @@ date: 2022-11-03
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
     | M3 x 6mm machine screws   | 8   |                                 |
-    | [:material-git: Rear Panel - Generic, No USB, No Fan][git_generic_rear] | 1  | :material-printer-3d-nozzle: Printed |
+    | M3 x 25mm machine screws  | 4   |                                 |
+    | 60mm x 15mm axial fan     | 1   |                                 |
+    | [:material-git: `Generic No USB with Fan.stl`][git_generic_rear] | 1  | :material-printer-3d-nozzle: Printed |
+    | [:material-git: `6015 Fan Cage.stl`][git_fans_6015] | 1 | :material-printer-3d-nozzle: Printed |
+    | [:material-git: `6015 Fan Gasket.stl`][git_fans_6015] | 1 | :material-printer-3d-nozzle: Printed **TPU**, optional |
 
-=== "Generic"
+=== "Stock"
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
@@ -37,6 +43,16 @@ date: 2022-11-03
     | Rear Panel                | 1   | :material-printer-3d-nozzle: Printed |
 
 ### Directions
+
+<figure markdown>
+  [![illustration][fan1]{width="480"}][fan1]
+  <figcaption>1. Fit the rear panel against the back of the case.</figcaption>
+</figure>
+
+<figure markdown>
+  [![illustration][fan2]{width="480"}][fan2]
+  <figcaption>1. Fasten the fan cage assembly in place with four (4) M3 x 30mm screws.</figcaption>
+</figure>
                                                             
 <figure markdown>
   [![illustration][rear1]{width="480"}][rear1]
@@ -54,7 +70,7 @@ date: 2022-11-03
 
 ## MCU Wiring
 
-Before we install the lid, all remaining wiring for the MCU and any other components should be completed. The combinations of MCUs and printers (and their types of wiring harnesses!) is too large to fit this guide. Below are tips and links to other resources. This section will grow with time.
+Before we install the display and lid, all remaining wiring for the MCU and any other components should be completed. The possible combinations of MCUs and printers (and their types of wiring harnesses!) are too large to fit this guide. Below are tips and links to other resources. This section will grow with time.
 
 ### Safety 
 
@@ -92,10 +108,11 @@ Before we install the lid, all remaining wiring for the MCU and any other compon
 !!! tip "Before Continuing"
     It is a good idea to perform initial power on tests now.
 
-
-[rear1]: ../img/assembly/panels/rear/rear1.png
-[rear2]: ../img/assembly/panels/rear/rear2.png
-[rear_final]: ../img/assembly/panels/rear/rear_final.png
+[fan1]: ../img/assembly/panels/rear/fan1.webp
+[fan2]: ../img/assembly/panels/rear/fan2.webp
+[rear1]: ../img/assembly/panels/rear/rear1.webp
+[rear2]: ../img/assembly/panels/rear/rear2.webp
+[rear_final]: ../img/assembly/panels/rear/rear_final.webp
 
 [earth]: ../img/assembly/earth.webp
 [wiring]: ../img/assembly/wiring.webp
