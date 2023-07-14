@@ -26,9 +26,9 @@ date: 2022-11-03
     | [:material-cart: ELECTOP MicroSD Reader Extension][bom_electop_micro_sd] | 1   | See note. |
 
     !!! note "Note: MicroSD Reader Extension"
-        Each MCU tray entry mentions if a short (6" LANMU) or long (18" ELECTOP) reader extension is needed. The illustrated SKR 2 requires a long extension.
+        Each MCU tray entry notes if the part requires a short (6" LANMU) or long (18" ELECTOP) reader extension. The illustrated SKR 2 requires a long extension.
 
-        The assembly process for both is identical.
+        The assembly process for both lengths of SD reader extension is the same.
 
 === "Generic"
 
@@ -38,7 +38,7 @@ date: 2022-11-03
     | Front Panel | 1  | :material-printer-3d-nozzle: Printed |
 
 !!! note "Note: LED Backing Panel"
-    If you are using the LED backer, you will need to substitute M3 x 12mm screws in place of the two (2) M3 x 8mm.
+    If you are using the LED backer, substitute M3 x 12mm for the two (2) M3 x 10mm screws.
 
 ## Directions
 
@@ -63,33 +63,27 @@ date: 2022-11-03
 
 <figure markdown>
   [![illustration][front3]{width="480"}][front3]
-  <figcaption>5. Slot the assembly into the front panel. Vertical orientation does not matter.</figcaption>
+  <figcaption>5. Slot the assembly into the front panel and secure with two (2) M3 x 6mm screws. Vertical orientation does not matter.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][front4]{width="480"}][front4]
-  <figcaption>6. Secure with two (2) M3 x 6mm screws.</figcaption>
+  <figcaption>6. Push the front panel into place on the case body. Slip the SD card extension cable through first.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][front5]{width="480"}][front5]
-  <figcaption>5. Push the front panel into place on the case body. Slip the SD card extension cable through first.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][front6]{width="480"}][front6]
-  <figcaption>6. Attach the panel with two (2) M3 x 10mm screws.</figcaption>
+  <figcaption>7. Attach the panel with two (2) M3 x 10mm screws.</figcaption>
 </figure>
 
 ## Reference
 
 ![illustration][front_final]
 
-[front1]: ../img/assembly/panels/front/front1.png
-[front2]: ../img/assembly/panels/front/front2.png
-[front3]: ../img/assembly/panels/front/front3.png
-[front4]: ../img/assembly/panels/front/front4.png
-[front5]: ../img/assembly/panels/front/front5.png
-[front6]: ../img/assembly/panels/front/front6.png
-[front_final]: ../img/assembly/panels/front/front_final.png
+[front1]: ../img/assembly/panels/front/front1.webp
+[front2]: ../img/assembly/panels/front/front2.webp
+[front3]: ../img/assembly/panels/front/front3.webp
+[front4]: ../img/assembly/panels/front/front4.webp
+[front5]: ../img/assembly/panels/front/front5.webp
+[front_final]: ../img/assembly/panels/front/front_final.webp
 [reader1]: ../img/assembly/misc/reader1.webp
