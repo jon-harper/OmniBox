@@ -62,6 +62,8 @@
 <!--      /Side Panel -->
 [git_side_panel]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Side%20Panel                 "OmniBox GitHub: Side Panels"
 [git_blank_side_panel]: https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Side%20Panel/Blank           "OmniBox GitHub: Blank Side Panel"
+[git_40mm_side_panel]:  https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Side%20Panel/40mm%20Fan%20-%20Internal "OmniBox GitHub: 40mm Internal Fan Side Panel"
+[git_rj45_usb_side_panel]: https://github.com/jon-harper/OmniBox/tree/unstable/Panels/Side%20Panel/RJ-45%20%26%20Dual%20USB "OmniBox GitHub: RJ-45 and Dual USB Side Panel"
 
 <!--      /Rear Panel -->
 [git_rear_panel]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Rear%20Panel                 "OmniBox GitHub: Rear Panels"
