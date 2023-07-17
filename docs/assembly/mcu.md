@@ -48,21 +48,21 @@ date: 2022-10-30
 </figure>
 
 !!! important
-    Larger trays (e.g. BIGTREETECH Octopus or Manta M8P) will only fit in the case if the board is oriented one way, as the trays are not symmetrical. If you have a large MCU board, check which direction fits in the case before securing the MCU to the tray.
+    Larger trays (e.g. BIGTREETECH Octopus series or the Manta M8P) will only fit in the case if the board is oriented one way, as the trays are not symmetrical. Check which direction fits in the case before securing the MCU to the tray.
 
 <figure markdown>
   [![illustration][mcu2]{width="480"}][mcu2]
-  <figcaption>2. Use the four (4) 6mm screws to secure the MCU.</figcaption>
+  <figcaption>2. Use four (4) 6mm screws to secure the MCU.</figcaption>
 </figure>
 
 <figure markdown>
-  [![illustration][mcu3]][mcu3]
+  [![illustration][mcu3]{width="480"}][mcu3]
   <figcaption>3. Set the MCU tray on the pillars in the case. The board's power connectors should orient to the back of the case or to the side.</figcaption>
 </figure>
 
 <figure markdown>
-  [![illustration][mcu4]][mcu4]
-  <figcaption>4. Fasten to the case with four (4) M3 x 6mm screws.</figcaption>
+  [![illustration][mcu4]{width="480"}][mcu4]
+  <figcaption>4. Fasten the tray with four (4) M3 x 6mm screws.</figcaption>
 </figure>
 
 ### Reference
@@ -70,8 +70,8 @@ date: 2022-10-30
 ![illustration][mcu_final]
 
 
-[mcu1]: ../img/assembly/trays/mcu/mcu1.png
-[mcu2]: ../img/assembly/trays/mcu/mcu2.png
-[mcu3]: ../img/assembly/trays/mcu/mcu3.png
-[mcu4]: ../img/assembly/trays/mcu/mcu4.png
-[mcu_final]: ../img/assembly/trays/mcu/mcu_final.png
+[mcu1]: ../img/assembly/trays/mcu/mcu1.webp
+[mcu2]: ../img/assembly/trays/mcu/mcu2.webp
+[mcu3]: ../img/assembly/trays/mcu/mcu3.webp
+[mcu4]: ../img/assembly/trays/mcu/mcu4.webp
+[mcu_final]: ../img/assembly/trays/mcu/mcu_final.webp

@@ -132,13 +132,13 @@ You've built an OmniBox! Congratulations!
 ![logo][logo]
 </div>
 
-[lid1]: ../img/assembly/panels/lid/lid1.png
-[lid2]: ../img/assembly/panels/lid/lid2.png
-[lid3]: ../img/assembly/panels/lid/lid3.png
-[lid4]: ../img/assembly/panels/lid/lid4.png
-[lid_final]: ../img/assembly/panels/lid/lid_final.png
-[bottom1]: ../img/assembly/panels/bottom/bottom1.png
-[bottom2]: ../img/assembly/panels/bottom/bottom2.png
-[bottom3]: ../img/assembly/panels/bottom/bottom3.png
-[bottom_final]: ../img/assembly/panels/bottom/bottom_final.png
-[logo]: ../img/favicon.png
+[lid1]: ../img/assembly/panels/lid/lid1.webp
+[lid2]: ../img/assembly/panels/lid/lid2.webp
+[lid3]: ../img/assembly/panels/lid/lid3.webp
+[lid4]: ../img/assembly/panels/lid/lid4.webp
+[lid_final]: ../img/assembly/panels/lid/lid_final.webp
+[bottom1]: ../img/assembly/panels/bottom/bottom1.webp
+[bottom2]: ../img/assembly/panels/bottom/bottom2.webp
+[bottom3]: ../img/assembly/panels/bottom/bottom3.webp
+[bottom_final]: ../img/assembly/panels/bottom/bottom_final.webp
+[logo]: ../img/favicon.webp

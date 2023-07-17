@@ -98,7 +98,8 @@ nav:
   - tour.md
   - development.md
   - license.md
-
+  - printing.md
+  - bom.md
   - Product Support:
     - support/index.md
     - support/panel_mounts.md
@@ -109,16 +110,13 @@ nav:
       - support/displays.md
       - support/fans.md
       - support/lower_bay.md
-  - Requirements:
-    - printing.md
-    - bom.md
   - Assembly Guide:
     - assembly/index.md
     - Heat Set Inserts (HSI):
       - assembly/hsi_tips.md
-      - assembly/hsi_base.md
-      - assembly/hsi_front.md
-      - assembly/hsi_rear.md
+      # - assembly/hsi_base.md
+      # - assembly/hsi_front.md
+      # - assembly/hsi_rear.md
     - Core & PSU:
       - assembly/base.md
       - assembly/psu_wiring.md
@@ -130,8 +128,8 @@ nav:
       - assembly/front.md
     - MCU & Panels:
       - assembly/mcu.md
-      - assembly/display.md
       - assembly/rear.md
+      - assembly/display.md
       - assembly/bottom_lid.md
   - Version History:
     - history/index.md

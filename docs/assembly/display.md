@@ -85,10 +85,10 @@ Common aftermarket TFT displays have an extra step of mounting the display to a 
 
 ![illustration][display_final]
 
-[display1]: ../img/assembly/panels/display/display1.png
-[display2]: ../img/assembly/panels/display/display2.png
-[display3]: ../img/assembly/panels/display/display3.png
-[display4]: ../img/assembly/panels/display/display4.png
-[display5]: ../img/assembly/panels/display/display5.png
-[display6]: ../img/assembly/panels/display/display6.png
-[display_final]: ../img/assembly/panels/display/display_final.png
+[display1]: ../img/assembly/panels/display/display1.webp
+[display2]: ../img/assembly/panels/display/display2.webp
+[display3]: ../img/assembly/panels/display/display3.webp
+[display4]: ../img/assembly/panels/display/display4.webp
+[display5]: ../img/assembly/panels/display/display5.webp
+[display6]: ../img/assembly/panels/display/display6.webp
+[display_final]: ../img/assembly/panels/display/display_final.webp

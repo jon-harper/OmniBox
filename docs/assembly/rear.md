@@ -46,12 +46,12 @@ We are close to completion, so the rear panel and MCU wiring are next.
 
 <figure markdown>
   [![illustration][fan1]{width="480"}][fan1]
-  <figcaption>1. Fit the rear panel against the back of the case.</figcaption>
+  <figcaption>1. Put the fan, cage, and gasket together as shown.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][fan2]{width="480"}][fan2]
-  <figcaption>1. Fasten the fan cage assembly in place with four (4) M3 x 30mm screws.</figcaption>
+  <figcaption>1. Push the fan's wiring through with the wiring at the bottom. Fasten the fan cage assembly in place with four (4) M3 x 30mm screws.</figcaption>
 </figure>
                                                             
 <figure markdown>
