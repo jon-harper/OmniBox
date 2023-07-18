@@ -1,0 +1,15 @@
+- type: display_panel
+  revision: v1
+  note: "M4 style"
+- type: display_panel
+  revision: v2
+  note: "M3 style"
+- type: display_panel
+  revision: v3
+  note: "Thinner template; designed by flow4enol"
+- type: cpu_tray
+  revision: v1
+  note: "Classic style"
+- type: cpu_tray
+  revision: v2
+  note: "Added chamfer"

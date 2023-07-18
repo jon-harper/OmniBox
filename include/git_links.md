@@ -31,7 +31,7 @@
 [git_fans_8020]:        https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Fans/80x20                          "OmniBox GitHub: 80mm x 20mm Fans"
 [git_fans_8025]:        https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Fans/80x25                          "OmniBox GitHub: 80mm x 25mm Fans"
 [git_fans_9225]:        https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Fans/92x25                          "OmniBox GitHub: 92mm x 25mm Fans"
-[git_fans_12025]:        https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Fans/120x25                          "OmniBox GitHub: 120mm x 25mm Fans"
+[git_fans_12025]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Fans/120x25                         "OmniBox GitHub: 120mm x 25mm Fans"
 
 <!-- /Panels     -->
 <!--      /Display -->
@@ -63,7 +63,7 @@
 [git_side_panel]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Side%20Panel                 "OmniBox GitHub: Side Panels"
 [git_blank_side_panel]: https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Side%20Panel/Blank           "OmniBox GitHub: Blank Side Panel"
 [git_40mm_side_panel]:  https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Side%20Panel/40mm%20Fan%20-%20Internal "OmniBox GitHub: 40mm Internal Fan Side Panel"
-[git_rj45_usb_side_panel]: https://github.com/jon-harper/OmniBox/tree/unstable/Panels/Side%20Panel/RJ-45%20%26%20Dual%20USB "OmniBox GitHub: RJ-45 and Dual USB Side Panel"
+[git_rj45_usb_side_panel]: https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Side%20Panel/RJ-45%20%26%20Dual%20USB "OmniBox GitHub: RJ-45 and Dual USB Side Panel"
 
 <!--      /Rear Panel -->
 [git_rear_panel]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Panels/Rear%20Panel                 "OmniBox GitHub: Rear Panels"
@@ -86,11 +86,11 @@
 [git_btt_octopus]:      https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/MCU/BTT%20Octopus             "OmniBox GitHub: BIGTREETECH Octopus MCU Tray"
 [git_btt_skr_3]:        https://github.com/jon-harper/OmniBox/tree/unstable/Trays/MCU/BTT%20SKR%203             "OmniBox GitHub: BIGTREETECH SKR 3 MCU Tray"
 [git_btt_skr_3_ez]:     https://github.com/jon-harper/OmniBox/tree/unstable/Trays/MCU/BTT%20SKR%203%20EZ        "OmniBox GitHub: BIGTREETECH SKR 3 EZ MCU Tray"
-[git_btt_manta_m8p]:    https://github.com/jon-harper/OmniBox/tree/unstable/Trays/MCU/BTT%20Manta%20M8P        "OmniBox GitHub: BIGTREETECH Manta M8P MCU Tray"
+[git_btt_manta_m8p]:    https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/MCU/BTT%20Manta%20M8P        "OmniBox GitHub: BIGTREETECH Manta M8P MCU Tray"
 [git_duet_3_6hc]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/MCU/Duet3D%20Duet%203%206HC/      "OmniBox GitHub: Duet3D Duet 3 6C"
 [git_duet_3_mini_5+]:   https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/MCU/Duet3D%20Duet%203%20Mini%205+ "OmniBox GitHub: Duet3D Duet 3 Mini 5+"
 [git_mks_monster8]:     https://github.com/jon-harper/OmniBox/tree/unstable/Trays/MCU/MKS%20Monster8      "OmniBox GitHub: MKS Monster8"
-[git_mks_skipr]:        https://github.com/jon-harper/OmniBox/tree/unstable/Trays/MCU/MKS%20Skipr         "OmniBox GitHub: MKS Skipr"
+[git_mks_skipr]:        https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/MCU/MKS%20Skipr         "OmniBox GitHub: MKS Skipr"
 
 <!--      /CPU -->
 [git_cpu]:              https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/CPU/                              "OmniBox GitHub: CPU Trays"
@@ -115,15 +115,15 @@
 [git_creality_mosfet]:  https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/Lower%20Bay/Creality%20MOSFET      "OmniBox GitHub: Creality MOSFET Tray"
 [git_btt_ups_24v]:      https://github.com/jon-harper/OmniBox/tree/unstable/Trays/Lower%20Bay/BTT%20UPS%2024V%201.0 "OmniBox GitHub: BIGTREETECH UPS 24V 1.0"
 [git_btt_relay_1.2]:    https://github.com/jon-harper/OmniBox/tree/unstable/Trays/Lower%20Bay/BTT%20Relay%201.2 "OmniBox GitHub: BIGTREETECH Relay 1.2"
-[git_48mm_ssr]:         https://github.com/jon-harper/OmniBox/tree/unstable/Trays/Lower%20Bay/48mm%20SSR  "OmniBox GitHub: Puck-style Solid State Relay"
+[git_48mm_ssr]:         https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/Lower%20Bay/48mm%20SSR  "OmniBox GitHub: Puck-style Solid State Relay"
 
 <!--     /PSUs -->
 [git_psu]:              https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/PSU/                              "OmniBox GitHub: Power Supplies (PSUs)"
-[git_psu_lrs350]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Core/Trays/PSU/Mean%20Well%20LRS-350    "OmniBox GitHub: Mean Well LRS-350 Series PSUs"
+[git_psu_lrs350]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/PSU/Mean%20Well%20LRS-350    "OmniBox GitHub: Mean Well LRS-350 Series PSUs"
 [git_psu_lrs450]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/PSU/Mean%20Well%20LRS-450      "OmniBox GitHub: Mean Well LRS-450 Series PSUs"
 [git_psu_lrs600]:       https://github.com/jon-harper/OmniBox/tree/unstable/Trays/PSU/Mean%20Well%20LRS-600         "OmniBox GitHub: Mean Well LRS-600 Series PSUs"
-[git_psu_rsp500]:       https://github.com/jon-harper/OmniBox/tree/unstable/Core/Trays/PSU/Mean%20Well%20RSP-500    "OmniBox GitHub: Mean Well RSP-500 Series PSUs"
-[git_psu_se450]:        https://github.com/jon-harper/OmniBox/tree/unstable/Trays/PSU/Mean%20Well%20SE-450          "OmniBox GitHub: Mean Well SE-450 Series PSUs"
+[git_psu_rsp500]:       https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/PSU/Mean%20Well%20RSP-500    "OmniBox GitHub: Mean Well RSP-500 Series PSUs"
+[git_psu_se450]:        https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/PSU/Mean%20Well%20SE-450          "OmniBox GitHub: Mean Well SE-450 Series PSUs"
 
 <!-- /Misc     -->
 [git_display_knob]:     https://github.com/jon-harper/OmniBox/blob/0.9.10-beta/Misc/Display%20Knob                     "OmniBox GitHub: Replacement Display Knob"
