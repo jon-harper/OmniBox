@@ -11,7 +11,7 @@ This is the last section of the build. Here we close up the bottom and top of th
 
 ??? overview
     <video controls="">
-        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/bottom.mp4" type="video/mp4">
+        <source src="{{meta.video_folder}}bottom.mp4" type="video/mp4">
     </video>
 
 ### Materials
@@ -141,4 +141,4 @@ You've built an OmniBox! Congratulations!
 [bottom2]: ../img/assembly/panels/bottom/bottom2.webp
 [bottom3]: ../img/assembly/panels/bottom/bottom3.webp
 [bottom_final]: ../img/assembly/panels/bottom/bottom_final.webp
-[logo]: ../img/favicon.webp
+[logo]: ../img/favicon.png

@@ -10,7 +10,7 @@ Each case has four (4) locations for a side panel. If you have an SoC CPU, one s
 ## Overview
 
 <video controls="">
-    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/side.mp4" type="video/mp4">
+    <source src="{{meta.video_folder}}side.mp4" type="video/mp4">
 </video>
 
 ## Materials

@@ -9,7 +9,7 @@ date: 2022-11-03
 ## Overview
 
 <video controls="">
-    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/front.mp4" type="video/mp4">
+    <source src="{{meta.video_folder}}front.mp4" type="video/mp4">
 </video>
 
 ## Materials

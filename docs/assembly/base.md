@@ -11,7 +11,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
 ??? overview
     <video controls="">
-        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/psu.mp4" type="video/mp4">
+        <source src="{{meta.video_folder}}psu.mp4" type="video/mp4">
     </video>
 
 ### Materials
@@ -67,7 +67,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
 ??? overview
     <video controls="">
-        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/base_prep.mp4" type="video/mp4">
+        <source src="{{meta.video_folder}}base_prep.mp4" type="video/mp4">
     </video>
 
 ### Materials
@@ -166,7 +166,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
 ??? overview
     <video controls="">
-        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/base.mp4" type="video/mp4">
+        <source src="{{meta.video_folder}}base.mp4" type="video/mp4">
     </video>
 
 ### Materials

@@ -43,7 +43,7 @@ Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp
 ###  Overview
 
 <video controls="">
-    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/psu_wiring.mp4" type="video/mp4">
+    <source src="{{meta.video_folder}}psu_wiring.mp4" type="video/mp4">
 </video>
 
 ### Materials

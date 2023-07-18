@@ -11,7 +11,7 @@ Next we'll add the front and rear halves of the Main Body to the Base.
 
 ??? overview
     <video controls="">
-        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/main_floor.mp4" type="video/mp4">
+        <source src="{{meta.video_folder}}main_floor.mp4" type="video/mp4">
     </video>
 
 ### Materials
@@ -79,7 +79,7 @@ Next we'll add the front and rear halves of the Main Body to the Base.
 
 ??? overview
     <video controls="">
-        <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/main_center.mp4" type="video/mp4">
+        <source src="{{meta.video_folder}}main_center.mp4" type="video/mp4">
     </video>
 
 ### Materials
@@ -123,7 +123,7 @@ Next we'll add the front and rear halves of the Main Body to the Base.
 ## Attach the Crossbar
 
 ??? overview
-    <iframe src="https://jon-harper.github.io/OmniBox/video/0.9.9/crossbar.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
+    <iframe src="{{meta.video_folder}}crossbar.mp4" frameborder="0" width="100%" height="600px" allowfullscreen></iframe>
 
 ### Materials 
 

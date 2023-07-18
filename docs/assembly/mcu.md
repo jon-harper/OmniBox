@@ -10,7 +10,7 @@ date: 2022-10-30
 ###  Overview
 
 <video controls="">
-    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/mcu.mp4" type="video/mp4">
+    <source src="{{meta.video_folder}}mcu.mp4" type="video/mp4">
 </video>
 
 ### Materials

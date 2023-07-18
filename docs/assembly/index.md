@@ -14,7 +14,7 @@ Welcome to the Assembly Guide for OmniBox. This page covers:
 - Best practices during assembly.
 
 !!! important "Version Note"
-    Instructions in this Guide are for **Release 0.9.9**. Details may differ for older or newer versions of OmniBox.
+    Instructions in this Guide are for **Release 0.9.10**. Details may differ for older or newer versions of OmniBox.
 
 ## Table of Contents
 

@@ -85,6 +85,7 @@ extra:
     version: 0.9.10 (Beta)
     this_branch: https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/
     test_branch: https://github.com/jon-harper/OmniBox/tree/unstable/
+    video_folder: https://jon-harper.github.io/OmniBox/video/0.9.9/
     bom_files: 
         - assets/yaml/fastener.yaml
         - assets/yaml/bom.yaml

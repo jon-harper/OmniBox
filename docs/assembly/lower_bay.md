@@ -10,7 +10,7 @@ date: 2022-10-30
 Lower bay trays can be mounted in one of six (6) locations for short trays and one of three (3) locations for long trays. This flexibility is useful when planning ahead (e.g., a buck converter can be located near the device it powers for shorter wiring).
 
 <video controls="">
-    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/lower_bay.mp4" type="video/mp4">
+    <source src="{{meta.video_folder}}lower_bay.mp4" type="video/mp4">
 </video>
 
 ## Long Trays

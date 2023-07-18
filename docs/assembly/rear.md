@@ -12,7 +12,7 @@ We are close to completion, so the rear panel and MCU wiring are next.
 ## Overview
 
 <video controls="">
-    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/rear.mp4" type="video/mp4">
+    <source src="{{meta.video_folder}}rear.mp4" type="video/mp4">
 </video>
 
 ### Materials

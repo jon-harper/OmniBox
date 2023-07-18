@@ -10,7 +10,7 @@ This section is optional. If you are not using a SoC CPU like a Raspberry Pi, us
 ## Overview
 
 <video controls="">
-    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/cpu.mp4" type="video/mp4">
+    <source src="{{meta.video_folder}}cpu.mp4" type="video/mp4">
 </video>
 
 ## Materials

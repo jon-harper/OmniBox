@@ -12,7 +12,7 @@ Common aftermarket TFT displays have an extra step of mounting the display to a 
 ## Overview
 
 <video controls="">
-    <source src="https://jon-harper.github.io/OmniBox/video/0.9.9/display.mp4" type="video/mp4">
+    <source src="{{meta.video_folder}}display.mp4" type="video/mp4">
 </video>
 
 ## Materials
