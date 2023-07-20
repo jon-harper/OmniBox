@@ -66,7 +66,7 @@ We are close to completion, so the rear panel and MCU wiring are next.
 
 ### Reference
 
-![illustration][rear_final]
+[![illustration][rear_final]][rear_final]
 
 ## MCU Wiring
 

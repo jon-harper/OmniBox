@@ -105,7 +105,7 @@ Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp
 
 ### Reference
 
-![finished illustration][psu_final]
+[![finished illustration][psu_final]][psu_final]
 
 [checklist]: ../printing.md#printed-component-checklist "Print Checklist"
 

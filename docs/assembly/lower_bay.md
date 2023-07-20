@@ -99,7 +99,7 @@ Short trays can be mounted in any one of six (6) locations in the lower bay. Sho
 
 ## Reference
 
-![illustration][lower_bay_final]
+[![illustration][lower_bay_final]][lower_bay_final]
 
 [long1]: ../img/assembly/trays/lower_bay/long1.webp
 [long2]: ../img/assembly/trays/lower_bay/long2.webp

@@ -82,7 +82,7 @@ This section is optional. If you are not using a SoC CPU like a Raspberry Pi, us
 
 ## Reference
 
-![illustration][cpu_final]
+[![illustration][cpu_final]][cpu_final]
 
 [side]: side.md
 
