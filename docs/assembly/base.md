@@ -20,7 +20,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M4 x 6mm machine screws   | 4   | Button head only; no longer than 8mm. |
+    | M4 x 6mm machine screws   | 4   | No longer than 8mm.             |
     | Mean Well LRS-350-24      | 1   |                                 |
     | [:material-git: PSU Tray][git_psu_lrs350]  | 1   | :material-printer-3d-nozzle: Printed, 2 files. |
 
@@ -28,7 +28,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M4 x 6mm machine screws   | 4-8 | Button head only; no longer than 8mm. |
+    | M4 x 6mm machine screws   | 4-8 | No longer than 8mm.             |
     | Compatible power supply   | 1   |  |
     | PSU Tray                  | 1   | :material-printer-3d-nozzle: Printed, 2 files. |
 
@@ -41,7 +41,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
 <figure markdown>
   [![illustration][psu2]{width="480"}][psu2]
-  <figcaption>2. The right PSU tray mount is marked with an 'R'. Place it against right side of the power supply with the 'R' facing upwards.</figcaption>
+  <figcaption>2. Place the right PSU tray mount against right side of the power supply with the 'R' facing upwards.</figcaption>
 </figure>
 
 <figure markdown>
@@ -114,11 +114,11 @@ Assembly of the case starts with the Base and PSU Tray.
 
 <figure markdown>
   [![illustration][base_prep2]{width="480"}][base_prep2]
-  <figcaption>2. Place a 40mm fan against the front vent and align with the screw holes. Most users will want the airflow entering from the front.</figcaption>
+  <figcaption>2. Place a 40mm fan against the front vent. Most users will need this as an exhaust.</figcaption>
 </figure>
 
 !!! note "Note: Airflow Direction"
-    The direction of airflow for most fans is towards base of the motor. Most fans have a sticker on this side of the motor. In this case, the sticker should face away from the vent.
+    The direction of airflow for most fans is towards base of the motor. Most fans have a sticker on this side of the motor. In this case, the sticker should face towards the vent.
 
 <figure markdown>
   [![illustration][base_prep3]{width="480"}][base_prep3]
@@ -126,9 +126,9 @@ Assembly of the case starts with the Base and PSU Tray.
 </figure>
 
 !!! important "Important: Screw Lengths"
-    The holes for internally mounted fans are 6mm deep. With a 10mm fan, screws should never be longer than 16mm.
+    The holes for internally mounted fans are 6mm deep. Screws should never be longer than 16mm for a 40mm x 10mm fan.
 
-    Some fans have cutouts for screw heads. If your fan has these, use 10mm or 12mm screws instead.
+    If your fan has a counterbore for the screw head, use a 10mm or 12mm screw instead.
 
 !!! note
     The next two steps are necessary if:
@@ -140,7 +140,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
 <figure markdown>
   ![illustration][iec1]
-  <figcaption>4. Remove the back of the fuse holder from the IEC socket.</figcaption>
+  <figcaption>4. Slide out the fuse holder cover.</figcaption>
 </figure>
 
 <figure markdown>
@@ -150,7 +150,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
 <figure markdown>
   [![illustration][base_prep4]{width="480"}][base_prep4]
-  <figcaption>6. Replace the cover and insert the IEC power switch socket into the rear of the base.</figcaption>
+  <figcaption>6. Replace the cover and slide the power switch socket into the rear of the base.</figcaption>
 </figure>
 
 <figure markdown>

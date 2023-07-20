@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-10-31
 ---
 
-At this point, it is a good idea to wire the power supply, power switch, and IEC socket. There are zip tie anchors available in the sides to secure the power switch wiring. The large hole in the right PSU tray mount allows wiring to pass through.
+At this point, it is a good idea to wire the power supply, power switch, and power socket. The large hole in the right PSU tray mount allows wiring to pass through from the power switch. There are zip tie anchors available in the sides to secure the power switch wiring.
 
 ## Considerations
 
@@ -25,9 +25,9 @@ At this point, it is a good idea to wire the power supply, power switch, and IEC
     - **This guide is not meant to be a complete manual for wiring.**
     - **I am not liable for any damage or injury that may result.**
 
-- The Overview video in this section is limited to attaching the prepared wiring.
+- The Overview video in this section is limited to connecting the prepared wiring.
 - This section of the guide does not cover all possible scenarios.
-- IEC sockets typically ship with short wires with precrimped connectors attached.
+- IEC sockets typically ship with short wires with pre-crimped connectors.
     - If yours is not pre-wired, you will need two additional wires for the other poles of the IEC socket.
     - Preparing and installing these wires is beyond the scope of this guide.
 
@@ -53,8 +53,6 @@ Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp
 | 16awg/1.5mm^2^ red stranded hookup wire       | 0.7m | 14 or 16 gauge (1.5mm^2^ - 2.5mm^2^) |
 | Fork connectors, 14-16 awg, female insulated  | 1    |                                     |
 | Spade connectors, 14-16 awg, insulated        | 3    |                                     |
-
-
 
 ### Preparing Materials
 

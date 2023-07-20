@@ -39,7 +39,7 @@ theme:
   favicon: img/favicon.png
   features:
     - navigation.instant
-    - navigation.sections
+    # - navigation.sections
     - navigation.top
     - navigation.footer
     
@@ -104,13 +104,12 @@ nav:
   - Product Support:
     - support/index.md
     - support/panel_mounts.md
-    - Supported Parts:
-      - support/mcu.md
-      - support/cpu.md
-      - support/psu.md
-      - support/displays.md
-      - support/fans.md
-      - support/lower_bay.md
+    - support/mcu.md
+    - support/cpu.md
+    - support/psu.md
+    - support/displays.md
+    - support/fans.md
+    - support/lower_bay.md
   - Assembly Guide:
     - assembly/index.md
     - Heat Set Inserts (HSI):
