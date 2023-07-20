@@ -48,7 +48,7 @@ Generic rear panels are available with cutouts to pass wiring directly without u
 
 ## Fans
 
-An assortment of fans are supported and include cages and optional TPU shims. See the [Fans][fans] page for a full list.
+An assortment of fans are supported and include external cages and TPU shims. See the [Fans][fans] page for a full list.
 
 The front and rear main bodies come in versions with and without fans. The rear panel and lid can also be used for mounting fans.
 

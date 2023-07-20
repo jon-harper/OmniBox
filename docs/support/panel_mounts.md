@@ -1,6 +1,6 @@
 ---
 title: Panel Mounts
-summary: A list of panel mounted components supported by OmniBox
+summary: A list of panel-mounted components supported by OmniBox
 authors: Jon Harper
 date: 2022-07-22
 ---
@@ -25,7 +25,7 @@ The front panel often mounts small hardware ports; the most common examples are 
 
 ![side panel example][img_side]{ width="360" }
 
-Introduced in version 0.9.9, the side panel replaces the "Unused CPU Cover". Side panels can be used to mount a single 40mm or 50mm fan, keystone jacks, or panel mounted connectors.
+Introduced in version 0.9.9, the side panel replaces the "Unused CPU Cover". Side panels can be used to mount a single 40mm or 50mm fan, keystone jacks, or panel-mounted connectors.
 
 Files for the side panel can be found in the [:material-git: `/Panels/Side Panel`][git_side_panel] git folder.
 
@@ -41,8 +41,8 @@ The table below explains where to get started.
 |------------------|-------------|-----------|
 | [:material-git: `Generic`][git_generic_rear]  | These have large holes for passing wires through and come in a number of common variations. | ...Want a simple, off-the-shelf solution and there is not a custom panel that suits. |
 | [:material-git: `Custom`][git_custom_rear]   | Designed for users of common printer configurations. | ...Have a configuration available for your printer. |
-| [:material-git: `Template`][git_rear_template] | A Fusion 360 template with profiles for panel mounted connectors and fans. | ...Want to create your own panel. |
-<!-- | [:material-git: `Micro Fit 3`][git_molex_rear]    | Use Molex Micro Fit 3 panel mounted connectors. Pinout diagrams for each panel are included. | ...Want to create a diconnectable wiring harness for your printer. | -->
+| [:material-git: `Template`][git_rear_template] | A Fusion 360 template with profiles for panel-mounted connectors and fans. | ...Want to create your own panel. |
+<!-- | [:material-git: `Micro Fit 3`][git_molex_rear]    | Use Molex Micro Fit 3 panel-mounted connectors. Pinout diagrams for each panel are included. | ...Want to create a diconnectable wiring harness for your printer. | -->
 
 ## Supported Hardware
 
@@ -93,7 +93,7 @@ JST SM and Molex's Micro Fit 3.0 connectors can both be panel-mounted. These are
 
 !!! caution "Caution: Avoid JST SM as a hotend connector on enclosed printers"
 
-These are good, low-current (3A) connectors for devices such as limit switches, lights, steppers, and fans.
+These are good, low-current (3A Max) connectors for devices such as limit switches, lights, steppers, and fans. However, they are larger than connectors with similar pin spacings.
 
 [:material-cart: JST SM Connector Kit][bom_jst_sm_kit]{ .md-button }
 
@@ -101,7 +101,7 @@ Further reading: [:material-book-open: JST SM on The Clockmaker Project][clk_jst
 
 #### Molex Micro Fit 3.0
 
-These make excellent connectors for printers, particularly for hotends. They are rated to 5A (higher with gold pins).
+These make excellent connectors for printers, particularly for hotends. They are rated to 5 Amperes with standard pins (9.5A with gold pins).
 
 Connectors up to 2 row, 24 positions are available.
 
@@ -129,7 +129,7 @@ Further reading: [:material-book-open: Mini Fit Jr on The Clockmaker Project][cl
 
 ## Creating New Panels
 
-In addition to templates for the base panels, templates are available for the panel mounted connector cutouts.
+In addition to templates for the panels themselves, template cutouts are available for panel-mounted connectors.
 
 [:material-git: Panel Mounts][git_panel_mounts]{ .md-button }
 
