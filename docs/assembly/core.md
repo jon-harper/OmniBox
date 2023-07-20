@@ -84,7 +84,7 @@ Next we'll add the front and rear halves of the Main Body to the Base.
 
 ### Materials
 
-=== "Stock / HSI"
+=== "Stock and HSI"
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
     | M3 x 8mm machine screws   | 6   | Can use 10mm screws instead.    |

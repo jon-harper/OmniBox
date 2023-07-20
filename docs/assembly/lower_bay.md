@@ -34,7 +34,7 @@ Long trays can be mounted in the front, middle, or back of the lower bay. They c
     |---------------------------|-----|---------------------------------|
     | M3 x 6mm machine screws   | 4   |                                 |
     | Compatible hardware       | 1   |                                 |
-    | Long Lower Bay Tray       | 1   | :material-printer-3d-nozzle: Printed  |
+    | [:material-git: Long Lower Bay Tray][git_lower_bay] | 1   | :material-printer-3d-nozzle: Printed  |
 
     Only screws for mounting the tray are specified in the generic materials list.
 

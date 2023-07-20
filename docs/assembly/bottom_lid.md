@@ -25,20 +25,27 @@ Note that builds requiring a base extension will need longer screws.
     | M3 x 8mm machine screws   | 8   |                                 |
     | [:material-git: Closed Bottom Panel][git_closed_bottom] | 1  | :material-printer-3d-nozzle: Printed, two (2) files |
 
-=== "Generic"
+=== "Stock and HSI"
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
     | M3 x 8mm machine screws   | 8   | May substitute 10mm or 12mm.    |
-    | Bottom Panel              | 1  | :material-printer-3d-nozzle: Printed, two (2) files |
+    | [:material-git: Bottom Panel][git_bottom_panel]     | 1   | :material-printer-3d-nozzle: Printed, two (2) files |
 
-=== "With Base Extension"
+=== "Full HSI"
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M3 x 20mm machine screws  | 8   |                                 |
-    | Bottom Panel              | 1   | :material-printer-3d-nozzle: Printed, two (2) files |
-    | [:material-git: Base Extension][git_base_extension] | 1 | :material-printer-3d-nozzle: Printed, two (2) files |
+    | M3 x 6mm machine screws   | 8   |                                 |
+    | [:material-git: Bottom Panel][git_bottom_panel]     | 1   | :material-printer-3d-nozzle: Printed, two (2) files |
+
+=== "With Base Extension (All Builds)"
+
+    | Parts                     | Qty | Note                            |
+    |---------------------------|-----|---------------------------------|
+    | M3 x 16mm machine screws  | 8   |                                 |
+    | [:material-git: Bottom Panel][git_bottom_panel]     | 1   | :material-printer-3d-nozzle: Printed, two (2) files |
+    | [:material-git: Base Extension][git_base_extension] | 1   | :material-printer-3d-nozzle: Printed, two (2) files |
 
 ### Directions
                                                             
@@ -59,7 +66,7 @@ Note that builds requiring a base extension will need longer screws.
 
 ### Reference
 
-![illustration][bottom_final]
+[![illustration][bottom_final]][lid_final]
 
 ## Lid(s)
 
@@ -81,7 +88,7 @@ The example below uses a single, long lid. The procedure for installing two shor
     | [:material-git: Long Carry Handle Lid][git_lid_handle_long] | 1  | :material-printer-3d-nozzle: Printed |
     | [:material-git: Carry Handle for Lids][git_carry_handle] | 1  | :material-printer-3d-nozzle: Printed |
 
-=== "Generic"
+=== "Stock"
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
@@ -122,12 +129,12 @@ The example below uses a single, long lid. The procedure for installing two shor
 
 ### Reference
 
-![illustration][lid_final]
+[![illustration][lid_final]][lid_final]
 
 <div align="center" markdown>
-## :material-check: That's it!
+# :material-check: That's it!
    
-You've built an OmniBox! Congratulations!
+You completed an OmniBox! Congratulations!
 
 ![logo][logo]
 </div>

@@ -51,7 +51,7 @@ We are close to completion, so the rear panel and MCU wiring are next.
 
 <figure markdown>
   [![illustration][fan2]{width="480"}][fan2]
-  <figcaption>1. Push the fan's wiring through with the wiring at the bottom. Fasten the fan cage assembly in place with four (4) M3 x 30mm screws.</figcaption>
+  <figcaption>1. Push the fan's wiring through the cutout at the bottom. Fasten the fan cage assembly in place with four (4) M3 x 30mm screws.</figcaption>
 </figure>
                                                             
 <figure markdown>
@@ -70,7 +70,7 @@ We are close to completion, so the rear panel and MCU wiring are next.
 
 ## MCU Wiring
 
-Before we install the display and lid, all remaining wiring for the MCU and any other components should be completed. The possible combinations of MCUs and printers (and their types of wiring harnesses!) are too large to fit this guide. Below are tips and links to other resources. This section will grow with time.
+Before we install the display and lid, complete all remaining wiring for the MCU and any other components. The possible combinations of MCUs and printers (and their types of wiring harnesses!) are too large to fit this guide. Below are tips and links to other resources. This section will grow with time.
 
 ### Safety 
 

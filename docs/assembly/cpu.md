@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-10-30
 ---
 
-This section is optional. If you are not using a SoC CPU like a Raspberry Pi, use a second [side panel][side] in the next assembly section.
+This section is optional. If you are not using a SoC CPU like a Raspberry Pi, use a fourth [side panel][side] in the next assembly section.
 
 ## Overview
 
@@ -39,7 +39,7 @@ This section is optional. If you are not using a SoC CPU like a Raspberry Pi, us
 !!! warning "Warning: M3 x 16mm screws"
     If using M3 x 16mm screws for the 40mm fan, *do not overtighten* or you may deform the outer panel surface.
 
-!!! note "Note: Micro Fit 3 Connector"
+!!! note "Note: SPI cable"
     The illustrated CPU tray has a cutout for a 2 Row, 6-position Molex Micro Fit 3 connector. This cutout can be wired to connect devices to the SoC CPU, such as an accelerometer.
 
     Assembling and wiring this cable is beyond the scope of this guide, but the cable can be made from DuPont-terminated breadboard wires.
@@ -61,7 +61,7 @@ This section is optional. If you are not using a SoC CPU like a Raspberry Pi, us
 </figure>
 
 <figure markdown>
-  <figcaption>4. (Not pictured) Connect the SPI cable to the Raspberry Pi. Make sure you double-check the pins are in the right position. <figcaption>
+  <figcaption>4. (Not pictured) Connect the SPI cable to the Raspberry Pi GPIO headers. Double-check that the cable pins mate to correct the headers.<figcaption>
 </figure>
 
 <figure markdown>

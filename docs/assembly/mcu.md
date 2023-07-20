@@ -67,7 +67,7 @@ date: 2022-10-30
 
 ### Reference
 
-![illustration][mcu_final]
+[![illustration][mcu_final]][mcu_final]
 
 
 [mcu1]: ../img/assembly/trays/mcu/mcu1.webp

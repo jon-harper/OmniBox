@@ -35,7 +35,7 @@ date: 2022-11-03
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
     | M3 x 10mm machine screws  | 2   | May substitute 12mm.            |
-    | Front Panel | 1  | :material-printer-3d-nozzle: Printed |
+    | Front Panel               | 1   | :material-printer-3d-nozzle: Printed |
 
 !!! note "Note: LED Backing Panel"
     If you are using the LED backer, substitute M3 x 12mm for the two (2) M3 x 10mm screws.
@@ -78,7 +78,7 @@ date: 2022-11-03
 
 ## Reference
 
-![illustration][front_final]
+[![illustration][front_final]][front_final]
 
 [front1]: ../img/assembly/panels/front/front1.webp
 [front2]: ../img/assembly/panels/front/front2.webp
