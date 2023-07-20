@@ -41,7 +41,7 @@ Assembly of the case starts with the Base and PSU Tray.
 
 <figure markdown>
   [![illustration][psu2]{width="480"}][psu2]
-  <figcaption>2. Place the right PSU tray mount against right side of the power supply with the 'R' facing upwards.</figcaption>
+  <figcaption>2. Place the right PSU tray mount against the right side of the power supply. The printed 'R' should face upwards.</figcaption>
 </figure>
 
 <figure markdown>
