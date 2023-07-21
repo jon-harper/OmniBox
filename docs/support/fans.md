@@ -68,6 +68,25 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 ## 50mm Axial Fans
 
+### 50mm x 10mm
+
+{{ issue_tag(122) }}
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+[:material-git: 50x10][git_fans_5010]{ .md-button }
+
+[:material-cart: Product Link][bom_5010]{ .md-button }
+
+- Materials: 4x M3 x 15mm
+- Fits: Side Panel, Lids, Rear Panel
+
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_5010]][img_5010]
+</div>
+</div>
+
 ### 50mm x 12mm
 
 <div markdown class="jh-grid-container jh-grid-2">
@@ -85,6 +104,25 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_5012]][img_5012]
+</div>
+</div>
+
+### 50mm x 15mm
+
+{{ issue_tag(122) }}
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+[:material-git: 50x15][git_fans_5015]{ .md-button }
+
+[:material-cart: Product Link][bom_5015]{ .md-button }
+
+- Materials: 4x M3 x 20mm
+- Fits: Side Panel, Lids, Rear Panel
+
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_5015]][img_5015]
 </div>
 </div>
 
@@ -214,7 +252,9 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 [img_4010]: ../img/parts/fan_4010.webp
 [img_4020]: ../img/parts/fan_4020.webp
+[img_5010]: ../img/parts/fan_5010.webp
 [img_5012]: ../img/parts/fan_5012.webp
+[img_5015]: ../img/parts/fan_5015.webp
 [img_6015]: ../img/parts/fan_6015.webp
 [img_6020]: ../img/parts/fan_6020.webp
 [img_6025]: ../img/parts/fan_6025.webp
