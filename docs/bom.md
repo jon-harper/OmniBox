@@ -60,7 +60,7 @@ The lists below are the minimum required for an OmniBox build. The [Supported Pa
     | Fasteners                              | Qty | UOM | Note                                                     |
     |----------------------------------------|-----|-----|----------------------------------------------------------|
     | [:material-cart: M3 x 6mm machine screws][bom_m3_6]    | 4   | ea  |           |
-    | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 44  | ea  |           |
+    | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 52  | ea  |           |
     | [:material-cart: M3 x 10mm machine screws][bom_m3_10]  | 6   | ea  | May use 12mm instead. |
     | [:material-cart: M3 x 12mm machine screws][bom_m3_12]  | 8   | ea  |           |
     | [:material-cart: M3 x 20mm machine screws][bom_m3_20]  | 2   | ea  |           |
@@ -72,7 +72,7 @@ The lists below are the minimum required for an OmniBox build. The [Supported Pa
     |----------------------------------------|-----|-----|----------------------------------------------------------|
     | [:material-cart: Heat Set Insert, M3, 5mm O.D. x 4mm L][bom_hsi_m3] | 24 | ea | See note below. |
     | [:material-cart: M3 x 6mm machine screws][bom_m3_6]    | 24  | ea  |           |
-    | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 28  | ea  |           |
+    | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 36  | ea  |           |
     | [:material-cart: M3 x 10mm machine screws][bom_m3_10]  | 2   | ea  | May use 12mm instead. |
     | [:material-cart: M3 x 12mm machine screws][bom_m3_12]  | 8   | ea  |           |
     | [:material-cart: M3 x 20mm machine screws][bom_m3_20]  | 2   | ea  |           |
@@ -80,7 +80,14 @@ The lists below are the minimum required for an OmniBox build. The [Supported Pa
 
 === "Full HSI"
 
-    TODO
+    | Fasteners                              | Qty | UOM | Note                                                     |
+    |----------------------------------------|-----|-----|----------------------------------------------------------|
+    | [:material-cart: Heat Set Insert, M3, 5mm O.D. x 4mm L][bom_hsi_m3] | 76 | ea | See note below. |
+    | [:material-cart: M3 x 6mm machine screws][bom_m3_6]    | 48  | ea  |           |
+    | [:material-cart: M3 x 8mm machine screws][bom_m3_8]    | 20  | ea  |           |
+    | [:material-cart: M3 x 10mm machine screws][bom_m3_10]  | 2   | ea  | May use 12mm instead. |
+    | [:material-cart: M3 x 12mm machine screws][bom_m3_12]  | 8   | ea  |           |
+    | [:material-cart: M3 x 20mm machine screws][bom_m3_20]  | 2   | ea  |           |
 
 !!! note "Note: Sharp Point Wood Screws"
     To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
@@ -88,7 +95,7 @@ The lists below are the minimum required for an OmniBox build. The [Supported Pa
     The "Full HSI" base versions do not require wood screws.
 
 !!! note "Heat Set Inserts"
-    Starting with v0.9.10, OmniBox exclusively uses "Voron-style" (M3 x 5mm O.D. x 4mm Length) heat set inserts. User-contributed parts that require inserts universally use these inserts.
+    Starting with v0.9.10, OmniBox exclusively uses "Voron-style" (M3 x 5mm O.D. x 4mm Length) heat set inserts. User-contributed parts that require inserts also use these inserts.
 
 ### Power Switch
 
@@ -97,7 +104,7 @@ The Front Base comes in a "rocker" or "toggle" version.
 You will need one of the following:
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-card">
-[:material-cart: 30mm x 11mm SPST snap-in rocker switch][bom_switch]
+[:material-cart: 29mm x 10.5mm SPST snap-in rocker switch][bom_switch]
 
 Supports any power supply.
 </div>

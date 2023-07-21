@@ -419,7 +419,7 @@ This part is not needed if you print the [:material-directions: extended Unified
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-OmniBox accepts either a 30x11mm [:material-cart: snap-in SPST rocker switch][bom_switch] or a [:material-cart: 12mm toggle switch][bom_toggle_switch] for power on/off.
+OmniBox accepts either a 29mm x 10.5mm [:material-cart: snap-in SPST rocker switch][bom_switch] or a [:material-cart: 12mm toggle switch][bom_toggle_switch] for power on/off.
 
 Larger power supplies will not fit with a toggle switch. Check the [PSU support page](support/psu.md) for more.
 
