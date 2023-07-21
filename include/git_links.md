@@ -116,7 +116,7 @@
 [git_fotek_ssr40da]:    https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/Lower%20Bay/Fotek%20SSR-40%20DA   "OmniBox GitHub: Fotek SSR-40 DA Tray"
 [git_creality_mosfet]:  https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/Lower%20Bay/Creality%20MOSFET      "OmniBox GitHub: Creality MOSFET Tray"
 [git_btt_ups_24v]:      https://github.com/jon-harper/OmniBox/tree/unstable/Trays/Lower%20Bay/BTT%20UPS%2024V%201.0 "OmniBox GitHub: BIGTREETECH UPS 24V 1.0"
-[git_btt_relay_1.2]:    https://github.com/jon-harper/OmniBox/tree/unstable/Trays/Lower%20Bay/BTT%20Relay%201.2 "OmniBox GitHub: BIGTREETECH Relay 1.2"
+[git_btt_relay_1.2]:    https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/Lower%20Bay/BTT%20Relay%201.2 "OmniBox GitHub: BIGTREETECH Relay 1.2"
 [git_48mm_ssr]:         https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/Trays/Lower%20Bay/48mm%20SSR  "OmniBox GitHub: Puck-style Solid State Relay"
 
 <!--     /PSUs -->
