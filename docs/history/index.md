@@ -1,5 +1,5 @@
 ---
-title: 0.9.10 Release (Testing)
+title: 0.9.10 Release
 summary: Changelog for the current and past releases of OmniBox
 authors: Jon Harper
 date: 2022-10-09
@@ -29,8 +29,8 @@ The current beta release is 0.9.10, released on 2023-07-XX.
 
 | Hardware                          | Mount Location(s) | Notes |
 |-----------------------------------|-------------------|-------|
-| Mean Well LRS-450                 | PSU Tray          | |
 | Mean Well SE-450                  | PSU Tray          | |
+| Mean Well LRS-450                 | PSU Tray          | |
 | Mean Well LRS-600                 | PSU Tray          | Fit test needed. |
 | Mean Well LRS-25-5                | Lower bay tray    | Contributed by [Mr Meh][contrib_mr_meh]. |
 | Creality 2.X MCUs                 | MCU Tray          | Contributed by [Mr Meh][contrib_mr_meh]. |
@@ -38,7 +38,7 @@ The current beta release is 0.9.10, released on 2023-07-XX.
 | MKS Monster8                      | MCU Tray          | Fit test needed. |
 | MKS Skipr                         | MCU Tray          | Fit test needed. |
 | BIGTREETECH 5" Pi TFT             | Display Panel     | Contributed by [MaffooClock][contrib_maffooclock]. |
-| Omron puck-style relays           | Lower bay tray    | Compatibile with most clones. |
+| Omron puck-style relays           | Lower bay tray    | Compatible with most clones. |
 | BIGTREETECH U2C CAN adapter       | Lower bay tray    | Contributed by [edgy][contrib_edgy]. |
 | 50mm x 12mm fans                  | Any panel         | 50x10 and 50x15 pending fit tests. |
 
@@ -60,6 +60,26 @@ The current beta release is 0.9.10, released on 2023-07-XX.
     
 ## Gallery
 
+<figure markdown>
+![](../img/gallery/0.9.10/50mm_fan.jpg)
+<figcaption markdown>
+An OmniBox with external 50mm fan and keystone jack extensions.
+</figcaption>
+</figure>
+
+<figure markdown>
+![](../img/gallery/0.9.10/front.jpg)
+<figcaption markdown>
+Front view of a completed OmniBox with power switch cover and rear-mounted 60mm fan.
+</figcaption>
+</figure>
+
+<figure markdown>
+![](../img/gallery/0.9.10/psu.jpg)
+<figcaption markdown>
+The new Mean Well bottom panel allows the PSU to exhaust directly out of the case.
+</figcaption>
+</figure>
 
 [1]: https://github.com/jon-harper/OmniBox/issues/91
 [2]: https://github.com/jon-harper/OmniBox/issues/81

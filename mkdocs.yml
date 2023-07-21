@@ -99,8 +99,8 @@ nav:
   - tour.md
   - development.md
   - license.md
-  - printing.md
   - bom.md
+  - printing.md
   - Product Support:
     - support/index.md
     - support/panel_mounts.md
