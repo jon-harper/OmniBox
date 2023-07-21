@@ -13,12 +13,13 @@ This page has common settings for printing OmniBox and a printed component check
 <div markdown class="jh-grid-para">
 **:octicons-check-circle-fill-16:{.jh-green} Modified PLA**
 
-OmniBox prints best with modified PLA, usually called PLA+ or PLA Pro.
+OmniBox prints best with modified PLA, usually called **PLA+** or **PLA Pro**.
+
 </div>
 <div markdown class="jh-grid-para">
 **:octicons-x-circle-fill-16:{.jh-red} Unmodified PLA**
 
-Unmodified PLA (generally prints at 180-200C) is prints easily but is a rigid, weak material. Use modified PLA instead.
+Sometimes called **Basic PLA**, unmodified PLA prints easily but is a rigid and weak material. Unmodified PLA prints at lower temperatures and is usually cheaper than modified PLA. *Use modified PLA instead*.
 </div>
 <div markdown class="jh-grid-para">
 **:octicons-check-circle-fill-16:{.jh-green} PETG**
@@ -36,7 +37,7 @@ These settings are consistent for all parts except the TPU fan gaskets.
 
 | Setting                   | Value        | Notes |
 |---------------------------|--------------|------|
-| **Layer Height**          | 0.16-0.24mm  | Coarser settings have not been tested. |
+| **Layer Height**          | 0.16-0.25mm  | Coarser settings have not been tested. |
 | **Adaptive Layer Height** | Optional     | Can improve appearance and reduce print time.    |
 | **Perimeters (Walls)**    | [*See below*](#material-specific-settings)   | Correct value depends on material. |
 | **Infill**                | 20-25%       | Cubic is a good tradeoff for time and durability. |
@@ -49,7 +50,7 @@ These settings are consistent for all parts except the TPU fan gaskets.
 <div markdown class="jh-grid-para">
 **PLA**
 
-Print with 1.2mm or thicker walls (3 perimeters with a 0.4mm nozzle). 1.5mm+ results in solid main body side walls.
+Print with 1.2mm or thicker walls (3 perimeters with a 0.4mm nozzle). 1.5mm+ results in solid Main Body side walls.
 
 </div>
 <div markdown class="jh-grid-para">
@@ -59,7 +60,7 @@ Use 1.6mm walls/perimeters (1.8mm for 0.6mm nozzles).
 </div>
 </div>
 
-### Core Component Settings
+### Support Settings
 
 - Supports must be on for the main body.
 - The base may be printed without supports.
@@ -76,18 +77,13 @@ Use 1.6mm walls/perimeters (1.8mm for 0.6mm nozzles).
 
 This is a checklist of types parts to print. See the [Guided Tour][tour] for help selecting the right STL files from the git repository.
 
-### Core - Base
+### Core: Base
 
-Print a Front Base and a Rear Base. A Unified Base may be printed instead if you have a print bed with least 300mm on one axis. See the [Base section of the Tour](tour.md#base) for more information.
+Print a Front Base and a Rear Base. A Unified Base may be printed instead if you have a print bed with least 300mm on one axis.
 
-Ender 5 Plus/RSP-500 users *must* print the Unified Extended Base.
+See the [Base section of the Tour](tour.md#base) for more information.
 
 <div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-**Unified**
-
-[:material-git: Base - Unified][git_base_unified]
-</div>
 <div markdown class="jh-grid-para">
 **Front & Rear**
 
@@ -95,11 +91,16 @@ Ender 5 Plus/RSP-500 users *must* print the Unified Extended Base.
 
 [:material-git: Base - Rear][git_base_rear]
 </div>
+<div markdown class="jh-grid-para">
+**Unified and Unified Extended**
+
+[:material-git: Base - Unified][git_base_unified]
+</div>
 </div>
 
-### Core - Main Body
+### Core: Main Body
 
-Print one (1) version of each of the Crossbar, Front Main Body, and Rear Main Body. See the [Main Body section of the Tour](tour.md#main-body) for help choosing a version to print.
+Print one (1) version of each of the Crossbar, Front Main Body, and Rear Main Body. See the [Main Body section of the Tour](tour.md#main-body) for help choosing versions to print.
 
 [:material-git: Main Body - Crossbar][git_main_body_crossbar]
 

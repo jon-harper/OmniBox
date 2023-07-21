@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-10-09
 ---
 
-The current beta release is 0.9.10, released on 2023-XX-XX.
+The current beta release is 0.9.10, released on 2023-07-XX.
 
 ## New Features
 
@@ -15,12 +15,12 @@ The current beta release is 0.9.10, released on 2023-XX-XX.
 - Heat set insert support changed to M3 x 5mm (OD) x 4mm (L) (Voron-style).
 - Front base support for toggle switches.
 - Rear main body with two (2) external fans replaced by a four (4) interal mounts.
-- "Full HSI" case option with every fastener mating with an insert.
+- "Full HSI" case option with most fasteners mating with an insert.
 
 ### Additional Improvements
 
 - **Improved:** Crossbar version added with HSI support, better zip tie anchors.
-- **Improved:** Long lower bay trays now mount sideways.
+- **Improved:** Long lower bay trays now mount sideways, one additional tray available.
 - **Added:** Additional zip tie anchors, particularly to the front main body.
 - **Improved:** CPU tray guides take up significantly less room.
 - **New:** Support for 12mm and 12.5mm toggle switches.
@@ -29,14 +29,18 @@ The current beta release is 0.9.10, released on 2023-XX-XX.
 
 | Hardware                          | Mount Location(s) | Notes |
 |-----------------------------------|-------------------|-------|
-| Mean Well LRS-450                 | PSU Tray          | LRS-600 and SE-450 pending fit tests. |
+| Mean Well LRS-450                 | PSU Tray          | |
+| Mean Well SE-450                  | PSU Tray          | |
+| Mean Well LRS-600                 | PSU Tray          | Fit test needed. |
+| Mean Well LRS-25-5                | Lower bay tray    | Contributed by [Mr Meh][contrib_mr_meh]. |
 | Creality 2.X MCUs                 | MCU Tray          | Contributed by [Mr Meh][contrib_mr_meh]. |
-| 50mm x 12mm fans                  | Any panel         | 50x10 and 50x15 pending fit tests. |
 | FYSETC Spider                     | MCU Tray          | Contributed by [Killajoedotcom][contrib_killajoedotcom]. |
 | MKS Monster8                      | MCU Tray          | Fit test needed. |
 | MKS Skipr                         | MCU Tray          | Fit test needed. |
-| Mean Well LRS-25-5                | Lower bay tray    | Contributed by [Mr Meh][contrib_mr_meh]. |
 | BIGTREETECH 5" Pi TFT             | Display Panel     | Contributed by [MaffooClock][contrib_maffooclock]. |
+| Omron puck-style relays           | Lower bay tray    | Compatibile with most clones. |
+| BIGTREETECH U2C CAN adapter       | Lower bay tray    | Contributed by [edgy][contrib_edgy]. |
+| 50mm x 12mm fans                  | Any panel         | 50x10 and 50x15 pending fit tests. |
 
 ## Fixes
 
@@ -48,13 +52,11 @@ The current beta release is 0.9.10, released on 2023-XX-XX.
 ## Documentation & Repository
 
 - [Documentation site](https://jon-harper.github.io/OmniBox)
-    - Added basic contribution information.
+    - Added contribution information.
     - Cleaned up wording on introductory pages.
     - All fixed BOM parts have example links.
-<!-- - Assembly Guide -->
 - [Repository](https://github.com/jon-harper/OmniBox)
     - Some file names have additional qualifiers where multiple variations now exist, e.g. "stock" vs. "HSI".
-    
     
 ## Gallery
 

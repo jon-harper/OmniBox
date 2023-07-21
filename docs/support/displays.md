@@ -48,8 +48,8 @@ Component names below link to the corresponding git folder. Most mounts require 
 
 - Materials: 4x M3 x 6mm
 - Notes: 
-    - Also known as Creality CR-10 stock display; comes on most Creality printers.
-    - Called RepRap Discount Smart Controller in Marlin.
+    - Also known as Creality CR-10 stock display in Marlin.
+    - Common on many older i3-style and Creality printers.
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_12864]][img_12864]
