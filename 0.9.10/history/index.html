@@ -25,7 +25,7 @@
     
     
       
-        <title>0.9.10 Release (Testing) - OmniBox Documentation</title>
+        <title>0.9.10 Release - OmniBox Documentation</title>
       
     
     
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              0.9.10 Release (Testing)
+              0.9.10 Release
             
           </span>
         </div>
@@ -312,8 +312,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../printing/" class="md-nav__link">
-        Printing Guide
+      <a href="../bom/" class="md-nav__link">
+        Bill of Materials
       </a>
     </li>
   
@@ -327,8 +327,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../bom/" class="md-nav__link">
-        Bill of Materials
+      <a href="../printing/" class="md-nav__link">
+        Printing Guide
       </a>
     </li>
   
@@ -879,12 +879,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          0.9.10 Release (Testing)
+          0.9.10 Release
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        0.9.10 Release (Testing)
+        0.9.10 Release
       </a>
       
         
@@ -1182,9 +1182,9 @@
                   
 
 
-  <h1>0.9.10 Release (Testing)</h1>
+  <h1>0.9.10 Release</h1>
 
-<p>The current beta release is 0.9.10, released on 2023-XX-XX.</p>
+<p>The current beta release is 0.9.10, released on 2023-07-XX.</p>
 <h2 id="new-features">New Features</h2>
 <h3 id="major-new-features">Major New Features</h3>
 <ul>
@@ -1192,12 +1192,12 @@
 <li>Heat set insert support changed to M3 x 5mm (OD) x 4mm (L) (Voron-style).</li>
 <li>Front base support for toggle switches.</li>
 <li>Rear main body with two (2) external fans replaced by a four (4) interal mounts.</li>
-<li>"Full <abbr title="heat set insert">HSI</abbr>" case option with every fastener mating with an insert.</li>
+<li>"Full <abbr title="heat set insert">HSI</abbr>" case option with most fasteners mating with an insert.</li>
 </ul>
 <h3 id="additional-improvements">Additional Improvements</h3>
 <ul>
 <li><strong>Improved:</strong> Crossbar version added with <abbr title="heat set insert">HSI</abbr> support, better zip tie anchors.</li>
-<li><strong>Improved:</strong> Long lower bay trays now mount sideways.</li>
+<li><strong>Improved:</strong> Long lower bay trays now mount sideways, one additional tray available.</li>
 <li><strong>Added:</strong> Additional zip tie anchors, particularly to the front main body.</li>
 <li><strong>Improved:</strong> CPU tray guides take up significantly less room.</li>
 <li><strong>New:</strong> Support for 12mm and 12.5mm toggle switches.</li>
@@ -1213,19 +1213,29 @@
 </thead>
 <tbody>
 <tr>
+<td>Mean Well SE-450</td>
+<td><abbr title="power supply unit">PSU</abbr> Tray</td>
+<td></td>
+</tr>
+<tr>
 <td>Mean Well LRS-450</td>
 <td><abbr title="power supply unit">PSU</abbr> Tray</td>
-<td>LRS-600 and SE-450 pending fit tests.</td>
+<td></td>
+</tr>
+<tr>
+<td>Mean Well LRS-600</td>
+<td><abbr title="power supply unit">PSU</abbr> Tray</td>
+<td>Fit test needed.</td>
+</tr>
+<tr>
+<td>Mean Well LRS-25-5</td>
+<td>Lower bay tray</td>
+<td>Contributed by <a href="https://www.printables.com/social/319608-mr-meh/about" title="Printables.com Profile: Mr Meh">Mr Meh</a>.</td>
 </tr>
 <tr>
 <td>Creality 2.X <abbr title="microcontroller unit, the control board for a 3D printer">MCUs</abbr></td>
 <td><abbr title="microcontroller unit, the control board for a 3D printer">MCU</abbr> Tray</td>
 <td>Contributed by <a href="https://www.printables.com/social/319608-mr-meh/about" title="Printables.com Profile: Mr Meh">Mr Meh</a>.</td>
-</tr>
-<tr>
-<td>50mm x 12mm fans</td>
-<td>Any panel</td>
-<td>50x10 and 50x15 pending fit tests.</td>
 </tr>
 <tr>
 <td>FYSETC Spider</td>
@@ -1243,14 +1253,24 @@
 <td>Fit test needed.</td>
 </tr>
 <tr>
-<td>Mean Well LRS-25-5</td>
-<td>Lower bay tray</td>
-<td>Contributed by <a href="https://www.printables.com/social/319608-mr-meh/about" title="Printables.com Profile: Mr Meh">Mr Meh</a>.</td>
-</tr>
-<tr>
 <td>BIGTREETECH 5" Pi TFT</td>
 <td>Display Panel</td>
 <td>Contributed by <a href="https://github.com/MaffooClock" title="GitHub Profile: MaffooClock">MaffooClock</a>.</td>
+</tr>
+<tr>
+<td>Omron puck-style relays</td>
+<td>Lower bay tray</td>
+<td>Compatible with most clones.</td>
+</tr>
+<tr>
+<td>BIGTREETECH U2C CAN adapter</td>
+<td>Lower bay tray</td>
+<td>Contributed by <a href="https://www.printables.com/social/309371-edgy/about" title="Printables.com Profile: edgy">edgy</a>.</td>
+</tr>
+<tr>
+<td>50mm x 12mm fans</td>
+<td>Any panel</td>
+<td>50x10 and 50x15 pending fit tests.</td>
 </tr>
 </tbody>
 </table>
@@ -1264,20 +1284,35 @@
 <h2 id="documentation-repository">Documentation &amp; Repository</h2>
 <ul>
 <li><a href="https://jon-harper.github.io/OmniBox">Documentation site</a><ul>
-<li>Added basic contribution information.</li>
+<li>Added contribution information.</li>
 <li>Cleaned up wording on introductory pages.</li>
 <li>All fixed BOM parts have example links.</li>
 </ul>
 </li>
-</ul>
-<!-- - Assembly Guide -->
-<ul>
 <li><a href="https://github.com/jon-harper/OmniBox">Repository</a><ul>
 <li>Some file names have additional qualifiers where multiple variations now exist, e.g. "stock" vs. "<abbr title="heat set insert">HSI</abbr>".</li>
 </ul>
 </li>
 </ul>
 <h2 id="gallery">Gallery</h2>
+<figure>
+<p><img alt="" src="../img/gallery/0.9.10/50mm_fan.jpg" /></p>
+<figcaption>
+<p>An OmniBox with external 50mm fan and keystone jack extensions.</p>
+</figcaption>
+</figure>
+<figure>
+<p><img alt="" src="../img/gallery/0.9.10/front.jpg" /></p>
+<figcaption>
+<p>Front view of a completed OmniBox with power switch cover and rear-mounted 60mm fan.</p>
+</figcaption>
+</figure>
+<figure>
+<p><img alt="" src="../img/gallery/0.9.10/psu.jpg" /></p>
+<figcaption>
+<p>The new Mean Well bottom panel allows the <abbr title="power supply unit">PSU</abbr> to exhaust directly out of the case.</p>
+</figcaption>
+</figure>
 <!-- OmniBox GitHub Pages -->
 <!-- 
     OmniBox GitHub Folders 
