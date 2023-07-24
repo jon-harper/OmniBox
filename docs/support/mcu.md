@@ -119,6 +119,26 @@ All versions of the SKR E3 series are compatible with one tray, uncluding the Mi
 
 The Manta M4P is not currently supported, but may be added in a future release.
 
+#### Manta M5P
+
+{{ issue_tag(123)}}
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+[:material-git: BTT Manta M5P][git_btt_manta_m5p]{ .md-button }
+
+[:material-cart: Product Link][bom_btt_manta_m5p]{ .md-button }
+
+- Materials: 4x M3 x 6mm
+- MicroSD Extension: [:material-cart: Short][bom_lanmu_micro_sd]
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_btt_manta_m5p]][img_btt_manta_m5p]
+</div>
+</div>
+
+
 #### Manta M8P
 
 <div markdown class="jh-grid-container jh-grid-2">
@@ -304,6 +324,7 @@ Compatible with all versions.
 [img_btt_skr_3]: ../img/parts/btt_skr_3.webp
 [img_btt_skr_3_ez]: ../img/parts/btt_skr_3_ez.webp
 [img_btt_manta_m8p]: ../img/parts/btt_manta_m8p.webp
+[img_btt_manta_m5p]: ../img/parts/btt_manta_m5p.webp
 [img_creality]: ../img/parts/creality_board.webp
 [img_creality_252]: ../img/parts/creality_2_5_2.webp
 [img_btt_skr_e3_turbo]: ../img/parts/btt_skr_e3_turbo.webp
