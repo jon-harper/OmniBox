@@ -81,6 +81,20 @@ The new Mean Well bottom panel allows the PSU to exhaust directly out of the cas
 </figcaption>
 </figure>
 
+<figure markdown>
+![](../img/gallery/0.9.10/matrixsenpai1.jpg)
+<figcaption markdown>
+Everything but the panels, ready to assemble the Core case.<br>Photo courtesy Matrixsenpai.
+</figcaption>
+</figure>
+
+<figure markdown>
+![](../img/gallery/0.9.10/matrixsenpai2.jpg)
+<figcaption markdown>
+A freshly-printed PETG Rear Main Body.<br>Photo courtesy Matrixsenpai.
+</figcaption>
+</figure>
+
 [1]: https://github.com/jon-harper/OmniBox/issues/91
 [2]: https://github.com/jon-harper/OmniBox/issues/81
 [3]: https://github.com/jon-harper/OmniBox/issues/59
