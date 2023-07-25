@@ -84,14 +84,14 @@ The new Mean Well bottom panel allows the PSU to exhaust directly out of the cas
 <figure markdown>
 ![](../img/gallery/0.9.10/matrixsenpai1.jpg)
 <figcaption markdown>
-Everything but the panels, ready to assemble the Core case.<br>Photo courtesy Matrixsenpai.
+Everything but the panels, ready to assemble the Core case.<br>Photo courtesy matrixsenpai.
 </figcaption>
 </figure>
 
 <figure markdown>
 ![](../img/gallery/0.9.10/matrixsenpai2.jpg)
 <figcaption markdown>
-A freshly-printed PETG Rear Main Body.<br>Photo courtesy Matrixsenpai.
+A freshly-printed PETG Rear Main Body.<br>Photo courtesy matrixsenpai.
 </figcaption>
 </figure>
 
