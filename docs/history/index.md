@@ -24,7 +24,7 @@ The current beta release is 0.9.10, released on 2023-07-XX.
 - **Added:** Additional zip tie anchors, particularly to the front main body.
 - **Improved:** CPU tray guides take up significantly less room.
 - **New:** Support for 12mm and 12.5mm toggle switches.
-
+- **New:** MCU trays with mounts for dual MCUs.
 ### New Hardware Support
 
 | Hardware                          | Mount Location(s) | Notes |
@@ -38,6 +38,7 @@ The current beta release is 0.9.10, released on 2023-07-XX.
 | MKS Monster8                      | MCU Tray          | Fit test needed. |
 | MKS Skipr                         | MCU Tray          | Fit test needed. |
 | BIGTREETECH 5" Pi TFT             | Display Panel     | Contributed by [MaffooClock][contrib_maffooclock]. |
+| BIGTREETECH SKR Pico              | MCU Tray          | |
 | Omron puck-style relays           | Lower bay tray    | Compatible with most clones. |
 | BIGTREETECH U2C CAN adapter       | Lower bay tray    | Contributed by [edgy][contrib_edgy]. |
 | 50mm x 12mm fans                  | Any panel         | 50x10 and 50x15 pending fit tests. |

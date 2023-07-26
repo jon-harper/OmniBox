@@ -37,6 +37,12 @@ For each entry, `Materials` are the fasteners required to mount the board, while
 </div>
 -->
 
+## Dual MCU Trays
+
+Smaller MCUs can be mounted two-to-a-tray. See the [:material-git: Dual MCU][git_dual_mcu] git folder for available combinations.
+
+[:material-git: Dual MCU][git_dual_mcu]{ .md-button }
+
 ## BIGTREETECH
 
 ### SKR Series
@@ -60,9 +66,10 @@ For each entry, `Materials` are the fasteners required to mount the board, while
 
 #### SKR 3
 
+{{ issue_tag(48) }}
+
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-!!! caution "Fit Test Pending: [:material-git: Issue #48](https://github.com/jon-harper/OmniBox/issues/48)"
 
 [:material-git: BTT SKR 3][git_btt_skr_3]{ .md-button }
 
@@ -79,9 +86,10 @@ For each entry, `Materials` are the fasteners required to mount the board, while
 
 #### SKR 3 EZ
 
+{{ issue_tag(48) }}
+
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-!!! caution "Fit Test Pending: [:material-git: Issue #48](https://github.com/jon-harper/OmniBox/issues/48)"
 
 [:material-git: BTT SKR 3 EZ][git_btt_skr_3_ez]{ .md-button }
 
@@ -112,6 +120,24 @@ All versions of the SKR E3 series are compatible with one tray, uncluding the Mi
 </div>
 <div markdown class="jh-grid-img">
 [![skr mini e3 v3][img_btt_skr_mini_e3_v3]][img_btt_skr_mini_e3_v3]
+</div>
+</div>
+
+### SKR Pico
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+[:material-git: BTT SKR Pico][git_btt_skr_pico]{ .md-button }
+
+[:material-cart: Product Link][bom_btt_skr_pico]{ .md-button }
+
+- Materials: 4x M3 x 6mm
+- MicroSD Extension: N/A
+- Notes: Same mounting hole pattern as Raspberry Pi.
+</div>
+<div markdown class="jh-grid-img">
+[![BIGTREETECH SKR Pico][img_btt_skr_pico]][img_btt_skr_pico]
 </div>
 </div>
 
@@ -280,9 +306,10 @@ Compatible with all versions.
 
 ### MKS Monster8
 
+{{ issue_tag(74) }}
+
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-!!! caution "Fit Test Pending: [Issue #74](https://github.com/jon-harper/OmniBox/issues/74)"
 
 [:material-git: MKS Monster8][git_mks_monster8]{ .md-button }
 
@@ -317,6 +344,7 @@ Compatible with all versions.
 </div>
 </div>
 
+
 [img_mcu]: ../img/components/mcu.webp
 
 [img_btt_octopus]: ../img/parts/btt_octopus_1.webp
@@ -329,6 +357,7 @@ Compatible with all versions.
 [img_creality_252]: ../img/parts/creality_2_5_2.webp
 [img_btt_skr_e3_turbo]: ../img/parts/btt_skr_e3_turbo.webp
 [img_btt_skr_mini_e3_v3]: ../img/parts/btt_skr_mini_e3_v3.webp
+[img_btt_skr_pico]: ../img/parts/btt_skr_pico.webp
 [img_duet_3_mini_5+]: ../img/parts/duet3_mini_5plus.webp
 [img_duet_3_6hc]: ../img/parts/duet3_6hc.webp
 [img_mks_monster8]: ../img/parts/mks_monster8.webp
