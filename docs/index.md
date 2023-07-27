@@ -21,7 +21,7 @@ This project is loosely derived from Steve Burcham's [Stand Alone Main Control C
 
 <figure markdown>
   [![gallery of OmniBox part combinations][gallery_thumb]][gallery]
-  <figcaption>A gallery of several OmniBox configurations.</figcaption>
+  <figcaption>Renders of a finished OmniBox.</figcaption>
 </figure>
 
 ## Quick Links
@@ -91,8 +91,8 @@ The following shows how trays and Core cases how support works for deprecated pa
 
 See the [Guided Tour][tour] to see how the components of an OmniBox fit together in practice.
 
-[gallery_thumb]: img/examples/gallery_thumb.png
-[gallery]: img/examples/gallery.png
+[gallery_thumb]: img/examples/0.9.10/render_thumb.jpg
+[gallery]: img/examples/0.9.10/render.jpg
 
 [current_release]: history/index.md "Version History (Current Release)"
 [tour]:     tour.md                 "Guided Tour"
