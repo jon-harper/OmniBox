@@ -1,5 +1,3 @@
-## Note: this is the `0.9.10-beta` branch!
-
 Welcome to the OmniBox repository! OmniBox is a modular, 3D printed electronics case for controlling 3D printers. It is conceptually derived from Steve Burcham's **[Stand Alone Main Control Case](https://www.thingiverse.com/thing:3999751)** V3.
 
 This project focuses on modularity, accessibility to users, and reusability. The goal of OmniBox is to make your printer's electronics as valuable and re-usable an asset as the printer it controls.
@@ -15,18 +13,17 @@ The **[documentation](https://jon-harper.github.io/OmniBox)** includes a visual 
 
 ## Releases
 
-### Current Release
+### Current Beta
+
+- The `main` branch now tracks release `0.9.10`. Formal release is planned for 2023-07-31.
+- **[Documentation][testing_docs]**
+- **[Changelog][testing_changelog]**
+
+### Previous Release
 
 - The current release is version 0.9.9, released 2022-11-26.
 - **[Changelog][changelog]**
-- **[Documentation][testing_docs]**
-
-### Current Beta
-
-- **The Core case for 0.9.10 is now in beta.**
-- Files for the beta are in the [`0.9.10-beta` branch](https://github.com/jon-harper/OmniBox/tree/0.9.10-beta)
-- [See this discussion](https://github.com/jon-harper/OmniBox/discussions/109) for more on the 0.9.10 release.
-
+- **[Documentation][latest_docs]**
 
 ### In Development
 
@@ -37,6 +34,8 @@ Untested parts can be found in the **[`unstable`][unstable]** branch\*.
 ![photobooth picture][gallery_pic]
 
 [changelog]: https://jon-harper.github.io/OmniBox/latest/history/
+[latest_docs]: https://jon-harper.github.io/OmniBox/latest
+[testing_changelog]: https://jon-harper.github.io/OmniBox/testing/history/
 [testing_docs]: https://jon-harper.github.io/OmniBox/testing
 [gallery_pic]:  https://jon-harper.github.io/OmniBox/gallery/photobooth6.jpg
 [unstable]: https://github.com/jon-harper/OmniBox/tree/unstable
