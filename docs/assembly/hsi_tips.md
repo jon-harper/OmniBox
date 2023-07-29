@@ -15,7 +15,7 @@ Installation time varies by experience; typically this is between 15 to 45 minut
 - M3 heat set insert tip for soldering irons
 - Fine tweezers
 
-## Practice Block
+### Practice Block
 
 If you are using inserts for the first time, print at least one [:material-git: practice block][git_hsi_practice]. Experience with inserts saves time and lowers the chances of printed part damage.
 
@@ -39,7 +39,7 @@ These blocks have holes in two orientations: flat and set at a 50 degree angle. 
     The insert holes have a slight inward slope. Resistance will gradually increase as the insert slides in place. Resistance greatly increases when the insert deviates from the hole.
 
 !!! caution
-    Insertion of an insert leaves both the insert and surrounding plastic hot for several minutes.
+    Installing an insert leaves both the insert and surrounding plastic hot for several minutes.
 
     Avoid touching areas of the case around an insert until it has cooled.
 
