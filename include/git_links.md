@@ -52,20 +52,21 @@
 <!--      /Front Panel -->
 [git_front_panel]:      https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel                "OmniBox GitHub: Front Panels"
 [git_front_sd_no_usb]:  https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel/MicroSD%20Extension/No%20USB "OmniBox GitHub: Front Panel with MicroSD Extension (No USB)"
-
+[git_front_template]:   https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel/Template       "OmniBox GitHub: Front panel template"
 
 <!--      /Lid -->
 [git_lid]:              https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/                         "OmniBox GitHub: Lids"
 [git_lid_pi_tft]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Short/Pi%20TFT           "OmniBox GitHub: Raspberry Pi TFT Lid"
 [git_lid_handle_long]:  https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Long/Carry%20Lid         "OmniBox GitHub: Long Carry Lid"
 [git_lid_handle_short]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Short/Carry%20Lid        "OmniBox GitHub: Short Carry Lid"
-
+[git_lid_template]:     https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/Template                 "OmniBox GitHub: Lid Panel Template"
 
 <!--      /Side Panel -->
 [git_side_panel]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Side%20Panel                 "OmniBox GitHub: Side Panels"
 [git_blank_side_panel]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Side%20Panel/Blank           "OmniBox GitHub: Blank Side Panel"
 [git_40mm_side_panel]:  https://github.com/jon-harper/OmniBox/tree/main/Panels/Side%20Panel/40mm%20Fan%20-%20Internal "OmniBox GitHub: 40mm Internal Fan Side Panel"
 [git_rj45_usb_side_panel]: https://github.com/jon-harper/OmniBox/tree/main/Panels/Side%20Panel/RJ-45%20%26%20Dual%20USB "OmniBox GitHub: RJ-45 and Dual USB Side Panel"
+[git_side_template]:    https://github.com/jon-harper/OmniBox/tree/main/Panels/Side%20Panel/Template        "OmniBox GitHub: Side Panel Template"
 
 <!--      /Rear Panel -->
 [git_rear_panel]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel                 "OmniBox GitHub: Rear Panels"
@@ -78,6 +79,7 @@
 [git_bottom_panel]:     https://github.com/jon-harper/OmniBox/tree/main/Panels/Bottom%20Panel                 "OmniBox GitHub: Bottom Panels"
 [git_closed_bottom]:    https://github.com/jon-harper/OmniBox/tree/main/Panels/Bottom%20Panel/Closed          "OmniBox GitHub: Closed Bottom Panel"
 [git_hex_bottom]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Bottom%20Panel/Hex             "OmniBox GitHub: Hexagon Bottom Panel"
+[git_bottom_template]:  https://github.com/jon-harper/OmniBox/tree/main/Panels/Bottom%20Panel/Template      "OmniBox GitHub: Bottom Panel Template"
 
 <!-- /Trays     -->
 <!--      /MCU -->

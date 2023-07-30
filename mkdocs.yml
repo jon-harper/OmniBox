@@ -96,11 +96,12 @@ extra_css:
       
 nav:
   - index.md
-  - tour.md
   - development.md
   - license.md
-  - bom.md
-  - printing.md
+  - Getting Started:
+    - tour.md
+    - bom.md
+    - printing.md
   - Product Support:
     - support/index.md
     - support/panel_mounts.md
@@ -131,6 +132,9 @@ nav:
       - assembly/rear.md
       - assembly/display.md
       - assembly/bottom_lid.md
+  - Upgrade Guide:
+    - upgrade/index.md
+    - upgrade/templates.md
   - Version History:
     - history/index.md
     - Prior Releases:
