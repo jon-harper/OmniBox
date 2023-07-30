@@ -115,9 +115,8 @@ nav:
     - assembly/index.md
     - Heat Set Inserts (HSI):
       - assembly/hsi_tips.md
-      # - assembly/hsi_base.md
-      # - assembly/hsi_front.md
-      # - assembly/hsi_rear.md
+      - assembly/hsi_steps.md
+      - assembly/hsi_locations.md
     - Core & PSU:
       - assembly/base.md
       - assembly/psu_wiring.md
