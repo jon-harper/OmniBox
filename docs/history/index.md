@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-10-09
 ---
 
-The current beta release is 0.9.10, released on 2023-07-XX.
+The current beta release is 0.9.10, released on 2023-07-31.
 
 ## New Features
 
@@ -21,10 +21,15 @@ The current beta release is 0.9.10, released on 2023-07-XX.
 
 - **Improved:** Crossbar version added with HSI support, better zip tie anchors.
 - **Improved:** Long lower bay trays now mount sideways, one additional tray available.
+- **Improved:** New bottom panel template and panel options.
 - **Added:** Additional zip tie anchors, particularly to the front main body.
 - **Improved:** CPU tray guides take up significantly less room.
 - **New:** Support for 12mm and 12.5mm toggle switches.
 - **New:** MCU trays with mounts for dual MCUs.
+- **New:** Slide-out storage for the CPU bay.
+- **Improved:** Rear panel template now provides support for the lid.
+- **Improved:** Display panel template now fits betters and prints with less material.
+
 ### New Hardware Support
 
 | Hardware                          | Mount Location(s) | Notes |
@@ -49,6 +54,10 @@ The current beta release is 0.9.10, released on 2023-07-XX.
 - [Issue #81][2]: Lower bay tray standoffs need a fillet
 - [Issue #59][3]: Micro Fit 3 pinouts for rear panels are missing
 - [Issue #94][4]: Add a power switch cover to prevent accidental bumping
+- [Issue #114][5]: Lower bay standoffs should be tapered
+- [Issue #111][6]: Videos should not auto-download
+- [Issue #102][7]: Template should have a version code
+- [Issue #62][8]: Panel mounted connectors template is out of date
 
 ## Documentation & Repository
 
@@ -56,8 +65,11 @@ The current beta release is 0.9.10, released on 2023-07-XX.
     - Added contribution information.
     - Cleaned up wording on introductory pages.
     - All fixed BOM parts have example links.
+    - Added a simple upgrading guide and templates page.
+    - Simplified HSI assembly section.
 - [Repository](https://github.com/jon-harper/OmniBox)
     - Some file names have additional qualifiers where multiple variations now exist, e.g. "stock" vs. "HSI".
+    - Fixed a number of stable files that were never moved from `unstable`.
     
 ## Gallery
 
@@ -100,3 +112,7 @@ A freshly-printed PETG Rear Main Body.<br>Photo courtesy matrixsenpai.
 [2]: https://github.com/jon-harper/OmniBox/issues/81
 [3]: https://github.com/jon-harper/OmniBox/issues/59
 [4]: https://github.com/jon-harper/OmniBox/issues/94
+[5]: https://github.com/jon-harper/OmniBox/issues/114
+[6]: https://github.com/jon-harper/OmniBox/issues/111
+[7]: https://github.com/jon-harper/OmniBox/issues/102
+[8]: https://github.com/jon-harper/OmniBox/issues/62

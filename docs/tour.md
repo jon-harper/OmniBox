@@ -33,7 +33,7 @@ Internal page links in this tour are marked with an :material-directions: arrow 
 
 Core components form the basis of every case. End-user parts normally do not attach to core components; instead, user parts are attached to trays and panels, which then mount on the Core case.
 
-!!! important
+!!! note "Note: Heat Set Inserts (HSI)"
     Most Core components come with the option of using heat set inserts to attach most trays and panels. These `STL` files have "HSI" in the name.
 
 <figure markdown>
@@ -41,9 +41,9 @@ Core components form the basis of every case. End-user parts normally do not att
   <figcaption>The assembled core components of an OmniBox.</figcaption>
 </figure>
 
-There are two types of Core components: Base and Main Body. A typical OmniBox build has two parts for the base and three for the main body.
+There are two (2) types of Core components: Base and Main Body. A typical OmniBox build has two (2) parts for the base and three (3) for the main body.
 
-The Unified base can be printed instead of the front and rear base pieces.
+The Unified base can be printed instead of the front and rear Base pieces.
 
 <div markdown class="jh-grid-container jh-grid-3">
 <div markdown>
