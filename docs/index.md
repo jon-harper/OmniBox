@@ -57,9 +57,12 @@ This project is loosely derived from Steve Burcham's [Stand Alone Main Control C
 
 ## Current Status
 
-OmniBox is mature enough for everyday use. A complete OmniBox made of parts from one release is tested to fit and work. Trays and panels are compatibile between releases (see [Compatibility and Upgrades](#compatibility-and-upgrades) for details).
+A complete OmniBox made of parts from one release is tested to fit and work together. The developer completes at least two full builds for each release and new releases are also community-tested. The [Version History][current_release] page contains information on the latest release, fixes, new features, and known issues.
 
-The [Version History][current_release] page contains information on the latest release, fixes, new features, and known issues.
+### Upgrading
+
+Trays and panels are typically compatible between releases. Recent Core case versions may be partially upgraded rather than entirely reprinted. See the [Upgrade Guide][upgrade] for details.
+
 
 
 [gallery_thumb]: img/examples/0.9.10/render_thumb.jpg

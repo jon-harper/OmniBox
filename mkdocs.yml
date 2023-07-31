@@ -5,7 +5,7 @@ site_url: https://jon-harper.github.io/OmniBox
 repo_url: https://github.com/jon-harper/OmniBox
 repo_name: jon-harper/OmniBox
 edit_uri: ""
-copyright: Copyright &copy; 2022 Jonathan Harper
+copyright: Copyright &copy; 2022-2023 Jonathan Harper
 
 markdown_extensions:
   - admonition
@@ -39,7 +39,6 @@ theme:
   favicon: img/favicon.png
   features:
     - navigation.instant
-    # - navigation.sections
     - navigation.top
     - navigation.footer
     
@@ -63,7 +62,6 @@ theme:
 plugins:
   - mike:
       canonical_version: latest
-      alias_type: copy
   - search
   - macros:
       module_name: "src"
@@ -82,8 +80,8 @@ extra:
       link: https://ko-fi.com/jonspaceharper
       name: Buy me a coffee! (Ko-Fi)
   meta:
-    version: 0.9.10 (Beta)
-    this_branch: https://github.com/jon-harper/OmniBox/tree/0.9.10-beta/
+    version: "0.9.10"
+    this_branch: https://github.com/jon-harper/OmniBox/tree/main/
     test_branch: https://github.com/jon-harper/OmniBox/tree/unstable/
     video_folder: https://jon-harper.github.io/OmniBox/video/0.9.10/
     bom_files: 
