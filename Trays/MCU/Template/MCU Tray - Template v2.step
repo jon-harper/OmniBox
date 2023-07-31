@@ -9,12 +9,12 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'MCU Tray - M3 Template.step',
-/* time_stamp */ '2023-07-23T04:08:01-05:00',
+/* name */ 'MCU Tray - Template v2.step',
+/* time_stamp */ '2023-07-31T11:36:19-05:00',
 /* author */ (''),
 /* organization */ (''),
-/* preprocessor_version */ 'ST-DEVELOPER v19.2',
-/* originating_system */ 'Autodesk Translation Framework v12.6.0.85',
+/* preprocessor_version */ 'ST-DEVELOPER v20',
+/* originating_system */ 'Autodesk Translation Framework v12.9.0.99',
 /* authorisation */ '');
 
 FILE_SCHEMA (('AUTOMOTIVE_DESIGN { 1 0 10303 214 3 1 1 }'));
@@ -2869,17 +2869,17 @@ SOLID_ANGLE_UNIT()
 #2570=PRODUCT_DEFINITION_SHAPE('',$,#2573);
 #2571=SHAPE_REPRESENTATION('',(#1301),#2563);
 #2572=PRODUCT_DEFINITION_CONTEXT('part definition',#2577,'design');
-#2573=PRODUCT_DEFINITION('MCU Tray - M3 Template',
-'MCU Tray - M3 Template v12',#2574,#2572);
+#2573=PRODUCT_DEFINITION('MCU Tray - Template V2',
+'MCU Tray - Template V2 v13',#2574,#2572);
 #2574=PRODUCT_DEFINITION_FORMATION('',$,#2579);
-#2575=PRODUCT_RELATED_PRODUCT_CATEGORY('MCU Tray - M3 Template v12',
-'MCU Tray - M3 Template v12',(#2579));
+#2575=PRODUCT_RELATED_PRODUCT_CATEGORY('MCU Tray - Template V2 v13',
+'MCU Tray - Template V2 v13',(#2579));
 #2576=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#2577);
 #2577=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #2578=PRODUCT_CONTEXT('part definition',#2577,'mechanical');
-#2579=PRODUCT('MCU Tray - M3 Template','MCU Tray - M3 Template v12',$,(#2578));
+#2579=PRODUCT('MCU Tray - Template V2','MCU Tray - Template V2 v13',$,(#2578));
 #2580=PRESENTATION_STYLE_ASSIGNMENT((#2581));
 #2581=SURFACE_STYLE_USAGE(.BOTH.,#2582);
 #2582=SURFACE_SIDE_STYLE('',(#2583));
