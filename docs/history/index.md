@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2022-10-09
 ---
 
-The current beta release is 0.9.10, released on 2023-07-31.
+The current stable release is 0.9.10, released on 2023-07-31.
 
 ## New Features
 
@@ -69,7 +69,7 @@ The current beta release is 0.9.10, released on 2023-07-31.
     - Simplified HSI assembly section.
 - [Repository](https://github.com/jon-harper/OmniBox)
     - Some file names have additional qualifiers where multiple variations now exist, e.g. "stock" vs. "HSI".
-    - Fixed a number of stable files that were never moved from `unstable`.
+    - Fixed a number of stable files that were never copied or updated from `unstable`.
     
 ## Gallery
 
