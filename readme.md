@@ -15,15 +15,9 @@ The **[documentation](https://jon-harper.github.io/OmniBox)** includes a visual 
 
 ### Current Beta
 
-- The `main` branch now tracks release `0.9.10`. Formal release is planned for 2023-07-31.
+- The current release is v0.9.10, released 2023-07-31.
 - **[Documentation][testing_docs]**
 - **[Changelog][testing_changelog]**
-
-### Previous Release
-
-- The current release is version 0.9.9, released 2022-11-26.
-- **[Changelog][changelog]**
-- **[Documentation][latest_docs]**
 
 ### In Development
 
@@ -37,5 +31,5 @@ Untested parts can be found in the **[`unstable`][unstable]** branch\*.
 [latest_docs]: https://jon-harper.github.io/OmniBox/latest
 [testing_changelog]: https://jon-harper.github.io/OmniBox/testing/history/
 [testing_docs]: https://jon-harper.github.io/OmniBox/testing
-[gallery_pic]:  https://jon-harper.github.io/OmniBox/gallery/photobooth6.jpg
+[gallery_pic]:  https://jon-harper.github.io/OmniBox/0.9.10/img/examples/0.9.10/render.jpg
 [unstable]: https://github.com/jon-harper/OmniBox/tree/unstable
