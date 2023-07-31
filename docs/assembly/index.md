@@ -127,10 +127,10 @@ For example, from the display panel section:
 <div align="center" markdown>
 ## :material-directions: Ready?
 
-Go to the [next page][hsi_base] if you printed a case with heat set inserts, or jump to [building the base][base] otherwise.
+Go to the [next page][hsi_tips] if you printed a case with heat set inserts, or jump to [building the base][base] otherwise.
 </div>
     
-[hsi_base]: hsi_base.md     "Assembly: Rear Base Heat Set Inserts"
+[hsi_tips]: hsi_tips.md     "Assembly: HSI Introduction & Tips"
 [base]:     base.md         "Assembly: Base and PSU"
 [core]:     core.md         "Assembly: Main Body"
 [mcu]:      mcu.md          "Assembly: MCU Tray"
