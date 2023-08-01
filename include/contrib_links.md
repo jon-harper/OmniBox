@@ -9,3 +9,4 @@
 [contrib_anton]: https://github.com/Otann "GitHub Profile: Anton Chebotaev"
 [contrib_ginger_saw]: https://www.printables.com/social/226009-ginger-saw/about "Printables.com Profile: Ginger Saw"
 [contrib_edgy]: https://www.printables.com/social/309371-edgy/about "Printables.com Profile: edgy"
+[contrib_siruli]: https://github.com/SirUli "GitHub Profile: SirUli"
