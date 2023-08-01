@@ -62,6 +62,7 @@
 [bom_mks_skipr]:        https://www.aliexpress.us/item/3256804323039950.html                                     "AliExpress: MakerBase MKS Skipr"
 [bom_mks_monster8]:     https://www.aliexpress.us/item/3256803106583492.html                                     "AliExpress: MakerBase MKS Monster8"
 [bom_btt_skr_pico]:     https://www.amazon.com/BIGTREETECH-Controller-Compatible-Entry-Level-Motherboard/dp/B09MVJ5XKH/ "Amazon: BIGTREETECH SKR Pico"
+[bom_btt_hdmi5]:        https://biqu.equipment/collections/lcd/products/bigtreetech-hdmi5-v1-0-hdmi7-v1-0        "Bigtreetech: BTT HDMI5"
 
 <!-- SoC CPUs -->
 [bom_rpi_3b_plus]:      https://www.adafruit.com/product/3055                                                    "Adafruit: Raspberry Pi 3B+"

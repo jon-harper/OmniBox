@@ -44,6 +44,7 @@
 [git_btt_tft_24]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%202.4%20TFT      "OmniBox GitHub: BIGTREETECH 2.4" TFT Display Panel"
 [git_btt_tft_50]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%205.0%20TFT      "OmniBox GitHub: BIGTREETECH 5" TFT Display Panel"
 [git_btt_pitft_50]:     https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%20PI%20TFT50     "OmniBox GitHub: BIGTREETECH 5" Pi TFT Display Panel"
+[git_btt_hdmi5]:        https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/BTT%20HDMI5          "OmniBox GitHub: BIGTREETECH HDMI5 Display Panel"
 [git_mini_12864]:       https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Mini%2012864         "OmniBox GitHub: FYSETC Mini12864 Display Panel (and compatible)"
 [git_generic_12864]:    https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Generic%2012864      "OmniBox GitHub: Generic 12864 Display Panel"
 [git_display_pi_tft]:   https://github.com/jon-harper/OmniBox/tree/main/Panels/Display/Raspberry%20Pi%20TFT "OmniBox GitHub: Raspberry Pi TFT Display Panel"

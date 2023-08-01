@@ -127,6 +127,27 @@ Component names below link to the corresponding git folder. Most mounts require 
 </div>
 </div>
 
+### BIGTREETECH HDMI5
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+!!! info "Contributed by [SirUli][contrib_siruli]"
+
+[:material-git: BTT HDMI5][git_btt_hdmi5]{ .md-button }
+
+[:material-cart: Product Link][bom_btt_hdmi5]{ .md-button }
+
+- Materials:
+    - 4x M3 x 15mm
+    - 4x M3 x 6mm
+    - 4x M3 x 5mm OD x 4mm L HSI
+
+</div>
+<div markdown class="jh-grid-img">
+[![product picture][img_btt_hdmi5]][img_btt_hdmi5]
+</div>
+</div>
+
 ## CPU Displays
 
 Many Klipper and Octoprint users have a CPU display attached to their Raspberry Pi (or other SBC), and some forego an MCU display entirely.
@@ -247,4 +268,5 @@ Known compatible displays are listed below, along with mounting options.
 [img_btt_tft24]: ../img/parts/btt_tft_2.4.webp
 [img_btt_tft35]: ../img/parts/btt_tft_3.5.webp
 [img_btt_pitft50]: ../img/parts/btt_pitft_5.0.webp
+[img_btt_hdmi5]: ../img/parts/btt_hdmi5.webp
 [img_rpi_tft]: ../img/parts/rpi_tft.webp
