@@ -138,8 +138,9 @@ Component names below link to the corresponding git folder. Most mounts require 
 [:material-cart: Product Link][bom_btt_hdmi5]{ .md-button }
 
 - Materials:
-  - 4x M3 x 15mm
-  - 4x M3 x 6mm
+    - 4x M3 x 15mm
+    - 4x M3 x 6mm
+    - 4x M3 x 5mm OD x 4mm L HSI
 
 </div>
 <div markdown class="jh-grid-img">
