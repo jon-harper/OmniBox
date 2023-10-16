@@ -80,8 +80,8 @@ extra:
       link: https://ko-fi.com/jonspaceharper
       name: Buy me a coffee! (Ko-Fi)
   meta:
-    version: "0.9.10"
-    this_branch: https://github.com/jon-harper/OmniBox/tree/main/
+    version: "0.9.11"
+    this_branch: https://github.com/jon-harper/OmniBox/tree/0.9.11-alpha/
     test_branch: https://github.com/jon-harper/OmniBox/tree/unstable/
     video_folder: https://jon-harper.github.io/OmniBox/video/0.9.10/
     bom_files: 
@@ -135,6 +135,7 @@ nav:
   - Version History:
     - history/index.md
     - Prior Releases:
+      - history/v0.9.10.md
       - history/v0.9.9.md
       - history/v0.9.8.1.md
       - history/v0.9.8.md
