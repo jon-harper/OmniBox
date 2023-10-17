@@ -1,0 +1,2196 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for the OmniBox 3D printer electronics case.">
+      
+      
+        <meta name="author" content="Jon Harper">
+      
+      
+        <link rel="canonical" href="https://jon-harper.github.io/OmniBox/latest/tour/">
+      
+      
+        <link rel="prev" href="../license/">
+      
+      
+        <link rel="next" href="../bom/">
+      
+      <link rel="icon" href="../img/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.15">
+    
+    
+      
+        <title>Guided Tour - OmniBox Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,300i,400,400i,700,700i%7CSource+Code+Pro:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans";--md-code-font:"Source Code Pro"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="deep-orange">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="OmniBox Documentation" class="md-header__button md-logo" aria-label="OmniBox Documentation" data-md-component="logo">
+      
+  <img src="../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OmniBox Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Guided Tour
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="deep-orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1h4m6-10h3v2h-3v-2M1 11h3v2H1v-2M13 1v3h-2V1h2M4.92 3.5l2.13 2.14-1.42 1.41L3.5 4.93 4.92 3.5m12.03 2.13 2.12-2.13 1.43 1.43-2.13 2.12-1.42-1.42Z"/></svg>
+              </label>
+            
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C9.76 2 7.78 3.05 6.5 4.68l1.43 1.43C8.84 4.84 10.32 4 12 4a5 5 0 0 1 5 5c0 1.68-.84 3.16-2.11 4.06l1.42 1.44C17.94 13.21 19 11.24 19 9a7 7 0 0 0-7-7M3.28 4 2 5.27 5.04 8.3C5 8.53 5 8.76 5 9c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h5.73l4 4L20 20.72 3.28 4m3.95 6.5 5.5 5.5H10v-2.42a5.004 5.004 0 0 1-2.77-3.08M9 20v1a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9Z"/></svg>
+              </label>
+            
+          
+        </form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/jon-harper/OmniBox" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    jon-harper/OmniBox
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="OmniBox Documentation" class="md-nav__button md-logo" aria-label="OmniBox Documentation" data-md-component="logo">
+      
+  <img src="../img/logo.png" alt="logo">
+
+    </a>
+    OmniBox Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/jon-harper/OmniBox" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    jon-harper/OmniBox
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../development/" class="md-nav__link">
+        The OmniBox Story
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../license/" class="md-nav__link">
+        License & Contributing
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Getting Started
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Getting Started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Guided Tour
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Guided Tour
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    Links
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-components" class="md-nav__link">
+    Core Components
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#base" class="md-nav__link">
+    Base
+  </a>
+  
+    <nav class="md-nav" aria-label="Base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#front-base" class="md-nav__link">
+    Front Base
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rear-base" class="md-nav__link">
+    Rear Base
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unified-base" class="md-nav__link">
+    Unified Base
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#main-body" class="md-nav__link">
+    Main Body
+  </a>
+  
+    <nav class="md-nav" aria-label="Main Body">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#main-body-crossbar" class="md-nav__link">
+    Main Body Crossbar
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#front-main-body" class="md-nav__link">
+    Front Main Body
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rear-main-body" class="md-nav__link">
+    Rear Main Body
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trays" class="md-nav__link">
+    Trays
+  </a>
+  
+    <nav class="md-nav" aria-label="Trays">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#psu-tray" class="md-nav__link">
+    PSU Tray
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcu-tray" class="md-nav__link">
+    MCU Tray
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lower-bay-trays" class="md-nav__link">
+    Lower Bay Trays
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cpu-tray" class="md-nav__link">
+    CPU Tray
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panels" class="md-nav__link">
+    Panels
+  </a>
+  
+    <nav class="md-nav" aria-label="Panels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#front-panel" class="md-nav__link">
+    Front Panel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#side-panel" class="md-nav__link">
+    Side Panel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bottom-panel" class="md-nav__link">
+    Bottom Panel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#display-panel" class="md-nav__link">
+    Display Panel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lids" class="md-nav__link">
+    Lid(s)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rear-panel" class="md-nav__link">
+    Rear Panel
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-components" class="md-nav__link">
+    Other Components
+  </a>
+  
+    <nav class="md-nav" aria-label="Other Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fans" class="md-nav__link">
+    Fans
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#base-extensions" class="md-nav__link">
+    Base Extensions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-switch" class="md-nav__link">
+    Power Switch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iec-c14-power-socket" class="md-nav__link">
+    IEC C14 Power Socket
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bom/" class="md-nav__link">
+        Bill of Materials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../printing/" class="md-nav__link">
+        Printing Guide
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Product Support
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Product Support
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/" class="md-nav__link">
+        Support Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/panel_mounts/" class="md-nav__link">
+        Panel Mounts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/mcu/" class="md-nav__link">
+        Microcontroller Boards (MCUs)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/cpu/" class="md-nav__link">
+        SoC CPUs/SBCs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/psu/" class="md-nav__link">
+        Power Supplies (PSUs)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/displays/" class="md-nav__link">
+        Displays
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/fans/" class="md-nav__link">
+        Fans
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../support/lower_bay/" class="md-nav__link">
+        Lower Bay/Other Components
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Assembly Guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Assembly Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+          Heat Set Inserts (HSI)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          Heat Set Inserts (HSI)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/hsi_tips/" class="md-nav__link">
+        HSI Introduction & Tips
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/hsi_steps/" class="md-nav__link">
+        Insertion Steps
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/hsi_locations/" class="md-nav__link">
+        Insert Locations
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+          Core & PSU
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6_3">
+          <span class="md-nav__icon md-icon"></span>
+          Core & PSU
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/base/" class="md-nav__link">
+        Base and PSU
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/psu_wiring/" class="md-nav__link">
+        PSU Wiring
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/core/" class="md-nav__link">
+        Core Assembly
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+          CPU and Lower Bay Trays
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6_4">
+          <span class="md-nav__icon md-icon"></span>
+          CPU and Lower Bay Trays
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/cpu/" class="md-nav__link">
+        CPU
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/lower_bay/" class="md-nav__link">
+        Lower Bay Trays
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/side/" class="md-nav__link">
+        Side Panel(s)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/front/" class="md-nav__link">
+        Front Panel
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+          MCU & Panels
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6_5">
+          <span class="md-nav__icon md-icon"></span>
+          MCU & Panels
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/mcu/" class="md-nav__link">
+        MCU Tray
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/rear/" class="md-nav__link">
+        Rear Panel and Wiring
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/display/" class="md-nav__link">
+        Display Panel
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../assembly/bottom_lid/" class="md-nav__link">
+        Bottom Panel & Lid
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Upgrade Guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Upgrade Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../upgrade/" class="md-nav__link">
+        Upgrading Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../upgrade/templates/" class="md-nav__link">
+        Templates
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Version History
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Version History
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../history/" class="md-nav__link">
+        0.9.11 Release
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+          Prior Releases
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8_2">
+          <span class="md-nav__icon md-icon"></span>
+          Prior Releases
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../history/v0.9.10/" class="md-nav__link">
+        0.9.10 Release
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../history/v0.9.9/" class="md-nav__link">
+        0.9.9 Release
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../history/v0.9.8.1/" class="md-nav__link">
+        0.9.8.1 Release
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../history/v0.9.8/" class="md-nav__link">
+        0.9.8 Release
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../history/v0.9.7/" class="md-nav__link">
+        0.9.7 Release
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../history/v0.9.5/" class="md-nav__link">
+        0.9.5 Release
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../history/v0.9/" class="md-nav__link">
+        0.9 Gallery (Initial Release)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    Links
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-components" class="md-nav__link">
+    Core Components
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#base" class="md-nav__link">
+    Base
+  </a>
+  
+    <nav class="md-nav" aria-label="Base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#front-base" class="md-nav__link">
+    Front Base
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rear-base" class="md-nav__link">
+    Rear Base
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unified-base" class="md-nav__link">
+    Unified Base
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#main-body" class="md-nav__link">
+    Main Body
+  </a>
+  
+    <nav class="md-nav" aria-label="Main Body">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#main-body-crossbar" class="md-nav__link">
+    Main Body Crossbar
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#front-main-body" class="md-nav__link">
+    Front Main Body
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rear-main-body" class="md-nav__link">
+    Rear Main Body
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trays" class="md-nav__link">
+    Trays
+  </a>
+  
+    <nav class="md-nav" aria-label="Trays">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#psu-tray" class="md-nav__link">
+    PSU Tray
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mcu-tray" class="md-nav__link">
+    MCU Tray
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lower-bay-trays" class="md-nav__link">
+    Lower Bay Trays
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cpu-tray" class="md-nav__link">
+    CPU Tray
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panels" class="md-nav__link">
+    Panels
+  </a>
+  
+    <nav class="md-nav" aria-label="Panels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#front-panel" class="md-nav__link">
+    Front Panel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#side-panel" class="md-nav__link">
+    Side Panel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bottom-panel" class="md-nav__link">
+    Bottom Panel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#display-panel" class="md-nav__link">
+    Display Panel
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lids" class="md-nav__link">
+    Lid(s)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rear-panel" class="md-nav__link">
+    Rear Panel
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-components" class="md-nav__link">
+    Other Components
+  </a>
+  
+    <nav class="md-nav" aria-label="Other Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fans" class="md-nav__link">
+    Fans
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#base-extensions" class="md-nav__link">
+    Base Extensions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-switch" class="md-nav__link">
+    Power Switch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iec-c14-power-socket" class="md-nav__link">
+    IEC C14 Power Socket
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Guided Tour</h1>
+
+<p>This is a visual tour of an OmniBox. This page demonstrates:</p>
+<ol>
+<li>The core parts of OmniBox and their variations;</li>
+<li>Trays and panels; and</li>
+<li>How these pieces fit together.</li>
+</ol>
+<h2 id="overview">Overview</h2>
+<figure>
+<p><a href="../img/components/overview.webp" width="640"><img alt="overview of an omnibox" src="../img/components/overview.webp" /></a>
+  </p>
+<figcaption>A finished OmniBox.</figcaption>
+</figure>
+<p>The configuration in the image above will be our example in this guide. We will start with the Core components and move on to the trays and panels that make OmniBox so modular. </p>
+<h3 id="links">Links</h3>
+<p>Links on this site to external resources have prefix icons to identify what they do:</p>
+<ul>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> The git icon is used for links to the OmniBox GitHub. </li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> identifies an example link to a shopping site.</li>
+</ul>
+<p>Internal page links in this tour are marked with an <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> arrow sign.</p>
+<h2 id="core-components">Core Components</h2>
+<p>Core components form the basis of every case. End-user parts normally do not attach to core components; instead, user parts are attached to trays and panels, which then mount on the Core case.</p>
+<div class="admonition note">
+<p class="admonition-title">Note: Heat Set Inserts (<abbr title="heat set insert">HSI</abbr>)</p>
+<p>Most Core components come with the option of using heat set inserts to attach most trays and panels. These <code>STL</code> files have "<abbr title="heat set insert">HSI</abbr>" in the name.</p>
+</div>
+<figure>
+<p><a href="../img/components/core.webp"><img alt="the core of an OmniBox" src="../img/components/core.webp" /></a>
+  </p>
+<figcaption>The assembled core components of an OmniBox.</figcaption>
+</figure>
+<p>There are two (2) types of Core components: Base and Main Body. A typical OmniBox build has two (2) parts for the base and three (3) for the main body.</p>
+<p>The Unified base can be printed instead of the front and rear Base pieces.</p>
+<div class="jh-grid-container jh-grid-3">
+<div>
+<p><strong>Base</strong></p>
+<ul>
+<li><a href="#front-base"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Front Base</a></li>
+<li><a href="#rear-base"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Rear Base</a></li>
+<li><a href="#unified-base"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Unified Base</a></li>
+</ul>
+</div>
+<div>
+<p><strong>Main Body</strong></p>
+<ul>
+<li><a href="#main-body-crossbar"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Crossbar</a></li>
+<li><a href="#front-main-body"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Front Main Body</a></li>
+<li><a href="#rear-main-body"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Rear Main Body</a></li>
+</ul>
+</div>
+</div>
+<h3 id="base">Base</h3>
+<p>The Base serves as a cover and mount for the power supply. It helps with wire routing and acts as a rigid base for the rest of the Core case.</p>
+<h4 id="front-base">Front Base</h4>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>This is the front of two halves. All versions come with front air vents and optional 40mm fan mounts.</p>
+<p>The Front can be printed to fit a two types of <a href="#power-switch"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> power switches</a>.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Core/Base/Front" title="OmniBox GitHub: Core - Front Base"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Front Base Files</a></p>
+</div>
+<div class="jh-card">
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Front - Rocker Switch</label><label for="__tabbed_1_2">Front - Toggle Switch</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a href="../img/components/base_front_rocker.webp"><img alt="front base" src="../img/components/base_front_rocker.webp" /></a></p>
+</div>
+<div class="tabbed-block">
+<p><a href="../img/components/base_front_toggle.webp"><img alt="front base" src="../img/components/base_front_toggle.webp" /></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h4 id="rear-base">Rear Base</h4>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>The back half mounts a fused IEC power plug and part of the <a href="#rear-panel">Rear Panel</a>.</p>
+<p>This component is available with heat set inserts.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Core/Base/Rear" title="OmniBox GitHub: Core - Rear Base"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Rear Base Files</a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/base_rear.webp"><img alt="front base" src="../img/components/base_rear.webp" /></a></p>
+</div>
+</div>
+<h4 id="unified-base">Unified Base</h4>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>The base can be printed as a single piece instead halves on printers with a bed at least 300mm on one axis.</p>
+<p>An extended version is available for the RSP-500 <abbr title="power supply unit">PSU</abbr>. This file is 10mm taller than the normal base to account for the additional power supply height.</p>
+<p>This component is available with heat set inserts.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Core/Base/Unified" title="OmniBox GitHub: Core - Unified Base"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Unified Base Files</a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/base_unified.webp"><img alt="front base" src="../img/components/base_unified.webp" /></a></p>
+</div>
+</div>
+<h3 id="main-body">Main Body</h3>
+<h4 id="main-body-crossbar">Main Body Crossbar</h4>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>This is a crossbar that joins and covers the joint between the lids and front display.</p>
+<p>This component is available with heat set inserts.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Core/Main%20Body/Crossbar" title="OmniBox GitHub: Core - Crossbar"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Crossbar Files</a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/crossbar.webp"><img alt="stock crossbar" src="../img/components/crossbar.webp" width="360" /></a></p>
+</div>
+</div>
+<h4 id="front-main-body">Front Main Body</h4>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>The front half of the Main Body mounts the display and front panel.</p>
+<p>This component is available with heat set inserts.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Core/Main%20Body/Front" title="OmniBox GitHub: Core - Front Main Body"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Front Main Body Files</a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/main_front.webp"><img alt="front main body with internal fan" src="../img/components/main_front.webp" /></a></p>
+</div>
+</div>
+<h4 id="rear-main-body">Rear Main Body</h4>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>The rear half of the Main Body is the largest single piece of the case and operates with two levels. The lower level has CPU and lower bay trays. The upper level mounts the <abbr title="microcontroller unit, the control board for a 3D printer">MCU</abbr>.</p>
+<p>This component is available with heat set inserts.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Core/Main%20Body/Rear" title="OmniBox GitHub: Core - Rear Main Body"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Rear Main Body Files</a></p>
+</div>
+<div class="jh-card">
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Quad 40mm Fans</label><label for="__tabbed_2_2">No Fan Mounts</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a href="../img/components/rear_quad.webp"><img alt="rear main body with four 40mm fans installed" src="../img/components/rear_quad.webp" width="360" /></a></p>
+</div>
+<div class="tabbed-block">
+<p><a href="../img/components/rear_none.webp"><img alt="rear main body without fan mounts" src="../img/components/rear_none.webp" width="360" /></a></p>
+<p>This versions of the rear main body <em>requires</em> either rear panel or lid-mounted fans.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="trays">Trays</h2>
+<p>Trays are used for mounting parts internally. There are four (4) types of trays.</p>
+<p>Templates are available in both <code>STEP</code> and Fusion 360 formats to add support for new products.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><abbr title="power supply unit">PSU</abbr> trays are a new feature and do not yet have a template.</p>
+</div>
+<figure>
+<p><a href="../img/components/trays.webp"><img alt="the three types of trays" src="../img/components/trays.webp" width="640" /></a>
+  </p>
+<figcaption>The four types of trays in red and blue.</figcaption>
+</figure>
+<p><strong>Trays</strong></p>
+<ul>
+<li><a href="#psu-tray"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> <abbr title="power supply unit">PSU</abbr> Tray</a></li>
+<li><a href="#mcu-tray"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> <abbr title="microcontroller unit, the control board for a 3D printer">MCU</abbr> Tray</a></li>
+<li><a href="#lower-bay-trays"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Lower Bay Trays</a></li>
+<li><a href="#cpu-tray"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> CPU Tray</a></li>
+</ul>
+<h3 id="psu-tray"><abbr title="power supply unit">PSU</abbr> Tray</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>Power supply (<abbr title="power supply unit">PSU</abbr>) trays slide up from underneath the case.</p>
+<p>Large (tall) power supplies require the use of an <a href="#unified-base"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> extended Unified Base</a> or a <a href="#base-extensions"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> base extension</a>.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Trays/PSU/" title="OmniBox GitHub: Power Supplies (PSUs)"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <abbr title="power supply unit">PSU</abbr> Tray Files</a></p>
+<p><a class="md-button" href="../support/psu/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3.5 3.75a.25.25 0 0 1 .25-.25h13.5a.25.25 0 0 1 .25.25v10a.75.75 0 0 0 1.5 0v-10A1.75 1.75 0 0 0 17.25 2H3.75A1.75 1.75 0 0 0 2 3.75v16.5c0 .966.784 1.75 1.75 1.75h7a.75.75 0 0 0 0-1.5h-7a.25.25 0 0 1-.25-.25V3.75Z"/><path d="M6.25 7a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Zm-.75 4.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Zm16.28 4.53a.75.75 0 1 0-1.06-1.06l-4.97 4.97-1.97-1.97a.75.75 0 1 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Z"/></svg></span> Supported <abbr title="power supply units">PSUs</abbr></a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/psu.webp"><img alt="power supply tray" src="../img/components/psu.webp" /></a></p>
+</div>
+</div>
+<h3 id="mcu-tray"><abbr title="microcontroller unit, the control board for a 3D printer">MCU</abbr> Tray</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p><abbr title="microcontroller unit, the control board for a 3D printer">MCU</abbr> trays mount a microcontroller unit--your 3D printer board. These are </p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Trays/MCU/" title="OmniBox GitHub: MCU Trays"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <abbr title="microcontroller unit, the control board for a 3D printer">MCU</abbr></a></p>
+<p><a class="md-button" href="../support/mcu/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3.5 3.75a.25.25 0 0 1 .25-.25h13.5a.25.25 0 0 1 .25.25v10a.75.75 0 0 0 1.5 0v-10A1.75 1.75 0 0 0 17.25 2H3.75A1.75 1.75 0 0 0 2 3.75v16.5c0 .966.784 1.75 1.75 1.75h7a.75.75 0 0 0 0-1.5h-7a.25.25 0 0 1-.25-.25V3.75Z"/><path d="M6.25 7a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Zm-.75 4.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Zm16.28 4.53a.75.75 0 1 0-1.06-1.06l-4.97 4.97-1.97-1.97a.75.75 0 1 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Z"/></svg></span> Supported <abbr title="microcontroller unit, the control board for a 3D printer">MCUs</abbr></a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/mcu.webp"><img alt="mcu tray" src="../img/components/mcu.webp" /></a></p>
+</div>
+</div>
+<h3 id="lower-bay-trays">Lower Bay Trays</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>The lower bay is an area to mount parts like buck converters and MOSFETs. There are two dedicated lower bay trays locations and four more that can occupy an unused CPU tray bay.</p>
+<p>These trays can be Short or Long. A Long tray covers the mount points of two Short trays and must be mounted from side-to-side in the case.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay/" title="OmniBox GitHub: Lower Bay Trays"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Lower Bay</a></p>
+<p><a class="md-button" href="../support/lower_bay/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3.5 3.75a.25.25 0 0 1 .25-.25h13.5a.25.25 0 0 1 .25.25v10a.75.75 0 0 0 1.5 0v-10A1.75 1.75 0 0 0 17.25 2H3.75A1.75 1.75 0 0 0 2 3.75v16.5c0 .966.784 1.75 1.75 1.75h7a.75.75 0 0 0 0-1.5h-7a.25.25 0 0 1-.25-.25V3.75Z"/><path d="M6.25 7a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Zm-.75 4.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Zm16.28 4.53a.75.75 0 1 0-1.06-1.06l-4.97 4.97-1.97-1.97a.75.75 0 1 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Z"/></svg></span> Supported Lower Bay Components</a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/lower_bay.webp"><img alt="lower bay tray" src="../img/components/lower_bay.webp" /></a></p>
+</div>
+</div>
+<h3 id="cpu-tray">CPU Tray</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>The CPU tray is an optional mount for a Raspberry Pi or other <abbr title="single-board computer, such as a Raspberry Pi">SBC</abbr>. There are two bays for CPU trays; one is on each side of the case.</p>
+<p>An unused bay is replaced by a <a href="#side-panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Side Panel</a>. A short lower bay tray can also be installed in an unused CPU bay.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Trays/CPU/" title="OmniBox GitHub: CPU Trays"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> CPU</a></p>
+<p><a class="md-button" href="../support/cpu/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3.5 3.75a.25.25 0 0 1 .25-.25h13.5a.25.25 0 0 1 .25.25v10a.75.75 0 0 0 1.5 0v-10A1.75 1.75 0 0 0 17.25 2H3.75A1.75 1.75 0 0 0 2 3.75v16.5c0 .966.784 1.75 1.75 1.75h7a.75.75 0 0 0 0-1.5h-7a.25.25 0 0 1-.25-.25V3.75Z"/><path d="M6.25 7a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Zm-.75 4.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Zm16.28 4.53a.75.75 0 1 0-1.06-1.06l-4.97 4.97-1.97-1.97a.75.75 0 1 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Z"/></svg></span> Supported <abbr title="single-board computers, such as Raspberry Pis">SBCs</abbr></a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/cpu.webp"><img alt="cpu tray" src="../img/components/cpu.webp" /></a></p>
+</div>
+</div>
+<h2 id="panels">Panels</h2>
+<figure>
+<p><a href="../img/components/panels.webp"><img alt="callout of panels and fan cage" src="../img/components/panels.webp" width="640" /></a>
+  </p>
+<figcaption>The six types of panels, visible in grey.</figcaption>
+</figure>
+<div class="jh-grid-container jh-grid-3">
+<div class="jh-grid-para">
+<p><strong>General Panels</strong></p>
+<ul>
+<li><a href="#display-panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Display panel</a></li>
+<li><a href="#lids"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Lid</a></li>
+<li><a href="#bottom-panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Bottom panel</a></li>
+</ul>
+</div>
+<div class="jh-grid-para">
+<p><strong>Connector Panels</strong></p>
+<ul>
+<li><a href="#front-panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Front panel</a></li>
+<li><a href="#rear-panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Rear panel</a></li>
+<li><a href="#side-panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Side panel</a></li>
+</ul>
+</div>
+</div>
+<p>Panels cover the outside of OmniBox and mount of a range of options. Front, side, and rear panels are typically used for connectors, fans, and ventilation.</p>
+<p>There is a blank <code>STEP</code> and Fusion 360 template for each panel category to allow users to create new panels.</p>
+<h3 id="front-panel">Front Panel</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>The front panel serves as an air vent and location to put a MicroSD card reader extension. USB extensions and RGB LEDs are also common.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Front%20Panel" title="OmniBox GitHub: Front Panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Front Panel</a></p>
+<p><a class="md-button" href="../support/panel_mounts/">Panel Mounts</a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/front_panel.webp"><img alt="front panel" src="../img/components/front_panel.webp" /></a></p>
+</div>
+</div>
+<h3 id="side-panel">Side Panel</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>A side panel replaces a CPU tray and often mounts connectors or fans. A blank side panel may also be used.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Side%20Panel" title="OmniBox GitHub: Side Panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Side Panel</a></p>
+<p><a class="md-button" href="../support/panel_mounts/">Panel Mounts</a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/side.webp"><img alt="side panel" src="../img/components/side.webp" /></a></p>
+</div>
+</div>
+<h3 id="bottom-panel">Bottom Panel</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>The bottom panels act as a cover for the underside of the case. A fully enclosed option is available to keep dust out.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Bottom%20Panel" title="OmniBox GitHub: Bottom Panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Bottom Panel</a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/bottom.webp"><img alt="bottom panel" src="../img/components/bottom.webp" /></a></p>
+</div>
+</div>
+<h3 id="display-panel">Display Panel</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>This area mounts LCD displays, from the basic 128x64 character display to Raspbery Pi TFTs.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Display" title="OmniBox GitHub: Display Panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Display</a></p>
+<p><a class="md-button" href="../support/displays/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3.5 3.75a.25.25 0 0 1 .25-.25h13.5a.25.25 0 0 1 .25.25v10a.75.75 0 0 0 1.5 0v-10A1.75 1.75 0 0 0 17.25 2H3.75A1.75 1.75 0 0 0 2 3.75v16.5c0 .966.784 1.75 1.75 1.75h7a.75.75 0 0 0 0-1.5h-7a.25.25 0 0 1-.25-.25V3.75Z"/><path d="M6.25 7a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Zm-.75 4.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Zm16.28 4.53a.75.75 0 1 0-1.06-1.06l-4.97 4.97-1.97-1.97a.75.75 0 1 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Z"/></svg></span> Supported Displays</a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/display.webp"><img alt="display panel" src="../img/components/display.webp" /></a></p>
+</div>
+</div>
+<h3 id="lids">Lid(s)</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>The lid is both a way into your case and a configurable panel. There are two types of lids: short and long lids. You can either print one (1) long lid or two (2) short lids.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Lid/" title="OmniBox GitHub: Lids"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Lid</a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/lid.webp"><img alt="img_lid" src="../img/components/lid.webp" /></a></p>
+</div>
+</div>
+<h3 id="rear-panel">Rear Panel</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>The rear panel is used for ventilation, passing wiring out of your case, and optionally an additional fan. There are stock configurations available to suit common uses. A template is available for customization.</p>
+<p>Rear panels with panel mounted connectors are an active area of work.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Rear%20Panel" title="OmniBox GitHub: Rear Panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Rear Panel</a></p>
+<p><a class="md-button" href="../support/panel_mounts/">Panel Mounts</a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/rear.webp"><img alt="rear panel" src="../img/components/rear.webp" /></a></p>
+</div>
+</div>
+<h2 id="other-components">Other Components</h2>
+<ul>
+<li><a href="#fans"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Fans</a></li>
+<li><a href="#base-extensions"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Base Extensions</a></li>
+<li><a href="#power-switch"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> Power Switches</a></li>
+<li><a href="#iec-c14-power-socket"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> IEC C14 Power Sockets</a></li>
+</ul>
+<h3 id="fans">Fans</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>Externally mounted fans use fan cages to cover the fan blades. There are a large number of fan sizes supported, each with a matching TPU fan gasket. The gaskets are optional and serve to reduce noise.</p>
+<p>40mm fans may also be internally mounted in a number of ways.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Fans" title="OmniBox GitHub: Fans"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Fans</a></p>
+<p><a class="md-button" href="../support/fans/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3.5 3.75a.25.25 0 0 1 .25-.25h13.5a.25.25 0 0 1 .25.25v10a.75.75 0 0 0 1.5 0v-10A1.75 1.75 0 0 0 17.25 2H3.75A1.75 1.75 0 0 0 2 3.75v16.5c0 .966.784 1.75 1.75 1.75h7a.75.75 0 0 0 0-1.5h-7a.25.25 0 0 1-.25-.25V3.75Z"/><path d="M6.25 7a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5Zm-.75 4.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1-.75-.75Zm16.28 4.53a.75.75 0 1 0-1.06-1.06l-4.97 4.97-1.97-1.97a.75.75 0 1 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l5.5-5.5Z"/></svg></span> Supported Fans</a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/fans.webp"><img alt="external fan cages" src="../img/components/fans.webp" /></a></p>
+</div>
+</div>
+<h3 id="base-extensions">Base Extensions</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>A base extension shim mounts between the base and the bottom panel and adds 10mm or 13mm of height. This is needed for the RSP-500 and other large <abbr title="power supply units">PSUs</abbr>.</p>
+<p>This part is not needed if you print the <a href="#unified-base"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 14.5V12h-4v3H8v-4a1 1 0 0 1 1-1h5V7.5l3.5 3.5m4.21.29-9-9h-.01a.996.996 0 0 0-1.41 0l-9 9c-.39.39-.39 1.03 0 1.42l9 9c.39.38 1.02.39 1.42 0l9-9c.39-.39.39-1.03 0-1.42Z"/></svg></span> extended Unified Base</a>.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Core/Base/Extension%20Shim" title="OmniBox GitHub: Base Extension Shim"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Extension Shim</a></p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/base_extension.webp"><img alt="base extension is highlighted in blue" src="../img/components/base_extension.webp" /></a></p>
+</div>
+</div>
+<h3 id="power-switch">Power Switch</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>OmniBox accepts either a 29mm x 10.5mm <a href="https://www.amazon.com/gp/product/B07QQ22DTB" title="Amazon: SPST snap-in rocker switch"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> snap-in SPST rocker switch</a> or a <a href="https://www.amazon.com/Gardner-Bender-GSW-121-Heavy-Duty-Electrical/dp/B000HEIY1Q" title="Amazon: SPST toggle switch"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> 12mm toggle switch</a> for power on/off.</p>
+<p>Larger power supplies will not fit with a toggle switch. Check the <a href="../support/psu/"><abbr title="power supply unit">PSU</abbr> support page</a> for more.</p>
+<p>A cover is available for rocker switches to prevent accidental power-off.</p>
+<p><a class="md-button" href="https://github.com/jon-harper/OmniBox/tree/main/Misc/Power%20Switch%20Protector" title="OmniBox GitHub: Power Switch Protector"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Rocker Switch Protector</a></p>
+</div>
+<div class="jh-card">
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Rocker Switch</label><label for="__tabbed_3_2">Toggle Switch</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a href="../img/components/switch_rocker.webp"><img alt="rocker switch is highlighted in blue" src="../img/components/switch_rocker.webp" /></a></p>
+</div>
+<div class="tabbed-block">
+<p><a href="../img/components/switch_toggle.webp"><img alt="toggle switch is highlighted in blue" src="../img/components/switch_toggle.webp" /></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h3 id="iec-c14-power-socket">IEC C14 Power Socket</h3>
+<div class="jh-grid-container jh-grid-2">
+<div class="jh-grid-para">
+<p>Power is provided through a standard <a href="https://www.amazon.com/gp/product/B081ZFHRGW" title="Amazon: IEC C14 socket with fuse"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2M1 2v2h2l3.6 7.59-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25c0-.05.01-.09.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2Z"/></svg></span> fused IEC C14 power socket</a>.</p>
+</div>
+<div class="jh-grid-img">
+<p><a href="../img/components/iec.webp"><img alt="iec socket is highlighted in blue" src="../img/components/iec.webp" /></a></p>
+</div>
+</div>
+<!-- OmniBox GitHub Pages -->
+<!-- 
+    OmniBox GitHub Folders 
+-->
+<!-- /Core     -->
+<!-- /Fans     -->
+<!-- /Panels     -->
+<!--      /Display -->
+<!--      /Front Panel -->
+<!--      /Lid -->
+<!--      /Side Panel -->
+<!--      /Rear Panel -->
+<!--      /Bottom Panel -->
+<!-- /Trays     -->
+<!--      /MCU -->
+<!--      /CPU -->
+<!--     /Lower Bay -->
+<!--     /PSUs -->
+<!-- /Misc     -->
+<!-- 
+    Part Links 
+        -->
+
+<!-- Fasteners -->
+<!-- Filament -->
+<!-- Misc Electrical -->
+<!-- PSU -->
+<!-- MCU Boards -->
+<!-- SoC CPUs -->
+<!-- Displays -->
+<!-- Lower Bay -->
+<!--     Bucks -->
+<!--     SSRs -->
+<!--     MOSFETs -->
+<!--     Others -->
+<!-- Fans -->
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../license/" class="md-footer__link md-footer__link--prev" aria-label="Previous: License &amp; Contributing" rel="prev">
+            <div class="md-footer__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                License & Contributing
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../bom/" class="md-footer__link md-footer__link--next" aria-label="Next: Bill of Materials" rel="next">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Bill of Materials
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022-2023 Jonathan Harper
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    <a href="https://discord.gg/nKmJZMhfz5" target="_blank" rel="me" title="OmniBox Discord Server" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418Z"/></svg>
+    </a>
+  
+    
+    
+    <a href="https://www.reddit.com/user/jonspaceharper" target="_blank" rel="me" title="u/jonspaceharper on Reddit" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+    </a>
+  
+    
+    
+    <a href="https://ko-fi.com/jonspaceharper" target="_blank" rel="me" title="Buy me a coffee! (Ko-Fi)" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.top", "navigation.footer"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.b4d07000.min.js"></script>
+      
+    
+  </body>
+</html>
