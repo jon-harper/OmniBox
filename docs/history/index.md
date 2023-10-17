@@ -5,43 +5,40 @@ authors: Jon Harper
 date: 2022-10-09
 ---
 
-The current **alpha** release is 0.9.11. No release date has been set yet.
+The current **beta** release is 0.9.11. No release date has been set yet.
 
 ## New Features
 
 ### Major New Features
 
-
+- Available with built-in supports;
+- Taller side panels, now 58mm;
+- Reduced visibility of seams;
+- Base available in two heights & a shorter standard base height;
+- Many new base variations & combinations;
+- All versions of the Base and Main Body are available as Front/Rear or Unified; and
+- Built-in mounts for 3-position Wago 221 connectors.
 
 ### Additional Improvements
 
-- **Improved:** Crossbar version added with HSI support, better zip tie anchors.
-- **Improved:** Long lower bay trays now mount sideways, one additional tray available.
-- **Improved:** New bottom panel template and panel options.
-- **Added:** Additional zip tie anchors, particularly to the front main body.
-- **Improved:** CPU tray guides take up significantly less room.
-- **New:** Support for 12mm and 12.5mm toggle switches.
-- **New:** MCU trays with mounts for dual MCUs.
-- **New:** Slide-out storage for the CPU bay.
-- **Improved:** Rear panel template now provides support for the lid.
-- **Improved:** Display panel template now fits betters and prints with less material.
+- Smoother external lines;
+- Better printability with basic PLA;
+- Increased functional room for PSU by inverting IEC socket;
+- Raised MCU tray mounting height; and
+- Better rocker switch snap-in.
 
 ### New Hardware Support
 
 | Hardware                          | Mount Location(s) | Notes |
 |-----------------------------------|-------------------|-------|
-
+| BIGTREETECH Manta M5P             | MCU Tray | |
+| Wago 221-413                      | Main Body | 3-position, 4x mounts |
 
 ## Fixes
 
-- [Issue #91][1]: Display template is faulty
-- [Issue #81][2]: Lower bay tray standoffs need a fillet
-- [Issue #59][3]: Micro Fit 3 pinouts for rear panels are missing
-- [Issue #94][4]: Add a power switch cover to prevent accidental bumping
-- [Issue #114][5]: Lower bay standoffs should be tapered
-- [Issue #111][6]: Videos should not auto-download
-- [Issue #102][7]: Template should have a version code
-- [Issue #62][8]: Panel mounted connectors template is out of date
+- [Issue #118](https://github.com/jon-harper/OmniBox/issues/118): Move PSU Tray mounts forward
+- [Issue #55](https://github.com/jon-harper/OmniBox/issues/55): E5+ Monolithic main body
+- [Issue #117](https://github.com/jon-harper/OmniBox/issues/117): IEC socket can be inverted in the base
 
 ## Documentation & Repository
 
