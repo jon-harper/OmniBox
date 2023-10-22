@@ -35,9 +35,10 @@ As of v0.9.10, all trays and panels have templates except the PSU tray. Trays an
 [:material-git: CPU Tray Template][git_cpu_template]{ .md-button }
 
 - Introduced: v0.9
-- Current version: v2, introduced with v0.9.9
+- Current version: v3, introduced with v0.9.11
 - Notes:
-    - v1 and v2 trays are freely interchangeable.
+    - v1 and v2 trays are not interchangeable with v3 trays.
+    - All v1 trays are deprecated.
 </div>
 <div markdown class="jh-grid-img">
 [![CPU tray illustration][img_cpu_tray]][img_cpu_tray]
@@ -52,8 +53,10 @@ As of v0.9.10, all trays and panels have templates except the PSU tray. Trays an
     A publicly available template for PSU trays is not yet available.
 
 - Introduced: v0.9.9
-- Current version: v1, introduced with v0.9.9
-- Notes: OmniBox releases prior to 0.9.9 did not use PSU trays.
+- Current version: v2, introduced with v0.9.11
+- Notes: 
+    - OmniBox releases prior to 0.9.9 did not use PSU trays.
+    - v1 and v2 are not compatible.
 </div>
 <div markdown class="jh-grid-img">
 [![PSU illustration][img_psu_tray]][img_psu_tray]
@@ -70,9 +73,10 @@ As of v0.9.10, all trays and panels have templates except the PSU tray. Trays an
 [:material-git: Bottom Panel Template][git_bottom_template]{ .md-button }
 
 - Introduced: v0.9.9
-- Current version: v2, introduced with v0.9.10
+- Current version: v3, introduced with v0.9.11
 - Notes: 
     - v1 and v2 panels are freely interchangeable.
+    - v3 panels are not compatible with prior versions.
 </div>
 <div markdown class="jh-grid-img">
 [![Bottom panel illustration][img_bottom]][img_bottom]
@@ -155,7 +159,10 @@ As of v0.9.10, all trays and panels have templates except the PSU tray. Trays an
 [:material-git: Side Panel Template][git_side_template]{ .md-button }
 
 - Introduced: v0.9.9
-- Current version: v1
+- Current version: v3, introduced with v0.9.11
+- Notes:
+    - The Side Panel template is derived from the CPU Tray.
+    - v3 is not compatible with prior releases.
 </div>
 <div markdown class="jh-grid-img">
 [![side panel illustration][img_side]][img_side]
