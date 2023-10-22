@@ -57,7 +57,7 @@ Smaller MCUs can be mounted two-to-a-tray. See the [:material-git: Dual MCU][git
 
 - Materials: 4x M3 x 6mm
 - MicroSD Extension: [:material-cart: Long][bom_electop_micro_sd]
-- Notes: SKR 3 and SKR 3 EZ are incompatible. See below.
+- Notes: SKR 3 and SKR 3 EZ are incompatible. [See below.](#skr-3)
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_btt_skr_2]][img_btt_skr_2]
@@ -85,8 +85,6 @@ Smaller MCUs can be mounted two-to-a-tray. See the [:material-git: Dual MCU][git
 </div>
 
 #### SKR 3 EZ
-
-{{ issue_tag(48) }}
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -143,11 +141,7 @@ All versions of the SKR E3 series are compatible with one tray, uncluding the Mi
 
 ### Manta Series
 
-The Manta M4P is not currently supported, but may be added in a future release.
-
 #### Manta M5P
-
-{{ issue_tag(123)}}
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -184,7 +178,7 @@ The Manta M4P is not currently supported, but may be added in a future release.
 
 ### Octopus Series
 
-All members of the Octopus series are compatible with the mount below.
+All members of the Octopus series (Octopus, Octopus Pro) are compatible with the mount below.
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
