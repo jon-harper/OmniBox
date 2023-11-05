@@ -1,0 +1,110 @@
+{
+    "config": {
+      "id": "test",
+      "baseUrl": "https://raw.githubusercontent.com/jon-harper/OmniBox/main"
+    },
+    "parts": [
+      {
+        "id": "m3x10",
+        "name": "SHCS M3 10mm",
+        "links": [
+          "https://aliexpress.com/item/4000142028043.html"
+        ]
+      },
+      {
+        "id": "short",
+        "name": "Short",
+        "file": "/Panels/Lid/Short/Blank/Lid - Short Blank.stl"
+      },
+      {
+        "id": "long",
+        "name": "Long",
+        "file": "Panels/Lid/Long/Blank/Lid - Long Blank.stl"
+      },
+      {
+        "id": "mcu_skr_pico",
+        "name": "SKR Pico",
+        "file": "/Trays/MCU/BTT SKR Pico/MCU Tray - BTT SKR Pico - v2 HSI.stl",
+        "dependencies": [
+          {
+            "part": "m3x10",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "id": "mcu_btt_octopus",
+        "name": "BTT Octopus",
+        "file": "/Trays/MCU/BTT Octopus/MCU Tray - BTT Octopus - v2.stl",
+        "dependencies": [
+          {
+            "part": "m3x10",
+            "amount": 6
+          }
+        ]
+      },
+      {
+        "id": "side_panel_blank",
+        "name": "Blank",
+        "file": "/Panels/Side Panel/Blank/Side P`anel - Blank.stl",
+        "dependencies": [
+          {
+            "part": "m3x10",
+            "amount": 6
+          }
+        ]
+      },
+      {
+        "id": "fan_cage_5012",
+        "name": "50x12mm Fan Cage",
+        "file": "/Fans/50x12/5012 Fan Cage.stl"
+      },
+      {
+        "id": "fan_gasket_50",
+        "name": "50mm Fan Gasket",
+        "file": "/Fans/50x12/5012 TPU Gasket.stl",
+        "optional": true
+      },
+      {
+        "id": "side_panel_fan5012",
+        "name": "50x12mm Fan",
+        "file": "/Panels/Side Panel/50mm Fan/Side Panel - External 50mm Fan.stl1",
+        "dependencies": [
+          {
+            "part": "fan_cage_5012",
+            "amount": 1
+          },
+          {
+            "part": "fan_gasket_50",
+            "amount": 1
+          }
+        ]
+      }
+    ],
+    "components": [
+      {
+        "id": "lid",
+        "name": "Lid",
+        "parts": [
+          "short",
+          "long"
+        ]
+      },
+      {
+        "id": "mcu_tray",
+        "name": "MCU Tray",
+        "parts": [
+          "mcu_skr_pico",
+          "mcu_btt_octopus"
+        ]
+      },
+      {
+        "id": "side_panel_1",
+        "name": "Side Panel 1",
+        "parts": [
+          "side_panel_blank",
+          "side_panel_fan5012"
+        ]
+      }
+    ]
+  }
