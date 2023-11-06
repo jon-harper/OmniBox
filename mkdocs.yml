@@ -88,9 +88,13 @@ extra:
       - assets/yaml/fastener.yaml
       - assets/yaml/bom.yaml
     product_file: assets/yaml/products.yaml
+    bom: assets/json/bom.json
 
 extra_css:
   - assets/stylesheets/extra.css
+
+# extra_javascript:
+#   - assets/js/bundlr.js
       
 nav:
   - index.md

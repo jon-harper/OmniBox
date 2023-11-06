@@ -1,0 +1,10 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/docs/assets/json/*"
+            ],
+            "url": "https://bundlr.flowkode.com/schemas/Project.schema"
+        }
+    ]
+}

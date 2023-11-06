@@ -46,7 +46,7 @@
       {
         "id": "side_panel_blank",
         "name": "Blank",
-        "file": "/Panels/Side Panel/Blank/Side P`anel - Blank.stl",
+        "file": "/Panels/Side Panel/Blank/Side Panel - Blank.stl",
         "dependencies": [
           {
             "part": "m3x10",
