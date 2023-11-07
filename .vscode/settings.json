@@ -2,7 +2,7 @@
     "json.schemas": [
         {
             "fileMatch": [
-                "/docs/assets/json/*"
+                "/docs/assets/json/bom.json"
             ],
             "url": "https://bundlr.flowkode.com/schemas/Project.schema"
         }

@@ -1,0 +1,110 @@
+{
+  "config": {
+    "id": "test",
+    "baseUrl": "https://raw.githubusercontent.com/jon-harper/OmniBox/main",
+    "constraints": "simple"
+  },
+  "suppliers": [
+    {
+      "id": "aliexpress",
+      "name": "AliExpress",
+      "region": "Worldwide"
+    },
+    {
+      "id": "amazon_us",
+      "name": "Amazon.com (USA)",
+      "region": "US"
+    }
+  ],
+  "parts": [
+
+  ],
+  "components": [
+    {
+      "id": "eva_front",
+      "parts": [
+        "eva_front_basic",
+        "eva_front_pis",
+        "eva_front_adxl"
+      ]
+    },
+    {
+      "id": "eva_bottom",
+      "parts": [
+        "eva_bottom_dual",
+        "eva_bottom_tri",
+        "eva_bottom_uhf",
+        "eva_bottom_dual_beacon",
+        "eva_bottom_tri_beacon",
+        "eva_bottom_uhf_beacon"
+      ]
+    },
+    {
+      "id": "eva_rear",
+      "parts": [
+        "eva_rear_5015_single",
+        "eva_rear_5015_dual",
+        "eva_rear_cpap",
+        "eva_rear_5015_single_beacon",
+        "eva_rear_cpap_beacon"
+      ]
+    },
+    {
+      "id": "eva_abl",
+      "parts": [
+        "eva_abl_bltouch",
+        "eva_abl_bltouch_uhf",
+        "eva_abl_crtouch",
+        "eva_abl_crtouch_uhf",
+        "eva_abl_8mm"
+      ]
+    }
+  ],
+  "constraints": [
+    {
+      "id": "option_accel",
+      "name": "Accelerometer Mount",
+      "selects": "eva_front",
+      "options": [
+        {
+          "id": "option_adxl",
+          "name": "ADXL345",
+          "requires": "eva_front_adxl"
+        },
+        {
+          "id": "option_fysetc_pis",
+          "name": "FYSETC Portable Input Shaper",
+          "requires": "eva_front_pis"
+        }
+        {
+          "id": "option_no_accel",
+          "name": "No Accelerometer Mount",
+          "requires": "eva_front_basic"
+        }
+      ]
+    },
+    {
+      "id": "option_abl",
+      "name": "ABL",
+      "options": [
+        {
+          "id": "option_beacon",
+          "name": "Annex Beacon",
+          "constrains": [
+            "eva_bottom_dual_beacon",
+            "eva_bottom_tri_beacon",
+            "eva_bottom_uhf_beacon",
+            "eva_rear_5015_single_beacon",
+            "eva_rear_5015_single_beacon"
+          ]
+        },
+        {
+          "id": "option_bltouch",
+          "name": "BLTouch",
+          "requires": "eva_abl_bltouch"
+        }
+      ]      
+    }
+
+  ]
+}
