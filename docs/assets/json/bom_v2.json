@@ -17,94 +17,170 @@
     }
   ],
   "parts": [
-
-  ],
-  "components": [
     {
-      "id": "eva_front",
-      "parts": [
-        "eva_front_basic",
-        "eva_front_pis",
-        "eva_front_adxl"
-      ]
-    },
-    {
-      "id": "eva_bottom",
-      "parts": [
-        "eva_bottom_dual",
-        "eva_bottom_tri",
-        "eva_bottom_uhf",
-        "eva_bottom_dual_beacon",
-        "eva_bottom_tri_beacon",
-        "eva_bottom_uhf_beacon"
-      ]
-    },
-    {
-      "id": "eva_rear",
-      "parts": [
-        "eva_rear_5015_single",
-        "eva_rear_5015_dual",
-        "eva_rear_cpap",
-        "eva_rear_5015_single_beacon",
-        "eva_rear_cpap_beacon"
-      ]
-    },
-    {
-      "id": "eva_abl",
-      "parts": [
-        "eva_abl_bltouch",
-        "eva_abl_bltouch_uhf",
-        "eva_abl_crtouch",
-        "eva_abl_crtouch_uhf",
-        "eva_abl_8mm"
-      ]
-    }
-  ],
-  "constraints": [
-    {
-      "id": "option_accel",
-      "name": "Accelerometer Mount",
-      "selects": "eva_front",
-      "options": [
+      "id": "shcs_m3_6mm",
+      "name": "M3 x 6mm SHCS",
+      "links": [
         {
-          "id": "option_adxl",
-          "name": "ADXL345",
-          "requires": "eva_front_adxl"
+          "id": "amazon_us",
+          "url": "https://www.amazon.com/Fullerkreg-Socket-Stainless-Machine-Quantity/dp/B07CJ7PDYT"
+        }
+      ]
+    },
+    {
+      "id": "shcs_m3_8mm",
+      "name": "M3 x 8mm SHCS",
+      "links": [
+        {
+            "id": "amazon_us",
+            "url": "https://www.amazon.com/Fullerkreg-Socket-Stainless-Machine-Quantity/dp/B07CJ9BRCK/"
+        }
+      ]
+    }, 
+    {
+      "id": "shcs_m3_10mm",
+      "name": "M3 x 10mm SHCS",
+      "links": [
+        {
+          "id": "aliexpress",
+          "url": "https://aliexpress.com/item/4000142028043.html"
         },
         {
-          "id": "option_fysetc_pis",
-          "name": "FYSETC Portable Input Shaper",
-          "requires": "eva_front_pis"
-        }
-        {
-          "id": "option_no_accel",
-          "name": "No Accelerometer Mount",
-          "requires": "eva_front_basic"
+          "id": "amazon_us",
+          "url": "https://www.amazon.com/Fullerkreg-Socket-Stainless-Machine-Quantity/dp/B07CK3RSN3"
         }
       ]
+    },
+    {
+      "id": "shcs_m3_16mm",
+      "name": "M3 x 16mm SHCS"
+    },
+    {
+      "id": "fan_5012",
+      "name": "50mm x 12mm Fan"
+    },
+    {
+      "id": "hotend_rapido",
+      "name": "Phaetus Rapido"      
+    },
+    {
+      "id": "hotend_rapido_mount",
+      "name": "hotend_rapido.stl",
+      "file": "/STL/hotend/hotend_rapido.stl"
+    }
+  ],
+  "assemblies": [
+    {
+      "id": "rapido_mount",
+      "parts": {
+        "hotend_rapido" : 1,
+        "hotend_rapido_mount_stl" : 1,
+        "shcs_m3_6mm" : 4
+      },
+      "type": "hotend_regular"
+    },
+    {
+      "id": "rapido_uhf_mount",
+      "parts": {
+        "hotend_rapido_uhf" : 1,
+        "hotend_rapido_mount_stl" : 1,
+        "shcs_m3_6mm" : 4
+      },
+      "type": "hotend_uhf"
+    },
+    {
+      "id": "bltouch_mount",
+      "parts": {
+        "bltouch" : 1,
+        "abl_bltouch_stl" : 1,
+        "shcs_m3_6mm" : 4
+      },
+      "type": "abl_side",
+      "attributes" : [
+        "hotend_regular"        
+      ]
+    },
+    {
+      "id": "bltouch_uhf_mount",
+      "parts": {
+        "bltouch" :1,
+        "abl_bltouch_uhf_stl" : 1,
+        "shcs_m3_6mm": 4
+      },
+      "type": "abl_side",
+      "attributes": [
+        "hotend_uhf"
+      ]
+    },
+    {
+      "id": "beacon_dual_horns",
+      "parts": {
+        "beacon" : 1,
+        "horns_dual_beacon_stl" :1
+      },
+      "type": "abl_bottom",
+      "attributes": [
+        "hotend_regular",
+        "inlet_beacon"
+      ]
+    },
+    {
+      "id": "beacon_uhf_horns",
+      "parts": {
+        "beacon" : 1,
+        "horns_uhf_beacon_stl" : 1
+      },
+      "type": "abl_bottom",
+      "attributes": [
+        "hotend_uhf"
+      ]
+    },
+    {
+      "id": "inlet_single_5015",
+      "parts": {
+        "blower_5015" : 1,
+        "inlet_single_5015_stl" : 1
+      },
+      "type": "inlet"
+    },
+    {
+      "id": "inlet_single_5015_beacon",
+      "parts": {
+        "blower_5015" : 1,
+        "inlet_single_5015_beacon_stl" : 1
+      },
+      "type": "inlet_beacon"
+    }
+  ],
+  "options": [
+    {
+      "id": "option_hotend",
+      "name": "Hotend",
+      "select": [
+        "hotend_regular", 
+        "hotend_uhf"
+      ]
+    },
+    {
+      "id": "option_drive",
+      "name": "Drive/Extruder",
+      "select": "drive"
     },
     {
       "id": "option_abl",
       "name": "ABL",
-      "options": [
-        {
-          "id": "option_beacon",
-          "name": "Annex Beacon",
-          "constrains": [
-            "eva_bottom_dual_beacon",
-            "eva_bottom_tri_beacon",
-            "eva_bottom_uhf_beacon",
-            "eva_rear_5015_single_beacon",
-            "eva_rear_5015_single_beacon"
-          ]
-        },
-        {
-          "id": "option_bltouch",
-          "name": "BLTouch",
-          "requires": "eva_abl_bltouch"
-        }
-      ]      
+      "select": [
+        "abl_side", 
+        "abl_bottom"
+      ]
+    },
+    {
+      "id": "option_inlet",
+      "name": "Cooling Inlet",
+      "select":  [
+        "inlet", 
+        "inlet_beacon"
+      ]
     }
-
   ]
 }
