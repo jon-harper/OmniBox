@@ -5,14 +5,23 @@ from typing import List, Optional
 class BOMEntry:
     part_id: str
     amount: int = 1
+    entry_type: str
 
 BOMEntryList = List[BOMEntry]
 
 @dataclass
+class Supplier:
+    supplier_id: str
+    name: str
+    region: str = 'Worldwide'
+    icon: Optional[str] = None
+    note: Optional[str] = None
+
+@dataclass
 class SourceUrl:
-    supplier: str    # supplier name
+    supplier_id: str    # supplier name
     url: str         # location
-    note: str = None # internal; notes about a given supplier
+    note: Optional[str] = None # internal; notes about a given supplier
 
 @dataclass
 class Part:
@@ -23,7 +32,6 @@ class Part:
     file_url: Optional[str] = None  # STL for printable files
     image_url: Optional[str] = None # internal; display image for major parts
     note: Optional[str] = None      # internal; TBD
-    requires: Optional[BOMEntryList] = None         # dependent bill of materials
     supplier_urls: Optional[List[SourceUrl]] = None # list of part links
 
 PartData = dict[Part]

@@ -15,9 +15,7 @@ def parse_json_part(entry: dict, part : Part) -> None:
             part.icon = value
         elif key == "note":
             part.note = value
-        elif key == "suppliers":
-            pass
-        elif key == "dependencies": # requires
+        elif key == "links":
             pass
         #    ret.source = SourceUrl(value["supplier"], value["url"])
 
