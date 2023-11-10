@@ -1,6 +1,12 @@
 import load_yaml
 import load_json
 
+def as_url(text : str, link : str) -> str:
+    return "[{}]({})".format(text, link)
+
+def as_relative_url(text : str, link : str) -> str:
+    return "[{}][{}]".format(text, link)
+
 def define_env(env):
     """
     Modifies the environment variable with new variables, macros, and filters.
@@ -20,16 +26,14 @@ def define_env(env):
 
     @env.macro
     def product_button(url):
-        return "[:material-cart: Product Link]({})".format(url) + "{ .md-button }"
+        return as_url(":material-cart: Product Link", url) + "{ .md-button }"
 
     @env.macro
     def git_button(url):
-        return "[:material-git: Files ][{}]".format(url) + "{ .md-button }"
+        return as_relative_url(":material-git: Files", url) + "{ .md-button }"
     
     @env.macro
     def product_img(url, text="", width="480px"):
         return "[![{}]({})]({})".format(text, url, url)
+
     
-    @env.macro
-    def init_bundlr():
-        pass
