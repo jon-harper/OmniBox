@@ -159,7 +159,7 @@
     },
     {
       "id": "assembly_tray_btt_skr_e3_and_pico",
-      "name": "Dual MCU: BTT SKR E3 and SKR Pico",
+      "name": "BTT SKR E3 and SKR Pico",
       "type": "mcu_dual",
       "parts": {
         "assembly_btt_skr_e3" : 1,
@@ -169,5 +169,22 @@
     }
   ],
   "options": [
-
-  }
+    {
+      "id": "option_unified",
+      "name": "Case Style",
+      "choice": {
+        "Front/Rear (Standard)" : ""
+      }
+    },
+    {
+      "id": "option_mcu",
+      "name": "MCU",
+      "select": [
+        "mcu_single",
+        "mcu_dual"
+      ]
+    }
+    
+    
+  ]
+}
