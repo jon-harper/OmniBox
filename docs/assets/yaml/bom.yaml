@@ -18,11 +18,24 @@ suppliers:
     name: Fabreeko (USA)
     region: Worldwide
   stepperonline:
-    name: stepperonline
+    name: StepperOnline
     region: Worldwide
 authors:
-  edgy:
-
+  u_maffooclock:
+    name: MaffooClock
+    url: https://github.com/MaffooClock
+  u_flow4enol:
+    name: flow4enol
+    url: https://www.printables.com/@Flow4Enol_518511
+  u_edgy:
+    name: edgy
+    url: https://www.printables.com/social/309371-edgy/about
+  u_killajoe:
+    name: Killajoedotcom
+    url: https://github.com/Killajoedotcom
+  u_achebotaev:
+    name: Anton Chebotaev
+    url: https://github.com/Otann
 parts:
   #M3 Fasteners
   hsi_m3_5od_4l:
@@ -150,6 +163,10 @@ parts:
     name: Bigtreetech SKR 3 EZ
   duet_duet3_6hc:
     name: Duet3D Duet 3 6HC
+    img: /img/parts/duet3_6hc.webp
+    source:
+      amazon_us:
+        url: https://www.amazon.com/Duet3D-Duet-3-Mainboard-6HC/dp/B08W295FKT
   duet_duet3_mini5:
     name: Duet3D Duet 3 Mini 5+
   fysetc_spider:
@@ -225,23 +242,26 @@ assemblies:
   ### MCU Trays
   assembly_tray_btt_octopus_v2:
     name: BTT Octopus
+    type: mcu
     attributes: 
-      mcu: single
+      mcu_count: single
     parts:
       shcs_m3_6: 4
       btt_octopus: 1
       tray_btt_octopus_v2: 1
   assembly_tray_btt_skr_pico:
     name: BTT SKR Pico
+    type: mcu
     attributes: 
-      mcu: single
+      mcu_count: single
     parts:
       assembly_btt_skr_pico: 1
       tray_btt_skr_pico: 1
   assembly_tray_btt_skr_e3:
     name: BTT SKR E3
+    type: mcu
     attributes: 
-      mcu: single
+      mcu_count: single
     parts:
       assembly_btt_skr_e3: 1
       tray_btt_skr_e3: 1
@@ -249,8 +269,9 @@ assemblies:
   # Dual MCUs
   assembly_tray_btt_skr_e3_and_pico:
     name: BTT SKR E3 and SKR Pico
+    type: mcu
     attributes: 
-      mcu: dual
+      mcu_count: dual
     parts:
       assembly_btt_skr_e3: 1
       assembly_btt_skr_pico: 1
@@ -259,9 +280,9 @@ assemblies:
   ### PSU Trays
   assembly_tray_lrs350:
     name: Mean Well LRS-350 Series
+    type: psu
     attributes:
-      psu: 36mm
-      inserts: stock
+      base_depth: 36mm
     parts:
       mw_lrs350: 1
       shcs_m4_6: 4
@@ -269,9 +290,9 @@ assemblies:
       tray_mw_lrs350_v2_r: 1
   assembly_tray_lrs350_hsi:
     name: Mean Well LRS-350 Series (HSI)
+    type: psu
     attributes: 
-      psu: 36mm
-      inserts: hsi
+      base_depth: 36mm
     parts:
       mw_lrs350: 1
       tray_mw_lrs350_v2_l_hsi: 1
@@ -280,9 +301,9 @@ assemblies:
       hsi_m3_5od_4l: 4
   assembly_tray_rsp_500:
     name: Mean Well RSP-500 Series
+    type: psu
     attributes:
-      psu: 42mm
-      inserts: stock
+      base_depth: 42mm
     parts:
       mw_rsp500: 1
       tray_mw_rsp500_v2_l: 1
@@ -290,9 +311,9 @@ assemblies:
       shcs_m4_6: 4
   assembly_tray_rsp_500_hsi:
     name: Mean Well RSP-500 Series (HSI)
+    type: psu
     attributes:
-      psu: 42mm
-      inserts: hsi
+      base_depth: 42mm
     parts:
       mw_rsp500: 1
       tray_mw_rsp500_v2_l_hsi: 1
@@ -301,38 +322,35 @@ assemblies:
       hsi_m3_5od_4l: 4
 
 options:
-  - option_unified:
+  - opt_unified:
       name: Unified Main Body and Base
-      attributes:
-        - "Front/Rear (Standard)": build_front_rear
-        - "Unified": build_unified
-  - option_hsi:
+      attribute: build
+      options:
+        - "Front/Rear (Standard)": front_rear
+        - "Unified": unified
+  - opt_hsi:
       name: Heat Set Inserts (HSI)
-      attributes:
-        - "Stock (No Inserts)": build_stock
-        - "Normal Inserts (Recommended)": build_hsi
-        - "Full HSI": build_full_hsi
-  - option_psu:
+      attribute: inserts
+      options:
+        - "Stock (No Inserts)": stock
+        - "Normal Inserts (Recommended)": hsi
+        - "Full HSI": full_hsi
+  - opt_psu:
       name: Power Supply (PSU)
       select: psu
-
-  - option_inlet: 
+  - opt_inlet: 
       name: Power Inlet
-      attributes:
-        - "Fused IEC (Standard)": build_iec
-        - "No built-in inlet": build_no_iec
-  - option_switch:
+      attribute: inlet
+      options:
+        - "Fused IEC (Standard)": iec
+        - "No built-in inlet": no_iec
+  - opt_switch:
       name: Front Power Switch
-      attributes:
-        - "Rocker Switch (Standard)" : build_rocker
-        - "Toggle Switch" : build_toggle
-        - "No built-in power switch": build_no_switch
-  - option_mcu:
+      attribute: switch
+      options:
+        - "Rocker Switch (Standard)" : rocker
+        - "Toggle Switch" : toggle
+        - "No built-in power switch": no_switch
+  - opt_mcu:
       name: MCU(s)
-      select: 
-        - mcu_single
-        - mcu_dual
-  - option_cpu:
-    name: CPU
-    select: 
-      
+      select: mcu
