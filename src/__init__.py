@@ -1,5 +1,5 @@
 import load_yaml
-import load_json
+import bom
 
 def as_url(text : str, link : str) -> str:
     return "[{}]({})".format(text, link)
@@ -13,13 +13,9 @@ def define_env(env):
     """
     from os.path import join
 
-    env.variables.part_data = {}
-    # for file in env.variables.meta['bom_files']:
-        # load_yaml.load_yaml(env.variables.part_data, join(env.conf.docs_dir, file))
-    if env.variables.meta['bom']:
-        file = env.variables.meta['bom']
-        load_json.load_json(env.variables.part_data, join(env.conf.docs_dir, file))
-
+    file = env.variables.meta['bom']
+    load_yaml.load_yaml(env.variables, join(env.conf.docs_dir, file))
+    
     @env.macro
     def issue_tag(issue_number : int):
         return "!!! caution \"Fit Test Pending: See Issue [#{}](https://github.com/jon-harper/OmniBox/issues/{})\"".format(issue_number, issue_number)
@@ -36,4 +32,7 @@ def define_env(env):
     def product_img(url, text="", width="480px"):
         return "[![{}]({})]({})".format(text, url, url)
 
-    
+    @env.macro
+    def bom_table_row(parts: bom.PartData, part_id : str, qty : float):
+        part = parts[part_id]
+        return "| {} | {} | {} |".format(part.name, qty, part.units)

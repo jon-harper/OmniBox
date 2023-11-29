@@ -84,11 +84,8 @@ extra:
     this_branch: https://github.com/jon-harper/OmniBox/tree/0.9.11-beta/
     test_branch: https://github.com/jon-harper/OmniBox/tree/unstable/
     video_folder: https://jon-harper.github.io/OmniBox/video/0.9.10/
-    bom_files: 
-      - assets/yaml/fastener.yaml
-      - assets/yaml/bom.yaml
+    bom: assets/yaml/bom.yaml
     product_file: assets/yaml/products.yaml
-    bom: assets/json/bom.json
 
 extra_css:
   - assets/stylesheets/extra.css

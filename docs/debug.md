@@ -5,36 +5,49 @@ authors: Jon Harper
 date: 2023-06-15
 ---
 
-## Full BOM
+## Printed Files
 
-{% for part in part_data.values() -%}
-### {{ part.name }}
+| Name | Link | Version |
+|------|------|---------|
+{% for part_id, part in parts.items() -%}
+{% if part.file_url -%}
 
-- ID: {{part.part_id}}
-
-{% if part.image_url -%}
-{{ product_img(part.image_url, width=480) }}
+{% if part.version -%}
+| {{ part.name }} | [File]({{ part.file_url }}) | Version: {{part.version}} |
+{% else -%}
+| {{ part.name }} | [File]({{ part.file_url }}) | n/a |
 {% endif -%}
+
+{% endif -%}
+{% endfor %}
+
+## Assemblies
+
+{% for assy in assemblies.values() -%}
+{% if assy.name -%}
+
+### {{ assy.name }}
+
+{% if assy.assy_type -%}
+Type: {{ assy.assy_type }}
+{% endif %}
+
+{% if assy.attributes -%}
+Attributes: {{ assy.attributes }}
+{% endif %}
+
+| Part | Qty | UOM |
+|------|-----|-----|
+{% for part_id, qty in assy.parts.items() -%}
+{{ bom_table_row(parts, part_id, qty) }}
+{% endfor %}
+
+{% endif -%}
+
+{% endfor %}
+
+## Contributors
+
+{% for author_id, author in part_authors.items() -%}
+- [{{ author.name }}]({{ author.url}})
 {% endfor -%}
-
-## Bundlr BOM Generator
-
-<!-- <form id="bundlr-form" method="POST">
-    <select name="lid">
-        <option disabled="">Lid</option>
-        <option value="short">Short</option><option value="long">Long</option>
-    </select>
-    <select name="mcu_tray">
-        <option disabled="">MCU Tray</option>
-        <option value="mcu_btt_octopus">BTT Octopus</option>
-        <option value="mcu_skr_pico">SKR Pico</option>
-    </select>
-    <select name="side_panel_1">
-        <option disabled="">Side Panel 1</option>
-        <option value="side_panel_blank">Blank</option>
-        <option value="side_panel_fan5012">50x12mm Fan</option>
-    </select>
-    </br></br>
-    <input id="bundle-button" class="md-button" type="button" value="Generate ZIP Bundle">
-    <input id="bom-button" class="md-button" type="button" value="Generate BOM">
-</form> -->
