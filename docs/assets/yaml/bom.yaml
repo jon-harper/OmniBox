@@ -147,10 +147,10 @@ parts:
     name: Bigtreetech SKR Pico
   btt_skr_e3:
     name: Bigtreetech SKR E3 Series
-    img: /img/parts/btt_skr_mini_e3_v3.webp
+    img: img/parts/btt_skr_mini_e3_v3.webp
   btt_octopus:
     name: Bigtreetech Octopus Series
-    img: /img/parts/btt_octopus_1.webp
+    img: img/parts/btt_octopus_1.webp
   btt_manta_e3_ez:
     name: Bigtreetech Manta E3 EZ
   btt_manta_m8p:
@@ -163,7 +163,7 @@ parts:
     name: Bigtreetech SKR 3 EZ
   duet_duet3_6hc:
     name: Duet3D Duet 3 6HC
-    img: /img/parts/duet3_6hc.webp
+    img: img/parts/duet3_6hc.webp
     source:
       amazon_us:
         url: https://www.amazon.com/Duet3D-Duet-3-Mainboard-6HC/dp/B08W295FKT

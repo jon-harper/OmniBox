@@ -1,37 +1,60 @@
 from dataclasses import dataclass
-from typing import List, Optional
+from typing import Optional, NamedTuple
 
-@dataclass
-class BOMEntry:
-    part_id: str
-    amount: int = 1
-    entry_type: str
-
-BOMEntryList = List[BOMEntry]
-
-@dataclass
-class Supplier:
-    supplier_id: str
+class Supplier(NamedTuple):
     name: str
-    region: str = 'Worldwide'
-    icon: Optional[str] = None
-    note: Optional[str] = None
+    region: str
+    icon: str
+    note: str
+
+SupplierData = dict[str, Supplier]
+
+class SourceUrl(NamedTuple):
+    supplier : Supplier
+    url: str            # location
+    note: str # internal; notes about a given supplier
+
+SourceList = list[SourceUrl]
+
+class Author(NamedTuple):
+    # author_id: str
+    name: str
+    url: str
+    note: str
+
+AuthorData = dict[str, Author]
+
+class Part(NamedTuple):
+    name: str                   # Formal part name
+    units: str                  # unit of measure
+    icon: Optional[str]         # internal; Material icon key
+    file_url: Optional[str]     # STL for printable files
+    version: Optional[str]      # Release version (for Core files) or template version (for others)
+    image_url: Optional[str]    # internal; display image for major parts
+    note: Optional[str]         # internal
+    sources: Optional[SourceList] # list of part links
+
+PartData = dict[str, Part]
+
+class MaterialsEntry(NamedTuple):
+    part: Part
+    qty: float = 1
+
+#We return a list but internally store a simple `dict` (MaterialsData)
+MaterialsList = list[MaterialsEntry]
+#Internal
+MaterialsData = dict[str, float] #part_id, qty
+
+class Attribute(NamedTuple):
+    """An assembly attribute name and value pair for return values."""
+    name: str
+    value: str
 
 @dataclass
-class SourceUrl:
-    supplier_id: str    # supplier name
-    url: str         # location
-    note: Optional[str] = None # internal; notes about a given supplier
+class Assembly:
+    name: str
+    parts : MaterialsData
+    assy_type: str
+    attributes: dict[str, str] #name, value
 
-@dataclass
-class Part:
-    part_id: str                    # Unique ID
-    name: str                       # Formal part name
-    units: str = "Ea"                 # unit of measure
-    icon: Optional[str] = None      # interal; Material icon
-    file_url: Optional[str] = None  # STL for printable files
-    image_url: Optional[str] = None # internal; display image for major parts
-    note: Optional[str] = None      # internal; TBD
-    supplier_urls: Optional[List[SourceUrl]] = None # list of part links
-
-PartData = dict[Part]
+AssemblyData = dict[str, Assembly]
