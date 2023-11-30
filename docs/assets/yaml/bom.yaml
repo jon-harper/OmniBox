@@ -40,8 +40,8 @@ parts:
   #M3 Fasteners
   hsi_m3_5od_4l:
     name: M3 x 5mm OD x 4mm L Insert
-    type: Heat Set Insert
-    source:
+    type: Other Fasteners
+    sources:
       amazon_us:
         url: "https://www.amazon.com/uxcell-Knurled-Insert-Female-Embedding/dp/B09MCWTBCC"
       fabreeko:
@@ -49,19 +49,19 @@ parts:
   shcs_m3_4:
     name: M3 x 4mm SHCS
     type: DIN 912
-    source:
+    sources:
       bolt_depot:
         url: "https://www.boltdepot.com/Metric_socket_cap_Stainless_steel_316_(A-4)_4mm_x_0.7mm.aspx"
   shcs_m3_5:
     name: M3 x 5mm SHCS
     type: DIN 912
-    source:
+    sources:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22496"
   shcs_m3_6:
     name: M3 x 6mm SHCS
     type: DIN 912
-    source:
+    sources:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22481"
       amazon_us:
@@ -69,7 +69,7 @@ parts:
   shcs_m3_8:
     name: M3 x 8mm SHCS
     type: DIN 912
-    source:
+    sources:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22482"
       amazon_us:
@@ -77,7 +77,7 @@ parts:
   shcs_m3_10:
     name: M3 x 10mm SHCS
     type: DIN 912
-    source:
+    sources:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22483"
       amazon_us:
@@ -85,31 +85,31 @@ parts:
   shcs_m3_12:
     name: M3 x 12mm SHCS
     type: DIN 912
-    source:
+    sources:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22484"
   shcs_m3_14:
     name: M3 x 14mm SHCS
     type: DIN 912
-    source:
+    sources:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22485"
   shcs_m3_16:
     name: M3 x 16mm SHCS
     type: DIN 912
-    source:
+    sources:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22486"
   shcs_m3_18:
     name: M3 x 18mm SHCS
     type: DIN 912
-    source:
+    sources:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22487"
   shcs_m3_20:
     name: M3 x 20mm SHCS
     type: DIN 912
-    source:
+    sources:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22488"
   shcs_m3_22:
@@ -130,37 +130,37 @@ parts:
     name: Mean Well LRS-350 Series
     type: PSU
     img: "img/parts/mw_lrs_350_24.jpg"
-    source:
+    sources:
       amazon_us:
         url: "https://www.amazon.com/MEAN-WELL-LRS-350-24-Printer-Industrial/dp/B07VRK86SP"
   mw_lrs450:
     name: Mean Well LRS-450 Series
     type: PSU
-    source:
+    sources:
       amazon_us:
         url: "https://www.amazon.com/Original-LRS-450-24-Switching-Supply-Transformer/dp/B0BWRPYNM9"
   mw_lrs600:
     name: Mean Well LRS-600 Series
     type: PSU
-    source: 
+    sources: 
       stepperonline:
         url: "https://www.omc-stepperonline.com/lrs-600-24-mean-well-600w-24vdc-25a-115-230vac-enclosed-switching-power-supply-lrs-600-24"
   mw_rsp500:
     name: Mean Well RSP-500 Series
     type: PSU
-    source:
+    sources:
       amazon_us:
         url: "https://www.amazon.com/MEAN-WELL-RSP-500-24-Switching-Enclosed/dp/B00UWCD22O"
   mw_se450:
     name: Mean Well SE-450 Series
     type: PSU
-    source:
+    sources:
       amazon_us:
         url: "https://www.amazon.com/MEAN-WELL-SE-450-24-Supply-Single/dp/B005T6NNKO"
   mw_rs25:
     name: Mean Well RS-25-5
     type: PSU
-    source:
+    sources:
       amazon_us:
         url: "https://www.amazon.com/MEAN-WELL-323282-RS-25-5-Supply/dp/B09KVG6PBZ"
   #MCUs
@@ -194,7 +194,7 @@ parts:
     name: Duet3D Duet 3 6HC
     type: MCU
     img: img/parts/duet3_6hc.webp
-    source:
+    sources:
       amazon_us:
         url: https://www.amazon.com/Duet3D-Duet-3-Mainboard-6HC/dp/B08W295FKT
   duet_duet3_mini5:
@@ -288,7 +288,7 @@ assemblies:
   ### MCU Trays
   assembly_tray_btt_octopus_v2:
     name: BTT Octopus
-    type: mcu
+    type: MCU
     attributes: 
       mcu_count: single
     parts:
@@ -297,7 +297,7 @@ assemblies:
       tray_btt_octopus_v2: 1
   assembly_tray_btt_skr_pico:
     name: BTT SKR Pico
-    type: mcu
+    type: MCU
     attributes: 
       mcu_count: single
     parts:
@@ -305,7 +305,7 @@ assemblies:
       tray_btt_skr_pico: 1
   assembly_tray_btt_skr_e3:
     name: BTT SKR E3
-    type: mcu
+    type: MCU
     attributes: 
       mcu_count: single
     parts:
@@ -315,7 +315,7 @@ assemblies:
   # Dual MCUs
   assembly_tray_btt_skr_e3_and_pico:
     name: BTT SKR E3 and SKR Pico
-    type: mcu
+    type: MCU
     attributes: 
       mcu_count: dual
     parts:
@@ -326,7 +326,7 @@ assemblies:
   ### PSU Trays
   assembly_tray_lrs350:
     name: Mean Well LRS-350 Series
-    type: psu
+    type: PSU
     attributes:
       base_depth: 36mm
     parts:
@@ -336,7 +336,7 @@ assemblies:
       tray_mw_lrs350_v2_r: 1
   assembly_tray_lrs350_hsi:
     name: Mean Well LRS-350 Series (HSI)
-    type: psu
+    type: PSU
     attributes: 
       base_depth: 36mm
     parts:
@@ -347,7 +347,7 @@ assemblies:
       hsi_m3_5od_4l: 4
   assembly_tray_rsp_500:
     name: Mean Well RSP-500 Series
-    type: psu
+    type: PSU
     attributes:
       base_depth: 42mm
     parts:
@@ -357,7 +357,7 @@ assemblies:
       shcs_m4_6: 4
   assembly_tray_rsp_500_hsi:
     name: Mean Well RSP-500 Series (HSI)
-    type: psu
+    type: PSU
     attributes:
       base_depth: 42mm
     parts:
