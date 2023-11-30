@@ -2,9 +2,15 @@ import load_yaml
 import bom
 
 def as_url(text : str, link : str) -> str:
+    """
+    Shorthand for markdown-formatted URL, using parenthesis for an absolute URL.
+    """
     return "[{}]({})".format(text, link)
 
 def as_relative_url(text : str, link : str) -> str:
+    """
+    Shorthand for a markdown relative URL, i.e. one that will be enclosed in braces and has a matching tag.
+    """
     return "[{}][{}]".format(text, link)
 
 def define_env(env):
@@ -20,6 +26,9 @@ def define_env(env):
     
     @env.macro
     def issue_tag(issue_number : int) -> str:
+        """
+        Adds a caution annotation for a pending fit test.
+        """
         return "!!! caution \"Fit Test Pending: See Issue [#{}](https://github.com/jon-harper/OmniBox/issues/{})\"".format(issue_number, issue_number)
 
     @env.macro
@@ -35,7 +44,11 @@ def define_env(env):
         return "[![{}]({})]({})".format(text, url, url)
 
     @env.macro
-    def bom_table_row(part_id : str, qty : float):
+    def bom_table_row(part_id : str, qty : float) -> str:
+        """
+        Takes a part_id and quantity and produces an entry for a BOM table.
+        Adds icons and links based on part type.
+        """
         part = part_from_id(part_id)
         if part.part_type == 'Printed':
             return "| {} | :material-printer-3d-nozzle: {} | {} | {} |".format(part.part_type, as_url(part.name, part.file_url), qty, part.units)
@@ -45,38 +58,69 @@ def define_env(env):
     
     @env.macro
     def part_from_id(part_id : str) -> bom.Part:
+        """
+        Returns a Part for a given id string.
+        """
         return bom_data.parts[part_id]
     
     @env.macro
     def parts() -> bom.PartData:
+        """
+        Returns a dict of all Parts.
+        """
         return bom_data.parts
     
     @env.macro
     def assembly_from_id(assy_id : str) -> bom.Assembly:
+        """
+        Returns an Assembly for a given id string.
+        """
         return bom_data.assemblies[assy_id]
     
     @env.macro
     def assemblies() -> bom.AssemblyData:
+        """
+        Returns a dict of all Assemblys.
+        """
         return bom_data.assemblies
     
     @env.macro
     def author_from_id(author_id : str) -> bom.Author:
+        """
+        Returns an author for a given id string.
+        """
         return bom_data.authors[author_id]
     
     @env.macro
     def part_authors() -> bom.AuthorData:
+        """
+        Returns a dict of all Authors.
+        """
+
         return bom_data.authors
 
     @env.macro
     def supplier_from_id(supplier_id : str) -> bom.Supplier:
+        """
+        Returns a Supplier from an id string.
+        """
         return bom_data.suppliers[supplier_id]
 
     @env.macro
     def suppliers() -> bom.SupplierData:
+        """
+        Returns a dict of all Suppliers.
+        """
         return bom_data.suppliers
     
     @env.macro
     def filter_assemblies(type_filter : str = '', attribute_filter: str = '', attribute_value: str = '') -> bom.AssemblyData:
+        """
+        Returns a dict of all assemblies whose types match `type_filter` and/or
+        whose attributes match `attribute_filter`.
+
+        Attributes can be further constrained by filtering the value with `attribute_value`.
+        """
         ret = bom.AssemblyData()
         for assy_id, assy in bom_data.assemblies.items():
             if type_filter == assy.assy_type:
@@ -91,6 +135,9 @@ def define_env(env):
     
     @env.macro
     def filter_parts(type_filter : str = '') -> bom.PartData:
+        """
+        Returns a dict of all Parts whose types match `type_filter`.
+        """
         ret = bom.PartData()
         for part_id, part in bom_data.parts.items():
             if part.part_type == type_filter:
@@ -99,10 +146,16 @@ def define_env(env):
     
     @env.macro
     def part_types() -> list[str]:
+        """
+        Returns a list of all Part types.
+        """
         return bom_data.part_types
     
     @env.macro
     def assembly_types() -> list[str]:
+        """
+        Returns a list of assembly types.
+        """
         return bom_data.assembly_types
     
     @env.macro
@@ -111,6 +164,9 @@ def define_env(env):
     
     @env.macro
     def source_table(part : bom.Part) -> str:
+        """
+        Returns a full markdown table of the Sources for a given Part.
+        """
         ret = \
         "| Source | Region | Note |\n|--------|--------|------|\n"
         if len(part.sources) == 0:
