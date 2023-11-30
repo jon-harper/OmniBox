@@ -27,6 +27,7 @@ AuthorData = dict[str, Author]
 class Part(NamedTuple):
     name: str                   # Formal part name
     units: str                  # unit of measure
+    part_type: str              # category, e.g. fastener, MCU, fan
     icon: Optional[str]         # internal; Material icon key
     file_url: Optional[str]     # STL for printable files
     version: Optional[str]      # Release version (for Core files) or template version (for others)
@@ -58,3 +59,9 @@ class Assembly:
     attributes: dict[str, str] #name, value
 
 AssemblyData = dict[str, Assembly]
+
+class GlobalData(NamedTuple):
+    assemblies : AssemblyData
+    parts : PartData
+    authors : AuthorData
+    suppliers : SupplierData

@@ -9,14 +9,12 @@ def load_yaml(env_variables, filepath : str):
     import yaml
 
     f = open(filepath, 'r')
-    bom_data = yaml.safe_load(f.read())
+    raw_bom = yaml.safe_load(f.read())
     
-    parser = BOMParser(bom_data)
+    parser = BOMParser(raw_bom)
     env_variables['base_url'] = parser.base_url
-    env_variables['parts'] = parser.parts
-    env_variables['suppliers'] = parser.suppliers
-    env_variables['part_authors'] = parser.authors
-    env_variables['assemblies'] = parser.assemblies
+
+    return bom.GlobalData(parser.assemblies, parser.parts, parser.authors, parser.suppliers)
     
 
 class BOMParser():
@@ -51,6 +49,7 @@ class BOMParser():
     def parsePart(self, entry : dict) -> bom.Part:
         return bom.Part(name=entry['name'],
                        units=entry.get('units', 'Ea'),
+                       part_type=entry.get('type', 'unspecified'),
                        icon=entry.get('icon', None),
                        file_url=entry.get('file', None),
                        version=entry.get('version', None),
@@ -111,18 +110,20 @@ class BOMParser():
 
             combined : bom.PartData = {}
             
-
+            # Iterate through the assemblies, breaking down part lists as we go.
             for assy_id, assy in processing.items():
+                # Check if this contains references to assemblies not yet processed;
+                # defer if needed and catch it the next pass.
                 skip : bool = False
                 for sub_id in assy.parts.keys():
-                    # Check if this contains references to assemblies not yet processed;
-                    # defer if needed and catch it the next pass.
                     if sub_id in deferred.keys():
                         deferred[assy_id] = assy
                         skip = True
                         break
                 if skip:
                     break
+                
+                #Do the actual processing
                 for sub_id in assy.parts.keys():
                     # Found a subassembly, break it down
                     if sub_id in ret.keys():
@@ -137,8 +138,9 @@ class BOMParser():
                                 combined[part_id] = qty * mult
                     else:
                         combined[sub_id] = assy.parts[sub_id]
+                # Replace the existing list with the combined one
                 assy.parts = combined
-                # Add to the finished list
+                # Add the assembly to the result list
                 ret[assy_id] = assy
                 combined = {}
         # Ensure we didn't catch a loop

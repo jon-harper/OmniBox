@@ -39,7 +39,8 @@ authors:
 parts:
   #M3 Fasteners
   hsi_m3_5od_4l:
-    name: Heat Set Insert, M3 x 5mm OD x 4mm L
+    name: M3 x 5mm OD x 4mm L Insert
+    type: Heat Set Insert
     source:
       amazon_us:
         url: "https://www.amazon.com/uxcell-Knurled-Insert-Female-Embedding/dp/B09MCWTBCC"
@@ -47,16 +48,19 @@ parts:
         url: "https://www.fabreeko.com/products/cnc-kitchen-heat-inserts-m2-m8?_pos=1&_sid=09bf25e0f&_ss=r&variant=44311958061311"
   shcs_m3_4:
     name: M3 x 4mm SHCS
+    type: DIN 912
     source:
       bolt_depot:
         url: "https://www.boltdepot.com/Metric_socket_cap_Stainless_steel_316_(A-4)_4mm_x_0.7mm.aspx"
   shcs_m3_5:
     name: M3 x 5mm SHCS
+    type: DIN 912
     source:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22496"
   shcs_m3_6:
     name: M3 x 6mm SHCS
+    type: DIN 912
     source:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22481"
@@ -64,6 +68,7 @@ parts:
         url: "https://www.amazon.com/Fullerkreg-Socket-Stainless-Machine-Quantity/dp/B07CJ7PDYT"
   shcs_m3_8:
     name: M3 x 8mm SHCS
+    type: DIN 912
     source:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22482"
@@ -71,6 +76,7 @@ parts:
         url: "https://www.amazon.com/Fullerkreg-Socket-Stainless-Machine-Quantity/dp/B07CJ9BRCK/"
   shcs_m3_10:
     name: M3 x 10mm SHCS
+    type: DIN 912
     source:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22483"
@@ -78,154 +84,194 @@ parts:
         url: "https://www.amazon.com/Fullerkreg-Socket-Stainless-Machine-Quantity/dp/B07CK3RSN3"
   shcs_m3_12:
     name: M3 x 12mm SHCS
+    type: DIN 912
     source:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22484"
   shcs_m3_14:
     name: M3 x 14mm SHCS
+    type: DIN 912
     source:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22485"
   shcs_m3_16:
     name: M3 x 16mm SHCS
+    type: DIN 912
     source:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22486"
   shcs_m3_18:
     name: M3 x 18mm SHCS
+    type: DIN 912
     source:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22487"
   shcs_m3_20:
     name: M3 x 20mm SHCS
+    type: DIN 912
     source:
       bolt_depot:
         url: "https://www.boltdepot.com/Product-Details.aspx?product=22488"
   shcs_m3_22:
     name: M3 x 22mm SHCS
+    type: DIN 912
   shcs_m3_25:
     name: M3 x 25mm SHCS
+    type: DIN 912
   #M4 fasteners
   shcs_m4_6:
     name: M4 x 6mm SHCS
+    type: DIN 912
   shcs_m4_8:
     name: M4 x 8mm SHCS
+    type: DIN 912
   #Power Supplies
   mw_lrs350:
     name: Mean Well LRS-350 Series
+    type: PSU
     img: "img/parts/mw_lrs_350_24.jpg"
     source:
       amazon_us:
         url: "https://www.amazon.com/MEAN-WELL-LRS-350-24-Printer-Industrial/dp/B07VRK86SP"
   mw_lrs450:
     name: Mean Well LRS-450 Series
+    type: PSU
     source:
       amazon_us:
         url: "https://www.amazon.com/Original-LRS-450-24-Switching-Supply-Transformer/dp/B0BWRPYNM9"
   mw_lrs600:
     name: Mean Well LRS-600 Series
+    type: PSU
     source: 
       stepperonline:
         url: "https://www.omc-stepperonline.com/lrs-600-24-mean-well-600w-24vdc-25a-115-230vac-enclosed-switching-power-supply-lrs-600-24"
   mw_rsp500:
     name: Mean Well RSP-500 Series
+    type: PSU
     source:
       amazon_us:
         url: "https://www.amazon.com/MEAN-WELL-RSP-500-24-Switching-Enclosed/dp/B00UWCD22O"
   mw_se450:
     name: Mean Well SE-450 Series
+    type: PSU
     source:
       amazon_us:
         url: "https://www.amazon.com/MEAN-WELL-SE-450-24-Supply-Single/dp/B005T6NNKO"
   mw_rs25:
     name: Mean Well RS-25-5
+    type: PSU
     source:
       amazon_us:
         url: "https://www.amazon.com/MEAN-WELL-323282-RS-25-5-Supply/dp/B09KVG6PBZ"
   #MCUs
   btt_skr_pico:
     name: Bigtreetech SKR Pico
+    type: MCU
   btt_skr_e3:
     name: Bigtreetech SKR E3 Series
+    type: MCU
     img: img/parts/btt_skr_mini_e3_v3.webp
   btt_octopus:
     name: Bigtreetech Octopus Series
+    type: MCU
     img: img/parts/btt_octopus_1.webp
   btt_manta_e3_ez:
     name: Bigtreetech Manta E3 EZ
+    type: MCU
   btt_manta_m8p:
     name: Bigtreetech Manta M8P
+    type: MCU
   btt_skr_classic:
-    name: Bigtreetech SKR 1 & 2
+    name: Bigtreetech SKR v1.3-2.0
+    type: MCU
   btt_skr_3:
     name: Bigtreetech SKR 3
+    type: MCU
   btt_skr_3_ez:
     name: Bigtreetech SKR 3 EZ
+    type: MCU
   duet_duet3_6hc:
     name: Duet3D Duet 3 6HC
+    type: MCU
     img: img/parts/duet3_6hc.webp
     source:
       amazon_us:
         url: https://www.amazon.com/Duet3D-Duet-3-Mainboard-6HC/dp/B08W295FKT
   duet_duet3_mini5:
     name: Duet3D Duet 3 Mini 5+
+    type: MCU
   fysetc_spider:
     name: FYSETC Spider Series
+    type: MCU
   mks_monster8:
     name: MKS Monster8
+    type: MCU
   mks_skipr:
     name: MKS Skipr
+    type: MCU
 
   #MCU Trays
   tray_btt_octopus_v2:
     name: MCU Tray - BTT Octopus - v2.stl
+    type: Printed
     file: /Trays/MCU/BTT Octopus/MCU Tray - BTT Octopus - v2.stl
     version: v2
   tray_btt_skr_pico:
     name: MCU Tray - BTT SKR Pico - v2 HSI.stl
+    type: Printed
     file: /Trays/MCU/BTT SKR Pico/MCU Tray - BTT SKR Pico - v2 HSI.stl
     version: v2
   tray_btt_skr_e3:
     name: MCU Tray - BTT SKR E3 v2.stl
+    type: Printed
     file: /Trays/MCU/BTT SKR E3/MCU Tray - BTT SKR E3 v2.stl
     version: v2
   tray_btt_skr_e3_and_pico:
     name: MCU Tray - SKR E3 + Pico v2.stl
+    type: Printed
     file: /Trays/MCU/Dual MCU/SKR E3 and Pico/MCU Tray - SKR E3 + Pico v2.stl
     version: v2
   ### PSU Trays
   # Mean Well LRS 350
   tray_mw_lrs350_v2_l:
     name: LRS-350 Left Mount
+    type: Printed
     file: /Trays/PSU/V2/Mean Well LRS-350/PSU Mount - LRS-350 - Left.stl
     version: v2
   tray_mw_lrs350_v2_l_hsi:
     name: LRS-350 Left Mount (HSI)
+    type: Printed
     file: /Trays/PSU/V2/Mean Well LRS-350/PSU Mount - LRS-350 - Left HSI.stl
     version: v2
   tray_mw_lrs350_v2_r:
     name: LRS-350 Right Mount
+    type: Printed
     file: /Trays/PSU/V2/Mean Well LRS-350/PSU Mount - LRS-350 - Right.stl
     version: v2
   tray_mw_lrs350_v2_r_hsi:
     name: LRS-350 Right Mount (HSI)
+    type: Printed
     file: /Trays/PSU/V2/Mean Well LRS-350/PSU Mount - LRS-350 - Right HSI.stl
     version: v2
   # Mean Well RSP 500
   tray_mw_rsp500_v2_l:
     name: RSP-500 Left Mount
+    type: Printed
     file: /Trays/PSU/V2/Mean Well RSP-500/PSU Mount - RSP-500 - Left.stl
     version: v2
   tray_mw_rsp500_v2_l_hsi:
     name: RSP-500 Left Mount (HSI)
+    type: Printed
     file: /Trays/PSU/V2/Mean Well RSP-500/PSU Mount - RSP-500 - Left HSI.stl
     version: v2
   tray_mw_rsp500_v2_r:
     name: RSP-500 Right Mount
+    type: Printed
     file: /Trays/PSU/V2/Mean Well RSP-500/PSU Mount - RSP-500 - Right.stl
     version: v2
   tray_mw_rsp500_v2_r_hsi:
     name: RSP-500 Right Mount (HSI)
+    type: Printed
     file: /Trays/PSU/V2/Mean Well RSP-500/PSU Mount - RSP-500 - Right HSI.stl
     version: v2
 

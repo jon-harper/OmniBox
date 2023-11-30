@@ -14,7 +14,9 @@ def define_env(env):
     from os.path import join
 
     file = env.variables.meta['bom']
-    load_yaml.load_yaml(env.variables, join(env.conf.docs_dir, file))
+    
+    global bom_data 
+    bom_data = load_yaml.load_yaml(env.variables, join(env.conf.docs_dir, file))
     
     @env.macro
     def issue_tag(issue_number : int):
@@ -33,6 +35,40 @@ def define_env(env):
         return "[![{}]({})]({})".format(text, url, url)
 
     @env.macro
-    def bom_table_row(parts: bom.PartData, part_id : str, qty : float):
-        part = parts[part_id]
-        return "| {} | {} | {} |".format(part.name, qty, part.units)
+    def bom_table_row(part_id : str, qty : float):
+        part = part_from_id(part_id)
+        if part.part_type == 'Printed':
+            return "| :material-printer-3d-nozzle: {} | {} | {} | {} |".format(part.part_type, as_url(part.name, part.file_url), qty, part.units)
+        return "| {} | {} | {} | {} |".format(part.part_type, part.name, qty, part.units)
+    
+    @env.macro
+    def part_from_id(part_id : str) -> bom.Part:
+        return bom_data.parts[part_id]
+    
+    @env.macro
+    def parts() -> bom.PartData:
+        return bom_data.parts
+    
+    @env.macro
+    def assembly_from_id(assy_id : str) -> bom.Assembly:
+        return bom_data.assemblies[assy_id]
+    
+    @env.macro
+    def assemblies() -> bom.AssemblyData:
+        return bom_data.assemblies
+    
+    @env.macro
+    def author_from_id(author_id : str) -> bom.Author:
+        return bom_data.authors[author_id]
+    
+    @env.macro
+    def part_authors() -> bom.AuthorData:
+        return bom_data.authors
+
+    @env.macro
+    def supplier_from_id(supplier_id : str) -> bom.Supplier:
+        return bom_data.suppliers[supplier_id]
+
+    @env.macro
+    def suppliers() -> bom.SupplierData:
+        return bom_data.suppliers

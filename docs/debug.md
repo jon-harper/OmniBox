@@ -9,7 +9,7 @@ date: 2023-06-15
 
 | Name | Link | Version |
 |------|------|---------|
-{% for part_id, part in parts.items() -%}
+{% for part_id, part in parts().items() -%}
 {% if part.file_url -%}
 
 {% if part.version -%}
@@ -23,7 +23,7 @@ date: 2023-06-15
 
 ## Assemblies
 
-{% for assy in assemblies.values() -%}
+{% for assy in assemblies().values() -%}
 {% if assy.name -%}
 
 ### {{ assy.name }}
@@ -36,10 +36,10 @@ Type: {{ assy.assy_type }}
 Attributes: {{ assy.attributes }}
 {% endif %}
 
-| Part | Qty | UOM |
-|------|-----|-----|
+| Type | Part | Qty | UOM |
+|------|------|-----|-----|
 {% for part_id, qty in assy.parts.items() -%}
-{{ bom_table_row(parts, part_id, qty) }}
+{{ bom_table_row(part_id, qty) }}
 {% endfor %}
 
 {% endif -%}
@@ -48,6 +48,6 @@ Attributes: {{ assy.attributes }}
 
 ## Contributors
 
-{% for author_id, author in part_authors.items() -%}
+{% for author_id, author in part_authors().items() -%}
 - [{{ author.name }}]({{ author.url}})
 {% endfor -%}
