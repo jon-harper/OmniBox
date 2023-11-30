@@ -21,16 +21,14 @@ date: 2023-06-15
 {% endif -%}
 {% endfor %}
 
-## Assemblies
+{% for assy_type in assembly_types() -%}
 
-{% for assy in assemblies().values() -%}
+## {{ assy_type }}
+
+{% for assy in filter_assemblies(assy_type).values() -%}
 {% if assy.name -%}
 
 ### {{ assy.name }}
-
-{% if assy.assy_type -%}
-Type: {{ assy.assy_type }}
-{% endif %}
 
 {% if assy.attributes -%}
 Attributes: {{ assy.attributes }}
@@ -43,6 +41,8 @@ Attributes: {{ assy.attributes }}
 {% endfor %}
 
 {% endif -%}
+
+{% endfor %}
 
 {% endfor %}
 
