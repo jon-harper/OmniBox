@@ -65,6 +65,8 @@ plugins:
   - search
   - macros:
       module_name: "src"
+  - social:
+      enabled: !ENV [CI, false]
 
 extra:
   version:
