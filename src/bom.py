@@ -65,3 +65,6 @@ class GlobalData(NamedTuple):
     parts : PartData
     authors : AuthorData
     suppliers : SupplierData
+    assembly_types : list[str]
+    part_types : list[str]
+    attributes : list[str]

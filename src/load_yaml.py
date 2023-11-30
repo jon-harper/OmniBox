@@ -14,7 +14,13 @@ def load_yaml(env_variables, filepath : str):
     parser = BOMParser(raw_bom)
     env_variables['base_url'] = parser.base_url
 
-    return bom.GlobalData(parser.assemblies, parser.parts, parser.authors, parser.suppliers)
+    return bom.GlobalData(assemblies=parser.assemblies, 
+                          parts=parser.parts, 
+                          authors=parser.authors, 
+                          suppliers=parser.suppliers,
+                          assembly_types=parser.assembly_types, 
+                          part_types=parser.part_types, 
+                          attributes=parser.attributes)
     
 
 class BOMParser():
@@ -34,10 +40,24 @@ class BOMParser():
 
         assert('parts' in yaml_data)
         self.parts = bom.PartData()
+        self.part_types : list[str] = []
         for key, entry in yaml_data['parts'].items():
-            self.parts[key] = self.parsePart(entry)
+            part = self.parsePart(entry)
+            self.parts[key] = part
+            if part.part_type not in self.part_types:
+                self.part_types.append(part.part_type)
 
         self.assemblies = self.parseAssemblies(yaml_data['assemblies'])
+        self.assembly_types : list[str] = []
+        self.attributes : list[str] = []
+        for assy in self.assemblies.values():
+            if assy.assy_type not in self.assembly_types:
+                self.assembly_types.append(assy.assy_type)
+            if assy.attributes:
+                for attribute in assy.attributes:
+                    if attribute not in self.attributes:
+                        self.attributes.append(attribute)
+        
 
     def parseSupplier(self, entry : dict) -> bom.Supplier:
         return bom.Supplier(
