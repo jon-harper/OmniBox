@@ -5,7 +5,11 @@ the result into the provided environment variable.
 
 import bom
 
-def load_yaml(env_variables, filepath : str):
+def load_yaml(env_variables, filepath : str) -> bom.GlobalData:
+    """
+    Imports YAML data, parses it, and returns a global object with that data.
+    """
+
     import yaml
 
     f = open(filepath, 'r')
@@ -24,7 +28,14 @@ def load_yaml(env_variables, filepath : str):
     
 
 class BOMParser():
+    
     def __init__(self, yaml_data : dict) -> None:
+        """
+        Parses through raw YAML and builds BOM data structures from it.
+
+        All other methods are intended as internal.
+        """
+
         config = yaml_data['config']
         self.base_url = config['baseUrl']
         
@@ -78,9 +89,14 @@ class BOMParser():
                        image_url=entry.get('img', None))
     
     def parseSources(self, entry : dict) -> bom.SourceList:
+        """
+        Builds a list of Sources, substituting the actual Source for it's identifier.
+        """
         ret = bom.SourceList()
+
         if not entry:
             return ret
+        
         for supplier_id, source_data in entry.items():
             source = bom.SourceUrl(self.suppliers[supplier_id],
                                    url = source_data['url'],
@@ -89,11 +105,22 @@ class BOMParser():
         return ret
     
     def parseAuthor(self, entry: dict) -> bom.Author:
+        """
+        Constructs an Author from YAML data.
+        """
         return bom.Author(name=entry['name'], 
                           url=entry['url'],
                           note=entry.get('note', ''))
     
     def parseAssemblies(self, entries : dict[str, dict]) -> bom.AssemblyData:
+        """
+        Cyclically parses assemblies and resolves their part relationships.
+
+        Assemblies without part lists containing other assemblies are processed first. The remaining
+        assemblies are checked for references to already-processed assemblies. If one is found,
+        the reference is "decayed" into its component parts  (removing all references). This
+        continues until all assemblies are processed.
+        """
         ret : bom.AssemblyData = {}
         deferred : bom.AssemblyData = {}
 

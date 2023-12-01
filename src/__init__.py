@@ -1,3 +1,8 @@
+"""
+Initializes the Python environment. Methods tagged as macros can be called from within
+Markdown.
+"""
+
 import load_yaml
 import bom
 
@@ -178,4 +183,40 @@ def define_env(env):
     
     @env.macro
     def part_header(part_id:str, partname :str) -> str:
+        """
+        Annotates a part name with an anchor containing its part id. This allows "source.md#[part_id]" as a URL.
+
+        This is used in headers on the Sourcing document.
+        """
         return '<a name="{}"></a> {}'.format(part_id, partname)
+    
+    @env.macro
+    def sourcing_part_entry(part_id:str, part : bom.Part) -> str:
+        if part.image_url:
+            return \
+"""#### {}
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+{}
+</div>
+<div markdown class="jh-grid-img">
+[![{}]({})]({})
+</div>
+</div>
+""".format(part_header(part_id, part.name),
+            source_table(part),
+            part.name,
+            part.image_url,
+            part.image_url)
+        else:
+            return \
+"""#### {}
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+{}
+</div>
+</div>
+""".format(part_header(part_id, part.name),
+            source_table(part))

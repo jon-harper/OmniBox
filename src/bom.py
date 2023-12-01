@@ -2,6 +2,9 @@ from dataclasses import dataclass
 from typing import Optional, NamedTuple
 
 class Supplier(NamedTuple):
+    """
+    Defines a provider of Parts.
+    """
     name: str
     region: str
     icon: str
@@ -10,6 +13,9 @@ class Supplier(NamedTuple):
 SupplierData = dict[str, Supplier]
 
 class SourceUrl(NamedTuple):
+    """
+    Supplier data for a specific Part.
+    """
     supplier : Supplier
     url: str            # location
     note: str # internal; notes about a given supplier
@@ -17,6 +23,9 @@ class SourceUrl(NamedTuple):
 SourceList = list[SourceUrl]
 
 class Author(NamedTuple):
+    """
+    Accreditation information for a printed Part.
+    """
     # author_id: str
     name: str
     url: str
@@ -25,6 +34,9 @@ class Author(NamedTuple):
 AuthorData = dict[str, Author]
 
 class Part(NamedTuple):
+    """
+    Contains relevant information for both printed and sourced parts.
+    """
     name: str                   # Formal part name
     units: str                  # unit of measure
     part_type: str              # category, e.g. fastener, MCU, fan
@@ -38,6 +50,9 @@ class Part(NamedTuple):
 PartData = dict[str, Part]
 
 class MaterialsEntry(NamedTuple):
+    """
+    Return value for a BOM entry.
+    """
     part: Part
     qty: float = 1
 
@@ -47,12 +62,17 @@ MaterialsList = list[MaterialsEntry]
 MaterialsData = dict[str, float] #part_id, qty
 
 class Attribute(NamedTuple):
-    """An assembly attribute name and value pair for return values."""
+    """
+    An assembly attribute name and value pair for return values.
+    """
     name: str
     value: str
 
 @dataclass
 class Assembly:
+    """
+    A collection of Parts with a given name, type, and associated attributes.
+    """
     name: str
     parts : MaterialsData
     assy_type: str
@@ -61,6 +81,9 @@ class Assembly:
 AssemblyData = dict[str, Assembly]
 
 class GlobalData(NamedTuple):
+    """
+    Global variable tracking state.
+    """
     assemblies : AssemblyData
     parts : PartData
     authors : AuthorData
