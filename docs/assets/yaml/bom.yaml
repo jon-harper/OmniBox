@@ -5,21 +5,27 @@ suppliers:
   aliexpress:
     name: AliExpress
     region: Worldwide
+    ships: Worlwide
   amazon_us:
     name: Amazon.com (USA)
     region: US
+    ships: US
   bolt_depot:
     name: Bolt Depot
     region: US
+    ships: US
   digikey:
     name: Digikey
     region: Worldwide
+    ships: Worldwide
   fabreeko:
-    name: Fabreeko (USA)
-    region: Worldwide
+    name: Fabreeko
+    region: US
+    ships: Worldwide
   stepperonline:
     name: StepperOnline
     region: Worldwide
+    ships: Worldwide
 authors:
   u_maffooclock:
     name: MaffooClock
@@ -36,16 +42,11 @@ authors:
   u_achebotaev:
     name: Anton Chebotaev
     url: https://github.com/Otann
+  u_mrmeh:
+    name: Mr Meh
+    url: https://www.printables.com/social/319608-mr-meh/about
 parts:
   #M3 Fasteners
-  hsi_m3_5od_4l:
-    name: M3 x 5mm OD x 4mm L Insert
-    type: Other Fasteners
-    sources:
-      amazon_us:
-        url: "https://www.amazon.com/uxcell-Knurled-Insert-Female-Embedding/dp/B09MCWTBCC"
-      fabreeko:
-        url: "https://www.fabreeko.com/products/cnc-kitchen-heat-inserts-m2-m8?_pos=1&_sid=09bf25e0f&_ss=r&variant=44311958061311"
   shcs_m3_4:
     name: M3 x 4mm SHCS
     type: DIN 912
@@ -115,81 +116,194 @@ parts:
   shcs_m3_22:
     name: M3 x 22mm SHCS
     type: DIN 912
+    sources:
+      bolt_depot:
+        url: "https://www.boltdepot.com/Product-Details.aspx?product=18867"
   shcs_m3_25:
     name: M3 x 25mm SHCS
     type: DIN 912
+    sources:
+      bolt_depot:
+        url: "https://www.boltdepot.com/Product-Details.aspx?product=6384"
+  shcs_m3_30:
+    name: M3 x 30mm SHCS
+    type: DIN 912
+    sources:
+      bolt_depot:
+        url: "https://www.boltdepot.com/Product-Details.aspx?product=6385"
+  shcs_m3_35:
+    name: M3 x 35mm SHCS
+    type: DIN 912
+    sources:
+      bolt_depot:
+        url: "https://www.boltdepot.com/Product-Details.aspx?product=6386"
+  shcs_m3_40:
+    name: M3 x 40mm SHCS
+    type: DIN 912
+    sources:
+      bolt_depot:
+        url: "https://www.boltdepot.com/Product-Details.aspx?product=6387"
+  shcs_m3_45:
+    name: M3 x 45mm SHCS
+    type: DIN 912
+    sources:
+      bolt_depot:
+        url: "https://www.boltdepot.com/Product-Details.aspx?product=6388"
+  shcs_m3_50:
+    name: M3 x 50mm SHCS
+    type: DIN 912
+    sources:
+      bolt_depot:
+        url: "https://www.boltdepot.com/Product-Details.aspx?product=6389"
+  
   #M4 fasteners
   shcs_m4_6:
     name: M4 x 6mm SHCS
     type: DIN 912
+    sources:
+      bolt_depot:
+        url: "https://www.boltdepot.com/Product-Details.aspx?product=6391"
   shcs_m4_8:
     name: M4 x 8mm SHCS
     type: DIN 912
+    sources:
+      bolt_depot:
+        url: "https://www.boltdepot.com/Product-Details.aspx?product=6392"
+
+  #Other Fasteners
+  wood_screw_6_3/4:
+    name: '#6 x 3/4" Wood Screw'
+    type: Other Fasteners
+    sources:
+      bolt_depot:
+        url: "https://www.boltdepot.com/Product-Details.aspx?product=11595"
+      amazon_us:
+        url: "https://www.amazon.com/Phillips-Stainless-Tapping-SG-TZH/dp/B0B2J2BC7F"
+    note: 'To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Machine screws can also be used, if necessary.'
+
+  hsi_m3_5od_4l:
+    name: M3 x 5mm OD x 4mm L Insert
+    type: Other Fasteners
+    sources:
+      amazon_us:
+        url: "https://www.amazon.com/uxcell-Knurled-Insert-Female-Embedding/dp/B09MCWTBCC"
+      fabreeko:
+        url: "https://www.fabreeko.com/products/cnc-kitchen-heat-inserts-m2-m8?_pos=1&_sid=09bf25e0f&_ss=r&variant=44311958061311"
+ 
   #Power Supplies
   mw_lrs350:
     name: Mean Well LRS-350 Series
     type: PSU
-    img: "img/parts/mw_lrs_350_24.jpg"
+    img: "img/parts/mw_lrs_350_24.webp"
     sources:
       amazon_us:
         url: "https://www.amazon.com/MEAN-WELL-LRS-350-24-Printer-Industrial/dp/B07VRK86SP"
+      stepperonline:
+        url: "https://www.omc-stepperonline.com/lrs-350-24-mean-well-350w-24vdc-14-6a-115-230vac-enclosed-switching-power-supply-lrs-350-24"
   mw_lrs450:
     name: Mean Well LRS-450 Series
     type: PSU
+    img: "img/parts/lrs_450_24.webp"
     sources:
       amazon_us:
         url: "https://www.amazon.com/Original-LRS-450-24-Switching-Supply-Transformer/dp/B0BWRPYNM9"
+      stepperonline:
+        url: "https://www.omc-stepperonline.com/lrs-450-24-mean-well-451-2w-24vdc-18-8a-115-230vac-enclosed-switching-power-supply-lrs-450-24"
   mw_lrs600:
     name: Mean Well LRS-600 Series
     type: PSU
+    img: img/parts/lrs_600_24.webp
     sources: 
       stepperonline:
         url: "https://www.omc-stepperonline.com/lrs-600-24-mean-well-600w-24vdc-25a-115-230vac-enclosed-switching-power-supply-lrs-600-24"
   mw_rsp500:
     name: Mean Well RSP-500 Series
     type: PSU
+    img: img/parts/mw_rsp_500_24.webp
     sources:
       amazon_us:
         url: "https://www.amazon.com/MEAN-WELL-RSP-500-24-Switching-Enclosed/dp/B00UWCD22O"
+      stepperonline:
+        url: "https://www.omc-stepperonline.com/rsp-500-24-mean-well-504w-24vdc-21a-115-230vac-single-output-with-pfc-function-rsp-500-24"
   mw_se450:
     name: Mean Well SE-450 Series
     type: PSU
+    img: img/parts/se_450_24.webp
     sources:
       amazon_us:
         url: "https://www.amazon.com/MEAN-WELL-SE-450-24-Supply-Single/dp/B005T6NNKO"
+      stepperonline:
+        url: "https://www.omc-stepperonline.com/se-450-24-mean-well-451-2w-18-8a-24v-single-output-power-supply-se-450-24"
   mw_rs25:
     name: Mean Well RS-25-5
     type: PSU
+    img: img/parts/rs_25_5.webp
     sources:
       amazon_us:
         url: "https://www.amazon.com/MEAN-WELL-323282-RS-25-5-Supply/dp/B09KVG6PBZ"
+      stepperonline:
+        url: "https://www.omc-stepperonline.com/rs-25-5-mean-well-25w-single-output-switching-power-supply-rs-25-5"
+
   #MCUs
   btt_skr_pico:
     name: Bigtreetech SKR Pico
     type: MCU
+    img: img/parts/btt_skr_pico.webp
+    sources:
+      amazon_us:
+        url: "https://www.amazon.com/BIGTREETECH-Controller-Compatible-Entry-Level-Motherboard/dp/B09MVJ5XKH/"
   btt_skr_e3:
     name: Bigtreetech SKR E3 Series
     type: MCU
     img: img/parts/btt_skr_mini_e3_v3.webp
+    sources:
+      amazon_us:
+        url: "https://www.amazon.com/BIGTREETECH-Upgraded-Motherboard-Integrated-Compatible/dp/B09LH727MT"
   btt_octopus:
     name: Bigtreetech Octopus Series
     type: MCU
     img: img/parts/btt_octopus_1.webp
+    sources:
+      amazon_us:
+        url: "https://www.amazon.com/BIGTREETECH-Motherboard-Compatible-Firmware-Raspberry/dp/B094NPRYDP"
   btt_manta_e3_ez:
     name: Bigtreetech Manta E3 EZ
     type: MCU
+  btt_manta_m5p:
+    name: Bigtreetech Manta M5P
+    type: MCU
+    img: img/parts/btt_manta_m5p.webp
+    sources:
+      amazon_us:
+        url: "https://www.amazon.com/BIGTREETECH-Control-Support-Compatible-Motherboard/dp/B0BS5P4BG4"
   btt_manta_m8p:
     name: Bigtreetech Manta M8P
     type: MCU
+    img: img/parts/btt_manta_m8p.webp
+    sources:
+      amazon_us:
+        url: "https://www.amazon.com/BIGTREETECH-Integrated-Motherboard-Firmware-Compatible/dp/B0B7W53JSY"
   btt_skr_classic:
     name: Bigtreetech SKR v1.3-2.0
     type: MCU
+    img: img/parts/btt_skr_2.webp
+    sources:
+      amazon_us:
+        url: "https://www.amazon.com/BIGTREETECH-Control-Upgrade-Motherboard-Compitable/dp/B0943WVM5B"
   btt_skr_3:
     name: Bigtreetech SKR 3
     type: MCU
+    img: img/parts/btt_skr_3.webp
+    sources:
+      amazon_us:
+        url: "https://www.amazon.com/BIGTREETECH-Motherboard-Controller-Replacement-Original/dp/B08LVTXT46"
   btt_skr_3_ez:
     name: Bigtreetech SKR 3 EZ
     type: MCU
+    img: img/parts/btt_skr_3_ez.webp
+    sources:
+      amazon_us:
+        url: "https://www.amazon.com/BIGTREETECH-Motherboard-Controller-Replacement-Original/dp/B0B1Q26SWR"
   duet_duet3_6hc:
     name: Duet3D Duet 3 6HC
     type: MCU
@@ -200,80 +314,137 @@ parts:
   duet_duet3_mini5:
     name: Duet3D Duet 3 Mini 5+
     type: MCU
+    img: img/parts/duet3_mini_5plus.webp
   fysetc_spider:
     name: FYSETC Spider Series
     type: MCU
+    img: img/parts/fysetc_spider_2_2.webp
+    sources: 
+      aliexpress:
+        url: "https://www.aliexpress.us/item/3256803106583492.html"
   mks_monster8:
     name: MKS Monster8
     type: MCU
+    img: img/parts/mks_monster8.webp
+    sources:
+      aliexpress: 
+        url: "https://www.aliexpress.us/item/3256803106583492.html"
   mks_skipr:
     name: MKS Skipr
     type: MCU
+    img: img/parts/mks_skipr.webp
+    sources:
+      aliexpress:
+        url: "https://www.aliexpress.us/item/3256804323039950.html"
+  creality_mcu_2.x:
+    name: Creality 2.x MCUs
+    type: MCU
+    img: img/parts/creality_2_5_2.webp
+    sources:
+      amazon_us:
+        url: "https://www.amazon.com/Official-Creality-3D-Upgraded-Motherboard/dp/B09NMJMPN1"
+  creality_mcu_1.x:
+    name: Creality 1.x MCUs
+    type: MCU
+  creality_mcu_4.x:
+    name: Creality 4.x MCUs
+    type: MCU
+    img: img/parts/creality_board.webp
+    sources:
+      amazon_us:
+        url: "https://www.amazon.com/Official-Creality-3D-Upgraded-Motherboard/dp/B09NMJMPN1"
+  
+
 
   #MCU Trays
   tray_btt_octopus_v2:
     name: MCU Tray - BTT Octopus - v2.stl
     type: Printed
     file: /Trays/MCU/BTT Octopus/MCU Tray - BTT Octopus - v2.stl
-    version: v2
+    version: mcu_v2
   tray_btt_skr_pico:
     name: MCU Tray - BTT SKR Pico - v2 HSI.stl
     type: Printed
     file: /Trays/MCU/BTT SKR Pico/MCU Tray - BTT SKR Pico - v2 HSI.stl
-    version: v2
+    version: mcu_v2
   tray_btt_skr_e3:
     name: MCU Tray - BTT SKR E3 v2.stl
     type: Printed
     file: /Trays/MCU/BTT SKR E3/MCU Tray - BTT SKR E3 v2.stl
-    version: v2
+    version: mcu_v2
   tray_btt_skr_e3_and_pico:
     name: MCU Tray - SKR E3 + Pico v2.stl
     type: Printed
     file: /Trays/MCU/Dual MCU/SKR E3 and Pico/MCU Tray - SKR E3 + Pico v2.stl
-    version: v2
+    version: mcu_v2
+  tray_creality_2_v2:
+    name: MCU Tray - M3 Creality 2.5.2.stl 
+    type: Printed
+    author: u_mrmeh
+    file: https://www.printables.com/model/357420-omnibox-mcu-tray-creality-252-board
+    version: mcu_v2
+  tray_creality_2_v2_hsi:
+    name:  MCU Tray - M3 - HSI - Creality 2.5.2.stl 
+    type: Printed
+    author: u_mrmeh
+    file: https://www.printables.com/model/357420-omnibox-mcu-tray-creality-252-board
+    version: mcu_v2
+  tray_creality_2_v1:
+    name: MCU Tray - M4 Creality 2.5.2.stl 
+    type: Printed
+    author: u_mrmeh
+    file: https://www.printables.com/model/357420-omnibox-mcu-tray-creality-252-board
+    version: mcu_v1
+  tray_creality_2_v1_hsi:
+    name:  MCU Tray - M4 - HSI - Creality 2.5.2.stl 
+    type: Printed
+    author: u_mrmeh
+    file: https://www.printables.com/model/357420-omnibox-mcu-tray-creality-252-board
+    version: mcu_v1
+
   ### PSU Trays
   # Mean Well LRS 350
   tray_mw_lrs350_v2_l:
     name: LRS-350 Left Mount
     type: Printed
     file: /Trays/PSU/V2/Mean Well LRS-350/PSU Mount - LRS-350 - Left.stl
-    version: v2
+    version: psu_v2
   tray_mw_lrs350_v2_l_hsi:
     name: LRS-350 Left Mount (HSI)
     type: Printed
     file: /Trays/PSU/V2/Mean Well LRS-350/PSU Mount - LRS-350 - Left HSI.stl
-    version: v2
+    version: psu_v2
   tray_mw_lrs350_v2_r:
     name: LRS-350 Right Mount
     type: Printed
     file: /Trays/PSU/V2/Mean Well LRS-350/PSU Mount - LRS-350 - Right.stl
-    version: v2
+    version: psu_v2
   tray_mw_lrs350_v2_r_hsi:
     name: LRS-350 Right Mount (HSI)
     type: Printed
     file: /Trays/PSU/V2/Mean Well LRS-350/PSU Mount - LRS-350 - Right HSI.stl
-    version: v2
+    version: psu_v2
   # Mean Well RSP 500
   tray_mw_rsp500_v2_l:
     name: RSP-500 Left Mount
     type: Printed
     file: /Trays/PSU/V2/Mean Well RSP-500/PSU Mount - RSP-500 - Left.stl
-    version: v2
+    version: psu_v2
   tray_mw_rsp500_v2_l_hsi:
     name: RSP-500 Left Mount (HSI)
     type: Printed
     file: /Trays/PSU/V2/Mean Well RSP-500/PSU Mount - RSP-500 - Left HSI.stl
-    version: v2
+    version: psu_v2
   tray_mw_rsp500_v2_r:
     name: RSP-500 Right Mount
     type: Printed
     file: /Trays/PSU/V2/Mean Well RSP-500/PSU Mount - RSP-500 - Right.stl
-    version: v2
+    version: psu_v2
   tray_mw_rsp500_v2_r_hsi:
     name: RSP-500 Right Mount (HSI)
     type: Printed
     file: /Trays/PSU/V2/Mean Well RSP-500/PSU Mount - RSP-500 - Right HSI.stl
-    version: v2
+    version: psu_v2
 
 assemblies:
   #re-used sub-assemblies
@@ -285,6 +456,15 @@ assemblies:
     parts:
       shcs_m3_6: 5
       btt_skr_e3: 1
+  assembly_creality_2.x:
+    parts:
+      shcs_m3_6: 4
+      creality_mcu_2.x: 1
+  assembly_creality_2.x_hsi:
+    parts:
+      assembly_creality_2.x : 1
+      hsi_m3_5od_4l : 4
+      
   ### MCU Trays
   assembly_tray_btt_octopus_v2:
     name: BTT Octopus
@@ -311,6 +491,46 @@ assemblies:
     parts:
       assembly_btt_skr_e3: 1
       tray_btt_skr_e3: 1
+  assy_tray_creality_2_v2:
+    name: Creality 2.x MCUs
+    type: MCU
+    attributes:
+      mcu_count: single
+      author: u_mrmeh
+      version: mcu_v2
+    parts:
+      assembly_creality_2.x : 1
+      tray_creality_2_v2 : 1
+  assy_tray_creality_2_v2_hsi:
+    name: Creality 2.x MCUs (HSI)
+    type: MCU
+    attributes:
+      mcu_count: single
+      author: u_mrmeh
+      version: mcu_v2
+    parts:
+      assembly_creality_2.x_hsi : 1
+      tray_creality_2_v2_hsi : 1
+  assy_tray_creality_2_v1:
+    name: Creality 2.x MCUs
+    type: MCU
+    attributes:
+      mcu_count: single
+      author: u_mrmeh
+      version: mcu_v1
+    parts:
+      assembly_creality_2.x : 1
+      tray_creality_2_v1 : 1
+  assy_tray_creality_2_v1_hsi:
+    name: Creality 2.x MCUs (HSI)
+    type: MCU
+    attributes:
+      mcu_count: single
+      author: u_mrmeh
+      version: mcu_v1
+    parts:
+      assembly_creality_2.x_hsi : 1
+      tray_creality_2_v1_hsi : 1
 
   # Dual MCUs
   assembly_tray_btt_skr_e3_and_pico:
@@ -329,6 +549,7 @@ assemblies:
     type: PSU
     attributes:
       base_depth: 36mm
+      switch: any
     parts:
       mw_lrs350: 1
       shcs_m4_6: 4
@@ -339,6 +560,7 @@ assemblies:
     type: PSU
     attributes: 
       base_depth: 36mm
+      switch: any
     parts:
       mw_lrs350: 1
       tray_mw_lrs350_v2_l_hsi: 1
@@ -350,6 +572,7 @@ assemblies:
     type: PSU
     attributes:
       base_depth: 42mm
+      switch: rocker
     parts:
       mw_rsp500: 1
       tray_mw_rsp500_v2_l: 1
@@ -360,6 +583,7 @@ assemblies:
     type: PSU
     attributes:
       base_depth: 42mm
+      switch: rocker
     parts:
       mw_rsp500: 1
       tray_mw_rsp500_v2_l_hsi: 1
