@@ -7,6 +7,7 @@ class Supplier(NamedTuple):
     """
     name: str
     region: str
+    ships: str
     icon: str
     note: str
 

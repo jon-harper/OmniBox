@@ -73,7 +73,8 @@ class BOMParser():
     def parseSupplier(self, entry : dict) -> bom.Supplier:
         return bom.Supplier(
             name=entry['name'], 
-            region=entry.get('region', 'Worldwide'), 
+            region=entry.get('region', 'n/a'), 
+            ships=entry.get('ships', 'n/a'),
             icon=entry.get('icon', ''),
             note=entry.get('note', ''))
 

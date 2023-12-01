@@ -173,12 +173,15 @@ def define_env(env):
         Returns a full markdown table of the Sources for a given Part.
         """
         ret = \
-        "| Source | Region | Note |\n|--------|--------|------|\n"
+        "| Source | Ships To | Ships From | Note |\n|---|---|---|---|\n"
         if len(part.sources) == 0:
-            ret += '| | | |\n'
+            ret += '| | | | |\n'
             return ret
         for source in part.sources:
-            ret += '| {} | {} | {} |\n'.format(as_url(source.supplier.name, source.url), source.supplier.region, source.note)
+            ret += '| {} | {} | {} | {} |\n'.format(as_url(source.supplier.name, source.url), 
+                                               source.supplier.ships,
+                                               source.supplier.region, 
+                                               source.note)
         return ret
     
     @env.macro
