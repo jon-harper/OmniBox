@@ -47,6 +47,7 @@ class Part(NamedTuple):
     image_url: Optional[str]    # internal; display image for major parts
     note: Optional[str]         # internal
     sources: Optional[SourceList] # list of part links
+    author: Optional[str]       # Contributor for printable files
 
 PartData = dict[str, Part]
 

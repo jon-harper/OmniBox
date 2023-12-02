@@ -55,11 +55,7 @@ def define_env(env):
         Adds icons and links based on part type.
         """
         part = part_from_id(part_id)
-        if part.part_type == 'Printed':
-            return "| {} | :material-printer-3d-nozzle: {} | {} | {} |".format(part.part_type, as_url(part.name, part.file_url), qty, part.units)
-        if part.sources:
-            return "| {} | :material-cart: {} | {} | {} |".format(part.part_type, as_url(part.name, 'sourcing.md#' + part_id), qty, part.units)
-        return "| {} | {} | {} | {} |".format(part.part_type, part.name, qty, part.units)
+        return "| {} | {} | {} | {} |".format(part.part_type, part_link(part_id), qty, part.units)
     
     @env.macro
     def part_from_id(part_id : str) -> bom.Part:
@@ -192,6 +188,26 @@ def define_env(env):
         This is used in headers on the Sourcing document.
         """
         return '<a name="{}"></a> {}'.format(part_id, partname)
+    
+    @env.macro
+    def part_link(part_id : str) -> str:
+        part : bom.Part = bom_data.parts[part_id]
+        ret : str = "[{} {}]({})"
+        if part.part_type == 'Printed':
+            ret = ret.format(':material-printer-3d-nozzle:', part.name, part.file_url)
+        elif part.sources:
+            ret = ret.format(':material-cart:', part.name, 'sourcing.md#' + part_id)
+        else:
+            return part.name
+        return ret
+    
+    @env.macro
+    def author_link(auth : bom.Author) -> str:
+        if not auth:
+            return ''
+        if auth.url:
+            return '[{}]({})'.format(auth.name, auth.url)
+        return auth.name
     
     @env.macro
     def sourcing_part_entry(part_id:str, part : bom.Part) -> str:

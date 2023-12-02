@@ -52,18 +52,18 @@ class BOMParser():
         assert('parts' in yaml_data)
         self.parts = bom.PartData()
         self.part_types : list[str] = []
-        for key, entry in yaml_data['parts'].items():
-            part = self.parsePart(entry)
-            self.parts[key] = part
-            if part.part_type not in self.part_types:
-                self.part_types.append(part.part_type)
+        for part_type, entry in yaml_data['parts'].items():
+            if part_type not in self.part_types:
+                self.part_types.append(part_type)
+            for part_id, part_entry in entry.items():
+                part = self.parsePart(part_entry, part_type)
+                self.parts[part_id] = part
 
         self.assemblies = self.parseAssemblies(yaml_data['assemblies'])
-        self.assembly_types : list[str] = []
+
         self.attributes : list[str] = []
+        # Make a list of all known attibutes
         for assy in self.assemblies.values():
-            if assy.assy_type not in self.assembly_types:
-                self.assembly_types.append(assy.assy_type)
             if assy.attributes:
                 for attribute in assy.attributes:
                     if attribute not in self.attributes:
@@ -78,13 +78,19 @@ class BOMParser():
             icon=entry.get('icon', ''),
             note=entry.get('note', ''))
 
-    def parsePart(self, entry : dict) -> bom.Part:
+    def parsePart(self, entry : dict, part_type : str) -> bom.Part:
+        author_id = entry.get('author', None)
+        if author_id:
+            author = self.authors[author_id]
+        else:
+            author = None
         return bom.Part(name=entry['name'],
                        units=entry.get('units', 'Ea'),
-                       part_type=entry.get('type', 'unspecified'),
+                       part_type=part_type,
                        icon=entry.get('icon', None),
                        file_url=entry.get('file', None),
                        version=entry.get('version', None),
+                       author=author,
                        note=entry.get('note', None),
                        sources=self.parseSources(entry.get('sources', None)),
                        image_url=entry.get('img', None))
@@ -113,7 +119,7 @@ class BOMParser():
                           url=entry['url'],
                           note=entry.get('note', ''))
     
-    def parseAssemblies(self, entries : dict[str, dict]) -> bom.AssemblyData:
+    def parseAssemblies(self, raw_entries : dict[str, dict]) -> bom.AssemblyData:
         """
         Cyclically parses assemblies and resolves their part relationships.
 
@@ -125,27 +131,29 @@ class BOMParser():
         ret : bom.AssemblyData = {}
         deferred : bom.AssemblyData = {}
 
-        # Process the entries and flag any that refer to subassemblies
-        for assy_id, values in entries.items():
-            is_deferred : bool = False
+        self.assembly_types = raw_entries.keys()
+        for assy_type, entries in raw_entries.items():
+            # Process the entries and flag any that refer to subassemblies
+            for assy_id, values in entries.items():
+                is_deferred : bool = False
 
-            assy = bom.Assembly (name=values.get('name', ''),
-                                 parts=bom.MaterialsData(),
-                                 assy_type=values.get('type', ''),
-                                 attributes=values.get('attributes'))
-            
-            #check if we refer to any subassemblies, then defer for later processing
-            parts = values['parts']
-            for part_id, qty in parts.items():
-                if part_id in deferred.keys() or part_id in ret.keys():
-                    is_deferred = True
-                assy.parts[part_id] = qty
+                assy = bom.Assembly (name=values.get('name', ''),
+                                    parts=bom.MaterialsData(),
+                                    assy_type=assy_type,
+                                    attributes=values.get('attributes'))
+                
+                #check if we refer to any subassemblies, then defer for later processing
+                parts = values['parts']
+                for part_id, qty in parts.items():
+                    if part_id in deferred.keys() or part_id in ret.keys():
+                        is_deferred = True
+                    assy.parts[part_id] = qty
 
-            # Build up dicts of both deferred and completed assemblies
-            if is_deferred:
-                deferred[assy_id] = assy
-            else:
-                ret[assy_id] = assy
+                # Build up dicts of both deferred and completed assemblies
+                if is_deferred:
+                    deferred[assy_id] = assy
+                else:
+                    ret[assy_id] = assy
         
         # Process the deferred subassemblies.
         # Limit possible iterations to 10 to catch loops.
