@@ -145,5 +145,6 @@ nav:
       - history/v0.9.7.md
       - history/v0.9.5.md
       - history/v0.9.md
-  - debug.md
-  - sourcing.md
+  - Testing:
+    - debug.md
+    - sourcing.md
