@@ -188,10 +188,12 @@ class BOMParser():
                         for part_id, qty in ret[sub_id].parts.items():
                             # Check if the part is already in the final list.
                             # Add to the existing value if so, assign if not.
-                            if part_id in assy.parts.keys():
-                                combined[part_id] += qty * mult
+                            if part_id in combined.keys():
+                                combined[part_id] = combined[part_id] + qty * mult
                             else:
                                 combined[part_id] = qty * mult
+                    elif sub_id in combined.keys():
+                        combined[sub_id] = combined[sub_id] + assy.parts[sub_id]
                     else:
                         combined[sub_id] = assy.parts[sub_id]
                 # Replace the existing list with the combined one
