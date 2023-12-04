@@ -187,6 +187,46 @@ parts:
       sources:
         bolt_depot:
           url: "https://www.boltdepot.com/Product-Details.aspx?product=6392"
+    shcs_m4_10:
+      name: M4 x 10mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6393"
+    shcs_m4_12:
+      name: M4 x 12mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6394"
+    shcs_m4_14:
+      name: M4 x 14mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6395"
+    shcs_m4_16:
+      name: M4 x 16mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6396"
+    shcs_m4_20:
+      name: M4 x 20mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6398"
+    shcs_m4_25:
+      name: M4 x 25mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6399"
+    shcs_m4_30:
+      name: M4 x 30mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6400"
+    shcs_m4_35:
+      name: M4 x 35mm SHCS
+      sources:
+        bolt_depot:
+          url: "https://www.boltdepot.com/Product-Details.aspx?product=6401"
 
   # Button head cap screws
   DIN 7380:
@@ -492,12 +532,12 @@ parts:
     
   Connector Extension:
     microsd_ext_short:
-      name: MicroSD Extension, 6"
+      name: MicroSD Extension, 150mm
       sources:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B07WWVBK8V"
     microsd_ext_long:
-      name: MicroSD Extension, 1.5'
+      name: MicroSD Extension, 480mm
       sources:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B07YYSP5F5"
@@ -522,12 +562,18 @@ parts:
   Switch:
     switch_rocker:
       name: SPST Rocker Switch, 29mm x 10.5mm Panel Mount
+      img: img/parts/switch_rocker.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B07QQ22DTB"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805964009361.html"
     switch_12mm_toggle:
       name: SPST Toggle Switch, 12mm Panel Mount
+      img: img/parts/switch_12mm_toggle.webp
       sources:
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805005450780.html"
         amazon_us:
           url: "https://www.amazon.com/Gardner-Bender-GSW-121-Heavy-Duty-Electrical/dp/B000HEIY1Q"
 
@@ -548,31 +594,37 @@ parts:
   Connector:
     conn_f_spade_14-16:
       name: Insulated Spade Connector, Female, 14-16 awg
+      img: img/parts/conn_f_spade_14-16.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B07FQB6WXP"
     conn_fork_14-16:
       name: "Insulated Fork Connector, #8, 14-16 awg"
+      img: img/parts/conn_fork_14-16.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/Baomain-Insulated-Connector-Electrical-Terminal/dp/B01B1DL4OA"
     fused_iec_c14:
       name: IEC C14 Socket with Fuse Holder
+      img: img/parts/fused_iec_c14.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B081ZFHRGW"
     wago_221_412:
       name: Wago 221-412 2-Position Lever Nut
+      img: img/parts/wago_221_412.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/WAGO-221-412-Lever-Nuts-2-Conductor-Connectors/dp/B07W4RQ6R6"
     wago_221_413:
       name: Wago 221-413 3-Position Lever Nut
+      img: img/parts/wago_221_413.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/Wago-221-413-LEVER-NUTS-Conductor-Connectors/dp/B06XGYXVXR"
     wago_221_415:
       name: Wago 221-415 5-Position Lever Nut
+      img: img/parts/wago_221_415.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/Wago-221-413-LEVER-NUTS-Conductor-Connectors/dp/B06XGYXVXR"
@@ -580,6 +632,7 @@ parts:
   Other Electrical:
     wire_16awg:
       name: Stranded Hookup Wire, 16 awg/1.25mm^2^
+      img: img/parts/wire_16awg.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/BNTECHGO-Silicone-Flexible-Strands-Stranded/dp/B00TG1TRL2"
@@ -1371,6 +1424,10 @@ parts:
       name: Lower Bay - DROK 5A Buck with LED.stl
       file: /Trays/Lower Bay/DROK 5A Buck with LED/Lower Bay - DROK 5A Buck with LED.stl
       version: lower_bay_v1
+    tray_lb_drok_5a_wago:
+      name: Lower Bay - DROK 5A Buck with LED - Dual Wago.stl
+      file: /Trays/Lower Bay/DROK 5A Buck with LED/Lower Bay - DROK 5A Buck with LED - Dual Wago.stl
+      version: lower_bay_v1
     tray_lb_buck_drok_led_short:
       name: Lower Bay Tray - DROK LM2596 - Short Single.stl
       file: /Trays/Lower Bay/DROK LM2596 with LED/Lower Bay Tray - DROK LM2596 - Short Single.stl
@@ -1731,6 +1788,24 @@ parts:
 assemblies:
   #re-used sub-assemblies
   subassemblies:
+    assy_sd_card_ext:
+      parts:
+        shcs_m3_6: 2
+        misc_sd_ext_body: 1
+        misc_sd_ext_cap: 1
+    assy_rocker_switch_cover:
+      parts:
+        switch_rocker: 1
+        misc_rocker_cover: 1
+    assy_carry_handle:
+      parts:
+        misc_carry_handle: 1
+        shcs_m3_8: 2
+    assy_carry_handle_hsi:
+      parts:
+        misc_carry_handle_hsi: 1
+        hsi_m3_5od_4l: 2
+        shcs_m3_6: 2
     assy_btt_skr_pico:
       parts:
         shcs_m3_6: 4
@@ -1780,6 +1855,30 @@ assemblies:
         btt_pi_tft5: 1
         shcs_m3_6: 4
         shcs_m2.5_6: 8
+    assy_btt_u2c:
+      parts:
+        btt_u2c: 1
+        bhcs_m3_6: 4
+    assy_basic_lm2596:
+      parts:
+        basic_lm2596: 1
+        shcs_m3_6: 2
+    assy_drok_lm2596_led:
+      parts:
+        drok_lm2596_led: 1
+        shcs_m3_6: 4
+    assy_hiletgo_lm2596:
+      parts:
+        hiletgo_lm2596: 1
+        shcs_m3_6: 4
+    assy_drok_3a_lm2596:
+      parts:
+        drok_3a_lm2596: 1
+        shcs_m3_6: 4
+    assy_creality_mosfet:
+      parts:
+        creality_mosfet: 1
+        shcs_m3_6: 2
   MCU:
     assy_btt_manta_m8p_v2:
       name: Bigtreetech Manta M8P
@@ -2042,7 +2141,132 @@ assemblies:
         panel_btt_pi_tft5_hsi: 1
         btt_pi_tft5_mount: 1
         hsi_m3_5od_4l: 4
-  
+  Side Panel:
+    assy_panel_side_blank_v1:
+      parts:
+        panel_side_blank_v1: 1
+    assy_panel_side_blank_v2:
+      parts:
+        panel_side_blank_v2: 1
+    assy_panel_side_40mm_hexagons_v1:
+      parts:
+        panel_side_40mm_hexagons_v1: 1
+      one_of:
+        assy_fan_4010_internal: 1
+        assy_fan_4020_internal: 1
+    assy_panel_side_40mm_omnibox_v1:
+      parts:
+        panel_side_40mm_omnibox_v1: 1
+      one_of:
+        assy_fan_4010_internal: 1
+        assy_fan_4020_internal: 1
+  Lower Bay:
+    assy_tray_lb_40mm:
+      name: Lower Bay 40mm Fan
+      attributes:
+        lb_tray: short
+      parts:
+        fan_4010: 1
+        shcs_m3_12: 4
+        shcs_m3_6: 4
+    assy_tray_lb_omron_long:
+      name: Omron G3NA/G3A SSR
+      attributes:
+        lb_tray: long
+      parts:
+        omron_g3na_210: 1
+        tray_lb_omron_long: 1
+        shcs_m4_6: 2
+        shcs_m3_6: 4
+    assy_tray_lb_omron_short:
+      name: Omron G3NA/G3A SSR
+      attributes:
+        lb_tray: short
+      parts:
+        omron_g3na_210: 1
+        tray_lb_omron_short: 1
+        shcs_m4_6: 2
+        shcs_m3_6: 4
+    assy_tray_lb_btt_relay:
+      name: Bigtreetech Relay
+      attributes:
+        lb_tray: short
+      parts:
+        tray_lb_btt_relay: 1
+        btt_relay_1_2: 1
+        shcs_m3_6: 8
+    assy_tray_lb_creality_mosfet_short:
+      name: Creality MOSFET
+      attributes:
+        lb_tray: short
+      parts:
+        assy_creality_mosfet: 1
+        tray_lb_creality_mosfet_short: 1
+        shcs_m3_6: 4
+    assy_tray_lb_creality_mosfet_short_hsi:
+      name: Creality MOSFET (HSI)
+      attributes:
+        lb_tray: short
+      parts:
+        assy_creality_mosfet: 1
+        tray_lb_creality_mosfet_short_hsi: 1
+        shcs_m3_6: 4
+        hsi_m3_5od_4l: 2
+    assy_tray_lb_creality_mosfet_long:
+      name: Creality MOSFET
+      attributes:
+        lb_tray: long
+      parts:
+        assy_creality_mosfet: 1
+        tray_lb_creality_mosfet_long: 1
+        shcs_m3_6: 4
+    assy_tray_lb_creality_mosfet_long_hsi:
+      name: Creality MOSFET (HSI)
+      attributes:
+        lb_tray: long
+      parts:
+        assy_creality_mosfet: 1
+        tray_lb_creality_mosfet_long_hsi: 1
+        shcs_m3_6: 4
+        hsi_m3_5od_4l: 2
+    assy_tray_lb_buck_drok_3a_short:
+      name: DROK 3A LM2596
+      attributes:
+        lb_tray: short
+      parts:
+        assy_drok_3a_lm2596: 1
+        tray_lb_buck_drok_3a_short: 1
+        shcs_m3_6: 4
+    assy_tray_lb_buck_drok_3a_long_dual:
+      name: DROK 3A LM2596 (Dual)
+      attributes:
+        lb_tray: long
+      parts:
+        tray_lb_buck_drok_3a_long_dual: 1
+        assy_drok_3a_lm2596: 2
+        shcs_m3_6: 4
+    assy_tray_lb_buck_drok_3a_long_dual_fan:
+      name: DROK 3A LM2596 (Dual with 40mm Fan)
+      attributes:
+        lb_tray: long
+      parts:
+        tray_lb_buck_drok_3a_long_dual_fan: 1
+        assy_drok_3a_lm2596: 2
+        shcs_m3_6: 4
+        fan_4010: 1
+        shcs_m3_12: 4
+    assy_tray_lb_buck_drok_3a_long_fan:
+      name: DROK 3A LM2596 (with 40mm Fan)
+      attributes:
+        lb_tray: long
+      parts:
+        tray_lb_buck_drok_3a_long_fan: 1
+        assy_drok_3a_lm2596: 1
+        shcs_m3_6: 4
+        fan_4010: 1
+        shcs_m3_12: 4
+    assy_tray_lb_drok_5a:
+      assy_drok
 versions:
   v0_9_11:
     mcu_v2: active
