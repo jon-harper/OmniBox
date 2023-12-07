@@ -23,7 +23,7 @@ markdown_extensions:
         - include/bom_links.md
         - include/other_links.md
         - include/contrib_links.md
-        - include/abbrev.md
+        # - include/abbrev.md
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.emoji:
@@ -41,23 +41,31 @@ theme:
     - navigation.instant
     - navigation.top
     - navigation.footer
-    
+    - content.tooltips
+  # icon:
+  #   annotation: material/arrow-right-circle
   font:
     text: Noto Sans
     code: Source Code Pro
   palette: 
-    - scheme: default
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/lightbulb-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: teal
       accent: deep orange
       toggle:
         icon: material/lightbulb-on
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: deep orange
       accent: teal
       toggle:
         icon: material/lightbulb-off-outline
-        name: Switch to light mode
+        name: Switch to match system light/dark mode
 
 plugins:
   - mike:
