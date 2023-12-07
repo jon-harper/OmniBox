@@ -256,8 +256,13 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/uxcell-Knurled-Insert-Female-Embedding/dp/B09MCWTBCC"
+          note: 120pk
         fabreeko:
           url: "https://www.fabreeko.com/products/cnc-kitchen-heat-inserts-m2-m8?_pos=1&_sid=09bf25e0f&_ss=r&variant=44311958061311"
+          note: 100pk
+        kb3d:
+          url: "https://kb-3d.com/store/inserts-fasteners-adhesives/278-brass-heat-set-threaded-insert-for-plastic-m3x5x4mm.html"
+          note: Sold as eaches.
     standoff_m2.5_10_6:
       name: M2.5 Brass Standoff, Female/Male, 10mm + 6mm
       sources:
@@ -1428,19 +1433,19 @@ parts:
       name: Lower Bay - DROK 5A Buck with LED - Dual Wago.stl
       file: /Trays/Lower Bay/DROK 5A Buck with LED/Lower Bay - DROK 5A Buck with LED - Dual Wago.stl
       version: lower_bay_v1
-    tray_lb_buck_drok_led_short:
+    tray_lb_drok_lm2596_led_short:
       name: Lower Bay Tray - DROK LM2596 - Short Single.stl
       file: /Trays/Lower Bay/DROK LM2596 with LED/Lower Bay Tray - DROK LM2596 - Short Single.stl
       version: lower_bay_v1
-    tray_lb_buck_drok_led_long_fan:
+    tray_lb_drok_lm2596_led_long_fan:
       name: Lower Bay Tray - DROK LM2596 - Long Single with Fan.stl
       file: /Trays/Lower Bay/DROK LM2596 with LED/Lower Bay Tray - DROK LM2596 - Long Single with Fan.stl
       version: lower_bay_v1
-    tray_lb_buck_drok_led_long_dual:
+    tray_lb_drok_lm2596_led_long_dual:
       name: Lower Bay Tray - DROK LM2596 - Long Dual.stl
       file: /Trays/Lower Bay/DROK LM2596 with LED/Lower Bay Tray - DROK LM2596 - Long Dual.stl
       version: lower_bay_v1
-    tray_lb_buck_drok_led_long_dual_fan:
+    tray_lb_drok_lm2596_led_long_dual_fan:
       name: Lower Bay Tray - DROK LM2596 - Long Dual with Fan.stl
       file: /Trays/Lower Bay/DROK LM2596 with LED/Lower Bay Tray - DROK LM2596 - Long Dual with Fan.stl
       version: lower_bay_v1
@@ -1472,19 +1477,19 @@ parts:
       name: Lower Bay Tray - Generic LM2596 - Long Dual with Fan.stl
       file: /Trays/Lower Bay/Generic LM2596/Lower Bay Tray - Generic LM2596 - Long Dual with Fan.stl
       version: lower_bay_v1
-    tray_lb_buck_hiletgo_led_short:
+    tray_lb_hiletgo_lm2596_short:
       name: Lower Bay Tray - HiLetGo LM2596 - Short Single.stl
       file: /Trays/Lower Bay/HiLetGo LM2596 with LED/Lower Bay Tray - HiLetGo LM2596 - Short Single.stl
       version: lower_bay_v1
-    tray_lb_buck_hiletgo_led_long_fan:
+    tray_lb_hiletgo_lm2596_long_fan:
       name: Lower Bay Tray - HiLetGo LM2596 - Long Single with Fan.stl
       file: /Trays/Lower Bay/HiLetGo LM2596 with LED/Lower Bay Tray - HiLetGo LM2596 - Long Single with Fan.stl
       version: lower_bay_v1
-    tray_lb_buck_hiletgo_led_long_dual:
+    tray_lb_hiletgo_lm2596_long_dual:
       name: Lower Bay Tray - HiLetGo LM2596 - Long Dual.stl
       file: /Trays/Lower Bay/HiLetGo LM2596 with LED/Lower Bay Tray - HiLetGo LM2596 - Long Dual.stl
       version: lower_bay_v1
-    tray_lb_buck_hiletgo_led_long_dual_fan:
+    tray_lb_hiletgo_lm2596_long_dual_fan:
       name: Lower Bay Tray - HiLetGo LM2596 - Long Dual with Fan.stl
       file: /Trays/Lower Bay/HiLetGo LM2596 with LED/Lower Bay Tray - HiLetGo LM2596 - Long Dual with Fan.stl
       version: lower_bay_v1
@@ -1788,6 +1793,10 @@ parts:
 assemblies:
   #re-used sub-assemblies
   subassemblies:
+    assy_fan_4010_12mm:
+      parts:
+        fan_4010: 1
+        shcs_m3_12: 4
     assy_sd_card_ext:
       parts:
         shcs_m3_6: 2
@@ -1879,12 +1888,21 @@ assemblies:
       parts:
         creality_mosfet: 1
         shcs_m3_6: 2
+    assy_drok_5a:
+      parts:
+        drok_5a_buck: 1
+        shcs_m3_6: 4
+    assy_fotek_ssr40:
+      parts:
+        fotek_ssr40_da: 1
+        shcs_m4_6: 2
   MCU:
-    assy_btt_manta_m8p_v2:
+    assy_tray_btt_manta_m8p_v2:
       name: Bigtreetech Manta M8P
       attributes:
         mcu_count: single
         version: mcu_v2
+        variant: Stock
       parts:
         tray_btt_manta_m8p_v2: 1
         assy_btt_manta_m8p: 1
@@ -1893,6 +1911,7 @@ assemblies:
       attributes: 
         mcu_count: single
         version: mcu_v2
+        variant: Stock
       parts:
         shcs_m3_6: 4
         btt_octopus: 1
@@ -1902,15 +1921,18 @@ assemblies:
       attributes: 
         mcu_count: single
         version: mcu_v2
+        variant: HSI
+        hsi: true
       parts:
         assy_btt_skr_pico: 1
         tray_btt_skr_pico_v2_hsi: 1
         hsi_m3_5od_4l: 4
     assy_tray_btt_skr_e3_v2:
-      name: Bigtreetech SKR E3 Series
+      name: Bigtreetech SKR E3
       attributes: 
         mcu_count: single
         version: mcu_v2
+        variant: Stock
       parts:
         assy_btt_skr_e3: 1
         tray_btt_skr_e3_v2: 1
@@ -1920,15 +1942,18 @@ assemblies:
         mcu_count: single
         author: u_mrmeh
         version: mcu_v2
+        variant: Stock
       parts:
         assy_creality_2.x : 1
         tray_creality_2_v2 : 1
     assy_tray_creality_2_v2_hsi:
-      name: Creality 2.x MCUs (HSI)
+      name: Creality 2.x MCUs
       attributes:
         mcu_count: single
         author: u_mrmeh
         version: mcu_v2
+        variant: HSI
+        hsi: True
       parts:
         assy_creality_2.x : 1
         tray_creality_2_v2_hsi : 1
@@ -1937,6 +1962,7 @@ assemblies:
       name: Bigtreetech SKR 1.3/1.4/2
       attributes:
         mcu_count: single
+        variant: Stock
         version: mcu_v2
       parts:
         assy_btt_skr_classic: 1
@@ -1945,6 +1971,7 @@ assemblies:
       name: Duet3D Duet 3 6HC
       attributes:
         mcu_count: single
+        variant: Stock
         version: mcu_v2
       parts:
         assy_duet3_6hc: 1
@@ -1953,6 +1980,7 @@ assemblies:
       name: Duet3D Duet 3 Mini 5+
       attributes:
         mcu_count: single
+        variant: Stock
         version: mcu_v2
       parts:
         assy_duet3_mini5p: 1
@@ -1961,6 +1989,7 @@ assemblies:
       name: FYSETC Spider
       attributes:
         mcu_count: single
+        variant: Stock
         version: mcu_v2
       parts:
         assy_fysetc_spider: 1
@@ -1969,15 +1998,18 @@ assemblies:
       name: MakerBase MKS Monster 8
       attributes:
         mcu_count: single
+        variant: Stock
         version: mcu_v2
       parts:
         assy_mks_monster8: 1
         tray_mks_monster_8_v2: 1
     assy_tray_mks_monster_8_v2_hsi:
-      name: MakerBase MKS Monster 8 (HSI)
+      name: MakerBase MKS Monster 8
       attributes:
         mcu_count: single
+        variant: HSI
         version: mcu_v2
+        hsi: true
       parts:
         assy_mks_monster8: 1
         tray_mks_monster_8_v2_hsi: 1
@@ -1986,14 +2018,16 @@ assemblies:
       name: MakerBase MKS Skipr
       attributes:
         mcu_count: single
+        variant: Stock
         version: mcu_v2
       parts:
         assy_mks_skipr: 1
         tray_mks_skipr_v2: 1
     assy_tray_mks_skipr_v2_hsi:
-      name: MakerBase MKS Skipr (HSI)
+      name: MakerBase MKS Skipr
       attributes:
         mcu_count: single
+        variant: HSI
         version: mcu_v2
       parts:
         assy_mks_skipr: 1
@@ -2005,6 +2039,7 @@ assemblies:
       name: BTT SKR E3 and SKR Pico
       attributes: 
         mcu_count: dual
+        variant: Stock
       parts:
         assy_btt_skr_e3: 1
         assy_btt_skr_pico: 1
@@ -2013,13 +2048,16 @@ assemblies:
       name: Dual Bigtreetech SKR Pico
       attributes:
         mcu_count: dual
+        variant: Stock
       parts:
         assy_btt_skr_pico: 2
         tray_dual_btt_skr_pico_v2: 1
     assy_tray_dual_btt_pico_v2_hsi:
-      name: Dual Bigtreetech SKR Pico (HSI)
+      name: Dual Bigtreetech SKR Pico
       attributes:
         mcu_count: dual
+        variant: HSI
+        hsi: true
       parts:
         assy_btt_skr_pico: 2
         tray_dual_btt_skr_pico_v2_hsi: 1
@@ -2028,6 +2066,7 @@ assemblies:
       name: Dual Bigtreetech SKR E3
       attributes:
         mcu_count: dual
+        variant: Stock
       parts:
         assy_btt_skr_e3: 2
         tray_dual_btt_skr_e3_v2: 1
@@ -2037,16 +2076,19 @@ assemblies:
       attributes:
         base_depth: 36mm
         switch: any
+        variant: Stock
       parts:
         mw_lrs350: 1
         shcs_m4_6: 4
         tray_mw_lrs350_v2_l: 1
         tray_mw_lrs350_v2_r: 1
     assy_tray_lrs350_hsi:
-      name: Mean Well LRS-350 Series (HSI)
+      name: Mean Well LRS-350 Series
       attributes: 
         base_depth: 36mm
         switch: any
+        variant: HSI
+        hsi: true
       parts:
         mw_lrs350: 1
         tray_mw_lrs350_v2_l_hsi: 1
@@ -2058,16 +2100,19 @@ assemblies:
       attributes:
         base_depth: 42mm
         switch: rocker
+        variant: Stock
       parts:
         mw_rsp500: 1
         tray_mw_rsp500_v2_l: 1
         tray_mw_rsp500_v2_r: 1
         shcs_m4_6: 4
     assy_tray_rsp_500_hsi:
-      name: Mean Well RSP-500 Series (HSI)
+      name: Mean Well RSP-500 Series
       attributes:
         base_depth: 42mm
         switch: rocker
+        variant: HSI
+        hsi: true
       parts:
         mw_rsp500: 1
         tray_mw_rsp500_v2_l_hsi: 1
@@ -2079,14 +2124,16 @@ assemblies:
       name: Generic 128x64
       attributes:
         display_type: mcu
+        variant: Stock
       parts:
         generic_12864: 1
         shcs_m3_6: 4
         panel_generic_12864: 1
     assy_panel_mini_12864:
       name: Mini12864
-      attributes:
+      attributes: 
         display_type: mcu
+        variant: Stock
       parts:
         mini_12864: 1
         panel_mini12864: 1
@@ -2098,6 +2145,7 @@ assemblies:
       name: Bigtreetech 3.5" TFT
       attributes:
         display_type: mcu
+        variant: Stock
       parts:
         btt_35_tft: 1
         shcs_m3_6: 4
@@ -2106,6 +2154,7 @@ assemblies:
       name: Bigtreetech HDMI5
       attributes:
         display_type: cpu
+        variant: Stock
         author: u_siruli
       parts:
         btt_hdmi5: 1
@@ -2118,6 +2167,7 @@ assemblies:
       name: Bigtreetech 3.5" TFT E3
       attributes:
         display_type: mcu
+        variant: Stock
       parts:
         btt_35_tft_e3: 1
         panel_btt_tft35_e3: 1
@@ -2126,16 +2176,19 @@ assemblies:
       name: Bigtreetech Pi TFT5.0
       attributes:
         display_type: mcu
+        variant: Stock
         author: u_maffooclock
       parts:
         assy_btt_pi_tft5: 1
         panel_btt_pi_tft5: 1
         btt_pi_tft5_mount: 1
     assy_panel_btt_pi_tft5_hsi:
-      name: Bigtreetech Pi TFT5.0 (HSI)
+      name: Bigtreetech Pi TFT5.0
       attributes:
         author: u_maffooclock
         display_type: mcu
+        variant: HSI
+        hsi: true
       parts:
         assy_btt_pi_tft5: 1
         panel_btt_pi_tft5_hsi: 1
@@ -2165,6 +2218,7 @@ assemblies:
       name: Lower Bay 40mm Fan
       attributes:
         lb_tray: short
+        variant: Short
       parts:
         fan_4010: 1
         shcs_m3_12: 4
@@ -2173,6 +2227,7 @@ assemblies:
       name: Omron G3NA/G3A SSR
       attributes:
         lb_tray: long
+        variant: Long
       parts:
         omron_g3na_210: 1
         tray_lb_omron_long: 1
@@ -2182,6 +2237,7 @@ assemblies:
       name: Omron G3NA/G3A SSR
       attributes:
         lb_tray: short
+        variant: Short
       parts:
         omron_g3na_210: 1
         tray_lb_omron_short: 1
@@ -2191,6 +2247,7 @@ assemblies:
       name: Bigtreetech Relay
       attributes:
         lb_tray: short
+        variant: Short
       parts:
         tray_lb_btt_relay: 1
         btt_relay_1_2: 1
@@ -2199,14 +2256,17 @@ assemblies:
       name: Creality MOSFET
       attributes:
         lb_tray: short
+        variant: Short
       parts:
         assy_creality_mosfet: 1
         tray_lb_creality_mosfet_short: 1
         shcs_m3_6: 4
     assy_tray_lb_creality_mosfet_short_hsi:
-      name: Creality MOSFET (HSI)
+      name: Creality MOSFET
       attributes:
         lb_tray: short
+        variant: Short, HSI
+        hsi: true
       parts:
         assy_creality_mosfet: 1
         tray_lb_creality_mosfet_short_hsi: 1
@@ -2216,86 +2276,251 @@ assemblies:
       name: Creality MOSFET
       attributes:
         lb_tray: long
+        variant: Long
       parts:
         assy_creality_mosfet: 1
         tray_lb_creality_mosfet_long: 1
         shcs_m3_6: 4
     assy_tray_lb_creality_mosfet_long_hsi:
-      name: Creality MOSFET (HSI)
+      name: Creality MOSFET
       attributes:
         lb_tray: long
+        variant: Long, HSI
+        hsi: true
       parts:
         assy_creality_mosfet: 1
         tray_lb_creality_mosfet_long_hsi: 1
         shcs_m3_6: 4
         hsi_m3_5od_4l: 2
-    assy_tray_lb_buck_drok_3a_short:
+    assy_tray_lb_drok_3a_lm2596_short:
       name: DROK 3A LM2596
       attributes:
         lb_tray: short
+        variant: Short
       parts:
         assy_drok_3a_lm2596: 1
         tray_lb_buck_drok_3a_short: 1
         shcs_m3_6: 4
-    assy_tray_lb_buck_drok_3a_long_dual:
-      name: DROK 3A LM2596 (Dual)
+    assy_tray_lb_drok_3a_lm2596_long_dual:
+      name: DROK 3A LM2596
       attributes:
         lb_tray: long
+        variant: Long, Dual
       parts:
         tray_lb_buck_drok_3a_long_dual: 1
         assy_drok_3a_lm2596: 2
         shcs_m3_6: 4
-    assy_tray_lb_buck_drok_3a_long_dual_fan:
-      name: DROK 3A LM2596 (Dual with 40mm Fan)
+    assy_tray_lb_drok_3a_lm2596_long_dual_fan:
+      name: DROK 3A LM2596
       attributes:
         lb_tray: long
+        variant: Long, Dual, 40mm Fan
       parts:
         tray_lb_buck_drok_3a_long_dual_fan: 1
         assy_drok_3a_lm2596: 2
         shcs_m3_6: 4
-        fan_4010: 1
-        shcs_m3_12: 4
-    assy_tray_lb_buck_drok_3a_long_fan:
-      name: DROK 3A LM2596 (with 40mm Fan)
+        assy_fan_4010_12mm: 1
+    assy_tray_lb_drok_3a_lm2596_long_fan:
+      name: DROK 3A LM2596
       attributes:
         lb_tray: long
+        variant: Long, 40mm Fan
       parts:
         tray_lb_buck_drok_3a_long_fan: 1
         assy_drok_3a_lm2596: 1
         shcs_m3_6: 4
-        fan_4010: 1
-        shcs_m3_12: 4
+        assy_fan_4010_12mm: 1
+    
     assy_tray_lb_drok_5a:
-      assy_drok
+      name: DROK 5A Buck Converter
+      attributes:
+        lb_tray: long
+        variant: Long
+      parts:
+        tray_lb_drok_5a: 1
+        assy_drok_5a: 1
+        shcs_m3_6: 4
+    assy_tray_lb_drok_5a_wago:
+      name: DROK 5A Buck Converter
+      attributes:
+        lb_tray: long
+        variant: Long, 2x Wago 221-413
+      parts:
+        tray_lb_drok_5a_wago: 1
+        assy_drok_5a: 1
+        shcs_m3_6: 4
+        wago_221_413: 2
+    assy_tray_lb_drok_lm2596_led_short:
+      name: DROK LM2596 with LED
+      attributes:
+        lb_tray: short
+        variant: Short
+      parts:
+        tray_lb_drok_lm2596_led_short: 1
+        assy_drok_lm2596_led: 1
+        shcs_m3_6: 4
+    assy_tray_lb_drok_lm2596_led_long_fan:
+      name: DROK LM2596 with LED
+      attributes:
+        lb_tray: long
+        variant: Long, 40mm Fan
+      parts:
+        tray_lb_drok_lm2596_led_long_fan: 1
+        assy_drok_lm2596_led: 1
+        shcs_m3_6: 4
+        assy_fan_4010_12mm : 1
+    assy_tray_lb_drok_lm2596_led_long_dual:
+      name: DROK LM2596 with LED
+      attributes:
+        lb_tray: long
+        variant: Long, Dual
+      parts:
+        tray_lb_drok_lm2596_led_long_dual: 1
+        assy_drok_lm2596_led: 2
+        shcs_m3_6: 4
+    assy_tray_lb_drok_lm2596_led_long_dual_fan:
+      name: DROK LM2596 with LED
+      attributes:
+        lb_tray: long
+        variant: Long, Dual, 40mm Fan
+      parts:
+        tray_lb_drok_lm2596_led_long_dual_fan: 1
+        assy_drok_lm2596_led: 2
+        shcs_m3_6: 4
+        assy_fan_4010_12mm : 1
+    assy_tray_lb_hiletgo_lm2596_short:
+      name: HiLetGo LM2596 with LED
+      attributes:
+        lb_tray: short
+        variant: Short
+      parts:
+        tray_lb_hiletgo_lm2596_short: 1
+        assy_hiletgo_lm2596: 1
+        shcs_m3_6: 4
+    assy_tray_lb_hiletgo_lm2596_long_fan:
+      name: HiLetGo LM2596 with LED
+      attributes:
+        lb_tray: long
+        variant: Long, 40mm Fan
+      parts:
+        tray_lb_hiletgo_lm2596_long_fan: 1
+        assy_hiletgo_lm2596: 1
+        shcs_m3_6: 4
+        assy_fan_4010_12mm: 1
+    assy_tray_lb_hiletgo_lm2596_long_dual:
+      name: HiLetGo LM2596 with LED
+      attributes:
+        lb_tray: long
+        variant: Long, Dual
+      parts:
+        tray_lb_hiletgo_lm2596_long_dual: 1
+        assy_hiletgo_lm2596: 2
+        shcs_m3_6: 4
+    assy_tray_lb_hiletgo_lm2596_long_dual_fan:
+      name: HiLetGo LM2596 with LED
+      attributes:
+        lb_tray: long
+        variant: Long, Dual, 40mm Fan
+      parts:
+        tray_lb_hiletgo_lm2596_long_dual_fan: 1
+        assy_hiletgo_lm2596: 2
+        shcs_m3_6: 4
+        assy_fan_4010_12mm: 1
+    assy_tray_lb_basic_lm2596_short:
+      name: Basic LM2596
+      attributes:
+        lb_tray: short
+        variant: Short
+      parts:
+        tray_lb_basic_lm2596_short: 1
+        assy_basic_lm2596: 1
+        shcs_m3_6: 4
+    assy_tray_lb_basic_lm2596_short_dual:
+      name: Basic LM2596
+      attributes:
+        lb_tray: short
+        variant: Short, Dual
+      parts:
+        tray_lb_basic_lm2596_short_dual: 1
+        assy_basic_lm2596: 2
+        shcs_m3_6: 4
+    assy_tray_lb_basic_lm2596_long_fan:
+      name: Basic LM2596
+      attributes:
+        lb_tray: long
+        variant: Long, 40mm Fan
+      parts:
+        tray_lb_basic_lm2596_long_fan: 1
+        assy_basic_lm2596: 1
+        shcs_m3_6: 4
+        assy_fan_4010_12mm: 1
+    assy_tray_lb_basic_lm2596_long_dual:
+      name: Basic LM2596
+      attributes:
+        lb_tray: long
+        variant: Long, Dual
+      parts:
+        tray_lb_basic_lm2596_long_dual: 1
+        assy_basic_lm2596: 2
+        shcs_m3_6: 4
+    assy_tray_lb_basic_lm2596_long_dual_fan:
+      name: Basic LM2596
+      attributes:
+        lb_tray: long
+        variant: Long, Dual, 40mm Fan
+      parts:
+        tray_lb_basic_lm2596_long_dual_fan: 1
+        assy_basic_lm2596: 2
+        shcs_m3_6: 4
+        assy_fan_4010_12mm: 1
+    assy_tray_fotek_ssr40_short:
+      name: Fotek SSR-40 DA
+      attributes:
+        lb_tray: short
+        variant: Short
+      parts:
+        tray_lb_fotek_ssr40_short: 1
+        assy_fotek_ssr40: 1
+        shcs_m3_6: 4
+    assy_tray_fotek_ssr40_long:
+      name: Fotek SSR-40 DA
+      attributes:
+        lb_tray: long
+        variant: Long
+      parts:
+        tray_lb_fotek_ssr40_long: 1
+        assy_fotek_ssr40: 1
+        shcs_m3_6: 4
+
 versions:
   v0_9_11:
-    mcu_v2: active
-    psu_v2: active
-    display_v2: active
-    display_v3: active
-    bottom_v3: active
-    front_panel_v1: active
-    lower_bay_v1: active
-    side_v2: active
-    rear_v1: deprecated
-    rear_v2: active
-    rear_v3: active
-    lid_v1: active
-    fan_v1: active
+    - mcu_v2
+    - psu_v2
+    - display_v2
+    - display_v3
+    - bottom_v3
+    - front_panel_v1
+    - lower_bay_v1
+    - side_v2
+    - rear_v1
+    - rear_v2
+    - rear_v3
+    - lid_v1
+    - fan_v1
   v0_9_10:
-    mcu_v2: active
-    psu_v1: active
-    display_v2: active
-    display_v3: active
-    bottom_v2: active
-    front_panel_v1: active
-    lower_bay_v1: active
-    side_v1: active
-    rear_v1: deprecated
-    rear_v2: active
-    rear_v3: active
-    lid_v1: active
-    fan_v1: active
+    - mcu_v2
+    - psu_v1
+    - display_v2
+    - display_v3
+    - bottom_v2
+    - front_panel_v1
+    - lower_bay_v1
+    - side_v1
+    - rear_v1
+    - rear_v2
+    - rear_v3
+    - lid_v1
+    - fan_v1
 
 options:
   - opt_unified:
