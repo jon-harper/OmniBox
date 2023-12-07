@@ -159,7 +159,7 @@
     background-color: var(--md-default-fg-color--lightest)
 }
 
-.jh-card:is(:focus, :hover), .jh-badge:is(:focus, :hover) {
+.jh-card:is(:focus, :hover) {
     box-shadow: 0px 0px 3px 0px var(--md-default-fg-color--lightest), 0px 0px 1px 2px var(--md-default-fg-color--lightest);
     transition: 125ms;
 }
@@ -179,13 +179,18 @@
 .jh-badge {
     font-size: 0.75em;
     display: inline-block;
-    color: var(--md-accent-fg-color);
-    background-color: var(--md-accent-fg-color--light);
+    color: var(--md-primary-fg-color);
+    background-color: var(--md-primary-bg-color--lightest);
     margin: 0px;
-    line-height: .75em;
-    padding: 0px 3px;
+    padding: 3px 3px;
     border-width: 1px;
     border-style: solid;
-    border-color: var(--md-accent-fg-color-color);
+    border-color: var(--md-primary-fg-color);
     border-radius: 3px;
+}
+
+.jh-badge:is(:focus, :hover) {
+    border-color: var(--md-accent-fg-color);
+    box-shadow: 0px 0px 3px 0px var(--md-default-fg-color--lightest), 0px 0px 1px 2px var(--md-default-fg-color--lightest);
+    transition: 125ms;
 }
