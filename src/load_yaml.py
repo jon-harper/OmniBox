@@ -22,9 +22,8 @@ def load_yaml(env_variables, filepath : str) -> bom.GlobalData:
                           parts=parser.parts, 
                           authors=parser.authors, 
                           suppliers=parser.suppliers,
-                          assembly_types=parser.assembly_types, 
-                          part_types=parser.part_types, 
-                          attributes=parser.attributes)
+                          assembly_types=parser.assembly_types,
+                          versions=parser.versions)
     
 
 class BOMParser():
@@ -68,6 +67,8 @@ class BOMParser():
                 for attribute in assy.attributes:
                     if attribute not in self.attributes:
                         self.attributes.append(attribute)
+
+        self.versions = yaml_data['versions']
         
 
     def parseSupplier(self, entry : dict) -> bom.Supplier:

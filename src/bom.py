@@ -5,11 +5,11 @@ class Supplier(NamedTuple):
     """
     Defines a provider of Parts.
     """
-    name: str
-    region: str
-    ships: str
-    icon: str
-    note: str
+    name: str   # Provider name
+    region: str # Region(s) shipping FROM
+    ships: str  # Region(s) shipping TO
+    icon: str   # Optional icon
+    note: str   # Optional note
 
 SupplierData = dict[str, Supplier]
 
@@ -19,7 +19,7 @@ class SourceUrl(NamedTuple):
     """
     supplier : Supplier
     url: str            # location
-    note: str # internal; notes about a given supplier
+    note: str           # notes about a given supplier's product
 
 SourceList = list[SourceUrl]
 
@@ -28,9 +28,9 @@ class Author(NamedTuple):
     Accreditation information for a printed Part.
     """
     # author_id: str
-    name: str
-    url: str
-    note: str
+    name: str   # Author name
+    url: str    # Preferred profile URL
+    note: str   # Any notes
 
 AuthorData = dict[str, Author]
 
@@ -58,17 +58,8 @@ class MaterialsEntry(NamedTuple):
     part: Part
     qty: float = 1
 
-#We return a list but internally store a simple `dict` (MaterialsData)
-MaterialsList = list[MaterialsEntry]
 #Internal
 MaterialsData = dict[str, float] #part_id, qty
-
-class Attribute(NamedTuple):
-    """
-    An assembly attribute name and value pair for return values.
-    """
-    name: str
-    value: str
 
 @dataclass
 class Assembly:
@@ -80,16 +71,32 @@ class Assembly:
     assy_type: str
     attributes: dict[str, str] #name, value
 
+    def has_attr(self, attr : str) -> bool:
+        if not self.attributes:
+            return False
+        return attr in self.attributes.keys()
+    
+    def attr_value(self, attr: str) -> str:
+        if self.has_attr(attr):
+            return self.attributes[attr]
+        return ''
+
+    def modifier(self) -> str:
+        if self.has_attr('modifier'):
+            return self.attributes['modifier']
+        return ''
+
 AssemblyData = dict[str, Assembly]
+
+VersionList = list[str]
 
 class GlobalData(NamedTuple):
     """
-    Global variable tracking state.
+    Global variable for the part database.
     """
     assemblies : AssemblyData
     parts : PartData
     authors : AuthorData
     suppliers : SupplierData
     assembly_types : list[str]
-    part_types : list[str]
-    attributes : list[str]
+    versions: dict[str, VersionList]
