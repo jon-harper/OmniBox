@@ -12,15 +12,20 @@ class MarkdownTools:
         self.product = product
 
     @staticmethod
-    def badge(icon: str, url : str, tooltip : str, text : str = None, text_url : str = None):
-        if text and text_url:
-            return '<div class="jh-badge" title="{}" markdown>[{} {}]({})</div>'.format(
-                tooltip, icon, text, url)
-
+    def badge(icon: str, url : str, tooltip : str, text : str = None):
+        if text:
+            ret = '[{icon} {text}]({url} "{tooltip}")'.format(
+                icon=icon, 
+                text=text, 
+                url=url, 
+                tooltip=tooltip) 
+            
         else:
-            return '<div class="jh-badge" title="{}" markdown>[{}]({})</div>'.format(
-                tooltip, icon, url)
-
+            ret = '[{icon}]({url} "{tooltip}")'.format(icon=icon, 
+                                                       url=url, 
+                                                       tooltip=tooltip)
+        ret += '{ .jh-badge }'
+        return ret
     @staticmethod
     def as_url(text : str, link : str) -> str:
         """
