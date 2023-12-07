@@ -27,8 +27,8 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
 
@@ -87,8 +87,8 @@ extra:
     test_branch: https://github.com/jon-harper/OmniBox/tree/unstable/
     video_folder: https://jon-harper.github.io/OmniBox/video/0.9.10/
     bom: assets/yaml/bom.yaml
-    product_file: assets/yaml/products.yaml
-
+    bom_version_str: v0_9_11
+    
 extra_css:
   - assets/stylesheets/extra.css
 
