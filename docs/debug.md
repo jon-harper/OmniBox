@@ -5,11 +5,15 @@ authors: Jon Harper
 date: 2023-06-15
 ---
 
+### Test Product
+
+{{ fmt.badge(':material-tag:', 'http://', 'Version', 'mcu_v2') }} {{ fmt.badge(':octicons-person-fill-24:', 'http://', 'Contributor', 'MrMeh') }} {{ fmt.badge(':material-cog-outline:', 'http://', 'Uses Heat Set Inserts') }}
+
 ## Printed Files
 
 | Name | Version | Contributor |
 |------|---------|-------------|
-{% for part_id, part in parts().items() -%}
+{% for part_id, part in product.parts.items() -%}
     {% if part.part_type == 'Printed' -%}
         {% if part.version -%}
             {% set vers = part.version -%}
@@ -21,7 +25,7 @@ date: 2023-06-15
         {% else -%}
             {% set contrib = '' -%}
         {% endif -%}
-        {{ '| {} | {} | {} |'.format(part_link(part_id), vers, author_link(part.author)) }}
+        {{ '| {} | {} | {} |'.format(fmt.part_link(part_id), vers, fmt.author_link(part.author)) }}
     {% endif -%}
 {% endfor %}
 
@@ -31,31 +35,27 @@ date: 2023-06-15
 
 ## {{ assy_type }}
 
-{% for assy in filter_assemblies(assy_type).values() -%}
-{% if assy.name -%}
+{% for section_name, entries in section_assemblies(filter_assemblies(assy_type)).items() -%}
 
-### {{ assy.name }}
+### {{ section_name }}
 
-{% if assy.attributes -%}
-Attributes: {{ assy.attributes }}
-{% endif %}
+{% if entries.keys() | count == 1 -%}
+{% set _, assy = entries.popitem() -%}
 
-| Type | Part | Qty | UOM |
-|------|------|-----|-----|
-{% for part_id, qty in assy.parts.items() -%}
-{{ bom_table_row(part_id, qty) }}
-{% endfor %}
+{{ fmt.bom_table(assy) }}
 
-{% endif -%}
+{% else -%}
+{% for assy_id, assy in entries.items() -%}
+=== "{{ assy.attributes['variant'] }}"
 
-{% endfor %}
-
-{% endif -%}
-
-{% endfor %}
-
-## Contributors
-
-{% for author_id, author in part_authors().items() -%}
-- [{{ author.name }}]({{ author.url}})
+{{ fmt.bom_table(assy, indent='    ') }}
 {% endfor -%}
+
+{% endif -%}
+
+{% endfor %} 
+
+{% endif -%}
+
+{% endfor %} 
+

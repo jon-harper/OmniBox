@@ -13,11 +13,7 @@ date: 2023-11-30
 
 {% for part_id, part in filter_parts(part_type).items() -%}
 
-{{ sourcing_part_entry(part_id, part) }}
-
-<!-- #### {{ part_header(part_id, part.name) }}
-
-{{ source_table(part) }} -->
+{{ fmt.sourcing_part_entry(part_id, part) }}
 
 {% endfor %}
 
