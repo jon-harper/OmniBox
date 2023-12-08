@@ -1,0 +1,43 @@
+parts:
+  DIN 912:
+    shcs_m3_6:
+      #...
+  MCU:
+    creality_mcu_2.x:
+      name: Creality 2.x Series
+      img: img/parts/creality_2_5_2.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Official-Creality-3D-Upgraded-Motherboard/dp/B09NMJMPN1"
+  Printed:
+    tray_creality_2_v2:
+      name: MCU Tray - M3 Creality 2.5.2.stl 
+      file: https://www.printables.com/model/357420-omnibox-mcu-tray-creality-252-board
+    tray_creality_2_v2_hsi:
+      name:  MCU Tray - M3 - HSI - Creality 2.5.2.stl 
+      file: https://www.printables.com/model/357420-omnibox-mcu-tray-creality-252-board
+subassemblies:
+  assy_fan_4010_12mm:
+    #...
+  assy_carry_handle:
+    #...
+components:
+  tray_creality_2_x_v2:
+    name: Creality 2.x Series
+    note: Compatible with all versions.
+    version: mcu_v2
+    attributes:
+      mcu_count: single
+    parts:
+      shcs_m3_6: 4
+      creality_mcu_2.x: 1
+    assemblies:
+      - variant: Stock
+        author: u_mrmeh
+        parts:
+          tray_creality_2_v2: 1
+      - variant: HSI
+        author: u_mrmeh
+        parts:
+          tray_creality_2_v2_hsi : 1
+          hsi_m3_5od_4l: 4
