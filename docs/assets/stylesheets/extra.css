@@ -179,8 +179,8 @@
 .jh-badge {
     font-size: 0.75em;
     display: inline-block;
-    color: var(--md-primary-fg-color);
-    background-color: var(--md-primary-bg-color--light);
+    color: var(--md-primary-fg-color--light);
+    background-color: var(--md-primary-fg-color--transparent);
     margin: 0px;
     padding: 3px 3px;
     border-width: 1px;
