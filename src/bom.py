@@ -60,10 +60,11 @@ class Assembly:
     A collection of Parts with a given name, type, and associated attributes.
     """
     name: str
-    version: str
+    assy_type : str
+    # version: str
     parts : MaterialsData
     attributes: dict[str, str] #name, value
-    author: Author
+    author: Author = None
 
     def has_attr(self, attr : str) -> bool:
         if not self.attributes:
