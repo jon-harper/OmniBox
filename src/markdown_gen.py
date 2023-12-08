@@ -12,20 +12,34 @@ class MarkdownTools:
         self.product = product
 
     @staticmethod
-    def badge(icon: str, url : str, tooltip : str, text : str = None):
-        if text:
-            ret = '[{icon} {text}]({url} "{tooltip}")'.format(
-                icon=icon, 
-                text=text, 
-                url=url, 
-                tooltip=tooltip) 
-            
+    def badge(icon: str, tooltip : str, icon_url : str = None, txt : str = None,
+              txt_url : str = None) -> str:
+        icon_html = MarkdownTools.icon_badge(icon, tooltip, icon_url)
+        if txt:
+            txt_html = MarkdownTools.text_badge(txt, txt_url)
+            return '<p class="jh-badge" markdown>{} {}</p>'.format(icon_html, txt_html)
         else:
-            ret = '[{icon}]({url} "{tooltip}")'.format(icon=icon, 
-                                                       url=url, 
-                                                       tooltip=tooltip)
-        ret += '{ .jh-badge }'
-        return ret
+            return '<p class="jh-badge" markdown>{}</p>'.format(icon_html)
+            
+    @staticmethod
+    def text_badge(txt : str, txt_url : str = None) -> str:
+        if txt_url:
+            return '<a href="{txt_url}" class="jh-text-badge" markdown>{txt}</a>'.format(
+                txt_url=txt_url, txt=txt)
+        else:
+            return '<span class="jh-text-badge" markdown>{txt}</span>'.format(txt=txt)
+        
+
+    @staticmethod
+    def icon_badge(icon: str, tooltip: str, url: str = None) -> str:
+        if url:
+            return '<a href="{url}" title="{tooltip}" class="jh-icon-badge" markdown>{icon}</a>'.format(
+                icon=icon, url=url, tooltip=tooltip)
+        else:
+            return '<span title="{tooltip}" class="jh-icon-badge" markdown>{icon}</span>'.format(
+                icon=icon, tooltip=tooltip)
+            
+
     @staticmethod
     def as_url(text : str, link : str) -> str:
         """

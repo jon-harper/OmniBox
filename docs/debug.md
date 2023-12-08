@@ -7,31 +7,13 @@ date: 2023-06-15
 
 ### Test Product
 
-{{ fmt.badge(':material-tag:', 'http://', 'Version', 'mcu_v2') }} {{ fmt.badge(':octicons-person-fill-24:', 'http://', 'Contributor', 'MrMeh') }} {{ fmt.badge(':material-cog-outline:', 'http://', 'Uses Heat Set Inserts') }}
+{{ fmt.badge(':material-tag:', 'Version', 'http://', 'mcu_v2') }}
 
-## Printed Files
+{{ fmt.badge(':octicons-person-fill-24:', 'Contributor', 'http://', 'MrMeh', 'http://')}} 
 
-| Name | Version | Contributor |
-|------|---------|-------------|
-{% for part_id, part in product.parts.items() -%}
-    {% if part.part_type == 'Printed' -%}
-        {% if part.version -%}
-            {% set vers = part.version -%}
-        {% else -%}
-            {% set vers = "n/a" -%}
-        {% endif -%}
-        {% if part.author -%}
-            {% set contrib = part.author.name -%}
-        {% else -%}
-            {% set contrib = '' -%}
-        {% endif -%}
-        {{ '| {} | {} | {} |'.format(fmt.part_link(part_id), vers, fmt.author_link(part.author)) }}
-    {% endif -%}
-{% endfor %}
+{{ fmt.badge(':material-cog-outline:', 'Uses heat set inserts', 'http://') }}
 
-{% for assy_type in assembly_types() -%}
-
-{% if assy_type != "subassemblies" -%}
+{% set assy_type = 'MCU' -%}
 
 ## {{ assy_type }}
 
@@ -50,10 +32,6 @@ date: 2023-06-15
 
 {{ fmt.bom_table(assy, indent='    ') }}
 {% endfor -%}
-
-{% endif -%}
-
-{% endfor %} 
 
 {% endif -%}
 
