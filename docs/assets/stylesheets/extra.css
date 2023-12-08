@@ -180,7 +180,7 @@
     font-size: 0.75em;
     display: inline-block;
     color: var(--md-primary-fg-color);
-    background-color: var(--md-primary-bg-color--lightest);
+    background-color: var(--md-primary-bg-color--light);
     margin: 0px;
     padding: 3px 3px;
     border-width: 1px;
@@ -191,6 +191,7 @@
 
 .jh-badge:is(:focus, :hover) {
     border-color: var(--md-accent-fg-color);
-    box-shadow: 0px 0px 3px 0px var(--md-default-fg-color--lightest), 0px 0px 1px 2px var(--md-default-fg-color--lightest);
+    background-color: var(--md-accent-fg-color--transparent);
+    box-shadow: 0px 0px 3px 0px var(--md-accent-fg-color--transparent), 0px 0px 1px 2px var(--md-default-fg-color--lightest);
     transition: 125ms;
 }
