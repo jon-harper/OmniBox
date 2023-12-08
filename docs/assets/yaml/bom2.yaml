@@ -1886,3 +1886,33 @@ components:
       - variant: Stock
         parts:
           tray_btt_skr_classic_v2: 1
+
+versions:
+  v0_9_11:
+    - mcu_v2
+    - psu_v2
+    - display_v2
+    - display_v3
+    - bottom_v3
+    - front_panel_v1
+    - lower_bay_v1
+    - side_v2
+    - rear_v1
+    - rear_v2
+    - rear_v3
+    - lid_v1
+    - fan_v1
+  v0_9_10:
+    - mcu_v2
+    - psu_v1
+    - display_v2
+    - display_v3
+    - bottom_v2
+    - front_panel_v1
+    - lower_bay_v1
+    - side_v1
+    - rear_v1
+    - rear_v2
+    - rear_v3
+    - lid_v1
+    - fan_v1

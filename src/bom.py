@@ -51,14 +51,7 @@ class Part(NamedTuple):
 
 PartData = dict[str, Part]
 
-class MaterialsEntry(NamedTuple):
-    """
-    Return value for a BOM entry.
-    """
-    part: Part
-    qty: float = 1
-
-#Internal
+# Part id and quantity for return values
 MaterialsData = dict[str, float] #part_id, qty
 
 @dataclass
@@ -67,9 +60,10 @@ class Assembly:
     A collection of Parts with a given name, type, and associated attributes.
     """
     name: str
+    version: str
     parts : MaterialsData
-    assy_type: str
     attributes: dict[str, str] #name, value
+    author: Author
 
     def has_attr(self, attr : str) -> bool:
         if not self.attributes:
@@ -85,6 +79,12 @@ class Assembly:
         if self.has_attr('modifier'):
             return self.attributes['modifier']
         return ''
+    
+class Component:
+    name : str
+    version : str
+    attributes: dict[str, str] #name, value
+    assemblies : list[Assembly]
 
 AssemblyData = dict[str, Assembly]
 
