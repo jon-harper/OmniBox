@@ -197,8 +197,11 @@
 }
 
 span.jh-icon-badge {
-    color: var(--md-primary-bg-color);
-    
+    color: var(--md-primary-fg-color--light);
+} 
+
+span.jh-icon-badge :is(:hover, :focus) {
+    color: var(--md-primary-fg-color);
 }
 
 /* 
