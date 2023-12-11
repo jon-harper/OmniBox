@@ -1,6 +1,6 @@
 config:
   id: test
-  baseUrl: 'https://raw.githubusercontent.com/jon-harper/OmniBox/main/'
+  baseUrl: 'https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta/'
 suppliers:
   aliexpress:
     name: AliExpress

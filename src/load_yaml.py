@@ -79,11 +79,14 @@ class BOMParser():
             author = self.authors[author_id]
         else:
             author = None
+        fi : str = entry.get('file', None)
+        if fi and not fi.startswith('https://'):
+            fi = self.base_url + fi
         return bom.Part(name=entry['name'],
                        units=entry.get('units', 'Ea'),
                        part_type=part_type,
                        icon=entry.get('icon', None),
-                       file_url=entry.get('file', None),
+                       file_url=fi,
                        version=entry.get('version', None),
                        author=author,
                        note=entry.get('note', None),
