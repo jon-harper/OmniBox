@@ -18,7 +18,7 @@ def load_yaml(env_variables, filepath : str) -> bom.GlobalData:
     parser = BOMParser(raw_bom)
     env_variables['base_url'] = parser.base_url
 
-    return bom.GlobalData(assemblies=parser.assemblies, 
+    return bom.GlobalData(components=parser.components, 
                           parts=parser.parts, 
                           authors=parser.authors, 
                           suppliers=parser.suppliers,
@@ -58,15 +58,9 @@ class BOMParser():
                 part = self.parsePart(part_entry, part_type)
                 self.parts[part_id] = part
 
-        self.assemblies = self.parseAssemblies(yaml_data['assemblies'])
+        self.subassemblies = yaml_data.get('subassemblies', None)
 
-        self.attributes : list[str] = []
-        # Make a list of all known attibutes
-        for assy in self.assemblies.values():
-            if assy.attributes:
-                for attribute in assy.attributes:
-                    if attribute not in self.attributes:
-                        self.attributes.append(attribute)
+        self.components = self.parseComponents(yaml_data['components'])
 
         self.versions = yaml_data['versions']
         
@@ -120,89 +114,58 @@ class BOMParser():
                           url=entry['url'],
                           note=entry.get('note', ''))
     
-    def parseAssemblies(self, raw_entries : dict[str, dict]) -> bom.AssemblyData:
-        """
-        Cyclically parses assemblies and resolves their part relationships.
-
-        Assemblies without part lists containing other assemblies are processed first. The remaining
-        assemblies are checked for references to already-processed assemblies. If one is found,
-        the reference is "decayed" into its component parts  (removing all references). This
-        continues until all assemblies are processed.
-        """
-        ret : bom.AssemblyData = {}
-        deferred : bom.AssemblyData = {}
-
-        self.assembly_types = raw_entries.keys()
-        for assy_type, entries in raw_entries.items():
-            # Process the entries and flag any that refer to subassemblies
-            for assy_id, values in entries.items():
-                is_deferred : bool = False
-
-                assy = bom.Assembly (name=values.get('name', ''),
-                                    parts=bom.MaterialsData(),
-                                    assy_type=assy_type,
-                                    attributes=values.get('attributes'))
-                
-                #check if we refer to any subassemblies, then defer for later processing
-                parts = values['parts']
-                for part_id, qty in parts.items():
-                    if part_id in deferred.keys() or part_id in ret.keys():
-                        is_deferred = True
-                    assy.parts[part_id] = qty
-
-                # Build up dicts of both deferred and completed assemblies
-                if is_deferred:
-                    deferred[assy_id] = assy
-                else:
-                    ret[assy_id] = assy
-        
-        # Process the deferred subassemblies.
-        # Limit possible iterations to 10 to catch loops.
-        iterations : int = 0
-        processing : dict = {}
-        while iterations < 10 and deferred:
-            # Swap the list of in-process and pending subassemblies
-            processing = deferred.copy()
-            deferred = {}
-
-            combined : bom.PartData = {}
-            
-            # Iterate through the assemblies, breaking down part lists as we go.
-            for assy_id, assy in processing.items():
-                # Check if this contains references to assemblies not yet processed;
-                # defer if needed and catch it the next pass.
-                skip : bool = False
-                for sub_id in assy.parts.keys():
-                    if sub_id in deferred.keys():
-                        deferred[assy_id] = assy
-                        skip = True
-                        break
-                if skip:
-                    break
-                
-                #Do the actual processing
-                for sub_id in assy.parts.keys():
-                    # Found a subassembly, break it down
-                    if sub_id in ret.keys():
-                        # Multiply everything by the quantity of subassemblies
-                        mult : int = round(assy.parts[sub_id])
-                        for part_id, qty in ret[sub_id].parts.items():
-                            # Check if the part is already in the final list.
-                            # Add to the existing value if so, assign if not.
-                            if part_id in combined.keys():
-                                combined[part_id] = combined[part_id] + qty * mult
-                            else:
-                                combined[part_id] = qty * mult
-                    elif sub_id in combined.keys():
-                        combined[sub_id] = combined[sub_id] + assy.parts[sub_id]
+    def breakSubassembly(self, parts: bom.MaterialsData) -> bom.MaterialsData:
+        ret : bom.MaterialsData = {}
+        if not parts:
+            return ret
+        for part_id, qty in parts.items():
+            if part_id in self.subassemblies.keys():
+                mult : int = round(qty)
+                for sub_id, sub_qty in self.subassemblies[part_id].items():
+                    if sub_id in ret:
+                        ret[sub_id] += mult * sub_qty
                     else:
-                        combined[sub_id] = assy.parts[sub_id]
-                # Replace the existing list with the combined one
-                assy.parts = combined
-                # Add the assembly to the result list
-                ret[assy_id] = assy
-                combined = {}
-        # Ensure we didn't catch a loop
-        assert(len(deferred) == 0)
-
+                        ret[sub_id] = mult * sub_qty
+            else:
+                ret[part_id] = qty
+        return ret
+    
+    def parseComponents(self, raw_entries : dict[str, dict]) -> bom.ComponentData:
+        """
+        Constructs components from raw entries. Any subassemblies found are broken down and merged.
+        Parts listed with the component are merged into each variant's unique part list.
+        """
+        ret : bom.ComponentData = {}
+        
+        self.assembly_types = raw_entries.keys()
+        for comp_type, comp_entries in raw_entries.items():
+            # Process the entries and flag any that refer to subassemblies
+            for comp_id, comp_data in comp_entries.items():
+                comp = bom.Component(name=comp_data['name'],
+                                     version=comp_data.get('version', ''),
+                                     comp_type=comp_type,
+                                     attributes=comp_data.get('attributes', {}),
+                                     variants=[],
+                                     note=comp_data.get('note', None))
+                # get the parts common to all variants and break up any subassemblies
+                comp_parts = self.breakSubassembly(comp_data.get('parts', bom.MaterialsData()))
+                
+                # process the variants
+                for v_name, v_data in comp_data['variants'].items():
+                    v_parts = self.breakSubassembly(v_data['parts'])
+                    # add in the common parts
+                    for part_id, qty in comp_parts.items():
+                        if part_id in v_parts.keys():
+                            v_parts[part_id] += qty
+                        else:
+                            v_parts[part_id] = qty
+                    author_id = v_data.get('author', None)
+                    variant = bom.Variant(name=v_name,
+                                          attributes=v_data.get('attributes', {}),
+                                          parts=v_parts,
+                                          author=self.authors.get(author_id, None),
+                                          note=v_data.get('note', ''))
+                    comp.variants.append(variant)
+                #add the component to the list
+                ret[comp_id] = comp
         return ret

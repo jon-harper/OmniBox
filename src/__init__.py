@@ -28,7 +28,7 @@ def define_env(env):
     bom_data = load_yaml.load_yaml(env.variables, join(env.conf.docs_dir, file))
 
     global product
-    product = Product(assemblies=bom_data.assemblies,
+    product = Product(components=bom_data.components,
                       parts=bom_data.parts,
                       part_versions=bom_data.versions[version])
     env.variables['fmt'] = fmt(product)
@@ -53,67 +53,4 @@ def define_env(env):
     def product_img(url : str, text : str ="", width : str ="480px") -> str:
         return "[![{}]({})]({})".format(text, url, url)
 
-    @env.macro
-    def parts() -> bom.PartData:
-        """
-        Returns a dict of all Parts active for the current Product.
-        """
-        return product.parts
-    
-   
-    @env.macro
-    def assemblies() -> bom.AssemblyData:
-        """
-        Returns a dict of all Assemblys active for the current Product.
-        """
-        return product.assemblies
-  
-    @env.macro
-    def filter_assemblies(type_filter : str = '', attribute_filter: str = '', attribute_value: str = '') -> bom.AssemblyData:
-        """
-        Returns a dict of all assemblies whose types match `type_filter` and/or
-        whose attributes match `attribute_filter`.
-
-        Attributes can be further constrained by filtering the value with `attribute_value`.
-        """
-        return product.filter_assemblies(type_filter, attribute_filter, attribute_value)
-    
-    @env.macro
-    def filter_parts(type_filter : str = '') -> bom.PartData:
-        """
-        Returns a dict of all Parts whose types match `type_filter`.
-        """
-        ret = bom.PartData()
-        for part_id, part in product.parts.items():
-            if part.part_type == type_filter:
-                ret[part_id] = part
-        return ret
-    
-    @env.macro
-    def part_types() -> list[str]:
-        """
-        Returns a list of all Part types.
-        """
-        return product.part_types
-    
-    @env.macro
-    def assembly_types() -> list[str]:
-        """
-        Returns a list of assembly types.
-        """
-        return product.assembly_types
-       
-    @env.macro
-    def section_assemblies(assys : bom.AssemblyData) -> dict[bom.AssemblyData]:
-        """
-        Splits up an AssemblyData into unique names and returns a diction of `AssemblyData`
-        with the names as keys.
-        """
-        ret : dict[bom.AssemblyData] = {}
-        for key, assy in assys.items():
-            if assy.name not in ret.keys():
-                ret[assy.name] = {}
-            ret[assy.name][key] = assy
-        return ret
-      
     

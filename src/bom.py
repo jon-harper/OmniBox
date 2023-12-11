@@ -54,40 +54,22 @@ PartData = dict[str, Part]
 # Part id and quantity for return values
 MaterialsData = dict[str, float] #part_id, qty
 
-@dataclass
-class Assembly:
-    """
-    A collection of Parts with a given name, type, and associated attributes.
-    """
+class Variant(NamedTuple):
     name: str
-    assy_type : str
-    # version: str
+    attributes : dict[str, str]
     parts : MaterialsData
-    attributes: dict[str, str] #name, value
-    author: Author = None
+    author: Author
+    note : str
 
-    def has_attr(self, attr : str) -> bool:
-        if not self.attributes:
-            return False
-        return attr in self.attributes.keys()
-    
-    def attr_value(self, attr: str) -> str:
-        if self.has_attr(attr):
-            return self.attributes[attr]
-        return ''
-
-    def modifier(self) -> str:
-        if self.has_attr('modifier'):
-            return self.attributes['modifier']
-        return ''
-    
-class Component:
+class Component(NamedTuple):
     name : str
     version : str
+    comp_type: str
     attributes: dict[str, str] #name, value
-    assemblies : list[Assembly]
+    variants : list[Variant]
+    note : str
 
-AssemblyData = dict[str, Assembly]
+ComponentData = dict[str, Component]
 
 VersionList = list[str]
 
@@ -95,7 +77,7 @@ class GlobalData(NamedTuple):
     """
     Global variable for the part database.
     """
-    assemblies : AssemblyData
+    components : ComponentData
     parts : PartData
     authors : AuthorData
     suppliers : SupplierData
