@@ -1,6 +1,6 @@
 config:
   id: test
-  baseUrl: 'https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta/'
+  baseUrl: 'https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta'
 suppliers:
   aliexpress:
     name: AliExpress
@@ -268,6 +268,11 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/YOKIVE-Standoff-Standoffs-Consistent-Motherboard/dp/B0BK9C7849"
+    standoff_m2.5_12_6:
+      name: M2.5 Brass Standoff, Female/Male, 12mm + 6mm
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Female-Standoff-Quadcopter-Computer-Circuit/dp/B0CJCHCRVJ/"
   PSU:
     mw_lrs350:
       name: Mean Well LRS-350 Series
@@ -646,7 +651,7 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/Polymaker-Filament-1-75mm-Strong-Cardboard/dp/B09DKSCRSX"
   
-  Connector:
+  Electrical Connector:
     conn_f_spade_14-16:
       name: Insulated Spade Connector, Female, 14-16 awg
       img: img/parts/conn_f_spade_14-16.webp
@@ -761,6 +766,14 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/DROK-Adjustable-Converter-Transformer-Protective/dp/B07JZ2GQJF"
+
+  Bearings:
+    688zz_bearing:
+      name: 688ZZ Radial Ball Bearing
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/uxcell-Groove-Bearings-Double-Shielded/dp/B08199J4RJ/ref=sr_1_3"
+          note: 5 eaches
 
   Printed:
     #MCU Trays
@@ -1852,9 +1865,42 @@ subassemblies:
   assy_fan_4010_12mm:
     fan_4010: 1
     shcs_m3_12: 4
+  assy_fan_4010_cage:
+    fan_4010: 1
+    fan_cage_4010: 1
+    fan_gasket_40mm: 1
+    shcs_m3_16: 4
   assy_fan_5012_16mm:
     fan_5012: 1
     shcs_m3_16: 4
+  assy_fan_5012_cage:
+    fan_5012: 1
+    shcs_m3_18: 4
+    fan_cage_5012: 1
+    fan_gasket_50mm: 1
+  assy_fan_6015_20mm:
+    fan_6015: 1
+    shcs_m3_20: 4
+  assy_fan_6015_cage:
+    fan_5015: 1
+    shcs_m3_20:
+    fan_cage_6015: 1
+    fan_gasket_60mm: 1
+  assy_fan_8020_cage:
+    fan_8020: 1
+    shcs_m4_30: 4
+    fan_cage_8020: 1
+    fan_gasket_80mm: 1
+  assy_fan_9225_cage:
+    fan_9225: 1
+    shcs_m4_35: 4
+    fan_cage_9225_screen: 1
+    fan_gasket_92mm: 1
+  assy_fan_12025_cage:
+    fan_12025: 1
+    shcs_m4_35: 4
+    fan_cage_12025_screen: 1
+    fan_gasket_120mm: 1
   assy_sd_card_ext:
     shcs_m3_6: 2
     misc_sd_ext_body: 1
@@ -2682,7 +2728,177 @@ components:
             tray_cpu_universal_v3_50mm_hsi: 1
             assy_fan_5012_16mm: 1
             hsi_m3_5od_4l: 4
-        
+  Lid:
+    comp_blank_lid:
+      name: Simple/Blank Lids
+      version: lid_v1
+      variants:
+        Long Blank:
+          attributes:
+            length: Long
+          parts:
+            lid_long_blank: 1
+        Short Blank:
+          attributes:
+            length: Short
+          parts:
+            lid_short_blank: 1
+        Short Vent:
+          attributes:
+            length: Short
+          parts:
+            lid_short_vent: 1
+
+    comp_carry_lid:
+      name: Carry Handle Lid
+      version: lid_v1
+      variants:
+        Long:
+          attributes:
+            length: Long
+          parts:
+            lid_long_carry: 1
+            assy_carry_handle: 1
+        Long, HSI:
+          attributes:
+            length: Long
+            hsi: True
+          parts:
+            lid_long_carry: 1
+            assy_carry_handle_hsi: 1
+        Short:
+          attributes:
+            length: Short
+          parts:
+            lid_short_carry: 1
+            assy_carry_handle: 1
+        Short, HSI:
+          attributes:
+            length: Short
+          parts:
+            lid_short_carry: 1
+            assy_carry_handle_hsi: 1
+    comp_120mm_lid:
+      name: 120mm Fan Lids
+      version: lid_v1
+      parts:
+        assy_fan_12025_cage: 1
+      variants:
+        120mm Fan:
+          attributes:
+            length: long
+          parts:
+            lid_long_120mm: 1
+        120mm Fan, Handle:
+          attributes: 
+            length: long
+          parts:
+            lid_long_120mm_handle: 1
+            assy_carry_handle: 1
+        120mm Fan, Handle, HSI:
+          attributes: 
+            length: Long
+          parts:
+            lid_long_120mm_handle: 1
+            assy_carry_handle_hsi: 1
+    comp_fan_lid:
+      name: Short Fan Lids
+      version: lid_v1
+      variants:
+        Dual 40mm Fans:
+          attributes:
+            length: short
+          parts:
+            assy_fan_4010_cage: 2
+            lid_short_dual_40mm: 1
+        80mm Fan:
+          attributes:
+            length: short
+          parts:
+            lid_short_80mm: 1
+            assy_fan_8020_cage: 1
+        92mm Fan:
+          attributes:
+            length: short
+          parts:
+            lid_short_92mm: 1
+            assy_fan_9225_cage: 1
+    comp_rpi_lid:
+      name: Raspberry Pi Display Lids
+      note: |
+        These lids use the mounting pattern from a Raspberry Pi; as such, they are compatible
+        with any display that mounts a Raspberry Pi on the back.
+      version: lid_v1
+      parts:
+        shcs_m2.5_6: 4
+        standoff_m2.5_12_6: 4
+      variants:
+        5in RPi TFT:
+          attributes:
+            display_type: CPU
+            length: Short
+          parts:
+            lid_short_rpi_tft: 1    
+            btt_pi_tft5: 1
+        7in RPi TFT:
+          attributes:
+            display_type: CPU
+            length: Short
+          parts:
+            lid_short_rpi_tft_xl: 1
+            rpi_tft7: 1
+    comp_drybox_lid:
+      name: Rubbermaid 21 cup Drybox
+      version: lid_v1
+      variants:
+        Stock:
+          attributes:
+            length: long
+          parts:
+            lid_long_21qt_drybox: 1
+    comp_roller_lid:
+      name: Spool Roller Lid
+      version: lid_v1
+      parts:
+        misc_spool_roller: 2
+        shcs_m3_16: 4
+        688zz_bearing: 4
+      variants:
+        Stock:
+          attributes:
+            length: long
+          parts:
+            lid_long_roller: 1
+  Front Panel:
+    comp_fp_vent:
+      name: Vent Only
+      version: front_panel_v1
+      variants:
+        Hexagons:
+          parts:
+            panel_front_vent_hex: 1
+        Slats:
+          parts:
+            panel_front_vent_slats: 1
+        Slots:
+          parts:
+            panel_front_vent_slots: 1
+    comp_fp_sd:
+      name: MicroSD Extension
+      version: front_panel_v1
+      parts:
+        assy_sd_card_ext: 1
+        shcs_m3_6: 2
+      variants:
+        Hexagons:
+          parts:
+            panel_front_sd_hex: 1
+        Slats:
+          parts:
+            panel_front_sd_slats: 1
+        Slots:
+          parts:
+            panel_front_sd_slots: 1
 versions:
   v0_9_11:
     - mcu_v2
