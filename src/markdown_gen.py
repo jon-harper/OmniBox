@@ -87,9 +87,10 @@ class MarkdownTools:
         else:
             ret = ''
         if variant.attributes:
-            # keys = variant.attributes.keys()
             if self.product.has_hsi(variant):
                 ret += badge.hsi_badge()
+            if 'length' in variant.attributes.keys():
+                ret += badge.size_badge(variant.attributes['length'])
         return ret
         
     def component_entry(self, comp : bom.Component):

@@ -52,12 +52,19 @@ def mcu_count_badge(txt, indent : str ='') -> str:
     return badge(':fontawesome-solid-microchip:', 'Number of MCUs per tray',
                 icon_url=None, txt=txt)
 
-def short_tray_badge() -> str:
-    return ''
+def short_badge() -> str:
+    return badge(':material-size-s:', 'Short')
+
+def long_badge() -> str:
+    return badge(':material-size-l:', 'Long')
+
+def size_badge(txt : str) -> str:
+    return badge(':material-relative-scale:', 'Printed component size',
+                 icon_url=None, txt=txt)
 
 def base_depth_badge(txt: str) -> str:
-    return badge(':material-format-vertical-align-bottom:',
-                 "Required Base depth", 'https://TODO',txt)
+    return badge(':material-format-vertical-align-bottom:', 'Required Base depth', 
+                 'https://TODO', txt)
 
 def switch_badge(txt: str) -> str:
     return badge(':material-power:', 'Power switch options',
