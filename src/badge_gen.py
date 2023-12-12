@@ -36,10 +36,10 @@ def badge(icon: str,
     else:
         return '<p class="jh-badge" markdown>{}</p>'.format(icon_html)
     
-def version_badge(version: str, indent : str = '') -> str:
-        if not version:
+def template_badge(template: str, indent : str = '') -> str:
+        if not template:
             return ''
-        return badge(':material-tag:', 'Version', '../templates', version)
+        return badge(':material-puzzle:', 'Part template', '../templates', template)
 
 def author_badge(name: str, url: str, indent : str = '') -> str:
     return badge(':octicons-person-fill-24:', 'Contributor', 'http://todo', 
@@ -59,7 +59,7 @@ def long_badge() -> str:
     return badge(':material-size-l:', 'Long')
 
 def size_badge(txt : str) -> str:
-    return badge(':material-relative-scale:', 'Printed component size',
+    return badge(':material-relative-scale:', 'Printed part size',
                  icon_url=None, txt=txt)
 
 def base_depth_badge(txt: str) -> str:
@@ -73,3 +73,20 @@ def switch_badge(txt: str) -> str:
 def display_badge(txt : str) -> str:
     return badge(':material-monitor-dashboard:', 'Display type (CPU or MCU)',
                  'https://TODO', txt)
+
+def front_badge() -> str:
+    return badge(':material-format-horizontal-align-left:', 'This is the front half of a part', 
+                 txt='Front')
+
+def rear_badge() -> str:
+    return badge(':material-format-horizontal-align-right:', 'This is the rear half of a part',
+                 text='Rear')
+
+def unified_badge() -> str:
+    return badge(':material-vector-combine:', 'Unified parts replace front and rear halves')
+
+def vent_badge() -> str:
+    return badge(':material-air-filter:', 'Provides ventilation')
+
+def fan_badge() -> str:
+    return badge(':material-fan:', 'Mounts at least one fan')

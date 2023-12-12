@@ -95,7 +95,7 @@ extra:
     test_branch: https://github.com/jon-harper/OmniBox/tree/unstable/
     video_folder: https://jon-harper.github.io/OmniBox/video/0.9.10/
     bom: assets/yaml/bom2.yaml
-    bom_version_str: v0_9_11
+    bom_template_str: v0_9_11
     
 extra_css:
   - assets/stylesheets/extra.css

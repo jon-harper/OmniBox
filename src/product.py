@@ -17,7 +17,7 @@ class Product:
     def __init__(self, 
                  components : bom.ComponentData, 
                  parts: bom.PartData,
-                 part_versions: bom.VersionList, 
+                 templates: bom.TemplateList, 
                  prefix : str = ''):
         self.local_url_prefix = prefix
         self.components = {}
@@ -30,7 +30,7 @@ class Product:
                 self.part_types.append(part.part_type)
         
         for comp_id, comp in components.items():
-            if not comp.version or (comp.version and comp.version in part_versions):
+            if not comp.template or comp.template in templates:
                 self.components[comp_id] = comp
                 if comp.comp_type not in self.assembly_types:
                     self.assembly_types.append(comp.comp_type)

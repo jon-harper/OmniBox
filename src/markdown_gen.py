@@ -69,17 +69,29 @@ class MarkdownTools:
         return "{}| {} | {} | {} | {} |\n".format(indent, part.part_type, self.part_link(part_id), qty, part.units)
     
     def component_badges(self, comp : bom.Component) -> str:
-        badge_text = badge.version_badge(comp.version)
+        ret = badge.template_badge(comp.template)
         keys = comp.attributes.keys()
+        if 'half' in keys:
+            v = comp.attributes['half']
+            if v.upper() == 'FRONT':
+                ret += badge.front_badge()
+            elif v.upper() == 'REAR':
+                ret += badge.rear_badge()
+            elif v.upper() == 'UNIFIED':
+                ret += badge.unified_badge()
         if 'mcu_count' in keys:
-            badge_text += badge.mcu_count_badge(comp.attributes['mcu_count'])
+            ret += badge.mcu_count_badge(comp.attributes['mcu_count'])
         if 'base_depth' in keys:
-            badge_text += badge.base_depth_badge(comp.attributes['base_depth'])
+            ret += badge.base_depth_badge(comp.attributes['base_depth'])
         if 'switch' in keys:
-            badge_text +=  badge.switch_badge(comp.attributes['switch'])
+            ret +=  badge.switch_badge(comp.attributes['switch'])
         if 'display_type' in keys:
-            badge_text += badge.display_badge(comp.attributes['display_type'])
-        return badge_text
+            ret += badge.display_badge(comp.attributes['display_type'])
+        if 'vent' in keys:
+            ret += badge.vent_badge()
+        if 'fan' in keys:
+            ret += badge.fan_badge()
+        return ret
     
     def variant_badges(self, variant : bom.Variant) -> str:
         if variant.author:
@@ -89,36 +101,39 @@ class MarkdownTools:
         if variant.attributes:
             if self.product.has_hsi(variant):
                 ret += badge.hsi_badge()
-            if 'length' in variant.attributes.keys():
+            keys = variant.attributes.keys()
+            if 'length' in keys:
                 ret += badge.size_badge(variant.attributes['length'])
+            if 'vent' in keys:
+                ret += badge.vent_badge()
+            if 'fan' in keys:
+                ret += badge.fan_badge()
         return ret
         
     def component_entry(self, comp : bom.Component):
-        badge_text = self.component_badges(comp)
+        comp_badge_text = self.component_badges(comp)
 
         #single variant
         if len(comp.variants) == 1:
             v = comp.variants[0]
-            if not badge_text:
-                badge_text = ''
-            badge_text += self.variant_badges(v)
-            if badge_text:
-                badge_text += '\n\n'
+            if not comp_badge_text:
+                comp_badge_text = ''
+            comp_badge_text += self.variant_badges(v)
+            if comp_badge_text:
+                comp_badge_text += '\n\n'
             return '### {name}\n\n{badge}\n\n{table}'.format(
                 name=comp.name,
-                badge=badge_text,
+                badge=comp_badge_text,
                 table=self.bom_table(v))
         
         # Multiple variants
         indent = '    '
         ret = '### {name}\n\n'.format(name=comp.name)
-        if badge_text:
-            ret += '{badge}\n\n'.format(badge=badge_text)
         for v in comp.variants:
             section = '=== "{}"\n'.format(v.name)
             badge_text = self.variant_badges(v)
-            if badge_text:
-                section += '{}{}\n{}\n'.format(indent, badge_text, indent)
+            if comp_badge_text or badge_text:
+                section += '{}{}{}\n{}\n'.format(indent, comp_badge_text, badge_text, indent)
             section += self.bom_table(v, indent)
             ret += section
         return ret

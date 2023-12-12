@@ -23,7 +23,7 @@ def load_yaml(env_variables, filepath : str) -> bom.GlobalData:
                           authors=parser.authors, 
                           suppliers=parser.suppliers,
                           assembly_types=parser.assembly_types,
-                          versions=parser.versions)
+                          templates=parser.templates)
     
 
 class BOMParser():
@@ -62,7 +62,7 @@ class BOMParser():
 
         self.components = self.parseComponents(yaml_data['components'])
 
-        self.versions = yaml_data['versions']
+        self.templates = yaml_data['templates']
         
 
     def parseSupplier(self, entry : dict) -> bom.Supplier:
@@ -87,7 +87,7 @@ class BOMParser():
                        part_type=part_type,
                        icon=entry.get('icon', None),
                        file_url=fi,
-                       version=entry.get('version', None),
+                       template=entry.get('template', None),
                        author=author,
                        note=entry.get('note', None),
                        sources=self.parseSources(entry.get('sources', None)),
@@ -145,7 +145,7 @@ class BOMParser():
             # Process the entries and flag any that refer to subassemblies
             for comp_id, comp_data in comp_entries.items():
                 comp = bom.Component(name=comp_data['name'],
-                                     version=comp_data.get('version', ''),
+                                     template=comp_data.get('template', ''),
                                      comp_type=comp_type,
                                      attributes=comp_data.get('attributes', {}),
                                      variants=[],

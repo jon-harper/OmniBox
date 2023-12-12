@@ -43,7 +43,7 @@ class Part(NamedTuple):
     part_type: str              # category, e.g. fastener, MCU, fan
     icon: Optional[str]         # internal; Material icon key
     file_url: Optional[str]     # STL for printable files
-    version: Optional[str]      # Release version (for Core files) or template version (for others)
+    template: Optional[str]     # Release version (for Core files) or template version (for others)
     image_url: Optional[str]    # internal; display image for major parts
     note: Optional[str]         # internal
     sources: Optional[SourceList] # list of part links
@@ -62,16 +62,16 @@ class Variant(NamedTuple):
     note : str
 
 class Component(NamedTuple):
-    name : str
-    version : str
-    comp_type: str
-    attributes: dict[str, str] #name, value
-    variants : list[Variant]
-    note : str
+    name : str                  # Uniqe, descriptive name
+    template : Optional[str]    # Template for printed part interface
+    comp_type: str              # Category
+    attributes: dict[str, str]  # name, value dict for attributes
+    variants : list[Variant]    # List of variants of this component
+    note : Optional[str]        # Note common to all variants, optional
 
 ComponentData = dict[str, Component]
 
-VersionList = list[str]
+TemplateList = list[str]
 
 class GlobalData(NamedTuple):
     """
@@ -82,4 +82,4 @@ class GlobalData(NamedTuple):
     authors : AuthorData
     suppliers : SupplierData
     assembly_types : list[str]
-    versions: dict[str, VersionList]
+    templates: dict[str, TemplateList]

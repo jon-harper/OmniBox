@@ -22,7 +22,7 @@ def define_env(env):
     from os.path import join
 
     file = env.variables.meta['bom']
-    version = env.variables.meta['bom_version_str']
+    version = env.variables.meta['bom_template_str']
     
     global bom_data 
     bom_data = load_yaml.load_yaml(env.variables, join(env.conf.docs_dir, file))
@@ -30,7 +30,7 @@ def define_env(env):
     global product
     product = Product(components=bom_data.components,
                       parts=bom_data.parts,
-                      part_versions=bom_data.versions[version])
+                      templates=bom_data.templates[version])
     env.variables['fmt'] = fmt(product)
     env.variables['product'] = product
 
