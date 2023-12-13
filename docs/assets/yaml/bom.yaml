@@ -1,6 +1,6 @@
 config:
   id: test
-  baseUrl: 'https://raw.githubusercontent.com/jon-harper/OmniBox/main/'
+  baseUrl: 'https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta'
 suppliers:
   aliexpress:
     name: AliExpress
@@ -69,7 +69,7 @@ authors:
     name: SirUli
     url: https://github.com/SirUli
 parts:
-  # Socket Head
+  ### Socket head cap screws
   DIN 912:
     # M2.5 SHCS
     shcs_m2.5_6:
@@ -268,6 +268,11 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/YOKIVE-Standoff-Standoffs-Consistent-Motherboard/dp/B0BK9C7849"
+    standoff_m2.5_12_6:
+      name: M2.5 Brass Standoff, Female/Male, 12mm + 6mm
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Female-Standoff-Quadcopter-Computer-Circuit/dp/B0CJCHCRVJ/"
   PSU:
     mw_lrs350:
       name: Mean Well LRS-350 Series
@@ -373,6 +378,16 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/BIGTREETECH-Motherboard-Controller-Replacement-Original/dp/B0B1Q26SWR"
+    btt_skrat:
+      name: Bigtreetech SKRat
+      img: img/parts/btt_skrat.webp
+      sources:
+        fabreeko:
+          url: "https://www.fabreeko.com/products/bigtreetech-skrat-mcu-ratrig"
+        amazon_us:
+          url: "https://www.amazon.com/BIGTREETECH-Control-Support-Max31865-V-Minion/dp/B0C2YPXQ4T"
+        aliexpress:
+          url: "https://www.aliexpress.com/i/3256805161193810.html"
     duet_duet3_6hc:
       name: Duet3D Duet 3 6HC
       img: img/parts/duet3_6hc.webp
@@ -461,7 +476,25 @@ parts:
       sources:
         amazon_us:
           url: https://www.amazon.com/BIGTREETECH-Screen-Display-800x480-Raspberry/dp/B08FD2YZ23
+  ###
+  CPU:
+  ###
+    cpu_rpi3b_plus:
+      name: Raspberry Pi 3B+ 1GB
+      img: img/parts/rpi_3b_plus.webp
+      sources:
+        digikey:
+          url: "https://www.digikey.com/en/products/detail/raspberry-pi/SC0073/8571724"
+    cpu_rpi4b:
+      name: Raspberry Pi 4B+ 2GB
+      img: img/parts/rpi_4b.webp
+      sources:
+        digikey:
+          url: "https://www.digikey.com/en/products/detail/raspberry-pi/SC0193-9/10258782"
+  
+  ###
   Fan:
+  ###
     fan_4010:
       name: 40mm x 10mm Axial Fan
       img: img/parts/fan_4010.webp
@@ -563,7 +596,39 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/VCE-Listed-5-Pack-Keystone-Coupler-White/dp/B0116T7XMQ"
           note: Coupler only, no cable
-  
+    ethernet_panel:
+      name: RJ45 Panel Mount
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Ethernet-Extender-iGreely-Network-Extension/dp/B06Y4J9MZ4"
+          note: 2 eaches
+    usb3_panel_mount:
+      name: USB 3 Type A Panel Mount
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Ethernet-Extender-iGreely-Network-Extension/dp/B06Y4J9MZ4"
+          note: 2 eaches
+    usb3_dual_panel_mount:
+      name: USB 3 Dual Panel Mount
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/GINTOOYUN-Extension-Classroom-Conference-Entertainment/dp/B09QQJJML1"
+    usb2_typea_panel_mount:
+      name: USB 2 Type A Panel Mount
+      sources:
+        amazon_us: 
+          url: "https://www.amazon.com/USB-3-0-Extension-Cable-Panel-Mount/dp/B07C87FYLY"
+          note: 2 eaches
+    usb2_typeb_panel_mount:
+      name: USB 2 Type B Panel Mount
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/gp/product/B071P2BGK5"
+    usbc_panel_mount:
+      name: USB C Panel Mount Extension
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Poyiccot-Extension-Female-Extender-Straight/dp/B086W2R8Z6"
   Switch:
     switch_rocker:
       name: SPST Rocker Switch, 29mm x 10.5mm Panel Mount
@@ -596,7 +661,7 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/Polymaker-Filament-1-75mm-Strong-Cardboard/dp/B09DKSCRSX"
   
-  Connector:
+  Electrical Connector:
     conn_f_spade_14-16:
       name: Insulated Spade Connector, Female, 14-16 awg
       img: img/parts/conn_f_spade_14-16.webp
@@ -712,220 +777,248 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/DROK-Adjustable-Converter-Transformer-Protective/dp/B07JZ2GQJF"
 
+  Bearings:
+    688zz_bearing:
+      name: 688ZZ Radial Ball Bearing
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/uxcell-Groove-Bearings-Double-Shielded/dp/B08199J4RJ/ref=sr_1_3"
+          note: 5 eaches
+
   Printed:
     #MCU Trays
+    tray_btt_manta_e3ez_v2:
+      name: MCU Tray - BTT Manta E3EZ v2 - Stock.stl
+      file: /Trays/MCU/BTT Manta E3EZ/MCU Tray - BTT Manta E3EZ v2 - Stock.stl
+      template: mcu_v2
+    tray_btt_manta_e3ez_hsi_v2:
+      name: MCU Tray - BTT Manta E3EZ v2 - HSI.stl
+      file: /Trays/MCU/BTT Manta E3EZ/MCU Tray - BTT Manta E3EZ v2 - HSI.stl
+      template: mcu_v2
+    tray_btt_manta_m5p_v2:
+      name: MCU Tray - BTT Manta M5P v2.stl
+      file: /Trays/MCU/BTT Manta M5P/MCU Tray - BTT Manta M5P v2.stl
+      template: mcu_v2
     tray_btt_manta_m8p_v2:
       name: MCU Tray - BTT Manta M8P v2.stl
       file: /Trays/MCU/BTT Manta M8P/MCU Tray - BTT Manta M8P v2.stl
-      version: mcu_v2
+      template: mcu_v2
+    tray_btt_skrat_v2: 
+      name: MCU Tray - BTT SKRat v2 Stock.stl
+      file: /Trays/MCU/BTT SKRat/MCU Tray - BTT SKRat v2 Stock.stl
+      template: mcu_v2
+    tray_btt_skrat_hsi_v2:
+      name: MCU Tray - BTT SKRat v2 HSI.stl
+      file: /Trays/MCU/BTT SKRat/MCU Tray - BTT SKRat v2 HSI.stl
+      template: mcu_v2
     tray_btt_octopus_v2:
       name: MCU Tray - BTT Octopus - v2.stl
       file: /Trays/MCU/BTT Octopus/MCU Tray - BTT Octopus - v2.stl
-      version: mcu_v2
+      template: mcu_v2
     # tray_btt_octopus_v1:
     #   name: MCU Tray - BTT Octopus - v1.stl
     #   file: /Trays/MCU/BTT Octopus/MCU Tray - BTT Octopus - v1.stl
-    #   version: mcu_v1
+    #   template: mcu_v1
     tray_btt_skr_pico_v2_hsi:
       name: MCU Tray - BTT SKR Pico - v2 HSI.stl
       file: /Trays/MCU/BTT SKR Pico/MCU Tray - BTT SKR Pico - v2 HSI.stl
-      version: mcu_v2
+      template: mcu_v2
     # tray_btt_skr_pico_v1_hsi:
     #   name: MCU Tray - BTT SKR Pico - v1 HSI.stl
     #   file: /Trays/MCU/BTT SKR Pico/MCU Tray - BTT SKR Pico - v1 HSI.stl
-    #   version: mcu_v1
+    #   template: mcu_v1
     tray_btt_skr_e3_v2:
       name: MCU Tray - BTT SKR E3 v2.stl
       file: /Trays/MCU/BTT SKR E3/MCU Tray - BTT SKR E3 v2.stl
-      version: mcu_v2
+      template: mcu_v2
     # tray_btt_skr_e3_v1:
     #   name: MCU Tray - BTT SKR E3 v1.stl
     #   file: /Trays/MCU/BTT SKR E3/MCU Tray - BTT SKR E3 v1.stl
-    #   version: mcu_v1
+    #   template: mcu_v1
     tray_btt_skr_classic_v2:
       name: MCU Tray - BTT SKR v2.stl
       file: Trays/MCU/BTT SKR/MCU Tray - BTT SKR v2.stl
-      version: mcu_v2
+      template: mcu_v2
     # tray_btt_skr_classic_v1:
     #   name: MCU Tray - BTT SKR v1.stl
     #   file: Trays/MCU/BTT SKR/MCU Tray - BTT SKR v1.stl
-    #   version: mcu_v1
+    #   template: mcu_v1
     tray_creality_2_v2:
       name: MCU Tray - M3 Creality 2.5.2.stl 
       author: u_mrmeh
       file: https://www.printables.com/model/357420-omnibox-mcu-tray-creality-252-board
-      version: mcu_v2
+      template: mcu_v2
     tray_creality_2_v2_hsi:
       name:  MCU Tray - M3 - HSI - Creality 2.5.2.stl 
       author: u_mrmeh
       file: https://www.printables.com/model/357420-omnibox-mcu-tray-creality-252-board
-      version: mcu_v2
+      template: mcu_v2
     # tray_creality_2_v1:
     #   name: MCU Tray - M4 Creality 2.5.2.stl 
     #   author: u_mrmeh
     #   file: https://www.printables.com/model/357420-omnibox-mcu-tray-creality-252-board
-    #   version: mcu_v1
+    #   template: mcu_v1
     # tray_creality_2_v1_hsi:
     #   name:  MCU Tray - M4 - HSI - Creality 2.5.2.stl 
     #   author: u_mrmeh
     #   file: https://www.printables.com/model/357420-omnibox-mcu-tray-creality-252-board
-    #   version: mcu_v1
+    #   template: mcu_v1
     tray_duet3_6hc_v2:
       name: MCU Tray - Duet3D Duet 3 6HC v2.stl
       file: /Trays/MCU/Duet3D Duet 3 6HC/MCU Tray - Duet3D Duet 3 6HC v2.stl
-      version: mcu_v2
+      template: mcu_v2
     # tray_duet3_6hc_v1:
     #   name: MCU Tray - Duet3D Duet 3 6HC v1.stl
     #   file: /Trays/MCU/Duet3D Duet 3 6HC/MCU Tray - Duet3D Duet 3 6HC v1.stl
-    #   version: mcu_v1
+    #   template: mcu_v1
     tray_duet3_mini5p_v2:
       name: "MCU Tray - Duet3D Duet 3 Mini 5+ v2.stl"
       file: "/Trays/MCU/Duet3D Duet 3 Mini 5%2B/MCU Tray - Duet3D Duet 3 Mini 5+ v2.stl"
-      version: mcu_v2
+      template: mcu_v2
     # tray_duet3_mini5p_v1:
     #   name: "MCU Tray - Duet3D Duet 3 Mini 5+ v1.stl"
     #   file: "/Trays/MCU/Duet3D Duet 3 Mini 5%2B/MCU Tray - Duet3D Duet 3 Mini 5+ v1.stl"
-    #   version: mcu_v1
+    #   template: mcu_v1
     tray_fysetc_spider_v2:
       name: MCU Tray - FYSETC Spider v2.stl
       author: u_maffooclock
       file: "/Trays/MCU/Fysetc Spider/MCU Tray - Fysetc Spider v2.stl"
-      version: mcu_v2
+      template: mcu_v2
     tray_mks_monster_8_v2:
       name: MCU Tray - MKS Monster8 v2 - Stock.stl
       file: "/Trays/MCU/MKS Monster8/MCU Tray - MKS Monster8 v2 - Stock.stl"
-      version: mcu_v2
+      template: mcu_v2
     tray_mks_monster_8_v2_hsi:
       name: MCU Tray - MKS Monster8 v2 - HSI.stl
       file: "/Trays/MCU/MKS Monster8/MCU Tray - MKS Monster8 v2 - HSI.stl"
-      version: mcu_v2
+      template: mcu_v2
     tray_mks_skipr_v2:
       name: MCU Tray - MKS Skipr v2 - Stock.stl
       author: u_killajoe
       file: "/Trays/MCU/MKS Skipr/MCU Tray - MKS Skipr v2 - Stock.stl"
-      version: mcu_v2
+      template: mcu_v2
     tray_mks_skipr_v2_hsi:
       name: MCU Tray - MKS Skipr v2 - HSI.stl
       author: u_killajoe
       file: "/Trays/MCU/MKS Skipr/MCU Tray - MKS Skipr v2 - HSI.stl"
-      version: mcu_v2
+      template: mcu_v2
     tray_btt_skr_e3_and_pico_v2:
       name: MCU Tray - SKR E3 + Pico v2.stl
       file: /Trays/MCU/Dual MCU/SKR E3 and Pico/MCU Tray - SKR E3 + Pico v2.stl
-      version: mcu_v2
+      template: mcu_v2
     tray_dual_btt_skr_e3_v2:
       name: MCU Tray - Double SKR E3 v2.stl
       file: /Trays/MCU/Dual MCU/SKR E3 and SKR E3/MCU Tray - Double SKR E3 v2.stl
-      version: mcu_v2
+      template: mcu_v2
     tray_dual_btt_skr_pico_v2:
       name: MCU Tray - Dual BTT SKR Pico v2 - Stock.stl
       file: /Trays/MCU/Dual MCU/SKR Pico and SKR Pico/MCU Tray - Dual BTT SKR Pico v2 - Stock.stl
-      version: mcu_v2
+      template: mcu_v2
     tray_dual_btt_skr_pico_v2_hsi:
       name: MCU Tray - Dual BTT SKR Pico v2 - HSI.stl
       file: /Trays/MCU/Dual MCU/SKR Pico and SKR Pico/MCU Tray - Dual BTT SKR Pico v2 - HSI.stl
-      version: mcu_v2
+      template: mcu_v2
     ### PSU Trays
     # Mean Well LRS 350
     tray_mw_lrs350_v1_l:
       name: PSU Tray - LRS-350 - Left Mount.stl
       file: /Trays/PSU/V1/Mean Well LRS-350/PSU Tray - LRS-350 - Left Mount.stl
-      version: psu_v1
+      template: psu_v1
     tray_mw_lrs350_v1_l_hsi:
       name: PSU Tray - LRS-350 - Left Mount - HSI.stl
       file: /Trays/PSU/V1/Mean Well LRS-350/PSU Tray - LRS-350 - Left Mount - HSI.stl
-      version: psu_v1
+      template: psu_v1
     tray_mw_lrs350_v1_r:
       name: PSU Tray - LRS-350 - Right Mount.stl
       file: /Trays/PSU/V1/Mean Well LRS-350/PSU Tray - LRS-350 - Right Mount.stl
-      version: psu_v1
+      template: psu_v1
     tray_mw_lrs350_v1_r_hsi:
       name: PSU Tray - LRS-350 - Right Mount - HSI.stl
       file: /Trays/PSU/V1/Mean Well LRS-350/PSU Tray - LRS-350 - Right Mount - HSI.stl
-      version: psu_v1
+      template: psu_v1
     tray_mw_lrs350_v2_l:
       name: PSU Mount - LRS-350 - Left.stl
       file: /Trays/PSU/V2/Mean Well LRS-350/PSU Mount - LRS-350 - Left.stl
-      version: psu_v2
+      template: psu_v2
     tray_mw_lrs350_v2_l_hsi:
       name: PSU Mount - LRS-350 - Left HSI.stl
       file: /Trays/PSU/V2/Mean Well LRS-350/PSU Mount - LRS-350 - Left HSI.stl
-      version: psu_v2
+      template: psu_v2
     tray_mw_lrs350_v2_r:
       name: PSU Mount - LRS-350 - Right.stl
       file: /Trays/PSU/V2/Mean Well LRS-350/PSU Mount - LRS-350 - Right.stl
-      version: psu_v2
+      template: psu_v2
     tray_mw_lrs350_v2_r_hsi:
       name: PSU Mount - LRS-350 - Right HSI.stl
       file: /Trays/PSU/V2/Mean Well LRS-350/PSU Mount - LRS-350 - Right HSI.stl
-      version: psu_v2
+      template: psu_v2
     # Mean Well RSP 500
     tray_mw_rsp500_v1_l:
       name: PSU Tray - RSP-500 - Left Mount.stl
       file: /Trays/PSU/V1/Mean Well RSP-500/PSU Tray - RSP-500 - Left Mount.stl
-      version: psu_v1
+      template: psu_v1
     tray_mw_rsp500_v1_r:
       name: PSU Tray - RSP-500 - Right Mount.stl
       file: /Trays/PSU/V1/Mean Well RSP-500/PSU Tray - RSP-500 - Right Mount.stl
-      version: psu_v1
+      template: psu_v1
     tray_mw_rsp500_v2_l:
       name: PSU Mount - RSP-500 - Left.stl
       file: /Trays/PSU/V2/Mean Well RSP-500/PSU Mount - RSP-500 - Left.stl
-      version: psu_v2
+      template: psu_v2
     tray_mw_rsp500_v2_l_hsi:
       name: PSU Mount - RSP-500 - Left HSI.stl
       file: /Trays/PSU/V2/Mean Well RSP-500/PSU Mount - RSP-500 - Left HSI.stl
-      version: psu_v2
+      template: psu_v2
     tray_mw_rsp500_v2_r:
       name: PSU Mount - RSP-500 - Right.stl
       file: /Trays/PSU/V2/Mean Well RSP-500/PSU Mount - RSP-500 - Right.stl
-      version: psu_v2
+      template: psu_v2
     tray_mw_rsp500_v2_r_hsi:
       name: PSU Mount - RSP-500 - Right HSI.stl
       file: /Trays/PSU/V2/Mean Well RSP-500/PSU Mount - RSP-500 - Right HSI.stl
-      version: psu_v2
+      template: psu_v2
 
     # Mean Well LRS 450
     tray_mw_lrs450_v1_l:
       name: PSU Tray - LRS-450 - Left Mount.stl
       file: /Trays/PSU/V1/Mean Well LRS-450/PSU Tray - LRS-450 - Left Mount.stl
-      version: psu_v1
+      template: psu_v1
     tray_mw_lrs450_v1_r:
       name: PSU Tray - LRS-450 - Right Mount.stl
       file: /Trays/PSU/V1/Mean Well LRS-450/PSU Tray - LRS-450 - Right Mount.stl
-      version: psu_v1
+      template: psu_v1
 
     # Mean Well LRS 600
     tray_mw_lrs600_v1_l:
       name: PSU Tray - LRS-600 - Left Mount.stl
       file: /Trays/PSU/V1/Mean Well LRS-600/PSU Tray - LRS-600 - Left Mount.stl
-      version: psu_v1
+      template: psu_v1
     tray_mw_lrs600_v1_r:
       name: PSU Tray - LRS-600 - Right Mount.stl
       file: /Trays/PSU/V1/Mean Well LRS-600/PSU Tray - LRS-600 - Right Mount.stl
-      version: psu_v1
+      template: psu_v1
 
     # Mean Well SE 450
     tray_mw_se450_v1_l:
       name: PSU Tray - SE-450 - Left Mount.stl
       file: /Trays/PSU/V1/Mean Well SE-450/PSU Tray - SE-450 - Left Mount.stl
-      version: psu_v1
+      template: psu_v1
     tray_mw_se450_v1_r:
       name: PSU Tray - SE-450 - Right Mount.stl
       file: /Trays/PSU/V1/Mean Well SE-450/PSU Tray - SE-450 - Right Mount.stl
-      version: psu_v1
+      template: psu_v1
 
     ### Displays
     # Generic 12864
     panel_generic_12864:
       name: Display Panel - Generic 12864.stl
       file: /Panels/Display/Generic 12864/Display Panel - Generic 12864.stl
-      version: display_v2
+      template: display_v2
     # Mini 12864
     panel_mini12864:
       name: Display Mount - Mini 12864 - Panel.stl
       file: /Panels/Display/Mini 12864/Display Mount - Mini 12864 - Panel.stl
-      version: display_v2
+      template: display_v2
     mini_12864_front:
       name: Display Mount - Mini 12864 - Front Plate.stl
       file: /Panels/Display/Mini 12864/Display Mount - Mini 12864 - Front Plate.stl
@@ -936,7 +1029,7 @@ parts:
     panel_btt_tft35:
       name: Display Panel - BTT TFT35.stl
       file: /Panels/Display/BTT 3.5 TFT/Display Panel - BTT TFT35.stl
-      version: display_v2
+      template: display_v2
     btt_tft35_mount:
       name: Display Mount - BTT TFT35.stl
       file: /Panels/Display/BTT 3.5 TFT/Display Mount - BTT TFT35.stl
@@ -945,7 +1038,7 @@ parts:
       name: Display - BTT HDMI5 - Panel - HSI.stl
       author: u_siruli
       file: /Panels/Display/BTT HDMI5/Display - BTT HDMI5 - Panel - HSI.stl
-      version: display_v2
+      template: display_v2
     btt_hdmi5_mount:
       name: Display - BTT HDMI5 - Holder.stl
       author: u_siruli
@@ -955,19 +1048,19 @@ parts:
       name: Display Panel - BTT PI TFT50.stl
       author: u_maffooclock
       file: /Panels/Display/BTT PI TFT50/Display Panel - BTT PI TFT50.stl
-      version: display_v2
+      template: display_v2
     panel_btt_pi_tft5_hsi:
       name: Display Panel - BTT PI TFT50 - HSI.stl
       author: u_maffooclock
       file: /Panels/Display/BTT PI TFT50/Display Panel - BTT PI TFT50 - HSI.stl
-      version: display_v2
+      template: display_v2
     btt_pi_tft5_mount:
       name: Display Mount - BTT PI TFT50.stl
       file: /Panels/Display/BTT PI TFT50/Display Mount - BTT PI TFT50.stl
     panel_generic_rpi_tft7:
       name: Display Mount - Raspberry Pi TFT.stl
       file: /Panels/Display/Raspberry Pi TFT/Display Mount - Raspberry Pi TFT.stl
-      version: display_v2
+      template: display_v2
     # Anton's RPI display mount
     # Files need renaming first
     # panel_rpi_tft7_flat:
@@ -975,199 +1068,203 @@ parts:
     panel_btt_tft35_e3:
       name: Display Panel  - BTT TFT35-E3.stl
       file: /Panels/Display/BTT 3.5 TFT E3/Display Panel  - BTT TFT35-E3.stl
-      version: display_v2
+      template: display_v2
 
     ### Side Panels
     panel_side_blank_v1:
       name: Side Panel - Blank.stl
       file: /Panels/Side Panel/Blank/Side Panel - Blank.stl
-      version: side_v1
+      template: side_v1
     panel_side_40mm_hexagons_v1:
       name: Side Panel - Internal 40mm Fan - Hexagons.stl
       file: /Panels/Side Panel/40mm Fan - Internal/Side Panel - Internal 40mm Fan - Hexagons.stl
-      version: side_v1
+      template: side_v1
     panel_side_40mm_omnibox_v1:
       name: Side Panel - Internal 40mm Fan - OmniBox Logo.stl
       file: /Panels/Side Panel/40mm Fan - Internal/Side Panel - Internal 40mm Fan - OmniBox Logo.stl
-      version: side_v1
+      template: side_v1
     panel_side_50mm_internal_v1:
       name: Side Panel - Internal 50mm Fan.stl
       file: /Panels/Side Panel/50mm Fan/Side Panel - Internal 50mm Fan.stl
-      version: side_v1
+      template: side_v1
     panel_side_50mm_external_v1:
       name: Side Panel - External 50mm Fan.stl
       file: /Panels/Side Panel/50mm Fan/Side Panel - External 50mm Fan.stl
-      version: side_v1
+      template: side_v1
     panel_side_keystone_3pos_v1:
       name: Side Panel - Keystone - 3 Keys.stl
       file: /Panels/Side Panel/Keystone Jacks/Side Panel - Keystone - 3 Keys.stl
-      version: side_v1
+      template: side_v1
     panel_side_rj45_usb_v1:
       name: Side Panel - RJ-45 & Dual USB.stl
       file: /Panels/Side Panel/RJ-45 %26 Dual USB/Side Panel - RJ-45 & Dual USB.stl
-      version: side_v1
+      template: side_v1
     panel_side_rj45_usb2_v1:
       name: Side Panel - RJ-45 & Dual USB Type 2.stl
       file: /Panels/Side Panel/RJ-45 %26 Dual USB/Side Panel - RJ-45 & Dual USB Type 2.stl
-      version: side_v1
+      template: side_v1
 
     panel_side_blank_v2:
       name: Side Panel V2 - Blank.stl
       file: /Panels/Side Panel/V2/Blank/Side Panel V2 - Blank.stl
-      version: side_v2
+      template: side_v2
     panel_side_40mm_omnibox_v2:
       name: Side Panel - 40mm Fan - OmniBox Logo.step
       file: /Panels/Side Panel/V2/40mm Fan - Internal/Side Panel - 40mm Fan - OmniBox Logo.step
-      version: side_v2
+      template: side_v2
     panel_side_40mm_omnibox_v2_hsi:
       name: Side Panel - 40mm Fan - OmniBox Logo - HSI.stl
       file: /Panels/Side Panel/V2/40mm Fan - Internal/Side Panel - 40mm Fan - OmniBox Logo - HSI.stl
-      version: side_v2
+      template: side_v2
     panel_side_50mm_internal_v2:
       name: Side Panel - 50mm Fan - Grill.stl
       file: /Panels/Side Panel/V2/50mm Fan - Internal/Side Panel - 50mm Fan - Grill.stl
-      version: side_v2
+      template: side_v2
     panel_side_50mm_internal_v2_hsi:
       name: Side Panel - 50mm Fan - Grill - HSI.stl
       file: /Panels/Side Panel/V2/50mm Fan - Internal/Side Panel - 50mm Fan - Grill - HSI.stl
-      version: side_v2
+      template: side_v2
     panel_side_keystone_3pos_v2:
       name: Side Panel - Keystone - 3 Keys.stl
       file: /Panels/Side Panel/V2/Keystone Jacks/Side Panel - Keystone - 3 Keys.stl
-      version: side_v2
+      template: side_v2
     panel_side_rj45_usb_v2:
       name: Side Panel - RJ45 and 2x Single USB.stl
       file: /Panels/Side Panel/V2/RJ-45 %26 Dual USB/Side Panel - RJ45 and 2x Single USB.stl
-      version: side_v2
+      template: side_v2
     panel_side_rj45_usb2_v2:
       name: Side Panel - RJ45 and 1x Dual USB.stl
       file: /Panels/Side Panel/V2/RJ-45 %26 Dual USB/Side Panel - RJ45 and 1x Dual USB.stl
-      version: side_v2
+      template: side_v2
     
     ### CPU Trays
     tray_cpu_rpi3b_v2:
       name: CPU Tray - RPi 3B Plus.stl
       file: /Trays/CPU/V2/Raspberry Pi 3B Plus/CPU Tray - RPi 3B Plus.stl
-      version: cpu_v2
+      template: cpu_v2
     tray_cpu_rpi_3b_spi_v2:
       name: CPU Tray - RPi 3B Plus with SPI.stl
       file: /Trays/CPU/V2/Raspberry Pi 3B Plus/CPU Tray - RPi 3B Plus.stl
-      version: cpu_v2
+      template: cpu_v2
     tray_cpu_rpi4_v2:
       name: CPU Tray - RPi 4B.stl
       file: /Trays/CPU/V2/Raspberry Pi 4B/CPU Tray - RPi 4B.stl
-      version: cpu_v2
+      template: cpu_v2
     tray_cpu_rpi4_spi_v2:
       name: CPU Tray - RPi 4B with SPI.stl
       file: /Trays/CPU/V2/Raspberry Pi 4B/CPU Tray - RPi 4B with SPI.stl
-      version: cpu_v2
+      template: cpu_v2
     tray_cpu_universal_v2:
       name: CPU Tray - RPi with Fan.stl
       file: /Trays/CPU/V2/Raspberry Pi Universal/CPU Tray - RPi with Fan.stl
-      version: cpu_v2
+      template: cpu_v2
     tray_cpu_universal_spi_v2:
       name: CPU Tray - RPi with Fan and SPI.stl
       file: /Trays/CPU/V2/Raspberry Pi Universal/CPU Tray - RPi with Fan and SPI.stl
-      version: cpu_v2
+      template: cpu_v2
     tray_storage_v2:
       name: CPU Tray - Storage.stl
       file: /Trays/CPU/V2/Storage Tray/CPU Tray - Storage.stl
-      version: cpu_v2
+      template: cpu_v2
     
     tray_cpu_rpi3b_v3:
       name: CPU Tray V3 - RPi 3B+.stl
       file: /Trays/CPU/V3/Raspberry Pi 3B%2B/CPU Tray V3 - RPi 3B+.stl
-      version: cpu_v3
+      template: cpu_v3
     tray_cpu_rpi4_v3:
       name: CPU Tray V3 - RPi 4B.stl
       file: /Trays/CPU/V3/Raspberry Pi 4B/CPU Tray V3 - RPi 4B.stl
-      version: cpu_v3
+      template: cpu_v3
     tray_cpu_universal_v3:
       name: RPi Universal Tray without Fan.stl
       file: /Trays/CPU/V3/Raspberry Pi Universal/RPi Universal Tray without Fan.stl
-      version: cpu_v3
+      template: cpu_v3
     tray_cpu_universal_v3_hsi:
       name: RPi Universal Tray without Fan - HSI.stl
       file: /Trays/CPU/V3/Raspberry Pi Universal/RPi Universal Tray without Fan - HSI.stl
-      version: cpu_v3
+      template: cpu_v3
     tray_cpu_universal_v3_40mm:
       name: RPi Universal Tray with 40mm Fan.stl
       file: /Trays/CPU/V3/Raspberry Pi Universal/RPi Universal Tray with 40mm Fan.stl
-      version: cpu_v3
+      template: cpu_v3
     tray_cpu_universal_v3_40mm_hsi:
       name: RPi Universal Tray w 40mm Fan - HSI.stl
       file: /Trays/CPU/V3/Raspberry Pi Universal/RPi Universal Tray w 40mm Fan - HSI.stl
-      version: cpu_v3
+      template: cpu_v3
     tray_cpu_universal_v3_50mm:
       name: RPi Universal Tray with 50mm Fan.stl
       file: /Trays/CPU/V3/Raspberry Pi Universal/RPi Universal Tray with 50mm Fan.stl
-      version: cpu_v3
+      template: cpu_v3
     tray_cpu_universal_v3_50mm_hsi:
       name: RPi Universal Tray w 50mm Fan - HSI.stl
       file: /Trays/CPU/V3/Raspberry Pi Universal/RPi Universal Tray w 50mm Fan - HSI.stl
-      version: cpu_v3
+      template: cpu_v3
     
     ### Front Panel
+    panel_front_blank:
+      name: Front Panel -  Blank.stl
+      file: /Panels/Front Panel/Blank/Front Panel -  Blank.stl
+      template: fp_v1
     panel_front_sd_keystone_hex:
       name: Front Panel - MicroSD, Keystone Jack, Hexagons.stl
       file: /Panels/Front Panel/MicroSD Extension/Keystone Jack/Front Panel - MicroSD, Keystone Jack, Hexagons.stl
-      version: fp_v1
+      template: fp_v1
     panel_front_sd_keystone_slats:
       name: Front Panel - MicroSD, Keystone Jack, Slats.stl
       file: /Panels/Front Panel/MicroSD Extension/Keystone Jack/Front Panel - MicroSD, Keystone Jack, Slats.stl
-      version: fp_v1
+      template: fp_v1
     panel_front_sd_keystone_slots:
       name: Front Panel - MicroSD, Keystone Jack, Slots.stl
       file: /Panels/Front Panel/MicroSD Extension/Keystone Jack/Front Panel - MicroSD, Keystone Jack, Slots.stl
-      version: fp_v1
-    panel_front_sd_usba_hex:
+      template: fp_v1
+    panel_front_sd_usbb_hex:
       name: Front Panel - MicroSD, USB B, Hexagons.stl
       file: /Panels/Front Panel/MicroSD Extension/USB A/Front Panel - MicroSD, USB B, Hexagons.stl
-      version: fp_v1
-    panel_front_sd_usba_slats:
+      template: fp_v1
+    panel_front_sd_usbb_slats:
       name: Front Panel - MicroSD, USB B, Slats.stl
       file: /Panels/Front Panel/MicroSD Extension/USB A/Front Panel - MicroSD, USB B, Slats.stl
-      version: fp_v1
-    panel_front_sd_usba_slots:
+      template: fp_v1
+    panel_front_sd_usbb_slots:
       name: Front Panel - MicroSD, USB B, Slots.stl
       file: /Panels/Front Panel/MicroSD Extension/USB A/Front Panel - MicroSD, USB B, Slots.stl
-      version: fp_v1
+      template: fp_v1
     panel_front_sd_usbc_hex:
       name: Front Panel - MicroSD, USB C, Hexagons.stl
       file: /Panels/Front Panel/MicroSD Extension/USB C/Front Panel - MicroSD, USB C, Hexagons.stl
-      version: fp_v1
+      template: fp_v1
     panel_front_sd_usbc_slats:
       name: Front Panel - MicroSD, USB C, Slats.stl
       file: /Panels/Front Panel/MicroSD Extension/USB C/Front Panel - MicroSD, USB C, Slats.stl
-      version: fp_v1
+      template: fp_v1
     panel_front_sd_usbc_slots:
       name: Front Panel - MicroSD, USB C, Slots.stl
       file: /Panels/Front Panel/MicroSD Extension/USB C/Front Panel - MicroSD, USB C, Slots.stl
-      version: fp_v1
+      template: fp_v1
     panel_front_sd_hex:
       name: Front Panel - MicroSD, Hexagons.stl
       file: /Panels/Front Panel/MicroSD Extension/No USB/Front Panel - MicroSD, Hexagons.stl
-      version: fp_v1
+      template: fp_v1
     panel_front_sd_slats:
       name: Front Panel - MicroSD, Slats.stl
       file: /Panels/Front Panel/MicroSD Extension/No USB/Front Panel - MicroSD, Slats.stl
-      version: fp_v1
+      template: fp_v1
     panel_front_sd_slots:
       name: Front Panel - MicroSD, Slots.stl
       file: /Panels/Front Panel/MicroSD Extension/No USB/Front Panel - MicroSD, Slots.stl
-      version: fp_v1
+      template: fp_v1
     panel_front_vent_hex:
       name: Front Panel - Vent Only Hexagons.stl
       file: /Panels/Front Panel/Vent Only/Front Panel - Vent Only Hexagons.stl
-      version: fp_v1
+      template: fp_v1
     panel_front_vent_slats:
       name: Front Panel - Vent Only Slats.stl
       file: /Panels/Front Panel/Vent Only/Front Panel - Vent Only Slats.stl
-      version: fp_v1
+      template: fp_v1
     panel_front_vent_slots:
       name: Front Panel - Vent Only Slots.stl
       file: /Panels/Front Panel/Vent Only/Front Panel - Vent Only Slots.stl
-      version: fp_v1
+      template: fp_v1
 
     ### Misc Parts
     misc_spool_roller:
@@ -1203,1355 +1300,2117 @@ parts:
     lid_long_blank:
       name: Lid - Long Blank.stl
       file: /Panels/Lid/Long/Blank/Lid - Long Blank.stl
-      version: lid_v1
+      template: lid_v1
     lid_long_carry:
       name: Carry Lid.stl
       file: /Panels/Lid/Long/Carry lid/Carry Lid.stl
-      version: lid_v1
+      template: lid_v1
     lid_long_21qt_drybox:
       name: Lid - Drybox Holder - Rubbermaid 21qt.stl
       file: /Panels/Lid/Long/Drybox Holder/Lid - Drybox Holder - Rubbermaid 21qt.stl
-      version: lid_v1
+      template: lid_v1
     lid_long_roller:
       name: Lid - Spool Roller.stl
       file: /Panels/Lid/Long/Spool Roller/Lid - Spool Roller.stl
-      version: lid_v1
+      template: lid_v1
     lid_long_120mm:
       name: Lid - Fan Only.stl
       file: /Panels/Lid/Long/120mm Fan/Lid - Fan Only.stl
-      version: lid_v1
+      template: lid_v1
     lid_long_120mm_handle:
       name: Lid - 120mm Fan and Handle.stl
       file: /Panels/Lid/Long/120mm Fan/Lid - 120mm Fan and Handle.stl
-      version: lid_v1
+      template: lid_v1
 
     # Short lids
     lid_short_blank:
       name: Lid - Short Blank.stl
       file: /Panels/Lid/Short/Blank/Lid - Short Blank.stl
-      version: lid_v1
+      template: lid_v1
     lid_short_carry:
       name: Half Carry Lid.stl
       file: /Panels/Lid/Short/Carry Lid/Half Carry Lid.stl
-      version: lid_v1
+      template: lid_v1
     lid_short_80mm:
       name: Half Lid - 80mm Fan.stl
       file: /Panels/Lid/Short/Fan Lids/Half Lid - 80mm Fan.stl
-      version: lid_v1
+      template: lid_v1
     lid_short_92mm:
       name: Half Lid - 92mm Fan.stl
       file: /Panels/Lid/Short/Fan Lids/Half Lid - 92mm Fan.stl
-      version: lid_v1
+      template: lid_v1
     lid_short_dual_40mm:
       name: Half Lid - Dual 40mm Fans.stl
       file: /Panels/Lid/Short/Fan Lids/Half Lid - Dual 40mm Fans.stl
-      version: lid_v1
+      template: lid_v1
     lid_short_rpi_tft:
       name: Lid - RPi TFT.stl
       file: /Panels/Lid/Short/Pi TFT/Lid - RPi TFT.stl
-      version: lid_v1
+      template: lid_v1
     lid_short_rpi_tft_xl:
       name: Lid - XL RPi TFT.stl
       file: /Panels/Lid/Short/Pi TFT/Lid - XL RPi TFT.stl
-      version: lid_v1
+      template: lid_v1
     lid_short_vent:
       name: Lid - Short Vent.stl
       file: /Panels/Lid/Short/Vent/Lid - Short Vent.stl
-      version: lid_v1
+      template: lid_v1
 
     ### Rear Panels
-    panel_rear_generic:
+    panel_rear_generic_v2:
       name: Generic No USB.stl
       file: /Panels/Rear Panel/Generic/No USB%2C No Fan/
-      version: rear_v2
-    panel_rear_generic_60mm:
+      template: rear_v2
+    panel_rear_generic_60mm_v2:
       name: Generic No USB with Fan.stl
       file: /Panels/Rear Panel/Generic/No USB%2C 60mm Fan/Generic No USB with Fan.stl
-      version: rear_v2
-    panel_rear_generic_usbb:
+      template: rear_v2
+    panel_rear_generic_usbb_v2:
       name: Rear Panel - Generic Panel USB B.stl
       file: /Panels/Rear Panel/Generic/USB B%2C No Fan/Rear Panel - Generic Panel USB B.stl
-      version: rear_v2
-    panel_rear_generic_usbb_60mm:
+      template: rear_v2
+    panel_rear_generic_usbb_60mm_v2:
       name: Rear Panel - Generic USB B with Fan.stl
       file: /Panels/Rear Panel/Generic/USB B%2C 60mm Fan/Rear Panel - Generic USB B with Fan.stl
-      version: rear_v2
-    panel_rear_generic_usbc:
+      template: rear_v2
+    panel_rear_generic_usbc_v2:
       name: Rear Panel - Generic Panel USB C.stl
       file: /Panels/Rear Panel/Generic/USB C%2C No Fan/Rear Panel - Generic Panel USB C.stl
-      version: rear_v2
-    panel_rear_generic_usbc_60mm:
+      template: rear_v2
+    panel_rear_generic_usbc_60mm_v2:
       name: Rear Panel - Generic USB C with Fan.stl
       file: /Panels/Rear Panel/Generic/USB C%2C 60mm Fan/Rear Panel - Generic USB C with Fan.stl
-      version: rear_v2
-    panel_rear_dual_60mm:
+      template: rear_v2
+    panel_rear_dual_60mm_v2:
       name: Rear Panel - Dual 60mm - Stock.stl
       file: /Panels/Rear Panel/Custom/Dual 60mm/Rear Panel - Dual 60mm - Stock.stl
-      version: rear_v3
-    panel_rear_dual_60mm_hsi:
+      template: rear_v3
+    panel_rear_dual_60mm_hsi_v2:
       name: Rear Panel - Dual 60mm - HSI.stl
       file: /Panels/Rear Panel/Custom/Dual 60mm/Rear Panel - Dual 60mm - HSI.stl
-      version: rear_v3
-    panel_rear_dual_60mm_usba:
+      template: rear_v3
+    panel_rear_dual_60mm_usba_v2:
       name: Rear Panel - Dual 60mm - Stock USB A.stl
       file: /Panels/Rear Panel/Custom/Dual 60mm/Rear Panel - Dual 60mm - Stock USB A.stl
-      version: rear_v3
-    panel_rear_dual_60mm_usba_hsi:
+      template: rear_v3
+    panel_rear_dual_60mm_usba_hsi_v2:
       name: Rear Panel - Dual 60mm - HSI USB A.stl
       file: /Panels/Rear Panel/Custom/Dual 60mm/Rear Panel - Dual 60mm - HSI USB A.stl
-      version: rear_v3
-    panel_rear_dual_60mm_usbb:
+      template: rear_v3
+    panel_rear_dual_60mm_usbb_v2:
       name: Rear Panel - Dual 60mm - Stock USB B.stl
       file: /Panels/Rear Panel/Custom/Dual 60mm/Rear Panel - Dual 60mm - Stock USB B.stl
-      version: rear_v3
-    panel_rear_dual_60mm_usbb_hsi:
+      template: rear_v3
+    panel_rear_dual_60mm_usbb_hsi_v2:
       name: Rear Panel - Dual 60mm - HSI USB B.stl
       file: /Panels/Rear Panel/Custom/Dual 60mm/Rear Panel - Dual 60mm - HSI USB B.stl
-      version: rear_v3
-    panel_rear_dual_60mm_usbc:
+      template: rear_v3
+    panel_rear_dual_60mm_usbc_v2:
       name: Rear Panel - Dual 60mm - Stock USB C.stl
       file: /Panels/Rear Panel/Custom/Dual 60mm/Rear Panel - Dual 60mm - Stock USB C.stl
-      version: rear_v3
-    panel_rear_dual_60mm_usbc_hsi:
+      template: rear_v3
+    panel_rear_dual_60mm_usbc_hsi_v2:
       name: Rear Panel - Dual 60mm - HSI USB C.stl
       file: /Panels/Rear Panel/Custom/Dual 60mm/Rear Panel - Dual 60mm - HSI USB C.stl
-      version: rear_v3
+      template: rear_v3
+    
 
     ### Bottom Panels
-    panel_bottom_blank_front_v2:
+    panel_btm_blank_front_v2:
       name: Front Bottom Panel - Closed.stl
       file: /Panels/Bottom Panel/V2/Closed/Front Bottom Panel - Closed.stl
-      version: bottom_v2
-    panel_bottom_blank_rear_v2:
+      template: bottom_v2
+    panel_btm_blank_rear_v2:
       name: Rear Bottom Panel - Closed.stl
       file: /Panels/Bottom Panel/V2/Closed/Rear Bottom Panel - Closed.stl
-      version: bottom_v2
-    panel_bottom_hex_front_v2:
+      template: bottom_v2
+    panel_btm_hex_front_v2:
       name: Front Bottom Panel - Hex.stl
       file: /Panels/Bottom Panel/V2/Hex/Front Bottom Panel - Hex.stl
-      version: bottom_v2
-    panel_bottom_hex_rear_v2:
+      template: bottom_v2
+    panel_btm_hex_rear_v2:
       name: Rear Bottom Panel - Hex.stl
       file: /Panels/Bottom Panel/V2/Hex/Rear Bottom Panel - Hex.stl
-      version: bottom_v2
-    panel_bottom_mw_front_v2:
+      template: bottom_v2
+    panel_btm_mw_front_v2:
       name: Front Bottom Panel.stl
       file: /Panels/Bottom Panel/V2/LRS Series/Front Bottom Panel.stl
-      version: bottom_v2
-    panel_bottom_mw_rear_v2:
+      template: bottom_v2
+    panel_btm_mw_rear_v2:
       name: Rear Bottom Panel.stl
       file: /Panels/Bottom Panel/V2/LRS Series/Rear Bottom Panel.stl
-      version: bottom_v2
+      template: bottom_v2
 
-    panel_bottom_blank_front_v3:
+    panel_btm_blank_front_v3:
       name: Bottom Panel V3 - Blank Front.stl
       file: /Panels/Bottom Panel/V3/Blank/Bottom Panel V3 - Blank Front.stl
-      version: bottom_v3
-    panel_bottom_blank_rear_v3:
+      template: bottom_v3
+    panel_btm_blank_rear_v3:
       name: Bottom Panel V3 - Blank Rear.stl
       file: /Panels/Bottom Panel/V3/Blank/Bottom Panel V3 - Blank Rear.stl
-      version: bottom_v3
-    panel_bottom_blank_v3:
+      template: bottom_v3
+    panel_btm_blank_v3:
       name: Bottom Panel V3 - Blank Unified.stl
       file: /Panels/Bottom Panel/V3/Blank/Bottom Panel V3 - Blank Unified.stl
-      version: bottom_v3
-    panel_bottom_hex_front_v3:
+      template: bottom_v3
+    panel_btm_hex_front_v3:
       name: Bottom Panel V3 - Hexagons Front.stl
       file: /Panels/Bottom Panel/V3/Hexagons/Bottom Panel V3 - Hexagons Front.stl
-      version: bottom_v3
-    panel_bottom_hex_rear_v3:
+      template: bottom_v3
+    panel_btm_hex_rear_v3:
       name: Bottom Panel V3 - Hexagons Rear.stl
       file: /Panels/Bottom Panel/V3/Hexagons/Bottom Panel V3 - Hexagons Rear.stl
-      version: bottom_v3
-    panel_bottom_hex_v3:
+      template: bottom_v3
+    panel_btm_hex_v3:
       name: Bottom Panel V3 - Hexagons Unified.stl
       file: /Panels/Bottom Panel/V3/Hexagons/Bottom Panel V3 - Hexagons Unified.stl
-      version: bottom_v3
-    panel_bottom_mw_front_v3:
+      template: bottom_v3
+    panel_btm_mw_front_v3:
       name: Bottom Panel V3 - Mean Well Front.stl
       file: /Panels/Bottom Panel/V3/Mean Well/Bottom Panel V3 - Mean Well Front.stl
-      version: bottom_v3
-    panel_bottom_mw_v3:
+      template: bottom_v3
+    panel_btm_mw_v3:
       name: Bottom Panel V3 - Mean Well Unified.stl
       file: /Panels/Bottom Panel/V3/Mean Well/Bottom Panel V3 - Mean Well Unified.stl
-      version: bottom_v3
+      template: bottom_v3
 
     ### Lower Bay
     tray_lb_40mm:
       name: Lower Bay Tray - 40mm Fan.stl
       file: /Trays/Lower Bay/40mm Fan/Lower Bay Tray - 40mm Fan.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_omron_long:
       name: Lower Bay Tray -  48mm SRR - Long Tray.stl
       file: /Trays/Lower Bay/48mm SSR/Lower Bay Tray -  48mm SRR - Long Tray.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_omron_short:
       name: Lower Bay Tray -  48mm SRR - Short Tray.stl
       file: /Trays/Lower Bay/48mm SSR/Lower Bay Tray -  48mm SRR - Short Tray.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_btt_relay:
       name: Lower Bay Tray - BIGTREETECH Relay 1.2.stl
       file: /Trays/Lower Bay/BTT Relay 1.2/Lower Bay Tray - BIGTREETECH Relay 1.2.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_creality_mosfet_short:
       name: Lower Bay Tray - Creality MOSFET - Short.stl
       file: /Trays/Lower Bay/Creality MOSFET/Lower Bay Tray - Creality MOSFET - Short.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_creality_mosfet_short_hsi:
       name: Lower Bay Tray - Creality MOSFET - Short HSI.stl
       file: /Trays/Lower Bay/Creality MOSFET/Lower Bay Tray - Creality MOSFET - Short HSI.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_creality_mosfet_long:
       name: Lower Bay Tray - Creality MOSFET - Long.stl
       file: /Trays/Lower Bay/Creality MOSFET/Lower Bay Tray - Creality MOSFET - Long.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_creality_mosfet_long_hsi:
       name: Lower Bay Tray - Creality MOSFET - Long HSI.stl
       file: /Trays/Lower Bay/Creality MOSFET/Lower Bay Tray - Creality MOSFET - Long HSI.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_buck_drok_3a_short:
       name: Lower Bay Tray - DROK 3A LM2596 - Short Single Tray.stl
       file: /Trays/Lower Bay/DROK 3A LM2596 with LED/Lower Bay Tray - DROK 3A LM2596 - Short Single Tray.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_buck_drok_3a_long_dual:
       name: Lower Bay Tray - DROK 3A LM2596 - Long Dual Tray.stl
       file: /Trays/Lower Bay/DROK 3A LM2596 with LED/Lower Bay Tray - DROK 3A LM2596 - Long Dual Tray.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_buck_drok_3a_long_dual_fan:
       name: Lower Bay Tray - DROK 3A LM2596 - Long Dual with Fan.stl
       file: /Trays/Lower Bay/DROK 3A LM2596 with LED/Lower Bay Tray - DROK 3A LM2596 - Long Dual with Fan.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_buck_drok_3a_long_fan:
       name: Lower Bay Tray - DROK 3A LM2596 - Long Single with Fan.stl
       file: /Trays/Lower Bay/DROK 3A LM2596 with LED/Lower Bay Tray - DROK 3A LM2596 - Long Single with Fan.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_drok_5a:
       name: Lower Bay - DROK 5A Buck with LED.stl
       file: /Trays/Lower Bay/DROK 5A Buck with LED/Lower Bay - DROK 5A Buck with LED.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_drok_5a_wago:
       name: Lower Bay - DROK 5A Buck with LED - Dual Wago.stl
       file: /Trays/Lower Bay/DROK 5A Buck with LED/Lower Bay - DROK 5A Buck with LED - Dual Wago.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_drok_lm2596_led_short:
       name: Lower Bay Tray - DROK LM2596 - Short Single.stl
       file: /Trays/Lower Bay/DROK LM2596 with LED/Lower Bay Tray - DROK LM2596 - Short Single.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_drok_lm2596_led_long_fan:
       name: Lower Bay Tray - DROK LM2596 - Long Single with Fan.stl
       file: /Trays/Lower Bay/DROK LM2596 with LED/Lower Bay Tray - DROK LM2596 - Long Single with Fan.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_drok_lm2596_led_long_dual:
       name: Lower Bay Tray - DROK LM2596 - Long Dual.stl
       file: /Trays/Lower Bay/DROK LM2596 with LED/Lower Bay Tray - DROK LM2596 - Long Dual.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_drok_lm2596_led_long_dual_fan:
       name: Lower Bay Tray - DROK LM2596 - Long Dual with Fan.stl
       file: /Trays/Lower Bay/DROK LM2596 with LED/Lower Bay Tray - DROK LM2596 - Long Dual with Fan.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_fotek_ssr40_short:
       name: Lower Bay - SSR-40 DA - Short.stl
       file: /Trays/Lower Bay/Fotek SSR-40 DA/Lower Bay - SSR-40 DA - Short.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_fotek_ssr40_long:
       name: Lower Bay - SSR-40 DA - Long.stl
       file: /Trays/Lower Bay/Fotek SSR-40 DA/Lower Bay - SSR-40 DA - Long.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_basic_lm2596_short:
       name: Lower Bay Tray - Generic LM2596 - Short Single Tray.stl
       file: /Trays/Lower Bay/Generic LM2596/Lower Bay Tray - Generic LM2596 - Short Single Tray.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_basic_lm2596_short_dual:
       name: Lower Bay Tray - Generic LM2596 - Short Dual Tray.stl
       file: /Trays/Lower Bay/Generic LM2596/Lower Bay Tray - Generic LM2596 - Short Dual Tray.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_basic_lm2596_long_fan:
       name: Lower Bay Tray - Generic LM2596 - Long Single with Fan.stl
       file: /Trays/Lower Bay/Generic LM2596/Lower Bay Tray - Generic LM2596 - Long Single with Fan.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_basic_lm2596_long_dual:
       name: Lower Bay Tray - Generic LM2596 - Long Dual Tray.stl
       file: /Trays/Lower Bay/Generic LM2596/Lower Bay Tray - Generic LM2596 - Long Dual Tray.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_basic_lm2596_long_dual_fan:
       name: Lower Bay Tray - Generic LM2596 - Long Dual with Fan.stl
       file: /Trays/Lower Bay/Generic LM2596/Lower Bay Tray - Generic LM2596 - Long Dual with Fan.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_hiletgo_lm2596_short:
       name: Lower Bay Tray - HiLetGo LM2596 - Short Single.stl
       file: /Trays/Lower Bay/HiLetGo LM2596 with LED/Lower Bay Tray - HiLetGo LM2596 - Short Single.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_hiletgo_lm2596_long_fan:
       name: Lower Bay Tray - HiLetGo LM2596 - Long Single with Fan.stl
       file: /Trays/Lower Bay/HiLetGo LM2596 with LED/Lower Bay Tray - HiLetGo LM2596 - Long Single with Fan.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_hiletgo_lm2596_long_dual:
       name: Lower Bay Tray - HiLetGo LM2596 - Long Dual.stl
       file: /Trays/Lower Bay/HiLetGo LM2596 with LED/Lower Bay Tray - HiLetGo LM2596 - Long Dual.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_hiletgo_lm2596_long_dual_fan:
       name: Lower Bay Tray - HiLetGo LM2596 - Long Dual with Fan.stl
       file: /Trays/Lower Bay/HiLetGo LM2596 with LED/Lower Bay Tray - HiLetGo LM2596 - Long Dual with Fan.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
+    tray_lb_btt_u2c:
+      name: OmniBox Lower Bay Short Tray for BTT U2C (Printables)
+      template: lower_bay_v1
+      author: u_edgy
     tray_lb_wago_4x3pos:
       name: Lower Bay Tray - Wago Nuts - 3Px4.stl
       file: /Trays/Lower Bay/Wago Lever Nuts/Lower Bay Tray - Wago Nuts - 3Px4.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_wago_4x5pos_2x3pos:
       name: Lower Bay Tray - Wago Nuts - 5Px4, 3Px2.stl
       file: /Trays/Lower Bay/Wago Lever Nuts/Lower Bay Tray - Wago Nuts - 5Px4, 3Px2.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_wago_4x5pos:
       name: Lower Bay Tray - Wago Nuts - 5Px4.stl
       file: /Trays/Lower Bay/Wago Lever Nuts/Lower Bay Tray - Wago Nuts - 5Px4.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
     tray_lb_wago_8x3pos:
       name: Lower Bay Tray - Wago Nuts - 8x3P.stl
       file: /Trays/Lower Bay/Wago Lever Nuts/Lower Bay Tray - Wago Nuts - 8x3P.stl
-      version: lower_bay_v1
+      template: lower_bay_v1
+    tray_btt_ups_24v:
+      name: Bigtreetech UPS 24V
+      file: /Trays/Lower Bay/BTT UPS 24V 1.0/Lower Tray - BTT UPS 24V 1.0.stl
+      template: lower_bay_v1
 
     ### Core - Main Body
     core_mb_0_9_11_crossbar:
       name: Main Body - Crossbar - Stock.stl
       file: /Core/Main Body/Crossbar/Main Body - Crossbar - Stock.stl
-      version: v0_9_11
+      template: v0_9_11
     core_mb_0_9_11_crossbar_hsi:
       name: Main Body - Crossbar - HSI.stl
       file: /Core/Main Body/Crossbar/Main Body - Crossbar - HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_mb_0_9_11_front:
       name: Main Body - Front - Stock.stl
       file: /Core/Main Body/Front/Main Body - Front - Stock.stl
-      version: v0_9_11
+      template: v0_9_11
     core_mb_0_9_11_front_hsi:
       name: Main Body - Front - HSI.stl
       file: /Core/Main Body/Front/Main Body - Front - HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_mb_0_9_11_front_full_hsi:
       name: Main Body - Front - Full HSI.stl
       file: /Core/Main Body/Front/Main Body - Front - Full HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_mb_0_9_11_rear:
       name: Main Body - Rear - Stock.stl
       file: /Core/Main Body/Rear/Main Body - Rear - Stock.stl
-      version: v0_9_11
+      template: v0_9_11
     core_mb_0_9_11_rear_hsi:
       name: Main Body - Rear - HSI.stl
       file: /Core/Main Body/Rear/Main Body - Rear - HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_mb_0_9_11_rear_full_hsi:
       name: Main Body - Rear - Full HSI.stl
       file: /Core/Main Body/Rear/Main Body - Rear - Full HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_mb_0_9_11_unified:
       name: Main Body - Unified - Stock.stl
       file: /Core/Main Body/Unified/
-      version: v0_9_11
+      template: v0_9_11
     core_mb_0_9_11_unified_hsi:
       name: Main Body - Unified - HSI.stl
       file: /Core/Main Body/Unified/
-      version: v0_9_11
+      template: v0_9_11
     core_mb_0_9_11_unified_full_hsi:
       name: Main Body - Unified - Full HSI.stl
       file: /Core/Main Body/Unified/
-      version: v0_9_11
+      template: v0_9_11
 
     ### Core - Base
     core_base_0_9_11_36mm_front:
       name: Base - 36mm Front - Basic Stock.stl
       file: /Core/Base/36mm Stock/Front/Base - 36mm Front - Basic Stock.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_front_rocker:
       name: Base - 36mm Front - Stock with Rocker.stl
       file: /Core/Base/36mm Stock/Front/Base - 36mm Front - Stock with Rocker.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_front_toggle:
       name: Base - 36mm Front - Stock with Toggle.stl
       file: /Core/Base/36mm Stock/Front/Base - 36mm Front - Stock with Toggle.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_rear_basic:
       name: Base - 36mm Rear - Basic Stock.stl
       file: /Core/Base/36mm Stock/Rear/Base - 36mm Rear - Basic Stock.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_rear_iec:
       name: Base - 36mm Rear - IEC Stock.stl
       file: /Core/Base/36mm Stock/Rear/Base - 36mm Rear - IEC Stock.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_unified_basic:
       name: Base - 36mm Unified - Basic Stock.stl
       file: /Core/Base/36mm Stock/Unified/Base - 36mm Unified - Basic Stock.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_unified_iec:
       name: Base - 36mm Unified - IEC Stock.stl
       file: /Core/Base/36mm Stock/Unified/Base - 36mm Unified - IEC Stock.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_unified_rocker:
       name: Base - 36mm Unified - IEC Stock with Rocker.stl
       file: /Core/Base/36mm Stock/Unified/Base - 36mm Unified - IEC Stock with Rocker.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_unified_toggle:
       name: Base - 36mm Unified - IEC Stock with Toggle.stl
       file: /Core/Base/36mm Stock/Unified/Base - 36mm Unified - IEC Stock with Toggle.stl
-      version: v0_9_11
+      template: v0_9_11
 
     core_base_0_9_11_36mm_front_hsi:
       name: Base - 36mm Front - Basic HSI.stl
       file: /Core/Base/36mm HSI/Front/Base - 36mm Front - Basic HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_front_rocker_hsi:
       name: Base - 36mm Front - HSI with Rocker.stl
       file: /Core/Base/36mm HSI/Front/Base - 36mm Front - HSI with Rocker.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_front_toggle_hsi:
       name: Base - 36mm Front - HSI with Toggle.stl
       file: /Core/Base/36mm HSI/Front/Base - 36mm Front - HSI with Toggle.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_rear_basic_hsi:
       name: Base - 36mm Rear - Basic HSI.stl
       file: /Core/Base/36mm HSI/Rear/Base - 36mm Rear - Basic HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_rear_iec_hsi:
       name: Base - 36mm Rear - IEC HSI.stl
       file: /Core/Base/36mm HSI/Rear/Base - 36mm Rear - IEC HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_unified_basic_hsi:
       name: Base - 36mm Unified - Basic HSI.stl
       file: /Core/Base/36mm HSI/Unified/Base - 36mm Unified - Basic HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_unified_iec_hsi:
       name: Base - 36mm Unified - IEC HSI.stl
       file: /Core/Base/36mm HSI/Unified/Base - 36mm Unified - IEC HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_unified_rocker_hsi:
       name: Base - 36mm Unified - IEC HSI with Rocker.stl
       file: /Core/Base/36mm HSI/Unified/Base - 36mm Unified - IEC HSI with Rocker.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_36mm_unified_toggle_hsi:
       name: Base - 36mm Unified - IEC HSI with Toggle.stl
       file: /Core/Base/36mm HSI/Unified/Base - 36mm Unified - IEC HSI with Toggle.stl
-      version: v0_9_11
+      template: v0_9_11
 
     core_base_0_9_11_42mm_front:
       name: Base - 42mm Front - Basic Stock.stl
       file: /Core/Base/42mm Stock/Front/Base - 42mm Front - Basic Stock.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_front_rocker:
       name: Base - 42mm Front - Stock with Rocker.stl
       file: /Core/Base/42mm Stock/Front/Base - 42mm Front - Stock with Rocker.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_front_toggle:
       name: Base - 42mm Front - Stock with Toggle.stl
       file: /Core/Base/42mm Stock/Front/Base - 42mm Front - Stock with Toggle.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_rear_basic:
       name: Base - 42mm Rear - Basic Stock.stl
       file: /Core/Base/42mm Stock/Rear/Base - 42mm Rear - Basic Stock.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_rear_iec:
       name: Base - 42mm Rear - IEC Stock.stl
       file: /Core/Base/42mm Stock/Rear/Base - 42mm Rear - IEC Stock.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_unified_basic:
       name: Base - 42mm Unified - Basic Stock.stl
       file: /Core/Base/42mm Stock/Unified/Base - 42mm Unified - Basic Stock.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_unified_iec:
       name: Base - 42mm Unified - IEC Stock.stl
       file: /Core/Base/42mm Stock/Unified/Base - 42mm Unified - IEC Stock.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_unified_rocker:
       name: Base - 42mm Unified - IEC Stock with Rocker.stl
       file: /Core/Base/42mm Stock/Unified/Base - 42mm Unified - IEC Stock with Rocker.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_unified_toggle:
       name: Base - 42mm Unified - IEC Stock with Toggle.stl
       file: /Core/Base/42mm Stock/Unified/Base - 42mm Unified - IEC Stock with Toggle.stl
-      version: v0_9_11
+      template: v0_9_11
 
     core_base_0_9_11_42mm_front_hsi:
       name: Base - 42mm Front - Basic HSI.stl
       file: /Core/Base/42mm HSI/Front/Base - 42mm Front - Basic HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_front_rocker_hsi:
       name: Base - 42mm Front - HSI with Rocker.stl
       file: /Core/Base/42mm HSI/Front/Base - 42mm Front - HSI with Rocker.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_front_toggle_hsi:
       name: Base - 42mm Front - HSI with Toggle.stl
       file: /Core/Base/42mm HSI/Front/Base - 42mm Front - HSI with Toggle.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_rear_basic_hsi:
       name: Base - 42mm Rear - Basic HSI.stl
       file: /Core/Base/42mm HSI/Rear/Base - 42mm Rear - Basic HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_rear_iec_hsi:
       name: Base - 42mm Rear - IEC HSI.stl
       file: /Core/Base/42mm HSI/Rear/Base - 42mm Rear - IEC HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_unified_basic_hsi:
       name: Base - 42mm Unified - Basic HSI.stl
       file: /Core/Base/42mm HSI/Unified/Base - 42mm Unified - Basic HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_unified_iec_hsi:
       name: Base - 42mm Unified - IEC HSI.stl
       file: /Core/Base/42mm HSI/Unified/Base - 42mm Unified - IEC HSI.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_unified_rocker_hsi:
       name: Base - 42mm Unified - IEC HSI with Rocker.stl
       file: /Core/Base/42mm HSI/Unified/Base - 42mm Unified - IEC HSI with Rocker.stl
-      version: v0_9_11
+      template: v0_9_11
     core_base_0_9_11_42mm_unified_toggle_hsi:
       name: Base - 42mm Unified - IEC HSI with Toggle.stl
       file: /Core/Base/42mm HSI/Unified/Base - 42mm Unified - IEC HSI with Toggle.stl
-      version: v0_9_11
+      template: v0_9_11
     
     ### Fans
     # Gaskets
     fan_gasket_40mm:
       name: 4010 Fan Gasket, TPU.stl
       file: /Fans/40x10/4010 Fan Gasket, TPU.stl
-      version: fan_v1
+      template: fan_v1
     fan_gasket_50mm:
       name: 5012 TPU Gasket.stl
       file: /Fans/50x12/5012 TPU Gasket.stl
-      version: fan_v1
+      template: fan_v1
     fan_gasket_60mm:
       name: 6015 Fan Gasket.stl
       file: /Fans/60x15/6015 Fan Gasket.stl
-      version: fan_v1
+      template: fan_v1
     fan_gasket_80mm:
       name: 8020 Fan Gasket.stl
       file: /Fans/80x20/8020 Fan Gasket.stl
-      version: fan_v1
+      template: fan_v1
     fan_gasket_92mm:
       name: Fan Gasket - 9225.stl
       file: /Fans/92x25/Fan Gasket - 9225.stl
-      version: fan_v1
+      template: fan_v1
     fan_gasket_120mm:
       name: Fan Gasket - 12025.stl
       file: /Fans/120x25/Fan Gasket - 12025.stl
-      version: fan_v1
+      template: fan_v1
 
     # Cages
     fan_cage_4010:
       name: 4010 Fan Cage.stl
       file: /Fans/40x10/4010 Fan Cage.stl
-      version: fan_v1
+      template: fan_v1
     fan_cage_4020:
       name: 4020 Fan Cage.stl
       file: /Fans/40x20/4020 Fan Cage.stl
-      version: fan_v1
+      template: fan_v1
     fan_cage_5010:
       name: Fan Cage.stl
       file: /Fans/50x10/Fan Cage.stl
-      version: fan_v1
+      template: fan_v1
     fan_cage_5012:
       name: 5012 Fan Cage.stl
       file: /Fans/50x12/5012 Fan Cage.stl
-      version: fan_v1
+      template: fan_v1
     fan_cage_5015:
       name: Fan Cage.stl
       file: /Fans/50x15/Fan Cage.stl
-      version: fan_v1
+      template: fan_v1
     fan_cage_6015:
       name: 6015 Fan Cage.stl
       file: /Fans/60x15/6015 Fan Cage.stl
-      version: fan_v1    
+      template: fan_v1    
     fan_cage_6020:
       name: 6020 Fan Cage.stl
       file: /Fans/60x20/6020 Fan Cage.stl
-      version: fan_v1
+      template: fan_v1
     fan_cage_6025:
       name: 6025 Fan Cage.stl
       file: /Fans/60x25/6025 Fan Cage.stl
-      version: fan_v1
+      template: fan_v1
     fan_cage_8020:
       name: 8020 Fan Cage.stl
       file: /Fans/80x20/8020 Fan Cage.stl
-      version: fan_v1
+      template: fan_v1
     fan_cage_8025:
       name: 8025 Fan Cage.stl
       file: /Fans/80x25/8025 Fan Cage.stl
-      version: fan_v1
+      template: fan_v1
     fan_cage_9225_bullseye:
       name: Fan Cage - 9225 - Bullseye.stl
       file: /Fans/92x25/Fan Cage - 9225 - Bullseye.stl
-      version: fan_v1
+      template: fan_v1
     fan_cage_9225_screen:
       name: Fan Cage - 9225 - Screen.stl
       file: /Fans/92x25/Fan Cage - 9225 - Screen.stl
-      version: fan_v1
+      template: fan_v1
     # fan_cage_12025_bullseye:
     #   name: 
     #   file: /Fans/120x25/
-    #   version: fan_v1
+    #   template: fan_v1
     fan_cage_12025_screen:
       name: Fan Cage - 12025 - Screen.stl
       file: /Fans/120x25/Fan Cage - 12025 - Screen.stl
-      version: fan_v1
+      template: fan_v1
 
-assemblies:
-  #re-used sub-assemblies
-  subassemblies:
-    assy_fan_4010_12mm:
+subassemblies:
+  assy_fan_4010_12mm:
+    fan_4010: 1
+    shcs_m3_12: 4
+  assy_fan_4010_cage:
+    fan_4010: 1
+    fan_cage_4010: 1
+    fan_gasket_40mm: 1
+    shcs_m3_16: 4
+  assy_fan_5012_16mm:
+    fan_5012: 1
+    shcs_m3_16: 4
+  assy_fan_5012_cage:
+    fan_5012: 1
+    shcs_m3_18: 4
+    fan_cage_5012: 1
+    fan_gasket_50mm: 1
+  assy_fan_6015_20mm:
+    fan_6015: 1
+    shcs_m3_20: 4
+  assy_fan_6015_cage:
+    fan_6015: 1
+    shcs_m3_20: 4
+    fan_cage_6015: 1
+    fan_gasket_60mm: 1
+  assy_fan_8020_cage:
+    fan_8020: 1
+    shcs_m4_30: 4
+    fan_cage_8020: 1
+    fan_gasket_80mm: 1
+  assy_fan_9225_cage:
+    fan_9225: 1
+    shcs_m4_35: 4
+    fan_cage_9225_screen: 1
+    fan_gasket_92mm: 1
+  assy_fan_12025_cage:
+    fan_12025: 1
+    shcs_m4_35: 4
+    fan_cage_12025_screen: 1
+    fan_gasket_120mm: 1
+  assy_sd_card_ext:
+    shcs_m3_6: 2
+    misc_sd_ext_body: 1
+    misc_sd_ext_cap: 1
+  assy_rocker_switch_cover:
+    switch_rocker: 1
+    misc_rocker_cover: 1
+  assy_carry_handle:
+    misc_carry_handle: 1
+    shcs_m3_8: 2
+  assy_carry_handle_hsi:
+    misc_carry_handle_hsi: 1
+    hsi_m3_5od_4l: 2
+    shcs_m3_6: 2
+components:
+  ###
+  MCU:
+  ###
+    comp_btt_manta_m5p_v2:
+      name: Bigtreetech Manta M5P
+      template: mcu_v2
+      img: img/parts/btt_manta_m5p.webp
+      attributes:
+        count: Single
       parts:
-        fan_4010: 1
-        shcs_m3_12: 4
-    assy_sd_card_ext:
-      parts:
-        shcs_m3_6: 2
-        misc_sd_ext_body: 1
-        misc_sd_ext_cap: 1
-    assy_rocker_switch_cover:
-      parts:
-        switch_rocker: 1
-        misc_rocker_cover: 1
-    assy_carry_handle:
-      parts:
-        misc_carry_handle: 1
-        shcs_m3_8: 2
-    assy_carry_handle_hsi:
-      parts:
-        misc_carry_handle_hsi: 1
-        hsi_m3_5od_4l: 2
-        shcs_m3_6: 2
-    assy_btt_skr_pico:
-      parts:
+        btt_manta_m5p: 1
         shcs_m3_6: 4
-        btt_skr_pico: 1
-    assy_btt_skr_e3:
+      variants:
+        Stock:
+          parts:
+            tray_btt_manta_m5p_v2: 1
+    comp_btt_manta_e3ez_v2:
+      name: Bigtreetech Manta E3EZ
+      template: mcu_v2
+      img: img/parts/btt_manta_e3ez.webp
+      attributes:
+        count: Single
       parts:
-        shcs_m3_6: 5
-        btt_skr_e3: 1
-    assy_creality_2.x:
-      parts:
+        btt_manta_e3_ez: 1
         shcs_m3_6: 4
-        creality_mcu_2.x: 1
-    assy_creality_2.x_hsi:
-      parts:
-        assy_creality_2.x : 1
-        hsi_m3_5od_4l: 4
-    assy_btt_manta_m8p:
+      variants:
+        Stock:
+          parts:
+            tray_btt_manta_e3ez_v2: 1
+        HSI:
+          attributes:
+            hsi: true
+          parts:
+            tray_btt_manta_e3ez_hsi_v2: 1
+            hsi_m3_5od_4l: 4
+    comp_btt_manta_m8p_v2:
+      name: Bigtreetech Manta M8P
+      note: Compatible with all versions.
+      template: mcu_v2
+      img: img/parts/btt_manta_m8p.webp
+      attributes:
+        count: Single
       parts:
         shcs_m3_6: 4
         btt_manta_m8p: 1
-    assy_btt_skr_classic:
+      variants:
+        Stock:
+          parts:
+            tray_btt_manta_m8p_v2: 1
+    comp_btt_skrat_v2:
+      name: Bigtreetech SKRat
+      template: mcu_v2
+      img: img/parts/btt_skrat.webp
+      attributes:
+        count: Single
+      parts:
+        shcs_m3_6: 4
+        btt_skrat: 1
+      variants:
+        Stock:
+          parts:
+            tray_btt_skrat_v2: 1
+        HSI:
+          attributes:
+            hsi: true
+          parts:
+            tray_btt_skrat_hsi_v2: 1
+            hsi_m3_5od_4l: 4
+    comp_btt_octopus_v2:
+        name: Bigtreetech Octopus/Octopus Pro
+        template: mcu_v2
+        attributes: 
+          count: Single
+        parts:
+          shcs_m3_6: 4
+          btt_octopus: 1
+        variants:
+          Stock:
+            parts:
+              tray_btt_octopus_v2: 1
+    comp_btt_skr_pico_v2_hsi:
+      name: Bigtreetech SKR Pico
+      template: mcu_v2
+      attributes: 
+        count: Single
+      parts:
+        btt_skr_pico: 1
+        shcs_m3_6: 4
+      variants:
+        HSI:
+          attributes:
+            hsi: True
+          parts:
+            tray_btt_skr_pico_v2_hsi: 1
+            hsi_m3_5od_4l: 4
+    comp_btt_skr_e3_v2:
+      name: Bigtreetech SKR E3 Series
+      template: mcu_v2
+      attributes:
+        count: Single
+      parts:
+        btt_skr_e3: 1
+        shcs_m3_6: 4
+      variants:
+        Stock:
+          parts:
+            tray_btt_skr_e3_v2: 1
+    comp_creality_2_x_v2:
+      name: Creality 2.x Series
+      note: Compatible with all versions.
+      template: mcu_v2
+      attributes:
+        count: Single
+      parts:
+        shcs_m3_6: 4
+        creality_mcu_2.x: 1
+      variants:
+        Stock:
+          author: u_mrmeh
+          parts:
+            tray_creality_2_v2: 1
+        HSI:
+          author: u_mrmeh
+          attributes:
+            hsi: True
+          parts:
+            tray_creality_2_v2_hsi : 1
+            hsi_m3_5od_4l: 4
+    comp_btt_skr_classic_v2:
+      name: Bigtreetech SKR 1.3/1.4/2
+      template: mcu_v2
+      attributes:
+        count: Single
       parts:
         shcs_m3_6: 4
         btt_skr_classic: 1
-    assy_duet3_6hc:
+      variants:
+        Stock:
+          parts:
+            tray_btt_skr_classic_v2: 1
+    comp_duet3_6hc_v2:
+      name: Duet3D Duet 3 6HC
+      template: mcu_v2
+      attributes:
+        count: Single
       parts:
         duet_duet3_6hc: 1
         shcs_m3_6: 4
-    assy_duet3_mini5p:
+      variants:
+        Stock:
+          parts:
+            tray_duet3_6hc_v2: 1
+    comp_duet3_mini5p_v2:
+      name: Duet3D Duet 3 Mini 5+
+      template: mcu_v2
+      attributes:
+        count: Single
       parts:
         duet_duet3_mini5: 1
         shcs_m3_6: 4
-    assy_fysetc_spider:
+      variants: 
+        Stock:
+          parts:
+            tray_duet3_mini5p_v2: 1
+    comp_fysetc_spider_v2:
+      name: FYSETC Spider Series
+      template: mcu_v2
+      attributes:
+        count: Single
       parts:
+        shcs_m3_6: 4
         fysetc_spider: 1
-        shcs_m3_6: 4
-    assy_mks_monster8:
+      variants: 
+        Stock:
+          parts:
+            tray_fysetc_spider_v2: 1
+    comp_mks_monster_8_v2:
+      name: MakerBase MKS Monster 8
+      template: mcu_v2
+      attributes:
+        count: Single
       parts:
-        mks_monster8: 1
         shcs_m3_6: 4
-    assy_mks_skipr:
+        mks_monster8: 1
+      variants: 
+        Stock:
+          parts:
+            tray_mks_monster_8_v2: 1
+        HSI:  
+          attributes:
+            hsi: True
+          parts:
+            tray_mks_monster_8_v2_hsi: 1
+            hsi_m3_5od_4l: 4
+    comp_mks_skipr_v2:
+      name: MakerBase MKS Skipr
+      template: mcu_v2
+      attributes:
+        count: Single
       parts:
         mks_skipr: 1
         shcs_m3_6: 4
-    assy_btt_pi_tft5:
-      parts:
-        btt_pi_tft5: 1
-        shcs_m3_6: 4
-        shcs_m2.5_6: 8
-    assy_btt_u2c:
-      parts:
-        btt_u2c: 1
-        bhcs_m3_6: 4
-    assy_basic_lm2596:
-      parts:
-        basic_lm2596: 1
-        shcs_m3_6: 2
-    assy_drok_lm2596_led:
-      parts:
-        drok_lm2596_led: 1
-        shcs_m3_6: 4
-    assy_hiletgo_lm2596:
-      parts:
-        hiletgo_lm2596: 1
-        shcs_m3_6: 4
-    assy_drok_3a_lm2596:
-      parts:
-        drok_3a_lm2596: 1
-        shcs_m3_6: 4
-    assy_creality_mosfet:
-      parts:
-        creality_mosfet: 1
-        shcs_m3_6: 2
-    assy_drok_5a:
-      parts:
-        drok_5a_buck: 1
-        shcs_m3_6: 4
-    assy_fotek_ssr40:
-      parts:
-        fotek_ssr40_da: 1
-        shcs_m4_6: 2
-  MCU:
-    assy_tray_btt_manta_m8p_v2:
-      name: Bigtreetech Manta M8P
-      attributes:
-        mcu_count: single
-        version: mcu_v2
-        variant: Stock
-      parts:
-        tray_btt_manta_m8p_v2: 1
-        assy_btt_manta_m8p: 1
-    assy_tray_btt_octopus_v2:
-      name: Bigtreetech Octopus/Octopus Pro
-      attributes: 
-        mcu_count: single
-        version: mcu_v2
-        variant: Stock
-      parts:
-        shcs_m3_6: 4
-        btt_octopus: 1
-        tray_btt_octopus_v2: 1
-    assy_tray_btt_skr_pico_v2_hsi:
-      name: Bigtreetech SKR Pico
-      attributes: 
-        mcu_count: single
-        version: mcu_v2
-        variant: HSI
-        hsi: true
-      parts:
-        assy_btt_skr_pico: 1
-        tray_btt_skr_pico_v2_hsi: 1
-        hsi_m3_5od_4l: 4
-    assy_tray_btt_skr_e3_v2:
-      name: Bigtreetech SKR E3
-      attributes: 
-        mcu_count: single
-        version: mcu_v2
-        variant: Stock
-      parts:
-        assy_btt_skr_e3: 1
-        tray_btt_skr_e3_v2: 1
-    assy_tray_creality_2_v2:
-      name: Creality 2.x MCUs
-      attributes:
-        mcu_count: single
-        author: u_mrmeh
-        version: mcu_v2
-        variant: Stock
-      parts:
-        assy_creality_2.x : 1
-        tray_creality_2_v2 : 1
-    assy_tray_creality_2_v2_hsi:
-      name: Creality 2.x MCUs
-      attributes:
-        mcu_count: single
-        author: u_mrmeh
-        version: mcu_v2
-        variant: HSI
-        hsi: True
-      parts:
-        assy_creality_2.x : 1
-        tray_creality_2_v2_hsi : 1
-        hsi_m3_5od_4l: 4
-    assy_tray_btt_skr_classic_v2:
-      name: Bigtreetech SKR 1.3/1.4/2
-      attributes:
-        mcu_count: single
-        variant: Stock
-        version: mcu_v2
-      parts:
-        assy_btt_skr_classic: 1
-        tray_btt_skr_classic_v2: 1
-    assy_tray_duet3_6hc_v2:
-      name: Duet3D Duet 3 6HC
-      attributes:
-        mcu_count: single
-        variant: Stock
-        version: mcu_v2
-      parts:
-        assy_duet3_6hc: 1
-        tray_duet3_6hc_v2: 1
-    assy_tray_duet3_mini5p_v2:
-      name: Duet3D Duet 3 Mini 5+
-      attributes:
-        mcu_count: single
-        variant: Stock
-        version: mcu_v2
-      parts:
-        assy_duet3_mini5p: 1
-        tray_duet3_mini5p_v2: 1
-    assy_tray_fysetc_spider_v2:
-      name: FYSETC Spider
-      attributes:
-        mcu_count: single
-        variant: Stock
-        version: mcu_v2
-      parts:
-        assy_fysetc_spider: 1
-        tray_fysetc_spider_v2: 1
-    assy_tray_mks_monster_8_v2:
-      name: MakerBase MKS Monster 8
-      attributes:
-        mcu_count: single
-        variant: Stock
-        version: mcu_v2
-      parts:
-        assy_mks_monster8: 1
-        tray_mks_monster_8_v2: 1
-    assy_tray_mks_monster_8_v2_hsi:
-      name: MakerBase MKS Monster 8
-      attributes:
-        mcu_count: single
-        variant: HSI
-        version: mcu_v2
-        hsi: true
-      parts:
-        assy_mks_monster8: 1
-        tray_mks_monster_8_v2_hsi: 1
-        hsi_m3_5od_4l: 4
-    assy_tray_mks_skipr_v2:
-      name: MakerBase MKS Skipr
-      attributes:
-        mcu_count: single
-        variant: Stock
-        version: mcu_v2
-      parts:
-        assy_mks_skipr: 1
-        tray_mks_skipr_v2: 1
-    assy_tray_mks_skipr_v2_hsi:
-      name: MakerBase MKS Skipr
-      attributes:
-        mcu_count: single
-        variant: HSI
-        version: mcu_v2
-      parts:
-        assy_mks_skipr: 1
-        tray_mks_skipr_v2_hsi: 1
-        hsi_m3_5od_4l: 4
-
-    # Dual MCUs
-    assy_tray_btt_skr_e3_and_pico_v2:
+      variants:
+        Stock:
+          parts:
+            tray_mks_skipr_v2: 1
+        HSI:
+          attributes:
+            hsi: True
+          parts:
+            tray_mks_skipr_v2_hsi: 1
+            hsi_m3_5od_4l: 4
+    comp_btt_skr_e3_and_pico_v2:
       name: BTT SKR E3 and SKR Pico
+      template: mcu_v2
       attributes: 
-        mcu_count: dual
-        variant: Stock
+        count: Dual
       parts:
-        assy_btt_skr_e3: 1
-        assy_btt_skr_pico: 1
-        tray_btt_skr_e3_and_pico_v2: 1
-    assy_tray_dual_btt_pico_v2:
+        btt_skr_e3: 1
+        btt_skr_pico: 1
+        shcs_m3_6: 8
+      variants: 
+        Stock:
+          parts:
+            tray_btt_skr_e3_and_pico_v2: 1
+    comp_dual_skr_pico:
       name: Dual Bigtreetech SKR Pico
+      template: mcu_v2
       attributes:
-        mcu_count: dual
-        variant: Stock
+        count: Dual
       parts:
-        assy_btt_skr_pico: 2
-        tray_dual_btt_skr_pico_v2: 1
-    assy_tray_dual_btt_pico_v2_hsi:
-      name: Dual Bigtreetech SKR Pico
-      attributes:
-        mcu_count: dual
-        variant: HSI
-        hsi: true
-      parts:
-        assy_btt_skr_pico: 2
-        tray_dual_btt_skr_pico_v2_hsi: 1
-        hsi_m3_5od_4l: 8
-    assy_tray_dual_btt_skr_e3_v2:
+        btt_skr_pico: 2
+        shcs_m3_6: 8
+      variants:
+        Stock:
+          parts:
+            tray_dual_btt_skr_pico_v2: 1
+        HSI:  
+          attributes:
+            hsi: True
+          parts:
+            tray_dual_btt_skr_pico_v2_hsi: 1
+            hsi_m3_5od_4l: 8
+    comp_dual_btt_skr_e3_v2:
       name: Dual Bigtreetech SKR E3
+      template: mcu_v2
       attributes:
-        mcu_count: dual
-        variant: Stock
+        count: Dual
       parts:
-        assy_btt_skr_e3: 2
-        tray_dual_btt_skr_e3_v2: 1
+        btt_skr_e3: 2
+        shcs_m4_6: 8
+      variants:
+        Stock:
+          parts:
+            tray_dual_btt_skr_e3_v2: 1
+  ###
   PSU:
-    assy_tray_lrs350:
+  ###
+    comp_mw_lrs350:
       name: Mean Well LRS-350 Series
+      template: psu_v2
       attributes:
         base_depth: 36mm
-        switch: any
-        variant: Stock
+        switch: Any
       parts:
         mw_lrs350: 1
         shcs_m4_6: 4
-        tray_mw_lrs350_v2_l: 1
-        tray_mw_lrs350_v2_r: 1
-    assy_tray_lrs350_hsi:
-      name: Mean Well LRS-350 Series
-      attributes: 
-        base_depth: 36mm
-        switch: any
-        variant: HSI
-        hsi: true
-      parts:
-        mw_lrs350: 1
-        tray_mw_lrs350_v2_l_hsi: 1
-        tray_mw_lrs350_v2_r_hsi: 1
-        shcs_m4_6: 4
-        hsi_m3_5od_4l: 4
-    assy_tray_rsp_500:
+      variants: 
+        Stock:
+          parts:
+            tray_mw_lrs350_v2_l: 1
+            tray_mw_lrs350_v2_r: 1
+        HSI:
+          attributes:
+            hsi: True
+          parts:
+            tray_mw_lrs350_v2_l_hsi: 1
+            tray_mw_lrs350_v2_r_hsi: 1
+            hsi_m3_5od_4l: 4
+    comp_mw_rsp500:
       name: Mean Well RSP-500 Series
+      template: psu_v2
       attributes:
         base_depth: 42mm
-        switch: rocker
-        variant: Stock
+        switch: Rocker
       parts:
         mw_rsp500: 1
-        tray_mw_rsp500_v2_l: 1
-        tray_mw_rsp500_v2_r: 1
         shcs_m4_6: 4
-    assy_tray_rsp_500_hsi:
-      name: Mean Well RSP-500 Series
-      attributes:
-        base_depth: 42mm
-        switch: rocker
-        variant: HSI
-        hsi: true
-      parts:
-        mw_rsp500: 1
-        tray_mw_rsp500_v2_l_hsi: 1
-        tray_mw_rsp500_v2_r_hsi: 1
-        shcs_m4_6: 4
-        hsi_m3_5od_4l: 4
+      variants: 
+        Stock:
+          parts:
+            tray_mw_rsp500_v2_l: 1
+            tray_mw_rsp500_v2_r: 1
+        HSI:
+          attributes:
+            hsi: true
+          parts:
+            tray_mw_rsp500_v2_l_hsi: 1
+            tray_mw_rsp500_v2_r_hsi: 1
+            hsi_m3_5od_4l: 4
+  ###
   Display:
-    assy_panel_generic_12864:
+  ###
+    comp_generic_12864:
       name: Generic 128x64
+      template: display_v2
+      img: img/parts/classic_12864.webp
+      note: |
+        - Also known as Creality CR-10 stock display in Marlin.
+        - Common on many older i3-style and Creality printers.
       attributes:
-        display_type: mcu
-        variant: Stock
+        display_type: MCU
       parts:
         generic_12864: 1
         shcs_m3_6: 4
-        panel_generic_12864: 1
-    assy_panel_mini_12864:
-      name: Mini12864
+      variants:
+        Stock:
+          parts:
+            panel_generic_12864: 1
+    comp_mini_12864:
+      name: Mini 12864
+      template: display_v2
+      img: img/parts/mini12864.webp
+      note: Compatible with FYSETC, Bigtreetech, and other brands.
       attributes: 
-        display_type: mcu
-        variant: Stock
+        display_type: MCU
       parts:
         mini_12864: 1
-        panel_mini12864: 1
-        mini_12864_front: 1
-        mini_12864_spacer: 1
         shcs_m3_6: 4
         shcs_m3_20: 4
-    assy_panel_btt_tft35:
+      variants:
+        Stock:
+          parts:
+            panel_mini12864: 1
+            mini_12864_front: 1
+            mini_12864_spacer: 1
+    comp_btt_tft35:
       name: Bigtreetech 3.5" TFT
+      template: display_v2
+      img: img/parts/btt_tft_3.5.webp
+      note: This is not the E3 version, which has its own display mount.
       attributes:
-        display_type: mcu
-        variant: Stock
+        display_type: MCU
       parts:
         btt_35_tft: 1
         shcs_m3_6: 4
         shcs_m3_8: 4
-    assy_panel_btt_hdmi5:
+      variants:
+        Stock:
+          attributes:
+            fit_test: 115
+          parts:
+            panel_btt_tft35: 1
+    comp_btt_hdmi5:
       name: Bigtreetech HDMI5
+      template: display_v2
+      img: img/parts/btt_hdmi5.webp
       attributes:
-        display_type: cpu
-        variant: Stock
-        author: u_siruli
+        display_type: CPU
       parts:
         btt_hdmi5: 1
-        panel_btt_hdmi5_hsi: 1
-        btt_hdmi5_mount: 1
-        hsi_m3_5od_4l: 4
         shcs_m3_6: 4
         shcs_m3_15: 4
-    assy_panel_btt_tft35_e3:
+      variants:
+        HSI:
+          author: u_siruli
+          attributes:
+            hsi: True
+          parts:
+            panel_btt_hdmi5_hsi: 1
+            btt_hdmi5_mount: 1
+            hsi_m3_5od_4l: 4
+    comp_btt_tft35_e3:
       name: Bigtreetech 3.5" TFT E3
+      template: display_v3
       attributes:
-        display_type: mcu
-        variant: Stock
+        display_type: MCU
       parts:
         btt_35_tft_e3: 1
-        panel_btt_tft35_e3: 1
         shcs_m3_6: 4
-    assy_panel_btt_pi_tft5:
+      variants: 
+        Stock:
+          parts:
+            panel_btt_tft35_e3: 1
+    comp_btt_pi_tft5:
       name: Bigtreetech Pi TFT5.0
+      template: display_v2
       attributes:
-        display_type: mcu
-        variant: Stock
-        author: u_maffooclock
+        display_type: MCU
       parts:
-        assy_btt_pi_tft5: 1
-        panel_btt_pi_tft5: 1
-        btt_pi_tft5_mount: 1
-    assy_panel_btt_pi_tft5_hsi:
-      name: Bigtreetech Pi TFT5.0
-      attributes:
-        author: u_maffooclock
-        display_type: mcu
-        variant: HSI
-        hsi: true
-      parts:
-        assy_btt_pi_tft5: 1
-        panel_btt_pi_tft5_hsi: 1
-        btt_pi_tft5_mount: 1
-        hsi_m3_5od_4l: 4
-  Side Panel:
-    assy_panel_side_blank_v1:
-      parts:
-        panel_side_blank_v1: 1
-    assy_panel_side_blank_v2:
-      parts:
-        panel_side_blank_v2: 1
-    assy_panel_side_40mm_hexagons_v1:
-      parts:
-        panel_side_40mm_hexagons_v1: 1
-      one_of:
-        assy_fan_4010_internal: 1
-        assy_fan_4020_internal: 1
-    assy_panel_side_40mm_omnibox_v1:
-      parts:
-        panel_side_40mm_omnibox_v1: 1
-      one_of:
-        assy_fan_4010_internal: 1
-        assy_fan_4020_internal: 1
+        btt_pi_tft5: 1
+        shcs_m3_6: 4
+        shcs_m2.5_6: 8
+      variants: 
+        Stock:
+          author: u_maffooclock
+          parts:
+            panel_btt_pi_tft5: 1
+            btt_pi_tft5_mount: 1
+        HSI:
+          author: u_maffooclock
+          attributes:
+            hsi: true
+          parts:
+            panel_btt_pi_tft5_hsi: 1
+            btt_pi_tft5_mount: 1
+            hsi_m3_5od_4l: 4
+  ###            
   Lower Bay:
-    assy_tray_lb_40mm:
+  ###
+    comp_lb_40mm:
       name: Lower Bay 40mm Fan
-      attributes:
-        lb_tray: short
-        variant: Short
+      template: lower_bay_v1
       parts:
-        fan_4010: 1
-        shcs_m3_12: 4
+        assy_fan_4010_12mm: 1
         shcs_m3_6: 4
-    assy_tray_lb_omron_long:
+      variants:
+        Short:
+          attributes:
+            length: short
+            fan: True
+          parts:
+            tray_lb_40mm: 1
+    comp_omron_ssr:
       name: Omron G3NA/G3A SSR
-      attributes:
-        lb_tray: long
-        variant: Long
+      template: lower_bay_v1
       parts:
         omron_g3na_210: 1
-        tray_lb_omron_long: 1
         shcs_m4_6: 2
         shcs_m3_6: 4
-    assy_tray_lb_omron_short:
-      name: Omron G3NA/G3A SSR
-      attributes:
-        lb_tray: short
-        variant: Short
-      parts:
-        omron_g3na_210: 1
-        tray_lb_omron_short: 1
-        shcs_m4_6: 2
-        shcs_m3_6: 4
-    assy_tray_lb_btt_relay:
+      variants:
+        Long:
+          attributes:
+            length: Long
+          parts:
+            tray_lb_omron_long: 1
+        Short:
+          attributes:
+            length: short
+          parts:
+            tray_lb_omron_short: 1
+    comp_btt_relay:
       name: Bigtreetech Relay
-      attributes:
-        lb_tray: short
-        variant: Short
+      template: lower_bay_v1
       parts:
-        tray_lb_btt_relay: 1
         btt_relay_1_2: 1
         shcs_m3_6: 8
-    assy_tray_lb_creality_mosfet_short:
+      variants: 
+        Short:
+          attributes:
+            length: short
+          parts:
+            tray_lb_btt_relay: 1
+    comp_creality_mosfet:
       name: Creality MOSFET
-      attributes:
-        lb_tray: short
-        variant: Short
+      template: lower_bay_v1
       parts:
-        assy_creality_mosfet: 1
-        tray_lb_creality_mosfet_short: 1
-        shcs_m3_6: 4
-    assy_tray_lb_creality_mosfet_short_hsi:
-      name: Creality MOSFET
-      attributes:
-        lb_tray: short
-        variant: Short, HSI
-        hsi: true
-      parts:
-        assy_creality_mosfet: 1
-        tray_lb_creality_mosfet_short_hsi: 1
-        shcs_m3_6: 4
-        hsi_m3_5od_4l: 2
-    assy_tray_lb_creality_mosfet_long:
-      name: Creality MOSFET
-      attributes:
-        lb_tray: long
-        variant: Long
-      parts:
-        assy_creality_mosfet: 1
-        tray_lb_creality_mosfet_long: 1
-        shcs_m3_6: 4
-    assy_tray_lb_creality_mosfet_long_hsi:
-      name: Creality MOSFET
-      attributes:
-        lb_tray: long
-        variant: Long, HSI
-        hsi: true
-      parts:
-        assy_creality_mosfet: 1
-        tray_lb_creality_mosfet_long_hsi: 1
-        shcs_m3_6: 4
-        hsi_m3_5od_4l: 2
-    assy_tray_lb_drok_3a_lm2596_short:
+        creality_mosfet: 1
+        shcs_m3_6: 2
+      variants:
+        Short:
+          attributes:
+            length: short
+            count: Single
+          parts:
+            tray_lb_creality_mosfet_short: 1
+            shcs_m3_6: 4
+        Short, HSI: 
+          attributes:
+            length: short
+            count: Single
+            hsi: True
+          parts:
+            tray_lb_creality_mosfet_short_hsi: 1
+            shcs_m3_6: 4
+            hsi_m3_5od_4l: 2
+        Long:
+          attributes:
+            length: Long
+            count: Single
+          parts:
+            tray_lb_creality_mosfet_long: 1
+            shcs_m3_6: 4
+        Long, HSI:
+          attributes:
+            length: Long
+            count: Single
+            hsi: True
+          parts:
+            tray_lb_creality_mosfet_long_hsi: 1
+            shcs_m3_6: 4
+            hsi_m3_5od_4l: 2
+    comp_drok_3a_lm2596:
       name: DROK 3A LM2596
-      attributes:
-        lb_tray: short
-        variant: Short
+      template: lower_bay_v1
       parts:
-        assy_drok_3a_lm2596: 1
-        tray_lb_buck_drok_3a_short: 1
+        drok_3a_lm2596: 1
         shcs_m3_6: 4
-    assy_tray_lb_drok_3a_lm2596_long_dual:
-      name: DROK 3A LM2596
-      attributes:
-        lb_tray: long
-        variant: Long, Dual
-      parts:
-        tray_lb_buck_drok_3a_long_dual: 1
-        assy_drok_3a_lm2596: 2
-        shcs_m3_6: 4
-    assy_tray_lb_drok_3a_lm2596_long_dual_fan:
-      name: DROK 3A LM2596
-      attributes:
-        lb_tray: long
-        variant: Long, Dual, 40mm Fan
-      parts:
-        tray_lb_buck_drok_3a_long_dual_fan: 1
-        assy_drok_3a_lm2596: 2
-        shcs_m3_6: 4
-        assy_fan_4010_12mm: 1
-    assy_tray_lb_drok_3a_lm2596_long_fan:
-      name: DROK 3A LM2596
-      attributes:
-        lb_tray: long
-        variant: Long, 40mm Fan
-      parts:
-        tray_lb_buck_drok_3a_long_fan: 1
-        assy_drok_3a_lm2596: 1
-        shcs_m3_6: 4
-        assy_fan_4010_12mm: 1
-    
-    assy_tray_lb_drok_5a:
+      variants:
+        Short:
+          attributes: 
+            length: short
+            count: single
+          parts:
+            tray_lb_buck_drok_3a_short: 1
+            shcs_m3_6: 4
+        Long, Dual:
+          attributes:
+            length: Long
+            count: Dual
+          parts:
+            tray_lb_buck_drok_3a_long_dual: 1
+            shcs_m3_6: 4
+        Long, Dual, Fan:
+          attributes:
+            length: Long
+            count: Dual
+            fan: True
+          parts:
+            tray_lb_buck_drok_3a_long_fan: 1
+            shcs_m3_6: 4
+            assy_fan_4010_12mm: 1
+    comp_drok_5a:
       name: DROK 5A Buck Converter
-      attributes:
-        lb_tray: long
-        variant: Long
+      template: lower_bay_v1
       parts:
-        tray_lb_drok_5a: 1
-        assy_drok_5a: 1
-        shcs_m3_6: 4
-    assy_tray_lb_drok_5a_wago:
-      name: DROK 5A Buck Converter
-      attributes:
-        lb_tray: long
-        variant: Long, 2x Wago 221-413
-      parts:
-        tray_lb_drok_5a_wago: 1
-        assy_drok_5a: 1
-        shcs_m3_6: 4
-        wago_221_413: 2
-    assy_tray_lb_drok_lm2596_led_short:
+        drok_5a_buck: 1
+        shcs_m3_6: 8
+      variants:
+        Long:
+          attributes:
+            length: Long
+            count: Single
+          parts:
+            tray_lb_drok_5a: 1
+        Long, Wago:
+          attributes:
+            length: Long
+            count: Single
+          parts:
+            tray_lb_drok_5a_wago: 1
+            wago_221_413: 2
+    comp_drok_lm2596_led:
       name: DROK LM2596 with LED
-      attributes:
-        lb_tray: short
-        variant: Short
+      template: lower_bay_v1
       parts:
-        tray_lb_drok_lm2596_led_short: 1
-        assy_drok_lm2596_led: 1
         shcs_m3_6: 4
-    assy_tray_lb_drok_lm2596_led_long_fan:
-      name: DROK LM2596 with LED
-      attributes:
-        lb_tray: long
-        variant: Long, 40mm Fan
-      parts:
-        tray_lb_drok_lm2596_led_long_fan: 1
-        assy_drok_lm2596_led: 1
-        shcs_m3_6: 4
-        assy_fan_4010_12mm : 1
-    assy_tray_lb_drok_lm2596_led_long_dual:
-      name: DROK LM2596 with LED
-      attributes:
-        lb_tray: long
-        variant: Long, Dual
-      parts:
-        tray_lb_drok_lm2596_led_long_dual: 1
-        assy_drok_lm2596_led: 2
-        shcs_m3_6: 4
-    assy_tray_lb_drok_lm2596_led_long_dual_fan:
-      name: DROK LM2596 with LED
-      attributes:
-        lb_tray: long
-        variant: Long, Dual, 40mm Fan
-      parts:
-        tray_lb_drok_lm2596_led_long_dual_fan: 1
-        assy_drok_lm2596_led: 2
-        shcs_m3_6: 4
-        assy_fan_4010_12mm : 1
-    assy_tray_lb_hiletgo_lm2596_short:
+      variants:
+        Short:
+          attributes:
+            length: Short
+            count: Single
+          parts:
+            drok_3a_lm2596: 1
+            shcs_m3_6: 4
+            tray_lb_buck_drok_3a_short: 1
+        Long, Fan:
+          attributes:
+            length: Long
+            count: Single
+            fan: True
+          parts:
+            drok_3a_lm2596: 1
+            shcs_m3_6: 4
+            assy_fan_4010_12mm: 1
+            tray_lb_drok_lm2596_led_long_fan: 1
+        Long, Dual:
+          attributes:
+            length: Long
+            count: Dual
+          parts:
+            drok_3a_lm2596: 2
+            shcs_m3_6: 8
+            tray_lb_drok_lm2596_led_long_dual: 1
+        Long, Dual, Fan:
+          attributes:
+            length: Long
+            count: Dual
+            fan: True
+          parts:
+            drok_3a_lm2596: 2
+            shcs_m3_6: 8
+            tray_lb_drok_lm2596_led_long_dual_fan: 1
+            assy_fan_4010_12mm: 1
+    comp_hiletgo_lm2596:
       name: HiLetGo LM2596 with LED
-      attributes:
-        lb_tray: short
-        variant: Short
+      template: lower_bay_v1
       parts:
-        tray_lb_hiletgo_lm2596_short: 1
-        assy_hiletgo_lm2596: 1
         shcs_m3_6: 4
-    assy_tray_lb_hiletgo_lm2596_long_fan:
-      name: HiLetGo LM2596 with LED
-      attributes:
-        lb_tray: long
-        variant: Long, 40mm Fan
-      parts:
-        tray_lb_hiletgo_lm2596_long_fan: 1
-        assy_hiletgo_lm2596: 1
-        shcs_m3_6: 4
-        assy_fan_4010_12mm: 1
-    assy_tray_lb_hiletgo_lm2596_long_dual:
-      name: HiLetGo LM2596 with LED
-      attributes:
-        lb_tray: long
-        variant: Long, Dual
-      parts:
-        tray_lb_hiletgo_lm2596_long_dual: 1
-        assy_hiletgo_lm2596: 2
-        shcs_m3_6: 4
-    assy_tray_lb_hiletgo_lm2596_long_dual_fan:
-      name: HiLetGo LM2596 with LED
-      attributes:
-        lb_tray: long
-        variant: Long, Dual, 40mm Fan
-      parts:
-        tray_lb_hiletgo_lm2596_long_dual_fan: 1
-        assy_hiletgo_lm2596: 2
-        shcs_m3_6: 4
-        assy_fan_4010_12mm: 1
-    assy_tray_lb_basic_lm2596_short:
+      variants:
+        Short:
+          attributes:
+            length: Short
+            count: Single
+          parts:
+            tray_lb_hiletgo_lm2596_short: 1
+            shcs_m3_6: 4
+            hiletgo_lm2596: 1
+        Long, Fan:
+          attributes:
+            length: Long
+            count: Single
+            fan: True
+          parts:
+            tray_lb_hiletgo_lm2596_long_fan: 1
+            shcs_m3_6: 4
+            assy_fan_4010_12mm: 1
+            hiletgo_lm2596: 1
+        Long, Dual:
+          attributes:
+            length: Long
+            count: Dual
+          parts:
+            hiletgo_lm2596: 2
+            shcs_m3_6: 8
+            tray_lb_hiletgo_lm2596_long_dual: 1
+        Long, Dual, Fan:
+          attributes:
+            length: Long
+            count: Dual
+            fan: True
+          parts:
+            hiletgo_lm2596: 2
+            shcs_m3_6: 8
+            tray_lb_hiletgo_lm2596_long_dual_fan: 1
+            assy_fan_4010_12mm: 1
+    comp_basic_lm2596:
       name: Basic LM2596
-      attributes:
-        lb_tray: short
-        variant: Short
+      template: lower_bay_v1
       parts:
-        tray_lb_basic_lm2596_short: 1
-        assy_basic_lm2596: 1
         shcs_m3_6: 4
-    assy_tray_lb_basic_lm2596_short_dual:
-      name: Basic LM2596
-      attributes:
-        lb_tray: short
-        variant: Short, Dual
-      parts:
-        tray_lb_basic_lm2596_short_dual: 1
-        assy_basic_lm2596: 2
-        shcs_m3_6: 4
-    assy_tray_lb_basic_lm2596_long_fan:
-      name: Basic LM2596
-      attributes:
-        lb_tray: long
-        variant: Long, 40mm Fan
-      parts:
-        tray_lb_basic_lm2596_long_fan: 1
-        assy_basic_lm2596: 1
-        shcs_m3_6: 4
-        assy_fan_4010_12mm: 1
-    assy_tray_lb_basic_lm2596_long_dual:
-      name: Basic LM2596
-      attributes:
-        lb_tray: long
-        variant: Long, Dual
-      parts:
-        tray_lb_basic_lm2596_long_dual: 1
-        assy_basic_lm2596: 2
-        shcs_m3_6: 4
-    assy_tray_lb_basic_lm2596_long_dual_fan:
-      name: Basic LM2596
-      attributes:
-        lb_tray: long
-        variant: Long, Dual, 40mm Fan
-      parts:
-        tray_lb_basic_lm2596_long_dual_fan: 1
-        assy_basic_lm2596: 2
-        shcs_m3_6: 4
-        assy_fan_4010_12mm: 1
-    assy_tray_fotek_ssr40_short:
+      variants:
+        Short:
+          attributes:
+            length: Short
+            count: Single
+          parts:
+            basic_lm2596: 1
+            tray_lb_basic_lm2596_short: 1
+            shcs_m3_6: 2
+        Short, Dual:
+          attributes:
+            length: Short
+            count: Dual
+          parts:
+            tray_lb_basic_lm2596_short_dual: 1
+            basic_lm2596: 2
+            shcs_m3_6: 4
+        Long, Fan:
+          attributes:
+            length: Long
+            count: Single
+            fan: True
+          parts:
+            tray_lb_basic_lm2596_long_fan: 1
+            basic_lm2596: 1
+            shcs_m3_6: 2
+            assy_fan_4010_12mm: 1
+        Long, Dual:
+          attributes: 
+            length: Long
+            count: Dual
+          parts:
+            tray_lb_basic_lm2596_long_dual: 1
+            shcs_m3_6: 4
+            basic_lm2596: 2
+        Long, Dual, Fan:
+          attributes:
+            length: Long
+            count: Dual
+            fan: True
+          parts:
+            tray_lb_basic_lm2596_long_dual_fan: 1
+            shcs_m3_6: 4
+            basic_lm2596: 2
+            assy_fan_4010_12mm: 1
+    comp_fotek_ssr40:
       name: Fotek SSR-40 DA
-      attributes:
-        lb_tray: short
-        variant: Short
+      template: lower_bay_v1
       parts:
-        tray_lb_fotek_ssr40_short: 1
-        assy_fotek_ssr40: 1
-        shcs_m3_6: 4
-    assy_tray_fotek_ssr40_long:
-      name: Fotek SSR-40 DA
-      attributes:
-        lb_tray: long
-        variant: Long
+        fotek_ssr40_da: 1
+        shcs_m4_6: 2
+      variants: 
+        Short:
+          parts:
+            tray_lb_fotek_ssr40_short: 1
+            shcs_m3_6: 4
+        Long:
+          attributes:
+            length: long
+          parts:
+            tray_lb_fotek_ssr40_long: 1
+            shcs_m3_6: 4
+    comp_btt_u2c:
+      name: Bigtreetech U2C CAN Adapter
+      template: lower_bay_v1
       parts:
-        tray_lb_fotek_ssr40_long: 1
-        assy_fotek_ssr40: 1
+        btt_u2c: 1
+        bhcs_m3_6: 4
+      variants:
+        Stock:
+          author: u_edgy
+          parts:
+            tray_lb_btt_u2c: 1
+            shcs_m3_6: 4
+    comp_btt_ups:
+      name: Bigtreetech UPS 24V
+      template: lower_bay_v1
+      parts:
+        btt_ups_24v: 1
         shcs_m3_6: 4
+      variants:
+        Stock:
+          parts:
+            tray_btt_ups_24v: 1
+            shcs_m3_6: 4
+    comp_wago_221:
+      name: Wago 221 Series Lever Nuts
+      template: lower_bay_v1
+      parts:
+        shcs_m3_6: 4
+      variants:
+        4x 3 Pos:
+          attributes:
+            length: Short
+          parts:
+            wago_221_413: 4
+            tray_lb_wago_4x3pos:
+        4x 5 Pos, 2x 3 Pos:
+          attributes:
+            length: Long
+          parts:
+            wago_221_413: 2
+            wago_221_415: 4
+            tray_lb_wago_4x5pos_2x3pos: 1
+        4x 5 Pos:
+          attributes:
+            length: Long
+          parts:
+            wago_221_415: 4
+            tray_lb_wago_4x5pos: 1
+        8x 3 Pos:
+          attributes:
+            length: Long
+          parts:
+            wago_221_413: 8
+            tray_lb_wago_8x3pos: 1
+  ###
+  Side Panel:
+  ###
+    comp_side_blank_v1:
+      name: Blank Side Panel
+      template: side_v1
+      variants:
+        Stock:
+          parts:
+            panel_side_blank_v1: 1
+    comp_side_blank_v2:
+      name: Blank Side Panel
+      template: side_v2
+      variants:
+        Stock:
+          parts:
+            panel_side_blank_v2: 1
+    comp_side_40mm_v1:
+      name: Internal 40mm Fan
+      template: side_v1
+      attributes:
+        fan: True
+      parts:
+        assy_fan_4010_12mm: 1
+      variants:
+        Hexagons:
+          parts:
+            panel_side_40mm_hexagons_v1: 1
+        OmniBox Logo:
+          parts:
+            panel_side_40mm_omnibox_v1: 1
+    comp_side_40mm_v2:
+      name: Internal 40mm Fan
+      template: side_v2
+      attributes:
+        fan: True
+      parts:
+        assy_fan_4010_12mm: 1
+      variants:
+        OmniBox Logo:
+          parts:
+            panel_side_40mm_omnibox_v2: 1
+        OmniBox Logo, HSI:
+          attributes:
+            hsi: True
+          parts:
+            panel_side_40mm_omnibox_v2_hsi: 1
+            hsi_m3_5od_4l: 4
+    comp_side_50mm_v2:
+      name: Internal 50mm Fan
+      template: side_v2
+      attributes:
+        fan: True
+      parts:
+        assy_fan_5012_16mm: 1
+      variants:
+        Classic Grill:
+          parts:
+            panel_side_50mm_internal_v2: 1
+        Classic Grill, HSI:
+          attributes:
+            hsi: True
+          parts:
+            panel_side_50mm_internal_v2_hsi: 1
+            hsi_m3_5od_4l: 4
+    comp_side_keystone_v2:
+      name: Keystone Jacks
+      template: side_v2
+      attributes:
+        mounts: Keystone Jacks
+      variants:
+        3 Position:
+          parts:
+            panel_side_keystone_3pos_v2: 1
+    comp_side_rj45_usb_ext_v2:
+      name: RJ-45 and USB Panel Mounts
+      template: side_v2
+      attributes:
+        mounts: RJ-45, 2x USB B
+      variants:
+        1x RJ-45, 2x Single USB:
+          parts:
+            panel_side_rj45_usb_v2: 1
+            usb3_panel_mount: 2
+            ethernet_panel: 1
+        1x RJ-45, 1x Dual USB:
+          parts:
+            panel_side_rj45_usb2_v2: 1
+            ethernet_panel: 1
+            usb3_dual_panel_mount: 1
+  ###
+  CPU:
+  ###
+    comp_rpi3b_v3:
+      name: Raspberry Pi 3B+
+      template: cpu_v3
+      img: img/parts/rpi_3b_plus.webp
+      parts:
+        cpu_rpi3b_plus: 1
+      variants:
+        Stock:
+          parts:
+            tray_cpu_rpi3b_v3: 1
+            shcs_m3_6: 4
+    comp_rpi_4_v3:
+      name: Raspberry Pi 4B
+      template: cpu_v3
+      img: img/parts/rpi_4b.webp
+      parts:
+        cpu_rpi4b: 1
+      variants:
+        Stock:
+          parts:
+            tray_cpu_rpi4_v3: 1
+            shcs_m3_6: 4
+    comp_cpu_universal_v3:
+      name: Raspberry Pi and compatible
+      template: cpu_v3
+      parts:
+        cpu_rpi4b: 1
+        shcs_m3_6: 4
+      variants:
+        No Fan:
+          parts:
+            tray_cpu_universal_v3: 1
+        No Fan, HSI:
+          attributes:
+            hsi: True
+          parts:
+            tray_cpu_universal_v3_hsi: 1
+            hsi_m3_5od_4l: 4
+        40mm Fan:
+          attributes:
+            fan: True
+          parts:
+            tray_cpu_universal_v3_40mm: 1
+            assy_fan_4010_12mm: 1
+        40mm Fan, HSI:
+          attributes:
+            fan: True
+            hsi: True
+          parts:
+            tray_cpu_universal_v3_40mm_hsi: 1
+            assy_fan_4010_12mm: 4
+            hsi_m3_5od_4l: 4
+        50mm Fan:
+          attributes:
+            fan: True
+          parts:
+            tray_cpu_universal_v3_50mm: 1
+            assy_fan_5012_16mm: 1
+        50mm Fan, HSI:
+          attributes:
+            hsi: True
+            fan: True
+          parts:
+            tray_cpu_universal_v3_50mm_hsi: 1
+            assy_fan_5012_16mm: 1
+            hsi_m3_5od_4l: 4
+  Lid:
+    comp_blank_lid:
+      name: Simple/Blank Lids
+      template: lid_v1
+      variants:
+        Long Blank:
+          attributes:
+            length: Long
+          parts:
+            lid_long_blank: 1
+        Short Blank:
+          attributes:
+            length: Short
+          parts:
+            lid_short_blank: 1
+        Short Vent:
+          attributes:
+            length: Short
+            vent: True
+          parts:
+            lid_short_vent: 1
 
-versions:
+    comp_carry_lid:
+      name: Carry Handle Lid
+      template: lid_v1
+      variants:
+        Long:
+          attributes:
+            length: Long
+          parts:
+            lid_long_carry: 1
+            assy_carry_handle: 1
+        Long, HSI:
+          attributes:
+            length: Long
+            hsi: True
+          parts:
+            lid_long_carry: 1
+            assy_carry_handle_hsi: 1
+        Short:
+          attributes:
+            length: Short
+          parts:
+            lid_short_carry: 1
+            assy_carry_handle: 1
+        Short, HSI:
+          attributes:
+            length: Short
+          parts:
+            lid_short_carry: 1
+            assy_carry_handle_hsi: 1
+    comp_120mm_lid:
+      name: 120mm Fan Lids
+      template: lid_v1
+      parts:
+        assy_fan_12025_cage: 1
+      variants:
+        120mm Fan:
+          attributes:
+            length: long
+          parts:
+            lid_long_120mm: 1
+        120mm Fan, Handle:
+          attributes: 
+            length: long
+          parts:
+            lid_long_120mm_handle: 1
+            assy_carry_handle: 1
+        120mm Fan, Handle, HSI:
+          attributes: 
+            length: Long
+          parts:
+            lid_long_120mm_handle: 1
+            assy_carry_handle_hsi: 1
+    comp_fan_lid:
+      name: Short Fan Lids
+      template: lid_v1
+      variants:
+        Dual 40mm Fans:
+          attributes:
+            length: short
+          parts:
+            assy_fan_4010_cage: 2
+            lid_short_dual_40mm: 1
+        80mm Fan:
+          attributes:
+            length: short
+          parts:
+            lid_short_80mm: 1
+            assy_fan_8020_cage: 1
+        92mm Fan:
+          attributes:
+            length: short
+          parts:
+            lid_short_92mm: 1
+            assy_fan_9225_cage: 1
+    comp_rpi_lid:
+      name: Raspberry Pi Display Lids
+      note: |
+        These lids use the mounting pattern from a Raspberry Pi; as such, they are compatible
+        with any display that mounts a Raspberry Pi on the back.
+      template: lid_v1
+      attributes:
+        display_type: CPU
+      parts:
+        shcs_m2.5_6: 4
+        standoff_m2.5_12_6: 4
+      variants:
+        5in RPi TFT:
+          attributes:
+            length: Short
+          parts:
+            lid_short_rpi_tft: 1    
+            btt_pi_tft5: 1
+        7in RPi TFT:
+          attributes:
+            length: Short
+          parts:
+            lid_short_rpi_tft_xl: 1
+            rpi_tft7: 1
+    comp_drybox_lid:
+      name: Rubbermaid 21 cup Drybox
+      template: lid_v1
+      variants:
+        Stock:
+          attributes:
+            length: long
+          parts:
+            lid_long_21qt_drybox: 1
+    comp_roller_lid:
+      name: Spool Roller Lid
+      template: lid_v1
+      parts:
+        misc_spool_roller: 4
+        shcs_m3_16: 4
+        688zz_bearing: 4
+      variants:
+        Stock:
+          attributes:
+            length: long
+          parts:
+            lid_long_roller: 1
+  Front Panel:
+    comp_fp_blank:
+      name: Blank
+      template: fp_v1
+      variants:
+        Stock:
+          parts:
+            panel_front_blank: 1
+    comp_fp_vent:
+      name: Vent Only
+      template: fp_v1
+      attributes:
+        vent: True
+      variants:
+        Hexagons:
+          parts:
+            panel_front_vent_hex: 1
+        Slats:
+          parts:
+            panel_front_vent_slats: 1
+        Slots:
+          parts:
+            panel_front_vent_slots: 1
+    comp_fp_sd:
+      name: MicroSD Extension
+      template: fp_v1
+      attributes:
+        vent: True
+        mounts: MicroSD
+      parts:
+        assy_sd_card_ext: 1
+        shcs_m3_6: 2
+      variants:
+        Hexagons:
+          parts:
+            panel_front_sd_hex: 1
+        Slats:
+          parts:
+            panel_front_sd_slats: 1
+        Slots:
+          parts:
+            panel_front_sd_slots: 1
+    comp_fp_sd_usbb:
+      name: MicroSD and USB B Extensions
+      template: fp_v1
+      attributes:
+        vent: True
+        mounts: MicroSD, USB B
+      parts:
+        assy_sd_card_ext: 1
+        shcs_m3_6: 4
+        usb2_typeb_panel_mount: 1
+      variants:
+        Hexagons:
+          parts:
+            panel_front_sd_usbb_hex: 1
+        Slats:
+          parts:
+            panel_front_sd_usbb_slats: 1
+        Slots:
+          parts:
+            panel_front_sd_usbb_slots: 1
+    comp_fp_sd_usbc:
+      name: MicroSD and USB C Extensions
+      template: fp_v1
+      attributes:
+        vent: True
+        mounts: MicroSD, USB C
+      parts:
+        assy_sd_card_ext: 1
+        shcs_m3_6: 4
+        usbc_panel_mount: 1
+      variants:
+        Hexagons:
+          parts:
+            panel_front_sd_usbc_hex: 1
+        Slats:
+          parts:
+            panel_front_sd_usbc_slats: 1
+        Slots:
+          parts:
+            panel_front_sd_usbc_slots: 1
+  Bottom Panel:
+    comp_btm_front_v3:
+      name: Front Half Panels
+      template: bottom_v3
+      attributes:
+        half: front
+      variants:
+        Blank/Closed:
+          parts:
+            panel_btm_blank_front_v3: 1
+        Hexagons:
+          attributes:
+            vent: True
+          parts:
+            panel_btm_hex_front_v3: 1
+        Mean Well Fan Exhaust:
+          attributes:
+            vent: True
+          parts:
+            panel_btm_mw_front_v3: 1
+    comp_btm_rear_v3:
+      name: Rear Half Panels
+      template: bottom_v3
+      attributes:
+        half: rear
+      variants:
+        Blank/Closed:
+          parts:
+            panel_btm_blank_rear_v3: 1
+        Hexagons:
+          attributes:
+            vent: True
+          parts:
+            panel_btm_hex_rear_v3: 1
+    comp_btm_unified_v3:
+      name: Unified Panels
+      template: bottom_v3
+      attributes:
+        half: unified
+      variants:
+        Blank/Closed:
+          parts:
+            panel_btm_blank_v3: 1
+        Hexagons:
+          attributes:
+            vent: True
+          parts:
+            panel_btm_hex_v3: 1
+        Mean Well Fan Exhaust:
+          attributes:
+            vent: True
+          parts:
+            panel_btm_mw_v3: 1
+  Rear Panel:
+    comp_rear_generic_no_fan:
+      name: Generic (No Fan)
+      template: rear_v2
+      variants:
+        No USB:
+          parts:
+            panel_rear_generic_v2: 1
+        USB B:
+          attributes:
+            mounts: USB B
+          parts:
+            panel_rear_generic_usbb_v2: 1
+            usb2_typeb_panel_mount: 1
+            shcs_m3_6: 2
+        USB C:
+          attributes:
+            mounts: USB C
+          parts:
+            panel_rear_generic_usbc_v2: 1
+            usbc_panel_mount: 1
+    comp_rear_generic_60mm_fan:
+      name: Generic with 60mm Fan
+      template: rear_v2
+      attributes:
+        fan: True
+      parts:
+        assy_fan_6015_cage: 1
+      variants:
+        No USB:
+          parts:
+            panel_rear_dual_60mm_v2: 1
+        USB B:
+          attributes:
+            mounts: USB B
+          parts:
+            panel_rear_generic_usbb_60mm_v2: 1
+            usb2_typeb_panel_mount: 1
+            shcs_m3_6: 2
+        USB C:
+          attributes:
+            mounts: USB C
+          parts:
+            panel_rear_generic_usbc_60mm_v2: 1
+            usbc_panel_mount: 1
+    comp_rear_generic_dual_60mm_fan:
+      name: Generic with Dual 60mm Fans
+      template: rear_v3
+      attributes:
+        fan: True
+      parts:
+        assy_fan_6015_cage: 1
+      variants:
+        No USB:
+          parts:
+            panel_rear_dual_60mm_v2: 1
+        No USB, HSI:
+          attributes:
+            hsi: True
+          parts:
+            panel_rear_dual_60mm_hsi_v2: 1
+            hsi_m3_5od_4l: 4
+        USB A:
+          attributes:
+            mounts: USB A
+          parts:
+            panel_rear_dual_60mm_usba_v2: 1
+            usb2_typea_panel_mount: 1
+        USB A, HSI:
+          attributes:
+            mounts: USB A
+            hsi: True
+          parts:
+            panel_rear_dual_60mm_usba_v2: 1
+            usb2_typea_panel_mount: 1
+            hsi_m3_5od_4l: 4
+        USB B:
+          attributes:
+            mounts: USB B
+          parts:
+            panel_rear_dual_60mm_usbb_v2: 1
+            usb2_typeb_panel_mount: 1
+        USB B, HSI:
+          attributes:
+            mounts: USB B
+            hsi: True
+          parts:
+            panel_rear_dual_60mm_usbb_hsi_v2: 1
+            usb2_typeb_panel_mount: 1
+            hsi_m3_5od_4l: 4
+        USB C:
+          attributes:
+            mounts: USB C
+          parts:
+            panel_rear_dual_60mm_usbc_v2: 1
+            usbc_panel_mount: 1
+        USB C, HSI:
+          attributes:
+            mounts: USB C
+            hsi: True
+          parts:
+            panel_rear_dual_60mm_usbc_hsi_v2: 1
+            usbc_panel_mount: 1
+            hsi_m3_5od_4l: 4
+  Main Body:
+    comp_mb_0_9_11:
+      name: Main Body
+      template: core_v0_9_11
+      variants:
+        Stock:
+          parts:
+            core_mb_0_9_11_front: 1
+            core_mb_0_9_11_rear: 1
+            core_mb_0_9_11_crossbar: 1
+        HSI:
+          parts:
+            core_mb_0_9_11_front_hsi: 1
+            core_mb_0_9_11_rear_hsi: 1
+            core_mb_0_9_11_crossbar_hsi: 1
+        Full HSI:
+          parts:
+            core_mb_0_9_11_front_full_hsi: 1
+            core_mb_0_9_11_rear_full_hsi: 1
+            core_mb_0_9_11_crossbar_hsi: 1
+    comp_mb_unified_0_9_11:
+      name: Unified Main Body
+      template: core_v0_9_11
+      variants:
+        Stock:
+          parts:
+            core_mb_0_9_11_unified: 1
+            core_mb_0_9_11_crossbar: 1
+        HSI:
+          attributes:
+            hsi: True
+          parts:
+            core_mb_0_9_11_unified_hsi: 1
+            core_mb_0_9_11_crossbar_hsi: 1
+        Full HSI:
+          attributes:
+            hsi: True
+          parts:
+            core_mb_0_9_11_unified_full_hsi: 1
+            core_mb_0_9_11_crossbar_hsi: 1
+  Base:
+    comp_base_basic_0_9_11:
+      name: 36mm Basic Base
+      template: core_v0_9_11
+      note: These bases come without power switches or IEC power inlets.
+      attributes:
+        base_depth: 36mm
+        switch: None
+      variants:
+        Front/Rear:
+          parts:
+            core_base_0_9_11_36mm_front: 1
+            core_base_0_9_11_36mm_rear_basic: 1
+        Front/Rear, HSI:
+          attributes:
+            hsi: True
+          parts:
+            core_base_0_9_11_36mm_front_hsi: 1
+            core_base_0_9_11_36mm_rear_basic_hsi: 1
+        Unified:
+          parts:
+            core_base_0_9_11_36mm_unified_basic: 1
+        Unified, HSI:
+          attributes:
+            hsi: True
+          parts:
+            core_base_0_9_11_36mm_unified_basic_hsi: 1
+    comp_base_iec_0_9_11:
+      name: 36mm Base without Switch
+      note: These bases have an IEC power inlet but lack power switches.
+      template: core_v0_9_11
+      attributes:
+        base_depth: 36mm
+        switch: None
+      variants:
+        Front/Rear:
+          parts:
+            core_base_0_9_11_36mm_front: 1
+            core_base_0_9_11_36mm_rear_iec: 1
+        Front/Rear, HSI:
+          attributes:
+            hsi: True
+          parts:
+            core_base_0_9_11_36mm_front_hsi: 1
+            core_base_0_9_11_36mm_rear_iec_hsi: 1
+        Unified:
+          parts:
+            core_base_0_9_11_36mm_unified_iec: 1
+        Unified, HSI:
+          attributes:
+            hsi: true
+          parts:
+            core_base_0_9_11_36mm_unified_iec_hsi: 1
+    comp_base_rocker_0_9_11:
+      name: 36mm Base with Rocker Switch
+      template: core_v0_9_11
+      attributes:
+        base_depth: 36mm
+        switch: Rocker
+      variants:
+        Front/Rear:
+          parts:
+            core_base_0_9_11_36mm_front_rocker: 1
+            core_base_0_9_11_36mm_rear_iec: 1
+        Front/Rear, HSI:
+          attributes:
+            hsi: True
+          parts:
+            core_base_0_9_11_36mm_front_rocker_hsi: 1
+            core_base_0_9_11_36mm_rear_iec_hsi: 1
+        Unified:
+          parts:
+            core_base_0_9_11_36mm_unified_rocker: 1
+        Unified, HSI:
+          attributes:
+            hsi: true
+          parts:
+            core_base_0_9_11_36mm_unified_rocker_hsi: 1
+    comp_base_toggle_0_9_11:
+      name: 36mm Base with Toggle Switch
+      template: core_v0_9_11
+      attributes:
+        base_depth: 36mm
+        switch: Toggle
+      variants:
+        Front/Rear:
+          parts:
+            core_base_0_9_11_36mm_front_toggle: 1
+            core_base_0_9_11_36mm_rear_iec: 1
+        Front/Rear, HSI:
+          attributes:
+            hsi: True
+          parts:
+            core_base_0_9_11_36mm_front_toggle_hsi: 1
+            core_base_0_9_11_36mm_rear_iec_hsi: 1
+        Unified:
+          parts:
+            core_base_0_9_11_36mm_unified_toggle: 1
+        Unified, HSI:
+          attributes:
+            hsi: true
+          parts:
+            core_base_0_9_11_36mm_unified_toggle_hsi: 1
+templates:
   v0_9_11:
+    - core_v0_9_11
     - mcu_v2
     - psu_v2
     - display_v2
     - display_v3
     - bottom_v3
-    - front_panel_v1
+    - fp_v1
     - lower_bay_v1
     - side_v2
+    - cpu_v3
     - rear_v1
     - rear_v2
     - rear_v3
     - lid_v1
     - fan_v1
   v0_9_10:
+    - core_v0_9_10
     - mcu_v2
     - psu_v1
     - display_v2
     - display_v3
     - bottom_v2
-    - front_panel_v1
+    - fp_v1
     - lower_bay_v1
     - side_v1
+    - cpu_v2
     - rear_v1
     - rear_v2
     - rear_v3
     - lid_v1
     - fan_v1
-
-options:
-  - opt_unified:
-      name: Unified Main Body and Base
-      attribute: build
-      options:
-        - "Front/Rear (Standard)": front_rear
-        - "Unified": unified
-  - opt_hsi:
-      name: Heat Set Inserts (HSI)
-      attribute: inserts
-      options:
-        - "Stock (No Inserts)": stock
-        - "Normal Inserts (Recommended)": hsi
-        - "Full HSI": full_hsi
-  - opt_psu:
-      name: Power Supply (PSU)
-      select: psu
-  - opt_inlet: 
-      name: Power Inlet
-      attribute: inlet
-      options:
-        - "Fused IEC (Standard)": iec
-        - "No built-in inlet": no_iec
-  - opt_switch:
-      name: Front Power Switch
-      attribute: switch
-      options:
-        - "Rocker Switch (Standard)" : rocker
-        - "Toggle Switch" : toggle
-        - "No built-in power switch": no_switch
-  - opt_mcu:
-      name: MCU(s)
-      select: mcu
