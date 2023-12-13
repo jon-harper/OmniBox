@@ -91,7 +91,7 @@ class BOMParser():
                        author=author,
                        note=entry.get('note', None),
                        sources=self.parseSources(entry.get('sources', None)),
-                       image_url=entry.get('img', None))
+                       img_url=entry.get('img', None))
     
     def parseSources(self, entry : dict) -> bom.SourceList:
         """
@@ -149,7 +149,8 @@ class BOMParser():
                                      comp_type=comp_type,
                                      attributes=comp_data.get('attributes', {}),
                                      variants=[],
-                                     note=comp_data.get('note', None))
+                                     note=comp_data.get('note', None),
+                                     img_url=comp_data.get('img', None))
                 # get the parts common to all variants and break up any subassemblies
                 comp_parts = self.breakSubassembly(comp_data.get('parts', bom.MaterialsData()))
                 
@@ -167,7 +168,8 @@ class BOMParser():
                                           attributes=v_data.get('attributes', {}),
                                           parts=v_parts,
                                           author=self.authors.get(author_id, None),
-                                          note=v_data.get('note', ''))
+                                          note=v_data.get('note', ''),
+                                          img_url=v_data.get('img', None))
                     comp.variants.append(variant)
                 #add the component to the list
                 ret[comp_id] = comp

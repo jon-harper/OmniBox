@@ -44,7 +44,7 @@ class Part(NamedTuple):
     icon: Optional[str]         # internal; Material icon key
     file_url: Optional[str]     # STL for printable files
     template: Optional[str]     # Release version (for Core files) or template version (for others)
-    image_url: Optional[str]    # internal; display image for major parts
+    img_url: Optional[str]      # internal; display image for major parts
     note: Optional[str]         # internal
     sources: Optional[SourceList] # list of part links
     author: Optional[str]       # Contributor for printable files
@@ -59,7 +59,8 @@ class Variant(NamedTuple):
     attributes : dict[str, str]
     parts : MaterialsData
     author: Author
-    note : str
+    note : Optional[str]
+    img_url: Optional [str]
 
 class Component(NamedTuple):
     name : str                  # Uniqe, descriptive name
@@ -68,6 +69,7 @@ class Component(NamedTuple):
     attributes: dict[str, str]  # name, value dict for attributes
     variants : list[Variant]    # List of variants of this component
     note : Optional[str]        # Note common to all variants, optional
+    img_url : Optional[str]     # Example image
 
 ComponentData = dict[str, Component]
 

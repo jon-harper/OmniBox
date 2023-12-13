@@ -48,45 +48,57 @@ def author_badge(name: str, url: str, indent : str = '') -> str:
 def hsi_badge(indent : str = '') -> str:
     return badge(':material-cog:', 'Uses heat set inserts', None)
 
-def mcu_count_badge(txt, indent : str ='') -> str:
-    return badge(':fontawesome-solid-microchip:', 'Number of MCUs per tray',
+def qty_badge(txt, indent : str ='') -> str:
+    return badge(':material-chip:', 'Number of parts mounted per tray',
                 icon_url=None, txt=txt)
-
-def short_badge() -> str:
-    return badge(':material-size-s:', 'Short')
-
-def long_badge() -> str:
-    return badge(':material-size-l:', 'Long')
 
 def size_badge(txt : str) -> str:
     return badge(':material-relative-scale:', 'Printed part size',
-                 icon_url=None, txt=txt)
+                 icon_url=None, txt=txt.capitalize())
 
 def base_depth_badge(txt: str) -> str:
     return badge(':material-format-vertical-align-bottom:', 'Required Base depth', 
                  'https://TODO', txt)
 
 def switch_badge(txt: str) -> str:
-    return badge(':material-power:', 'Power switch options',
+    return badge(':material-power:', 'Power switch options with this PSU',
                  'https://TODO', txt)
 
+def no_iec_badge() -> str:
+    return badge(':material-power-plug-off-outline:', 'This component does not provide an IEC power socket.')
+
 def display_badge(txt : str) -> str:
-    return badge(':material-monitor-dashboard:', 'Display type (CPU or MCU)',
+    return badge(':material-monitor:', 'Display type (CPU or MCU)',
                  'https://TODO', txt)
 
 def front_badge() -> str:
-    return badge(':material-format-horizontal-align-left:', 'This is the front half of a part', 
+    return badge(':material-format-horizontal-align-left:', 'This is the front half of a larger component', 
                  txt='Front')
 
 def rear_badge() -> str:
-    return badge(':material-format-horizontal-align-right:', 'This is the rear half of a part',
-                 text='Rear')
+    return badge(':material-format-horizontal-align-right:', 'This is the rear half of a larger component',
+                 txt='Rear')
 
 def unified_badge() -> str:
-    return badge(':material-vector-combine:', 'Unified parts replace front and rear halves')
+    return badge(':material-vector-combine:', 'Unified parts replace front and rear halves',
+                 txt='Unified')
+
+def half_badge(txt : str) -> str:
+    up = txt.upper()
+    if up == 'FRONT':
+        return front_badge()
+    elif up == 'REAR':
+        return rear_badge()
+    elif up == 'UNIFIED':
+        return unified_badge()
 
 def vent_badge() -> str:
     return badge(':material-air-filter:', 'Provides ventilation')
 
 def fan_badge() -> str:
     return badge(':material-fan:', 'Mounts at least one fan')
+
+def extension_badge(txt : str) -> str:
+    return badge(':material-connection:', 'Panel mounts provided', 
+                 'https://TODO', txt=txt)
+

@@ -54,7 +54,7 @@ class MarkdownTools:
         """
         Prints the complete BOM for an assembly with an optional indentation.
         """
-        ret = '{}| Type | Part | Qty | UOM |\n{}|------|------|-----|-----|\n'.format(indent, indent)
+        ret = '{}| Type | Part | Qty |\n{}|------|------|-----|\n'.format(indent, indent)
         for part_id, qty in v.parts.items():
             ret += self.bom_table_row(part_id, qty, indent)
         return ret
@@ -66,74 +66,98 @@ class MarkdownTools:
         """
         if not part:
             part = self.product.partFromId(part_id)
-        return "{}| {} | {} | {} | {} |\n".format(indent, part.part_type, self.part_link(part_id), qty, part.units)
+        return "{}| {} | {} | {} {} |\n".format(indent, part.part_type, self.part_link(part_id), qty, part.units)
     
-    def component_badges(self, comp : bom.Component) -> str:
-        ret = badge.template_badge(comp.template)
-        keys = comp.attributes.keys()
-        if 'half' in keys:
-            v = comp.attributes['half']
-            if v.upper() == 'FRONT':
-                ret += badge.front_badge()
-            elif v.upper() == 'REAR':
-                ret += badge.rear_badge()
-            elif v.upper() == 'UNIFIED':
-                ret += badge.unified_badge()
-        if 'mcu_count' in keys:
-            ret += badge.mcu_count_badge(comp.attributes['mcu_count'])
-        if 'base_depth' in keys:
-            ret += badge.base_depth_badge(comp.attributes['base_depth'])
-        if 'switch' in keys:
-            ret +=  badge.switch_badge(comp.attributes['switch'])
-        if 'display_type' in keys:
-            ret += badge.display_badge(comp.attributes['display_type'])
-        if 'vent' in keys:
-            ret += badge.vent_badge()
-        if 'fan' in keys:
-            ret += badge.fan_badge()
-        return ret
-    
-    def variant_badges(self, variant : bom.Variant) -> str:
+    def render_badges(self, comp : bom.Component, variant : bom.Variant) -> str:
+        ret : str = badge.template_badge(comp.template)
+        ckeys = comp.attributes.keys()
+        vkeys = variant.attributes.keys()
         if variant.author:
-            ret = badge.author_badge(variant.author.name, variant.author.url)
-        else:
-            ret = ''
-        if variant.attributes:
-            if self.product.has_hsi(variant):
-                ret += badge.hsi_badge()
-            keys = variant.attributes.keys()
-            if 'length' in keys:
-                ret += badge.size_badge(variant.attributes['length'])
-            if 'vent' in keys:
-                ret += badge.vent_badge()
-            if 'fan' in keys:
-                ret += badge.fan_badge()
+            ret += badge.author_badge(variant.author.name, variant.author.url)
+        if 'half' in ckeys:
+            ret += badge.half_badge(comp.attributes['half'])
+        elif 'half' in vkeys:
+            ret += badge.half_badge(variant.attributes['half'])
+        if 'length' in ckeys:
+            ret += badge.size_badge(comp.attributes['length'])
+        elif 'length' in vkeys:
+            ret += badge.size_badge(variant.attributes['length'])
+        if 'base_depth' in ckeys:
+            ret += badge.base_depth_badge(comp.attributes['base_depth'])
+        elif 'base_depth' in vkeys:
+            ret += badge.base_depth_badge(variant.attributes['base_depth'])
+        if 'switch' in ckeys:
+            ret += badge.switch_badge(comp.attributes['switch'])
+        elif 'switch' in vkeys:
+            ret += badge.switch_badge(variant.attributes['switch'])
+        if 'display_type' in ckeys:
+            ret += badge.display_badge(comp.attributes['display_type'])
+        elif 'display_type' in vkeys:
+            ret += badge.display_badge(variant.attributes['display_type'])
+        if 'count' in ckeys:
+            ret += badge.qty_badge(comp.attributes['count'])
+        elif 'count' in vkeys:
+            ret += badge.qty_badge(variant.attributes['count'])
+        if 'mounts' in ckeys:
+            ret += badge.extension_badge(comp.attributes['mounts'])
+        elif 'mounts' in vkeys:
+            ret += badge.extension_badge(variant.attributes['mounts'])
+        if 'vent' in ckeys or 'vent' in vkeys:
+            ret += badge.vent_badge()
+        if 'fan' in ckeys or 'fan' in vkeys:
+            ret += badge.fan_badge()
+        if 'hsi' in ckeys or 'hsi' in vkeys:
+            ret += badge.hsi_badge()
         return ret
-        
-    def component_entry(self, comp : bom.Component):
-        comp_badge_text = self.component_badges(comp)
+    
+    @staticmethod
+    def format_note(txt : str) -> str:
+        return ':octicons-paperclip-24: **General Notes**\n\n{}\n\n'.format(txt)
+    
+    @staticmethod
+    def product_img(url : str, text : str ="", width : str ="240px") -> str:
+        w_txt = '{ width="' + width + '" }'
+        return "[![{text}]({url}){width}]({url})".format(text=text, url=url, width=w_txt)
 
+    @staticmethod
+    def issue_tag(issue_number : int) -> str:
+        """
+        Adds a caution annotation for a pending fit test.
+        """
+        return "!!! caution \"Fit Test Pending: See Issue [#{}](https://github.com/jon-harper/OmniBox/issues/{})\"".format(issue_number, issue_number)
+
+    def component_entry(self, comp : bom.Component):
+        ret = '### {name}\n\n'.format(name=comp.name)
+        if comp.img_url:
+            ret += '{}\n\n'.format(MarkdownTools.product_img(comp.img_url, comp.name))
+        if comp.note:
+            ret += MarkdownTools.format_note(comp.note)
         #single variant
         if len(comp.variants) == 1:
+            ret += ':octicons-versions-24: **Details**\n\n'
             v = comp.variants[0]
-            if not comp_badge_text:
-                comp_badge_text = ''
-            comp_badge_text += self.variant_badges(v)
-            if comp_badge_text:
-                comp_badge_text += '\n\n'
-            return '### {name}\n\n{badge}\n\n{table}'.format(
-                name=comp.name,
-                badge=comp_badge_text,
-                table=self.bom_table(v))
+            if 'fit_test' in v.attributes.keys():
+                ret += MarkdownTools.issue_tag(v.attributes['fit_test']) + '\n\n'
+            badge_text = self.render_badges(comp, v)
+            if badge_text:
+                return ret + '{badge}\n\n{table}'.format(
+                                badge=badge_text,
+                                table=self.bom_table(v))
+            else:
+                return ret + '{table}'.format(
+                                name=comp.name,
+                                table=self.bom_table(v))
         
         # Multiple variants
-        indent = '    '
-        ret = '### {name}\n\n'.format(name=comp.name)
+        indent = '    '  
+        ret += ':octicons-versions-24: **Details**\n\n'
         for v in comp.variants:
             section = '=== "{}"\n'.format(v.name)
-            badge_text = self.variant_badges(v)
-            if comp_badge_text or badge_text:
-                section += '{}{}{}\n{}\n'.format(indent, comp_badge_text, badge_text, indent)
+            if 'fit_test' in v.attributes.keys():
+                section += MarkdownTools.issue_tag(v.attributes['fit_test']) + '\n\n'
+            badge_text = self.render_badges(comp, v)
+            if badge_text:
+                section += '{}{}\n{}\n'.format(indent, badge_text, indent)
             section += self.bom_table(v, indent)
             ret += section
         return ret
@@ -155,7 +179,7 @@ class MarkdownTools:
         return ret
 
     def sourcing_part_entry(self, part_id:str, part : bom.Part) -> str:
-        if part.image_url:
+        if part.img_url:
             return \
 """#### {}
 
@@ -170,8 +194,8 @@ class MarkdownTools:
 """.format(MarkdownTools.part_header(part_id, part.name),
             self.source_table(part),
             part.name,
-            part.image_url,
-            part.image_url)
+            part.img_url,
+            part.img_url)
         else:
             return \
 """#### {}
