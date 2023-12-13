@@ -918,6 +918,14 @@ parts:
       name: MCU Tray - Dual BTT SKR Pico v2 - HSI.stl
       file: /Trays/MCU/Dual MCU/SKR Pico and SKR Pico/MCU Tray - Dual BTT SKR Pico v2 - HSI.stl
       template: mcu_v2
+    tray_btt_skr_3_v2:
+      name: MCU Tray - BTT SKR 3 v2.stl
+      file: /Trays/MCU/BTT SKR 3/MCU Tray - BTT SKR 3 v2.stl
+      template: mcu_v2
+    tray_btt_skr_3_ez_v2:
+      name: MCU Tray - BTT SKR 3 EZ - v2.stl
+      file: /Trays/MCU/BTT SKR 3 EZ/MCU Tray - BTT SKR 3 EZ - v2.stl
+      template: mcu_v2
     ### PSU Trays
     # Mean Well LRS 350
     tray_mw_lrs350_v1_l:
@@ -1958,8 +1966,11 @@ components:
       name: Bigtreetech Manta M5P
       template: mcu_v2
       img: img/parts/btt_manta_m5p.webp
+      note: |
+        - Prefer a short MicroSD extension.
       attributes:
         count: Single
+        fit_test: 136
       parts:
         btt_manta_m5p: 1
         shcs_m3_6: 4
@@ -1971,8 +1982,11 @@ components:
       name: Bigtreetech Manta E3EZ
       template: mcu_v2
       img: img/parts/btt_manta_e3ez.webp
+      note: |
+        - Prefer a long MicroSD extension.
       attributes:
         count: Single
+        fit_test: 135
       parts:
         btt_manta_e3_ez: 1
         shcs_m3_6: 4
@@ -1988,7 +2002,9 @@ components:
             hsi_m3_5od_4l: 4
     comp_btt_manta_m8p_v2:
       name: Bigtreetech Manta M8P
-      note: Compatible with all versions.
+      note: |
+        - Compatible with all versions.
+        - Prefer a long MicroSD extension.
       template: mcu_v2
       img: img/parts/btt_manta_m8p.webp
       attributes:
@@ -2020,18 +2036,21 @@ components:
             tray_btt_skrat_hsi_v2: 1
             hsi_m3_5od_4l: 4
     comp_btt_octopus_v2:
-        name: Bigtreetech Octopus/Octopus Pro
-        template: mcu_v2
-        img: img/parts/btt_octopus_1.webp
-        attributes: 
-          count: Single
-        parts:
-          shcs_m3_6: 4
-          btt_octopus: 1
-        variants:
-          Stock:
-            parts:
-              tray_btt_octopus_v2: 1
+      name: Bigtreetech Octopus/Octopus Pro
+      template: mcu_v2
+      img: img/parts/btt_octopus_1.webp
+      note: |
+        - All members of the Octopus series (Octopus, Octopus Pro) are compatible.
+        - Prefer a short MicroSD extension.
+      attributes: 
+        count: Single
+      parts:
+        shcs_m3_6: 4
+        btt_octopus: 1
+      variants:
+        Stock:
+          parts:
+            tray_btt_octopus_v2: 1
     comp_btt_skr_pico_v2_hsi:
       name: Bigtreetech SKR Pico
       template: mcu_v2
@@ -2070,6 +2089,7 @@ components:
       note: |
         - Compatible with all BTT SKR E3 boards.
         - Compatible with all Creality 1.x and 4.x boards.
+        - Prefer a short MicroSD extension.
       parts:
         btt_skr_e3: 1
         shcs_m3_6: 4
@@ -2088,7 +2108,7 @@ components:
             shcs_m3_6: 4
     comp_creality_2_x_v2:
       name: Creality 2.x Series
-      note: Compatible with all versions.
+      note: Compatible with all 2.x.x versions.
       template: mcu_v2
       img: img/parts/creality_2_5_2.webp
       attributes:
@@ -2121,10 +2141,45 @@ components:
         Stock:
           parts:
             tray_btt_skr_classic_v2: 1
+    comp_btt_skr_3_v2:
+      name: Bigtreetech SKR 3
+      template: mcu_v2
+      img: img/parts/btt_skr_3.webp
+      note: |
+        - SKR 3 EZ and earlier SKR models are incompatible.
+        - Prefer a long MicroSD extension.
+      attributes:
+        count: single
+        fit_test: 48
+      parts:
+        btt_skr_3: 1
+        shcs_m3_6: 4
+      variants:
+        Stock:
+          parts:
+            tray_btt_skr_3_v2: 1
+    comp_btt_skr_3_ez_v2:
+      name: Bigtreetech SKR 3 EZ
+      template: mcu_v2
+      img: img/parts/btt_skr_3_ez.webp
+      note: |
+        - Incompatible with the SKR 3.
+        - Prefer a long MicroSD extension.
+      attributes:
+        count: single
+      parts:
+        btt_skr_3_ez: 1
+        shcs_m3_6: 4
+      variants:
+        Stock:
+          parts:
+            tray_btt_skr_3_ez_v2: 1
     comp_duet3_6hc_v2:
       name: Duet3D Duet 3 6HC
       template: mcu_v2
       img: img/parts/duet3_6hc.webp
+      note: |
+        - Prefer a short MicroSD extension.
       attributes:
         count: Single
       parts:
@@ -2138,6 +2193,8 @@ components:
       name: Duet3D Duet 3 Mini 5+
       template: mcu_v2
       img: img/parts/duet3_mini_5plus.webp
+      note: |
+        - Prefer a short MicroSD extension.
       attributes:
         count: Single
       parts:
@@ -2151,6 +2208,9 @@ components:
       name: FYSETC Spider Series
       template: mcu_v2
       img: img/parts/fysetc_spider_2_2.webp
+      note: |
+        - Tested with version 2.x, may work with version 1.
+        - Prefer a short MicroSD extension.
       attributes:
         count: Single
       parts:
@@ -2158,6 +2218,7 @@ components:
         fysetc_spider: 1
       variants: 
         Stock:
+          author: u_maffooclock
           parts:
             tray_fysetc_spider_v2: 1
     comp_mks_monster_8_v2:
@@ -2166,6 +2227,7 @@ components:
       img: img/parts/mks_monster8.webp
       attributes:
         count: Single
+        fit_test: 74
       parts:
         shcs_m3_6: 4
         mks_monster8: 1
@@ -2190,9 +2252,11 @@ components:
         shcs_m3_6: 4
       variants:
         Stock:
+          author: u_killajoe
           parts:
             tray_mks_skipr_v2: 1
         HSI:
+          author: u_killajoe
           attributes:
             hsi: True
           parts:
@@ -2684,6 +2748,8 @@ components:
       name: Bigtreetech UPS 24V
       template: lower_bay_v1
       img: img/parts/btt_ups_24v.webp
+      attributes:
+        fit_test: 24
       parts:
         btt_ups_24v: 1
         shcs_m3_6: 4
