@@ -9,13 +9,13 @@ date: 2023-11-30
 
 {% for part_type in product.part_types -%}
 
-{% if part_type != 'Printed' %}
+{% if part_type != 'Printed' -%}
 
 ### {{ part_type }}
 
-{% for part_id, part in product.sortParts(product.filterParts(part_type).items()) -%}
+{% for part_id, part in product.filterParts(part_type).items() -%}
 
-#### {{ part.name }}
+#### {{ fmt.part_header(part_id, part.name) }}
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
