@@ -11,7 +11,15 @@ date: 2023-12-13
 
 {% set items = product.sortComponents(product.filterComponents(comp_type).values()) -%}
 
-This page lists all SBCs/SoC CPUs compatible with OmniBox.
+This page lists power supplies (PSUs) currently supported by OmniBox.
+
+<figure markdown>
+  [![front left render](../img/components/psu.webp){ width="480" }](../img/components/psu.webp)
+  <figcaption>Power supplies are mounted underneath the case body.</figcaption>
+</figure>
+
+!!! note "Note: Mean Well Clones"
+    There are several brands of clones, usually using the same model number as Mean Well. The most common of these is the Landy LRS-350-24. These clones are generally compatible with the Mean Well trays.
 
 
 {% for comp in items -%}

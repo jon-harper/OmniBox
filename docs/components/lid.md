@@ -14,5 +14,5 @@ date: 2023-12-13
 This page lists all lids available for OmniBox.
 
 {% for comp in items -%}
-{{ format.comp_entry(comp, prefix) }}
+{{ format.comp_entry(comp, prefix, img_width="300px") }}
 {% endfor %}
