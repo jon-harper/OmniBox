@@ -18,6 +18,11 @@
 
 <div markdown class="grid">
 <div markdown>
+{% if comp.attributes and comp.attributes['fit_test'] -%}
+
+{{fmt.issue_tag(comp.attributes['fit_test'])}}
+{% endif -%}
+
 :octicons-paperclip-24: **General Notes**
 
 {{ comp_note(comp) }}
