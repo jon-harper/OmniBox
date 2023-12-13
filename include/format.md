@@ -13,7 +13,7 @@
 {% endif -%}
 {% endmacro -%}
 
-{% macro comp_entry(comp, prefix='')%}
+{% macro comp_entry(comp, prefix='', img_width="240px") -%}
 ### {{ comp.name }}
 
 <div markdown class="grid">
@@ -23,7 +23,7 @@
 {{ comp_note(comp) }}
 </div>
 <div markdown>
-{{ comp_img(comp, prefix=prefix) }}
+{{ comp_img(comp, width=img_width, prefix=prefix) }}
 </div>
 </div>
 
@@ -35,35 +35,37 @@
 === "{{ v.name }}"
     {{ fmt.render_badges(comp, v)}}
 
-{{ fmt.bom_table(v, indent=indent )}}
+{{ bom_table(v, indent=indent, prefix=prefix)}}
 {% endfor -%}
 {% else -%}
 {% set v = comp.variants[0] -%}
 {{ fmt.render_badges(comp, v)}}
 
-{{ fmt.bom_table(v)}}
+{{ bom_table(v, prefix=prefix) }}
 {% endif -%}
 ---------
 {% endmacro -%}
 
-{% macro part_link(part_id, part, prefix='') -%}
-{% if part.type_type == 'Printed' -%}
-{% set type_text = '' -%}
-[{{part.name}}]({{part.file_url}} 'File download')
-{% elif part.sources -%}
-[{{part.name}}]({{prefix + 'sourcing.md#' + part_id}} 'Sourcing information')
-{% endif %}
-{{ part.name }}
-{% endmacro %}
-
-{% macro source_table(part) %}
+{% macro source_table(part) -%}
 | Source | Ships To | Ships From | Note |
 |--------|----------|------------|------|
 {% if part.sources | count == 0 -%}
 | | | |
 {% else -%}
 {% for source in part.sources -%}
-| [{{source.supplier.name}}]({{source.url}}) | {{ source.supplier.ships }} | {{ source.supplier.region }} | {{ source.note }} |
+| [{{source.supplier.name}}]({{source.url}} "") | {{ source.supplier.ships }} | {{ source.supplier.region }} | {{ source.note }} |
 {% endfor -%}
 {% endif -%}
-{% endmacro %}
+{% endmacro -%}
+
+{% macro bom_table(variant, indent='', prefix='') -%}
+{{indent}}| Type | Part | Qty |
+{{indent}}|------|------|-----|
+{% if variant.parts -%}
+{% for part_id, qty in variant.parts.items()-%}
+{% set part = product.partFromId(part_id) -%}
+{% set link = fmt.part_link(part_id, part, prefix=prefix) -%}
+{{indent}}|{{part.part_type}}|{{link}}|{{qty}}|
+{% endfor -%}
+{% endif %}
+{% endmacro -%}

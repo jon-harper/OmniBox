@@ -39,35 +39,17 @@ class MarkdownTools:
             return '[{}]({})'.format(auth.name, auth.url)
         return auth.name
 
-    def part_link(self, part_id : str) -> str:
-        part : bom.Part = self.product.parts[part_id]
-        ret : str = "[{} {}]({})"
+    def part_link(self, part_id : str, part : bom.Part, prefix='') -> str:
+        
+        ret : str = '[{} {}]({} "{}")'
         if part.part_type == 'Printed':
-            ret = ret.format(':material-printer-3d-nozzle:', part.name, part.file_url)
+            ret = ret.format(':material-printer-3d-nozzle:', part.name, part.file_url, "File download")
         elif part.sources:
-            ret = ret.format(':material-cart:', part.name, 'sourcing.md#' + part_id)
+            ret = ret.format(':material-cart:', part.name, prefix + 'sourcing.md#' + part_id, "Sourcing information")
         else:
             return part.name
         return ret
 
-    def bom_table(self, v : bom.Variant, indent = '') -> str:
-        """
-        Prints the complete BOM for an assembly with an optional indentation.
-        """
-        ret = '{}| Type | Part | Qty |\n{}|------|------|-----|\n'.format(indent, indent)
-        for part_id, qty in v.parts.items():
-            ret += self.bom_table_row(part_id, qty, indent)
-        return ret
-    
-    def bom_table_row(self, part_id : str, qty : float, indent = '', part : bom.Part = None) -> str:
-        """
-        Takes a part_id and quantity and produces an entry for a BOM table.
-        Adds icons and links based on part type.
-        """
-        if not part:
-            part = self.product.partFromId(part_id)
-        return "{}| {} | {} | {} {} |\n".format(indent, part.part_type, self.part_link(part_id), qty, part.units)
-    
     def render_badges(self, comp : bom.Component, variant : bom.Variant) -> str:
         ret : str = badge.template_badge(comp.template)
         ckeys = comp.attributes.keys()
@@ -125,85 +107,3 @@ class MarkdownTools:
         Adds a caution annotation for a pending fit test.
         """
         return "!!! caution \"Fit Test Pending: See Issue [#{}](https://github.com/jon-harper/OmniBox/issues/{})\"".format(issue_number, issue_number)
-
-    def component_entry(self, comp : bom.Component):
-        ret = '### {name}\n\n'.format(name=comp.name)
-        if comp.img_url:
-            ret += '{}\n\n'.format(MarkdownTools.product_img(comp.img_url, comp.name))
-        if comp.note:
-            ret += MarkdownTools.format_note(comp.note)
-        #single variant
-        if len(comp.variants) == 1:
-            ret += ':octicons-versions-24: **Details**\n\n'
-            v = comp.variants[0]
-            if 'fit_test' in v.attributes.keys():
-                ret += MarkdownTools.issue_tag(v.attributes['fit_test']) + '\n\n'
-            badge_text = self.render_badges(comp, v)
-            if badge_text:
-                return ret + '{badge}\n\n{table}'.format(
-                                badge=badge_text,
-                                table=self.bom_table(v))
-            else:
-                return ret + '{table}'.format(
-                                name=comp.name,
-                                table=self.bom_table(v))
-        
-        # Multiple variants
-        indent = '    '  
-        ret += ':octicons-versions-24: **Details**\n\n'
-        for v in comp.variants:
-            section = '=== "{}"\n'.format(v.name)
-            if 'fit_test' in v.attributes.keys():
-                section += MarkdownTools.issue_tag(v.attributes['fit_test']) + '\n\n'
-            badge_text = self.render_badges(comp, v)
-            if badge_text:
-                section += '{}{}\n{}\n'.format(indent, badge_text, indent)
-            section += self.bom_table(v, indent)
-            ret += section
-        return ret
-
-    def source_table(self, part : bom.Part) -> str:
-        """
-        Returns a full markdown table of the Sources for a given Part.
-        """
-        ret = \
-        "| Source | Ships To | Ships From | Note |\n|---|---|---|---|\n"
-        if len(part.sources) == 0:
-            ret += '| | | | |\n'
-            return ret
-        for source in part.sources:
-            ret += '| {} | {} | {} | {} |\n'.format(MarkdownTools.as_url(source.supplier.name, source.url), 
-                                               source.supplier.ships,
-                                               source.supplier.region, 
-                                               source.note)
-        return ret
-
-    def sourcing_part_entry(self, part_id:str, part : bom.Part) -> str:
-        if part.img_url:
-            return \
-"""#### {}
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-{}
-</div>
-<div markdown class="jh-grid-img">
-[![{}]({})]({})
-</div>
-</div>
-""".format(MarkdownTools.part_header(part_id, part.name),
-            self.source_table(part),
-            part.name,
-            part.img_url,
-            part.img_url)
-        else:
-            return \
-"""#### {}
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-{}
-</div>
-</div>
-""".format(MarkdownTools.part_header(part_id, part.name),
-            self.source_table(part))
