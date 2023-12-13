@@ -2369,6 +2369,7 @@ components:
     comp_lb_40mm:
       name: Lower Bay 40mm Fan
       template: lower_bay_v1
+      img: img/parts/fan_4010.webp
       parts:
         assy_fan_4010_12mm: 1
         shcs_m3_6: 4
@@ -2382,6 +2383,7 @@ components:
     comp_omron_ssr:
       name: Omron G3NA/G3A SSR
       template: lower_bay_v1
+      img: img/parts/omron_ssr.webp
       parts:
         omron_g3na_210: 1
         shcs_m4_6: 2
@@ -2400,6 +2402,7 @@ components:
     comp_btt_relay:
       name: Bigtreetech Relay
       template: lower_bay_v1
+      img: img/parts/btt_relay_1.2.webp
       parts:
         btt_relay_1_2: 1
         shcs_m3_6: 8
@@ -2412,6 +2415,7 @@ components:
     comp_creality_mosfet:
       name: Creality MOSFET
       template: lower_bay_v1
+      img: img/parts/mosfet_creality.webp
       parts:
         creality_mosfet: 1
         shcs_m3_6: 2
@@ -2451,6 +2455,8 @@ components:
     comp_drok_3a_lm2596:
       name: DROK 3A LM2596
       template: lower_bay_v1
+      img: img/parts/buck_3a_drok.webp
+      Note: The hole pattern for this part is 52.5mm x 28.75mm.
       parts:
         drok_3a_lm2596: 1
         shcs_m3_6: 4
@@ -2481,6 +2487,8 @@ components:
     comp_drok_5a:
       name: DROK 5A Buck Converter
       template: lower_bay_v1
+      img: img/parts/buck_5a_drok.webp
+      note: The hole pattern for this part is 63mm x 40.5mm.
       parts:
         drok_5a_buck: 1
         shcs_m3_6: 8
@@ -2501,6 +2509,8 @@ components:
     comp_drok_lm2596_led:
       name: DROK LM2596 with LED
       template: lower_bay_v1
+      img: img/parts/lm2596_led.webp
+      note: The hole pattern for this part is 60.5mm x 30.5mm.
       parts:
         shcs_m3_6: 4
       variants:
@@ -2543,6 +2553,8 @@ components:
     comp_hiletgo_lm2596:
       name: HiLetGo LM2596 with LED
       template: lower_bay_v1
+      img: img/parts/lm2596_led_2.webp
+      note: The hole pattern for this part is 49.5mm x 27.5mm.
       parts:
         shcs_m3_6: 4
       variants:
@@ -2585,6 +2597,8 @@ components:
     comp_basic_lm2596:
       name: Basic LM2596
       template: lower_bay_v1
+      img: img/parts/lm2596.webp
+      note: This converter requires a heat sink to safely output 3A.
       parts:
         shcs_m3_6: 4
       variants:
@@ -2635,6 +2649,7 @@ components:
     comp_fotek_ssr40:
       name: Fotek SSR-40 DA
       template: lower_bay_v1
+      img: img/parts/fotek_ssr-40_da.webp
       parts:
         fotek_ssr40_da: 1
         shcs_m4_6: 2
@@ -2652,6 +2667,10 @@ components:
     comp_btt_u2c:
       name: Bigtreetech U2C CAN Adapter
       template: lower_bay_v1
+      img: img/parts/btt_u2c.webp
+      note: |
+        - Socket head screws are too large for the terminals.
+        - See the [Printables](https://www.printables.com/model/422526-omnibox-lower-bay-short-tray-for-btt-u2c) page for more details.
       parts:
         btt_u2c: 1
         bhcs_m3_6: 4
@@ -2664,6 +2683,7 @@ components:
     comp_btt_ups:
       name: Bigtreetech UPS 24V
       template: lower_bay_v1
+      img: img/parts/btt_ups_24v.webp
       parts:
         btt_ups_24v: 1
         shcs_m3_6: 4
@@ -2675,6 +2695,7 @@ components:
     comp_wago_221:
       name: Wago 221 Series Lever Nuts
       template: lower_bay_v1
+      img: img/parts/wago_221_415.webp
       parts:
         shcs_m3_6: 4
       variants:
@@ -2799,7 +2820,7 @@ components:
     comp_rpi3b_v3:
       name: Raspberry Pi 3B+
       template: cpu_v3
-      img: img/parts/rpi_3b_plus.webp
+      img: img/components/comp_rpi3b_v3.webp
       parts:
         cpu_rpi3b_plus: 1
       variants:
@@ -2810,7 +2831,7 @@ components:
     comp_rpi_4_v3:
       name: Raspberry Pi 4B
       template: cpu_v3
-      img: img/parts/rpi_4b.webp
+      img: img/components/comp_rpi_4_v3.webp
       parts:
         cpu_rpi4b: 1
       variants:
@@ -2821,6 +2842,9 @@ components:
     comp_cpu_universal_v3:
       name: Raspberry Pi and compatible
       template: cpu_v3
+      img: img/components/comp_cpu_universal_v3.webp
+      note: |
+        This tray has the Raspberry Pi mounting hole pattern and is compatible with clones (e.g., Orange Pi, Banana Pi) that use the same hole pattern and PCB dimensions.
       parts:
         cpu_rpi4b: 1
         shcs_m3_6: 4
@@ -2866,6 +2890,7 @@ components:
     comp_blank_lid:
       name: Simple/Blank Lids
       template: lid_v1
+      img: img/components/comp_blank_lid.webp
       variants:
         Long Blank:
           attributes:
@@ -2887,6 +2912,7 @@ components:
     comp_carry_lid:
       name: Carry Handle Lid
       template: lid_v1
+      img: img/components/comp_carry_lid.webp
       variants:
         Long:
           attributes:
@@ -2916,6 +2942,7 @@ components:
     comp_120mm_lid:
       name: 120mm Fan Lids
       template: lid_v1
+      img: img/components/comp_120mm_lid.webp
       parts:
         assy_fan_12025_cage: 1
       variants:
@@ -2933,12 +2960,14 @@ components:
         120mm Fan, Handle, HSI:
           attributes: 
             length: Long
+            hsi: true
           parts:
             lid_long_120mm_handle: 1
             assy_carry_handle_hsi: 1
     comp_fan_lid:
       name: Short Fan Lids
       template: lid_v1
+      img: img/components/comp_fan_lid.webp
       variants:
         Dual 40mm Fans:
           attributes:
@@ -2964,6 +2993,7 @@ components:
         These lids use the mounting pattern from a Raspberry Pi; as such, they are compatible
         with any display that mounts a Raspberry Pi on the back.
       template: lid_v1
+      img: img/components/comp_rpi_lid.webp
       attributes:
         display_type: CPU
       parts:
@@ -2985,6 +3015,7 @@ components:
     comp_drybox_lid:
       name: Rubbermaid 21 cup Drybox
       template: lid_v1
+      img: img/components/comp_drybox_lid.webp
       variants:
         Stock:
           attributes:
@@ -2994,6 +3025,7 @@ components:
     comp_roller_lid:
       name: Spool Roller Lid
       template: lid_v1
+      img: img/components/comp_roller_lid.webp
       parts:
         misc_spool_roller: 4
         shcs_m3_16: 4
@@ -3143,6 +3175,7 @@ components:
     comp_rear_generic_no_fan:
       name: Generic (No Fan)
       template: rear_v2
+      img: img/components/comp_rear_generic_no_fan.webp
       variants:
         No USB:
           parts:
