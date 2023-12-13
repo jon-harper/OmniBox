@@ -121,6 +121,20 @@ nav:
     - support/displays.md
     - support/fans.md
     - support/lower_bay.md
+  - Components (Experimental):
+    - components/core.md
+    - Trays:
+      - components/cpu.md
+      - components/mcu.md
+      - components/psu.md
+      - components/lower_bay.md
+    - Panels:
+      - components/bottom.md
+      - components/display.md
+      - components/lid.md
+      - components/rear.md
+      - components/side.md
+    
   - Assembly Guide:
     - assembly/index.md
     - Heat Set Inserts (HSI):
@@ -154,6 +168,6 @@ nav:
       - history/v0.9.7.md
       - history/v0.9.5.md
       - history/v0.9.md
-  - Testing:
-    - debug.md
-    - sourcing.md
+  # - Testing:
+  #   - debug.md
+  - sourcing.md
