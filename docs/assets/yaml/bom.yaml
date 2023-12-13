@@ -2022,6 +2022,7 @@ components:
     comp_btt_octopus_v2:
         name: Bigtreetech Octopus/Octopus Pro
         template: mcu_v2
+        img: img/parts/btt_octopus_1.webp
         attributes: 
           count: Single
         parts:
@@ -2034,34 +2035,62 @@ components:
     comp_btt_skr_pico_v2_hsi:
       name: Bigtreetech SKR Pico
       template: mcu_v2
-      attributes: 
-        count: Single
+      img: img/parts/btt_skr_pico.webp
       parts:
         btt_skr_pico: 1
         shcs_m3_6: 4
       variants:
-        HSI:
+        Single, HSI:
           attributes:
             hsi: True
+            count: Single
           parts:
             tray_btt_skr_pico_v2_hsi: 1
             hsi_m3_5od_4l: 4
+        Dual, Stock:
+          attributes: 
+            count: Dual
+          parts:
+            tray_dual_btt_skr_pico_v2: 1
+            btt_skr_pico: 1
+            shcs_m3_6: 4
+        Dual, HSI:
+          attributes:
+            hsi: True
+            count: Dual
+          parts:
+            tray_dual_btt_skr_pico_v2_hsi: 1
+            hsi_m3_5od_4l: 8
+            btt_skr_pico: 1
+            shcs_m3_6: 4
     comp_btt_skr_e3_v2:
       name: Bigtreetech SKR E3 Series
       template: mcu_v2
-      attributes:
-        count: Single
+      img: img/parts/btt_skr_mini_e3_v3.webp
+      note: |
+        - Compatible with all BTT SKR E3 boards.
+        - Compatible with all Creality 1.x and 4.x boards.
       parts:
         btt_skr_e3: 1
         shcs_m3_6: 4
       variants:
-        Stock:
+        Single:
+          attributes:
+            count: Single
           parts:
             tray_btt_skr_e3_v2: 1
+        Dual:
+          attributes:
+            count: Dual
+          parts:
+            tray_dual_btt_skr_e3_v2: 1
+            btt_skr_e3: 1
+            shcs_m3_6: 4
     comp_creality_2_x_v2:
       name: Creality 2.x Series
       note: Compatible with all versions.
       template: mcu_v2
+      img: img/parts/creality_2_5_2.webp
       attributes:
         count: Single
       parts:
@@ -2082,6 +2111,7 @@ components:
     comp_btt_skr_classic_v2:
       name: Bigtreetech SKR 1.3/1.4/2
       template: mcu_v2
+      img: img/parts/btt_skr_2.webp
       attributes:
         count: Single
       parts:
@@ -2094,6 +2124,7 @@ components:
     comp_duet3_6hc_v2:
       name: Duet3D Duet 3 6HC
       template: mcu_v2
+      img: img/parts/duet3_6hc.webp
       attributes:
         count: Single
       parts:
@@ -2106,6 +2137,7 @@ components:
     comp_duet3_mini5p_v2:
       name: Duet3D Duet 3 Mini 5+
       template: mcu_v2
+      img: img/parts/duet3_mini_5plus.webp
       attributes:
         count: Single
       parts:
@@ -2118,6 +2150,7 @@ components:
     comp_fysetc_spider_v2:
       name: FYSETC Spider Series
       template: mcu_v2
+      img: img/parts/fysetc_spider_2_2.webp
       attributes:
         count: Single
       parts:
@@ -2130,6 +2163,7 @@ components:
     comp_mks_monster_8_v2:
       name: MakerBase MKS Monster 8
       template: mcu_v2
+      img: img/parts/mks_monster8.webp
       attributes:
         count: Single
       parts:
@@ -2148,6 +2182,7 @@ components:
     comp_mks_skipr_v2:
       name: MakerBase MKS Skipr
       template: mcu_v2
+      img: img/parts/mks_skipr.webp
       attributes:
         count: Single
       parts:
@@ -2176,36 +2211,6 @@ components:
         Stock:
           parts:
             tray_btt_skr_e3_and_pico_v2: 1
-    comp_dual_skr_pico:
-      name: Dual Bigtreetech SKR Pico
-      template: mcu_v2
-      attributes:
-        count: Dual
-      parts:
-        btt_skr_pico: 2
-        shcs_m3_6: 8
-      variants:
-        Stock:
-          parts:
-            tray_dual_btt_skr_pico_v2: 1
-        HSI:  
-          attributes:
-            hsi: True
-          parts:
-            tray_dual_btt_skr_pico_v2_hsi: 1
-            hsi_m3_5od_4l: 8
-    comp_dual_btt_skr_e3_v2:
-      name: Dual Bigtreetech SKR E3
-      template: mcu_v2
-      attributes:
-        count: Dual
-      parts:
-        btt_skr_e3: 2
-        shcs_m4_6: 8
-      variants:
-        Stock:
-          parts:
-            tray_dual_btt_skr_e3_v2: 1
   ###
   PSU:
   ###
