@@ -73,3 +73,9 @@ class Product:
         if 'hsi' in v.attributes.keys():
             return True
         return False
+
+    def sortComponents(self, values : list[bom.Component]) -> list[bom.Component]:
+        return sorted(values, key=lambda v : v.name)
+
+    def sortParts(self, values : list[bom.Part]) -> list [bom.Part]:
+        return sorted(values, key=lambda v : v.name)
