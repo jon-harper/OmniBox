@@ -19,6 +19,11 @@ date: 2023-11-30
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
+{% if part.note -%}
+!!! note 
+    {{ part.note }}
+
+{% endif -%}
 {{ format.source_table(part) }}
 </div>
 {% if part.img_url -%}
