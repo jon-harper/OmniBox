@@ -742,6 +742,7 @@ parts:
     wire_16awg:
       name: Stranded Hookup Wire, 16 awg/1.25mm^2^
       img: img/parts/wire_16awg.webp
+      units: cm
       sources:
         amazon_us:
           url: "https://www.amazon.com/BNTECHGO-Silicone-Flexible-Strands-Stranded/dp/B00TG1TRL2"
@@ -1992,6 +1993,12 @@ subassemblies:
   assy_rocker_switch_cover:
     switch_rocker: 1
     misc_rocker_cover: 1
+    conn_f_spade_14-16: 2
+    wire_16awg: 50
+  assy_toggle_switch:
+    switch_12mm_toggle: 1
+    conn_f_spade_14-16: 2
+    wire_16awg: 50
   assy_carry_handle:
     misc_carry_handle: 1
     shcs_m3_8: 2
@@ -1999,6 +2006,46 @@ subassemblies:
     misc_carry_handle_hsi: 1
     hsi_m3_5od_4l: 2
     shcs_m3_6: 2
+  assy_crossbar_stock:
+    core_mb_0_9_11_crossbar: 1
+    shcs_m3_20: 2
+  assy_crossbar_hsi:
+    core_mb_0_9_11_crossbar_hsi: 1
+    shcs_m3_16: 2
+  assy_fused_iec_c14:
+    fused_iec_c14: 1
+    shcs_m3_6: 2
+    conn_f_spade_14-16: 3
+    conn_fork_14-16: 3
+    wire_16awg: 30
+    fuse_5x20: 1
+  assy_base_front_rear:
+    shcs_m3_12: 4
+  assy_base_front_rear_hsi:
+    shcs_m3_12: 4
+    hsi_m3_5od_4l: 4
+  assy_base_common_stock:
+    shcs_m3_6: 8
+    shcs_m3_8: 2
+    wood_screw_6_3/4: 8
+  assy_base_common_hsi:
+    shcs_m3_6: 10
+    shcs_m3_8: 8
+    hsi_m3_5od_4l: 18
+  assy_mb_front_rear_stock:
+    shcs_m3_8: 6
+  assy_mb_front_rear_hsi:
+    hsi_m3_5od_4l: 6
+    shcs_m3_8: 6
+  assy_mb_common_stock:
+    shcs_m3_8: 40
+    shcs_m3_10: 6
+  assy_mb_common_hsi:
+    shcs_m3_6: 40
+    shcs_m3_8: 6
+    hsi_m3_5od_4l: 46
+  assy_full_hsi:
+    hsi_m3_5od_4l: 24
 components:
   ###
   MCU:
@@ -3385,24 +3432,31 @@ components:
             hsi_m3_5od_4l: 4
   Main Body:
     comp_mb_0_9_11:
-      name: Main Body
+      name: Front/Rear Main Body
       template: core_v0_9_11
       variants:
         Stock:
           parts:
             core_mb_0_9_11_front: 1
             core_mb_0_9_11_rear: 1
-            core_mb_0_9_11_crossbar: 1
+            assy_crossbar_stock: 1
+            assy_mb_common_stock: 1
+            assy_mb_front_rear_stock: 1
         HSI:
           parts:
             core_mb_0_9_11_front_hsi: 1
             core_mb_0_9_11_rear_hsi: 1
-            core_mb_0_9_11_crossbar_hsi: 1
+            assy_crossbar_hsi: 1
+            assy_mb_common_hsi: 1
+            assy_mb_front_rear_hsi: 1
         Full HSI:
           parts:
             core_mb_0_9_11_front_full_hsi: 1
             core_mb_0_9_11_rear_full_hsi: 1
             core_mb_0_9_11_crossbar_hsi: 1
+            assy_mb_common_hsi: 1
+            assy_full_hsi: 1
+            assy_mb_front_rear_hsi: 1
     comp_mb_unified_0_9_11:
       name: Unified Main Body
       template: core_v0_9_11
@@ -3410,21 +3464,25 @@ components:
         Stock:
           parts:
             core_mb_0_9_11_unified: 1
-            core_mb_0_9_11_crossbar: 1
+            assy_crossbar_stock: 1
+            assy_mb_common_stock: 1
         HSI:
           attributes:
             hsi: True
           parts:
             core_mb_0_9_11_unified_hsi: 1
-            core_mb_0_9_11_crossbar_hsi: 1
+            assy_crossbar_hsi: 1
+            assy_mb_common_hsi: 1
         Full HSI:
           attributes:
             hsi: True
           parts:
             core_mb_0_9_11_unified_full_hsi: 1
             core_mb_0_9_11_crossbar_hsi: 1
+            assy_mb_common_hsi: 1
+            assy_full_hsi: 1
   Base:
-    comp_base_basic_0_9_11:
+    comp_base_36mm_basic_0_9_11:
       name: 36mm Basic Base
       template: core_v0_9_11
       note: These bases come without power switches or IEC power inlets.
@@ -3436,96 +3494,274 @@ components:
           parts:
             core_base_0_9_11_36mm_front: 1
             core_base_0_9_11_36mm_rear_basic: 1
+            assy_base_common_stock: 1
+            assy_base_front_rear: 1
         Front/Rear, HSI:
           attributes:
             hsi: True
           parts:
             core_base_0_9_11_36mm_front_hsi: 1
             core_base_0_9_11_36mm_rear_basic_hsi: 1
+            assy_base_common_hsi: 1
+            assy_base_front_rear_hsi: 1
         Unified:
           parts:
             core_base_0_9_11_36mm_unified_basic: 1
+            assy_base_common_stock: 1
         Unified, HSI:
           attributes:
             hsi: True
           parts:
             core_base_0_9_11_36mm_unified_basic_hsi: 1
-    comp_base_iec_0_9_11:
+            assy_base_common_hsi: 1
+    comp_base_36mm_iec_0_9_11:
       name: 36mm Base without Switch
       note: These bases have an IEC power inlet but lack power switches.
       template: core_v0_9_11
       attributes:
         base_depth: 36mm
         switch: None
+      parts:
+        assy_fused_iec_c14: 1
       variants:
         Front/Rear:
           parts:
             core_base_0_9_11_36mm_front: 1
             core_base_0_9_11_36mm_rear_iec: 1
+            assy_base_common_stock: 1
+            assy_base_front_rear: 1
         Front/Rear, HSI:
           attributes:
             hsi: True
           parts:
             core_base_0_9_11_36mm_front_hsi: 1
             core_base_0_9_11_36mm_rear_iec_hsi: 1
+            assy_base_common_hsi: 1
+            assy_base_front_rear_hsi: 1
+            hsi_m3_5od_4l: 2
         Unified:
           parts:
             core_base_0_9_11_36mm_unified_iec: 1
+            assy_base_common_stock: 1
         Unified, HSI:
           attributes:
             hsi: true
           parts:
             core_base_0_9_11_36mm_unified_iec_hsi: 1
-    comp_base_rocker_0_9_11:
+            assy_base_common_hsi: 1
+            hsi_m3_5od_4l: 2
+    comp_base_36mm_rocker_0_9_11:
       name: 36mm Base with Rocker Switch
       template: core_v0_9_11
       attributes:
         base_depth: 36mm
         switch: Rocker
+      parts:
+        assy_rocker_switch_cover: 1
+        assy_fused_iec_c14: 1
       variants:
         Front/Rear:
           parts:
             core_base_0_9_11_36mm_front_rocker: 1
             core_base_0_9_11_36mm_rear_iec: 1
+            assy_base_common_stock: 1
+            assy_base_front_rear: 1
         Front/Rear, HSI:
           attributes:
             hsi: True
           parts:
             core_base_0_9_11_36mm_front_rocker_hsi: 1
             core_base_0_9_11_36mm_rear_iec_hsi: 1
+            assy_base_common_hsi: 1
+            assy_base_front_rear_hsi: 1
+            hsi_m3_5od_4l: 2
         Unified:
           parts:
             core_base_0_9_11_36mm_unified_rocker: 1
+            assy_base_common_stock: 1
         Unified, HSI:
           attributes:
             hsi: true
           parts:
             core_base_0_9_11_36mm_unified_rocker_hsi: 1
-    comp_base_toggle_0_9_11:
+            assy_base_common_hsi: 1
+            hsi_m3_5od_4l: 2
+    comp_base_36mm_toggle_0_9_11:
       name: 36mm Base with Toggle Switch
       template: core_v0_9_11
       attributes:
         base_depth: 36mm
         switch: Toggle
+      parts:
+        assy_fused_iec_c14: 1
+        assy_toggle_switch: 1
       variants:
         Front/Rear:
           parts:
             core_base_0_9_11_36mm_front_toggle: 1
             core_base_0_9_11_36mm_rear_iec: 1
+            assy_base_common_stock: 1
+            assy_base_front_rear: 1
         Front/Rear, HSI:
           attributes:
             hsi: True
           parts:
             core_base_0_9_11_36mm_front_toggle_hsi: 1
             core_base_0_9_11_36mm_rear_iec_hsi: 1
+            assy_base_common_hsi: 1
+            assy_base_front_rear_hsi: 1
+            hsi_m3_5od_4l: 2
         Unified:
           parts:
             core_base_0_9_11_36mm_unified_toggle: 1
+            assy_base_common_stock: 1
         Unified, HSI:
           attributes:
             hsi: true
           parts:
             core_base_0_9_11_36mm_unified_toggle_hsi: 1
+            assy_base_common_hsi: 1
+            hsi_m3_5od_4l: 2
+    comp_base_42mm_basic_0_9_11:
+      name: 42mm Basic Base
+      template: core_v0_9_11
+      note: These bases come without power switches or IEC power inlets.
+      attributes:
+        base_depth: 42mm
+        switch: None
+      variants:
+        Front/Rear:
+          parts:
+            core_base_0_9_11_42mm_front: 1
+            core_base_0_9_11_42mm_rear_basic: 1
+            assy_base_common_stock: 1
+            assy_base_front_rear: 1
+        Front/Rear, HSI:
+          attributes:
+            hsi: True
+          parts:
+            core_base_0_9_11_42mm_front_hsi: 1
+            core_base_0_9_11_42mm_rear_basic_hsi: 1
+            assy_base_common_hsi: 1
+            assy_base_front_rear_hsi: 1
+        Unified:
+          parts:
+            core_base_0_9_11_42mm_unified_basic: 1
+            assy_base_common_stock: 1
+        Unified, HSI:
+          attributes:
+            hsi: True
+          parts:
+            core_base_0_9_11_42mm_unified_basic_hsi: 1
+            assy_base_common_hsi: 1
+    comp_base_42mm_iec_0_9_11:
+      name: 42mm Base without Switch
+      note: These bases have an IEC power inlet but lack power switches.
+      template: core_v0_9_11
+      attributes:
+        base_depth: 42mm
+        switch: None
+      parts:
+        assy_fused_iec_c14: 1
+      variants:
+        Front/Rear:
+          parts:
+            core_base_0_9_11_42mm_front: 1
+            core_base_0_9_11_42mm_rear_iec: 1
+            assy_base_common_stock: 1
+            assy_base_front_rear: 1
+        Front/Rear, HSI:
+          attributes:
+            hsi: True
+          parts:
+            core_base_0_9_11_42mm_front_hsi: 1
+            core_base_0_9_11_42mm_rear_iec_hsi: 1
+            assy_base_common_hsi: 1
+            assy_base_front_rear_hsi: 1
+            hsi_m3_5od_4l: 2
+        Unified:
+          parts:
+            core_base_0_9_11_42mm_unified_iec: 1
+            assy_base_common_stock: 1
+        Unified, HSI:
+          attributes:
+            hsi: true
+          parts:
+            core_base_0_9_11_42mm_unified_iec_hsi: 1
+            assy_base_common_hsi: 1
+            hsi_m3_5od_4l: 2
+    comp_base_42mm_rocker_0_9_11:
+      name: 42mm Base with Rocker Switch
+      template: core_v0_9_11
+      attributes:
+        base_depth: 42mm
+        switch: Rocker
+      parts:
+        assy_rocker_switch_cover: 1
+        assy_fused_iec_c14: 1
+      variants:
+        Front/Rear:
+          parts:
+            core_base_0_9_11_42mm_front_rocker: 1
+            core_base_0_9_11_42mm_rear_iec: 1
+            assy_base_common_stock: 1
+            assy_base_front_rear: 1
+        Front/Rear, HSI:
+          attributes:
+            hsi: True
+          parts:
+            core_base_0_9_11_42mm_front_rocker_hsi: 1
+            core_base_0_9_11_42mm_rear_iec_hsi: 1
+            assy_base_common_hsi: 1
+            assy_base_front_rear_hsi: 1
+            hsi_m3_5od_4l: 2
+        Unified:
+          parts:
+            core_base_0_9_11_42mm_unified_rocker: 1
+            assy_base_common_stock: 1
+        Unified, HSI:
+          attributes:
+            hsi: true
+          parts:
+            core_base_0_9_11_42mm_unified_rocker_hsi: 1
+            assy_base_common_hsi: 1
+            hsi_m3_5od_4l: 2
+    comp_base_42mm_toggle_0_9_11:
+      name: 42mm Base with Toggle Switch
+      template: core_v0_9_11
+      attributes:
+        base_depth: 42mm
+        switch: Toggle
+      parts:
+        assy_fused_iec_c14: 1
+        assy_toggle_switch: 1
+      variants:
+        Front/Rear:
+          parts:
+            core_base_0_9_11_42mm_front_toggle: 1
+            core_base_0_9_11_42mm_rear_iec: 1
+            assy_base_common_stock: 1
+            assy_base_front_rear: 1
+        Front/Rear, HSI:
+          attributes:
+            hsi: True
+          parts:
+            core_base_0_9_11_42mm_front_toggle_hsi: 1
+            core_base_0_9_11_42mm_rear_iec_hsi: 1
+            assy_base_common_hsi: 1
+            assy_base_front_rear_hsi: 1
+            hsi_m3_5od_4l: 2
+        Unified:
+          parts:
+            core_base_0_9_11_42mm_unified_toggle: 1
+            assy_base_common_stock: 1
+        Unified, HSI:
+          attributes:
+            hsi: true
+          parts:
+            core_base_0_9_11_42mm_unified_toggle_hsi: 1
+            assy_base_common_hsi: 1
+            hsi_m3_5od_4l: 2
 templates:
   v0_9_11:
     - core_v0_9_11
