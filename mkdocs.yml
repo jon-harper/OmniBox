@@ -112,29 +112,23 @@ nav:
     - tour.md
     - bom.md
     - printing.md
-  - Product Support:
+  - Options & Support:
     - support/index.md
     - support/panel_mounts.md
-    - support/mcu.md
-    - support/cpu.md
-    - support/psu.md
-    - support/displays.md
     - support/fans.md
-    - support/lower_bay.md
-  - Components (Experimental):
-    - components/core.md
+    - support/core.md
     - Trays:
-      - components/cpu.md
-      - components/mcu.md
-      - components/psu.md
-      - components/lower_bay.md
+      - support/mcu.md
+      - support/cpu.md
+      - support/psu.md
+      - support/lower_bay.md
     - Panels:
-      - components/bottom.md
-      - components/display.md
-      - components/lid.md
-      - components/rear.md
-      - components/side.md
-    
+      - support/display.md  
+      - support/front.md
+      - support/lid.md
+      - support/rear.md
+      - support/side.md
+      - support/bottom.md
   - Assembly Guide:
     - assembly/index.md
     - Heat Set Inserts (HSI):

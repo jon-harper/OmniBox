@@ -7,54 +7,23 @@ date: 2022-07-22
 
 ## Using Panel Mounts
 
- Panel mounts are external connections points that allow the user to disconnect components without opening up the case. Some examples:
+ Panel mounts allow you to disconnect components without opening up the case. Some examples:
 
  - USB extensions for a webcam.
  - SD extensions for an MCU or SBC.
- - Rear panel connectors for quick-disconnect from the printer.
+ - Rear panel connectors for disconnecting the printer's wiring harness.
 
  Each panel type comes with a template for making your own panels. See [Creating New Panels](#creating-new-panels) below for more.
 
-### Front Panels
-
-![front panel example][img_front]{ width="360" }
-
-The front panel often mounts small hardware ports; the most common examples are SD Card extensions and USB extensions. You can find predesigned files in the [:material-git: `/Panels/Front Panel`][git_front_panel] git folder along with a template.
-
-### Side Panels
-
-![side panel example][img_side]{ width="360" }
-
-Introduced in version 0.9.9, the side panel replaces the "Unused CPU Cover". Side panels can be used to mount a single 40mm or 50mm fan, keystone jacks, or panel-mounted connectors.
-
-Files for the side panel can be found in the [:material-git: `/Panels/Side Panel`][git_side_panel] git folder.
-
-### Rear Panels
-
-![rear panel example][img_rear]{ width="360" }
-
-Rear Panels are the most customizable part of OmniBox and may be modified to suit the user. There are a number of generic files available in the [:material-git: `/Panels/Rear Panel`][git_rear_panel] git folder.
-
-The table below explains where to get started.
-
-| Folder           | Description | Use If You... |
-|------------------|-------------|-----------|
-| [:material-git: `Generic`][git_generic_rear]  | These have large holes for passing wires through and come in a number of common variations. | ...Want a simple, off-the-shelf solution and there is not a custom panel that suits. |
-| [:material-git: `Custom`][git_custom_rear]   | Designed for users of common printer configurations. | ...Have a configuration available for your printer. |
-| [:material-git: `Template`][git_rear_template] | A Fusion 360 template with profiles for panel-mounted connectors and fans. | ...Want to create your own panel. |
-<!-- | [:material-git: `Micro Fit 3`][git_molex_rear]    | Use Molex Micro Fit 3 panel-mounted connectors. Pinout diagrams for each panel are included. | ...Want to create a diconnectable wiring harness for your printer. | -->
-
-## Supported Hardware
-
 ### Fans
 
-See the [Fans][fans] page.
+See the [Fans][fans] page for a list of all fan options.
 
 ### MicroSD Extensions
 
-These are availabe in short or long versions and are typically used with MCUs. They can also be used to give access to other SD card slots, such as an SoC CPU.
+These are availabe in short or long versions and are typically used with MCUs, though thye can also be used with a CPU, such as a Raspberry Pi.
 
-Each MCU lists whether it can use a short extension (about 6" long) or of the longer extension is needed (about 18").
+Most MCUs recommend either a short MicroSD extension (about 6" long) or longer is needed (about 18").
 
 [:material-cart: Short MicroSD Card Reader Extension][bom_lanmu_micro_sd]{ .md-button }
 
