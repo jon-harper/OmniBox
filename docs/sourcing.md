@@ -5,6 +5,8 @@ authors: Jon Harper
 date: 2023-11-30
 ---
 
+This page lists sources for (ideally all) parts used with OmniBox.
+
 {% import 'format.md' as format with context %}
 
 {% for part_type in product.part_types -%}
@@ -15,7 +17,7 @@ date: 2023-11-30
 
 {% for part_id, part in product.filterParts(part_type).items() -%}
 
-#### {{ fmt.part_header(part_id, part.name) }}
+#### {{ format.part_header(part_id, part.name) }}
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
