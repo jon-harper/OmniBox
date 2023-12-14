@@ -36,16 +36,16 @@ def badge(icon: str,
     else:
         return '<p class="jh-badge" markdown>{}</p>'.format(icon_html)
     
-def template_badge(template: str, indent : str = '') -> str:
+def template_badge(template: str, prefix='') -> str:
         if not template:
             return ''
-        return badge(':material-puzzle:', 'Part template', '../templates', template)
+        return badge(':material-puzzle:', 'Part template', prefix + 'upgrade/templates', template)
 
-def author_badge(name: str, url: str, indent : str = '') -> str:
-    return badge(':octicons-person-fill-24:', 'Contributor', 'http://todo', 
+def author_badge(name: str, url: str, prefix='') -> str:
+    return badge(':octicons-person-fill-24:', 'Contributor', prefix + '/license/#contributing-to-omnibox', 
                  name, url)
 
-def hsi_badge(indent : str = '') -> str:
+def hsi_badge() -> str:
     return badge(':material-cog:', 'Uses heat set inserts', None)
 
 def qty_badge(txt, indent : str ='') -> str:
@@ -53,16 +53,16 @@ def qty_badge(txt, indent : str ='') -> str:
                 icon_url=None, txt=txt)
 
 def size_badge(txt : str) -> str:
-    return badge(':material-relative-scale:', 'Printed part size',
+    return badge(':material-relative-scale:', 'Printed component size',
                  icon_url=None, txt=txt.capitalize())
 
 def base_depth_badge(txt: str) -> str:
     return badge(':material-format-vertical-align-bottom:', 'Required Base depth', 
                  'https://TODO', txt)
 
-def switch_badge(txt: str) -> str:
+def switch_badge(txt: str, prefix : str = '') -> str:
     return badge(':material-power:', 'Power switch options with this PSU',
-                 'https://TODO', txt)
+                 prefix + 'TODO', txt)
 
 def no_iec_badge() -> str:
     return badge(':material-power-plug-off-outline:', 'This component does not provide an IEC power socket.')
@@ -98,7 +98,7 @@ def vent_badge() -> str:
 def fan_badge() -> str:
     return badge(':material-fan:', 'Mounts at least one fan')
 
-def extension_badge(txt : str) -> str:
+def extension_badge(txt : str, prefix : str='') -> str:
     return badge(':material-connection:', 'Panel mounts provided', 
-                 'https://TODO', txt=txt)
+                 prefix + 'TODO', txt=txt)
 
