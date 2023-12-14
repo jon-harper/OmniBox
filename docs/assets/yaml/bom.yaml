@@ -250,6 +250,7 @@ parts:
           url: "https://www.boltdepot.com/Product-Details.aspx?product=11595"
         amazon_us:
           url: "https://www.amazon.com/Phillips-Stainless-Tapping-SG-TZH/dp/B0B2J2BC7F"
+          note: 100 pcs
       note: 'To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Machine screws can also be used, if necessary.'
     hsi_m3_5od_4l:
       name: M3 x 5mm OD x 4mm L Insert
@@ -601,13 +602,13 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/Ethernet-Extender-iGreely-Network-Extension/dp/B06Y4J9MZ4"
-          note: 2 eaches
+          note: 2 pcs
     usb3_panel_mount:
       name: USB 3 Type A Panel Mount
       sources:
         amazon_us:
           url: "https://www.amazon.com/Ethernet-Extender-iGreely-Network-Extension/dp/B06Y4J9MZ4"
-          note: 2 eaches
+          note: 2 pcs
     usb3_dual_panel_mount:
       name: USB 3 Dual Panel Mount
       sources:
@@ -618,7 +619,7 @@ parts:
       sources:
         amazon_us: 
           url: "https://www.amazon.com/USB-3-0-Extension-Cable-Panel-Mount/dp/B07C87FYLY"
-          note: 2 eaches
+          note: 2 pcs
     usb2_typeb_panel_mount:
       name: USB 2 Type B Panel Mount
       sources:
@@ -629,6 +630,20 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/Poyiccot-Extension-Female-Extender-Straight/dp/B086W2R8Z6"
+    xt60_male_panel_mount:
+      name: XT60E-M Male Panel Mount
+      img: img/parts/xt60_male_panel_mount.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/gp/product/B0BC1TPNSK"
+          note: 2 pcs
+    xt60_female_panel_mount:
+      name: XT60E-F Female Panel Mount
+      img: img/parts/xt60_female_panel_mount.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/gp/product/B0CHVWTVKH"
+          note: 2pcs
   Switch:
     switch_rocker:
       name: SPST Rocker Switch, 29mm x 10.5mm Panel Mount
@@ -668,6 +683,7 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B07FQB6WXP"
+          note: 100 pcs
     conn_fork_14-16:
       name: "Insulated Fork Connector, #8, 14-16 awg"
       img: img/parts/conn_fork_14-16.webp
@@ -698,7 +714,30 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/Wago-221-413-LEVER-NUTS-Conductor-Connectors/dp/B06XGYXVXR"
-
+    kit_jst_sm:
+      name: JST SM Kit
+      img: img/parts/kit_jst_sm.webp
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/gp/product/B07D9HRDT6"
+          note: 2-5 Position
+    kit_molex_mf3:
+      name: Molex MicroFit 3.0 Kit
+      img: img/parts/kit_molex_mf3.webp
+      sources:
+        kb3d:
+          url: "https://kb-3d.com/store/wiring-connectors/421-molex-microfit-30-connector-kit-360-pieces-1639956145863.html"
+          note: 2-4 Position
+    kit_jst_xh:
+      name: JST XH Connector Kit
+      img: img/parts/kit_jst_xh.webp
+      sources:
+        kb3d:
+          url: "https://kb-3d.com/store/wiring-connectors/422-jst-xh-connector-kit-195-pieces-1639956145863.html"
+          note: 2-4 Position
+        amazon_us:
+          url: "https://www.amazon.com/Connector-Housing-Adapter-Terminal-Connectors/dp/B0BZDCGJ32"
+          note: 2-6 Position
   Other Electrical:
     wire_16awg:
       name: Stranded Hookup Wire, 16 awg/1.25mm^2^
@@ -751,7 +790,8 @@ parts:
       img: img/parts/lm2596.webp
       sources:
         amazon_us:
-          url: "https://www.amazon.com/PlusRoc-Converter-Efficiency-Regulator-Adjustable/dp/B0B2CLXGD8"
+          url: "https://www.amazon.com/WWZMDiB-LM2596S-Adjustable-3-2-46V-1-25-35V/dp/B0B2115T57"
+          note: 3 pcs
     drok_lm2596_led:
       name: DROK 2A LM2596 with LED
       img: img/parts/lm2596_led.webp
@@ -764,12 +804,14 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/HiLetgo-Step-down-Converter-1-25-37V-Voltmeter/dp/B00LSEBYHU/"
+          note: 2 pcs
     drok_3a_lm2596:
       name: DROK 3A LM2596 with LED
       img: img/parts/buck_3a_drok.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B07N3QT628"
+          note: 2 pcs
     drok_5a_buck:
       name: DROK 5A Buck with LED
       img: img/parts/buck_5a_drok.webp
@@ -783,7 +825,7 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/uxcell-Groove-Bearings-Double-Shielded/dp/B08199J4RJ/ref=sr_1_3"
-          note: 5 eaches
+          note: 5 pcs
 
   Printed:
     #MCU Trays
@@ -1071,8 +1113,6 @@ parts:
       template: display_v2
     # Anton's RPI display mount
     # Files need renaming first
-    # panel_rpi_tft7_flat:
-    #   name:
     panel_btt_tft35_e3:
       name: Display Panel  - BTT TFT35-E3.stl
       file: /Panels/Display/BTT 3.5 TFT E3/Display Panel  - BTT TFT35-E3.stl
@@ -1367,7 +1407,7 @@ parts:
     ### Rear Panels
     panel_rear_generic_v2:
       name: Generic No USB.stl
-      file: /Panels/Rear Panel/Generic/No USB%2C No Fan/
+      file: /Panels/Rear Panel/Generic/No USB%2C No Fan/Generic No USB.stl
       template: rear_v2
     panel_rear_generic_60mm_v2:
       name: Generic No USB with Fan.stl
@@ -1601,6 +1641,7 @@ parts:
       template: lower_bay_v1
     tray_lb_btt_u2c:
       name: OmniBox Lower Bay Short Tray for BTT U2C (Printables)
+      file: https://www.printables.com/model/422526-omnibox-lower-bay-short-tray-for-btt-u2c
       template: lower_bay_v1
       author: u_edgy
     tray_lb_wago_4x3pos:
@@ -3241,7 +3282,7 @@ components:
     comp_rear_generic_no_fan:
       name: Generic (No Fan)
       template: rear_v2
-      img: img/components/comp_rear_generic_no_fan.webp
+      # img: img/components/comp_rear_generic_no_fan.webp
       variants:
         No USB:
           parts:
