@@ -1,3 +1,7 @@
+{% macro part_header(part_id, name) -%}
+<a name="{{part_id}}"></a> {{ name }}
+{% endmacro -%}
+
 {% macro comp_img(comp, width="240px", prefix = '') -%}
 {% if comp.img_url -%}
     {% set url = prefix + comp.img_url -%}
@@ -20,7 +24,7 @@
 <div markdown>
 {% if comp.attributes and comp.attributes['fit_test'] -%}
 
-{{fmt.issue_tag(comp.attributes['fit_test'])}}
+{{issue_tag(comp.attributes['fit_test'])}}
 {% endif -%}
 
 :octicons-paperclip-24: **General Notes**
@@ -38,13 +42,13 @@
 {% set indent='    ' -%}
 {% for v in comp.variants -%}
 === "{{ v.name }}"
-    {{ fmt.render_badges(comp, v)}}
+    {{ render_badges(comp, v, prefix=prefix) }}
 
 {{ bom_table(v, indent=indent, prefix=prefix)}}
 {% endfor -%}
 {% else -%}
 {% set v = comp.variants[0] -%}
-{{ fmt.render_badges(comp, v)}}
+{{ render_badges(comp, v, prefix=prefix) }}
 
 {{ bom_table(v, prefix=prefix) }}
 {% endif -%}
@@ -58,7 +62,7 @@
 | | | |
 {% else -%}
 {% for source in part.sources -%}
-| [{{source.supplier.name}}]({{source.url}} "") | {{ source.supplier.ships }} | {{ source.supplier.region }} | {{ source.note }} |
+| [{{source.supplier.name}}]({{source.url}} "{{source.supplier.name}}: {{part.name}}") | {{ source.supplier.ships }} | {{ source.supplier.region }} | {{ source.note }} |
 {% endfor -%}
 {% endif -%}
 {% endmacro -%}
@@ -69,8 +73,12 @@
 {% if variant.parts -%}
 {% for part_id, qty in variant.parts.items()-%}
 {% set part = product.partFromId(part_id) -%}
-{% set link = fmt.part_link(part_id, part, prefix=prefix) -%}
+{% set link = part_link(part_id, part, prefix=prefix) -%}
+{% if part.part_type == 'Printed' -%}
+{{indent}}|:material-printer-3d-nozzle: {{part.part_type}}|{{link}}|{{qty}}|
+{% else -%}
 {{indent}}|{{part.part_type}}|{{link}}|{{qty}}|
+{% endif -%}
 {% endfor -%}
 {% endif %}
 {% endmacro -%}

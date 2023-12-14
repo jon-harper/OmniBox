@@ -105,7 +105,7 @@ class BOMParser():
         for supplier_id, source_data in entry.items():
             source = bom.SourceUrl(self.suppliers[supplier_id],
                                    url = source_data['url'],
-                                   note=entry.get('note', ''))
+                                   note=source_data.get('note', ''))
             ret.append(source)
         return ret
     

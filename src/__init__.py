@@ -5,16 +5,9 @@ Markdown.
 
 import load_yaml
 import bom
-from markdown_gen import MarkdownTools as fmt
+import badge_gen as badge
 
 from product import Product
-
-def as_relative_url(text : str, link : str) -> str:
-    """
-    Shorthand for a markdown relative URL, i.e. one that will be enclosed in braces and has a matching tag.
-    """
-    return "[{}][{}]".format(text, link)
-
 def define_env(env):
     """
     Modifies the environment variable with new variables, macros, and filters.
@@ -31,7 +24,7 @@ def define_env(env):
     product = Product(components=bom_data.components,
                       parts=bom_data.parts,
                       templates=bom_data.templates[version])
-    env.variables['fmt'] = fmt(product)
+
     env.variables['product'] = product
 
     @env.macro
@@ -43,14 +36,70 @@ def define_env(env):
 
     @env.macro
     def product_button(url : str) -> str:
-        return fmt.as_url(":material-cart: Product Link", url) + "{ .md-button }"
+        """
+        Creates a link button
+        """
+        return "[{}]({})".format(":material-cart: Product Link", url) + "{ .md-button }"
 
     @env.macro
     def git_button(url : str) -> str:
-        return as_relative_url(":material-git: Files", url) + "{ .md-button }"
-    
-    @env.macro
-    def product_img(url : str, text : str ="", width : str ="480px") -> str:
-        return "[![{}]({})]({})".format(text, url, url)
+        """
+        Creates a GitHub file link button.
+        """
+        return '[{}][{}]'.format(":material-git: Files", url) + "{ .md-button }"
 
-    
+    @env.macro
+    def part_link(part_id : str, part : bom.Part, prefix='') -> str:
+        ret : str = '[{} {}]({} "{}")'
+        if part.part_type == 'Printed' and part.file_url:
+            if part.file_url.startswith(product.local_url_prefix):
+                return ret.format(':material-git:', part.name, part.file_url, "OmniBox GitHub file download")
+            else:
+                return ret.format(':octicons-link-external-24:', part.name, part.file_url, 'External site file download')
+        elif part.sources:
+            return ret.format(':material-cart:', part.name, prefix + 'sourcing.md#' + part_id, "Sourcing information")
+        else:
+            return part.name
+
+    @env.macro
+    def render_badges(comp : bom.Component, variant : bom.Variant, prefix='') -> str:
+        ret : str = badge.template_badge(comp.template)
+        ckeys = comp.attributes.keys()
+        vkeys = variant.attributes.keys()
+        if variant.author:
+            ret += badge.author_badge(variant.author.name, variant.author.url)
+        if 'half' in ckeys:
+            ret += badge.half_badge(comp.attributes['half'])
+        elif 'half' in vkeys:
+            ret += badge.half_badge(variant.attributes['half'])
+        if 'length' in ckeys:
+            ret += badge.size_badge(comp.attributes['length'])
+        elif 'length' in vkeys:
+            ret += badge.size_badge(variant.attributes['length'])
+        if 'base_depth' in ckeys:
+            ret += badge.base_depth_badge(comp.attributes['base_depth'])
+        elif 'base_depth' in vkeys:
+            ret += badge.base_depth_badge(variant.attributes['base_depth'])
+        if 'switch' in ckeys:
+            ret += badge.switch_badge(comp.attributes['switch'])
+        elif 'switch' in vkeys:
+            ret += badge.switch_badge(variant.attributes['switch'])
+        if 'display_type' in ckeys:
+            ret += badge.display_badge(comp.attributes['display_type'])
+        elif 'display_type' in vkeys:
+            ret += badge.display_badge(variant.attributes['display_type'])
+        if 'count' in ckeys:
+            ret += badge.qty_badge(comp.attributes['count'])
+        elif 'count' in vkeys:
+            ret += badge.qty_badge(variant.attributes['count'])
+        if 'mounts' in ckeys:
+            ret += badge.extension_badge(comp.attributes['mounts'])
+        elif 'mounts' in vkeys:
+            ret += badge.extension_badge(variant.attributes['mounts'])
+        if 'vent' in ckeys or 'vent' in vkeys:
+            ret += badge.vent_badge()
+        if 'fan' in ckeys or 'fan' in vkeys:
+            ret += badge.fan_badge()
+        if 'hsi' in ckeys or 'hsi' in vkeys:
+            ret += badge.hsi_badge()
+        return ret
