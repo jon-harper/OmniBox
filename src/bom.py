@@ -55,6 +55,9 @@ PartData = dict[str, Part]
 MaterialsData = dict[str, float] #part_id, qty
 
 class Variant(NamedTuple):
+    """
+    Defines a variation of a component. Variants container their own MaterialsData.
+    """
     name: str
     attributes : dict[str, str]
     parts : MaterialsData
@@ -63,6 +66,10 @@ class Variant(NamedTuple):
     img_url: Optional [str]
 
 class Component(NamedTuple):
+    """
+    A component contains a group of Variants, typically all based on a common design or design feature (if part of
+    a larger set of similar Components based on a template).
+    """
     name : str                  # Uniqe, descriptive name
     template : Optional[str]    # Template for printed part interface
     comp_type: str              # Category

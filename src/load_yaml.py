@@ -66,6 +66,9 @@ class BOMParser():
         
 
     def parseSupplier(self, entry : dict) -> bom.Supplier:
+        """
+        Returns a newly-constructed Supplier from a YAML entry.
+        """
         return bom.Supplier(
             name=entry['name'], 
             region=entry.get('region', 'n/a'), 
@@ -74,6 +77,11 @@ class BOMParser():
             note=entry.get('note', ''))
 
     def parsePart(self, entry : dict, part_type : str) -> bom.Part:
+        """
+        Returns a newly-constructed Part from a YAML entry. Relative URLs are converted to absolute by prepending the base_url value.
+
+        parseSources() is called on each source to replace supplier ids with Suppliers.
+        """
         author_id = entry.get('author', None)
         if author_id:
             author = self.authors[author_id]
@@ -95,7 +103,7 @@ class BOMParser():
     
     def parseSources(self, entry : dict) -> bom.SourceList:
         """
-        Builds a list of Sources, substituting the actual Source for it's identifier.
+        Builds a list of Sources, substituting the actual Source for its identifier.
         """
         ret = bom.SourceList()
 
@@ -118,6 +126,10 @@ class BOMParser():
                           note=entry.get('note', ''))
     
     def breakSubassembly(self, parts: bom.MaterialsData) -> bom.MaterialsData:
+        """
+        Given a MaterialsData object, breaks down any subassemblies into their constituent Parts/qty pairs 
+        and returns the merged results.
+        """
         ret : bom.MaterialsData = {}
         if not parts:
             return ret
