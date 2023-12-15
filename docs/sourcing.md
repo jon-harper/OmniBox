@@ -7,17 +7,17 @@ date: 2023-11-30
 
 This page lists sources for (ideally all) parts used with OmniBox.
 
-{% import 'format.md' as format with context %}
+{% import 'format.md' as fmt with context %}
 
-{% for part_type in product.part_types -%}
+{% for part_type in product.part_types | sort -%}
 
 {% if part_type != 'Printed' -%}
 
 ### {{ part_type }}
 
-{% for part_id, part in product.filterParts(part_type).items() -%}
+{% for part_id, part in product.sortKeyEntries(product.filterParts(part_type).items()) -%}
 
-#### {{ format.part_header(part_id, part.name) }}
+#### {{ fmt.part_header(part_id, part.name) }}
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
@@ -26,7 +26,7 @@ This page lists sources for (ideally all) parts used with OmniBox.
     {{ part.note }}
 
 {% endif -%}
-{{ format.source_table(part) }}
+{{ fmt.source_table(part) }}
 </div>
 {% if part.img_url -%}
 <div markdown class="jh-grid-img">

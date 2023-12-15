@@ -99,3 +99,6 @@ class Product:
         Sorts an iterable of objects on their 'name' field. Used for bom.PartData and bom.ComponentData.
         """
         return sorted(values, key=lambda v : v.name)
+    
+    def sortKeyEntries(self, values : list[tuple]) -> list[tuple]:
+        return sorted(values, key=lambda v: v[1].name)
