@@ -7,7 +7,9 @@ Handles filtering, sorting, and versioning for BOM data.
 import bom
 
 class Product:
-    version : str
+    """
+    Contains a set of loaded part and component data. The data is filtered for compatibility on construction.
+    """
     local_url_prefix: str
     components : bom.ComponentData
     parts : bom.PartData
@@ -18,22 +20,34 @@ class Product:
                  components : bom.ComponentData, 
                  parts: bom.PartData,
                  templates: bom.TemplateList, 
-                 prefix : str = ''):
+                 prefix : str = '',
+                 filter_unused_parts : bool = False):
+        """
+        Constructs a new Product and filters the provided data.
+        """
         self.local_url_prefix = prefix
         self.components = {}
-        self.parts = parts
+        if filter_unused_parts:
+            self.parts = bom.PartData()
+        else:
+            self.parts = parts
         self.part_types = []
         self.assembly_types = []
 
-        for part in parts.values():
-            if part.part_type not in self.part_types:
-                self.part_types.append(part.part_type)
-        
         for comp_id, comp in components.items():
             if not comp.template or comp.template in templates:
                 self.components[comp_id] = comp
                 if comp.comp_type not in self.assembly_types:
                     self.assembly_types.append(comp.comp_type)
+            if filter_unused_parts:
+                for v in comp.variants:
+                    for part_id in v.parts.keys():
+                        if part_id not in self.parts.keys():
+                            self.parts[part_id] = parts[part_id]
+
+        for part in parts.values():
+            if part.part_type not in self.part_types:
+                self.part_types.append(part.part_type)
 
     def filterComponents(self, type_filter : str = '', attribute_filter: str = '', attribute_value: str = '') -> bom.ComponentData:
         """
@@ -58,9 +72,15 @@ class Product:
         return ret
 
     def partFromId(self, part_id : str) -> bom.Part:
+        """
+        Retrieves a bom.Part from the loaded parts for a given part_id.
+        """
         return self.parts.get(part_id)
     
     def filterParts(self, part_type: str) -> bom.PartData:
+        """
+        Filters the loaded parts by type and returns the results as bom.PartData
+        """
         if part_type not in self.part_types:
             return {}
         ret : bom.PartData = {}
@@ -74,8 +94,8 @@ class Product:
             return True
         return False
 
-    def sortComponents(self, values : list[bom.Component]) -> list[bom.Component]:
-        return sorted(values, key=lambda v : v.name)
-
-    def sortParts(self, values : list[bom.Part]) -> list [bom.Part]:
+    def sortEntries(self, values : any) -> any:
+        """
+        Sorts an iterable of objects on their 'name' field. Used for bom.PartData and bom.ComponentData.
+        """
         return sorted(values, key=lambda v : v.name)

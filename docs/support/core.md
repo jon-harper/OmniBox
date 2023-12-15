@@ -14,7 +14,7 @@ This page lists all Core component configurations for OmniBox.
 
 {% set comp_type='Main Body' -%}
 
-{% set items = product.sortComponents(product.filterComponents(comp_type).values()) -%}
+{% set items = product.sortEntries(product.filterComponents(comp_type).values()) -%}
 
 {% for comp in items -%}
 {{ format.comp_entry(comp, prefix) }}
@@ -24,7 +24,7 @@ This page lists all Core component configurations for OmniBox.
 
 {% set comp_type='Base' -%}
 
-{% set items = product.sortComponents(product.filterComponents(comp_type).values()) -%}
+{% set items = product.sortEntries(product.filterComponents(comp_type).values()) -%}
 
 {% for comp in items -%}
 {{ format.comp_entry(comp, prefix) }}

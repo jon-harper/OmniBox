@@ -9,7 +9,7 @@ date: 2023-12-13
 {% set prefix = '../' -%}
 {% set comp_type='Lower Bay' -%}
 
-{% set items = product.sortComponents(product.filterComponents(comp_type).values()) -%}
+{% set items = product.sortEntries(product.filterComponents(comp_type).values()) -%}
 
 Lower Bay Trays may be Short or Long. A Long tray covers the mount points of two Short trays and must be mounted from side-to-side in the case.
 
