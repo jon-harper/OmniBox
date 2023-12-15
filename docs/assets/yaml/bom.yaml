@@ -68,6 +68,9 @@ authors:
   u_siruli:
     name: SirUli
     url: https://github.com/SirUli
+  u_gingersaw:
+    name: Ginger Saw
+    url: "https://www.printables.com/social/226009-ginger-saw/about"
 parts:
   ### Socket head cap screws
   DIN 912:
@@ -621,6 +624,11 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B07YYSP5F5"
+    usbc_keystone:
+      name: USB C Keystone Jack
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Keystone-Extention-Keystone-Convertor-Extension/dp/B08GSLLVG2"
     usb3_keystone:
       name: USB 3.0 Keystone Jack
       sources:
