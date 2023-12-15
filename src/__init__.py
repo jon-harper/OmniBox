@@ -52,7 +52,7 @@ def define_env(env):
     def part_link(part_id : str, part : bom.Part = None, prefix : str = '',
                   url_text=None) -> str:
         if not part:
-            part = product.partFromId(part_id=part)
+            part = product.partFromId(part_id=part_id)
         if not url_text:
             url_text = part.name
         ret : str = '[{} {}]({} "{}")'
