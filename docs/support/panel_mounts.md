@@ -10,7 +10,7 @@ date: 2022-07-22
  Panel mounts allow you to disconnect components without opening up the case. Some examples:
 
  - USB extensions for a webcam.
- - SD extensions for an MCU or SBC.
+ - MicroSD extensions for an MCU or SBC.
  - Rear panel connectors for disconnecting the printer's wiring harness.
 
  Each panel type comes with a template for making your own panels. See [Creating New Panels](#creating-new-panels) below for more.
