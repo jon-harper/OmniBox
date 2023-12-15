@@ -68,6 +68,9 @@ authors:
   u_siruli:
     name: SirUli
     url: https://github.com/SirUli
+  u_gingersaw:
+    name: Ginger Saw
+    url: "https://www.printables.com/social/226009-ginger-saw/about"
 parts:
   ### Socket head cap screws
   DIN 912:
@@ -283,6 +286,8 @@ parts:
           url: "https://www.amazon.com/MEAN-WELL-LRS-350-24-Printer-Industrial/dp/B07VRK86SP"
         stepperonline:
           url: "https://www.omc-stepperonline.com/lrs-350-24-mean-well-350w-24vdc-14-6a-115-230vac-enclosed-switching-power-supply-lrs-350-24"
+        digikey:
+          url: "https://www.digikey.com/en/products/detail/mean-well-usa-inc/lrs-350-24/7705034"
     mw_lrs450:
       name: Mean Well LRS-450 Series
       img: "img/parts/lrs_450_24.webp"
@@ -291,12 +296,16 @@ parts:
           url: "https://www.amazon.com/Original-LRS-450-24-Switching-Supply-Transformer/dp/B0BWRPYNM9"
         stepperonline:
           url: "https://www.omc-stepperonline.com/lrs-450-24-mean-well-451-2w-24vdc-18-8a-115-230vac-enclosed-switching-power-supply-lrs-450-24"
+        digikey:
+          url: "https://www.digikey.com/en/products/detail/mean-well-usa-inc/lrs-450-24/16394243"
     mw_lrs600:
       name: Mean Well LRS-600 Series
       img: img/parts/lrs_600_24.webp
       sources: 
         stepperonline:
           url: "https://www.omc-stepperonline.com/lrs-600-24-mean-well-600w-24vdc-25a-115-230vac-enclosed-switching-power-supply-lrs-600-24"
+        digikey:
+          url: "https://www.digikey.com/en/products/detail/mean-well-usa-inc/lrs-600-24/16394242"
     mw_rsp500:
       name: Mean Well RSP-500 Series
       img: img/parts/mw_rsp_500_24.webp
@@ -305,6 +314,8 @@ parts:
           url: "https://www.amazon.com/MEAN-WELL-RSP-500-24-Switching-Enclosed/dp/B00UWCD22O"
         stepperonline:
           url: "https://www.omc-stepperonline.com/rsp-500-24-mean-well-504w-24vdc-21a-115-230vac-single-output-with-pfc-function-rsp-500-24"
+        digikey:
+          url: "https://www.digikey.com/en/products/detail/mean-well-usa-inc/rsp-500-24/7706339"
     mw_se450:
       name: Mean Well SE-450 Series
       img: img/parts/se_450_24.webp
@@ -313,6 +324,8 @@ parts:
           url: "https://www.amazon.com/MEAN-WELL-SE-450-24-Supply-Single/dp/B005T6NNKO"
         stepperonline:
           url: "https://www.omc-stepperonline.com/se-450-24-mean-well-451-2w-18-8a-24v-single-output-power-supply-se-450-24"
+        digikey:
+          url: "https://www.digikey.com/en/products/detail/mean-well-usa-inc/se-450-24/7706608"
     mw_rs25:
       name: Mean Well RS-25-5
       img: img/parts/rs_25_5.webp
@@ -321,7 +334,8 @@ parts:
           url: "https://www.amazon.com/MEAN-WELL-323282-RS-25-5-Supply/dp/B09KVG6PBZ"
         stepperonline:
           url: "https://www.omc-stepperonline.com/rs-25-5-mean-well-25w-single-output-switching-power-supply-rs-25-5"
-
+        digikey:
+          url: "https://www.digikey.com/en/products/detail/mean-well-usa-inc/RS-25-5/7706180"
   MCU:
     btt_skr_pico:
       name: Bigtreetech SKR Pico
@@ -337,28 +351,40 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/BIGTREETECH-Upgraded-Motherboard-Integrated-Compatible/dp/B09LH727MT"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805861115217.html"
+          note: SKR Mini E3 V3.0
     btt_octopus:
       name: Bigtreetech Octopus Series
       img: img/parts/btt_octopus_1.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/BIGTREETECH-Motherboard-Compatible-Firmware-Raspberry/dp/B094NPRYDP"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805857206605.html"
     btt_manta_e3_ez:
       name: Bigtreetech Manta E3 EZ
       img: img/parts/btt_manta_e3ez.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/BIGTREETECH-Mainboard-Control-Motherboard-Compatible/dp/B0BRZ2LBB4"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805857112094.html"
     btt_manta_m5p:
       name: Bigtreetech Manta M5P
       img: img/parts/btt_manta_m5p.webp
       sources:
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256804294356975.html"
         amazon_us:
           url: "https://www.amazon.com/BIGTREETECH-Control-Support-Compatible-Motherboard/dp/B0BS5P4BG4"
     btt_manta_m8p:
       name: Bigtreetech Manta M8P
       img: img/parts/btt_manta_m8p.webp
       sources:
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256804294356975.html"
+          note: M8P Version 2.0
         amazon_us:
           url: "https://www.amazon.com/BIGTREETECH-Integrated-Motherboard-Firmware-Compatible/dp/B0B7W53JSY"
     btt_skr_classic:
@@ -366,19 +392,27 @@ parts:
       img: img/parts/btt_skr_2.webp
       sources:
         amazon_us:
-          url: "https://www.amazon.com/BIGTREETECH-Control-Upgrade-Motherboard-Compitable/dp/B0943WVM5B"
+          url: "https://www.amazon.com/BIGTREETECH-Controller-Compatible-With12864LCD-5TMC2209/dp/B082QR5YQ5/"
+          note: SKR 1.4 Turbo
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256804090746551.html"
+          note: SKR 1.4 Turbo
     btt_skr_3:
       name: Bigtreetech SKR 3
       img: img/parts/btt_skr_3.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/BIGTREETECH-Motherboard-Controller-Replacement-Original/dp/B08LVTXT46"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805952421746.html"
     btt_skr_3_ez:
       name: Bigtreetech SKR 3 EZ
       img: img/parts/btt_skr_3_ez.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/BIGTREETECH-Motherboard-Controller-Replacement-Original/dp/B0B1Q26SWR"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805857224764.html"
     btt_skrat:
       name: Bigtreetech SKRat
       img: img/parts/btt_skrat.webp
@@ -425,8 +459,6 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/Official-Creality-3D-Upgraded-Motherboard/dp/B09NMJMPN1"
-    creality_mcu_1.x:
-      name: Creality 1.x Series
     creality_mcu_4.x:
       name: Creality 4.x Series
       img: img/parts/creality_board.webp
@@ -446,18 +478,26 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/FYSETC-Controller-Supports-Accessories-RGB-Backlight/dp/B08R9ZH7S2"
+          note: FYSETC brand
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256801543054886.html"
+          note: Bigtreetech brand
     btt_35_tft:
       name: Bigtreetech 3.5" TFT
       img: img/parts/btt_tft_3.5.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/BIGTREETECH-Graphic-Display-Controller-Printer/dp/B07VWF4W3J"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805668057851.html"
     btt_35_tft_e3:
       name: Bigtreetech 3.5" TFT E3
       img: img/parts/btt_35tft_e3.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/BIGTREETECH-TFT35-E3-V3-0-1-Motherboard/dp/B08182XHZZ"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805948697004.html"
     btt_hdmi5:
       name: Bigtreetech HDMI5
       img: img/parts/btt_hdmi5.webp
@@ -465,12 +505,16 @@ parts:
       sources:
         biqu: 
           url: "https://biqu.equipment/collections/lcd/products/bigtreetech-hdmi5-v1-0-hdmi7-v1-0"
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256805702942821.html"
     btt_pi_tft5:
       name: Bigtreetech 5" Pi TFT
       img: img/parts/btt_pitft_5.0.webp
       sources:
         amazon_us:
           url: "https://www.amazon.com/BIGTREETECH-Screen-Display-800x480-Raspberry/dp/B08FD2YZ23"
+        aliexpress:
+          url: https://www.aliexpress.us/item/3256805861128222.html"
     rpi_tft7:
       name: Raspberry Pi 7" TFT
       img: img/parts/rpi_tft.webp
@@ -571,15 +615,20 @@ parts:
     
   Connector Extension:
     microsd_ext_short:
-      name: MicroSD Extension, 150mm
+      name: MicroSD Extension, 15cm
       sources:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B07WWVBK8V"
     microsd_ext_long:
-      name: MicroSD Extension, 480mm
+      name: MicroSD Extension, 48cm
       sources:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B07YYSP5F5"
+    usbc_keystone:
+      name: USB C Keystone Jack
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Keystone-Extention-Keystone-Convertor-Extension/dp/B08GSLLVG2"
     usb3_keystone:
       name: USB 3.0 Keystone Jack
       sources:
@@ -766,6 +815,9 @@ parts:
       sources:
         kb3d: 
           url: "https://kb-3d.com/store/omron/171-omron-solid-state-relay-g3na-210b-utu-ssr-4536854807954.html"
+        digikey:
+          url: "https://www.digikey.com/en/products/detail/omron-automation-and-safety/G3NA-210B-UTU-DC5-24/634443"
+          note: G3NA-210B-UTU-DC5-24
     btt_u2c:
       name: Bigtreetech U2C CAN Adapter
       img: img/parts/btt_u2c.webp
@@ -776,6 +828,8 @@ parts:
       name: Bigtreetech UPS 24V
       img: img/parts/btt_ups_24v.webp
       sources:
+        aliexpress:
+          url: "https://www.aliexpress.us/item/2255800160256768.html"
         amazon_us:
           url: "https://www.amazon.com/BIGTREETECH-DIRECT-Printing-Printer-Ender-3/dp/B081DLBTQC"
     btt_relay_1_2:
@@ -2496,7 +2550,7 @@ components:
       name: Bigtreetech Pi TFT5.0
       template: display_v2
       attributes:
-        display_type: MCU
+        display_type: CPU
       parts:
         btt_pi_tft5: 1
         shcs_m3_6: 4
@@ -2515,6 +2569,19 @@ components:
             panel_btt_pi_tft5_hsi: 1
             btt_pi_tft5_mount: 1
             hsi_m3_5od_4l: 4
+    comp_generic_rpi_tft:
+      name: Generic Raspberry Pi TFT
+      template: display_v2
+      attributes:
+        display_type: CPU
+      parts:
+        btt_pi_tft5: 1
+        shcs_m2.5_6: 4
+        standoff_m2.5_12_6: 4
+      variants:
+        Stock:
+          parts:
+            panel_generic_rpi_tft7: 1
   ###            
   Lower Bay:
   ###
@@ -3459,6 +3526,7 @@ components:
             assy_mb_front_rear_hsi: 1
     comp_mb_unified_0_9_11:
       name: Unified Main Body
+      note: Printing a unified Main Body requires a bed at least 315mm on one axis.
       template: core_v0_9_11
       variants:
         Stock:
@@ -3482,56 +3550,97 @@ components:
             assy_mb_common_hsi: 1
             assy_full_hsi: 1
   Base:
-    comp_base_36mm_basic_0_9_11:
-      name: 36mm Basic Base
+    comp_base_basic_0_9_11:
+      name: Basic Base (Front/Rear)
       template: core_v0_9_11
       note: These bases come without power switches or IEC power inlets.
       attributes:
         base_depth: 36mm
         switch: None
       variants:
-        Front/Rear:
+        36mm Front/Rear:
+          attributes:
+            base_depth: 36mm
           parts:
             core_base_0_9_11_36mm_front: 1
             core_base_0_9_11_36mm_rear_basic: 1
             assy_base_common_stock: 1
             assy_base_front_rear: 1
-        Front/Rear, HSI:
+        36mm Front/Rear, HSI:
           attributes:
+            base_depth: 36mm
             hsi: True
           parts:
             core_base_0_9_11_36mm_front_hsi: 1
             core_base_0_9_11_36mm_rear_basic_hsi: 1
             assy_base_common_hsi: 1
             assy_base_front_rear_hsi: 1
-        Unified:
+        42mm Front/Rear:
+          attributes:
+            base_depth: 42mm
+          parts:
+            core_base_0_9_11_42mm_front: 1
+            core_base_0_9_11_42mm_rear_basic: 1
+            assy_base_common_stock: 1
+            assy_base_front_rear: 1
+        42mm Front/Rear, HSI:
+          attributes:
+            base_depth: 42mm
+            hsi: True
+          parts:
+            core_base_0_9_11_42mm_front_hsi: 1
+            core_base_0_9_11_42mm_rear_basic_hsi: 1
+            assy_base_common_hsi: 1
+            assy_base_front_rear_hsi: 1
+    comp_base_basic_unified_0_9_11:
+      name: Basic Base (Unified)
+      template: core_v0_9_11
+      note: |
+        - These bases come without power switches or IEC power inlets.
+        - Printing a unified Base requires a bed at least 300mm on one axis.
+      attributes:
+        switch: None
+      variants:
+        36mm Unified:
           parts:
             core_base_0_9_11_36mm_unified_basic: 1
             assy_base_common_stock: 1
-        Unified, HSI:
+        36mm Unified, HSI:
           attributes:
             hsi: True
           parts:
             core_base_0_9_11_36mm_unified_basic_hsi: 1
             assy_base_common_hsi: 1
-    comp_base_36mm_iec_0_9_11:
-      name: 36mm Base without Switch
+        42mm Unified:
+          parts:
+            core_base_0_9_11_42mm_unified_basic: 1
+            assy_base_common_stock: 1
+        42mm Unified, HSI:
+          attributes:
+            hsi: True
+          parts:
+            core_base_0_9_11_42mm_unified_basic_hsi: 1
+            assy_base_common_hsi: 1
+    comp_base_iec_0_9_11:
+      name: IEC Socket Base (Front/Rear)
       note: These bases have an IEC power inlet but lack power switches.
       template: core_v0_9_11
       attributes:
-        base_depth: 36mm
         switch: None
       parts:
         assy_fused_iec_c14: 1
       variants:
-        Front/Rear:
+        36mm Front/Rear:
+          attributes:
+            base_depth: 36mm
           parts:
             core_base_0_9_11_36mm_front: 1
             core_base_0_9_11_36mm_rear_iec: 1
             assy_base_common_stock: 1
             assy_base_front_rear: 1
-        Front/Rear, HSI:
+        36mm Front/Rear, HSI:
           attributes:
+            base_depth: 36mm
             hsi: True
           parts:
             core_base_0_9_11_36mm_front_hsi: 1
@@ -3539,35 +3648,81 @@ components:
             assy_base_common_hsi: 1
             assy_base_front_rear_hsi: 1
             hsi_m3_5od_4l: 2
-        Unified:
+        42mm Front/Rear:
+          attributes:
+            base_depth: 42mm
+          parts:
+            core_base_0_9_11_42mm_front: 1
+            core_base_0_9_11_42mm_rear_iec: 1
+            assy_base_common_stock: 1
+            assy_base_front_rear: 1
+        42mm Front/Rear, HSI:
+          attributes:
+            base_depth: 42mm
+            hsi: True
+          parts:
+            core_base_0_9_11_42mm_front_hsi: 1
+            core_base_0_9_11_42mm_rear_iec_hsi: 1
+            assy_base_common_hsi: 1
+            assy_base_front_rear_hsi: 1
+            hsi_m3_5od_4l: 2
+    comp_base_iec_unified_0_9_11:
+      name: IEC Socket Base (Unified)
+      note: These bases have an IEC power inlet but lack power switches.
+      template: core_v0_9_11
+      attributes:
+        switch: None
+      parts:
+        assy_fused_iec_c14: 1
+      variants:
+        36mm Unified:
+          attributes:
+            base_depth: 36mm
           parts:
             core_base_0_9_11_36mm_unified_iec: 1
             assy_base_common_stock: 1
-        Unified, HSI:
+        36mm Unified, HSI:
           attributes:
+            base_depth: 36mm
             hsi: true
           parts:
             core_base_0_9_11_36mm_unified_iec_hsi: 1
             assy_base_common_hsi: 1
             hsi_m3_5od_4l: 2
-    comp_base_36mm_rocker_0_9_11:
-      name: 36mm Base with Rocker Switch
+        42mm Unified:
+          attributes:
+            base_depth: 42mm
+          parts:
+            core_base_0_9_11_42mm_unified_iec: 1
+            assy_base_common_stock: 1
+        42mm Unified, HSI:
+          attributes:
+            base_depth: 42mm
+            hsi: true
+          parts:
+            core_base_0_9_11_42mm_unified_iec_hsi: 1
+            assy_base_common_hsi: 1
+            hsi_m3_5od_4l: 2
+    comp_base_rocker_0_9_11:
+      name: Rocker Switch Base (Front/Rear)
       template: core_v0_9_11
       attributes:
-        base_depth: 36mm
         switch: Rocker
       parts:
         assy_rocker_switch_cover: 1
         assy_fused_iec_c14: 1
       variants:
-        Front/Rear:
+        36mm Front/Rear:
+          attributes:
+            base_depth: 36mm
           parts:
             core_base_0_9_11_36mm_front_rocker: 1
             core_base_0_9_11_36mm_rear_iec: 1
             assy_base_common_stock: 1
             assy_base_front_rear: 1
-        Front/Rear, HSI:
+        36mm Front/Rear, HSI:
           attributes:
+            base_depth: 36mm
             hsi: True
           parts:
             core_base_0_9_11_36mm_front_rocker_hsi: 1
@@ -3575,139 +3730,17 @@ components:
             assy_base_common_hsi: 1
             assy_base_front_rear_hsi: 1
             hsi_m3_5od_4l: 2
-        Unified:
-          parts:
-            core_base_0_9_11_36mm_unified_rocker: 1
-            assy_base_common_stock: 1
-        Unified, HSI:
+        42mm Front/Rear:
           attributes:
-            hsi: true
-          parts:
-            core_base_0_9_11_36mm_unified_rocker_hsi: 1
-            assy_base_common_hsi: 1
-            hsi_m3_5od_4l: 2
-    comp_base_36mm_toggle_0_9_11:
-      name: 36mm Base with Toggle Switch
-      template: core_v0_9_11
-      attributes:
-        base_depth: 36mm
-        switch: Toggle
-      parts:
-        assy_fused_iec_c14: 1
-        assy_toggle_switch: 1
-      variants:
-        Front/Rear:
-          parts:
-            core_base_0_9_11_36mm_front_toggle: 1
-            core_base_0_9_11_36mm_rear_iec: 1
-            assy_base_common_stock: 1
-            assy_base_front_rear: 1
-        Front/Rear, HSI:
-          attributes:
-            hsi: True
-          parts:
-            core_base_0_9_11_36mm_front_toggle_hsi: 1
-            core_base_0_9_11_36mm_rear_iec_hsi: 1
-            assy_base_common_hsi: 1
-            assy_base_front_rear_hsi: 1
-            hsi_m3_5od_4l: 2
-        Unified:
-          parts:
-            core_base_0_9_11_36mm_unified_toggle: 1
-            assy_base_common_stock: 1
-        Unified, HSI:
-          attributes:
-            hsi: true
-          parts:
-            core_base_0_9_11_36mm_unified_toggle_hsi: 1
-            assy_base_common_hsi: 1
-            hsi_m3_5od_4l: 2
-    comp_base_42mm_basic_0_9_11:
-      name: 42mm Basic Base
-      template: core_v0_9_11
-      note: These bases come without power switches or IEC power inlets.
-      attributes:
-        base_depth: 42mm
-        switch: None
-      variants:
-        Front/Rear:
-          parts:
-            core_base_0_9_11_42mm_front: 1
-            core_base_0_9_11_42mm_rear_basic: 1
-            assy_base_common_stock: 1
-            assy_base_front_rear: 1
-        Front/Rear, HSI:
-          attributes:
-            hsi: True
-          parts:
-            core_base_0_9_11_42mm_front_hsi: 1
-            core_base_0_9_11_42mm_rear_basic_hsi: 1
-            assy_base_common_hsi: 1
-            assy_base_front_rear_hsi: 1
-        Unified:
-          parts:
-            core_base_0_9_11_42mm_unified_basic: 1
-            assy_base_common_stock: 1
-        Unified, HSI:
-          attributes:
-            hsi: True
-          parts:
-            core_base_0_9_11_42mm_unified_basic_hsi: 1
-            assy_base_common_hsi: 1
-    comp_base_42mm_iec_0_9_11:
-      name: 42mm Base without Switch
-      note: These bases have an IEC power inlet but lack power switches.
-      template: core_v0_9_11
-      attributes:
-        base_depth: 42mm
-        switch: None
-      parts:
-        assy_fused_iec_c14: 1
-      variants:
-        Front/Rear:
-          parts:
-            core_base_0_9_11_42mm_front: 1
-            core_base_0_9_11_42mm_rear_iec: 1
-            assy_base_common_stock: 1
-            assy_base_front_rear: 1
-        Front/Rear, HSI:
-          attributes:
-            hsi: True
-          parts:
-            core_base_0_9_11_42mm_front_hsi: 1
-            core_base_0_9_11_42mm_rear_iec_hsi: 1
-            assy_base_common_hsi: 1
-            assy_base_front_rear_hsi: 1
-            hsi_m3_5od_4l: 2
-        Unified:
-          parts:
-            core_base_0_9_11_42mm_unified_iec: 1
-            assy_base_common_stock: 1
-        Unified, HSI:
-          attributes:
-            hsi: true
-          parts:
-            core_base_0_9_11_42mm_unified_iec_hsi: 1
-            assy_base_common_hsi: 1
-            hsi_m3_5od_4l: 2
-    comp_base_42mm_rocker_0_9_11:
-      name: 42mm Base with Rocker Switch
-      template: core_v0_9_11
-      attributes:
-        base_depth: 42mm
-        switch: Rocker
-      parts:
-        assy_rocker_switch_cover: 1
-        assy_fused_iec_c14: 1
-      variants:
-        Front/Rear:
+            base_depth: 42mm
           parts:
             core_base_0_9_11_42mm_front_rocker: 1
             core_base_0_9_11_42mm_rear_iec: 1
             assy_base_common_stock: 1
             assy_base_front_rear: 1
-        Front/Rear, HSI:
+        42mm Front/Rear, HSI:
           attributes:
+            base_depth: 42mm
             hsi: True
           parts:
             core_base_0_9_11_42mm_front_rocker_hsi: 1
@@ -3715,35 +3748,81 @@ components:
             assy_base_common_hsi: 1
             assy_base_front_rear_hsi: 1
             hsi_m3_5od_4l: 2
-        Unified:
+    comp_base_rocker_unified_0_9_11:
+      name: Rocker Switch Base (Unified)
+      template: core_v0_9_11
+      attributes:
+        switch: Rocker
+      parts:
+        assy_rocker_switch_cover: 1
+        assy_fused_iec_c14: 1
+      variants:
+        36mm Unified:
+          attributes:
+            base_depth: 36mm
+          parts:
+            core_base_0_9_11_36mm_unified_rocker: 1
+            assy_base_common_stock: 1
+        36mm Unified, HSI:
+          attributes:
+            base_depth: 36mm
+            hsi: true
+          parts:
+            core_base_0_9_11_36mm_unified_rocker_hsi: 1
+            assy_base_common_hsi: 1
+            hsi_m3_5od_4l: 2
+        42mm Unified:
+          attributes:
+            base_depth: 42mm
           parts:
             core_base_0_9_11_42mm_unified_rocker: 1
             assy_base_common_stock: 1
-        Unified, HSI:
+        42mm Unified, HSI:
           attributes:
+            base_depth: 42mm
             hsi: true
           parts:
             core_base_0_9_11_42mm_unified_rocker_hsi: 1
             assy_base_common_hsi: 1
             hsi_m3_5od_4l: 2
-    comp_base_42mm_toggle_0_9_11:
-      name: 42mm Base with Toggle Switch
+    comp_base_toggle_0_9_11:
+      name: Toggle Switch Base (Front/Rear)
       template: core_v0_9_11
       attributes:
-        base_depth: 42mm
         switch: Toggle
       parts:
         assy_fused_iec_c14: 1
         assy_toggle_switch: 1
       variants:
-        Front/Rear:
+        36mm Front/Rear:
+          attributes:
+            base_depth: 36mm
+          parts:
+            core_base_0_9_11_36mm_front_toggle: 1
+            core_base_0_9_11_36mm_rear_iec: 1
+            assy_base_common_stock: 1
+            assy_base_front_rear: 1
+        36mm Front/Rear, HSI:
+          attributes:
+            base_depth: 36mm
+            hsi: True
+          parts:
+            core_base_0_9_11_36mm_front_toggle_hsi: 1
+            core_base_0_9_11_36mm_rear_iec_hsi: 1
+            assy_base_common_hsi: 1
+            assy_base_front_rear_hsi: 1
+            hsi_m3_5od_4l: 2
+        42mm Front/Rear:
+          attributes:
+            base_depth: 42mm
           parts:
             core_base_0_9_11_42mm_front_toggle: 1
             core_base_0_9_11_42mm_rear_iec: 1
             assy_base_common_stock: 1
             assy_base_front_rear: 1
-        Front/Rear, HSI:
+        42mm Front/Rear, HSI:
           attributes:
+            base_depth: 42mm
             hsi: True
           parts:
             core_base_0_9_11_42mm_front_toggle_hsi: 1
@@ -3751,12 +3830,38 @@ components:
             assy_base_common_hsi: 1
             assy_base_front_rear_hsi: 1
             hsi_m3_5od_4l: 2
-        Unified:
+    comp_base_toggle_unified_0_9_11:
+      name: Toggle Switch Base (Unified)
+      template: core_v0_9_11
+      attributes:
+        switch: Toggle
+      parts:
+        assy_fused_iec_c14: 1
+        assy_toggle_switch: 1
+      variants:
+        36mm Unified:
+          attributes:
+            base_depth: 36mm
+          parts:
+            core_base_0_9_11_36mm_unified_toggle: 1
+            assy_base_common_stock: 1
+        36mm Unified, HSI:
+          attributes:
+            base_depth: 36mm
+            hsi: true
+          parts:
+            core_base_0_9_11_36mm_unified_toggle_hsi: 1
+            assy_base_common_hsi: 1
+            hsi_m3_5od_4l: 2
+        42mm Unified:
+          attributes:
+            base_depth: 42mm
           parts:
             core_base_0_9_11_42mm_unified_toggle: 1
             assy_base_common_stock: 1
-        Unified, HSI:
+        42mm Unified, HSI:
           attributes:
+            base_depth: 42mm
             hsi: true
           parts:
             core_base_0_9_11_42mm_unified_toggle_hsi: 1
