@@ -13,6 +13,13 @@ date: 2023-12-13
 
 This page lists all side panels for OmniBox.
 
+<figure markdown>
+[![rear panel illustration](../img/components/rear.webp){width="480px"}](../img/components/rear.webp)
+<figcaption markdown>
+Rear panels serve many purposes.
+</figcaption>
+</figure>
+
 {% for comp in items -%}
 {{ format.comp_entry(comp, prefix) }}
 {% endfor %}

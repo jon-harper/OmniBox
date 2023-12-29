@@ -13,6 +13,13 @@ date: 2023-12-13
 
 This page lists all front panels for OmniBox.
 
+<figure markdown>
+[![front panel illustration](../img/components/front_panel.webp){width="480px"}](../img/components/front_panel.webp)
+<figcaption markdown>
+Front panels provide ventilation and can mount SD card extensions, USB connectors, or even LED lights.
+</figcaption>
+</figure>
+
 {% for comp in items -%}
 {{ format.comp_entry(comp, prefix) }}
 {% endfor %}

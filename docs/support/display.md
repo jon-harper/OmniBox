@@ -13,6 +13,13 @@ date: 2023-12-13
 
 This page lists all displays compatible with OmniBox.
 
+<figure markdown>
+[![display panel illustration](../img/components/display.webp){width="480px"}](../img/components/display.webp)
+<figcaption markdown>
+Display panels are the primary method of interacting with your OmniBox.
+</figcaption>
+</figure>
+
 {% for comp in items -%}
 {{ format.comp_entry(comp, prefix) }}
 {% endfor %}

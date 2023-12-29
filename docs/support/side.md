@@ -13,6 +13,13 @@ date: 2023-12-13
 
 This page lists all side panels for OmniBox.
 
+<figure markdown>
+[![side panel illustration](../img/components/side.webp){width="480px"}](../img/components/side.webp)
+<figcaption markdown>
+Side panels can mount CPU trays, fans, or connectors.
+</figcaption>
+</figure>
+
 {% for comp in items -%}
 {{ format.comp_entry(comp, prefix) }}
 {% endfor %}
