@@ -7,10 +7,9 @@ hide: toc
 ---
 # OmniBox v{{ extra.meta.version }}
 
-!!! tip
-    To change documentation versions, select a version number from the drop down box at the top of the page.
-
-    To switch between :material-lightbulb-on: Light and :material-lightbulb-off-outline: Dark reading mode, click the icon next to the search box.
+<figure markdown>
+  [![gallery of OmniBox part combinations][gallery_thumb]][gallery]
+</figure>
 
 ## About OmniBox
 
@@ -18,16 +17,15 @@ OmniBox is a 3D printable, modular electronics case for 3D printers. It supports
 
 This project is loosely derived from Steve Burcham's [Stand Alone Main Control Case][bgdog] V3. It is released under the [MIT License][license] and is distributed free of charge.
 
+!!! tip
+    To change documentation versions, select a version number from the drop down box at the top of the page.
 
-<figure markdown>
-  [![gallery of OmniBox part combinations][gallery_thumb]][gallery]
-  <figcaption>Renders of a finished OmniBox.</figcaption>
-</figure>
+    To switch between :material-lightbulb-on: Light and :material-lightbulb-off-outline: Dark reading mode, click the icon next to the search box.
 
 ## Quick Links
 
-<div markdown class="jh-grid-container jh-grid-3">
-<div markdown class="jh-card">
+<div markdown class="grid">
+<div markdown class="card">
 ### Getting Started
 
 <div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
@@ -36,7 +34,7 @@ This project is loosely derived from Steve Burcham's [Stand Alone Main Control C
 [:octicons-checklist-24: Supported Products][support]
 </div>
 </div>
-<div markdown class="jh-card">
+<div markdown class="card">
 ### Guides
 
 <div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
@@ -45,7 +43,7 @@ This project is loosely derived from Steve Burcham's [Stand Alone Main Control C
 [:material-transfer-up: Upgrade Guide][upgrade]
 </div>
 </div>
-<div markdown class="jh-card">
+<div markdown class="card">
 ### Community Links
 
 <div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
@@ -63,10 +61,8 @@ A complete OmniBox made of parts from one release is tested to fit and work toge
 
 Trays and panels are typically compatible between releases. Recent Core case versions may be partially upgraded rather than entirely reprinted. See the [Upgrade Guide][upgrade] for details.
 
-
-
-[gallery_thumb]: img/examples/0.9.10/render_thumb.jpg
-[gallery]: img/examples/0.9.10/render.jpg
+[gallery_thumb]: img/examples/0.9.11/banner.webp
+[gallery]: img/examples/0.9.11/render.png
 
 [current_release]: history/index.md "Version History (Current Release)"
 [tour]:     tour.md                 "Guided Tour"
