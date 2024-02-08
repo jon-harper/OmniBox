@@ -48,25 +48,16 @@ def define_env(env):
         """
         return '[{}][{}]'.format(":material-git: Files", url) + "{ .md-button }"
 
-    @env.macro
-    def part_link(part_id : str, part : bom.Part = None, prefix : str = '',
-                  url_text=None) -> str:
-        if not part:
-            part = product.partFromId(part_id=part_id)
-        if not url_text:
-            url_text = part.name
-        ret : str = '[{} {}]({} "{}")'
-        if part.part_type == 'Printed' and part.file_url:
-            if part.file_url.startswith(product.local_url_prefix):
-                return ret.format(':material-git:', url_text, part.file_url, "OmniBox GitHub file download")
-            else:
-                return ret.format(':octicons-link-external-24:', url_text, part.file_url, 'External site file download')
-        elif part.sources:
-            return ret.format(':material-cart:', url_text, prefix + 'sourcing.md#' + part_id, "Sourcing information")
-        else:
-            return url_text
+
+    env.macro(badge.make_badge)
 
     @env.macro
+    def make_indented(txt : str, indent='') -> str:
+        ret = ''
+        for line in txt.splitlines(keepends=True):
+            ret += indent + line
+        return ret
+
     def render_badges(comp : bom.Component, variant : bom.Variant, prefix='') -> str:
         ret : str = badge.template_badge(comp.template)
         ckeys = comp.attributes.keys()

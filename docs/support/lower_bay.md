@@ -3,11 +3,11 @@ title: Lower Bay
 summary: List of all lower bay trays.
 authors: Jon Harper
 date: 2023-12-13
+prefix: ../../
+comp_type: Lower Bay
 ---
 
 {% import 'format.md' as format with context %}
-{% set prefix = '../' -%}
-{% set comp_type='Lower Bay' -%}
 
 {% set items = product.sortEntries(product.filterComponents(comp_type).values()) -%}
 
@@ -24,5 +24,5 @@ Every tray (short or long) attaches to the Core case body with four (4) M3 x 6mm
 [img_lower_bay]: ../img/components/lower_bay.webp
 
 {% for comp in items -%}
-{{ format.comp_entry(comp, prefix) }}
+{{ format.comp_entry(comp, prefix=prefix) }}
 {% endfor %}

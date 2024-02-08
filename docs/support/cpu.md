@@ -3,11 +3,11 @@ title: CPUs
 summary: List of all SoC/SBC CPU components
 authors: Jon Harper
 date: 2023-12-13
+prefix: ../../
+comp_type: CPU
 ---
 
 {% import 'format.md' as format with context %}
-{% set prefix = '../' -%}
-{% set comp_type='CPU' -%}
 
 {% set items = product.sortEntries(product.filterComponents(comp_type).values()) -%}
 
@@ -22,5 +22,5 @@ If you do not use an SBC, the side of the CPU bay can be used as a [Side Panel](
 
 
 {% for comp in items -%}
-{{ format.comp_entry(comp, prefix) }}
+{{ format.comp_entry(comp, prefix=prefix) }}
 {% endfor %}

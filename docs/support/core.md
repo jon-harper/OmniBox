@@ -3,10 +3,10 @@ title: Core
 summary: List of all core case components.
 authors: Jon Harper
 date: 2023-12-13
+prefix: ../../
 ---
 
 {% import 'format.md' as format with context %}
-{% set prefix = '../' -%}
 
 This page lists all Core component configurations for OmniBox.
 
@@ -17,7 +17,7 @@ This page lists all Core component configurations for OmniBox.
 {% set items = product.sortEntries(product.filterComponents(comp_type).values()) -%}
 
 {% for comp in items -%}
-{{ format.comp_entry(comp, prefix) }}
+{{ format.comp_entry(comp, prefix=prefix) }}
 {% endfor %}
 
 ## Base
@@ -27,5 +27,5 @@ This page lists all Core component configurations for OmniBox.
 {% set items = product.sortEntries(product.filterComponents(comp_type).values()) -%}
 
 {% for comp in items -%}
-{{ format.comp_entry(comp, prefix) }}
+{{ format.comp_entry(comp, prefix=prefix) }}
 {% endfor %}

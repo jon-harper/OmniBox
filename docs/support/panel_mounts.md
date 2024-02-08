@@ -3,7 +3,7 @@ title: Panel Mounts
 summary: A list of panel-mounted components supported by OmniBox
 authors: Jon Harper
 date: 2022-07-22
-prefix: ../
+prefix: ../../
 ---
 
 ## Using Panel Mounts

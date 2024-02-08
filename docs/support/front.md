@@ -3,11 +3,11 @@ title: Front Panels
 summary: List of all front panels.
 authors: Jon Harper
 date: 2023-12-13
+prefix: ../../
+comp_type: Front Panel
 ---
 
 {% import 'format.md' as format with context %}
-{% set prefix = '../' -%}
-{% set comp_type='Front Panel' -%}
 
 {% set items = product.sortEntries(product.filterComponents(comp_type).values()) -%}
 
@@ -21,5 +21,5 @@ Front panels provide ventilation and can mount SD card extensions, USB connector
 </figure>
 
 {% for comp in items -%}
-{{ format.comp_entry(comp, prefix) }}
+{{ format.comp_entry(comp, prefix=prefix) }}
 {% endfor %}

@@ -3,11 +3,11 @@ title: Side Panels
 summary: List of all side panels.
 authors: Jon Harper
 date: 2023-12-13
+prefix: ../../
+comp_type: Side Panel
 ---
 
 {% import 'format.md' as format with context %}
-{% set prefix = '../' -%}
-{% set comp_type='Side Panel' -%}
 
 {% set items = product.sortEntries(product.filterComponents(comp_type).values()) -%}
 
@@ -21,5 +21,5 @@ Side panels can mount CPU trays, fans, or connectors.
 </figure>
 
 {% for comp in items -%}
-{{ format.comp_entry(comp, prefix) }}
+{{ format.comp_entry(comp, prefix=prefix) }}
 {% endfor %}
