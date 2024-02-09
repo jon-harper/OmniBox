@@ -1,10 +1,8 @@
-{%- macro template(template, prefix='') -%}
-{%- if template -%}
-{{ make_badge(':material-puzzle:', 'Part template', txt=template) }}
-{%- endif -%}
+{%- macro template(txt) -%}
+{{ make_badge(':material-puzzle:', 'Part template', txt=txt) }}
 {%- endmacro -%}
 
-{%- macro author(name, url, prefix='') -%}
+{%- macro author(name, url) -%}
 {{ make_badge(':octicons-person-fill-24:', 'Contributed by', '', name, url) }}
 {%- endmacro -%}
 
@@ -84,6 +82,11 @@
 {%- macro render(comp, variant, prefix='') -%}
 {%- set ckeys = comp.attributes.keys() -%}
 {%- set vkeys = variant.attributes.keys() -%}
+{%- if variant.template -%}
+{{ template(variant.template) }}
+{%- elif comp.template -%}
+{{ template(comp.template) }}
+{%- endif -%}
 {%- if variant.author -%}
 {{ author(variant.author.name, variant.author.url, prefix) }}
 {%- endif -%}
