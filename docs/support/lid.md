@@ -3,7 +3,7 @@ title: Lids
 summary: List of all lid panels.
 authors: Jon Harper
 date: 2023-12-13
-prefix: ../../
+prefix: ../
 comp_type: Lid
 ---
 

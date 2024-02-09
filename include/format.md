@@ -150,7 +150,7 @@
 {% endif -%}
 {% elif part.sources -%}
 {% set icon = ':material-cart:' -%}
-{% set url = prefix + 'sourcing/#' + part_id -%}
+{% set url = prefix + 'sourcing.md#' + part_id -%}
 {% set tooltip =  'Sourcing information' -%}
 {% endif -%}
 [{{icon}} {{url_text}}]({{url}} "{{tooltip}}"){% endif -%}

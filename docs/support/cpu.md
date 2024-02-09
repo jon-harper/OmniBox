@@ -3,7 +3,7 @@ title: CPUs
 summary: List of all SoC/SBC CPU components
 authors: Jon Harper
 date: 2023-12-13
-prefix: ../../
+prefix: ../
 comp_type: CPU
 ---
 

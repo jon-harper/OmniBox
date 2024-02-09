@@ -3,7 +3,7 @@ title: Core
 summary: List of all core case components.
 authors: Jon Harper
 date: 2023-12-13
-prefix: ../../
+prefix: ../
 ---
 
 {% import 'format.md' as format with context %}

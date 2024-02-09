@@ -3,7 +3,7 @@ title: Lower Bay
 summary: List of all lower bay trays.
 authors: Jon Harper
 date: 2023-12-13
-prefix: ../../
+prefix: ../
 comp_type: Lower Bay
 ---
 

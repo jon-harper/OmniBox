@@ -3,8 +3,10 @@ title: Panel Mounts
 summary: A list of panel-mounted components supported by OmniBox
 authors: Jon Harper
 date: 2022-07-22
-prefix: ../../
+prefix: ../
 ---
+
+{% import 'format.md' as format with context %}
 
 ## Using Panel Mounts
 
@@ -26,21 +28,21 @@ These are availabe in short or long versions and are typically used with MCUs, t
 
 Most MCUs recommend either a short MicroSD extension (15cm/6" long) or longer (48cm/18") should be used.
 
-{{ part_link('microsd_ext_short', prefix=prefix ) }}{ .md-button }
+{{ format.part_link('microsd_ext_short', prefix=prefix ) }}{ .md-button }
 
-{{ part_link('microsd_ext_long', prefix=prefix) }}{ .md-button }
+{{ format.part_link('microsd_ext_long', prefix=prefix) }}{ .md-button }
 
 ### USB Extensions
 
 Right angle connectors are often a good choice, particularly for CPUs and large MCUs.
 
-{{ part_link('usb2_typea_panel_mount', prefix=prefix) }}{ .md-button }
+{{ format.part_link('usb2_typea_panel_mount', prefix=prefix) }}{ .md-button }
 
-{{ part_link('usb2_typeb_panel_mount', prefix=prefix) }}{ .md-button }
+{{ format.part_link('usb2_typeb_panel_mount', prefix=prefix) }}{ .md-button }
 
-{{ part_link('usb3_panel_mount', prefix=prefix) }}{ .md-button }
+{{ format.part_link('usb3_panel_mount', prefix=prefix) }}{ .md-button }
 
-{{ part_link('usbc_panel_mount', prefix=prefix) }}{ .md-button }
+{{ format.part_link('usbc_panel_mount', prefix=prefix) }}{ .md-button }
 
 ### Keystone Jacks
 
@@ -50,13 +52,13 @@ These are commonly used on the front, side, or rear panels. Currently, designs w
 
 Below are several common keystone jacks.
 
-{{ part_link('usb3_keystone', prefix=prefix)}}{ .md-button }
+{{ format.part_link('usb3_keystone', prefix=prefix)}}{ .md-button }
 
-{{ part_link('hmdi_keystone', prefix=prefix) }}{ .md-button }
+{{ format.part_link('hmdi_keystone', prefix=prefix) }}{ .md-button }
 
-{{ part_link('ethernet_keystone', prefix=prefix) }}{ .md-button }
+{{ format.part_link('ethernet_keystone', prefix=prefix) }}{ .md-button }
 
-{{ part_link('usbc_keystone', prefix=prefix) }}{ .md-button }
+{{ format.part_link('usbc_keystone', prefix=prefix) }}{ .md-button }
 
 ### Other Connectors
 
@@ -68,7 +70,7 @@ JST SM and Molex's Micro Fit 3.0 connectors can both be panel-mounted. These are
 
 These are good, low-current (3A max) connectors for devices such as limit switches, lights, steppers, and fans. However, they are larger than connectors with similar pin spacings.
 
-{{ part_link('kit_jst_sm', prefix=prefix) }}{ .md-button }
+{{ format.part_link('kit_jst_sm', prefix=prefix) }}{ .md-button }
 
 Further reading: [:material-book-open: JST SM on The Clockmaker Project][clk_jst_sm]
 
@@ -78,7 +80,7 @@ These make excellent connectors for printers, particularly for hotends. They are
 
 Connectors up to 2 row, 24 positions are available.
 
-{{ part_link('kit_molex_mf3', prefix=prefix) }}{ .md-button }
+{{ format.part_link('kit_molex_mf3', prefix=prefix) }}{ .md-button }
 
 Further reading: [:material-book-open: Molex Micro Fit 3.0 on The Clockmaker Project][clk_mf3]
 
@@ -86,9 +88,9 @@ Further reading: [:material-book-open: Molex Micro Fit 3.0 on The Clockmaker Pro
 
 This connector is most well known for RC electronics and Creality printer beds. They should be used with 12 AWG wire for their rated current, though 13 AWG/2.5mm^2^ is often used for 220W beds.
 
-{{ part_link('xt60_male_panel_mount', prefix=prefix) }}{ .md-button }
+{{ format.part_link('xt60_male_panel_mount', prefix=prefix) }}{ .md-button }
 
-{{ part_link('xt60_female_panel_mount', prefix=prefix) }}{ .md-button }
+{{ format.part_link('xt60_female_panel_mount', prefix=prefix) }}{ .md-button }
 
 Further reading: [:material-book-open: XT-60 on The Clockmaker Project][clk_xt60]
 

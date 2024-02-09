@@ -3,7 +3,7 @@ title: Side Panels
 summary: List of all side panels.
 authors: Jon Harper
 date: 2023-12-13
-prefix: ../../
+prefix: ../
 comp_type: Side Panel
 ---
 

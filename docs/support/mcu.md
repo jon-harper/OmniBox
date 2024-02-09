@@ -3,7 +3,7 @@ title: MCUs
 summary: List of all MCU components
 authors: Jon Harper
 date: 2023-12-13
-prefix: ../../
+prefix: ../
 comp_type: MCU
 ---
 

@@ -3,7 +3,7 @@ title: Rear Panels
 summary: List of all rear panels.
 authors: Jon Harper
 date: 2023-12-13
-prefix: ../../
+prefix: ../
 comp_type: Rear Panel
 ---
 

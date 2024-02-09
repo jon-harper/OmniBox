@@ -3,7 +3,7 @@ title: Displays
 summary: List of all CPU and MCU displays.
 authors: Jon Harper
 date: 2023-12-13
-prefix: ../../
+prefix: ../
 comp_type: Display
 ---
 
