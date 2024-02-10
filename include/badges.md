@@ -88,7 +88,7 @@
 {{ template(comp.template) }}
 {%- endif -%}
 {%- if variant.author -%}
-{{ author(variant.author.name, variant.author.url, prefix) }}
+{{ author(variant.author.name, variant.author.url) }}
 {%- endif -%}
 {%- if 'origin' in vkeys -%}
 {%- set o_auth = authorForId(variant.attributes['origin']) -%}
