@@ -6,17 +6,158 @@ date: 2022-07-03
 prefix: ../
 ---
 
-OmniBox mounts parts on a set of internal trays and exterior panels.
+{%- import 'badges.md' as badges with context -%}
+
+
+OmniBox has a large number of available components, many with multiple variants. Each of these components has an entry
+containing a bill of materials and important details. The layout of this documentation is standardized for ease of
+navigation, and most sections are organized by the name of the electronic component each part mounts.
+
+Below are explanations of the information you'll find in the Options & Support section.
 
 ## Fit Testing
 
-Before a tray or panel is merged into the `main` branch, it has to be tested. Parts that have not been tested for fit are marked like so:
+Before a component (such as a tray or panel) is merged into the `main` branch, it has to be tested. Parts
+that are waiting for fit testing are marked like so:
 
 !!! caution "Fit Test Pending: Issue #NNN"
 
 If you print one of these parts, please report your results! There is usually an open [:material-git: issue on GitHub][git_issues] for that hardware component.
 
-## Trays
+## Badges
+
+Icon badges provide key details about a part at a glance.
+
+### Basics
+
+<div markdown class="grid">
+<div markdown class="card">
+**Size**
+
+{{ badges.size('Short') }}
+
+Indicates if a printed part is Short or Long. Two (2) Short parts replace one (1) Long part; this applies to lower bay
+trays and lids.
+</div>
+<div markdown class="card">
+**Unified**
+
+{{ badges.unified() }}
+
+Indicates a part is a single piece that replaces front and rear halves. Unified parts require large build plates.
+</div>
+<div markdown class="card">
+**Front and Rear**
+
+{{ badges.front() }}
+
+Front and Rear parts can be mix-and-matched in place of a single, unified part. Front and Rear parts are not
+interchangeable, unlike Short parts. This badge is currently only used for Bottom Panels.
+</div>
+<div markdown class="card">
+**Heat Set Insert**
+
+{{ badges.hsi() }}
+
+Indicates a component or variant requires heat set inserts.
+</div>
+</div>
+
+### Credits
+
+<div markdown class="grid">
+<div markdown class="card">
+**Author**
+
+{{ badges.author('Name/Handle')}}
+
+Links to a public profile for the creator of a contributed part.
+</div>
+<div markdown class="card">
+**Origin**
+
+{{ badges.origin('Name/Handle') }}
+
+If a part is derived from someone else's work, this links to their public profile.
+</div>
+</div>
+
+### Versioning
+
+<div markdown class="grid">
+<div markdown class="card">
+**Template**
+
+{{ badges.template('template_version')}}
+
+All parts are based upon templates. These are useful in determining compatibility between parts and Core versions.
+See the [Templates][templates] page for more.
+</div>
+<div markdown class="card">
+**Version**
+
+{{ badges.version('part_version')}}
+
+The current revision of a part. Part versions are are imprinted on newer components.
+</div>
+</div>
+
+### Bases and PSUs
+
+<div markdown class="grid">
+<div markdown class="card">
+**Switch**
+
+{{ badges.switch('Rocker')}}
+
+Identifies the type of power switch(es) compatible with a given power supply or base.
+</div>
+<div markdown class="card">
+**Depth**
+
+{{ badges.base_depth('36mm')}}
+
+Either 36 or 42mm. For a base, this is the available depth for mounting a power supply. For a PSU, indicates the
+depth required.
+</div>
+<div markdown class="card">
+**IEC**
+
+{{ badges.no_iec() }}
+
+This is only used for Bases that do *not* mount an IEC power inlet.
+</div>
+</div>
+
+### Panel-specific
+
+<div markdown class="grid">
+<div markdown class="card">
+**Display**
+
+{{ badges.display('CPU') }}
+
+Indicates whether a display panel mounts a display that connects to a CPU or MCU.
+</div>
+<div markdown class="card">
+**Fan, Vent**
+
+{{ badges.fan() }} {{ badges.vent() }}
+
+Fan badges indicate that a part has a fan mount; vent badges signal that a part has cutouts for airflow.
+</div>
+<div markdown class="card">
+**Panel Mount**
+
+{{ badges.extension('USB C, RJ-45') }}
+
+These badges list the types of panel mounts available on a given part.
+</div>
+</div>
+
+## Component Types
+
+### Trays
 
 <figure markdown>
   [![the three types of trays][img_trays]{ width="640" }][img_trays]
@@ -30,7 +171,7 @@ Trays mount electronics most of your case's electronics.
 - [Power supplies (PSUs)][psu] are inserted from below.
 - [Lower Bay Trays][lower_bay] are used for parts such as buck converters and solid state relays. These occupy the middle of the case.
 
-## Panels
+### Panels
 
 Panels are generally used for displays, [fans][fans], and [panel-mounted connector extensions][panel_mounts] like USB ports and 
 SD card readers. Lids can be put to a wide variety of uses, as well.
@@ -60,6 +201,6 @@ SD card readers. Lids can be put to a wide variety of uses, as well.
 [side]: side.md
 [lid]: lid.md
 [bottom]: bottom.md
-
+[templates]: ../upgrade/templates.md
 [img_trays]:  ../img/components/trays.webp
 [img_panels]:  ../img/components/panels.webp
