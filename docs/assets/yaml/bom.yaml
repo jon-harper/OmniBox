@@ -3501,6 +3501,8 @@ components:
     comp_mb_0_9_11:
       name: Front/Rear Main Body
       template: core_v0_9_11
+      note: |
+        Most users will need to print the Main Body as two large pieces, Front and Rear.
       variants:
         Stock:
           parts:
@@ -3510,6 +3512,8 @@ components:
             assy_mb_common_stock: 1
             assy_mb_front_rear_stock: 1
         HSI:
+          attributes:
+            hsi: True
           parts:
             core_mb_0_9_11_front_hsi: 1
             core_mb_0_9_11_rear_hsi: 1
@@ -3517,6 +3521,10 @@ components:
             assy_mb_common_hsi: 1
             assy_mb_front_rear_hsi: 1
         Full HSI:
+          attributes:
+            hsi: True
+          note: |
+            "Full HSI" includes 24 additional inserts for mounting the lower bay trays.
           parts:
             core_mb_0_9_11_front_full_hsi: 1
             core_mb_0_9_11_rear_full_hsi: 1
