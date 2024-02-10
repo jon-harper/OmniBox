@@ -45,15 +45,25 @@ These parts are common to all case builds. See below for additional requirements
 
 #### Cap Screws
 
-OmniBox is compatible with both M3 socket head cap screws (SHCS) and button head cap screws (BHCS). All links are to SHCS, where applicable. [Power supplies](#psu-trays) are the exception; they use M4 screws.
+OmniBox is largely compatible with both M3 socket head cap screws (SHCS) and button head cap screws (BHCS). Core assembly
+has several recessed screw holes that are not compatible with button head screws; otherwise, button head screws can be used
+freely in place of socket head screws.
+
+All sourcing links are for SHCS.
+
+!!! note "Note: PSUs"
+    [Power supplies](#psu-trays) mount using M4 screws.
 
 #### HSI Builds
 
-Cases with heat set inserts (HSI) use shorter fasteners in many locations. If using HSIs, an [:material-cart: M3 soldering iron tip for heat set inserts][bom_hsi_tips] is recommended.
+Cases with heat set inserts (HSI) use shorter fasteners in many locations.
+
+If using HSIs, an [:material-cart: M3 soldering iron tip for heat set inserts][bom_hsi_tips] is recommended.
 
 #### Fastener BOM
 
-The lists below are the minimum required for an OmniBox build. The [Supported Parts](support/index.md) section contains additional fasteners needed for each part.
+The lists below are the minimum required for an OmniBox build. The [Supported Parts](support/index.md) section contains
+breakdowns of all parts required for every component.
 
 === "Stock (No HSI)"
 
