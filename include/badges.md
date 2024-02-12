@@ -80,6 +80,7 @@
 {%- endmacro -%}
 
 {%- macro render(comp, variant, prefix='') -%}
+<div markdown>
 {%- set ckeys = comp.attributes.keys() -%}
 {%- set vkeys = variant.attributes.keys() -%}
 {%- if variant.template -%}
@@ -145,4 +146,5 @@
 {%- if 'hsi' in ckeys or 'hsi' in vkeys -%}
 {{ hsi() }}
 {%- endif -%}
+</div>
 {%- endmacro -%}
