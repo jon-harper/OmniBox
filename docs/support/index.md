@@ -8,10 +8,18 @@ prefix: ../
 
 {%- import 'badges.md' as badges with context -%}
 
+OmniBox has a large number of available components, many with multiple variants. Some of these have several printed pieces.
+Simply:
 
-OmniBox has a large number of available components, many with multiple variants. Each of these components has an entry
-containing a bill of materials and important details. The layout of this documentation is standardized for ease of
-navigation, and most sections are organized by the name of the electronic component each part mounts.
+- A **component** is a common design, such as an MCU tray for a Bigtreetech SKR E3.
+- A **variant** is a modified version of the stock component, such as a version of the above tray that takes heat set inserts.
+- For simplicity, components and variants are **parts**. 
+
+Each part has an entry containing a bill of materials and other important information. Some parts have more than one printed
+piece; the BOM lists all printed pieces necessary and a download link.
+
+The layout of this documentation is standardized, and most sections are organized by the name of the electronic component
+a part is designed to mount.
 
 Below are explanations of the information you'll find in the Options & Support section.
 
@@ -34,10 +42,9 @@ Icon badges provide key details about a part at a glance.
 <div markdown class="card">
 **Size**
 
-{{ badges.size('Short') }}
+<div markdown>{{ badges.size('Short') }} {{ badges.size('Long') }} </div>
 
-Indicates if a printed part is Short or Long. Two (2) Short parts replace one (1) Long part; this applies to lower bay
-trays and lids.
+Indicates the size of a part; this applies to lower bay trays and lids. Two (2) Short parts replace one (1) Long part.
 </div>
 <div markdown class="card">
 **Unified**
@@ -49,10 +56,10 @@ Indicates a part is a single piece that replaces front and rear halves. Unified 
 <div markdown class="card">
 **Front and Rear**
 
-{{ badges.front() }}
+<div markdown> {{ badges.front() }} {{ badges.rear() }} </div>
 
-Front and Rear parts can be mix-and-matched in place of a single, unified part. Front and Rear parts are not
-interchangeable, unlike Short parts. This badge is currently only used for Bottom Panels.
+Front and Rear parts can be printed in place of a Unified part. Front and Rear parts are not
+interchangeable, unlike Short parts. Applies to Base, Main Bodies, and Bottom Panels.
 </div>
 <div markdown class="card">
 **Heat Set Insert**
@@ -135,14 +142,14 @@ This is only used for Bases that do *not* mount an IEC power inlet.
 <div markdown class="card">
 **Display**
 
-{{ badges.display('CPU') }}
+<div markdown>{{ badges.display('CPU') }} {{ badges.display('MCU') }}</div>
 
 Indicates whether a display panel mounts a display that connects to a CPU or MCU.
 </div>
 <div markdown class="card">
 **Fan, Vent**
 
-{{ badges.fan() }} {{ badges.vent() }}
+<div markdown> {{ badges.fan() }} {{ badges.vent() }} </div>
 
 Fan badges indicate that a part has a fan mount; vent badges signal that a part has cutouts for airflow.
 </div>
