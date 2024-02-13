@@ -5,6 +5,8 @@ authors: Jon Harper
 date: 2022-08-04
 ---
 
+{% import 'format.md' as format with context %}
+
 This is a visual tour of an OmniBox. This page demonstrates:
 
 1. The core parts of OmniBox and their variations;
@@ -24,26 +26,32 @@ The configuration in the image above will be our example in this guide. We will 
 
 Links on this site to external resources have prefix icons to identify what they do:
 
-- :material-git: The git icon is used for links to the OmniBox GitHub. 
-- :material-cart: identifies an example link to a shopping site.
+- :material-git: The git icon is used for download links. 
+- :material-cart: identifies a link to the [Sourcing Guide][sourcing].
 
 Internal page links in this tour are marked with an :material-directions: arrow sign.
 
+### Heat Set Inserts
+
+Many OmniBox components come with the option of using heat set inserts to attach other parts. These `STL`
+files have names ending in `HSI`. Files ending with `Stock` in the name do not need inserts. Look for
+the :material-cog: icon to quickly identify HSI parts on this site. Part icons are covered in more detail in
+the [Support Overview][support] section.
+
 ## Core Components
 
-Core components form the basis of every case. End-user parts normally do not attach to core components; instead, user parts are attached to trays and panels, which then mount on the Core case.
-
-!!! note "Note: Heat Set Inserts (HSI)"
-    Most Core components come with the option of using heat set inserts to attach most trays and panels. These `STL` files have "HSI" in the name.
+Core components form the basis of every case. Parts like the MCU do not directly attach to the Core case; instead, user
+parts are attached to trays and panels, which then mount on the Core case.
 
 <figure markdown>
   [![the core of an OmniBox][img_core]][img_core]
   <figcaption>The assembled core components of an OmniBox.</figcaption>
 </figure>
 
-There are two (2) types of Core components: Base and Main Body. A typical OmniBox build has two (2) parts for the base and three (3) for the main body.
+There are two (2) types of Core components, the Base and the Main Body. Both of these are typically printed in halves
+that are then assembled. Users with large (>315mm) beds can print Unified versions of both the Base and Main Body.
 
-The Unified base can be printed instead of the front and rear Base pieces.
+The Main Body has a third printed part, the crossbar.
 
 <div markdown class="jh-grid-container jh-grid-3">
 <div markdown>
@@ -64,57 +72,11 @@ The Unified base can be printed instead of the front and rear Base pieces.
 
 ### Base
 
-The Base serves as a cover and mount for the power supply. It helps with wire routing and acts as a rigid base for the rest of the Core case.
+The Base serves as a cover and mount for the power supply. It helps with wire routing and acts as a foundation
+for the Main Body.
 
-#### Front Base
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-This is the front of two halves. All versions come with front air vents and optional 40mm fan mounts.
-
-The Front can be printed to fit a two types of [:material-directions: power switches](#power-switch).
-
-[:material-git: Front Base Files][git_base_front]{ .md-button }
-</div>
-<div markdown class="jh-card">
-=== "Front - Rocker Switch"
-    [![front base][img_base_front_rocker]][img_base_front_rocker]
-=== "Front - Toggle Switch"
-    [![front base][img_base_front_toggle]][img_base_front_toggle]
-</div>
-</div>
-
-#### Rear Base
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-The back half mounts a fused IEC power plug and part of the [Rear Panel](#rear-panel).
-
-This component is available with heat set inserts.
-
-[:material-git: Rear Base Files][git_base_rear]{ .md-button }
-</div>
-<div markdown class="jh-grid-img">
-[![front base][img_base_rear]][img_base_rear]
-</div>
-</div>
-
-#### Unified Base
-
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-The base can be printed as a single piece instead halves on printers with a bed at least 300mm on one axis.
-
-An extended version is available for the RSP-500 PSU. This file is 10mm taller than the normal base to account for the additional power supply height.
-
-This component is available with heat set inserts.
-
-[:material-git: Unified Base Files][git_base_unified]{ .md-button }
-</div>
-<div markdown class="jh-grid-img">
-[![front base][img_base_unified]][img_base_unified]
-</div>
-</div>
+The Base can be printed in a 36mm or 42mm deep version--this number refers to the depth availabe for the PSU.
+Look for the :material-
 
 ### Main Body
 
@@ -449,11 +411,13 @@ Power is provided through a standard [:material-cart: fused IEC C14 power socket
 
 [fans]:  support/fans.md
 [panel_mounts]:  support/panel_mounts.md
-[displays]:  support/displays.md
+[displays]:  support/display.md
 [mcu]:  support/mcu.md
 [lower_bay]: support/lower_bay.md
 [cpu]: support/cpu.md
 [psu]: support/psu.md
+[support]: support/index.md
+[sourcing]: sourcing.md
 
 [img_overview]: img/components/overview.webp
 [img_core]: img/components/core.webp
