@@ -5,7 +5,7 @@ authors: Jon Harper
 date: 2023-07-26
 ---
 
-As of v0.9.10, all trays and panels have templates except the PSU tray. Trays and panels generally have STEP files available for modification, as well.
+As of v0.9.11, all trays and panels have templates. Most parts have `STEP` files available for modification, as well.
 
 ## Trays
 
@@ -14,13 +14,13 @@ As of v0.9.10, all trays and panels have templates except the PSU tray. Trays an
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+| Version | Introduced | Compatibility | Notes |
+|---------|------------|---------------|-------|
+| mcu_v1  | v0.9       | v0.9 - v0.9.11 | M4 screw holes. |
+| mcu_v2  | v0.9.9     | v0.9.9 -       | Switched to M3 screws. |
+
 [:material-git: MCU Tray Template][git_mcu_template]{ .md-button }
 
-- Introduced: v0.9
-- Current version: v2, introduced with v0.9.9
-- Notes:
-    - v1 trays are forward-compatible.
-    - v2 trays are not backwards-compatible.
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_mcu_tray]][img_mcu_tray]
@@ -32,13 +32,14 @@ As of v0.9.10, all trays and panels have templates except the PSU tray. Trays an
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+| Version | Introduced | Compatibility   | Notes |
+|---------|------------|-----------------|-------|
+| cpu_v1  | v0.9       | v0.9 - v0.9.8.1 | Deprecated. |
+| cpu_v2  | v0.9.9     | v0.9 - v0.9.10  |       |
+| cpu_v3  | v0.9.11    | v0.9.11 -       | Not compatible with v1 and 2. |
+
 [:material-git: CPU Tray Template][git_cpu_template]{ .md-button }
 
-- Introduced: v0.9
-- Current version: v3, introduced with v0.9.11
-- Notes:
-    - v1 and v2 trays are not interchangeable with v3 trays.
-    - All v1 trays are deprecated.
 </div>
 <div markdown class="jh-grid-img">
 [![CPU tray illustration][img_cpu_tray]][img_cpu_tray]
@@ -49,14 +50,15 @@ As of v0.9.10, all trays and panels have templates except the PSU tray. Trays an
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-!!! note
-    A publicly available template for PSU trays is not yet available.
 
-- Introduced: v0.9.9
-- Current version: v2, introduced with v0.9.11
-- Notes: 
-    - OmniBox releases prior to 0.9.9 did not use PSU trays.
-    - v1 and v2 are not compatible.
+| Version | Introduced | Compatibility    | Notes |
+|---------|------------|------------------|-------|
+| psu_v1  | v0.9.9     | v0.9.9 - v0.9.10 |       |
+| psu_v2  | v0.9.11    | v0.9.11 -        |       |
+
+!!! note "TODO"
+    A v2 template will be included with 0.9.11.
+
 </div>
 <div markdown class="jh-grid-img">
 [![PSU illustration][img_psu_tray]][img_psu_tray]
@@ -70,13 +72,14 @@ As of v0.9.10, all trays and panels have templates except the PSU tray. Trays an
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+| Version | Introduced | Compatibility    | Notes |
+|---------|------------|------------------|-------|
+| bottom_v1 | v0.9.9     | v0.9.9 - v0.9.10 |       |
+| bottom_v2 | v0.9.10    | v0.9.9 - v0.9.10 | Interchangeable with v1. |
+| bottom_v3 | v0.9.11    | v0.9.11 -        |       |
+
 [:material-git: Bottom Panel Template][git_bottom_template]{ .md-button }
 
-- Introduced: v0.9.9
-- Current version: v3, introduced with v0.9.11
-- Notes: 
-    - v1 and v2 panels are freely interchangeable.
-    - v3 panels are not compatible with prior versions.
 </div>
 <div markdown class="jh-grid-img">
 [![Bottom panel illustration][img_bottom]][img_bottom]
@@ -88,13 +91,14 @@ As of v0.9.10, all trays and panels have templates except the PSU tray. Trays an
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+| Version | Introduced | Compatibility    | Notes |
+|---------|------------|------------------|-------|
+| display_v1 | v0.9       | v0.9   - v0.9.7  | Used M4 screws; deprecated. |
+| display_v2 | v0.9.8     | v0.9.8 -         |  |
+| display_v3 | v0.9.10    | v0.9.8 -         | Lighter and faster print than v2. |
+
 [:material-git: Display Panel Template][git_display_template]{ .md-button }
 
-- Introduced: v0.9
-- Current version: v3, introduced with v0.9.10
-- Notes:
-    - v1 display panels use M4 screws and are not compatible.
-    - v2 and v3 display panels use M3 screws and are freely interchangeable.
 </div>
 <div markdown class="jh-grid-img">
 [![Display panel illustration][img_display]][img_display]
@@ -106,10 +110,12 @@ As of v0.9.10, all trays and panels have templates except the PSU tray. Trays an
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+| Version | Introduced | Compatibility    | Notes |
+|---------|------------|------------------|-------|
+| fp_v1   | v0.9       | v0.9 -           |       |
+
 [:material-git: Front Panel Template][git_front_template]{ .md-button }
 
-- Introduced: v0.9
-- Current version: v1
 </div>
 <div markdown class="jh-grid-img">
 [![front panel illustration][img_front]][img_front]
@@ -121,12 +127,13 @@ As of v0.9.10, all trays and panels have templates except the PSU tray. Trays an
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+| Version | Introduced | Compatibility    | Notes |
+|---------|------------|------------------|-------|
+| lid_v1  | v0.9       | v0.9 - v0.9.5    | Deprecated. |
+| lid_v2  | v0.9.7     | v0.9.7 -         |       |
+
 [:material-git: Lid Template][git_lid_template]{ .md-button }
 
-- Introduced: v0.9
-- Current version: v2, introduced with v0.9.7
-- Notes:
-    - v1 and v2 are not compatible.
 </div>
 <div markdown class="jh-grid-img">
 [![lid illustration][img_lid]][img_lid]
@@ -138,13 +145,14 @@ As of v0.9.10, all trays and panels have templates except the PSU tray. Trays an
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+| Version | Introduced | Compatibility    | Notes |
+|---------|------------|------------------|-------|
+| rear_v1 | v0.9       | v0.9 - v0.9.7    | Deprecated; uses M4 screws. |
+| rear_v2 | v0.9.8     | v0.9.8 -         |       |
+| rear_v3 | v0.9.10    | v0.9.8 -         | Compatible with v2. |
+
 [:material-git: Rear Panel Template][git_rear_template]{ .md-button }
 
-- Introduced: v0.9
-- Current version: v3, introduced with 0.9.10
-- Notes:
-    - v1 is incompatible with later versions.
-    - v2 and v3 are interchangeable.
 </div>
 <div markdown class="jh-grid-img">
 [![rear panel illustration][img_rear]][img_rear]
@@ -156,13 +164,13 @@ As of v0.9.10, all trays and panels have templates except the PSU tray. Trays an
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
 
+| Version | Introduced | Compatibility    | Notes |
+|---------|------------|------------------|-------|
+| side_v1 | v0.9.9     | v0.9.9 - v0.9.10 |       |
+| side_v3 | v0.9.11    | v0.9.11 -        | Version jumped to match CPU trays. |
+
 [:material-git: Side Panel Template][git_side_template]{ .md-button }
 
-- Introduced: v0.9.9
-- Current version: v3, introduced with v0.9.11
-- Notes:
-    - The Side Panel template is derived from the CPU Tray.
-    - v3 is not compatible with prior releases.
 </div>
 <div markdown class="jh-grid-img">
 [![side panel illustration][img_side]][img_side]
