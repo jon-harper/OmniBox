@@ -2,10 +2,18 @@ config:
   id: test
   baseUrl: 'https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta'
 suppliers:
+  3do:
+    name: 3DO.eu
+    region: EU (DK)
+    ships: EU
   aliexpress:
     name: AliExpress
     region: Worldwide
     ships: Worlwide
+  atomic:
+    name: Atomic Filament
+    region: US
+    ships: US
   amazon_us:
     name: Amazon.com (USA)
     region: US
@@ -718,13 +726,26 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/Polymaker-Filament-1-75mm-Rigidity-Cardboard/dp/B099KSLJCQ"
+          note: Polymaker PolyLite PLA Pro
+        atomic:
+          url: "https://atomicfilament.com/collections/opaque-pla-filaments-1/products/light-gray-pla-filament?variant=28495624269"
+          note: Atomic Light Gray PLA v2
+        3do:
+          url: "https://3do.eu/pla/1028-1423-3do-pla-20-tough-1kg-grey.html#/84-colour-grey"
+          note: 3DO PLA 2.0 Tough, Grey
     filament_petg:
       name: PETG Filament, 1kg
       units: kg
       sources:
         amazon_us:
           url: "https://www.amazon.com/Polymaker-Filament-1-75mm-Strong-Cardboard/dp/B09DKSCRSX"
-  
+          note: Polymaker PolyLite PETG
+        atomic:
+          url: "https://atomicfilament.com/collections/petg-3d-printer-filament-us-made-with-free-shipping/products/light-gray-opaque-petg-pro?variant=31468764528701"
+          note: Atomic Light Gray PETG PRO
+        3do:
+          url: "https://3do.eu/filament/1043-1446-3do-petg-20-matt-1kg-grey.html#/84-colour-grey"
+          note: 3DO PETG 2.0 Matte, Grey
   Electrical Connector:
     conn_f_spade_14-16:
       name: Insulated Spade Connector, Female, 14-16 awg
