@@ -286,6 +286,12 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/Female-Standoff-Quadcopter-Computer-Circuit/dp/B0CJCHCRVJ/"
   PSU:
+    mw_rsp200:
+      name: Mean Well RSP-200 Series
+      sources:
+        amazon_us: 
+          url: "https://www.amazon.com/MEAN-WELL-RSP-200-24-Switching-Enclosed/dp/B00FRC0E66"
+          note: RSP-200-24
     mw_lrs350:
       name: Mean Well LRS-350 Series
       img: "img/parts/mw_lrs_350_24.webp"
@@ -1045,6 +1051,23 @@ parts:
       file: /Trays/MCU/BTT SKR 3 EZ/MCU Tray - BTT SKR 3 EZ - v2.stl
       template: mcu_v2
     ### PSU Trays
+    #Mean Well RSP 200
+    tray_mw_rsp200_v2_l:
+      name: PSU Mount - RSP-200 - Left.stl
+      file: /Trays/PSU/V2/Mean Well RSP-200/PSU Mount - RSP-200 - Left.stl
+      template: psu_v2
+    tray_mw_rsp200_v2_l_hsi:
+      name: PSU Mount - RSP-200 - Left HSI.stl
+      file: /Trays/PSU/V2/Mean Well RSP-200/PSU Mount - RSP-200 - Left HSI.stl
+      template: psu_v2
+    tray_mw_rsp200_v2_r:
+      name: PSU Mount - RSP-200 - Right.stl
+      file: /Trays/PSU/V2/Mean Well RSP-200/PSU Mount - RSP-200 - Right.stl
+      template: psu_v2
+    tray_mw_rsp200_v2_r_hsi:
+      name: PSU Mount - RSP-200 - Right HSI.stl
+      file: /Trays/PSU/V2/Mean Well RSP-200/PSU Mount - RSP-200 - Right HSI.stl
+      template: psu_v2
     # Mean Well LRS 350
     tray_mw_lrs350_v1_l:
       name: PSU Tray - LRS-350 - Left Mount.stl
@@ -1077,6 +1100,40 @@ parts:
     tray_mw_lrs350_v2_r_hsi:
       name: PSU Mount - LRS-350 - Right HSI.stl
       file: /Trays/PSU/V2/Mean Well LRS-350/PSU Mount - LRS-350 - Right HSI.stl
+      template: psu_v2
+    # Mean Well LRS 450
+    tray_mw_lrs450_v2_l:
+      name: PSU Mount - LRS-450 - Left.stl
+      file: /Trays/PSU/V2/Mean Well LRS-450/PSU Mount - LRS-450 - Left.stl
+      template: psu_v2
+    tray_mw_lrs450_v2_r:
+      name: PSU Mount - LRS-450 - Right.stl
+      file: /Trays/PSU/V2/Mean Well LRS-450/PSU Mount - LRS-450 - Right.stl
+      template: psu_v2
+    tray_mw_lrs450_v2_l_hsi:
+      name: PSU Mount - LRS-450 - Left HSI.stl
+      file: /Trays/PSU/V2/Mean Well LRS-450/PSU Mount - LRS-450 - Left HSI.stl
+      template: psu_v2
+    tray_mw_lrs450_v2_r_hsi:
+      name: PSU Mount - LRS-450 - Right HSI.stl
+      file: /Trays/PSU/V2/Mean Well LRS-450/PSU Mount - LRS-450 - Right HSI.stl
+      template: psu_v2
+    # Mean Well LRS 600
+    tray_mw_lrs600_v2_l:
+      name: PSU Mount - LRS-600 - Left.stl
+      file: /Trays/PSU/V2/Mean Well LRS-600/PSU Mount - LRS-600 - Left.stl
+      template: psu_v2
+    tray_mw_lrs600_v2_l_hsi:
+      name: PSU Mount - LRS-600 - Left HSI.stl
+      file: /Trays/PSU/V2/Mean Well LRS-600/PSU Mount - LRS-600 - Left HSI.stl
+      template: psu_v2
+    tray_mw_lrs600_v2_r:
+      name: PSU Mount - LRS-600 - Right.stl
+      file: /Trays/PSU/V2/Mean Well LRS-600/PSU Mount - LRS-600 - Right.stl
+      template: psu_v2
+    tray_mw_lrs600_v2_r_hsi:
+      name: PSU Mount - LRS-600 - Right HSI.stl
+      file: /Trays/PSU/V2/Mean Well LRS-600/PSU Mount - LRS-600 - Right HSI
       template: psu_v2
     # Mean Well RSP 500
     tray_mw_rsp500_v1_l:
@@ -2441,6 +2498,28 @@ components:
   ###
   PSU:
   ###
+    comp_mw_rsp200:
+      name: Mean Well RSP-200 Series
+      template: psu_v2
+      attributes:
+        base_depth: 36mm
+        switch: Any
+        fit_test: 137
+      parts:
+        mw_rsp200: 1
+        shcs_m4_6: 4
+      variants:
+        Stock:
+          parts:
+            tray_mw_rsp200_v2_l: 1
+            tray_mw_rsp200_v2_r: 1
+        HSI:
+          attributes:
+            HSI: True
+          parts:
+            tray_mw_rsp200_v2_l_hsi: 1
+            tray_mw_rsp200_v2_r_hsi: 1
+            hsi_m3_5od_4l: 4
     comp_mw_lrs350:
       name: Mean Well LRS-350 Series
       template: psu_v2
@@ -2461,6 +2540,48 @@ components:
           parts:
             tray_mw_lrs350_v2_l_hsi: 1
             tray_mw_lrs350_v2_r_hsi: 1
+            hsi_m3_5od_4l: 4
+    comp_mw_lrs450:
+      name: Mean Well LRS-450 Series
+      template: psu_v2
+      attributes:
+        base_depth: 36mm
+        switch: Rocker
+      parts:
+        mw_lrs450: 1
+        shcs_m4_6: 4
+      variants: 
+        Stock:
+          parts:
+            tray_mw_lrs450_v2_l: 1
+            tray_mw_lrs450_v2_r: 1
+        HSI:
+          attributes:
+            hsi: True
+          parts:
+            tray_mw_lrs450_v2_l_hsi: 1
+            tray_mw_lrs450_v2_r_hsi: 1
+            hsi_m3_5od_4l: 4
+    comp_mw_lrs600:
+      name: Mean Well LRS-600 Series
+      template: psu_v2
+      attributes:
+        base_depth: 42mm
+        switch: Rocker
+      parts:
+        mw_lrs600: 1
+        shcs_m4_6: 4
+      variants: 
+        Stock:
+          parts:
+            tray_mw_lrs600_v2_l: 1
+            tray_mw_lrs600_v2_r: 1
+        HSI:
+          attributes:
+            hsi: True
+          parts:
+            tray_mw_lrs600_v2_l_hsi: 1
+            tray_mw_lrs600_v2_r_hsi: 1
             hsi_m3_5od_4l: 4
     comp_mw_rsp500:
       name: Mean Well RSP-500 Series
