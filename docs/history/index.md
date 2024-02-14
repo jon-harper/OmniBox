@@ -33,6 +33,7 @@ The current **beta** release is 0.9.11. No release date has been set yet.
 |-----------------------------------|-------------------|-------|
 | BIGTREETECH Manta M5P             | MCU Tray | |
 | Wago 221-413                      | Main Body | 3-position, 4x mounts |
+| Mean Well RSP-200 Series          | PSU Tray | |
 
 ## Fixes
 
@@ -43,10 +44,12 @@ The current **beta** release is 0.9.11. No release date has been set yet.
 ## Documentation & Repository
 
 - [Documentation site](https://jon-harper.github.io/OmniBox)
-    - Nothing yet.
+    - Better tab styling
+    - Supported Hardware is now [Options & Support][support]
+    - Options & Support section is generated from a single file, simplifying updates.
+    - Upgrade guide is simpler and clearer.
 - [Repository](https://github.com/jon-harper/OmniBox)
     - Migrating to versioned panel and tray subfolders.
-
     
 ## Gallery
 
@@ -93,3 +96,4 @@ A freshly-printed PETG Rear Main Body.<br>Photo courtesy matrixsenpai.
 [6]: https://github.com/jon-harper/OmniBox/issues/111
 [7]: https://github.com/jon-harper/OmniBox/issues/102
 [8]: https://github.com/jon-harper/OmniBox/issues/62
+[support]: ../support/
