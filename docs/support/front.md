@@ -20,6 +20,15 @@ Front panels provide ventilation and can mount SD card extensions, USB connector
 </figcaption>
 </figure>
 
+Panels normally have one of three vent styles:
+<figure markdown>
+[![front panel illustration](../img/components/fp_styles.webp){width="480px"}](../img/components/fp_styles.webp)
+</figure>
+
+1. Hexagons (Left)
+2. Slots (Center)
+3. Angled Slats (Right)
+
 {% for comp in items -%}
 {{ format.comp_entry(comp, prefix=prefix) }}
 {% endfor %}

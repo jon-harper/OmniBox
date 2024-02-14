@@ -2119,7 +2119,7 @@ subassemblies:
     fan_cage_12025_screen: 1
     fan_gasket_120mm: 1
   assy_sd_card_ext:
-    shcs_m3_6: 2
+    shcs_m3_6: 4
     misc_sd_ext_body: 1
     misc_sd_ext_cap: 1
   assy_rocker_switch_cover:
@@ -2501,6 +2501,7 @@ components:
     comp_mw_rsp200:
       name: Mean Well RSP-200 Series
       template: psu_v2
+      img: img/components/comp_mw_rsp200.webp
       attributes:
         base_depth: 36mm
         switch: Any
@@ -2522,6 +2523,7 @@ components:
             hsi_m3_5od_4l: 4
     comp_mw_lrs350:
       name: Mean Well LRS-350 Series
+      img: img/components/comp_mw_lrs350.webp
       template: psu_v2
       attributes:
         base_depth: 36mm
@@ -2544,6 +2546,7 @@ components:
     comp_mw_lrs450:
       name: Mean Well LRS-450 Series
       template: psu_v2
+      img: img/components/comp_mw_lrs450.webp
       attributes:
         base_depth: 36mm
         switch: Rocker
@@ -2564,6 +2567,7 @@ components:
             hsi_m3_5od_4l: 4
     comp_mw_lrs600:
       name: Mean Well LRS-600 Series
+      img: img/components/comp_mw_lrs600.webp
       template: psu_v2
       attributes:
         base_depth: 42mm
@@ -2585,6 +2589,7 @@ components:
             hsi_m3_5od_4l: 4
     comp_mw_rsp500:
       name: Mean Well RSP-500 Series
+      img: img/components/comp_mw_rsp500.webp
       template: psu_v2
       attributes:
         base_depth: 42mm
@@ -2679,6 +2684,7 @@ components:
     comp_btt_tft35_e3:
       name: Bigtreetech 3.5" TFT E3
       template: display_v3
+      img: img/parts/btt_35tft_e3.webp
       attributes:
         display_type: MCU
       parts:
@@ -2691,6 +2697,7 @@ components:
     comp_btt_pi_tft5:
       name: Bigtreetech Pi TFT5.0
       template: display_v2
+      img: img/parts/btt_pitft_5.0.webp
       attributes:
         display_type: CPU
       parts:
@@ -3403,6 +3410,10 @@ components:
     comp_fp_blank:
       name: Blank
       template: fp_v1
+      img: img/components/comp_fp_blank.webp
+      note: |
+        This is an STL of the front panel template. Print in translucent/transparent PETG
+        and pair with LEDs for light effects (e.g. print status LEDs).
       variants:
         Stock:
           parts:
@@ -3410,6 +3421,7 @@ components:
     comp_fp_vent:
       name: Vent Only
       template: fp_v1
+      img: img/components/comp_fp_vent.webp
       attributes:
         vent: True
       variants:
@@ -3425,12 +3437,12 @@ components:
     comp_fp_sd:
       name: MicroSD Extension
       template: fp_v1
+      img: img/components/comp_fp_sd.webp
       attributes:
         vent: True
         mounts: MicroSD
       parts:
         assy_sd_card_ext: 1
-        shcs_m3_6: 2
       variants:
         Hexagons:
           parts:
@@ -3443,13 +3455,14 @@ components:
             panel_front_sd_slots: 1
     comp_fp_sd_usbb:
       name: MicroSD and USB B Extensions
+      img: img/components/comp_fp_sd_usbb.webp
       template: fp_v1
       attributes:
         vent: True
         mounts: MicroSD, USB B
       parts:
         assy_sd_card_ext: 1
-        shcs_m3_6: 4
+        shcs_m3_6: 2
         usb2_typeb_panel_mount: 1
       variants:
         Hexagons:
@@ -3464,12 +3477,13 @@ components:
     comp_fp_sd_usbc:
       name: MicroSD and USB C Extensions
       template: fp_v1
+      img: img/components/comp_fp_sd_usbc.webp
       attributes:
         vent: True
         mounts: MicroSD, USB C
       parts:
         assy_sd_card_ext: 1
-        shcs_m3_6: 4
+        shcs_m3_6: 2
         usbc_panel_mount: 1
       variants:
         Hexagons:
@@ -3481,6 +3495,27 @@ components:
         Slots:
           parts:
             panel_front_sd_usbc_slots: 1
+    comp_fp_sd_keystone:
+      name: MicroSD and Keystone Jack
+      template: fp_v1
+      note: |
+        Users will need to provide a keystone jack-compatible cable. This is not
+        included in the materials list.
+      attributes:
+        vent: True 
+        mounts: MicroSD, Keystone
+      parts:
+        assy_sd_card_ext: 1
+      variants:
+        Hexagons:
+          parts:
+            panel_front_sd_keystone_hex: 1
+        Slats:
+          parts:
+            panel_front_sd_keystone_slats: 1
+        Slots:
+          parts:
+            panel_front_sd_keystone_slots: 1
   Bottom Panel:
     comp_btm_front_v3:
       name: Front Half Panels
