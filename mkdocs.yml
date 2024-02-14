@@ -23,7 +23,6 @@ markdown_extensions:
         - include/bom_links.md
         - include/other_links.md
         - include/contrib_links.md
-        # - include/abbrev.md
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.emoji:
@@ -42,8 +41,6 @@ theme:
     - navigation.top
     - navigation.footer
     - content.tooltips
-  # icon:
-  #   annotation: material/arrow-right-circle
   font:
     text: Noto Sans
     code: Source Code Pro
@@ -100,9 +97,6 @@ extra:
     
 extra_css:
   - assets/stylesheets/extra.css
-
-# extra_javascript:
-#   - assets/js/bundlr.js
       
 nav:
   - index.md
@@ -162,6 +156,4 @@ nav:
       - history/v0.9.7.md
       - history/v0.9.5.md
       - history/v0.9.md
-  # - Testing:
-  #   - debug.md
   - sourcing.md
