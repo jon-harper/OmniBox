@@ -3107,6 +3107,7 @@ components:
     comp_side_blank_v2:
       name: Blank Side Panel
       template: side_v2
+      img: img/components/comp_side_blank_v2.webp
       variants:
         Stock:
           parts:
@@ -3128,6 +3129,7 @@ components:
     comp_side_40mm_v2:
       name: Internal 40mm Fan
       template: side_v2
+      img: img/components/comp_side_40mm_v2.webp
       attributes:
         fan: True
       parts:
@@ -3145,6 +3147,7 @@ components:
     comp_side_50mm_v2:
       name: Internal 50mm Fan
       template: side_v2
+      img: img/components/comp_side_50mm_v2.webp
       attributes:
         fan: True
       parts:
@@ -3162,6 +3165,7 @@ components:
     comp_side_keystone_v2:
       name: Keystone Jacks
       template: side_v2
+      img: img/components/comp_side_keystone_v2.webp
       attributes:
         mounts: Keystone Jacks
       variants:
@@ -3171,6 +3175,7 @@ components:
     comp_side_rj45_usb_ext_v2:
       name: RJ-45 and USB Panel Mounts
       template: side_v2
+      img: img/components/comp_side_rj45_usb_ext_v2.webp
       attributes:
         mounts: RJ-45, 2x USB B
       variants:
@@ -3517,63 +3522,70 @@ components:
           parts:
             panel_front_sd_keystone_slots: 1
   Bottom Panel:
-    comp_btm_front_v3:
-      name: Front Half Panels
+    comp_btm_blank_v3:
+      name: Blank/Closed Panels
       template: bottom_v3
-      attributes:
-        half: front
+      img: img/components/comp_btm_blank_v3.webp
       variants:
-        Blank/Closed:
-          parts:
+        Front:
+          attributes:
+            half: Front
+          parts:  
             panel_btm_blank_front_v3: 1
-        Hexagons:
+        Rear:
           attributes:
-            vent: True
-          parts:
-            panel_btm_hex_front_v3: 1
-        Mean Well Fan Exhaust:
-          attributes:
-            vent: True
-          parts:
-            panel_btm_mw_front_v3: 1
-    comp_btm_rear_v3:
-      name: Rear Half Panels
-      template: bottom_v3
-      attributes:
-        half: rear
-      variants:
-        Blank/Closed:
+            half: Rear
           parts:
             panel_btm_blank_rear_v3: 1
-        Hexagons:
+        Unified:
           attributes:
-            vent: True
-          parts:
-            panel_btm_hex_rear_v3: 1
-    comp_btm_unified_v3:
-      name: Unified Panels
-      template: bottom_v3
-      attributes:
-        half: unified
-      variants:
-        Blank/Closed:
+            half: Unified
           parts:
             panel_btm_blank_v3: 1
-        Hexagons:
+    comp_btm_hex_v3:
+      name: Hexagon Vent Panels
+      template: bottom_v3
+      img: img/components/comp_btm_hex_v3.webp
+      attributes:
+        vent: True
+      variants:
+        Front:
           attributes:
-            vent: True
+            half: Front
+          parts:  
+            panel_btm_hex_front_v3: 1
+        Rear:
+          attributes:
+            half: Rear
+          parts:
+            panel_btm_hex_rear_v3: 1
+        Unified:
+          attributes:
+            half: Unified
           parts:
             panel_btm_hex_v3: 1
-        Mean Well Fan Exhaust:
+    comp_btm_mw_v3:
+      name: Mean Well PSU Panels
+      template: bottom_v3
+      img: img/components/comp_btm_mw_v3.webp
+      attributes:
+        vent: True
+      variants:
+        Front:
           attributes:
-            vent: True
+            half: front
+          parts:
+            panel_btm_mw_front_v3: 1
+        Unified:
+          attributes:
+            half: Unified
           parts:
             panel_btm_mw_v3: 1
   Rear Panel:
     comp_rear_generic_no_fan:
       name: Generic (No Fan)
       template: rear_v2
-      # img: img/components/comp_rear_generic_no_fan.webp
+      img: img/components/comp_rear_generic_no_fan.webp
       variants:
         No USB:
           parts:
@@ -3594,6 +3606,7 @@ components:
     comp_rear_generic_60mm_fan:
       name: Generic with 60mm Fan
       template: rear_v2
+      img: img/components/comp_rear_generic_60mm_fan.webp
       attributes:
         fan: True
       parts:
@@ -3618,6 +3631,7 @@ components:
     comp_rear_generic_dual_60mm_fan:
       name: Generic with Dual 60mm Fans
       template: rear_v3
+      img: img/components/comp_rear_generic_dual_60mm_fan.webp
       attributes:
         fan: True
       parts:
