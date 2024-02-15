@@ -11,12 +11,12 @@ comp_type: Rear Panel
 
 {% set items = product.sortEntries(product.filterComponents(comp_type).values()) -%}
 
-This page lists all side panels for OmniBox.
+The rear panel is highly customizable with the [Rear Panel Template](../upgrade/templates.md#rear-panel).
 
 <figure markdown>
 [![rear panel illustration](../img/components/rear.webp){width="480px"}](../img/components/rear.webp)
 <figcaption markdown>
-Rear panels serve many purposes.
+In addition to acting as a wiring passthru for your printer, rear panels are a major ventilation source.
 </figcaption>
 </figure>
 
