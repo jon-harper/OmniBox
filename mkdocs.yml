@@ -110,7 +110,9 @@ nav:
     - support/index.md
     - support/panel_mounts.md
     - support/fans.md
-    - support/core.md
+    - Core:
+      - support/base.md
+      - support/main_body.md
     - Trays:
       - support/mcu.md
       - support/cpu.md
