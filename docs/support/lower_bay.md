@@ -11,9 +11,9 @@ comp_type: Lower Bay
 
 {% set items = product.sortEntries(product.filterComponents(comp_type).values()) -%}
 
-Lower Bay Trays may be Short or Long. A Long tray covers the mount points of two Short trays and must be mounted from side-to-side in the case.
-
-Every tray (short or long) attaches to the Core case body with four (4) M3 x 6mm screws. Additional materials are listed with each part.
+Lower Bay Trays may be Short or Long. A Long tray covers the mount points of two Short trays and must be mounted
+from side-to-side in the case. There are two dedicated lower bay trays locations and four more that can occupy
+an unused CPU tray bay.
 
 <figure markdown>
   [![img][img_lower_bay]{ width="480" }][img_lower_bay]

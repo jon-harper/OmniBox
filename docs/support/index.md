@@ -162,39 +162,44 @@ These badges list the types of panel mounts available on a given part.
 </div>
 </div>
 
-## Component Types
+## Support Sections
+
+### General
+
+| Topic | Description |
+|-------|-------------|
+| [Panel Mounts][panel_mounts] | Supported types of panel-mounted connectors. |
+| [Fans][fans] | Types of fans with internal or external mounts. |
+
+### Core
+
+| Component | Description |
+|-----------|-------------|
+| [Base][base] | Mounts the power supply and bottom panel(s); acts as a foundation for the Main Body. |
+| [Main Body][main_body] | Mounts most trays and panels; serves as the heart of the case. |
 
 ### Trays
 
-<figure markdown>
-  [![the three types of trays][img_trays]{ width="640" }][img_trays]
-  <figcaption>The four types of trays: MCU, CPU, PSU, and lower bay.</figcaption>
-</figure>
-
-Trays mount electronics most of your case's electronics.
-
-- [MCUs][mcu] are mounted directly underneath the lid for easy access.
-- [CPUs][cpu] sit on trays that can slide out from the side of the case.
-- [Power supplies (PSUs)][psu] are inserted from below as part of the Base.
-- [Lower Bay Trays][lower_bay] occupy the middle of the case and are used for miscellaneous parts (e.g., solid state relays, buck converters).
+| Tray Type | Description |
+|-----------|-------------|
+| [MCU Trays][mcu] | MCUs are mounted directly underneath the lid for easy access. |
+| [CPU Trays][cpu] | Trays with an integrated panel; can slide out from the side of the case. |
+| [PSU Trays][psu] | Power supplies are inserted from below as part of the Base. |
+| [Lower Bay Trays][lower_bay] | Mount other miscellaneous parts (e.g., solid state relays, buck converters). |
 
 ### Panels
 
-Panels form the exterior of your case. These mount displays, [fans][fans], and [panel-mounted connector extensions][panel_mounts] like USB ports and 
-SD card readers. Lids can be put to a wide variety of uses, as well.
+| Panel Type | Description |
+|------------|-------------|
+| [Display Panels][display] | Mount LCD and TFT displays. |
+| [Bottom Panels][bottom]   | Protect the PSU and allow airflow, if needed. |
+| [Front Panels][front]     | User-facing panel for small ports and lights. |
+| [Lids][lid]               | Serve many purposes, including mounting large fans and/or a handle. |
+| [Rear Panels][rear]       | Pass-through wiring to your printer and can mount medium-sized fans. |
+| [Side Panels][side]       | Act as air inlets and connector panels. |\
 
-<figure markdown>
-  [![external panels][img_panels]{ width="640" }][img_panels]
-  <figcaption>Panels cover the outside of the case.</figcaption>
-</figure>
-
-- [Display Panels][display] mount LCD and TFT displays.
-- [Bottom Panels][bottom] protect the PSU and allow airflow, if needed.
-- [Front Panels][front] are a user-facing panel for MicroSD, USB ports, or even LED lights.
-- [Lids][lid] serve many purposes, including mounting large fans and/or a handle.
-- [Rear Panels][rear] pass-through wiring to your printer and can mount medium-sized fines.
-- [Side Panels][side] are convenient air inlets and connector panels.
-
+[base]: base.md
+[main_body]: main_body.md
 [panel_mounts]: panel_mounts.md
 [cpu]: cpu.md
 [mcu]: mcu.md
