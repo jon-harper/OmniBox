@@ -25,12 +25,12 @@ Below are explanations of the information you'll find in the Options & Support s
 
 ## Fit Testing
 
-Before a component (such as a tray or panel) is merged into the `main` branch, it has to be tested. Parts
-that are waiting for fit testing are marked like so:
+Before a part is merged into the `main` branch, it has to be tested. Parts
+that are waiting for fit testing are marked like this:
 
 !!! caution "Fit Test Pending: Issue #NNN"
 
-If you print one of these parts, please report your results! There is usually an open [:material-git: issue on GitHub][git_issues] for that hardware component.
+"#NNN" is a link to the open fit test issue on GitHub. If you print a part waiting for fit testing, please report your results!
 
 ## Badges
 
@@ -66,7 +66,7 @@ interchangeable, unlike Short parts. Applies to Base, Main Bodies, and Bottom Pa
 
 {{ badges.hsi() }}
 
-Indicates a component or variant requires heat set inserts.
+Indicates a part requires heat set inserts.
 </div>
 </div>
 
@@ -105,7 +105,7 @@ See the [Templates][templates] page for more.
 
 {{ badges.version('part_version')}}
 
-The current revision of a part. Part versions are are imprinted on newer components.
+The current revision of a part, if applicable.
 </div>
 </div>
 
@@ -124,8 +124,8 @@ Identifies the type of power switch(es) compatible with a given power supply or 
 
 {{ badges.base_depth('36mm')}}
 
-Either 36 or 42mm. For a base, this is the available depth for mounting a power supply. For a PSU, indicates the
-depth required.
+For a base, this is the available depth for mounting a power supply. For a PSU, indicates the
+depth required. Must be either 36 or 42mm.
 </div>
 <div markdown class="card">
 **IEC**
@@ -174,13 +174,13 @@ These badges list the types of panel mounts available on a given part.
 Trays mount electronics most of your case's electronics.
 
 - [MCUs][mcu] are mounted directly underneath the lid for easy access.
-- [CPUs][cpu] sit on trays that can slide out the side of the case.
-- [Power supplies (PSUs)][psu] are inserted from below.
-- [Lower Bay Trays][lower_bay] are used for parts such as buck converters and solid state relays. These occupy the middle of the case.
+- [CPUs][cpu] sit on trays that can slide out from the side of the case.
+- [Power supplies (PSUs)][psu] are inserted from below as part of the Base.
+- [Lower Bay Trays][lower_bay] occupy the middle of the case and are used for miscellaneous parts (e.g., solid state relays, buck converters).
 
 ### Panels
 
-Panels are generally used for displays, [fans][fans], and [panel-mounted connector extensions][panel_mounts] like USB ports and 
+Panels form the exterior of your case. These mount displays, [fans][fans], and [panel-mounted connector extensions][panel_mounts] like USB ports and 
 SD card readers. Lids can be put to a wide variety of uses, as well.
 
 <figure markdown>
