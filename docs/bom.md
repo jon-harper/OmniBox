@@ -7,11 +7,8 @@ date: 2022-05-15
 
 The Universal Bill of Materials is a base list common to all builds. Additional components (including fasteners) are listed separately below.
 
-- There are no affiliate links used on this site.
-- The :material-cart: shopping cart icon indicates an external link to a shopping website.
-- These links are not an endorsement and are for reference only.
 - The design allows for longer-than-specified screws in many locations. The [assembly guide][assembly] notes where substitutions can be made.
-- Wiring is only specified for the IEC power socket, power switch, and power supply. Additional wiring and fusing considerations are configuration-specific.
+- Wiring is specified for a configuration including an IEC power socket, power switch, and power supply. Additional wiring and fusing considerations are configuration-specific.
 
 ## Universal Bill of Materials
 
@@ -56,9 +53,7 @@ All sourcing links are for SHCS.
 
 #### HSI Builds
 
-Cases with heat set inserts (HSI) use shorter fasteners in many locations.
 
-If using HSIs, an [:material-cart: M3 soldering iron tip for heat set inserts][bom_hsi_tips] is recommended.
 
 #### Fastener BOM
 
@@ -184,14 +179,14 @@ Panel mounts are a way of providing external connectors to internal parts, such 
 
 ### MicroSD Reader Extensions
 
-Each MCU tray on the [MCU support page](support/mcu.md) has a field for whether a short or long MicroSD card reader extension is necessary (if using one for the front panel).
+Each MCU tray on the [MCU support page][support_mcu] has a field for whether a short or long MicroSD card reader extension is necessary (if using one for the front panel).
 
 - Short: [:material-cart: LANMU MicroSD Card Reader Extension][bom_lanmu_micro_sd]
 - Long: [:material-cart: ELECTOP MicroSD Card Reader Extension][bom_electop_micro_sd]
 
 [support]:          support/index.md    "Overview of supported parts"
 [psu]:              support/psu.md      "List of supported PSUs"
-[suport_mcu]:       support/mcu.md      "List of supported MCUs"
+[support_mcu]:       support/mcu.md      "List of supported MCUs"
 [support_cpu]:      support/cpu.md      "List of supported SoC CPUs"
 [lower_bay]:        support/lower_bay.md "List of supported lower bay components"
 [panel_mount]:      support/panel_mounts.md "Panel mount overview"

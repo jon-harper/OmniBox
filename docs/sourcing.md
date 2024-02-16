@@ -7,6 +7,9 @@ date: 2023-11-30
 
 This page lists sources for (ideally all) parts used with OmniBox.
 
+!!! note
+    There are no affiliate links on this page. These links are not an endorsement.
+
 {% import 'format.md' as fmt with context %}
 
 {% for part_type in product.part_types | sort -%}
