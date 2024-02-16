@@ -21,7 +21,7 @@ piece; the BOM lists all printed pieces necessary and a download link.
 The layout of this documentation is standardized, and most sections are organized by the name of the electronic component
 a part is designed to mount.
 
-Below are explanations of the information you'll find in the Options & Support section.
+Below are explanations of the information you'll find in each part entry.
 
 ## Fit Testing
 
@@ -58,8 +58,8 @@ Indicates a part is a single piece that replaces front and rear halves. Unified 
 
 <div markdown> {{ badges.front() }} {{ badges.rear() }} </div>
 
-Front and Rear parts can be printed in place of a Unified part. Front and Rear parts are not
-interchangeable, unlike Short parts. Applies to Base, Main Bodies, and Bottom Panels.
+Front and Rear parts can be printed in place of a Unified part. Unlike Short parts, Front and Rear parts
+are not interchangeable. This badge applies to Bases, Main Bodies, and Bottom Panels.
 </div>
 <div markdown class="card">
 **Heat Set Insert**
@@ -115,24 +115,24 @@ The current revision of a part, if applicable.
 <div markdown class="card">
 **Switch**
 
-{{ badges.switch('Rocker')}}
+<div markdown>{{ badges.switch('Rocker')}} {{ badges.switch('Toggle')}} {{ badges.switch('None')}}</div>
 
 Identifies the type of power switch(es) compatible with a given power supply or base.
 </div>
 <div markdown class="card">
 **Depth**
 
-{{ badges.base_depth('36mm')}}
+<div markdown>{{ badges.base_depth('36mm')}} {{ badges.base_depth('42mm') }}</div>
 
 For a base, this is the available depth for mounting a power supply. For a PSU, indicates the
-depth required. Must be either 36 or 42mm.
+depth required.
 </div>
 <div markdown class="card">
-**IEC**
+**IEC C14**
 
-{{ badges.no_iec() }}
+<div markdown>{{ badges.iec(False) }} {{ badges.iec(True) }} </div>
 
-This is only used for Bases that do *not* mount an IEC power inlet.
+These badges indicate if a Base mounts an IEC C14 power inlet.
 </div>
 </div>
 
