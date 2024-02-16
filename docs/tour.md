@@ -9,7 +9,7 @@ date: 2022-08-04
 
 ## Introduction
 
-This is a visual tour of an OmniBox to demonstrate the Core parts, Trays, Panels, and how they all fit together.
+This is a short tour of an OmniBox to demonstrate the Core parts, Trays, Panels, and how they all fit together.
 
 <figure markdown>
   [![overview of an omnibox][img_overview]][img_overview]{ width="640" }
@@ -70,11 +70,11 @@ options.
   <figcaption>The four types of trays: MCU, CPU, PSU, and lower bay.</figcaption>
 </figure>
 
-Trays mount electronics most of your case's electronics.
+Trays mount most of your case's electronics.
 
-- [:octicons-checklist-24: MCUs][mcu] are mounted directly underneath the lid for easy access.
-- [:octicons-checklist-24: CPUs][cpu] sit on trays that can slide out from the side of the case.
-- [:octicons-checklist-24: Power supplies (PSUs)][psu] are inserted from below as part of the Base.
+- [:octicons-checklist-24: MCU Trays][mcu] are mounted directly underneath the lid for easy access.
+- [:octicons-checklist-24: CPU Trays][cpu] have a small exterior panel and fit in the side of the case.
+- [:octicons-checklist-24: PSU Trays][psu] mount power supplies and are inserted from below the Base.
 - [:octicons-checklist-24: Lower Bay Trays][lower_bay] occupy the middle of the case and are used for miscellaneous parts (e.g., solid state relays, buck converters).
 
 ## Panels
@@ -92,7 +92,7 @@ SD card readers. Lids can be put to a wide variety of uses, as well.
 - [:octicons-checklist-24: Front Panels][front_panels] are a user-facing panel for MicroSD, USB ports, or even LED lights.
 - [:octicons-checklist-24: Lids][lids] serve many purposes, including mounting large fans and/or a handle.
 - [:octicons-checklist-24: Rear Panels][rear_panels] pass-through wiring to your printer and can mount medium-sized fines.
-- [:octicons-checklist-24: Side Panels][side_panels] are convenient air inlets and connector panels.
+- [:octicons-checklist-24: Side Panels][side_panels] are convenient air inlets and connector pan els.
 
 ## Other Components
 
