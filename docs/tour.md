@@ -18,18 +18,18 @@ This is a visual tour of an OmniBox to demonstrate the Core parts, Trays, Panels
 
 The configuration in the image above will be our example in this guide. We will start with the Core components and move on to the trays and panels that make OmniBox so modular. 
 
-### Links
+!!! note "About Links"
+    Links on this site to external resources have prefix icons to identify what they do:
 
-Links on this site to external resources have prefix icons to identify what they do:
+    - :material-git: The git icon is used for download links.
+    - :octicons-checklist-24: The list icon is for links to the [Options & Support][support] section.
+    - :material-cart: A shopping cart identifies a link to the [Sourcing Guide][sourcing].
 
-- :material-git: The git icon is used for download links.
-- :octicons-checklist-24: The list icon is for links to the [Options & Support][support] section.
-- :material-cart: A shopping cart identifies a link to the [Sourcing Guide][sourcing].
+!!! note "Heat Set Inserts"
+    Many OmniBox components come with the option of using heat set inserts to attach other parts. These `STL`
+    files have names ending in `HSI`. Files ending with `Stock` in the name do not need inserts.
 
-### Heat Set Inserts
-
-Many OmniBox components come with the option of using heat set inserts to attach other parts. These `STL`
-files have names ending in `HSI`. Files ending with `Stock` in the name do not need inserts.
+    If using HSIs, an [:material-cart: M3 soldering iron tip for heat set inserts][bom_hsi_tips] is recommended.
 
 ## Core Components
 
@@ -46,17 +46,22 @@ that are then assembled. Users with large (>315mm) beds can print Unified versio
 
 ### Main Body
 
-Most major components are attached to the Main Body as panels or installed inside of it as trays.
+Most electronics are attached to the Main Body (as panels) or installed inside (as trays).
 
-The Main Body contains dozens of zip tie anchors for wire routing, as well as four wall mounts for 3-position Wago 221
+The Main Body contains dozens of zip tie anchors for wire routing, as well as built-in wall mounts for 3-position Wago 221
 lever connectors.
+
+[:octicons-checklist-24: Main Bodies][main_body]{.md-button}
 
 ### Base
 
-The Base serves as a cover and mount for the power supply. It helps with wire routing and acts as a foundation
-for the Main Body.
+The Base is a cover and mount for the power supply, as well as a foundation for the Main Body.
 
-The Base can be printed in a 36mm or 42mm deep version--this number refers to the depth availabe for the PSU.
+The Base can be printed in a 36mm or 42mm deep version--this number refers to the depth availabe for the PSU. The
+Base is typically printed with a cutout for an IEC power inlet. It can also be printed with one of two power switch
+options.
+
+[:octicons-checklist-24: Bases][base]{.md-button}
 
 ## Trays
 
@@ -93,18 +98,11 @@ SD card readers. Lids can be put to a wide variety of uses, as well.
 
 ### Fans
 
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-Externally mounted fans use fan cages to cover the fan blades. There are a large number of fan sizes supported, each with a matching TPU fan gasket. The gaskets are optional and serve to reduce noise.
+Fans can be mounted internally or externally. External fans have printed cages to protect the fan blades, along with optional TPU gaskets.
 
-Internal mounts for 40 and 50mm fans are available.
+Internal mounts are available for 40 and 50mm fans. These are generally used with [Side Panels][side_panels].
 
 [:octicons-checklist-24: Fans][fans]{ .md-button }
-</div>
-<div markdown class="jh-grid-img">
-[![external fan cages][img_fans]][img_fans]
-</div>
-</div>
 
 [panel_mounts]:  support/panel_mounts.md
 [fans]:  support/fans.md
@@ -121,6 +119,8 @@ Internal mounts for 40 and 50mm fans are available.
 [side_panels]: support/side.md
 [lids]: support/lid.md
 [bottom_panels]: support/bottom.md
+[main_body]: support/main_body.md
+[base]: support/base.md
 
 [img_overview]: img/components/overview.webp
 [img_core]: img/components/core.webp

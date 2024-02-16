@@ -27,8 +27,8 @@ page for more.
 
 ### IEC C14 Power Socket
 
-Power is provided through a standard fused IEC C14 power socket. For users with different
-power inlet needs (or who wish for an integrated power switch), a Base is available with an IEC socket cutout.
+Power is provided through a standard fused IEC C14 power socket. The Basic base is available for users with different
+power inlet needs (e.g. a power inlet with integrated switch).
 
 ## Bases
 
