@@ -8,9 +8,14 @@ prefix: ../
 
 {% import 'format.md' as format with context %}
 
-This page lists all Core component configurations for OmniBox.
+This page lists all Main Body configurations for OmniBox.
 
-## Main Body
+<figure markdown>
+[![OmniBox main body](../img/components/main_body.webp){ width="480px" }](../img/components/main_body.webp)
+<figcaption markdown>
+Most trays and panels attach to the Main Body.
+</figcaption>
+</figure>
 
 {% set comp_type='Main Body' -%}
 
