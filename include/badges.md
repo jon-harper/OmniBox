@@ -35,8 +35,12 @@
 {{ make_badge(':material-power:', 'Compatible power switch type(s)', txt=txt) }}
 {%- endmacro -%}
 
-{%- macro no_iec() -%}
+{%- macro iec(value) -%}
+{%- if value -%}
+{{ make_badge(':material-power-plug:', 'This component provides an IEC C14 power socket.') }}
+{%- else -%}
 {{ make_badge(':material-power-plug-off-outline:', 'This component does not provide an IEC power socket.') }}
+{%- endif -%}
 {%- endmacro -%}
 
 {%- macro display(txt) -%}
@@ -136,6 +140,11 @@
 {{ extension(variant.attributes['mounts']) }}
 {%- elif 'mounts' in ckeys -%}
 {{ extension(comp.attributes['mounts']) }}
+{%- endif -%}
+{%- if 'iec' in ckeys -%}
+{{ iec(comp.attributes['iec']) }}
+{%- elif 'iec' in vkeys -%}
+{{ iec(variant.attributes['iec']) }}
 {%- endif -%}
 {%- if 'vent' in  ckeys or 'vent' in vkeys -%}
 {{ vent() }}
