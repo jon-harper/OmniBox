@@ -7,9 +7,13 @@ hide: toc
 ---
 # OmniBox v{{ extra.meta.version }}
 
-<figure markdown>
+<figure markdown class="jh-cover-img">
   [![gallery of OmniBox part combinations][gallery_thumb]][gallery]
 </figure>
+
+!!! warning "Beta Release"
+    The documentation for this release is a work in progress. Some sections may be out of date,
+    incomplete, or missing entirely.
 
 ## About OmniBox
 
@@ -29,7 +33,7 @@ This project is loosely derived from Steve Burcham's [Stand Alone Main Control C
 ### Getting Started
 
 <div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
-[:material-television-guide: Visual Guided Tour][tour]
+[:material-television-guide: Tour of OmniBox][tour]
 [:octicons-list-ordered-24: Bill of Materials][bom]
 [:octicons-checklist-24: Supported Products][support]
 </div>
@@ -49,6 +53,14 @@ This project is loosely derived from Steve Burcham's [Stand Alone Main Control C
 <div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
 [:simple-discord: Discord Server][discord]
 [:simple-github: GitHub Discussions][git_discussions]
+</div>
+</div>
+<div markdown class="card">
+### Support OmniBox
+
+<div markdown class="jh-grid-container jh-grid-1 jh-link-grid">
+[:material-text-box: License & Contributing][license]
+[:simple-kofi: Buy me a coffee](https://ko-fi.com/jonspaceharper)
 </div>
 </div>
 </div>
