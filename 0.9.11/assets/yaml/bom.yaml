@@ -626,8 +626,9 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/GDSTIME-Bearings-Brushless-Cooling-Exhaust/dp/B00N1Y4BMA"
-    
+  ###  
   Connector Extension:
+  ###
     microsd_ext_short:
       name: MicroSD Extension, 15cm
       sources:
@@ -707,7 +708,9 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B0CHVWTVKH"
           note: 2pcs
+  ###
   Switch:
+  ###
     switch_rocker:
       name: SPST Rocker Switch, 29mm x 10.5mm Panel Mount
       img: img/parts/switch_rocker.webp
@@ -724,8 +727,9 @@ parts:
           url: "https://www.aliexpress.us/item/3256805005450780.html"
         amazon_us:
           url: "https://www.amazon.com/Gardner-Bender-GSW-121-Heavy-Duty-Electrical/dp/B000HEIY1Q"
-
+  ###
   Filament:
+  ###
     filament_pla_plus:
       name: PLA+/PLA Pro Filament, 1kg
       units: kg
@@ -752,7 +756,10 @@ parts:
         3do:
           url: "https://3do.eu/filament/1043-1446-3do-petg-20-matt-1kg-grey.html#/84-colour-grey"
           note: 3DO PETG 2.0 Matte, Grey
+  
+  ###
   Electrical Connector:
+  ###
     conn_f_spade_14-16:
       name: Insulated Spade Connector, Female, 14-16 awg
       img: img/parts/conn_f_spade_14-16.webp
@@ -814,7 +821,9 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/Connector-Housing-Adapter-Terminal-Connectors/dp/B0BZDCGJ32"
           note: 2-6 Position
+  ###
   Other Electrical:
+  ###
     wire_16awg:
       name: Stranded Hookup Wire, 16 awg/1.25mm^2^
       img: img/parts/wire_16awg.webp
@@ -1290,8 +1299,8 @@ parts:
       file: /Panels/Side Panel/V2/Blank/Side Panel V2 - Blank.stl
       template: side_v2
     panel_side_40mm_omnibox_v2:
-      name: Side Panel - 40mm Fan - OmniBox Logo.step
-      file: /Panels/Side Panel/V2/40mm Fan - Internal/Side Panel - 40mm Fan - OmniBox Logo.step
+      name: Side Panel - 40mm Fan - OmniBox Logo.stl
+      file: /Panels/Side Panel/V2/40mm Fan - Internal/Side Panel - 40mm Fan - OmniBox Logo.stl
       template: side_v2
     panel_side_40mm_omnibox_v2_hsi:
       name: Side Panel - 40mm Fan - OmniBox Logo - HSI.stl
