@@ -100,12 +100,14 @@ extra_css:
       
 nav:
   - index.md
+  - tour.md
   - development.md
   - license.md
-  - Getting Started:
-    - tour.md
+  - Sourcing & Printing:
     - bom.md
     - printing.md
+    - checklist.md
+    - sourcing.md
   - Options & Support:
     - support/index.md
     - support/panel_mounts.md
@@ -125,7 +127,7 @@ nav:
       - support/rear.md
       - support/side.md
       - support/bottom.md
-  - Assembly Guide:
+  - Assembly:
     - assembly/index.md
     # - Heat Set Inserts (HSI):
     #   - assembly/hsi_tips.md
@@ -145,7 +147,7 @@ nav:
     #   - assembly/rear.md
     #   - assembly/display.md
     #   - assembly/bottom_lid.md
-  - Upgrade Guide:
+  - Upgrading:
     - upgrade/index.md
     - upgrade/templates.md
   - Version History:
@@ -158,4 +160,3 @@ nav:
       - history/v0.9.7.md
       - history/v0.9.5.md
       - history/v0.9.md
-  - sourcing.md
