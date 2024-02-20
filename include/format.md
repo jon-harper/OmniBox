@@ -67,7 +67,7 @@
 {{indent}}</div></div>
 {{indent}}:octicons-pencil-24: **Materials**
 {{indent}}
-{{ make_indented(bom_table(v, prefix=prefix), indent) }}
+{{ make_indented(bom_table(v.parts, prefix=prefix), indent) }}
 {{ make_indented(add_hsi_info(v, "200px", prefix), indent)}}
 {%- endfor -%}
 {%- else -%} {# comp.variants | count > 1 #}
@@ -92,7 +92,7 @@
 
 :octicons-pencil-24: **Materials**
 
-{{ bom_table(v, prefix=prefix) }}
+{{ bom_table(v.parts, prefix=prefix) }}
 {{ add_hsi_info(v, "200px", prefix) }}
 {% endif -%} {# comp.variants | count > 1 #}
 
@@ -111,25 +111,23 @@
 {% endif -%}
 {% endmacro -%}
 
-{% macro bom_table(variant, prefix='') -%}
+{%- macro bom_table(parts, prefix='') -%}
 | Type | Part | Qty |
 |------|------|-----|
-{% if variant.parts -%}
-{% for part_id, qty in variant.parts.items()-%}
-{% set part = product.partFromId(part_id) -%}
-{% set link = part_link(part_id, part, prefix=prefix) -%}
-{% if part.part_type == 'Printed' -%}
+{% for part_id, qty in parts.items()-%}
+{%- set part = product.partFromId(part_id) -%}
+{%- set link = part_link(part_id, part=part, prefix=prefix) -%}
+{%- if part.part_type == 'Printed' -%}
 |:material-printer-3d-nozzle: {{part.part_type}}|{{link}}|{{qty}} {{part.units}}|
 {% else -%}
 |{{part.part_type}}|{{link}}|{{qty}} {{part.units}}|
 {% endif -%}
-{% endfor -%}
-{% endif %}
-{% endmacro -%}
+{%- endfor -%}
+{%- endmacro -%}
 
 {# I hate the way this macro is written, but a more concise version has newlines. #}
 {# Spoiler alert: still hate it. #}
-{% macro part_link(part_id, part = None, prefix = '', url_text=None) -%}
+{% macro part_link(part_id, prefix = '', url_text=None, part = None) -%}
 {% if not part -%}
 {% set part = product.partFromId(part_id=part_id) -%}
 {% endif -%}
@@ -155,3 +153,4 @@
 {% endif -%}
 [{{icon}} {{url_text}}]({{url}} "{{tooltip}}"){% endif -%}
 {% endmacro -%}
+

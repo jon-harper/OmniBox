@@ -102,3 +102,23 @@ class Product:
     
     def sortKeyEntries(self, values : list[tuple]) -> list[tuple]:
         return sorted(values, key=lambda v: v[1].name)
+    
+    def componentFromId(self, comp_id) -> bom.Component:
+        return self.components.get(comp_id)
+    
+    def joinMaterials(self, comp_ids : list[bom.ComponentId]) -> bom.MaterialsData:
+        """
+        Takes a list of ComponentIds and returns a MaterialsData instance
+        with the resulting, combined BOM.
+        """
+        ret = bom.MaterialsData()
+        for comp_id in comp_ids:
+            comp = self.componentFromId(comp_id.name)
+            if not comp:
+                continue
+            for part_id, qty in comp.variants[comp_id.variant].parts.items():
+                if part_id in ret:
+                    ret[part_id] += qty
+                else:
+                    ret[part_id] = qty
+        return ret

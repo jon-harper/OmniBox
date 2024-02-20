@@ -99,3 +99,41 @@ def define_env(env):
         if 'hsi' in ckeys or 'hsi' in vkeys:
             ret += badge.hsi_badge()
         return ret
+    
+    @env.macro
+    def materialsFromYamlComponentList(raw : list[dict]) -> bom.MaterialsData:
+        """
+        Takes a simple YAML dictionary object, `raw` in the form:
+          - comp_name: 0
+          - comp2_name: 1
+          - [...]
+        where the key is a string (the component key) and the value 
+        is an int (the index of the variant's definition, zero-based).
+
+        The return value is a compiled MaterialsData.
+        """
+        
+        components : list[bom.ComponentId] = []
+        for line in raw:
+            for key, value in line.items():
+                components.append(bom.ComponentId(name=key, variant=value))
+        return product.joinMaterials(components)
+    
+    @env.macro
+    def splitPrintedMaterials(materials : bom.MaterialsData, 
+                              printed_str : str = 'Printed') -> tuple[bom.MaterialsData, bom.MaterialsData]:
+        """
+        Splits a MaterialsData object into two lists of unprinted parts and printed parts, using
+        `printed_str` as a key against the `Part.part_type` field.
+        """
+        printed : bom.MaterialsData = {}
+        normal : bom.MaterialsData = {}
+        for part_id, qty in materials.items():
+            part = product.partFromId(part_id)
+            if not part:
+                continue
+            elif part.part_type == printed_str:
+                printed[part_id] = qty
+            else:
+                normal[part_id] = qty
+        return (normal, printed)
