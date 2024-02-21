@@ -7,7 +7,8 @@ date: 2022-11-25
 
 ## Time
 
-Installation time varies by experience; typically this is between 15 to 45 minutes. The "Full HSI" build has significantly more inserts than the regular HSI build and requires additional time.
+Installation time varies by experience; typically this is between 15 to 45 minutes. The "Full HSI" build has more inserts than the regular HSI build
+and requires an addition 5 to 10 minutes.
 
 ## Additional Materials
 
@@ -17,9 +18,11 @@ Installation time varies by experience; typically this is between 15 to 45 minut
 
 ### Practice Block
 
-If you are using inserts for the first time, print at least one [:material-git: practice block][git_hsi_practice]. Experience with inserts saves time and lowers the chances of printed part damage.
+If you are using inserts for the first time, print at least one [:material-git: practice block][git_hsi_practice]. Experience with inserts
+saves time and lowers the chances of damaging printed parts.
 
-These blocks have holes in two orientations: flat and set at a 50 degree angle. The holes are identical in shape to those used in the case. Practice putting inserts in both types of holes until comfortable with the procedure.
+These blocks have holes in two orientations: flat and set at a 50 degree angle. The holes are identical in shape to those used in the case.
+Practice putting inserts in both types of holes until comfortable with the procedure.
 
 ## Procedure
 
@@ -36,18 +39,19 @@ These blocks have holes in two orientations: flat and set at a 50 degree angle. 
     These inserts have a rounded lip on one side. This end "sits" in the hole and maintains alignment with the hole during heating and insertion.
 
 !!! tip
-    The insert holes have a slight inward slope. Resistance will gradually increase as the insert slides in place. Resistance greatly increases when the insert deviates from the hole.
+    The insert holes have a slight inward slope. Resistance will gradually increase as the insert slides in place. Resistance greatly increases
+    when the insert deviates from the hole.
 
 !!! caution
     Installing an insert leaves both the insert and surrounding plastic hot for several minutes.
 
     Avoid touching areas of the case around an insert until it has cooled.
 
-1. Pre-set an insert into the hole using your fingers or needle-nosed pliers. It drop in until it reaches the first set of knurles (or pop in place with some pressure).
-2. Place the tip of the soldering iron on the insert. Do not apply pressure yet.
-3. As the insert heats, it will soften the plastic around it. Apply gentle pressure with the iron.
+1. Pre-set an insert into the hole using your fingers or needle-nosed pliers. It should fit in to the first set of knurles (or pop in place with some pressure).
+2. Place the tip of the soldering iron on the insert. Allow it to heat the insert for one (1) to two (2) seconds.
+3. Apply gentle pressure with the iron. The plastic should behave like a tacky fluid.
 4. Let the shape of the hole guide the insert.
-5. Once the insert is flush or slightly below the surface, remove the iron.
+5. Stop and remove the iron once the insert is flush or slightly below the surface.
 6. Check if the insert is off-center by looking for gaps around the edges. The plastic should be evenly melted around the insert.
 7. If the insert needs adjustment, gently use fine tweezers or an M3 x 20mm screw to straighten it (while still hot). See below if the insert cools.
 
