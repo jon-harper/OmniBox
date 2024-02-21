@@ -2161,9 +2161,9 @@ subassemblies:
     wire_16awg: 30
     fuse_5x20: 1
   assy_base_front_rear:
-    shcs_m3_12: 4
+    shcs_m3_10: 4
   assy_base_front_rear_hsi:
-    shcs_m3_12: 4
+    shcs_m3_8: 4
     hsi_m3_5od_4l: 4
   assy_base_common_stock:
     shcs_m3_6: 8
@@ -2187,6 +2187,11 @@ subassemblies:
     hsi_m3_5od_4l: 46
   assy_full_hsi:
     hsi_m3_5od_4l: 24
+  assy_psu_stock:
+    shcs_m3_16: 4
+  assy_psu_hsi:
+    shcs_m3_12: 4
+    hsi_m3_5od_4l: 4
 components:
   ###
   MCU:
@@ -2523,13 +2528,14 @@ components:
           parts:
             tray_mw_rsp200_v2_l: 1
             tray_mw_rsp200_v2_r: 1
+            assy_psu_stock: 1
         HSI:
           attributes:
             HSI: True
           parts:
             tray_mw_rsp200_v2_l_hsi: 1
             tray_mw_rsp200_v2_r_hsi: 1
-            hsi_m3_5od_4l: 4
+            assy_psu_hsi: 1
     comp_mw_lrs350:
       name: Mean Well LRS-350 Series
       img: img/components/comp_mw_lrs350.webp
@@ -2545,13 +2551,14 @@ components:
           parts:
             tray_mw_lrs350_v2_l: 1
             tray_mw_lrs350_v2_r: 1
+            assy_psu_stock : 1
         HSI:
           attributes:
             hsi: True
           parts:
             tray_mw_lrs350_v2_l_hsi: 1
             tray_mw_lrs350_v2_r_hsi: 1
-            hsi_m3_5od_4l: 4
+            assy_psu_hsi: 1
     comp_mw_lrs450:
       name: Mean Well LRS-450 Series
       template: psu_v2
@@ -2567,13 +2574,14 @@ components:
           parts:
             tray_mw_lrs450_v2_l: 1
             tray_mw_lrs450_v2_r: 1
+            assy_psu_stock : 1
         HSI:
           attributes:
             hsi: True
           parts:
             tray_mw_lrs450_v2_l_hsi: 1
             tray_mw_lrs450_v2_r_hsi: 1
-            hsi_m3_5od_4l: 4
+            assy_psu_hsi: 1
     comp_mw_lrs600:
       name: Mean Well LRS-600 Series
       img: img/components/comp_mw_lrs600.webp
@@ -2589,13 +2597,14 @@ components:
           parts:
             tray_mw_lrs600_v2_l: 1
             tray_mw_lrs600_v2_r: 1
+            assy_psu_stock : 1
         HSI:
           attributes:
             hsi: True
           parts:
             tray_mw_lrs600_v2_l_hsi: 1
             tray_mw_lrs600_v2_r_hsi: 1
-            hsi_m3_5od_4l: 4
+            assy_psu_hsi: 1
     comp_mw_rsp500:
       name: Mean Well RSP-500 Series
       img: img/components/comp_mw_rsp500.webp
@@ -2611,13 +2620,14 @@ components:
           parts:
             tray_mw_rsp500_v2_l: 1
             tray_mw_rsp500_v2_r: 1
+            assy_psu_stock : 1
         HSI:
           attributes:
             hsi: true
           parts:
             tray_mw_rsp500_v2_l_hsi: 1
             tray_mw_rsp500_v2_r_hsi: 1
-            hsi_m3_5od_4l: 4
+            assy_psu_hsi: 1
   ###
   Display:
   ###
