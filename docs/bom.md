@@ -100,11 +100,13 @@ Due to the number of possible configurations, wiring is only included for the IE
 
 ### Simple Stock Build
 
-- No heat set inserts
 - MCU: Bigtreetech SKR E3
 - Display: Mini12864
+- CPU: None
 - 60mm exhaust fan
 - Dual 40mm intake fans
+- Rocker switch
+- No heat set inserts
 
 === "Hardware"
 {{ make_indented(fmt.bom_table(stock_norm), '    ') }}
@@ -113,12 +115,13 @@ Due to the number of possible configurations, wiring is only included for the IE
 
 ### Intermediate HSI Build
 
-- Heat set inserts
 - MCU: Bigtreetech Octopus 1.1
 - Display: Bigtreetech HDMI5
 - CPU: Raspberry Pi 4B
 - 60mm exhaust fan
 - 40mm, 50mm intake fans
+- Toggle switch
+- Heat set inserts
 
 === "Hardware"
 {{ make_indented(fmt.bom_table(hsi_norm), '    ') }}

@@ -115,7 +115,7 @@ Internal mounts are available for 40 and 50mm fans. These are generally used wit
 [sourcing]: sourcing.md
 [side_panels]: support/side.md
 [front_panels]: support/front.md
-[rear_panels]: rear.md
+[rear_panels]: support/rear.md
 [side_panels]: support/side.md
 [lids]: support/lid.md
 [bottom_panels]: support/bottom.md

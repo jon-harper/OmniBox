@@ -24,6 +24,7 @@ The current **beta** release is 0.9.11. No release date has been set yet.
 - Smoother external lines;
 - Better printability with basic PLA;
 - Increased functional room for PSU by inverting IEC socket;
+- Better fit for side panel heat set inserts;
 - Raised MCU tray mounting height; and
 - Better rocker switch snap-in.
 
@@ -44,8 +45,8 @@ The current **beta** release is 0.9.11. No release date has been set yet.
 ## Documentation & Repository
 
 - [Documentation site](https://jon-harper.github.io/OmniBox)
-    - Better tab styling
-    - Supported Hardware is now [Options & Support][support]
+    - Better tab styling.
+    - Supported Hardware is now [Options & Support](../support/index.md).
     - Options & Support section is generated from a single file, simplifying updates.
     - Upgrade guide is simpler and clearer.
 - [Repository](https://github.com/jon-harper/OmniBox)
@@ -60,33 +61,6 @@ An OmniBox with external 50mm fan and keystone jack extensions.
 </figcaption>
 </figure>
 
-<figure markdown>
-![](../img/gallery/0.9.10/front.jpg)
-<figcaption markdown>
-Front view of a completed OmniBox with power switch cover and rear-mounted 60mm fan.
-</figcaption>
-</figure>
-
-<figure markdown>
-![](../img/gallery/0.9.10/psu.jpg)
-<figcaption markdown>
-The new Mean Well bottom panel allows the PSU to exhaust directly out of the case.
-</figcaption>
-</figure>
-
-<figure markdown>
-![](../img/gallery/0.9.10/matrixsenpai1.jpg)
-<figcaption markdown>
-Everything but the panels, ready to assemble the Core case.<br>Photo courtesy matrixsenpai.
-</figcaption>
-</figure>
-
-<figure markdown>
-![](../img/gallery/0.9.10/matrixsenpai2.jpg)
-<figcaption markdown>
-A freshly-printed PETG Rear Main Body.<br>Photo courtesy matrixsenpai.
-</figcaption>
-</figure>
 
 [1]: https://github.com/jon-harper/OmniBox/issues/91
 [2]: https://github.com/jon-harper/OmniBox/issues/81
@@ -96,4 +70,3 @@ A freshly-printed PETG Rear Main Body.<br>Photo courtesy matrixsenpai.
 [6]: https://github.com/jon-harper/OmniBox/issues/111
 [7]: https://github.com/jon-harper/OmniBox/issues/102
 [8]: https://github.com/jon-harper/OmniBox/issues/62
-[support]: ../support/
