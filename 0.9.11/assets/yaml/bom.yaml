@@ -80,8 +80,7 @@ authors:
     name: Ginger Saw
     url: "https://www.printables.com/social/226009-ginger-saw/about"
 parts:
-  ### Socket head cap screws
-  DIN 912:
+  DIN 912: # Socket head cap screws
     # M2.5 SHCS
     shcs_m2.5_6:
       name: M2.5 x 6mm SHCS
@@ -535,7 +534,7 @@ parts:
       sources:
         amazon_us:
           url: https://www.amazon.com/BIGTREETECH-Screen-Display-800x480-Raspberry/dp/B08FD2YZ23
-  ###
+  
   CPU:
   ###
     cpu_rpi3b_plus:
@@ -551,7 +550,7 @@ parts:
         digikey:
           url: "https://www.digikey.com/en/products/detail/raspberry-pi/SC0193-9/10258782"
   
-  ###
+  
   Fan:
   ###
     fan_4010:
@@ -626,7 +625,7 @@ parts:
       sources:
         amazon_us:
           url: "https://www.amazon.com/GDSTIME-Bearings-Brushless-Cooling-Exhaust/dp/B00N1Y4BMA"
-  ###  
+    
   Connector Extension:
   ###
     microsd_ext_short:
@@ -708,7 +707,7 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/gp/product/B0CHVWTVKH"
           note: 2pcs
-  ###
+  
   Switch:
   ###
     switch_rocker:
@@ -727,7 +726,7 @@ parts:
           url: "https://www.aliexpress.us/item/3256805005450780.html"
         amazon_us:
           url: "https://www.amazon.com/Gardner-Bender-GSW-121-Heavy-Duty-Electrical/dp/B000HEIY1Q"
-  ###
+  
   Filament:
   ###
     filament_pla_plus:
@@ -757,7 +756,7 @@ parts:
           url: "https://3do.eu/filament/1043-1446-3do-petg-20-matt-1kg-grey.html#/84-colour-grey"
           note: 3DO PETG 2.0 Matte, Grey
   
-  ###
+  
   Electrical Connector:
   ###
     conn_f_spade_14-16:
@@ -821,7 +820,7 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/Connector-Housing-Adapter-Terminal-Connectors/dp/B0BZDCGJ32"
           note: 2-6 Position
-  ###
+  
   Other Electrical:
   ###
     wire_16awg:
@@ -2153,6 +2152,7 @@ subassemblies:
   assy_crossbar_hsi:
     core_mb_0_9_11_crossbar_hsi: 1
     shcs_m3_16: 2
+    hsi_m3_5od_4l: 2
   assy_fused_iec_c14:
     fused_iec_c14: 1
     shcs_m3_6: 2
@@ -2161,9 +2161,9 @@ subassemblies:
     wire_16awg: 30
     fuse_5x20: 1
   assy_base_front_rear:
-    shcs_m3_12: 4
+    shcs_m3_10: 4
   assy_base_front_rear_hsi:
-    shcs_m3_12: 4
+    shcs_m3_8: 4
     hsi_m3_5od_4l: 4
   assy_base_common_stock:
     shcs_m3_6: 8
@@ -2184,11 +2184,15 @@ subassemblies:
   assy_mb_common_hsi:
     shcs_m3_6: 40
     shcs_m3_8: 6
-    hsi_m3_5od_4l: 46
+    hsi_m3_5od_4l: 40
   assy_full_hsi:
     hsi_m3_5od_4l: 24
-components:
-  ###
+  assy_psu_stock:
+    shcs_m3_16: 4
+  assy_psu_hsi:
+    shcs_m3_12: 4
+    hsi_m3_5od_4l: 4
+components: 
   MCU:
   ###
     comp_btt_manta_m5p_v2:
@@ -2504,7 +2508,7 @@ components:
         Stock:
           parts:
             tray_btt_skr_e3_and_pico_v2: 1
-  ###
+  
   PSU:
   ###
     comp_mw_rsp200:
@@ -2523,13 +2527,14 @@ components:
           parts:
             tray_mw_rsp200_v2_l: 1
             tray_mw_rsp200_v2_r: 1
+            assy_psu_stock: 1
         HSI:
           attributes:
             HSI: True
           parts:
             tray_mw_rsp200_v2_l_hsi: 1
             tray_mw_rsp200_v2_r_hsi: 1
-            hsi_m3_5od_4l: 4
+            assy_psu_hsi: 1
     comp_mw_lrs350:
       name: Mean Well LRS-350 Series
       img: img/components/comp_mw_lrs350.webp
@@ -2545,13 +2550,14 @@ components:
           parts:
             tray_mw_lrs350_v2_l: 1
             tray_mw_lrs350_v2_r: 1
+            assy_psu_stock : 1
         HSI:
           attributes:
             hsi: True
           parts:
             tray_mw_lrs350_v2_l_hsi: 1
             tray_mw_lrs350_v2_r_hsi: 1
-            hsi_m3_5od_4l: 4
+            assy_psu_hsi: 1
     comp_mw_lrs450:
       name: Mean Well LRS-450 Series
       template: psu_v2
@@ -2567,13 +2573,14 @@ components:
           parts:
             tray_mw_lrs450_v2_l: 1
             tray_mw_lrs450_v2_r: 1
+            assy_psu_stock : 1
         HSI:
           attributes:
             hsi: True
           parts:
             tray_mw_lrs450_v2_l_hsi: 1
             tray_mw_lrs450_v2_r_hsi: 1
-            hsi_m3_5od_4l: 4
+            assy_psu_hsi: 1
     comp_mw_lrs600:
       name: Mean Well LRS-600 Series
       img: img/components/comp_mw_lrs600.webp
@@ -2589,13 +2596,14 @@ components:
           parts:
             tray_mw_lrs600_v2_l: 1
             tray_mw_lrs600_v2_r: 1
+            assy_psu_stock : 1
         HSI:
           attributes:
             hsi: True
           parts:
             tray_mw_lrs600_v2_l_hsi: 1
             tray_mw_lrs600_v2_r_hsi: 1
-            hsi_m3_5od_4l: 4
+            assy_psu_hsi: 1
     comp_mw_rsp500:
       name: Mean Well RSP-500 Series
       img: img/components/comp_mw_rsp500.webp
@@ -2611,14 +2619,15 @@ components:
           parts:
             tray_mw_rsp500_v2_l: 1
             tray_mw_rsp500_v2_r: 1
+            assy_psu_stock : 1
         HSI:
           attributes:
             hsi: true
           parts:
             tray_mw_rsp500_v2_l_hsi: 1
             tray_mw_rsp500_v2_r_hsi: 1
-            hsi_m3_5od_4l: 4
-  ###
+            assy_psu_hsi: 1
+  
   Display:
   ###
     comp_generic_12864:
@@ -2740,7 +2749,7 @@ components:
         Stock:
           parts:
             panel_generic_rpi_tft7: 1
-  ###            
+         
   Lower Bay:
   ###
     comp_lb_40mm:
@@ -3103,7 +3112,7 @@ components:
           parts:
             wago_221_413: 8
             tray_lb_wago_8x3pos: 1
-  ###
+  
   Side Panel:
   ###
     comp_side_blank_v1:
@@ -3198,7 +3207,7 @@ components:
             panel_side_rj45_usb2_v2: 1
             ethernet_panel: 1
             usb3_dual_panel_mount: 1
-  ###
+  
   CPU:
   ###
     comp_rpi3b_v3:
@@ -3255,7 +3264,7 @@ components:
           parts:
             tray_cpu_universal_v3_40mm_hsi: 1
             assy_fan_4010_12mm: 4
-            hsi_m3_5od_4l: 4
+            hsi_m3_5od_4l: 8
         50mm Fan:
           attributes:
             fan: True
@@ -3269,7 +3278,7 @@ components:
           parts:
             tray_cpu_universal_v3_50mm_hsi: 1
             assy_fan_5012_16mm: 1
-            hsi_m3_5od_4l: 4
+            hsi_m3_5od_4l: 8
   Lid:
     comp_blank_lid:
       name: Simple/Blank Lids
@@ -3623,7 +3632,7 @@ components:
       variants:
         No USB:
           parts:
-            panel_rear_dual_60mm_v2: 1
+            panel_rear_generic_60mm_v2: 1
         USB B:
           attributes:
             mounts: USB B
