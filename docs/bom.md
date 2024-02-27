@@ -34,6 +34,23 @@ bom_sample:
     - comp_side_50mm_v2 : 1
     - comp_side_blank_v2 : 0
     - comp_side_blank_v2 : 0
+  test:
+    - comp_base_rocker_0_9_11: 1
+    - comp_mb_0_9_11: 1
+    - comp_btt_octopus_v2 : 0
+    - comp_mw_lrs450: 1
+    - comp_generic_12864 : 0
+    - comp_cpu_universal_v3: 3
+    - comp_fp_sd : 1
+    - comp_rear_generic_60mm_fan : 0
+    - comp_btm_hex_v3 : 1
+    - comp_btm_mw_v3: 0
+    - comp_carry_lid : 3
+    - comp_blank_lid : 2
+    - comp_side_40mm_v2 : 0
+    - comp_side_50mm_v2 : 0
+    - comp_side_blank_v2 : 0
+    - comp_sslhong_buck : 3
 ---
 
 {% import 'format.md' as fmt with context %}
@@ -42,6 +59,7 @@ The Bill of Materials is a base list common to all builds. Additional components
 
 {%- set (stock_norm, stock_print) = splitPrintedMaterials(materialsFromYamlComponentList(bom_sample.stock)) -%}
 {%- set (hsi_norm, hsi_print) = splitPrintedMaterials(materialsFromYamlComponentList(bom_sample.hsi)) %}
+{%- set (test_norm, test_print) = splitPrintedMaterials(materialsFromYamlComponentList(bom_sample.test)) %}
     
 ## Fasteners
 
@@ -127,6 +145,27 @@ Due to the number of possible configurations, wiring is only included for the IE
 {{ make_indented(fmt.bom_table(hsi_norm), '    ') }}
 === "Printed"
 {{ make_indented(fmt.bom_table(hsi_print), '    ') }}
+
+### 0.9.11 Validation Build
+
+!!! note
+    This is a developer reference section and will be removed before release.
+
+- MCU: Bigtreetech Octopus 1.1
+- Display: Generic 12864
+- CPU: Raspberry Pi 4B
+- PSU: Mean Well LRS-450
+- 60mm exhaust fan
+- 2x 40mm, 1x 50mm intake fans
+- Rocker switch
+- Front panel SD card extension
+- 5V/3A buck converter
+- Heat set inserts
+
+=== "Hardware"
+{{ make_indented(fmt.bom_table(test_norm), '    ') }}
+=== "Printed"
+{{ make_indented(fmt.bom_table(test_print), '    ') }}
 
 [support]:          support/index.md    "Overview of supported parts"
 [mcu]:              support/mcu.md      "List of supported MCUs"
