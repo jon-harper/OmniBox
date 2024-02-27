@@ -538,17 +538,19 @@ parts:
   CPU:
   ###
     cpu_rpi3b_plus:
-      name: Raspberry Pi 3B+ 1GB
+      name: Raspberry Pi 3B+
       img: img/parts/rpi_3b_plus.webp
       sources:
         digikey:
           url: "https://www.digikey.com/en/products/detail/raspberry-pi/SC0073/8571724"
+          note: 1GB model
     cpu_rpi4b:
-      name: Raspberry Pi 4B+ 2GB
+      name: Raspberry Pi 4B+
       img: img/parts/rpi_4b.webp
       sources:
         digikey:
           url: "https://www.digikey.com/en/products/detail/raspberry-pi/SC0193-9/10258782"
+          note: 2GB model
   
   
   Fan:
@@ -2151,6 +2153,7 @@ subassemblies:
     shcs_m3_6: 4
     misc_sd_ext_body: 1
     misc_sd_ext_cap: 1
+    microsd_ext_long: 1
   assy_rocker_switch_cover:
     switch_rocker: 1
     misc_rocker_cover: 1
@@ -2202,10 +2205,12 @@ subassemblies:
   assy_mb_common_stock:
     shcs_m3_8: 40
     shcs_m3_10: 6
+    wago_221_413: 4
   assy_mb_common_hsi:
     shcs_m3_6: 40
     shcs_m3_8: 6
     hsi_m3_5od_4l: 40
+    wago_221_413: 4
   assy_full_hsi:
     hsi_m3_5od_4l: 24
   assy_psu_stock:
@@ -3772,11 +3777,12 @@ components:
       variants:
         Stock:
           parts:
-            core_mb_0_9_11_front: 1
-            core_mb_0_9_11_rear: 1
             assy_crossbar_stock: 1
             assy_mb_common_stock: 1
             assy_mb_front_rear_stock: 1
+            core_mb_0_9_11_crossbar: 1
+            core_mb_0_9_11_front: 1
+            core_mb_0_9_11_rear: 1
         HSI:
           attributes:
             hsi: True
@@ -3794,10 +3800,11 @@ components:
           parts:
             core_mb_0_9_11_front_full_hsi: 1
             core_mb_0_9_11_rear_full_hsi: 1
-            core_mb_0_9_11_crossbar_hsi: 1
+            assy_crossbar_hsi: 1
             assy_mb_common_hsi: 1
-            assy_full_hsi: 1
             assy_mb_front_rear_hsi: 1
+            assy_full_hsi: 1
+            
     comp_mb_unified_0_9_11:
       name: Unified Main Body
       note: Printing a unified Main Body requires a bed at least 315mm on one axis.
@@ -3820,7 +3827,7 @@ components:
             hsi: True
           parts:
             core_mb_0_9_11_unified_full_hsi: 1
-            core_mb_0_9_11_crossbar_hsi: 1
+            assy_crossbar_hsi: 1
             assy_mb_common_hsi: 1
             assy_full_hsi: 1
   Base:
