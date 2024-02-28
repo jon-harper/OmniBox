@@ -129,24 +129,23 @@ nav:
       - support/bottom.md
   - Assembly:
     - assembly/index.md
-    # - Heat Set Inserts (HSI):
-    #   - assembly/hsi_tips.md
-    #   - assembly/hsi_steps.md
-    #   - assembly/hsi_locations.md
-    # - Core & PSU:
-    #   - assembly/base.md
-    #   - assembly/psu_wiring.md
-    #   - assembly/core.md
-    # - CPU and Lower Bay Trays:
-    #   - assembly/cpu.md
-    #   - assembly/lower_bay.md
-    #   - assembly/side.md
-    #   - assembly/front.md
-    # - MCU & Panels:
-    #   - assembly/mcu.md
-    #   - assembly/rear.md
-    #   - assembly/display.md
-    #   - assembly/bottom_lid.md
+    - Heat Set Inserts (HSI):
+      - assembly/hsi_tips.md
+      - assembly/hsi_locations.md
+    - Core & PSU:
+      - assembly/base.md
+      - assembly/psu_wiring.md
+      - assembly/core.md
+    - CPU and Lower Bay Trays:
+      - assembly/cpu.md
+      - assembly/lower_bay.md
+      - assembly/side.md
+      - assembly/front.md
+    - MCU & Panels:
+      - assembly/mcu.md
+      - assembly/rear.md
+      - assembly/display.md
+      - assembly/bottom_lid.md
   - Upgrading:
     - upgrade/index.md
     - upgrade/templates.md

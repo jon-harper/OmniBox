@@ -2,110 +2,86 @@
 title: Lower Bay Trays
 summary: Instructions for installing lower bay trays.
 authors: Jon Harper
-date: 2022-10-30
+date: 2024-02-28
+steps:
+  lower_bay_long:
+    - txt: |
+        1) Snap the two (2) Wago connectors in place.
+      img: todo
+      img_txt: Insert Wago connectors.
+    - txt: |
+        2) Attach the buck converter to the tray with two (2) M3 x 6mm screws.
+      img: todo
+      img_txt: Install the buck converter.
+    - txt: |
+        3) Position the tray in the case. Large trays are often installed in the
+        middle of the case, out of the way of side panels or CPU trays.
+      img: todo
+      img_txt: Position the tray.
+    - txt: |
+        4) Secure the tray in place with four (4) M3 x 6mm screws.
+      img:
+      img_txt: Secure with screws.
+  lower_bay_short:
+    - txt: |
+        1) Set the buck converter on the tray's standoffs and secure with two (2) M3 x 6mm screws. It is a good idea to ensure the converter's voltage level is set at this point.
+      img: todo
+      img_txt: Install the buck converter.
+    - txt: |
+        2) Position the tray in the lower bay. In this case, the tray will not fit next to the Raspberry Pi, so it is placed in the back.
+      img: todo
+      img_txt: Position the tray.
+    - txt: |
+        3) Secure the tray to the case with four (4) M3 x 6mm screws.
+      img: todo
+      img_txt: Secure with screws.
 ---
+
+{% import 'assembly.md' as assy %}
 
 ## Overview
 
 Lower bay trays can be mounted in one of six (6) locations for short trays and one of three (3) locations for long trays. This flexibility is useful when planning ahead (e.g., a buck converter can be located near the device it powers for shorter wiring).
 
-<video controls="">
-    <source src="{{meta.video_folder}}lower_bay.mp4" type="video/mp4">
-</video>
+{{ assy.overview_video(meta.video_folder + 'lower_bay.mp4') }}
 
 ## Long Trays
 
-Long trays can be mounted in the front, middle, or back of the lower bay. They can only be mounted with the long side oriented sideways.
+Long trays can be mounted in the front, middle, or back of the lower bay. They can only be mounted with the long side oriented side-to-side.
+
+As an example of a Long tray, we'll install a buck converter for the Raspberry Pi and a pair of 5 position Wago connectors.
 
 ### Materials
 
-=== "As Illustrated"
-
-    | Parts                       | Qty | Note                            |
-    |-----------------------------|-----|---------------------------------|
-    | M3 x 6mm machine screws     | 8   |                                 |
-    | Wago 221-413 Lever Nuts     | 4   |                                 |
-    | [:material-git: `Lower Bay Tray - Wago Nuts - 8x3P.stl`][git_wago_221] | 1   | :material-printer-3d-nozzle: Printed |
-
-
-=== "Generic"
-
-    | Parts                     | Qty | Note                            |
-    |---------------------------|-----|---------------------------------|
-    | M3 x 6mm machine screws   | 4   |                                 |
-    | Compatible hardware       | 1   |                                 |
-    | [:material-git: Long Lower Bay Tray][git_lower_bay] | 1   | :material-printer-3d-nozzle: Printed  |
-
-    Only screws for mounting the tray are specified in the generic materials list.
+| Parts                       | Qty | Note                            |
+|-----------------------------|-----|---------------------------------|
+| M3 x 6mm machine screws     | 6   |                                 |
+| Wago 221-415 Lever Nuts     | 2   |                                 |
+| SSLHONG 5V/3A Buck Converter with USB C | 1 | |
+| :material-printer-3d-nozzle: `Lower Bay Tray - SSLHONG Buck - Long - HSI.stl` | 1 | |
 
 ### Directions
                                                             
-<figure markdown>
-  [![illustration][long1]{width="480"}][long1]
-  <figcaption>1. Snap the Wago connectors in place. We leave half of the tray unoccupied for future expansion.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][long2]{width="480"}][long2]
-  <figcaption>2. Determine the best location for the tray. Here, it is set in the center to shorten wiring.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][long3]{width="480"}][long3]
-  <figcaption>3. Secure with four (4) M4 x 6mm screws.</figcaption>
-</figure>
+{{ assy.render_steps(steps.lower_bay_long, '480px') }}
 
 ## Short Trays
 
 Short trays can be mounted in any one of six (6) locations in the lower bay. Short trays do not always fit next to an occupied CPU bay.
 
+In the example below, we'll install another buck converter on a short tray.
+
 ### Materials
 
-
-=== "As Illustrated"
-    
-    | Parts                     | Qty | Note                            |
-    |---------------------------|-----|---------------------------------|
-    | M3 x 6mm machine screws   | 6   |                                 |
-    | LM2596 Buck Converter     | 1   |                                 |
-    | [:material-git: `Lower Bay Tray - Generic LM2596 - Short Single Tray.stl`][git_basic_lm2596] | 1   | :material-printer-3d-nozzle: Printed |
-
-=== "Generic"
-
-    | Parts                     | Qty | Note                            |
-    |---------------------------|-----|---------------------------------|
-    | M3 x 6mm machine screws   | 4   |                                 |
-    | Compatible hardware       | 1   |                                 |
-    | Short Lower Bay Tray      | 1   | :material-printer-3d-nozzle: Printed |
-
-    Only screws for mounting the tray are specified in the generic materials list.
+| Parts                     | Qty | Note                            |
+|---------------------------|-----|---------------------------------|
+| M3 x 6mm machine screws   | 6   |                                 |
+| LM2596 Buck Converter     | 1   |                                 |
+| :material-printer-3d-nozzle: `Lower Bay Tray - Generic LM2596 - Short Single Tray.stl` | 1   | |
 
 ### Directions
                                                             
-<figure markdown>
-  [![illustration][short1]{width="480"}][short1]
-  <figcaption>1. Set the buck converter on the tray's standoffs and secure with four (4) M4 x 6mm screws. It is a good idea to ensure the converter's voltage level is set at this point.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][short2]{width="480"}][short2]
-  <figcaption>2. Determine the best location for the tray in the lower bay. In this case, the tray will not fit next to the Raspberry Pi, so it is placed in the back.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][short3]{width="480"}][short3]
-  <figcaption>3. Secure the tray to the case with four (4) M4 x 6mm screws.</figcaption>
-</figure>
+{{ assy.render_steps(steps.lower_bay_short, '480px') }}
 
 ## Reference
 
 [![illustration][lower_bay_final]][lower_bay_final]
-
-[long1]: ../img/assembly/trays/lower_bay/long1.webp
-[long2]: ../img/assembly/trays/lower_bay/long2.webp
-[long3]: ../img/assembly/trays/lower_bay/long3.webp
-
-[short1]: ../img/assembly/trays/lower_bay/short1.webp
-[short2]: ../img/assembly/trays/lower_bay/short2.webp
-[short3]: ../img/assembly/trays/lower_bay/short3.webp
-[lower_bay_final]: ../img/assembly/trays/lower_bay/lower_bay_final.webp
