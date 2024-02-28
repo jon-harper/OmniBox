@@ -21,8 +21,8 @@ and requires an addition 5 to 10 minutes.
 If you are using inserts for the first time, print at least one [:material-git: practice block][git_hsi_practice]. Experience with inserts
 saves time and lowers the chances of damaging printed parts.
 
-These blocks have holes in two orientations: flat and set at a 50 degree angle. The holes are identical in shape to those used in the case.
-Practice putting inserts in both types of holes until comfortable with the procedure.
+These blocks have holes in two orientations: flat and canted at a 50 degree angle. Practice setting inserts until comfortable with the procedure
+for both kinds of inserts.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ Practice putting inserts in both types of holes until comfortable with the proce
 
 1. Install the M3 insert tip on your soldering iron.
 2. Pre-heat the iron to a low temperature (200C is fine for both PLA and PETG).
-3. Allow enough time for your iron to heat up. A 40W iron may need two minutes.
+3. Allow enough time for your iron to heat up. A 40W iron may need up to two minutes.
 
 ### Installation
 
@@ -39,8 +39,7 @@ Practice putting inserts in both types of holes until comfortable with the proce
     These inserts have a rounded lip on one side. This end "sits" in the hole and maintains alignment with the hole during heating and insertion.
 
 !!! tip
-    The insert holes have a slight inward slope. Resistance will gradually increase as the insert slides in place. Resistance greatly increases
-    when the insert deviates from the hole.
+    The insert holes have a slight inward slope. Resistance will gradually increase as the insert slides in place.
 
 !!! caution
     Installing an insert leaves both the insert and surrounding plastic hot for several minutes.
