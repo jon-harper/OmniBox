@@ -2110,9 +2110,9 @@ parts:
       template: fan_v1
 
 subassemblies:
-  assy_fan_4010_12mm:
+  assy_fan_4010_15mm:
     fan_4010: 1
-    shcs_m3_12: 4
+    shcs_m3_15: 4
   assy_fan_4010_cage:
     fan_4010: 1
     fan_cage_4010: 1
@@ -2185,9 +2185,9 @@ subassemblies:
     wire_16awg: 30
     fuse_5x20: 1
   assy_base_front_rear:
-    shcs_m3_10: 4
+    shcs_m3_12: 4
   assy_base_front_rear_hsi:
-    shcs_m3_8: 4
+    shcs_m3_12: 4
     hsi_m3_5od_4l: 4
   assy_base_common_stock:
     shcs_m3_6: 8
@@ -2783,7 +2783,7 @@ components:
       template: lower_bay_v1
       img: img/parts/fan_4010.webp
       parts:
-        assy_fan_4010_12mm: 1
+        assy_fan_4010_15mm: 1
         shcs_m3_6: 4
       variants:
         Short:
@@ -2895,7 +2895,7 @@ components:
           parts:
             tray_lb_buck_drok_3a_long_fan: 1
             shcs_m3_6: 4
-            assy_fan_4010_12mm: 1
+            assy_fan_4010_15mm: 1
     comp_sslhong_buck:
       name: SSLHONG 5V/3A Buck with USB C
       template: lower_bay_v1
@@ -2978,7 +2978,7 @@ components:
           parts:
             drok_3a_lm2596: 1
             shcs_m3_6: 4
-            assy_fan_4010_12mm: 1
+            assy_fan_4010_15mm: 1
             tray_lb_drok_lm2596_led_long_fan: 1
         Long, Dual:
           attributes:
@@ -2997,7 +2997,7 @@ components:
             drok_3a_lm2596: 2
             shcs_m3_6: 8
             tray_lb_drok_lm2596_led_long_dual_fan: 1
-            assy_fan_4010_12mm: 1
+            assy_fan_4010_15mm: 1
     comp_hiletgo_lm2596:
       name: HiLetGo LM2596 with LED
       template: lower_bay_v1
@@ -3022,7 +3022,7 @@ components:
           parts:
             tray_lb_hiletgo_lm2596_long_fan: 1
             shcs_m3_6: 4
-            assy_fan_4010_12mm: 1
+            assy_fan_4010_15mm: 1
             hiletgo_lm2596: 1
         Long, Dual:
           attributes:
@@ -3041,7 +3041,7 @@ components:
             hiletgo_lm2596: 2
             shcs_m3_6: 8
             tray_lb_hiletgo_lm2596_long_dual_fan: 1
-            assy_fan_4010_12mm: 1
+            assy_fan_4010_15mm: 1
     comp_basic_lm2596:
       name: Basic LM2596
       template: lower_bay_v1
@@ -3075,7 +3075,7 @@ components:
             tray_lb_basic_lm2596_long_fan: 1
             basic_lm2596: 1
             shcs_m3_6: 2
-            assy_fan_4010_12mm: 1
+            assy_fan_4010_15mm: 1
         Long, Dual:
           attributes: 
             length: Long
@@ -3093,7 +3093,7 @@ components:
             tray_lb_basic_lm2596_long_dual_fan: 1
             shcs_m3_6: 4
             basic_lm2596: 2
-            assy_fan_4010_12mm: 1
+            assy_fan_4010_15mm: 1
     comp_fotek_ssr40:
       name: Fotek SSR-40 DA
       template: lower_bay_v1
@@ -3198,7 +3198,7 @@ components:
       attributes:
         fan: True
       parts:
-        assy_fan_4010_12mm: 1
+        assy_fan_4010_15mm: 1
       variants:
         Hexagons:
           parts:
@@ -3213,7 +3213,7 @@ components:
       attributes:
         fan: True
       parts:
-        assy_fan_4010_12mm: 1
+        assy_fan_4010_15mm: 1
       variants:
         OmniBox Logo:
           parts:
@@ -3318,14 +3318,14 @@ components:
             fan: True
           parts:
             tray_cpu_universal_v3_40mm: 1
-            assy_fan_4010_12mm: 1
+            assy_fan_4010_15mm: 1
         40mm Fan, HSI:
           attributes:
             fan: True
             hsi: True
           parts:
             tray_cpu_universal_v3_40mm_hsi: 1
-            assy_fan_4010_12mm: 1
+            assy_fan_4010_15mm: 1
             hsi_m3_5od_4l: 8
         50mm Fan:
           attributes:
