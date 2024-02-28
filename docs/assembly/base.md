@@ -145,8 +145,8 @@ Assembly of the case starts with the Base and PSU Tray.
     |---------------------------|-----|---------------------------------|
     | M4 x 6mm SHCS             | 4   | No longer than 8mm.             |
     | Mean Well LRS-350-24      | 1   |                                 |
-    | :material-printer-3d-nozzle: PSU Mount - LRS-350 - Left HSI.stl  | 1   | |
-    | :material-printer-3d-nozzle: PSU Mount - LRS-350 - Right HSI.stl  | 1   | |
+    | :material-printer-3d-nozzle: `PSU Mount - LRS-350 - Left HSI.stl`  | 1   | |
+    | :material-printer-3d-nozzle: `PSU Mount - LRS-350 - Right HSI.stl`  | 1   | |
 
 === "Generic"
 

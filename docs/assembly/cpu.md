@@ -2,7 +2,7 @@
 title: CPU
 summary: Instructions and considerations when installing the CPU Tray.
 authors: Jon Harper
-date: 2022-10-30
+date: 2024-02-28
 steps:
   cpu:
     - txt: |
