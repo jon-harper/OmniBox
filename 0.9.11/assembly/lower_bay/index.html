@@ -1091,27 +1091,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../hsi_steps/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Insertion Steps
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../hsi_locations/" class="md-nav__link">
         
   
@@ -1454,7 +1433,7 @@
         
   
   <span class="md-ellipsis">
-    Side Panel(s)
+    Side Panels
   </span>
   
 
@@ -2099,16 +2078,16 @@
 
 <h2 id="overview">Overview</h2>
 <p>Lower bay trays can be mounted in one of six (6) locations for short trays and one of three (3) locations for long trays. This flexibility is useful when planning ahead (e.g., a buck converter can be located near the device it powers for shorter wiring).</p>
-<video controls="">
+<details class="overview">
+<summary>Overview</summary>
+<p><video controls="">
     <source src="https://jon-harper.github.io/OmniBox/video/0.9.10/lower_bay.mp4" type="video/mp4">
-</video>
-
+</video></p>
+</details>
 <h2 id="long-trays">Long Trays</h2>
-<p>Long trays can be mounted in the front, middle, or back of the lower bay. They can only be mounted with the long side oriented sideways.</p>
+<p>Long trays can be mounted in the front, middle, or back of the lower bay. They can only be mounted with the long side oriented side-to-side.</p>
+<p>As an example of a Long tray, we'll install a buck converter for the Raspberry Pi and a pair of 5 position Wago connectors.</p>
 <h3 id="materials">Materials</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">As Illustrated</label><label for="__tabbed_1_2">Generic</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
 <table>
 <thead>
 <tr>
@@ -2120,75 +2099,56 @@
 <tbody>
 <tr>
 <td>M3 x 6mm machine screws</td>
-<td>8</td>
+<td>6</td>
 <td></td>
 </tr>
 <tr>
-<td>Wago 221-413 Lever Nuts</td>
-<td>4</td>
+<td>Wago 221-415 Lever Nuts</td>
+<td>2</td>
 <td></td>
 </tr>
 <tr>
-<td><a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay/Wago%20Lever%20Nuts" title="OmniBox GitHub: Wago 221 Lever Nuts Trays"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <code>Lower Bay Tray - Wago Nuts - 8x3P.stl</code></a></td>
+<td>SSLHONG 5V/3A Buck Converter with USB C</td>
 <td>1</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>Lower Bay Tray - SSLHONG Buck - Long - HSI.stl</code></td>
+<td>1</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-</div>
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>Parts</th>
-<th>Qty</th>
-<th>Note</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>M3 x 6mm machine screws</td>
-<td>4</td>
-<td></td>
-</tr>
-<tr>
-<td>Compatible hardware</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay/" title="OmniBox GitHub: Lower Bay Trays"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Long Lower Bay Tray</a></td>
-<td>1</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
-</tr>
-</tbody>
-</table>
-<p>Only screws for mounting the tray are specified in the generic materials list.</p>
-</div>
-</div>
-</div>
 <h3 id="directions">Directions</h3>
 <figure>
-<p><a href="../../img/assembly/trays/lower_bay/long1.webp"><img alt="illustration" src="../../img/assembly/trays/lower_bay/long1.webp" width="480" /></a>
-  </p>
-<figcaption>1. Snap the Wago connectors in place. We leave half of the tray unoccupied for future expansion.</figcaption>
+<p><a href="todo"><img _="'" alt="Insert Wago connectors." src="todo" width="480px" /></a></p>
+<figcaption>
+<p>1) Snap the two (2) Wago connectors in place.</p>
+</figcaption>
 </figure>
 <figure>
-<p><a href="../../img/assembly/trays/lower_bay/long2.webp"><img alt="illustration" src="../../img/assembly/trays/lower_bay/long2.webp" width="480" /></a>
-  </p>
-<figcaption>2. Determine the best location for the tray. Here, it is set in the center to shorten wiring.</figcaption>
+<p><a href="todo"><img _="'" alt="Install the buck converter." src="todo" width="480px" /></a></p>
+<figcaption>
+<p>2) Attach the buck converter to the tray with two (2) M3 x 6mm screws.</p>
+</figcaption>
 </figure>
 <figure>
-<p><a href="../../img/assembly/trays/lower_bay/long3.webp"><img alt="illustration" src="../../img/assembly/trays/lower_bay/long3.webp" width="480" /></a>
-  </p>
-<figcaption>3. Secure with four (4) M4 x 6mm screws.</figcaption>
+<p><a href="todo"><img _="'" alt="Position the tray." src="todo" width="480px" /></a></p>
+<figcaption>
+<p>3) Position the tray in the case. Large trays are often installed in the
+middle of the case, out of the way of side panels or CPU trays.</p>
+</figcaption>
+</figure>
+<figure>
+<p><a href="None"><img _="'" alt="Secure with screws." src="None" width="480px" /></a></p>
+<figcaption>
+<p>4) Secure the tray in place with four (4) M3 x 6mm screws.</p>
+</figcaption>
 </figure>
 <h2 id="short-trays">Short Trays</h2>
 <p>Short trays can be mounted in any one of six (6) locations in the lower bay. Short trays do not always fit next to an occupied CPU bay.</p>
+<p>In the example below, we'll install another buck converter on a short tray.</p>
 <h3 id="materials_1">Materials</h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">As Illustrated</label><label for="__tabbed_2_2">Generic</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
 <table>
 <thead>
 <tr>
@@ -2209,62 +2169,33 @@
 <td></td>
 </tr>
 <tr>
-<td><a href="https://github.com/jon-harper/OmniBox/tree/main/Trays/Lower%20Bay/Generic%20LM2596" title="OmniBox GitHub: Basic LM2596"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <code>Lower Bay Tray - Generic LM2596 - Short Single Tray.stl</code></a></td>
-<td>1</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="tabbed-block">
-<table>
-<thead>
-<tr>
-<th>Parts</th>
-<th>Qty</th>
-<th>Note</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>M3 x 6mm machine screws</td>
-<td>4</td>
-<td></td>
-</tr>
-<tr>
-<td>Compatible hardware</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>Lower Bay Tray - Generic LM2596 - Short Single Tray.stl</code></td>
 <td>1</td>
 <td></td>
 </tr>
-<tr>
-<td>Short Lower Bay Tray</td>
-<td>1</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
-</tr>
 </tbody>
 </table>
-<p>Only screws for mounting the tray are specified in the generic materials list.</p>
-</div>
-</div>
-</div>
 <h3 id="directions_1">Directions</h3>
 <figure>
-<p><a href="../../img/assembly/trays/lower_bay/short1.webp"><img alt="illustration" src="../../img/assembly/trays/lower_bay/short1.webp" width="480" /></a>
-  </p>
-<figcaption>1. Set the buck converter on the tray's standoffs and secure with four (4) M4 x 6mm screws. It is a good idea to ensure the converter's voltage level is set at this point.</figcaption>
+<p><a href="todo"><img _="'" alt="Install the buck converter." src="todo" width="480px" /></a></p>
+<figcaption>
+<p>1) Set the buck converter on the tray's standoffs and secure with two (2) M3 x 6mm screws. It is a good idea to ensure the converter's voltage level is set at this point.</p>
+</figcaption>
 </figure>
 <figure>
-<p><a href="../../img/assembly/trays/lower_bay/short2.webp"><img alt="illustration" src="../../img/assembly/trays/lower_bay/short2.webp" width="480" /></a>
-  </p>
-<figcaption>2. Determine the best location for the tray in the lower bay. In this case, the tray will not fit next to the Raspberry Pi, so it is placed in the back.</figcaption>
+<p><a href="todo"><img _="'" alt="Position the tray." src="todo" width="480px" /></a></p>
+<figcaption>
+<p>2) Position the tray in the lower bay. In this case, the tray will not fit next to the Raspberry Pi, so it is placed in the back.</p>
+</figcaption>
 </figure>
 <figure>
-<p><a href="../../img/assembly/trays/lower_bay/short3.webp"><img alt="illustration" src="../../img/assembly/trays/lower_bay/short3.webp" width="480" /></a>
-  </p>
-<figcaption>3. Secure the tray to the case with four (4) M4 x 6mm screws.</figcaption>
+<p><a href="todo"><img _="'" alt="Secure with screws." src="todo" width="480px" /></a></p>
+<figcaption>
+<p>3) Secure the tray to the case with four (4) M3 x 6mm screws.</p>
+</figcaption>
 </figure>
 <h2 id="reference">Reference</h2>
-<p><a href="../../img/assembly/trays/lower_bay/lower_bay_final.webp"><img alt="illustration" src="../../img/assembly/trays/lower_bay/lower_bay_final.webp" /></a></p>
+<p>[![illustration][lower_bay_final]][lower_bay_final]</p>
 <!-- OmniBox GitHub Pages -->
 <!-- 
     OmniBox GitHub Folders 
@@ -2356,13 +2287,13 @@
         
         
           
-          <a href="../side/" class="md-footer__link md-footer__link--next" aria-label="Next: Side Panel(s)">
+          <a href="../side/" class="md-footer__link md-footer__link--next" aria-label="Next: Side Panels">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Side Panel(s)
+                Side Panels
               </div>
             </div>
             <div class="md-footer__button md-icon">

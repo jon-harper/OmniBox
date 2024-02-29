@@ -26,7 +26,7 @@
     
     
       
-        <title>Side Panel(s) - OmniBox Documentation</title>
+        <title>Side Panels - OmniBox Documentation</title>
       
     
     
@@ -119,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Side Panel(s)
+              Side Panels
             
           </span>
         </div>
@@ -1091,27 +1091,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../hsi_steps/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Insertion Steps
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../hsi_locations/" class="md-nav__link">
         
   
@@ -1341,7 +1320,7 @@
           
   
   <span class="md-ellipsis">
-    Side Panel(s)
+    Side Panels
   </span>
   
 
@@ -1352,7 +1331,7 @@
         
   
   <span class="md-ellipsis">
-    Side Panel(s)
+    Side Panels
   </span>
   
 
@@ -1999,17 +1978,20 @@
                   
 
 
-  <h1>Side Panel(s)</h1>
+  <h1>Side Panels</h1>
 
-<p>Each case has four (4) locations for a side panel. If you have an SoC CPU, one side panel is already occupied by the CPU tray. In this case, you will instead need three (3) side panels.</p>
+<p>Each case has four (4) locations for a side panel. If you have a CPU tray installed, one side panel is already
+occupied. In this case, you will instead need three (3) side panels.</p>
+<p>We will cover how to assemble two different types of side panels.</p>
 <h2 id="overview">Overview</h2>
-<video controls="">
+<details class="overview">
+<summary>Overview</summary>
+<p><video controls="">
     <source src="https://jon-harper.github.io/OmniBox/video/0.9.10/side.mp4" type="video/mp4">
-</video>
-
+</video></p>
+</details>
 <h2 id="materials">Materials</h2>
-<p>These lists assume three (3) side panels are needed.</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">As Illustrated</label><label for="__tabbed_1_2">Generic</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">As Illustrated (HSI)</label><label for="__tabbed_1_2">As Illustrated (Stock)</label><label for="__tabbed_1_3">Blank Panel (HSI)</label><label for="__tabbed_1_4">Blank Panel (Stock)</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -2022,49 +2004,24 @@
 </thead>
 <tbody>
 <tr>
-<td>M3 x 6mm machine screws</td>
-<td>6</td>
-<td></td>
-</tr>
-<tr>
-<td>M3 x 8mm machine screws</td>
-<td>12</td>
-<td>May substitute 10mm or 12mm.</td>
-</tr>
-<tr>
-<td>M3 x 15mm machine screws</td>
+<td>M3 x 6mm SHCS</td>
 <td>4</td>
-<td>May substitute 16mm.</td>
+<td></td>
 </tr>
 <tr>
-<td>40mm x 10mm Axial Fan</td>
+<td>M3 x 16mm SHCS</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td>50x12mm Fan</td>
 <td>1</td>
 <td></td>
 </tr>
 <tr>
-<td>RJ-45 Extension (panel mount)</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>Side Panel - 50mm Fan - Grill - HSI.stl</code></td>
 <td>1</td>
 <td></td>
-</tr>
-<tr>
-<td>USB Extension (panel mount)</td>
-<td>2</td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Side%20Panel/40mm%20Fan%20-%20Internal" title="OmniBox GitHub: 40mm Internal Fan Side Panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <code>Side Panel - Internal 40mm Fan - OmniBox Logo.stl</code></a></td>
-<td>1</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Side%20Panel/RJ-45%20%26%20Dual%20USB" title="OmniBox GitHub: RJ-45 and Dual USB Side Panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <code>Side Panel - RJ-45 &amp; Dual USB.stl</code></a></td>
-<td>1</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
-</tr>
-<tr>
-<td><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Side%20Panel/Blank" title="OmniBox GitHub: Blank Side Panel"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> <code>Side Panel - Blank.stl</code></a></td>
-<td>1</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
 </tr>
 </tbody>
 </table>
@@ -2080,14 +2037,70 @@
 </thead>
 <tbody>
 <tr>
-<td>M3 x 8mm machine screws</td>
-<td>12</td>
-<td>May substitute 10mm or 12mm.</td>
+<td>M3 x 8mm SHCS</td>
+<td>4</td>
+<td></td>
 </tr>
 <tr>
-<td><a href="https://github.com/jon-harper/OmniBox/tree/main/Panels/Side%20Panel" title="OmniBox GitHub: Side Panels"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Side Panel</a></td>
-<td>3</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
+<td>M3 x 16mm SHCS</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td>50x12mm Axial Fan</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>Side Panel - 50mm Fan - Grill - HSI.stl</code></td>
+<td>1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Parts</th>
+<th>Qty</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M3 x 6mm SHCS</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>Side Panel V2 - Blank.stl</code></td>
+<td>1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Parts</th>
+<th>Qty</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M3 x 8mm SHCS</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> <code>Side Panel V2 - Blank.stl</code></td>
+<td>1</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -2096,47 +2109,31 @@
 </div>
 <h2 id="directions">Directions</h2>
 <figure>
-<p><a href="../../img/assembly/panels/side/side1.webp"><img alt="illustration" src="../../img/assembly/panels/side/side1.webp" /></a>
-  </p>
-<figcaption>1. Use four (4) 15mm screws to attach the 40mm fan to the Internal 40mm Fan side panel. Here the fan is used as an intake.</figcaption>
+<p><a href="todo"><img _="'" alt="Orient the fan" src="todo" width="480px" /></a></p>
+<figcaption>
+<p>1) Orient the fan</p>
+</figcaption>
 </figure>
 <figure>
-<p><a href="../../img/assembly/panels/side/side2.webp"><img alt="illustration" src="../../img/assembly/panels/side/side2.webp" width="480" /></a>
-  </p>
-<figcaption>2. Place the assembled side panel against the case body. Note that the top and bottom screw holes are not symmetrical. This fan will act as a second intake in the front, opposite the one on the Raspberry Pi.</figcaption>
+<p><a href="todo"><img _="'" alt="Secure the fan." src="todo" width="480px" /></a></p>
+<figcaption>
+<p>2) Attach the fan with four (4) M3x16mm screws.</p>
+</figcaption>
 </figure>
 <figure>
-<p><a href="../../img/assembly/panels/side/side3.webp"><img alt="illustration" src="../../img/assembly/panels/side/side3.webp" width="480" /></a>
-  </p>
-<figcaption>3. Fasten with four (4) M3 screws at least 8mm long. </figcaption>
+<p><a href="todo"><img _="'" alt="Position the panel." src="todo" width="480px" /></a></p>
+<figcaption>
+<p>2) Place the assembled side panel against the case body. Note that the top and bottom screw holes are not symmetrical. This fan will act as a second intake in the front, opposite the one on the Raspberry Pi tray.</p>
+</figcaption>
 </figure>
 <figure>
-<p><a href="../../img/assembly/panels/side/side4.webp"><img alt="illustration" src="../../img/assembly/panels/side/side4.webp" /></a>
-  </p>
-<figcaption>4. The next side panel is for RJ-45 and USB panel mounted extensions. First determine the correct orientation for the RJ-45 socket.</figcaption>
-</figure>
-<figure>
-<p><a href="../../img/assembly/panels/side/side5.webp"><img alt="illustration" src="../../img/assembly/panels/side/side5.webp" /></a>
-  </p>
-<figcaption>5. Secure with two 6mm screws.</figcaption>
-</figure>
-<figure>
-<p><a href="../../img/assembly/panels/side/side6.webp"><img alt="illustration" src="../../img/assembly/panels/side/side6.webp" /></a>
-  </p>
-<figcaption>6. The USB connectors do not have a fixed orientation. The USB connector will insert slightly into the panel mount. Secure the extensions with 6mm screws.</figcaption>
-</figure>
-<figure>
-<p><a href="../../img/assembly/panels/side/side7.webp"><img alt="illustration" src="../../img/assembly/panels/side/side7.webp" width="480" /></a>
-  </p>
-<figcaption>7. Slide the panel in place and fasten with four (4) 8mm screws.</figcaption>
-</figure>
-<figure>
-<p><a href="../../img/assembly/panels/side/side8.webp"><img alt="illustration" src="../../img/assembly/panels/side/side8.webp" width="480" /></a>
-  </p>
-<figcaption>8. Attach the remaining (blank) panel with the remaining four (4) 8mm screws.</figcaption>
+<p><a href="todo"><img _="'" alt="Fasten the panel in place." src="todo" width="480px" /></a></p>
+<figcaption>
+<p>3) HSI: Fasten the panel with four (4) M3x6mm screws.<br>Stock: Fasten the panel with four (4) M3 x 8mm screws.</p>
+</figcaption>
 </figure>
 <h2 id="reference">Reference</h2>
-<p><a href="../../img/assembly/panels/side/side_final.webp"><img alt="illustration" src="../../img/assembly/panels/side/side_final.webp" /></a></p>
+<p>[![illustration][side_final]][side_final]</p>
 <!-- OmniBox GitHub Pages -->
 <!-- 
     OmniBox GitHub Folders 
