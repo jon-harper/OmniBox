@@ -2194,8 +2194,7 @@ subassemblies:
     shcs_m3_8: 2
     wood_screw_6_3/4: 8
   assy_base_common_hsi:
-    shcs_m3_6: 10
-    shcs_m3_8: 8
+    shcs_m3_6: 18
     hsi_m3_5od_4l: 18
   assy_mb_front_rear_stock:
     shcs_m3_8: 6
@@ -2203,11 +2202,11 @@ subassemblies:
     hsi_m3_5od_4l: 6
     shcs_m3_8: 6
   assy_mb_common_stock:
-    shcs_m3_8: 40
+    shcs_m3_8: 34
     shcs_m3_10: 6
     wago_221_413: 4
   assy_mb_common_hsi:
-    shcs_m3_6: 40
+    shcs_m3_6: 34
     shcs_m3_8: 6
     hsi_m3_5od_4l: 40
     wago_221_413: 4
