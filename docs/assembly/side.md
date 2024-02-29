@@ -1,17 +1,17 @@
 ---
-title: Side Panel(s)
+title: Side Panels
 summary: Installing side panels for an OmniBox.
 authors: Jon Harper
 date: 2022-10-30
 ---
 
+{% import 'assembly.md' as assy %}
+
 Each case has four (4) locations for a side panel. If you have an SoC CPU, one side panel is already occupied by the CPU tray. In this case, you will instead need three (3) side panels.
 
 ## Overview
 
-<video controls="">
-    <source src="{{meta.video_folder}}side.mp4" type="video/mp4">
-</video>
+{{ assy.overview_video(meta.video_folder + 'side.mp4') }}
 
 ## Materials
 
