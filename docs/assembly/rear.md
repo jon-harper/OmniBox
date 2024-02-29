@@ -3,7 +3,27 @@ title: Rear Panel and Wiring
 summary: Adding the rear panel and wiring the MCU.
 authors: Jon Harper
 date: 2022-11-03
+steps:
+  rear:
+    - txt: |
+        1) Put the fan inside of the cage and the gasket on top, as shown.
+      img: todo
+      img_txt: Put the fan cage together.
+    - txt: |
+        2) Push the fan's wiring through the cutout at the bottom. Fasten the fan cage assembly in place with four (4) M3 x 30mm screws.
+      img: todo
+      img_txt: Secure the fan cage assembly.
+    - txt: |
+        3) Fit the rear panel against the back of the case.
+      img: todo
+      img_txt: Positon the rear panel.
+    - txt: |
+        4) Fasten in place using eight (8) M3 screws.
+      img: todo
+      img_txt: Secure the panel.
 ---
+
+{% import 'assembly.md' as assy %}
 
 We are close to completion, so the rear panel and MCU wiring are next.
 
@@ -11,58 +31,35 @@ We are close to completion, so the rear panel and MCU wiring are next.
 
 ## Overview
 
-<video controls="">
-    <source src="{{meta.video_folder}}rear.mp4" type="video/mp4">
-</video>
+{{ assy.overview_video(meta.video_folder + 'rear.mp4') }}
 
 ### Materials
 
-=== "As Illustrated"
-
+=== "As Illustrated (HSI)"
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M3 x 6mm machine screws   | 8   |                                 |
-    | M3 x 25mm machine screws  | 4   |                                 |
+    | M3 x 6mm SHCS             | 8   |                                 |
+    | M3 x 20mm SHCS            | 4   |                                 |
     | 60mm x 15mm axial fan     | 1   |                                 |
-    | [:material-git: `Generic No USB with Fan.stl`][git_generic_rear] | 1  | :material-printer-3d-nozzle: Printed |
-    | [:material-git: `6015 Fan Cage.stl`][git_fans_6015] | 1 | :material-printer-3d-nozzle: Printed |
-    | [:material-git: `6015 Fan Gasket.stl`][git_fans_6015] | 1 | :material-printer-3d-nozzle: Printed **TPU**, optional |
-
-=== "Stock"
-
+    | :material-printer-3d-nozzle: `Rear Panel - Generic USB B with Fan.stl` | 1  |  |
+    | :material-printer-3d-nozzle: `6015 Fan Cage.stl` | 1  |  |
+    | :material-printer-3d-nozzle: `6015 Fan Gasket.stl` | 1  | Printed with **TPU**, Optional |
+=== "Generic (Stock)"
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M3 x 8mm machine screws   | 8   | May substitute 10mm or 12mm.    |
-    | Rear Panel                | 1  | :material-printer-3d-nozzle: Printed |
+    | M3 x 8mm SHCS             | 8   | May substitute 10mm or 12mm.    |
+    | :material-printer-3d-nozzle: `Generic No USB.stl` | 1  | Basic example. |
 
-=== "HSI"
-
+=== "Generic (HSI)"
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M3 x 6mm machine screws   | 8   |                                 |
-    | Rear Panel                | 1   | :material-printer-3d-nozzle: Printed |
+    | M3 x 6mm SHCS             | 8   |                                 |
+    | :material-printer-3d-nozzle: `Generic No USB.stl` | 1  | Basic example. |
 
 ### Directions
 
-<figure markdown>
-  [![illustration][fan1]{width="480"}][fan1]
-  <figcaption>1. Put the fan, cage, and gasket together as shown.</figcaption>
-</figure>
+{{ assy.render_steps(steps.rear, '480px') }}
 
-<figure markdown>
-  [![illustration][fan2]{width="480"}][fan2]
-  <figcaption>1. Push the fan's wiring through the cutout at the bottom. Fasten the fan cage assembly in place with four (4) M3 x 30mm screws.</figcaption>
-</figure>
-                                                            
-<figure markdown>
-  [![illustration][rear1]{width="480"}][rear1]
-  <figcaption>1. Fit the rear panel against the back of the case.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][rear2]{width="480"}][rear2]
-  <figcaption>1. Fasten in place using eight (8) M3 screws.</figcaption>
-</figure>
 
 ### Reference
 
@@ -77,10 +74,10 @@ Before we install the display and lid, complete all remaining wiring for the MCU
 - Double-check your work.
 - Be prepared to cut power instantly during both power on and testing the printer.
 - **Consider safing your printer against ground faults!**
-    - Grounding to earth protects in case of a number of issues, e.g., a short in the bed touching the frame.
-    - This is very important for AC-powered beds.
+    - Grounding to earth protects in case of an electrical short.
+    - This is crucial for AC-powered beds.
     - Connect your frame to the AC ground (usually a yellow or green wire, **not** the black neutral wire).
-    - Do not assume your power supply case is safely earthed—test with a multimeter.
+    - Do not assume your power supply case is safely earthed; always test with a multimeter.
     - [TH3D has a page with helpful videos on the subject][ground_guide].
 
 <figure markdown>
