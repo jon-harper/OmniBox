@@ -1208,6 +1208,11 @@ parts:
       template: psu_v1
 
     ### Displays
+    # Blank/Template
+    panel_blank_display:
+      name: Display Panel - Blank V3.stl
+      file: /Panels/Display/Template/Display Panel - Blank V3.stl
+      template: display_v2
     # Generic 12864
     panel_generic_12864:
       name: Display Panel - Generic 12864.stl
@@ -2655,6 +2660,15 @@ components:
   
   Display:
   ###
+    comp_display_blank:
+      name: Blank Panel
+      template: display_v3
+      note: |
+        This is an STL of the template file. It can be used when no display is present.
+      variants:
+        Stock:
+          parts:  
+            panel_blank_display: 1
     comp_generic_12864:
       name: Generic 128x64
       template: display_v2
@@ -2662,11 +2676,13 @@ components:
       note: |
         - Also known as Creality CR-10 stock display in Marlin.
         - Common on many older i3-style and Creality printers.
+        - *`Display Knob.stl` is optional.*
       attributes:
         display_type: MCU
       parts:
         generic_12864: 1
         shcs_m3_6: 4
+        misc_display_knob : 1
       variants:
         Stock:
           parts:
@@ -2675,13 +2691,16 @@ components:
       name: Mini 12864
       template: display_v2
       img: img/parts/mini12864.webp
-      note: Compatible with FYSETC, Bigtreetech, and other brands.
+      note: |
+        - Compatible with FYSETC, Bigtreetech, and other brands.
+        - *`Display Knob.stl` is optional.*
       attributes: 
         display_type: MCU
       parts:
         mini_12864: 1
         shcs_m3_6: 4
         shcs_m3_20: 4
+        misc_display_knob: 1
       variants:
         Stock:
           parts:
@@ -2692,13 +2711,16 @@ components:
       name: Bigtreetech 3.5" TFT
       template: display_v2
       img: img/parts/btt_tft_3.5.webp
-      note: This is not the E3 version, which has its own display mount.
+      note: |
+        - This is not the E3 version, which has its own display mount.
+        - *`Display Knob.stl` is optional.*
       attributes:
         display_type: MCU
       parts:
         btt_35_tft: 1
         shcs_m3_6: 4
         shcs_m3_8: 4
+        misc_display_knob: 1
       variants:
         Stock:
           attributes:
@@ -2728,11 +2750,14 @@ components:
       name: Bigtreetech 3.5" TFT E3
       template: display_v3
       img: img/parts/btt_35tft_e3.webp
+      note: |
+        - `Display Knob.stl` is optional.
       attributes:
         display_type: MCU
       parts:
         btt_35_tft_e3: 1
         shcs_m3_6: 4
+        misc_display_knob: 1
       variants: 
         Stock:
           parts:
