@@ -2,7 +2,7 @@
 title: Side Panels
 summary: Installing side panels for an OmniBox.
 authors: Jon Harper
-date: 2022-10-30
+date: 2024-02-28
 steps:
   side_fan:
     - txt: |

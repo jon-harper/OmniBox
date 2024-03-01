@@ -17,8 +17,7 @@ an unused CPU tray bay.
 
 <figure markdown>
   [![img][img_lower_bay]{ width="480" }][img_lower_bay]
-  <figcaption>Up to three (3) Long trays will fit in a case, or six (6) Short trays.
-    <br/>A Short tray is pictured.</figcaption>
+  <figcaption>Up to three (3) Long trays will fit in a case, or six (6) Short trays.</figcaption>
 </figure>
 
 [img_lower_bay]: ../img/components/lower_bay.webp

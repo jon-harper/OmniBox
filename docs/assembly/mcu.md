@@ -39,16 +39,16 @@ steps:
     |---------------------------|-----|---------------------------------|
     | M3 x 6mm machine screws   | 8   |                                 |
     | BIGTREETECH SKR 2         | 1   |                                 |
-    | :material-printer-3d-nozzle:    | 
+    | :material-printer-3d-nozzle: `MCU Tray - BTT SKR v2 - HSI.stl` | 1 | |
 
-=== "Generic (Stock)"
+=== "As Illustrated (Stock)"
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | M3 x 6mm machine screws   | 4   | Some MCUs may use 5 or more.    |
+    | M3 x 6mm machine screws   | 4   |                                 |
     | M3 x 8mm machine screws   | 4   |                                 |
-    | Compatible MCU            | 1   |                                 |
-    | :material-printer-3d-nozzle: Printed MCU Tray | 1 |               |
+    | BIGTREETECH SKR 2         | 1   |                                 |
+    | :material-printer-3d-nozzle: `MCU Tray - BTT SKR v2.stl` | 1 |    |
 
 ### Directions
 
