@@ -983,6 +983,10 @@ parts:
     #   name: MCU Tray - BTT SKR v1.stl
     #   file: Trays/MCU/BTT SKR/MCU Tray - BTT SKR v1.stl
     #   template: mcu_v1
+    tray_btt_skr_classic_v2_hsi:
+      name: MCU Tray - BTT SKR v2 - HSI.stl
+      file: Trays/MCU/BTT SKR/MCU Tray - BTT SKR v2 - HSI.stl
+      template: mcu_v2
     tray_creality_2_v2:
       name: MCU Tray - M3 Creality 2.5.2.stl 
       author: u_mrmeh
@@ -2404,6 +2408,12 @@ components:
         Stock:
           parts:
             tray_btt_skr_classic_v2: 1
+        HSI:
+          attributes:
+            hsi: true
+          parts:
+            tray_btt_skr_classic_v2_hsi: 1
+            hsi_m3_5od_4l: 4
     comp_btt_skr_3_v2:
       name: Bigtreetech SKR 3
       template: mcu_v2
