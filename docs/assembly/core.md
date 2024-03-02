@@ -6,48 +6,49 @@ date: 2022-10-29
 steps:
   attach:
     - txt: |
-        1) Set the front and rear Main Bodies over the base and the align the edges.
-      img: todo
+        1) Set the front and rear Main Bodies over the base and the align the edges.<br>
+        Note: the support ghosts are caused by a software bug; supports should be removed.
+      img: ../img/assembly/core/core1.webp
       img_txt: Align the main body over the base.
     - txt: |
         2) Begin inserting screws to the base, only partially tightening.<br>
         Stock: tighten woodscrews about halfway.<br>
         HSI: tighten to finger tightness.
-      img: todo
+      img: ../img/assembly/core/core2.webp
       img_txt: Begin tightening screws.
     - txt: |
         3) Continue inserting and partially tightening until all eight (8) are inserted.
-      img: todo
+      img: ../img/assembly/core/core3.webp
       img_txt: Continue installing screws.
     - txt: | 
         4) Check for any alignment problems between the Base and Main Body. When satisfied, finish tightening the screws down completely.
-      img: todo
+      img: ../img/assembly/core/core4.webp
       img_txt: Finish tightening.
   center:
     - txt: |
         1) Insert an M3 x 8mm screw in the top hole on one side of the rear Main Body. Fasten it to the mating hole on the front Main Body.
-      img: todo
+      img: ../img/assembly/core/center1.webp
       img_txt: Insert a first screw in the top hole.
     - txt: |
         2) Repeat with the top hole on the other side of the Main Body, again fastening from back to front.
-      img: todo
+      img: ../img/assembly/core/center2.webp
       img_txt: Insert a screw in the opposite top hole.
     - txt: |
         3) Use two (2) more M3 screws to fill in the remaining screw holes on one side.
-      img: todo
+      img: ../img/assembly/core/center3.webp
       img_txt: Fill out the holes on one side.
     - txt: |
         4) Repeat with the final two (2) screw holes on the opposite side.
-      img: todo
+      img: ../img/assembly/core/center4.webp
       img_txt: Fill out the remaining holes.
   crossbar:
     - txt: |
         1) Hold the crossbar between the screw holes at the top of the front main body. Note that the lip should face forward.
-      img: todo
+      img: ../img/assembly/core/crossbar1.webp
       img_txt: Align the crossbar
     - txt: |
         2) Fasten the crossbar in place with two (2) M3 x 16mm screws. Tightness can be adjusted to help square the sides of the case body.
-      img: todo
+      img: ../img/assembly/core/crossbar2.webp
       img_txt: Fasten with two screws.
 ---
 

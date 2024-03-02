@@ -8,44 +8,40 @@ steps:
     - txt: |
         1) Align the angled center screw holes of the front and rear halves as illustrated, then 
         press them together.
-      img: TODO
+      img: ../img/assembly/core/base1.webp
       img_txt: Align the screw holes
     - txt: |
         2) Install four (4) M3 x 8mm screws in the angled holes in the top of the Rear half.
         These screws join with the Front half.<br>
         Double-check that the halves are aligned before fully tightening the screws.
-      img: TODO
+      img: ../img/assembly/core/base2.webp
       img_txt: Install the center screws
   base_prep:
     - txt: |
-        1) Use flush cutters to remove the last rib on both sides of the rocker switch.
-      img: todo
-      img_txt: Remove the last rib on the rocker switch.
-    - txt: |
-        2) Insert the rocker switch into the Power Switch Protector. The flaps on the side compress and snap the switch in place once inserted.
+        1) Insert the rocker switch into the Power Switch Protector. The flaps on the side compress and snap the switch in place once inserted.
       img: todo
       img_txt: Join rocker switch to protector.
     - txt: |
-        3) Slide the rocker switch and protector into the open slot on the front base. It should pop into place.
+        2) Slide the rocker switch and protector into the open slot on the front base. It should pop into place.
       img: todo
       img_txt: Install the rocker switch.
     - txt: |
-        4) Remove the fuse cover by sliding it out. If a fuse is inserted in the fuse holder, remove it.
+        3) Remove the fuse cover by sliding it out. If a fuse is inserted in the fuse holder, remove it.
       img: todo
       img_txt: Remove the fuse cover and fuse.
     - txt: |
-        5) Insert a fuse into the fuse holder and replace the cover.
+        4) Insert a fuse into the fuse holder and replace the cover.
       img: todo
       img_txt: Install the new fuse.
     - txt: |
-        6) Slide the IEC socket into the rear of the base and secure with two (2) M3 x 6mm screws.
+        5) Slide the IEC socket into the rear of the base and secure with two (2) M3 x 6mm screws.
       img: todo
       img_txt: Install the socket.
   psu_tray:
     - txt: |
         1) Set the power supply with the terminals are facing downwards and away from you.
       img: todo
-      img_text: Orient the PSU.
+      img_txt: Orient the PSU.
     - txt: |
         2) Place the right PSU tray mount against the right side of the power supply. The printed 'R' should face upwards.
       img: todo
