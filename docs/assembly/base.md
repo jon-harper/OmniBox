@@ -11,9 +11,9 @@ steps:
       img: ../img/assembly/core/base1.webp
       img_txt: Align the screw holes
     - txt: |
-        2) Install four (4) M3 x 8mm screws in the angled holes in the top of the Rear half.
-        These screws join with the Front half.<br>
-        Double-check that the halves are aligned before fully tightening the screws.
+        2) Insert four (4) M3 x 12mm screws in the angled holes in the top of the Rear half and
+        fasten them to the front half.<br>
+        Double-check that the parts are aligned before fully tightening the screws.
       img: ../img/assembly/core/base2.webp
       img_txt: Install the center screws
   base_prep:
