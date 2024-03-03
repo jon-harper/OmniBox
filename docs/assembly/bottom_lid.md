@@ -6,45 +6,42 @@ date: 2022-11-15
 steps:
   bottom:
     - txt: |
-        1) Line up the front bottom panel with the of the case.
-      img: todo
+        1) Set the front bottom panel in the recess in the base.
+      img: ../img/assembly/panels/bottom1.webp
       img_txt: Align the front panel with the base.
     - txt: |
-        2) HSI: Use four (4) M3 x 6mm screws to attach the panel.<br>
-        Stock: Use four (4) M3 x 8mm screws to attach the panel.
-      img: todo
+        2) Use four (4) screws to attach the panel.<br>HSI: M3 x 6mm<br>Stock: M3 x 8mm
+      img: ../img/assembly/panels/bottom2.webp
       img_txt: Attach the front panel.
     - txt: |
         3. Use the same procedure for the rear bottom panel with four (4) more screws.
-      img: todo
+      img: ../img/assembly/panels/bottom3.webp
       img_txt: Attach the rear panel.
   top:
     - txt: |
         1) Place the handle over the screw holes in the center of the carry handle lid.
-      img: todo
+      img: ../img/assembly/panels/lid1.webp
       img_txt: Position the handle.
     - txt: |
         2) Flip the lid over and fasten the handle in place with two (2) M3 x 8mm screws.
-      img: todo
+      img: ../img/assembly/panels/lid2.webp
       img_txt: Secure the handle.
     - txt: |
         3) Place the assembled carry handle lid on top of the case. The lid is reversible.
-      img: todo
+      img: ../img/assembly/panels/lid3.webp
       img_txt: Position the carry handle lid.
     - txt: |
         4) Use four (4) screws to attach the lid.<br>
         HSI: M3 x 6mm
         Stock: M3 x 8mm
-      img: todo
+      img: ../img/assembly/panels/lid4.webp
       img_txt: Secure with screws.
     - txt: |
         5) Position and install the the vent lid with four (4) screws.
         HSI: M3 x 6mm
         Stock: M3 x 8mm
-      img: todo
+      img: ../img/assembly/panels/lid5.webp
       img_txt: Install the second lid.
-HSI: 
-
 ---
 
 {% import 'assembly.md' as assy %}
@@ -54,6 +51,9 @@ This page contains the last two sections of the build. Here we close up the bott
 All wiring should be completed before proceeding.
 
 ## Bottom Panel
+
+The example below uses a front and rear bottom panel. The procedure for installing a unified bottom panel is effectively the same uses the
+the same fasteners.
 
 {{ assy.overview_video(meta.video_folder + 'bottom.mp4') }}
 
@@ -80,11 +80,11 @@ All wiring should be completed before proceeding.
 
 ### Reference
 
-[![illustration][bottom_final]][lid_final]
+[![illustration][bottom_final]{width="640px"}][bottom_final]
 
 ## Lid(s)
 
-The example below uses a single, long lid. The procedure for installing two short lids is the same and requires no additional fasteners.
+The example below uses two short lids. The procedure for installing a single, long lid is effectively the same and requires no additional fasteners.
 
 {{ assy.overview_video(meta.video_folder + 'lid.mp4') }}
 
@@ -95,7 +95,7 @@ The example below uses a single, long lid. The procedure for installing two shor
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
     | M3 x 6mm SHCS   | 10  |                                 |
-    | :material-printer-3d-nozzle:  Lid - Short Vent.stl | 1 |    |
+    | :material-printer-3d-nozzle: Lid - Short Vent.stl | 1 |    |
     | :material-printer-3d-nozzle: Half Carry Lid.stl | 1 |    |
     | :material-printer-3d-nozzle: Carry Handle - HSI.stl | 1 |    |
 
@@ -104,7 +104,7 @@ The example below uses a single, long lid. The procedure for installing two shor
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
     | M3 x 8mm SHCS   | 10  |                                 |
-    | :material-printer-3d-nozzle:  Lid - Short Vent.stl | 1 |    |
+    | :material-printer-3d-nozzle: Lid - Short Vent.stl | 1 |    |
     | :material-printer-3d-nozzle: Half Carry Lid.stl | 1 |    |
     | :material-printer-3d-nozzle: Carry Handle - HSI.stl | 1 |    |
 
@@ -114,7 +114,7 @@ The example below uses a single, long lid. The procedure for installing two shor
 
 ### Reference
 
-[![illustration][lid_final]][lid_final]
+[![illustration][lid_final]{width="640px"}][lid_final]
 
 <div align="center" markdown>
 # :material-check: That's it!
@@ -124,6 +124,6 @@ You've assembled an OmniBox! Congratulations!
 ![logo][logo]
 </div>
 
-[lid_final]: ../img/assembly/panels/lid/lid_final.webp
-[bottom_final]: ../img/assembly/panels/bottom/bottom_final.webp
+[lid_final]: ../img/assembly/final.webp
+[bottom_final]: ../img/assembly/panels/bottom_final.webp
 [logo]: ../img/favicon.png

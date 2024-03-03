@@ -6,20 +6,20 @@ date: 2024-02-28
 steps:
   side_fan:
     - txt: |
-        1) Orient the fan
-      img: todo
+        1) Orient the fan against the panel. Consider both direction of airflow and the fan's wiring.
+      img: ../img/assembly/panels/side1.webp
       img_txt: Orient the fan
     - txt: |
         2) Attach the fan with four (4) M3x16mm screws.
-      img: todo
+      img: ../img/assembly/panels/side2.webp
       img_txt: Secure the fan.
     - txt: |
         2) Place the assembled side panel against the case body. Note that the top and bottom screw holes are not symmetrical. This fan will act as a second intake in the front, opposite the one on the Raspberry Pi tray.
-      img: todo
+      img: ../img/assembly/panels/side3.webp
       img_txt: Position the panel.
     - txt: |
         3) HSI: Fasten the panel with four (4) M3x6mm screws.<br>Stock: Fasten the panel with four (4) M3 x 8mm screws.
-      img: todo
+      img: ../img/assembly/panels/side4.webp
       img_txt: Fasten the panel in place.
 ---
 
@@ -28,8 +28,8 @@ steps:
 Each case has four (4) locations for a side panel. If you have a CPU tray installed, one side panel is already
 occupied. In this case, you will instead need three (3) side panels.
 
-We will cover how to assemble two different types of side panels.
-
+You will need to install all of your side panels in this section. We will demonstrate the installation of a
+single side panel as an example.
 
 ## Overview
 
@@ -69,3 +69,5 @@ We will cover how to assemble two different types of side panels.
 ## Reference
 
 [![illustration][side_final]][side_final]
+
+[side_final]: ../img/assembly/panels/side_final.webp

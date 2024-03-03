@@ -7,19 +7,19 @@ steps:
   rear:
     - txt: |
         1) Put the fan inside of the cage and the gasket on top, as shown.
-      img: todo
+      img: ../img/assembly/panels/rear1.webp
       img_txt: Put the fan cage together.
     - txt: |
         2) Push the fan's wiring through the cutout at the bottom. Fasten the fan cage assembly in place with four (4) M3 x 30mm screws.
-      img: todo
+      img: ../img/assembly/panels/rear2.webp
       img_txt: Secure the fan cage assembly.
     - txt: |
         3) Fit the rear panel against the back of the case.
-      img: todo
+      img: ../img/assembly/panels/rear3.webp
       img_txt: Positon the rear panel.
     - txt: |
         4) Fasten in place using eight (8) M3 screws.
-      img: todo
+      img: ../img/assembly/panels/rear4.webp
       img_txt: Secure the panel.
 ---
 
@@ -105,11 +105,7 @@ Before we install the display and lid, complete all remaining wiring for the MCU
 !!! tip "Before Continuing"
     It is a good idea to perform initial power on tests now.
 
-[fan1]: ../img/assembly/panels/rear/fan1.webp
-[fan2]: ../img/assembly/panels/rear/fan2.webp
-[rear1]: ../img/assembly/panels/rear/rear1.webp
-[rear2]: ../img/assembly/panels/rear/rear2.webp
-[rear_final]: ../img/assembly/panels/rear/rear_final.webp
+[rear_final]: ../img/assembly/panels/rear_final.webp
 
 [earth]: ../img/assembly/earth.webp
 [wiring]: ../img/assembly/wiring.webp

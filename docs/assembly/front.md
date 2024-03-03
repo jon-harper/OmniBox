@@ -6,32 +6,28 @@ date: 2024-02-29
 steps:
   front:
     - txt: |
-        1) Carefully pry open the outer plastic shell around the MicroSD card reader extension. Discard the shell.
-      img: todo
-      img_txt: Pry open the MicroSD extension.
+        1) (Not Pictured) Carefully pry open the outer plastic shell around the MicroSD card reader extension. Discard the shell.
     - txt: |
         2) (Not pictured) Place the MicroSD extension PCB in the holder body. The ribbon cable should be flush with the lip on the back of the holder.
-      img: todo
-      img_txt: Position the SD card extension in the holder.
     - txt: |
         3) Place the holder cap on top of the extension and holder body.
-      img: todo
+      img: ../img/assembly/panels/front3.webp
       img_txt: Put the cap on the holder.
     - txt: | 
         4) Use two M3 x 6mm screws to fasten the cap in place.
-      img: todo
+      img: ../img/assembly/panels/front4.webp
       img_txt: Fasten the cap.
     - txt: |
         5) Slot the SD card assembly into the front panel and secure with two (2) M3 x 6mm screws. Vertical orientation does not matter.
-      img: todo
+      img: ../img/assembly/panels/front5.webp
       img_txt: Install the extension to the front panel.
     - txt: |
         6) Push the front panel into place on the case body. Slip the SD card extension cable through first.
-      img: todo
+      img: ../img/assembly/panels/front6.webp
       img_txt: Position the front panel.
     - txt: |
-        7) HSI: Attach the panel with two (2) M3 x 8mm screws.<br>Stock: Attach the panel with two (2) M3 x 10mm screws.
-      img: todo
+        7) Attach the panels with two (2) screws.<br>HSI: M3 x 8mm<br>M3 x 10mm
+      img: ../img/assembly/panels/front7.webp
       img_txt: Secure the panel.
 ---
 
@@ -78,3 +74,5 @@ steps:
 ## Reference
 
 [![illustration][front_final]][front_final]
+
+[front_final]: ../img/assembly/panels/front_final.webp

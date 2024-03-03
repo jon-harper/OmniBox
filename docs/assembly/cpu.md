@@ -6,30 +6,34 @@ date: 2024-02-28
 steps:
   cpu:
     - txt: |
-        1) Orient the 40mm fan and fasten with four (4) M3 x 15mm screws.
-      img: todo
-      img_txt: Install the fan.
+        1) Orient the 40mm fan. Take into account both airflow direction and the location of the fan's wiring.
+      img: ../img/assembly/trays/cpu1.webp
+      img_txt: Position the fan.
     - txt: |
-        2) Place the Raspberry Pi on the CPU tray with the headers facing away from the fan.
-      img: todo
+        2) Fasten the fan in place with four (4) M3 x 15mm screws.
+      img: ../img/assembly/trays/cpu2.webp
+      img_txt: Secure the fan.
+    - txt: |
+        3) Place the Raspberry Pi on the CPU tray with the headers facing away from the fan.
+      img: ../img/assembly/trays/cpu3.webp
       img_txt: Orient the Raspberry Pi.
     - txt: |
-        3) Fasten with four (4) M3 x 6mm screws. The holes are for M2.5 screws but will bore out easily for M3 screws.
-      img: todo
+        4) Fasten with four (4) M3 x 6mm screws. The holes are for M2.5 screws but will bore out easily for M3 screws.
+      img: ../img/assembly/trays/cpu4.webp
       img_txt: Secure the Raspberry Pi.
     - txt: |
-        4) Slide the assembly into the case. The front CPU bays offer more room for connectors, but any CPU bay work.
-      img: todo
+        5) Slide the assembly into the case. The front CPU bays offer more room for connectors, but any CPU bay work.
+      img: ../img/assembly/trays/cpu5.webp
       img_txt: Insert the CPU tray.
     - txt: |
-        5) Install with four screws.<br>HSI: M3 x 6mm<br>Stock: M3 x 8mm
-      img: todo
+        6) Install with four screws.<br>HSI: M3 x 6mm<br>Stock: M3 x 8mm
+      img: ../img/assembly/trays/cpu6.webp
       img_txt: Secure the tray.
 ---
 
 {% import 'assembly.md' as assy %}
 
-This section is optional. If you are not using a SoC CPU like a Raspberry Pi, use a fourth [side panel][side] in the next assembly section.
+This section is optional. If you are not using a SoC CPU like a Raspberry Pi, use a fourth [side panel][side] in that assembly section.
 
 ## Overview
 
@@ -71,3 +75,4 @@ This section is optional. If you are not using a SoC CPU like a Raspberry Pi, us
 
 [side]: side.md
 
+[cpu_final]: ../img/assembly/trays/cpu_final.webp

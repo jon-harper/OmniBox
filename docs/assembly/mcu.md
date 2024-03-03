@@ -7,19 +7,19 @@ steps:
   mcu:
     - txt: |
         1. Place your MCU on the tray and align the mounting holes.
-      img: todo
+      img: ../img/assembly/trays/mcu1.webp
       img_txt: Position the MCU.
     - txt: |
         2. Use four (4) 6mm screws to secure the MCU.
-      img: todo
+      img: ../img/assembly/trays/mcu2.webp
       img_txt: Attach the MCU.
     - txt: |
         3. Set the MCU tray on the pillars in the case. The board's power connectors should orient to the back of the case or to the side.
-      img: todo
+      img: ../img/assembly/trays/mcu3.webp
       img_txt: Position the MCU tray.
     - txt: |
         4. Fasten the tray with four (4) M3 x 6mm screws.
-      img: todo
+      img: ../img/assembly/trays/mcu4.webp
       img_txt: Attach the tray.
 ---
 
@@ -38,7 +38,7 @@ steps:
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
     | M3 x 6mm machine screws   | 8   |                                 |
-    | BIGTREETECH SKR 2         | 1   |                                 |
+    | BIGTREETECH SKR 3         | 1   |                                 |
     | :material-printer-3d-nozzle: `MCU Tray - BTT SKR v2 - HSI.stl` | 1 | |
 
 === "As Illustrated (Stock)"
@@ -47,7 +47,7 @@ steps:
     |---------------------------|-----|---------------------------------|
     | M3 x 6mm machine screws   | 4   |                                 |
     | M3 x 8mm machine screws   | 4   |                                 |
-    | BIGTREETECH SKR 2         | 1   |                                 |
+    | BIGTREETECH SKR 3         | 1   |                                 |
     | :material-printer-3d-nozzle: `MCU Tray - BTT SKR v2.stl` | 1 |    |
 
 ### Directions
@@ -62,3 +62,5 @@ steps:
 ### Reference
 
 [![illustration][mcu_final]][mcu_final]
+
+[mcu_final]: ../img/assembly/trays/mcu_final.webp

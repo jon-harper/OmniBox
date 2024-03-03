@@ -7,33 +7,33 @@ steps:
   lower_bay_long:
     - txt: |
         1) Snap the two (2) Wago connectors in place.
-      img: todo
+      img: ../img/assembly/trays/lower_long1.webp
       img_txt: Insert Wago connectors.
     - txt: |
         2) Attach the buck converter to the tray with two (2) M3 x 6mm screws.
-      img: todo
+      img: ../img/assembly/trays/lower_long2.webp
       img_txt: Install the buck converter.
     - txt: |
         3) Position the tray in the case. Large trays are often installed in the
         middle of the case, out of the way of side panels or CPU trays.
-      img: todo
+      img: ../img/assembly/trays/lower_long3.webp
       img_txt: Position the tray.
     - txt: |
         4) Secure the tray in place with four (4) M3 x 6mm screws.
-      img:
+      img: ../img/assembly/trays/lower_long4.webp
       img_txt: Secure with screws.
   lower_bay_short:
     - txt: |
         1) Set the buck converter on the tray's standoffs and secure with two (2) M3 x 6mm screws. It is a good idea to ensure the converter's voltage level is set at this point.
-      img: todo
+      img: ../img/assembly/trays/lower_short1.webp
       img_txt: Install the buck converter.
     - txt: |
         2) Position the tray in the lower bay. In this case, the tray will not fit next to the Raspberry Pi, so it is placed in the back.
-      img: todo
+      img: ../img/assembly/trays/lower_short2.webp
       img_txt: Position the tray.
     - txt: |
         3) Secure the tray to the case with four (4) M3 x 6mm screws.
-      img: todo
+      img: ../img/assembly/trays/lower_short3.webp
       img_txt: Secure with screws.
 ---
 
@@ -84,4 +84,6 @@ In the example below, we'll install another buck converter on a short tray.
 
 ## Reference
 
-[![illustration][lower_bay_final]][lower_bay_final]
+[![illustration][lower_bay_final]{ width="560" }][lower_bay_final]
+
+[lower_bay_final]: ../img/assembly/trays/lower_final.webp

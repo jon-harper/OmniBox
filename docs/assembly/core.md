@@ -88,7 +88,7 @@ Next we'll add the front and rear halves of the Main Body to the Base.
 
 ### Reference
 
-[![illustration][main_final]{width="640"}][main_final]
+[![illustration][core_final]{width="640"}][core_final]
 
 ## Join the Main Body
 
@@ -137,3 +137,6 @@ Next we'll add the front and rear halves of the Main Body to the Base.
 [trays]:        trays.md "Tray Assembly"
 [panels]:       panels.md "Panel Assembly"
 [checklist]:    ../printing.md#print-checklist "Print Checklist"
+[crossbar_final]: ../img/assembly/core/crossbar_final.webp
+[center_final]: ../img/assembly/core/center_final.webp
+[core_final]: ../img/assembly/core/core_final.webp
