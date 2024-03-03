@@ -11,7 +11,9 @@
 
 {% macro step(txt, img_url, img_txt, width='480px') -%}
 <figure markdown>
+{%- if img_url -%}
 [![{{img_txt}}]({{img_url}}){ width='{{width}}'' }]({{img_url}})
+{%- endif -%}
 <figcaption markdown>{{txt}}</figcaption>
 </figure>
 {%- endmacro %}
