@@ -40,6 +40,8 @@ Cablecraft has an excellent, [:material-book-open-variant: in-depth guide][crimp
 
 ## Wiring the PSU
 
+The illustrations and video in this section are from a prior release, but the procedure for this release is the same.
+
 ###  Overview
 
 <video controls="">
