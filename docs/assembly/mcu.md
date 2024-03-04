@@ -10,7 +10,7 @@ steps:
       img: ../img/assembly/trays/mcu1.webp
       img_txt: Position the MCU.
     - txt: |
-        2. Use four (4) 6mm screws to secure the MCU.
+        2. Use four (4) M3 x 6mm screws to secure the MCU.
       img: ../img/assembly/trays/mcu2.webp
       img_txt: Attach the MCU.
     - txt: |

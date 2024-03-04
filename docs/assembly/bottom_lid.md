@@ -10,7 +10,7 @@ steps:
       img: ../img/assembly/panels/bottom1.webp
       img_txt: Align the front panel with the base.
     - txt: |
-        2) Use four (4) screws to attach the panel.<br>HSI: M3 x 6mm<br>Stock: M3 x 8mm
+        2) Use four (4) M3 x 6mm screws to attach the panel.
       img: ../img/assembly/panels/bottom2.webp
       img_txt: Attach the front panel.
     - txt: |
@@ -23,7 +23,8 @@ steps:
       img: ../img/assembly/panels/lid1.webp
       img_txt: Position the handle.
     - txt: |
-        2) Flip the lid over and fasten the handle in place with two (2) M3 x 8mm screws.
+        2) Flip the lid over and fasten the handle in place with two screws.
+        <br>HSI: M3 x 6mm<br>Stock: M3 x 8mm
       img: ../img/assembly/panels/lid2.webp
       img_txt: Secure the handle.
     - txt: |
@@ -31,15 +32,13 @@ steps:
       img: ../img/assembly/panels/lid3.webp
       img_txt: Position the carry handle lid.
     - txt: |
-        4) Use four (4) screws to attach the lid.<br>
-        HSI: M3 x 6mm
-        Stock: M3 x 8mm
+        4) Use four (4) screws to attach the lid.
+        <br>HSI: M3 x 6mm
+        <br>Stock: M3 x 8mm
       img: ../img/assembly/panels/lid4.webp
       img_txt: Secure with screws.
     - txt: |
-        5) Position and install the the vent lid with four (4) screws.
-        HSI: M3 x 6mm
-        Stock: M3 x 8mm
+        5) Position and install the the vent lid with four (4) more screws.
       img: ../img/assembly/panels/lid5.webp
       img_txt: Install the second lid.
 ---
@@ -59,20 +58,11 @@ the same fasteners.
 
 ### Materials
 
-=== "As Illustrated (HSI)"
-    | Parts                     | Qty | Note                            |
-    |---------------------------|-----|---------------------------------|
-    | M3 x 6mm SHCS   | 8   |                                 |
-    | :material-printer-3d-nozzle: `Bottom Panel V3 - Hexagons Front.stl` | 1 | |
-    | :material-printer-3d-nozzle: `Bottom Panel V3 - Hexagons Rear.stl` | 1  | |
-    
-
-=== "As Illustrated (Stock)"
-    | Parts                     | Qty | Note                            |
-    |---------------------------|-----|---------------------------------|
-    | M3 x 8mm SHCS   | 8   | May substitute 10mm or 12mm.    |
-    | :material-printer-3d-nozzle: `Bottom Panel V3 - Hexagons Front.stl` | 1 | |
-    | :material-printer-3d-nozzle: `Bottom Panel V3 - Hexagons Rear.stl` | 1  | |
+| Parts                     | Qty | Note                            |
+|---------------------------|-----|---------------------------------|
+| M3 x 6mm SHCS   | 8   |                                 |
+| :material-printer-3d-nozzle: `Bottom Panel V3 - Hexagons Front.stl` | 1 | |
+| :material-printer-3d-nozzle: `Bottom Panel V3 - Hexagons Rear.stl` | 1  | |
 
 ### Directions
 
@@ -114,12 +104,12 @@ The example below uses two short lids. The procedure for installing a single, lo
 
 ### Reference
 
+<div align="center" markdown>
 [![illustration][lid_final]{width="640px"}][lid_final]
 
-<div align="center" markdown>
 # :material-check: That's it!
 
-You've assembled an OmniBox! Congratulations!
+You built an OmniBox! Congratulations!
 
 ![logo][logo]
 </div>

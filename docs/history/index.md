@@ -46,11 +46,13 @@ The current **beta** release is 0.9.11. No release date has been set yet.
 
 - [Documentation site](https://jon-harper.github.io/OmniBox)
     - Better tab styling.
+    - BOM: rewritten for simplicity, now contains complete example BOMs.
     - Supported Hardware is now [Options & Support](../support/index.md).
     - Options & Support section is generated from a single file, simplifying updates.
     - Upgrade guide is simpler and clearer.
 - [Repository](https://github.com/jon-harper/OmniBox)
     - Migrating to versioned panel and tray subfolders.
+    - Navigation through the repository is not recommended, as all BOM information is in the docs.
     
 ## Gallery
 

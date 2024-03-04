@@ -7,13 +7,14 @@ steps:
   attach:
     - txt: |
         1) Set the front and rear Main Bodies over the base and the align the edges.<br>
-        Note: the support ghosts are caused by a software bug; supports should be removed.
+        Note: the support ghosts in the illustration are caused by a software bug; supports should be removed.
       img: ../img/assembly/core/core1.webp
       img_txt: Align the main body over the base.
     - txt: |
-        2) Begin inserting screws to the base, only partially tightening.<br>
-        Stock: tighten woodscrews about halfway.<br>
-        HSI: tighten to finger tightness.
+        2) Begin inserting screws to the base, only partially tightening.
+        <br>HSI: tighten to finger tightness.
+        <br>Stock: tighten about halfway.
+        
       img: ../img/assembly/core/core2.webp
       img_txt: Begin tightening screws.
     - txt: |
@@ -21,7 +22,7 @@ steps:
       img: ../img/assembly/core/core3.webp
       img_txt: Continue installing screws.
     - txt: | 
-        4) Check for any alignment problems between the Base and Main Body. When satisfied, finish tightening the screws down completely.
+        4) Check for any alignment problems between the Base and Main Body. When satisfied, tighten all of the screws down fully.
       img: ../img/assembly/core/core4.webp
       img_txt: Finish tightening.
   center:
@@ -47,7 +48,8 @@ steps:
       img: ../img/assembly/core/crossbar1.webp
       img_txt: Align the crossbar
     - txt: |
-        2) Fasten the crossbar in place with two (2) M3 x 16mm screws. Tightness can be adjusted to help square the sides of the case body.
+        2) Fasten the crossbar in place with two (2) M3 x 16mm screws.
+        <br>These screws can be adjusted to help square the sides of the case body .
       img: ../img/assembly/core/crossbar2.webp
       img_txt: Fasten with two screws.
 ---
@@ -77,12 +79,12 @@ Next we'll add the front and rear halves of the Main Body to the Base.
 ### Directions
 
 !!! note "Note: Alignment"
-    If inserting the screws becomes difficult, back out and check:
+    If inserting a screw becomes difficult, back out and check:
 
     - That both halves of the main body are still correctly aligned; and
-    - That the inserted screws are straight and not canted to the side.
+    - That the already-inserted screw are straight.
 
-    If using heat set inserts, double-check that the inserts in the Base are not crooked, as well.
+    If using heat set inserts, double-check that the inserts in the Base are straight, as well.
 
 {{ assy.render_steps(steps.attach, '480px') }}
 

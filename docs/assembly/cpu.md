@@ -33,7 +33,7 @@ steps:
 
 {% import 'assembly.md' as assy %}
 
-This section is optional. If you are not using a SoC CPU like a Raspberry Pi, use a fourth [side panel][side] in that assembly section.
+If you are not using a SoC CPU like a Raspberry Pi, use a fourth [side panel][side] in that assembly section and skip this page.
 
 ## Overview
 
@@ -51,7 +51,7 @@ This section is optional. If you are not using a SoC CPU like a Raspberry Pi, us
     | 40mm x 10mm Axial Fan     | 1   |                                 |
     | :material-printer-3d-nozzle: `RPi Universal Tray w 40mm Fan - HSI.stl` | 1 | |
 
-=== "Stock"
+=== "As Illustrated (Stock)"
 
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|

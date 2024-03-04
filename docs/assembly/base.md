@@ -6,31 +6,32 @@ date: 2024-02-27
 steps:
   halves:
     - txt: |
-        1) Align the angled center screw holes of the front and rear halves as illustrated, then 
-        press them together.
+        1) Press the Front Base and Rear Base together as illustrated. The angled screw holes on the
+        mating faces should align.
       img: ../img/assembly/core/base1.webp
       img_txt: Align the screw holes
     - txt: |
-        2) Insert four (4) M3 x 12mm screws in the angled holes in the top of the Rear half and
-        fasten them to the front half.<br>
-        Double-check that the parts are aligned before fully tightening the screws.
+        2) Insert four (4) M3 x 12mm screws in the angled holes in the top of the Rear Base and
+        fasten them to the Front Base.<br>
+        Re-check the the alignment of the front and rear before fully tightening.
       img: ../img/assembly/core/base2.webp
       img_txt: Install the center screws
   base_prep:
     - txt: |
-        1) Insert the rocker switch into the Power Switch Protector. The flaps on the side compress and snap the switch in place once inserted.
+        1) Insert the rocker switch into the Power Switch Protector with **"ON" facing up**. The flaps on the switch
+        compress during insertion, then snap in place to hold it.
       img: ../img/assembly/core/power1.webp
       img_txt: Join rocker switch to protector.
     - txt: |
-        2) Slide the rocker switch and protector into the open slot on the front base. It should pop into place.
+        2) Insert the rocker switch and protector into the open slot on the front base.
       img: ../img/assembly/core/power2.webp
       img_txt: Install the rocker switch.
     - txt: |
-        3) Remove the fuse cover by sliding it out. If a fuse is inserted in the fuse holder, remove it.
+        3) Remove the fuse cover by sliding it out. Remove the fuse in the holder.
       img: ../img/assembly/core/power3.webp
       img_txt: Remove the fuse cover and fuse.
     - txt: |
-        4) Insert a fuse into the fuse holder and replace the cover.
+        4) Insert the new fuse into the holder and replace the cover. Direction of the fuse does not matter.
       img: ../img/assembly/core/power4.webp
       img_txt: Install the new fuse.
     - txt: |
@@ -93,8 +94,8 @@ Assembly of the case starts with the Base, our foundation.
 
 ### Directions
 
-!!! note
-    Replacing the fuse is necessary if the IEC socket lacks a fuse or has a fuse of the wrong capacity.
+!!! note "Note: Glass Fuses"
+    Replacing the fuse is necessary if the power inlet has a fuse of the wrong capacity (or lacks one entirely).
 
     [This guide][fuse_guide] can help get you started. Consult with a professional if uncertain what capacity fuse you should use.
 

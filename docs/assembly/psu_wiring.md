@@ -5,16 +5,18 @@ authors: Jon Harper
 date: 2022-10-31
 ---
 
-At this point, it is a good idea to wire the power supply, power switch, and power socket. The large hole in the right PSU tray mount allows wiring to pass through from the power switch. There are zip tie anchors available in the sides to secure the power switch wiring.
+At this point, it is a good idea to wire the power supply, power switch, and power socket. The cutouts
+in the right PSU tray mount allows wiring to pass through from the power switch. There are zip tie
+anchors available in the sides to secure the power switch wiring.
 
 ## Considerations
 
 ### Cautions
 
 !!! important
-    For this example, we will use *red* wires for the power switch and use them for the *live* leg from the power socket to switch to PSU (normally labeled 'L' on the PSU).
+    For this example, we will use *red* wires for the power switch and use them for the *line* leg from the power socket to switch to PSU (normally labeled 'L' on the PSU).
     
-    It is strongly recommended that the switch operate on the live wire instead of the neutral.
+    It is strongly recommended that the switch operate on the line wire instead of the neutral.
 
 !!! Warning
     Be careful of polarity and always check your work!
@@ -64,7 +66,7 @@ The illustrations and video in this section are from a prior release, but the pr
 1. Cut one (1) length of hookup wire approximately 30cm (12") long and strip the ends.
 2. Crimp a spade terminal on each end and set the wire aside.
 3. Cut one (1) length of wire approximately 37cm (15") long and strip the ends.
-4. Crimp a spade terminal on one end.
+4. Crimp a spade terminal to one end.
 5. Crimp a fork connector on the other end.
 
 <figure markdown>
@@ -76,27 +78,27 @@ The illustrations and video in this section are from a prior release, but the pr
 
 <figure markdown>
   [![illustration][psu1]{width="480"}][psu1]
-  <figcaption>1. Remove the red wire from the IEC socket's live (L) terminal. Note that this view is from the bottom up; the live (L) wire is the red wire on bottom.</figcaption>
+  <figcaption>1. Remove the red wire from the IEC socket's line (L) terminal. Note that this view is from the bottom up; the line (L) wire is the red wire on bottom.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][psu2]{width="480"}][psu2]
-  <figcaption>2. Attach one end of the wire with two spade connectors to the socket's live (L) terminal.</figcaption>
+  <figcaption>2. Attach the wire with two spade connectors to the socket's line (L) terminal.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][psu3]{width="480"}][psu3]
-  <figcaption>3. Run the wire through the PSU tray's wiring hole and attach it to either terminal on the power switch.</figcaption>
+  <figcaption>3. Run the other end of the wire through the PSU tray's cutouts and attach it to a terminal on the power switch.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][psu4]{width="480"}][psu4]
-  <figcaption>4. Attach the spade connector on the remaining wire to the remaining free switch terminal.</figcaption>
+  <figcaption>4. Attach the spade connector on the other crimped wire to the remaining power switch terminal.</figcaption>
 </figure>
 
 <figure markdown>
   [![illustration][psu5]{width="480"}][psu5]
-  <figcaption>5. Run the wire back through the PSU tray's wiring hole and secure the fork terminal to the PSU's live (L) AC terminal.</figcaption>
+  <figcaption>5. Run the wire back through the PSU tray's wiring hole and secure the fork connector to the PSU's line (L) AC terminal.</figcaption>
 </figure>
 
 <figure markdown>
@@ -108,10 +110,6 @@ The illustrations and video in this section are from a prior release, but the pr
 ### Reference
 
 [![finished illustration][psu_final]][psu_final]
-
-[checklist]: ../printing.md#printed-component-checklist "Print Checklist"
-
-[intro]:   ../img/assembly/core/base/base_final.webp
 
 [psu1]: ../img/assembly/core/psu/wire1.webp
 [psu2]: ../img/assembly/core/psu/wire2.webp

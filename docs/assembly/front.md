@@ -26,7 +26,7 @@ steps:
       img: ../img/assembly/panels/front6.webp
       img_txt: Position the front panel.
     - txt: |
-        7) Attach the panels with two (2) screws.<br>HSI: M3 x 8mm<br>M3 x 10mm
+        7) Attach the panels with two (2) screws.<br>HSI: M3 x 8mm<br>Stock: M3 x 10mm
       img: ../img/assembly/panels/front7.webp
       img_txt: Secure the panel.
 ---
@@ -57,12 +57,12 @@ steps:
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
     | M3 x 8mm SHCS             | 2   |     |
-    | :material-printer-3d-nozzle: Front Panel - Blank.stl | 1 |  |
+    | :material-printer-3d-nozzle: `Front Panel - Blank.stl` | 1 |  |
 === "Blank Panel (Stock)"
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
     | M3 x 10mm SHCS            | 2   | May substitute 12mm.            |
-    | :material-printer-3d-nozzle: Front Panel - Blank.stl | 1 |  |
+    | :material-printer-3d-nozzle: `Front Panel - Blank.stl` | 1 |  |
 
 !!! note "Note: LED Backing Panel"
     If are installing the LED backer, substitute M3 x 16mm for the two (2) longer screws.

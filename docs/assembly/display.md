@@ -18,7 +18,7 @@ steps:
       img: ../img/assembly/panels/display3.webp
       img_txt: Attach the display to the panel.
     - txt: |
-        4) If you have a printed knob, push it back in place of the original. Otherwise, push the original knob back.
+        4) If you have a printed knob, push it back in place of the original. Otherwise, replace the original knob.
       img: ../img/assembly/panels/display4.webp
       img_txt: Replace the knob.
     - txt: |
@@ -26,14 +26,16 @@ steps:
       img: ../img/assembly/panels/display5.webp
       img_txt: Position the display assembly.
     - txt: |
-        6) HSI: Attach the display with four (4) M4 x 8mm screws.<br>Stock: Attach the display with four (4) M4 x 10mm screws.
+        6) Stock: Attach the display with four (4) screws.
+        <br>HSI: M3 x 8mm
+        <br>Stock: M3 x 10mm
       img: ../img/assembly/panels/display6.webp
       img_txt: Secure the display panel.
 ---
 
 {% import 'assembly.md' as assy %}
 
-This section covers assembling a generic 12864 display panel, like the kind commonly found on older Creality Ender-series printers.
+This section covers assembling a generic 12864 display panel, like the kind commonly found on Sovol and older Creality Ender-series printers.
 
 Some displays have an extra step of mounting the display to a cover. The cover then attaches to the panel. Other than this, the installation process remains the same.
 
@@ -47,7 +49,7 @@ Some displays have an extra step of mounting the display to a cover. The cover t
     |---------------------------|-----|---------------------------------|
     | M3 x 6mm SHCS             | 4   |                                 |
     | M3 x 8mm SHCS             | 4   | May substitute 10 or 12mm.      |
-    | Generic 128x64 Display    | 1   | Comes with older Creality printers. |
+    | Generic 128x64 Display    | 1   |                                 |
     | :material-printer-3d-nozzle: `Display Panel - Generic 12864.stl` | 1   |   |
     | :material-printer-3d-nozzle: `Display Knob.stl` | 1   |  Optional. |
 

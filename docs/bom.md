@@ -22,7 +22,7 @@ bom_sample:
   hsi:
     - comp_base_rocker_0_9_11: 1
     - comp_mb_0_9_11: 1
-    - comp_btt_skr_classic_v2 : 1
+    - comp_btt_skr_3_v2 : 0
     - comp_mw_lrs350 : 1
     - comp_generic_12864 : 0
     - comp_carry_lid : 3
@@ -148,7 +148,7 @@ power switch, and power supply.
 
 This is the materials list for the case illustrated in the [Assembly Guide][assembly].
 
-- MCU: Bigtreetech SKR 2
+- MCU: Bigtreetech SKR 3
 - Display: Generic 12864
 - CPU: Raspberry Pi 4B
 - PSU: Mean Well LRS-350

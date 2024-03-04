@@ -25,7 +25,7 @@ steps:
 
 {% import 'assembly.md' as assy %}
 
-We are close to completion, so the rear panel and MCU wiring are next.
+The rear panel and MCU wiring are next.
 
 ## Rear Panel
 
@@ -87,8 +87,9 @@ Before we install the display and lid, complete all remaining wiring for the MCU
 
 ### General Tips
 
+- Connect anything in the lower bay first to avoid having to remove the MCU later.
 - Double-check your work as you go.
-- Label connectors with where they attach to the MCU board for easy removal and reconnection later (e.g., `TB` for the bed thermistor header).
+- Label connectors with where they attach to the MCU board for easy removal and reconnection later.
 - Check connector pins:
     - Many connector pins are not designed for frequent removal: wires may pull free from the pin or pin from the connector.
     - Pin can become damaged or come loose during removal.
@@ -103,7 +104,7 @@ Before we install the display and lid, complete all remaining wiring for the MCU
 </figure>
 
 !!! tip "Before Continuing"
-    It is a good idea to perform initial power on tests now.
+    It is a good idea to perform initial power on tests before moving on to the next section.
 
 [rear_final]: ../img/assembly/panels/rear_final.webp
 
