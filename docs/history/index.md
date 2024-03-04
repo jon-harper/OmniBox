@@ -57,12 +57,39 @@ The current **beta** release is 0.9.11. No release date has been set yet.
 ## Gallery
 
 <figure markdown>
-![](../img/gallery/0.9.10/50mm_fan.jpg)
+![Early build](../img/gallery/0.9.11/early_build.jpg)
 <figcaption markdown>
-An OmniBox with external 50mm fan and keystone jack extensions.
+An early dev build with a toggle switch.
 </figcaption>
 </figure>
 
+<figure markdown>
+![Tray comparison](../img/gallery/0.9.11/side_panels.jpg)
+<figcaption markdown>
+A comparison of the old (green) and new, larger side panels.
+</figcaption>
+</figure>
+
+<figure markdown>
+![parts](../img/gallery/0.9.11/parts.jpg)
+<figcaption markdown>
+All of the parts that went into the final validation build.
+</figcaption>
+</figure>
+
+<figure markdown>
+![Lower bay wiring](../img/gallery/0.9.11/lower_bay.jpg)
+<figcaption markdown>
+A wired-up lower bay.
+</figcaption>
+</figure>
+
+<figure markdown>
+![Complete](../img/gallery/0.9.11/finished.jpg)
+<figcaption markdown>
+A completed 0.9.11 case.
+</figcaption>
+</figure>
 
 [1]: https://github.com/jon-harper/OmniBox/issues/91
 [2]: https://github.com/jon-harper/OmniBox/issues/81

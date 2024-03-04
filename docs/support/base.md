@@ -28,16 +28,23 @@ Before printing a specific base, ensure it is deep enough for your power supply 
 
 ### Power Switch
 
-The OmniBox Base can be printed to accept either a 29mm x 10.5mm snap-in SPST rocker switch or a 12mm toggle switch.
+The OmniBox Base can be printed to accept a 29mm x 10.5mm snap-in SPST rocker switch, a 12.5mm toggle switch, 
+or none at all (if you are mounting a switch elsewhere, e.g., the front or real panel).
 
-Larger power supplies are not compatible with toggle switches. Check the [:octicons-checklist-24: PSU Trays](psu.md)
-page for more.
+Larger power supplies are not compatible with toggle switches. The [:octicons-checklist-24: PSU Trays](psu.md)
+page has specifics.
 
 ### IEC C14 Power Socket
 
+<div class="grid" markdown>
+<div markdown>
 Power is provided through a standard fused IEC C14 power socket. The Basic base is available for users with different
 power inlet needs (e.g. a power inlet with integrated switch).
-
+</div>
+<div markdown>
+![an IEC C14 power socket](../img/parts/fused_iec_c14.webp){width="300px"}
+</div>
+</div>
 ## Bases
 
 {% for comp in items -%}

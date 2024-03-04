@@ -47,12 +47,21 @@ bom_sample:
 
 {% import 'format.md' as fmt with context %}
 
-The Bill of Materials is a base list common to all builds. Additional components (including fasteners) are listed separately below.
-
 {%- set (stock_norm, stock_print) = splitPrintedMaterials(materialsFromYamlComponentList(bom_sample.stock)) -%}
 {%- set (hsi_norm, hsi_print) = splitPrintedMaterials(materialsFromYamlComponentList(bom_sample.hsi)) %}
-{%- set (min_hsi, _) = splitPrintedMaterials(materialsFromYamlComponentList(bom_sample.min_hsi)) %}
-{%- set (min_stock, _) = splitPrintedMaterials(materialsFromYamlComponentList(bom_sample.min_stock)) %}
+{%- set (min_hsi, min_hsi_print) = splitPrintedMaterials(materialsFromYamlComponentList(bom_sample.min_hsi)) %}
+{%- set (min_stock, min_stock_print) = splitPrintedMaterials(materialsFromYamlComponentList(bom_sample.min_stock)) %}
+
+This page covers what you'll need to know before sourcing your fasteners and other components. At the end of the page,
+several sample semi-complete and complete bills of materials are included for illustration.
+
+We cannot (yet) generate a *complete* Bill of Materials on-demand, but we can give you a list of types of
+parts of you will need to print. All of the printed parts available are listed in our [Options & Support][support]
+section, and each entry has its own full list of materials.
+
+Finally, there is a [Print Checklist][checklist] that contains each type of part to print, how many, and a link
+to the relevant Options & Support page. These can be added up to give a complete BOM. The examples given on this
+page are included give ballpark numbers for fasteners, etc.
 
 ## Fasteners
 
@@ -65,20 +74,23 @@ freely in place of socket head screws.
 All sourcing links are for SHCS.
 
 !!! note
-    [Power supplies][psu] mount using M4 screws.
+    [Power supplies][psu] mount using M4 screws. These are the only M4 screws needed.
 
 ### Sharp Point Wood Screws
 
 !!! note 
     Sharp point screws are only used in stock builds.
 
-To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.
+To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can 
+be used if sharp point screws are unavailable.
 
 ### Heat Set Inserts
 
-OmniBox exclusively uses M3 x 5mm O.D. x 4mm Length ("Voron-style") heat set inserts. User-contributed parts that require inserts also use these inserts.
+OmniBox exclusively uses M3 x 5mm O.D. x 4mm Length ("Voron-style") heat set inserts. User-contributed parts
+that require inserts also use these inserts.
 
-Most heat set inserts are installed open-ended, allowing longer-than-specified screws to be used if necessary, e.g., M3 x 10mm instead of 8mm.
+Most heat set inserts are installed open-ended, allowing longer-than-specified screws to be used if necessary,
+e.g., M3 x 10mm instead of 8mm.
 
 ## Electrical
 
@@ -104,22 +116,28 @@ The Base comes with several power switch options. Not all power supplies are com
 
 ## Minimal Builds
 
-The lists below are starting points to estimate how many fasteners you will need for your own build.
+The lists below are starting points to determine what you will need for your own build. These lists are made by
+combining the materials lists from a [36mm Base][base] and a [Main Body][main_body].
 
 - A complete Core case (Main Body and Base)
-- No trays or panels specified.
-- Fasteners needed to mount panels.
-- Fasteners for an MCU tray.
+- *Fasteners needed to mount all panels*
+- *Fasteners for an MCU tray*
 - IEC power inlet
-- No specified power switch.
+- No power switch
 
 ### Heat Set Inserts (HSI)
 
-{{ fmt.bom_table(min_hsi) }}
+=== "Hardware"
+{{ make_indented(fmt.bom_table(min_hsi), '    ') }}
+=== "Printed"
+{{ make_indented(fmt.bom_table(min_hsi_print), '    ') }}
 
 ### Stock
 
-{{ fmt.bom_table(min_stock) }}
+=== "Hardware"
+{{ make_indented(fmt.bom_table(min_stock), '    ') }}
+=== "Printed"
+{{ make_indented(fmt.bom_table(min_stock_print), '    ') }}
 
 ## Sample Bill of Materials
 
@@ -134,8 +152,8 @@ power switch, and power supply.
 - Display: Mini12864
 - CPU: None
 - PSU: Mean Well LRS-350
-- 60mm exhaust fan
-- Dual 40mm intake fans
+- 1x 60mm exhaust fan
+- 2x 40mm intake fans
 - Toggle switch
 - No heat set inserts
 
@@ -152,8 +170,8 @@ This is the materials list for the case illustrated in the [Assembly Guide][asse
 - Display: Generic 12864
 - CPU: Raspberry Pi 4B
 - PSU: Mean Well LRS-350
-- 60mm exhaust fan
-- 40mm, 50mm intake fans
+- 1x 60mm exhaust fan
+- 1x 40mm, 1x 50mm intake fans
 - Rocker switch
 - 5V/3A buck converter
 - Basic LM2596 buck converter
@@ -165,6 +183,8 @@ This is the materials list for the case illustrated in the [Assembly Guide][asse
 {{ make_indented(fmt.bom_table(hsi_print), '    ') }}
 
 [support]:          support/index.md    "Overview of supported parts"
+[main_body]:        support/main_body.md "List of Main Body configurations"
+[base]:             support/base.md     "List of Base configurations"
 [mcu]:              support/mcu.md      "List of supported MCUs"
 [psu]:              support/psu.md      "List of supported power supplies"
 [display]:          support/display.md  "List of supported Displays"
@@ -172,3 +192,4 @@ This is the materials list for the case illustrated in the [Assembly Guide][asse
 [lower_bay]:        support/lower_bay.md "List of supported lower bay components"
 [panel_mount]:      support/panel_mounts.md "Panel mount overview"
 [assembly]:         assembly/index.md   "Assembly documentation"
+[checklist]:        checklist.md        "Checklist of parts to print"
