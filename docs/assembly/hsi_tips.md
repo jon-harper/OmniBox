@@ -63,8 +63,8 @@ Sometimes an off-center insert is not discovered until later. The most common sy
 
 1. Preheat the soldering iron to a low temperature.
 2. Set the iron's tip on the insert, but *do not press down*.
-3. Allow three (3) to five (5) seconds for the insert to heat.
-4. Take an M3 x 20mm or longer machine screw and thread one (1) or two (2) turns into the insert.
+3. Allow two (2) to three (3) seconds for the insert to heat.
+4. Take an M3 x 12mm or longer machine screw and thread one (1) or two (2) turns into the insert.
 5. Use the screw to straighten the insert before the plastic cools around it.
 
 
