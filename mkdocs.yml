@@ -91,7 +91,7 @@ extra:
     version: "0.9.11"
     this_branch: https://github.com/jon-harper/OmniBox/tree/0.9.11-beta/
     test_branch: https://github.com/jon-harper/OmniBox/tree/unstable/
-    video_folder: https://jon-harper.github.io/OmniBox/video/0.9.10/
+    video_folder: https://jon-harper.github.io/OmniBox/video/0.9.11/
     bom: assets/yaml/bom.yaml
     bom_template_str: v0_9_11
     
@@ -134,6 +134,7 @@ nav:
       - assembly/hsi_locations.md
     - Core & PSU:
       - assembly/base.md
+      - assembly/psu.md
       - assembly/psu_wiring.md
       - assembly/core.md
     - CPU and Lower Bay Trays:
