@@ -58,7 +58,7 @@ Next we'll add the front and rear halves of the Main Body to the Base.
 
 ## Attach the Main Body
 
-{{ assy.overview_video(meta.video_folder + 'main_floor.mp4') }}
+{{ assy.overview_video(meta.video_folder + 'core.mp4') }}
 
 ### Materials
 
@@ -92,7 +92,7 @@ Next we'll add the front and rear halves of the Main Body to the Base.
 
 ## Join the Main Body
 
-{{ assy.overview_video(meta.video_folder + 'main_center.mp4') }}
+{{ assy.overview_video(meta.video_folder + 'center.mp4') }}
 
 ### Materials
 
