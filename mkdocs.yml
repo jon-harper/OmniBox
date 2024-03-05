@@ -20,7 +20,6 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append: 
         - include/git_links.md
-        - include/bom_links.md
         - include/other_links.md
         - include/contrib_links.md
   - pymdownx.tabbed:
