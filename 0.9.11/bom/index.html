@@ -1827,7 +1827,7 @@
         
   
   <span class="md-ellipsis">
-    0.9.11 Release
+    v0.9.11 Release
   </span>
   
 
@@ -2227,7 +2227,14 @@
 
   <h1>Bill of Materials</h1>
 
-<p>The Bill of Materials is a base list common to all builds. Additional components (including fasteners) are listed separately below.</p>
+<p>This page covers what you'll need to know before sourcing your fasteners and other components. At the end of the page,
+several sample semi-complete and complete bills of materials are included for illustration.</p>
+<p>We cannot (yet) generate a <em>complete</em> Bill of Materials on-demand, but we can give you a list of types of
+parts of you will need to print. All of the printed parts available are listed in our <a href="../support/" title="Overview of supported parts">Options &amp; Support</a>
+section, and each entry has its own full list of materials.</p>
+<p>Finally, there is a <a href="../checklist/" title="Checklist of parts to print">Print Checklist</a> that contains each type of part to print, how many, and a link
+to the relevant Options &amp; Support page. These can be added up to give a complete BOM. The examples given on this
+page are included give ballpark numbers for fasteners, etc.</p>
 <h2 id="fasteners">Fasteners</h2>
 <h3 id="cap-screws">Cap Screws</h3>
 <p>OmniBox is largely compatible with both M3 socket head cap screws (SHCS) and button head cap screws (BHCS). Core assembly
@@ -2236,17 +2243,20 @@ freely in place of socket head screws.</p>
 <p>All sourcing links are for SHCS.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><a href="../support/psu/" title="List of supported power supplies">Power supplies</a> mount using M4 screws.</p>
+<p><a href="../support/psu/" title="List of supported power supplies">Power supplies</a> mount using M4 screws. These are the only M4 screws needed.</p>
 </div>
 <h3 id="sharp-point-wood-screws">Sharp Point Wood Screws</h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Sharp point screws are only used in stock builds.</p>
 </div>
-<p>To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can also be used if sharp point screws are unavailable.</p>
+<p>To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can 
+be used if sharp point screws are unavailable.</p>
 <h3 id="heat-set-inserts">Heat Set Inserts</h3>
-<p>OmniBox exclusively uses M3 x 5mm O.D. x 4mm Length ("Voron-style") heat set inserts. User-contributed parts that require inserts also use these inserts.</p>
-<p>Most heat set inserts are installed open-ended, allowing longer-than-specified screws to be used if necessary, e.g., M3 x 10mm instead of 8mm.</p>
+<p>OmniBox exclusively uses M3 x 5mm O.D. x 4mm Length ("Voron-style") heat set inserts. User-contributed parts
+that require inserts also use these inserts.</p>
+<p>Most heat set inserts are installed open-ended, allowing longer-than-specified screws to be used if necessary,
+e.g., M3 x 10mm instead of 8mm.</p>
 <h2 id="electrical">Electrical</h2>
 <h3 id="iec-sockets-and-fuses">IEC Sockets and Fuses</h3>
 <div class="admonition warning">
@@ -2266,16 +2276,19 @@ fuses on the socket. </p>
 <li><em>All wiring and fusing considerations are configuration-specific.</em></li>
 </ul>
 <h2 id="minimal-builds">Minimal Builds</h2>
-<p>The lists below are starting points to estimate how many fasteners you will need for your own build.</p>
+<p>The lists below are starting points to determine what you will need for your own build. These lists are made by
+combining the materials lists from a <a href="../support/base/" title="List of Base configurations">36mm Base</a> and a <a href="../support/main_body/" title="List of Main Body configurations">Main Body</a>.</p>
 <ul>
 <li>A complete Core case (Main Body and Base)</li>
-<li>No trays or panels specified.</li>
-<li>Fasteners needed to mount panels.</li>
-<li>Fasteners for an MCU tray.</li>
+<li><em>Fasteners needed to mount all panels</em></li>
+<li><em>Fasteners for an MCU tray</em></li>
 <li>IEC power inlet</li>
-<li>No specified power switch.</li>
+<li>No power switch</li>
 </ul>
 <h3 id="heat-set-inserts-hsi">Heat Set Inserts (HSI)</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Hardware</label><label for="__tabbed_1_2">Printed</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
 <table>
 <thead>
 <tr>
@@ -2342,7 +2355,51 @@ fuses on the socket. </p>
 </tr>
 </tbody>
 </table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Part</th>
+<th>Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
+<td><a href="https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta/Core/Base/36mm HSI/Front/Base - 36mm Front - Basic HSI.stl" title="OmniBox GitHub file download"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Base - 36mm Front - Basic HSI.stl</a></td>
+<td>1 Ea</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
+<td><a href="https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta/Core/Base/36mm HSI/Rear/Base - 36mm Rear - IEC HSI.stl" title="OmniBox GitHub file download"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Base - 36mm Rear - IEC HSI.stl</a></td>
+<td>1 Ea</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
+<td><a href="https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta/Core/Main Body/Front/Main Body - Front - HSI.stl" title="OmniBox GitHub file download"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Main Body - Front - HSI.stl</a></td>
+<td>1 Ea</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
+<td><a href="https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta/Core/Main Body/Rear/Main Body - Rear - HSI.stl" title="OmniBox GitHub file download"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Main Body - Rear - HSI.stl</a></td>
+<td>1 Ea</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
+<td><a href="https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta/Core/Main Body/Crossbar/Main Body - Crossbar - HSI.stl" title="OmniBox GitHub file download"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Main Body - Crossbar - HSI.stl</a></td>
+<td>1 Ea</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 <h3 id="stock">Stock</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Hardware</label><label for="__tabbed_2_2">Printed</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
 <table>
 <thead>
 <tr>
@@ -2414,6 +2471,47 @@ fuses on the socket. </p>
 </tr>
 </tbody>
 </table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Part</th>
+<th>Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
+<td><a href="https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta/Core/Base/36mm Stock/Front/Base - 36mm Front - Basic Stock.stl" title="OmniBox GitHub file download"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Base - 36mm Front - Basic Stock.stl</a></td>
+<td>1 Ea</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
+<td><a href="https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta/Core/Base/36mm Stock/Rear/Base - 36mm Rear - IEC Stock.stl" title="OmniBox GitHub file download"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Base - 36mm Rear - IEC Stock.stl</a></td>
+<td>1 Ea</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
+<td><a href="https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta/Core/Main Body/Crossbar/Main Body - Crossbar - Stock.stl" title="OmniBox GitHub file download"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Main Body - Crossbar - Stock.stl</a></td>
+<td>2 Ea</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
+<td><a href="https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta/Core/Main Body/Front/Main Body - Front - Stock.stl" title="OmniBox GitHub file download"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Main Body - Front - Stock.stl</a></td>
+<td>1 Ea</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 2h10v6h2v5h-2.5L13 17h-2l-3.5-4H5V8h2V2m3 20H2v-2h8a1 1 0 0 0 1-1v-1h2v1a3 3 0 0 1-3 3Z"/></svg></span> Printed</td>
+<td><a href="https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta/Core/Main Body/Rear/Main Body - Rear - Stock.stl" title="OmniBox GitHub file download"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2.6 10.59 8.38 4.8l1.69 1.7c-.24.85.15 1.78.93 2.23v5.54c-.6.34-1 .99-1 1.73a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-.74-.4-1.39-1-1.73V9.41l2.07 2.09c-.07.15-.07.32-.07.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2c-.18 0-.35 0-.5.07L13.93 7.5a1.98 1.98 0 0 0-1.15-2.34c-.43-.16-.88-.2-1.28-.09L9.8 3.38l.79-.78c.78-.79 2.04-.79 2.82 0l7.99 7.99c.79.78.79 2.04 0 2.82l-7.99 7.99c-.78.79-2.04.79-2.82 0L2.6 13.41c-.79-.78-.79-2.04 0-2.82Z"/></svg></span> Main Body - Rear - Stock.stl</a></td>
+<td>1 Ea</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 <h2 id="sample-bill-of-materials">Sample Bill of Materials</h2>
 <p>The sample builds below contain complete lists of both hardware and printed parts.</p>
 <p>Due to the number of possible configurations, wiring is only included for the IEC socket,
@@ -2424,12 +2522,12 @@ power switch, and power supply.</p>
 <li>Display: Mini12864</li>
 <li>CPU: None</li>
 <li>PSU: Mean Well LRS-350</li>
-<li>60mm exhaust fan</li>
-<li>Dual 40mm intake fans</li>
+<li>1x 60mm exhaust fan</li>
+<li>2x 40mm intake fans</li>
 <li>Toggle switch</li>
 <li>No heat set inserts</li>
 </ul>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Hardware</label><label for="__tabbed_1_2">Printed</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Hardware</label><label for="__tabbed_3_2">Printed</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -2681,14 +2779,14 @@ power switch, and power supply.</p>
 <li>Display: Generic 12864</li>
 <li>CPU: Raspberry Pi 4B</li>
 <li>PSU: Mean Well LRS-350</li>
-<li>60mm exhaust fan</li>
-<li>40mm, 50mm intake fans</li>
+<li>1x 60mm exhaust fan</li>
+<li>1x 40mm, 1x 50mm intake fans</li>
 <li>Rocker switch</li>
 <li>5V/3A buck converter</li>
 <li>Basic LM2596 buck converter</li>
 <li>Heat set inserts</li>
 </ul>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Hardware</label><label for="__tabbed_2_2">Printed</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Hardware</label><label for="__tabbed_4_2">Printed</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
 <table>
@@ -3017,23 +3115,6 @@ power switch, and power supply.</p>
 <!--     /Lower Bay -->
 <!--     /PSUs -->
 <!-- /Misc     -->
-<!-- 
-    Part Links 
-        -->
-
-<!-- Fasteners -->
-<!-- Filament -->
-<!-- Misc Electrical -->
-<!-- PSU -->
-<!-- MCU Boards -->
-<!-- SoC CPUs -->
-<!-- Displays -->
-<!-- Lower Bay -->
-<!--     Bucks -->
-<!--     SSRs -->
-<!--     MOSFETs -->
-<!--     Others -->
-<!-- Fans -->
 
 
 
