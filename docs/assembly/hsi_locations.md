@@ -46,7 +46,7 @@ steps:
     - txt: |
         Sixteen (16) inserts.
         <br>Note: Full HSI builds only.
-      img: ../img/assembly/hsi/main_rear5.webp
+      img: ../img/assembly/hsi/main_rear_full.webp
       img_txt: Lower bay inserts
   base_front:
     - txt: |
