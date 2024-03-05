@@ -1,12 +1,12 @@
 ## CAUTION
 
-This is an **alpha** branch and is intended for internal development.
+This is a **beta** branch!
 
 You've been warned.
 
 -------
 
-Welcome to the OmniBox repository! OmniBox is a modular, 3D printed electronics case for controlling 3D printers. It is conceptually derived from Steve Burcham's **[Stand Alone Main Control Case](https://www.thingiverse.com/thing:3999751)** V3.
+Welcome to the OmniBox repository! OmniBox is a modular, 3D printed electronics case for controlling 3D printers. It is conceptually derived from Steve Burcham's **[Stand Alone Main Control Case](https://github.com/bgdog1/3dPrinterCase)** V3.
 
 This project focuses on modularity, accessibility to users, and reusability. The goal of OmniBox is to make your printer's electronics as valuable and re-usable an asset as the printer it controls.
 
@@ -14,24 +14,21 @@ This project focuses on modularity, accessibility to users, and reusability. The
 
 The **[documentation](https://jon-harper.github.io/OmniBox)** includes a visual tour, a full bill of materials, list of supported parts, and guides for both printing and assembly.
 
-### Beyond the Documentation
-
-- **[OmniBox Discord server](https://discord.gg/nKmJZMhfz5)**
-- **[GitHub Discussions](https://github.com/jon-harper/OmniBox/discussions)**
+Drop by the **[OmniBox Discord server](https://discord.gg/nKmJZMhfz5)** if you have other questions.
 
 ## Releases
 
 ### Current Beta
 
-- The current release is v0.9.10, released 2023-07-31.
+The current beta release is v0.9.11. This is recommended for new builds.
 - **[Documentation][testing_docs]**
 - **[Changelog][testing_changelog]**
 
-### In Development
+### Current Release
 
-Untested parts can be found in the **[`unstable`][unstable]** branch\*.
-
-\* If you use an untested part, please let us know!
+- The current stable release is v0.9.10, released 2023-07-31.
+- **[Documentation][latest_docs]**
+- **[Changelog][changelog]**
 
 ![photobooth picture][gallery_pic]
 
