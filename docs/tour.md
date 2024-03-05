@@ -29,7 +29,7 @@ The configuration in the image above will be our example in this guide. We will 
     Many OmniBox components come with the option of using heat set inserts to attach other parts. These `STL`
     files have names ending in `HSI`. Files ending with `Stock` in the name do not need inserts.
 
-    If using HSIs, an [:material-cart: M3 soldering iron tip for heat set inserts][bom_hsi_tips] is recommended.
+    If using HSIs, an M3 soldering iron tip for heat set inserts is recommended.
 
 ## Core Components
 

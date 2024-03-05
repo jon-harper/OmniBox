@@ -20,7 +20,7 @@ prefix: ../
 
 ### Fans
 
-See the [Fans][fans] page for a list of all fan options.
+OmniBox supports fans up to as large as 120mm. See the [Fans][fans] page for a list of all fan options.
 
 ### MicroSD Extensions
 

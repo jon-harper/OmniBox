@@ -56,8 +56,7 @@ As of v0.9.11, all trays and panels have templates. Most parts have `STEP` files
 | psu_v1  | v0.9.9     | v0.9.9 - v0.9.10 |       |
 | psu_v2  | v0.9.11    | v0.9.11 -        |       |
 
-!!! note "TODO"
-    A v2 template will be included with 0.9.11.
+[:material-git: PSU Tray Template][git_psu_template]{ .md-button }
 
 </div>
 <div markdown class="jh-grid-img">

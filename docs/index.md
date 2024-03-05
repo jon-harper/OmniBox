@@ -12,8 +12,7 @@ hide: toc
 </figure>
 
 !!! warning "Beta Release"
-    The documentation for this release is a work in progress. Some sections may be out of date,
-    incomplete, or missing entirely.
+    This is the documentation for a Beta release. Please report issues via GitHub or Discord.
 
 ## About OmniBox
 
