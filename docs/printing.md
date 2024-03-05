@@ -9,10 +9,14 @@ This page has tips and common settings for printing OmniBox.
 
 ## Recommended Materials
 
+A complete OmniBox requires approximately 1.5kg of material.
+
 **:octicons-check-circle-fill-16:{.jh-green} Modified PLA**
 
 OmniBox prints best with modified PLA, usually called **PLA+** or **PLA Pro**. Modified PLA is typically advertised
 as offering higher impact resistance, heat resistance, or other superior properties to unmodified PLA.
+
+If your PLA filament mentions having additives, it's almost certainly modified.
 
 **:octicons-check-circle-fill-16:{.jh-green} PETG**
 
@@ -20,11 +24,21 @@ Printing in PETG requires more tuning than PLA but offers a higher heat resistan
 
 **:octicons-x-circle-fill-16:{.jh-red} Unmodified PLA**
 
-Sometimes called **Basic PLA** or just **PLA**, unmodified PLA prints easily but is a rigid and weak material. When a manufacturer
-sells multiple PLA lines, the cheapest is typically unmodified.
+Sometimes called **Basic PLA** or just **PLA**, unmodified PLA prints easily but is a rigid and weak material.
+If a manufacturer sells multiple PLA lines, the cheapest is sometimes unmodified.
 
 !!! note "Note: Fan Gaskets"
     Fan gaskets are an optional noise reducer and require TPU.
+
+## Tuning
+
+It's worthwhile to invest some time on basic maintenace before putting your printer through printing
+an OmniBox. Have you cleaned and lubricated your lead screw(s) lately? Tensioned your belts or cleaned
+out the extruder gears? A little maintenance now can save a lot of heartache later with some of the long prints.
+
+Likewise, take a little time to dial in the settings for the (usually two) filament colors you plan to use.
+If you need a tuning guide, [Ellis' Print Tuning Guide][ellis] is widely
+considered the best.
 
 ## 3D Print Settings
 
@@ -73,3 +87,4 @@ Use 1.6mm walls/perimeters (1.8mm for 0.6mm nozzles).
 [rear_panel]:   support/rear.md
 [side_panel]:   support/side.md
 [bottom_panel]: support/bottom.md
+[ellis]: https://ellis3dp.com/Print-Tuning-Guide/ "Ellis' Print Tuning Guide (ellis3dp.com)"
