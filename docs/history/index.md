@@ -1,21 +1,25 @@
 ---
-title: 0.9.11 Release
+title: v0.9.11 Release
 summary: Changelog for the current and past releases of OmniBox
 authors: Jon Harper
 date: 2022-10-09
+prefix: ../
 ---
 
-The current **beta** release is 0.9.11. No release date has been set yet.
+{% import 'format.md' as format with context %}
+
+The current **beta** release is v0.9.11. The expected release date is 2024/03/15.
 
 ## New Features
 
 ### Major New Features
 
-- Available with built-in supports;
-- Taller side panels, now 58mm;
+- Improved PSU tray with templates;
+- Core components come with built-in supports;
+- Taller side panels;
 - Reduced visibility of seams;
-- Base available in two heights & a shorter standard base height;
-- Many new base variations & combinations;
+- A shorter standard Base;
+- A second, taller Base option;
 - All versions of the Base and Main Body are available as Front/Rear or Unified; and
 - Built-in mounts for 3-position Wago 221 connectors.
 
@@ -23,18 +27,23 @@ The current **beta** release is 0.9.11. No release date has been set yet.
 
 - Smoother external lines;
 - Better printability with basic PLA;
-- Increased functional room for PSU by inverting IEC socket;
+- Numerous improvements for the Base and new options;
 - Better fit for side panel heat set inserts;
 - Raised MCU tray mounting height; and
-- Better rocker switch snap-in.
+- Rear Panel template now adds support to the lid.
 
 ### New Hardware Support
+
+??? info "BIGTREETECH Manta M5P"
+{{ make_indented(format.comp_entry(product.componentFromId('comp_btt_manta_m5p_v2'), prefix=prefix), '    ') }}
+
 
 | Hardware                          | Mount Location(s) | Notes |
 |-----------------------------------|-------------------|-------|
 | BIGTREETECH Manta M5P             | MCU Tray | |
 | Wago 221-413                      | Main Body | 3-position, 4x mounts |
 | Mean Well RSP-200 Series          | PSU Tray | |
+| SSLHONG 5V/3A buck converter      | Lower Bay | Comes with USB C connector |
 
 ## Fixes
 
@@ -52,23 +61,10 @@ The current **beta** release is 0.9.11. No release date has been set yet.
     - Upgrade guide is simpler and clearer.
 - [Repository](https://github.com/jon-harper/OmniBox)
     - Migrating to versioned panel and tray subfolders.
-    - Navigation through the repository is not recommended, as all BOM information is in the docs.
+    - All BOM information is in the docs.
+    - Navigation through the git repository is no longer recommended.
     
 ## Gallery
-
-<figure markdown>
-![Early build](../img/gallery/0.9.11/early_build.jpg)
-<figcaption markdown>
-An early dev build with a toggle switch.
-</figcaption>
-</figure>
-
-<figure markdown>
-![Tray comparison](../img/gallery/0.9.11/side_panels.jpg)
-<figcaption markdown>
-A comparison of the old (green) and new, larger side panels.
-</figcaption>
-</figure>
 
 <figure markdown>
 ![parts](../img/gallery/0.9.11/parts.jpg)
@@ -91,11 +87,16 @@ A completed 0.9.11 case.
 </figcaption>
 </figure>
 
-[1]: https://github.com/jon-harper/OmniBox/issues/91
-[2]: https://github.com/jon-harper/OmniBox/issues/81
-[3]: https://github.com/jon-harper/OmniBox/issues/59
-[4]: https://github.com/jon-harper/OmniBox/issues/94
-[5]: https://github.com/jon-harper/OmniBox/issues/114
-[6]: https://github.com/jon-harper/OmniBox/issues/111
-[7]: https://github.com/jon-harper/OmniBox/issues/102
-[8]: https://github.com/jon-harper/OmniBox/issues/62
+<figure markdown>
+![Early build](../img/gallery/0.9.11/early_build.jpg)
+<figcaption markdown>
+An early dev build with a toggle switch.
+</figcaption>
+</figure>
+
+<figure markdown>
+![Tray comparison](../img/gallery/0.9.11/side_panels.jpg)
+<figcaption markdown>
+A comparison of the old (green) and new, larger side panels.
+</figcaption>
+</figure>
