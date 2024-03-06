@@ -52,16 +52,14 @@ bom_sample:
 {%- set (min_hsi, min_hsi_print) = splitPrintedMaterials(materialsFromYamlComponentList(bom_sample.min_hsi)) %}
 {%- set (min_stock, min_stock_print) = splitPrintedMaterials(materialsFromYamlComponentList(bom_sample.min_stock)) %}
 
-This page covers what you'll need to know before sourcing your fasteners and other components. At the end of the page,
-several sample semi-complete and complete bills of materials are included for illustration.
+This page covers what you need to know before sourcing parts for an OmniBox. At the end of the page,
+several sample bills of materials are included, as well.
 
-We cannot (yet) generate a *complete* Bill of Materials on-demand, but we can give you a list of types of
-parts of you will need to print. All of the printed parts available are listed in our [Options & Support][support]
-section, and each entry has its own full list of materials.
+We cannot (yet) generate a complete, customized Bill of Materials on-demand, but there is a [Print Checklist][checklist] that contains each
+type of part to print, how many, and a link to the relevant [Options & Support][support] page. Every support page entry contains a bill
+of materials. These quantities can be added to give a total.
 
-Finally, there is a [Print Checklist][checklist] that contains each type of part to print, how many, and a link
-to the relevant Options & Support page. These can be added up to give a complete BOM. The examples given on this
-page are included give ballpark numbers for fasteners, etc.
+The examples given on this page are included give a general idea of what to expect.
 
 ## Fasteners
 
