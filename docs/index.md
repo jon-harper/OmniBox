@@ -11,19 +11,17 @@ hide: toc
   [![gallery of OmniBox part combinations][gallery_thumb]][gallery]
 </figure>
 
-!!! warning "Beta Release"
-    This is the documentation for a Beta release. Please report issues via GitHub or Discord.
-
-## About OmniBox
-
-OmniBox is a 3D printable, modular electronics case for 3D printers. It supports a wide variety of parts and includes templates to add new ones. 
-
-This project is loosely derived from Steve Burcham's [Stand Alone Main Control Case][bgdog] V3. It is released under the [MIT License][license] and is distributed free of charge.
-
 !!! tip
     To change documentation versions, select a version number from the drop down box at the top of the page.
 
     To switch between :material-lightbulb-on: Light and :material-lightbulb-off-outline: Dark reading mode, click the icon next to the search box.
+
+!!! warning "Beta Release"
+    This is the documentation for a Beta release. Please report issues via GitHub or Discord.
+
+OmniBox is a 3D printable, modular electronics case for 3D printers. It supports a wide variety of parts and includes templates to add new ones. 
+
+This project is loosely derived from Steve Burcham's [Stand Alone Main Control Case][bgdog] V3. It is released under the [MIT License][license] and is distributed free of charge.
 
 ## Quick Links
 
@@ -64,17 +62,6 @@ This project is loosely derived from Steve Burcham's [Stand Alone Main Control C
 </div>
 </div>
 
-## Current Status
-
-A complete OmniBox made of parts from one release is tested to fit and work together. The developer completes at least two full builds for each
-release and incorporates community feedback along the way. The [Version History][current_release] page contains information on the latest release, fixes,
-new features, and known issues.
-
-### Upgrading
-
-Trays and panels are typically compatible between releases. Recent Core case versions may be partially upgraded rather than entirely reprinted.
-See the [Upgrade Guide][upgrade] for details.
-
 [gallery_thumb]: img/examples/0.9.11/banner.webp
 [gallery]: img/examples/0.9.11/render.png
 
@@ -86,3 +73,4 @@ See the [Upgrade Guide][upgrade] for details.
 [assembly]: assembly/index.md       "Assembly Guide"
 [license]:  license.md              "Contributing and License"
 [upgrade]:  upgrade/index.md        "Upgrading Overview"
+[bgdog]: https://github.com/bgdog1/3dPrinterCase "BGDog's Stand Alone Main Control Case (GitHub)"

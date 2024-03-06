@@ -1,4 +1,3 @@
-[bgdog]: https://www.thingiverse.com/thing:3999751 "BGDog's Stand Alone Main Control Case (Thingiverse)"
 [twitter]: https://twitter.com/TheOmniBox "@TheOmniBox (Twitter)"
 [reddit]: https://www.reddit.com/user/jonspaceharper/ "u/jonspaceharper (Reddit)"
 [crimp_guide]: https://www.fscables.com/sites/admin/plugins/elfinder/files/fscables/other%20pdf/cablecraft_crimp_guide.pdf "Cablecraft: A Comprehensive Guide to Good Crimping Practice"
