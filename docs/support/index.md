@@ -12,8 +12,8 @@ OmniBox has a large number of available components, many with multiple variants.
 Simply:
 
 - A **component** is a common design, such as an MCU tray for a Bigtreetech SKR E3.
-- A **variant** is a modified version of the stock component, such as a version of the above tray that takes heat set inserts.
-- For simplicity, components and variants are **parts**. 
+- A **variant** is a modified version of a component, such as a version of the above tray that takes heat set inserts.
+- For simplicity, components and variants are called **parts**. 
 
 Each part has an entry containing a bill of materials and other important information. Some parts have more than one printed
 piece; the BOM lists all printed pieces necessary and a download link.
@@ -34,7 +34,7 @@ that are waiting for fit testing are marked like this:
 
 ## Badges
 
-Icon badges provide key details about a part at a glance.
+Icon badges provide many details about a part at a glance.
 
 ### Basics
 

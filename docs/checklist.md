@@ -30,7 +30,7 @@ Some components have more than oned printed part. Print *all of the parts* liste
 | Component                                       | Quantity | Required | Notes  |
 |-------------------------------------------------|----------|----------|--------|
 | [:octicons-checklist-24: Display Mount][display]     | 1        | Yes      |       |
-| [:octicons-checklist-24: Lid][lid]                   | 1-2      | Yes      | One (1) long lid or two (2) short lids. |
+| [:octicons-checklist-24: Lid][lid]                   | 1-2      | Yes      | One (1) long or two (2) short. |
 | [:octicons-checklist-24: Rear Panel][rear_panel]     | 1        | Yes      |       |
 | [:octicons-checklist-24: Bottom Panel][bottom_panel] | 1        | Yes      |       |
 | [:octicons-checklist-24: Side Panel][side_panel]     | 3-4      | Yes      | Four (4) side panels, minus the number of CPU trays installed. |

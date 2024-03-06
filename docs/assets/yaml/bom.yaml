@@ -2228,7 +2228,6 @@ subassemblies:
     hsi_m3_5od_4l: 4
 components: 
   MCU:
-  ###
     comp_btt_manta_m5p_v2:
       name: Bigtreetech Manta M5P
       template: mcu_v2
@@ -2498,6 +2497,8 @@ components:
       name: MakerBase MKS Monster 8
       template: mcu_v2
       img: img/parts/mks_monster8.webp
+      note: |
+        Prefer a short MicroSD extension.
       attributes:
         count: Single
         fit_test: 74
@@ -2518,6 +2519,8 @@ components:
       name: MakerBase MKS Skipr
       template: mcu_v2
       img: img/parts/mks_skipr.webp
+      note: |
+        Prefer a short MicroSD extension.
       attributes:
         count: Single
       parts:
@@ -2550,7 +2553,6 @@ components:
             tray_btt_skr_e3_and_pico_v2: 1
   
   PSU:
-  ###
     comp_mw_rsp200:
       name: Mean Well RSP-200 Series
       template: psu_v2
@@ -2669,7 +2671,6 @@ components:
             assy_psu_hsi: 1
   
   Display:
-  ###
     comp_display_blank:
       name: Blank Panel
       template: display_v3
@@ -2811,7 +2812,6 @@ components:
             panel_generic_rpi_tft7: 1
          
   Lower Bay:
-  ###
     comp_lb_40mm:
       name: Lower Bay 40mm Fan
       template: lower_bay_v1
@@ -3305,11 +3305,13 @@ components:
             usb3_dual_panel_mount: 1
   
   CPU:
-  ###
     comp_rpi3b_v3:
       name: Raspberry Pi 3B+
       template: cpu_v3
       img: img/components/comp_rpi3b_v3.webp
+      note: |
+        This faces the Raspberry Pi's connectors outwards and will require a visible external
+        cable to the MCU.
       parts:
         cpu_rpi3b_plus: 1
       variants:
@@ -3321,6 +3323,9 @@ components:
       name: Raspberry Pi 4B
       template: cpu_v3
       img: img/components/comp_rpi_4_v3.webp
+      note: |
+        This faces the Raspberry Pi's connectors outwards and will require a visible external
+        cable to the MCU.
       parts:
         cpu_rpi4b: 1
       variants:
@@ -3333,7 +3338,8 @@ components:
       template: cpu_v3
       img: img/components/comp_cpu_universal_v3.webp
       note: |
-        This tray has the Raspberry Pi mounting hole pattern and is compatible with clones (e.g., Orange Pi, Banana Pi) that use the same hole pattern and PCB dimensions.
+        This tray has the Raspberry Pi mounting hole pattern and is compatible with
+        clones (e.g., Orange Pi, Banana Pi) that use the same hole pattern and PCB dimensions.
       parts:
         cpu_rpi4b: 1
         shcs_m3_6: 4

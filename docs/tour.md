@@ -19,7 +19,7 @@ This is a short tour of an OmniBox to demonstrate the Core parts, Trays, Panels,
 The configuration in the image above will be our example in this guide. We will start with the Core components and move on to the trays and panels that make OmniBox so modular. 
 
 !!! note "About Links"
-    Links on this site to external resources have prefix icons to identify what they do:
+    Many links on this site have prefix icons to identify what they do:
 
     - :material-git: The git icon is used for download links.
     - :octicons-checklist-24: The list icon is for links to the [Options & Support][support] section.
@@ -33,8 +33,8 @@ The configuration in the image above will be our example in this guide. We will 
 
 ## Core Components
 
-Core components form the basis of every case. Parts like the MCU do not directly attach to the Core case; instead, user
-parts are attached to trays and panels, which then mount on the Core case.
+Core components form the basis of every case. Parts like the MCU attach to trays, while external parts
+like displays and USB connectors attach to panels. These trays and panels are then installed to the Core case.
 
 <figure markdown>
   [![the core of an OmniBox][img_core]][img_core]
@@ -58,8 +58,8 @@ lever connectors.
 The Base is a cover and mount for the power supply, as well as a foundation for the Main Body.
 
 The Base can be printed in a 36mm or 42mm deep version--this number refers to the depth availabe for the PSU. The
-Base is typically printed with a cutout for an IEC power inlet. It can also be printed with one of two power switch
-options.
+Base is typically printed with a cutout for an IEC power inlet. It can also be printed with one of several power
+switch options.
 
 [:octicons-checklist-24: Bases][base]{.md-button}
 

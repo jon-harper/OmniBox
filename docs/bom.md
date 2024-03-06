@@ -66,21 +66,27 @@ The examples given on this page are included give a general idea of what to expe
 ### Cap Screws
 
 OmniBox is largely compatible with both M3 socket head cap screws (SHCS) and button head cap screws (BHCS). Core assembly
-has several recessed screw holes that are not compatible with button head screws; otherwise, button head screws can be used
-freely in place of socket head screws.
+has several recessed screw holes that are not compatible with button head screws; otherwise, the two are interchangeable.
 
 All sourcing links are for SHCS.
 
 !!! note
-    [Power supplies][psu] mount using M4 screws. These are the only M4 screws needed.
+    [Power supplies][psu] mount using M4 screws. These are the only M4 screws needed in a build.
+
+### Stock vs. HSI
+
+Printed parts are are either "Stock" (where screws thread into the printed plastic) or "HSI", for heat set inserts.
+HSI parts use brass heat set inserts for screw holes. These are more durable than Stock but require purchasing
+and installing inserts.
+
+Most components come with both Stock and HSI variants. Those with only one variant are typically Stock-only.
 
 ### Sharp Point Wood Screws
 
-!!! note 
-    Sharp point screws are only used in stock builds.
-
 To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can 
 be used if sharp point screws are unavailable.
+
+Sharp point screws are only used in Stock builds.
 
 ### Heat Set Inserts
 
@@ -88,7 +94,7 @@ OmniBox exclusively uses M3 x 5mm O.D. x 4mm Length ("Voron-style") heat set ins
 that require inserts also use these inserts.
 
 Most heat set inserts are installed open-ended, allowing longer-than-specified screws to be used if necessary,
-e.g., M3 x 10mm instead of 8mm.
+e.g., M3 x 8mm instead of 6mm.
 
 ## Electrical
 
@@ -118,8 +124,8 @@ The lists below are starting points to determine what you will need for your own
 combining the materials lists from a [36mm Base][base] and a [Main Body][main_body].
 
 - A complete Core case (Main Body and Base)
-- *Fasteners needed to mount all panels*
-- *Fasteners for an MCU tray*
+- *Fasteners to mount all panels*
+- *Fasteners to mount an MCU tray*
 - IEC power inlet
 - No power switch
 

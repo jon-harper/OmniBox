@@ -32,13 +32,12 @@ If a manufacturer sells multiple PLA lines, the cheapest is sometimes unmodified
 
 ## Tuning
 
-It's worthwhile to invest some time on basic maintenace before putting your printer through printing
-an OmniBox. Have you cleaned and lubricated your lead screw(s) lately? Tensioned your belts or cleaned
-out the extruder gears? A little maintenance now can save a lot of heartache later with some of the long prints.
+It's worthwhile to do some preventative maintenace before putting your printer through printing
+an OmniBox. Have you tensioned your belts or cleaned out the extruder gears recently?
+A little maintenance now can save a lot of heartache later.
 
-Likewise, take a little time to dial in the settings for the (usually two) filament colors you plan to use.
-If you need a tuning guide, [Ellis' Print Tuning Guide][ellis] is widely
-considered the best.
+Likewise, it's a good idea  to dial in the settings for the (usually two) filament colors you plan to use.
+If you need a tuning guide, [Ellis' Print Tuning Guide][ellis] is widely considered the best.
 
 ## 3D Print Settings
 
@@ -51,7 +50,7 @@ These settings are consistent for all parts except the TPU fan gaskets.
 | **Perimeters (Walls)**    | [*See below*](#material-specific-settings)   | Correct value depends on material. |
 | **Infill**                | 20-25%       | Cubic is a good tradeoff for time and durability. |
 | **Nozzle Diameter**       | 0.4mm, 0.6mm | If you print a case with a different nozzle size, please share your results! |
-| **Support Overhang Angle** | At least 60 deg | This reduces print time & support material. |
+| **Supports**              | Off          | Supports are built-in starting with v0.9.11. |
 
 ### Material-Specific Settings
 
