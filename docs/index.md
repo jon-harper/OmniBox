@@ -16,7 +16,7 @@ hide: toc
 
     To switch between :material-lightbulb-on: Light and :material-lightbulb-off-outline: Dark reading mode, click the icon next to the search box.
 
-!!! warning "Beta Release"
+!!! warning "Warning: Beta Release"
     This is the documentation for a Beta release. Please report issues via GitHub or Discord.
 
 OmniBox is a 3D printable, modular electronics case for 3D printers. It supports a wide variety of parts and includes templates to add new ones. 
@@ -62,8 +62,16 @@ This project is loosely derived from Steve Burcham's [Stand Alone Main Control C
 </div>
 </div>
 
+<figure markdown class="jh-cover-img">
+  [![gallery of OmniBox part combinations][render_thumb]][render]
+<figcaption>Render of an open OmniBox case.</figcaption>
+</figure>
+
 [gallery_thumb]: img/examples/0.9.11/banner.webp
-[gallery]: img/examples/0.9.11/render.png
+[gallery]:       img/examples/0.9.11/banner.png
+
+[render_thumb]: img/examples/0.9.11/render3.webp
+[render]:       img/examples/0.9.11/render3.png
 
 [current_release]: history/index.md "Version History (Current Release)"
 [tour]:     tour.md                 "Guided Tour"
