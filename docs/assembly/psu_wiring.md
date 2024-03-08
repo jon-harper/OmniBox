@@ -3,7 +3,35 @@ title: PSU Wiring
 summary: Instructions for wiring the power supply.
 authors: Jon Harper
 date: 2022-10-31
+steps:
+  psu_wire:
+    - txt: |
+        1) Remove the red wire from the IEC socket's line (L) terminal. Note that this view is from the bottom up; the line (L) wire is the red wire on top.
+      img: ../img/assembly/core/psu_wire1.webp
+      img_txt: Remove the line wire.
+    - txt: |
+        2) Attach the wire with two spade connectors to the socket's line (L) terminal.
+      img: ../img/assembly/core/psu_wire2.webp
+      img_txt: Replace the line wire
+    - txt: |
+        3. Run the other end of the wire through the PSU tray's cutouts and attach it to a terminal on the power switch.
+      img: ../img/assembly/core/psu_wire3.webp
+      img_txt: Connect the line to the power switch
+    - txt: |
+        4. Attach the spade connector on the other crimped wire to the remaining power switch terminal.
+      img: ../img/assembly/core/psu_wire4.webp
+      img_txt: Connect the other wire to the switch
+    - txt: |
+        5. Run the wire back through the PSU tray's wiring hole and secure the fork connector to the PSU's line (L) AC terminal.
+      img: ../img/assembly/core/psu_wire5.webp
+      img_txt: Connect the PSU's line terminal
+    - txt: |
+        6. Connect the remaining IEC socket connectors to the PSU: neutral and protective earth/ground (often yellow or green).
+      img: ../img/assembly/core/psu_wire6.webp
+      img_txt: Connect the remaining wires
 ---
+
+{% import 'assembly.md' as assy %}
 
 At this point, it is a good idea to wire the power supply, power switch, and power socket. The cutouts
 in the right PSU tray mount allows wiring to pass through from the power switch. There are zip tie
@@ -46,22 +74,19 @@ The illustrations and video in this section are from a prior release, but the pr
 
 ###  Overview
 
-<video controls="">
-    <source src="{{meta.video_folder}}psu_wiring.mp4" type="video/mp4">
-</video>
-
+{{ assy.overview_video(meta.video_folder + 'psu_wiring.mp4') }}
 ### Materials
 
 | Parts                                         | Qty  | Note                                |
 |-----------------------------------------------|------|-------------------------------------|
 | 16awg/1.5mm^2^ red stranded hookup wire       | 0.7m | 14 or 16 gauge (1.5mm^2^ - 2.5mm^2^) |
 | Fork connectors, 14-16 awg, female insulated  | 1    |                                     |
-| Spade connectors, 14-16 awg, insulated        | 3    |                                     |
+| Female spade connectors, 14-16 awg, insulated | 3    |                                     |
 
 ### Preparing Materials
 
 !!! note
-    When crimping closed barrel connectors, the bare wire should extend no more than 1mm from the end of the crimp.
+    When crimping closed barrel connectors, the bare wire should extend no more than 1-2mm from the end of the crimp.
 
 1. Cut one (1) length of hookup wire approximately 30cm (12") long and strip the ends.
 2. Crimp a spade terminal on each end and set the wire aside.
@@ -76,46 +101,11 @@ The illustrations and video in this section are from a prior release, but the pr
 
 ### Directions
 
-<figure markdown>
-  [![illustration][psu1]{width="480"}][psu1]
-  <figcaption>1. Remove the red wire from the IEC socket's line (L) terminal. Note that this view is from the bottom up; the line (L) wire is the red wire on bottom.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][psu2]{width="480"}][psu2]
-  <figcaption>2. Attach the wire with two spade connectors to the socket's line (L) terminal.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][psu3]{width="480"}][psu3]
-  <figcaption>3. Run the other end of the wire through the PSU tray's cutouts and attach it to a terminal on the power switch.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][psu4]{width="480"}][psu4]
-  <figcaption>4. Attach the spade connector on the other crimped wire to the remaining power switch terminal.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][psu5]{width="480"}][psu5]
-  <figcaption>5. Run the wire back through the PSU tray's wiring hole and secure the fork connector to the PSU's line (L) AC terminal.</figcaption>
-</figure>
-
-<figure markdown>
-  [![illustration][psu6]{width="480"}][psu6]
-  <figcaption>6. Connect the remaining IEC socket connectors to the PSU: neutral and protective earth/ground (often yellow or green).</figcaption>
-</figure>
-
+{{ assy.render_steps(steps.psu_wire, '480px') }}
 
 ### Reference
 
 [![finished illustration][psu_final]][psu_final]
 
-[psu1]: ../img/assembly/core/psu/wire1.webp
-[psu2]: ../img/assembly/core/psu/wire2.webp
-[psu3]: ../img/assembly/core/psu/wire3.webp
-[psu4]: ../img/assembly/core/psu/wire4.webp
-[psu5]: ../img/assembly/core/psu/wire5.webp
-[psu6]: ../img/assembly/core/psu/wire6.webp
-[psu_final]: ../img/assembly/core/psu/wire_finished.webp
-[wires]: ../img/assembly/core/psu/wires.webp
+[psu_final]: ../img/assembly/core/psu_wire_final.webp
+[wires]: ../img/assembly/core/wires.webp
