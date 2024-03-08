@@ -82,7 +82,7 @@ Next we'll add the front and rear halves of the Main Body to the Base.
     If inserting a screw becomes difficult, back out and check:
 
     - That both halves of the main body are still correctly aligned; and
-    - That the already-inserted screw are straight.
+    - That the already-inserted screws are straight.
 
     If using heat set inserts, double-check that the inserts in the Base are straight, as well.
 
@@ -94,13 +94,16 @@ Next we'll add the front and rear halves of the Main Body to the Base.
 
 ## Join the Main Body
 
+!!! note "Unified Builds"
+    Skip to [Attach the Crossbar](#attach-the-crossbar) if you have printed a Unified Main Body.
+
 {{ assy.overview_video(meta.video_folder + 'center.mp4') }}
 
 ### Materials
 
 | Parts                     | Qty | Note                            |
 |---------------------------|-----|---------------------------------|
-| M3 x 8mm SHCS   | 6   | |
+| M3 x 8mm SHCS             | 6   |                                 |
 
 ### Directions
 

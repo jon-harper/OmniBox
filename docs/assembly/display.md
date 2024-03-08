@@ -26,7 +26,7 @@ steps:
       img: ../img/assembly/panels/display5.webp
       img_txt: Position the display assembly.
     - txt: |
-        6) Stock: Attach the display with four (4) screws.
+        6) Attach the display with four (4) screws.
         <br>HSI: M3 x 8mm
         <br>Stock: M3 x 10mm
       img: ../img/assembly/panels/display6.webp

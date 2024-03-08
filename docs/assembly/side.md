@@ -45,7 +45,7 @@ single side panel as an example.
     |---------------------------|-----|---------------------------------|
     | M3 x 6mm SHCS             | 4  |                                  |
     | M3 x 16mm SHCS            | 4  |                                  |
-    | 50x12mm Fan               | 1  |                                  |
+    | 50x12mm Axial Fan               | 1  |                                  |
     | :material-printer-3d-nozzle: `Side Panel - 50mm Fan - Grill - HSI.stl` | 1 | |
 === "As Illustrated (Stock)"
     | Parts                     | Qty | Note                            |
