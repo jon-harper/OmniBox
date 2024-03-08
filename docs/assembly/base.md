@@ -66,8 +66,8 @@ Assembly of the case starts with the Base, our foundation.
 === "Stock"
     | Parts                     | Qty | Note                            |
     |---------------------------|-----|---------------------------------|
-    | :material-printer-3d-nozzle: `Base - 36mm Front - HSI with Rocker.stl` | 1 |
-    | :material-printer-3d-nozzle: `Base - 36mm Rear - IEC HSI.stl` | 1 |   |
+    | :material-printer-3d-nozzle: `Base - 36mm Front - Stock with Rocker.stl` | 1 |
+    | :material-printer-3d-nozzle: `Base - 36mm Rear - IEC Stock.stl` | 1 |   |
     | M3 x 12mm SHCS            | 4   |         |
 
 ### Directions
