@@ -6,7 +6,9 @@ date: 2024-02-29
 steps:
   front:
     - txt: |
-        1) (Not Pictured) Carefully pry open the outer plastic shell around the MicroSD card reader extension. Discard the shell.
+        1) Carefully pry open the outer plastic shell around the MicroSD card reader extension. Discard the shell.
+      img: ../img/assembly/panels/front1.webp
+      img_txt: Pry open the MicroSD extension shell
     - txt: |
         2) (Not pictured) Place the MicroSD extension PCB in the holder body. The ribbon cable should be flush with the lip on the back of the holder.
     - txt: |
