@@ -64,6 +64,23 @@ As of v0.9.11, all trays and panels have templates. Most parts have `STEP` files
 </div>
 </div>
 
+### Lower Bay Trays
+
+<div markdown class="jh-grid-container jh-grid-2">
+<div markdown class="jh-grid-para">
+
+| Version       | Introduced | Compatibility    | Notes |
+|---------------|------------|------------------|-------|
+| lower_bay_v1  | v0.9.9     | v0.9 -           |       |
+
+[:material-git: Lower Bay Tray Templates][git_lower_bay_template]{ .md-button }
+
+</div>
+<div markdown class="jh-grid-img">
+[![PSU illustration][img_lower_bay]][img_lower_bay]
+</div>
+</div>
+
 ## Panels
 
 ### Bottom Panel
