@@ -462,6 +462,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#tuning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuning
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#3d-print-settings" class="md-nav__link">
     <span class="md-ellipsis">
       3D Print Settings
@@ -1971,6 +1980,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#tuning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tuning
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#3d-print-settings" class="md-nav__link">
     <span class="md-ellipsis">
       3D Print Settings
@@ -2031,18 +2049,26 @@
 
 <p>This page has tips and common settings for printing OmniBox.</p>
 <h2 id="recommended-materials">Recommended Materials</h2>
+<p>A complete OmniBox requires approximately 1.5kg of material.</p>
 <p><strong><span class="twemoji jh-green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16Zm3.78-9.72a.751.751 0 0 0-.018-1.042.751.751 0 0 0-1.042-.018L6.75 9.19 5.28 7.72a.751.751 0 0 0-1.042.018.751.751 0 0 0-.018 1.042l2 2a.75.75 0 0 0 1.06 0Z"/></svg></span> Modified PLA</strong></p>
 <p>OmniBox prints best with modified PLA, usually called <strong>PLA+</strong> or <strong>PLA Pro</strong>. Modified PLA is typically advertised
 as offering higher impact resistance, heat resistance, or other superior properties to unmodified PLA.</p>
+<p>If your PLA filament mentions having additives, it's almost certainly modified.</p>
 <p><strong><span class="twemoji jh-green"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16Zm3.78-9.72a.751.751 0 0 0-.018-1.042.751.751 0 0 0-1.042-.018L6.75 9.19 5.28 7.72a.751.751 0 0 0-1.042.018.751.751 0 0 0-.018 1.042l2 2a.75.75 0 0 0 1.06 0Z"/></svg></span> PETG</strong></p>
 <p>Printing in PETG requires more tuning than PLA but offers a higher heat resistance.</p>
 <p><strong><span class="twemoji jh-red"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.343 13.657A8 8 0 1 1 13.658 2.343 8 8 0 0 1 2.343 13.657ZM6.03 4.97a.751.751 0 0 0-1.042.018.751.751 0 0 0-.018 1.042L6.94 8 4.97 9.97a.749.749 0 0 0 .326 1.275.749.749 0 0 0 .734-.215L8 9.06l1.97 1.97a.749.749 0 0 0 1.275-.326.749.749 0 0 0-.215-.734L9.06 8l1.97-1.97a.749.749 0 0 0-.326-1.275.749.749 0 0 0-.734.215L8 6.94Z"/></svg></span> Unmodified PLA</strong></p>
-<p>Sometimes called <strong>Basic PLA</strong> or just <strong>PLA</strong>, unmodified PLA prints easily but is a rigid and weak material. When a manufacturer
-sells multiple PLA lines, the cheapest is typically unmodified.</p>
+<p>Sometimes called <strong>Basic PLA</strong> or just <strong>PLA</strong>, unmodified PLA prints easily but is a rigid and weak material.
+If a manufacturer sells multiple PLA lines, the cheapest is sometimes unmodified.</p>
 <div class="admonition note">
 <p class="admonition-title">Note: Fan Gaskets</p>
 <p>Fan gaskets are an optional noise reducer and require TPU.</p>
 </div>
+<h2 id="tuning">Tuning</h2>
+<p>It's worthwhile to do some preventative maintenace before putting your printer through printing
+an OmniBox. Have you tensioned your belts or cleaned out the extruder gears recently?
+A little maintenance now can save a lot of heartache later.</p>
+<p>Likewise, it's a good idea  to dial in the settings for the (usually two) filament colors you plan to use.
+If you need a tuning guide, <a href="https://ellis3dp.com/Print-Tuning-Guide/" title="Ellis' Print Tuning Guide (ellis3dp.com)">Ellis' Print Tuning Guide</a> is widely considered the best.</p>
 <h2 id="3d-print-settings">3D Print Settings</h2>
 <p>These settings are consistent for all parts except the TPU fan gaskets.</p>
 <table>
@@ -2080,9 +2106,9 @@ sells multiple PLA lines, the cheapest is typically unmodified.</p>
 <td>If you print a case with a different nozzle size, please share your results!</td>
 </tr>
 <tr>
-<td><strong>Support Overhang Angle</strong></td>
-<td>At least 60 deg</td>
-<td>This reduces print time &amp; support material.</td>
+<td><strong>Supports</strong></td>
+<td>Off</td>
+<td>Supports are built-in starting with v0.9.11.</td>
 </tr>
 </tbody>
 </table>
