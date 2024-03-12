@@ -3,45 +3,29 @@ title: Fans
 summary: List of fans supported by OmniBox
 authors: Jon Harper
 date: 2022-07-03
+prefix: ../
 ---
 
-This is a list of all fans sizes that OmniBox currently supports via fan cages. OmniBox has optional, concealed mounts for 40mm x 10mm fans. These do not use fan cages or gaskets.
+{% import 'format.md' as fmt with context %}
+
+This is a list of all fans sizes that OmniBox currently supports via external fan cages. 40 and 50mm fans have
+internal mounting options, as well.
 
 <figure markdown>
   [![external fan cages][img_fans]{ width="480" }][img_fans]
-  <figcaption>40mm fans are the most commonly used. Rear panels can support fans up to 80mm and lids up to 120mm.</figcaption>
+  <figcaption>40 and 50mm fans make excellent intakes. Rear panels can support fans up to 80mm and lids up to 120mm.</figcaption>
 </figure>
 
-Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] git folder. The [:material-git: `/Fans/Template`][git_fans_template] folder contains parametric Fusion 360 files to add support for additional fans.
-
-<!-- Template
-<div markdown class="jh-grid-container jh-grid-2">
-<div markdown class="jh-grid-para">
-[:material-git: Files][git_]{ .md-button }
-
-[:material-cart: Product Link][bom_]{ .md-button }
-
-- Materials:
-- Notes:
-</div>
-<div markdown class="jh-grid-img">
-[![product picture][img_]][img_]
-</div>
-</div>
- -->
 ## 40mm Axial Fans
 
 ### 40mm x 10mm
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-[:material-git: 40x10][git_fans_4010]{ .md-button }
-
-[:material-cart: Product Link][bom_4010]{ .md-button }
-
-- Internal Materials: 4x M3 x 16mm (12mm if counterbored)
-- External Materials: 4x M3 x 20mm
-- Fits: Side Panel, Lids, Rear Panel
+- Sourcing: {{ fmt.part_link('fan_4010', prefix=prefix) }}
+- Internal Materials: M3 x 15mm (12mm if counterbored)
+- External Materials: M3 x 20mm
+- Fits: [:octicons-checklist-24: Side Panel][side_panel], [:octicons-checklist-24: Lid][lids], [:octicons-checklist-24: Rear Panel][rear_panel]
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_4010]][img_4010]
@@ -52,13 +36,10 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-[:material-git: 40x20][git_fans_4020]{ .md-button }
-
-[:material-cart: Product Link][bom_4020]{ .md-button }
-
-- Internal Materials: 4x M3 x 25mm (20mm if counterbored)
-- External Materials: 4x M3 x 30mm
-- Fits: Side Panel, Lids, Rear Panel
+- Sourcing: {{ fmt.part_link('fan_4020', prefix=prefix) }}
+- Internal Materials: M3 x 25mm (20mm if counterbored)
+- External Materials: M3 x 30mm
+- Fits: [:octicons-checklist-24: Side Panel][side_panel], [:octicons-checklist-24: Lid][lids], [:octicons-checklist-24: Rear Panel][rear_panel]
 
 </div>
 <div markdown class="jh-grid-img">
@@ -74,13 +55,11 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-[:material-git: 50x10][git_fans_5010]{ .md-button }
-
-[:material-cart: Product Link][bom_5010]{ .md-button }
-
-- Materials: 4x M3 x 15mm
-- Fits: Side Panel, Lids, Rear Panel
-
+- Sourcing: {{ fmt.part_link('fan_5010', prefix=prefix) }}
+- Internal materials: M3 x 15mm
+- External materials: M3 x 20mm
+- Fits: [:octicons-checklist-24: Side Panel][side_panel], [:octicons-checklist-24: Lid][lids], [:octicons-checklist-24: Rear Panel][rear_panel]
+- Notes: These are uncommon. Many 5010 fans are actually 5012.
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_5010]][img_5010]
@@ -91,15 +70,10 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-[:material-git: 50x12][git_fans_5012]{ .md-button }
-
-[:material-cart: Product Link][bom_5012]{ .md-button }
-
-- Materials: 4x M3 x 16mm
-- Fits: Side Panel, Lids, Rear Panel
-- Notes:
-    - This part will not fit 10mm deep fans (5010 fans).
-    - These fans are uncommon and normally 12V.
+- Sourcing: {{ fmt.part_link('fan_5012', prefix=prefix) }}
+- Internal materials: M3 x 16mm
+- External materials: M3 x 20mm
+- Fits: [:octicons-checklist-24: Side Panel][side_panel], [:octicons-checklist-24: Lid][lids], [:octicons-checklist-24: Rear Panel][rear_panel]
 
 </div>
 <div markdown class="jh-grid-img">
@@ -113,13 +87,9 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-[:material-git: 50x15][git_fans_5015]{ .md-button }
-
-[:material-cart: Product Link][bom_5015]{ .md-button }
-
-- Materials: 4x M3 x 20mm
-- Fits: Side Panel, Lids, Rear Panel
-
+- Sourcing: {{ fmt.part_link('fan_5015', prefix=prefix) }}
+- Materials: M3 x 20mm
+- Fits: [:octicons-checklist-24: Side Panel][side_panel], [:octicons-checklist-24: Lid][lids], [:octicons-checklist-24: Rear Panel][rear_panel]
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_5015]][img_5015]
@@ -132,12 +102,9 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-[:material-git: 60x15][git_fans_6015]{ .md-button }
-
-[:material-cart: Product Link][bom_6015]{ .md-button }
-
-- Materials: 4x M3 x 25mm
-- Fits: Lids, Rear Panel
+- Sourcing: {{ fmt.part_link('fan_6015', prefix=prefix) }}
+- Materials: M3 x 25mm
+- Fits: [:octicons-checklist-24: Lid][lids], [:octicons-checklist-24: Rear Panel][rear_panel]
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_6015]][img_6015]
@@ -148,12 +115,9 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-[:material-git: 60x20][git_fans_6020]{ .md-button }
-
-[:material-cart: Product Link][bom_6020]{ .md-button }
-
-- Materials: 4x M3 x 30mm
-- Fits: Lids, Rear Panel
+- Sourcing: {{ fmt.part_link('fan_6020', prefix=prefix) }}
+- Materials: M3 x 30mm
+- Fits: [:octicons-checklist-24: Lid][lids], [:octicons-checklist-24: Rear Panel][rear_panel]
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_6020]][img_6020]
@@ -164,13 +128,9 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-
-[:material-git: 60x25][git_fans_6025]{ .md-button }
-
-[:material-cart: Product Link][bom_6025]{ .md-button }
-
-- Materials: 4x M3 x 35mm
-- Fits: Lids, Rear Panel
+- Sourcing: {{ fmt.part_link('fan_6025', prefix=prefix) }}
+- Materials: M3 x 35mm
+- Fits: [:octicons-checklist-24: Lid][lids], [:octicons-checklist-24: Rear Panel][rear_panel]
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_6025]][img_6025]
@@ -183,12 +143,9 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-[:material-git: 80x20][git_fans_8020]{ .md-button }
-
-[:material-cart: Product Link][bom_8020]{ .md-button }
-
-- Materials: 4x M4 x 30mm
-- Fits: Lids, Rear Panel
+- Sourcing: {{ fmt.part_link('fan_8020', prefix=prefix) }}
+- Materials: M4 x 30mm
+- Fits: [:octicons-checklist-24: Lid][lids], [:octicons-checklist-24: Rear Panel][rear_panel]
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_8020]][img_8020]
@@ -199,12 +156,9 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-[:material-git: 80x25][git_fans_8025]{ .md-button }
-
-[:material-cart: Product Link][bom_8025]{ .md-button }
-
-- Materials: 4x M4 x 35mm
-- Fits: Lids, Rear Panel
+- Sourcing: {{ fmt.part_link('fan_8025', prefix=prefix) }}
+- Materials: M4 x 35mm
+- Fits: [:octicons-checklist-24: Lid][lids], [:octicons-checklist-24: Rear Panel][rear_panel]
 
 </div>
 <div markdown class="jh-grid-img">
@@ -218,13 +172,9 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-[:material-git: 92x25][git_fans_9225]{ .md-button }
-
-[:material-cart: Product Link][bom_9225]{ .md-button }
-
-- Materials: 4x M4 x 35mm
-- Fits: Lids
-
+- Sourcing: {{ fmt.part_link('fan_9225', prefix=prefix) }}
+- Materials: M4 x 35mm
+- Fits: [:octicons-checklist-24: Lid][lids]
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_9225]][img_9225]
@@ -235,19 +185,18 @@ Fan cages and fan gaskets are stored in the [:material-git: `/Fans`][git_fans] g
 
 <div markdown class="jh-grid-container jh-grid-2">
 <div markdown class="jh-grid-para">
-[:material-git: 120x25][git_fans_12025]{ .md-button }
-
-[:material-cart: Product Link][bom_12025]{ .md-button }
-
-- Materials: 4x M4 x 35mm
-- Fits: Lids
+- Sourcing: {{ fmt.part_link('fan_12025', prefix=prefix) }}
+- Materials: M4 x 35mm
+- Fits: [:octicons-checklist-24: Lid][lids]
 </div>
 <div markdown class="jh-grid-img">
 [![product picture][img_12025]][img_12025]
 </div>
 </div>
 
-
+[side_panel]:   side.md         "Side Panel options"
+[lids]:         lid.md          "Lid options"
+[rear_panel]:   rear.md         "Rear Panel options"
 [img_fans]: ../img/components/fans.webp
 
 [img_4010]: ../img/parts/fan_4010.webp
