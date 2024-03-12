@@ -75,15 +75,4 @@ Use 1.6mm walls/perimeters (1.8mm for 0.6mm nozzles).
 - Long lids will fit on 220x220mm beds if printed without a skirt or brim.
 
 [tour]: tour.md "Visual Guided Tour"
-[base]:         support/base.md
-[main_body]:    support/main_body.md
-[psu]:          support/psu.md
-[cpu]:          support/cpu.md
-[mcu]:          support/mcu.md
-[lower_bay]:    support/lower_bay.md
-[display]:      support/display.md
-[lid]:          support/lid.md
-[rear_panel]:   support/rear.md
-[side_panel]:   support/side.md
-[bottom_panel]: support/bottom.md
 [ellis]: https://ellis3dp.com/Print-Tuning-Guide/ "Ellis' Print Tuning Guide (ellis3dp.com)"

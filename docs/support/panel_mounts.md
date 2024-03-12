@@ -20,7 +20,7 @@ prefix: ../
 
 ### Fans
 
-OmniBox supports fans up to as large as 120mm. See the [Fans][fans] page for a list of all fan options.
+OmniBox supports fans up to as large as 120mm. See the [:octicons-checklist-24: Fans][fans] page for a list of all fan options.
 
 ### MicroSD Extensions
 
@@ -46,11 +46,7 @@ Right angle connectors are often a good choice, particularly for CPUs and large 
 
 ### Keystone Jacks
 
-Keystone jacks support a variety of multimedia cables: USB, HDMI, and Ethernet, among others. As a result, keystone jacks offer flexibility in choosing which connectors to mount. A blank plate can occupy an unused jack cutout.
-
-These are commonly used on the front, side, or rear panels. Currently, designs with keystone jack cutouts exist for the front and side panels.
-
-Below are several common keystone jacks.
+These are commonly used on the front, side, or rear panels. A blank plate can occupy an unused jack cutout.
 
 {{ format.part_link('usb3_keystone', prefix=prefix)}}{ .md-button }
 
@@ -66,7 +62,7 @@ JST SM and Molex's Micro Fit 3.0 connectors can both be panel-mounted. These are
 
 #### JST SM
 
-!!! caution "Caution: Avoid JST SM as a hotend connector for enclosed printers"
+!!! warning "Warning: Avoid JST SM as a hotend connector for enclosed printers"
 
 These are good, low-current (3A max) connectors for devices such as limit switches, lights, steppers, and fans. However, they are larger than connectors with similar pin spacings.
 
@@ -98,9 +94,9 @@ Further reading: [:material-book-open: XT-60 on The Clockmaker Project][clk_xt60
 
 Mini Fit Jr connectors are commonly seen in computers for the ATX and PCIE connectors. They are reliable connectors rated up to 9.5A with 18 AWG (~1 mm^2^) wires.
 
-[:material-cart: Mini Fit Jr 2 Position Connector Sets][bom_mfj2]{ .md-button }
+{{ format.part_link('molex_minifit_2pos', prefix=prefix) }}{ .md-button }
 
-[:material-cart: Mini Fit Jr 4 Position Connector Sets][bom_mfj4]{ .md-button }
+{{ format.part_link('molex_minifit_4pos', prefix=prefix) }}{ .md-button }
 
 Further reading: [:material-book-open: Mini Fit Jr on The Clockmaker Project][clk_mfj]
 

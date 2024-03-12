@@ -18,7 +18,7 @@ This page lists system-on-a-chip (SoC) CPUs currently compatible with OmniBox. T
   <figcaption>CPU trays can be mounted on the left or right side of the case.</figcaption>
 </figure>
 
-If you do not use an SBC, the side of the CPU bay can be used as a [Side Panel](side.md).
+If you do not use an SBC, the side of the CPU bay can be used as a [:octicons-checklist-24: Side Panel](side.md).
 
 
 {% for comp in items -%}

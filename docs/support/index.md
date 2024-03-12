@@ -168,51 +168,52 @@ These badges list the types of panel mounts available on a given part.
 
 | Topic | Description |
 |-------|-------------|
-| [Panel Mounts][panel_mounts] | Supported types of panel-mounted connectors. |
-| [Fans][fans] | Types of fans with internal or external mounts. |
+| [:octicons-checklist-24: Panel Mounts][panel_mounts] | Supported types of panel-mounted connectors. |
+| [:octicons-checklist-24: Fans][fans] | Types of fans with internal or external mounts. |
 
 ### Core
 
 | Component | Description |
 |-----------|-------------|
-| [Base][base] | Mounts the power supply and bottom panel(s); acts as a foundation for the Main Body. |
-| [Main Body][main_body] | Mounts most trays and panels; serves as the heart of the case. |
+| [:octicons-checklist-24: Base][base] | Mounts the power supply and bottom panel(s); acts as a foundation for the Main Body. |
+| [:octicons-checklist-24: Main Body][main_body] | Mounts most trays and panels; serves as the heart of the case. |
 
 ### Trays
 
 | Tray Type | Description |
 |-----------|-------------|
-| [MCU Trays][mcu] | MCUs are mounted directly underneath the lid for easy access. |
-| [CPU Trays][cpu] | Trays with an integrated panel; can slide out from the side of the case. |
-| [PSU Trays][psu] | Power supplies are inserted from below as part of the Base. |
-| [Lower Bay Trays][lower_bay] | Mount other miscellaneous parts (e.g., solid state relays, buck converters). |
+| [:octicons-checklist-24: MCU Trays][mcu] | MCUs are mounted directly underneath the lid for easy access. |
+| [:octicons-checklist-24: CPU Trays][cpu] | Trays with an integrated panel; can slide out from the side of the case. |
+| [:octicons-checklist-24: PSU Trays][psu] | Power supplies are inserted from below as part of the Base. |
+| [:octicons-checklist-24: Lower Bay Trays][lower_bay] | Mount other miscellaneous parts (e.g., solid state relays, buck converters). |
 
 ### Panels
 
 | Panel Type | Description |
 |------------|-------------|
-| [Display Panels][display] | Mount LCD and TFT displays. |
-| [Bottom Panels][bottom]   | Protect the PSU and allow airflow, if needed. |
-| [Front Panels][front]     | User-facing panel for small ports and lights. |
-| [Lids][lid]               | Serve many purposes, including mounting large fans and/or a handle. |
-| [Rear Panels][rear]       | Pass-through wiring to your printer and can mount medium-sized fans. |
-| [Side Panels][side]       | Act as air inlets and connector panels. |\
+| [:octicons-checklist-24: Display Panels][display] | Mount LCD and TFT displays. |
+| [:octicons-checklist-24: Bottom Panels][bottom]   | Protect the PSU and allow airflow, if needed. |
+| [:octicons-checklist-24: Front Panels][front]     | User-facing panel for small ports and lights. |
+| [:octicons-checklist-24: Lids][lid]               | Serve many purposes, including mounting large fans and/or a handle. |
+| [:octicons-checklist-24: Rear Panels][rear]       | Pass-through wiring to your printer and can mount medium-sized fans. |
+| [:octicons-checklist-24: Side Panels][side]       | Act as air inlets and connector panels. |\
 
-[base]: base.md
-[main_body]: main_body.md
-[panel_mounts]: panel_mounts.md
-[cpu]: cpu.md
-[mcu]: mcu.md
-[psu]: psu.md
-[display]: display.md
-[lower_bay]: lower_bay.md
-[fans]: fans.md
-[tour]: ../tour.md
-[front]: front.md
-[rear]: rear.md
-[side]: side.md
-[lid]: lid.md
-[bottom]: bottom.md
-[templates]: ../upgrade/templates.md
+[base]:         base.md         "Base options"
+[main_body]:    main_body.md    "Main Body options"
+[panel_mounts]: panel_mounts.md "Supported panel mounts"
+[cpu]:          cpu.md          "Supported SBC CPUs"
+[mcu]:          mcu.md          "Supported MCUs"
+[psu]:          psu.md          "Supported PSUs"
+[display]:      display.md      "Supported displays"
+[lower_bay]:    lower_bay.md    "Supported lower bay hardware"
+[fans]:         fans.md         "Supported fans"
+[front]:        front.md        "Front Panel options"
+[rear]:         rear.md         "Rear Panel options"
+[side]:         side.md         "Side Panel options"
+[lid]:          lid.md          "Lid options"
+[bottom]:       bottom.md       "Bottom Panel options"
+
+[tour]:         ../tour.md      "Visual Guided Tour"
+[templates]:    ../upgrade/templates.md "List of tray and panel templates"
 [img_trays]:  ../img/components/trays.webp
 [img_panels]:  ../img/components/panels.webp
