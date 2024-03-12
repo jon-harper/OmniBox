@@ -43,18 +43,15 @@ comfortable with the procedure.
     ![heat set insert][img_hsi]{ width="128" align="right"}
     These inserts have a rounded lip on one side. This end "sits" in the hole and maintains alignment with the hole during heating and insertion.
 
-!!! tip
-    The insert holes have a slight inward slope. Resistance will gradually increase as the insert slides in place.
-
 !!! warning
     Installing an insert leaves both the insert and surrounding plastic hot for several minutes.
 
     Avoid touching areas of the case around an insert until it has cooled.
 
 1. Pre-set an insert into the hole using your fingers or tweezers. It should fit in to the first set of knurles (or pop in place with some pressure).
-2. Place the tip of the soldering iron on the insert. Allow it to heat the insert for one (1) to two (2) seconds.
-3. Apply gentle pressure with the iron. The plastic should behave like a tacky fluid.
-4. Stop and remove the iron once the insert is flush or slightly below the surface.
+2. Place the tip of the soldering iron on the insert. Allow one (1) to two (2) seconds to heat the insert.
+3. Apply gentle pressure with the iron. The surrounding plastic should behave like a tacky fluid.
+4. Stop and remove the iron once the insert is flush with the surface or just below.
 5. Check if the insert is off-center by looking for gaps around the edges. The plastic should be evenly melted around the insert.
 6. If the insert needs adjustment, gently use tweezers or a long M3 screw to straighten it (while still hot). See below if the insert cools.
 
