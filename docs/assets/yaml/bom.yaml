@@ -536,7 +536,6 @@ parts:
           url: https://www.amazon.com/BIGTREETECH-Screen-Display-800x480-Raspberry/dp/B08FD2YZ23
   
   CPU:
-  ###
     cpu_rpi3b_plus:
       name: Raspberry Pi 3B+
       img: img/parts/rpi_3b_plus.webp
@@ -554,7 +553,6 @@ parts:
   
   
   Fan:
-  ###
     fan_4010:
       name: 40mm x 10mm Axial Fan
       img: img/parts/fan_4010.webp
@@ -711,7 +709,6 @@ parts:
           note: 2pcs
   
   Switch:
-  ###
     switch_rocker:
       name: SPST Rocker Switch, 29mm x 10.5mm Panel Mount
       img: img/parts/switch_rocker.webp
@@ -730,7 +727,6 @@ parts:
           url: "https://www.amazon.com/Gardner-Bender-GSW-121-Heavy-Duty-Electrical/dp/B000HEIY1Q"
   
   Filament:
-  ###
     filament_pla_plus:
       name: PLA+/PLA Pro Filament, 1kg
       units: kg
@@ -760,7 +756,6 @@ parts:
   
   
   Electrical Connector:
-  ###
     conn_f_spade_14-16:
       name: Insulated Spade Connector, Female, 14-16 awg
       img: img/parts/conn_f_spade_14-16.webp
@@ -822,6 +817,19 @@ parts:
         amazon_us:
           url: "https://www.amazon.com/Connector-Housing-Adapter-Terminal-Connectors/dp/B0BZDCGJ32"
           note: 2-6 Position
+    molex_minifit_4pos:
+      name: Molex Mini Fit Jr, 4 Position, Panel Mount
+      # img: ../parts/
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Molex-Connector-Matched-4-Circuits-18-24/dp/B0753VW1B4/"
+          note: 5 male/female sets w/ pins
+    molex_minifit_2pos:
+      name: Molex Mini Fit Jr, 2 Position, Panel Mount
+      sources:
+        amazon_us:
+          url: "https://www.amazon.com/Molex-Connector-Matched-18-24-Mini-Fit/dp/B074M1RZHX"
+          note: 6 male/female sets w/pins
   
   Other Electrical:
   ###

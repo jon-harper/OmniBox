@@ -10,26 +10,33 @@ date: 2022-08-04
 ## Introduction
 
 This is a short tour of an OmniBox to demonstrate the Core parts, Trays, Panels, and how they all fit together.
+The configuration in the image above will be our example in this guide. We will start with the Core components,
+then discuss the trays and panels that make OmniBox so modular. 
 
 <figure markdown>
   [![overview of an omnibox][img_overview]][img_overview]{ width="640" }
-  <figcaption>A finished OmniBox.</figcaption>
+  <figcaption>Render of a finished OmniBox.</figcaption>
 </figure>
 
-The configuration in the image above will be our example in this guide. We will start with the Core components and move on to the trays and panels that make OmniBox so modular. 
-
-!!! note "About Links"
-    Many links on this site have prefix icons to identify what they do:
+!!! note "Note: Links"
+    Links often have icons that identify what they link to:
 
     - :material-git: The git icon is used for download links.
     - :octicons-checklist-24: The list icon is for links to the [Options & Support][support] section.
     - :material-cart: A shopping cart identifies a link to the [Sourcing Guide][sourcing].
 
-!!! note "Heat Set Inserts"
-    Many OmniBox components come with the option of using heat set inserts to attach other parts. These `STL`
-    files have names ending in `HSI`. Files ending with `Stock` in the name do not need inserts.
+### Stock vs. Heat Set Inserts
 
-    If using HSIs, an M3 soldering iron tip for heat set inserts is recommended.
+Most OmniBox STL files come in both `Stock` and `HSI` versions. Files without either in the name are assumed
+Stock.
+
+Stock files thread screws into bare plastic, which wear out over time. This issue can be temporarily resolved
+by replacing screws with longer screws (which reach further back and grab 'fresh' plastic).
+
+Heat set inserts (HSIs) are an alternative. Inserts are more expensive and time-consuming to install,
+but last much longer and speed-up assembly and disassembly of the case.
+
+If using HSIs, an M3 soldering iron tip for heat set inserts is recommended to aid insert installation.
 
 ## Core Components
 
@@ -41,8 +48,9 @@ like displays and USB connectors attach to panels. These trays and panels are th
   <figcaption>The assembled core components of an OmniBox.</figcaption>
 </figure>
 
-There are two (2) types of Core components, the Base and the Main Body. Both of these are typically printed in halves
-that are then assembled. Users with large (>315mm) beds can print Unified versions of both the Base and Main Body.
+Core components are divided into Bases and Main Bodies. Both of these are typically printed in halves
+that are assembled into a large whole. Users with large (>315mm) beds can print Unified versions of
+both the Base and Main Body.
 
 ### Main Body
 
@@ -55,11 +63,9 @@ lever connectors.
 
 ### Base
 
-The Base is a cover and mount for the power supply, as well as a foundation for the Main Body.
-
-The Base can be printed in a 36mm or 42mm deep version--this number refers to the depth availabe for the PSU. The
-Base is typically printed with a cutout for an IEC power inlet. It can also be printed with one of several power
-switch options.
+The Base is a cover and mount for the power supply and a foundation for the Main Body. It comes in 36mm or 42mm deep
+versions--this number refers to the depth availabe for the PSU. The Base is usually printed with a cutout for an
+IEC C14 power inlet. It can also be printed with one of several power switch options.
 
 [:octicons-checklist-24: Bases][base]{.md-button}
 
@@ -75,12 +81,12 @@ Trays mount most of your case's electronics.
 - [:octicons-checklist-24: MCU Trays][mcu] are mounted directly underneath the lid for easy access.
 - [:octicons-checklist-24: CPU Trays][cpu] have a small exterior panel and fit in the side of the case.
 - [:octicons-checklist-24: PSU Trays][psu] mount power supplies and are inserted from below the Base.
-- [:octicons-checklist-24: Lower Bay Trays][lower_bay] occupy the middle of the case and are used for miscellaneous parts (e.g., solid state relays, buck converters).
+- [:octicons-checklist-24: Lower Bay Trays][lower_bay] occupy the middle of the case and are used for any other parts (e.g., solid state relays, buck converters).
 
 ## Panels
 
 Panels form the exterior of your case. These mount displays, [fans][fans], and [panel-mounted connector extensions][panel_mounts] like USB ports and 
-SD card readers. Lids can be put to a wide variety of uses, as well.
+SD card readers.
 
 <figure markdown>
   [![external panels][img_panels]{ width="640" }][img_panels]
@@ -104,23 +110,22 @@ Internal mounts are available for 40 and 50mm fans. These are generally used wit
 
 [:octicons-checklist-24: Fans][fans]{ .md-button }
 
-[panel_mounts]:  support/panel_mounts.md
-[fans]:  support/fans.md
-[displays]:  support/display.md
-[mcu]:  support/mcu.md
-[lower_bay]: support/lower_bay.md
-[cpu]: support/cpu.md
-[psu]: support/psu.md
-[support]: support/index.md
-[sourcing]: sourcing.md
-[side_panels]: support/side.md
-[front_panels]: support/front.md
-[rear_panels]: support/rear.md
-[side_panels]: support/side.md
-[lids]: support/lid.md
-[bottom_panels]: support/bottom.md
-[main_body]: support/main_body.md
-[base]: support/base.md
+[panel_mounts]:     support/panel_mounts.md "Supported panel mounts"
+[fans]:             support/fans.md         "Supported fans"
+[displays]:         support/display.md      "Supported displays"
+[mcu]:              support/mcu.md          "Supported MCUs"
+[lower_bay]:        support/lower_bay.md    "Supported lower bay parts"
+[cpu]:              support/cpu.md          "Supported SBC CPUs"
+[psu]:              support/psu.md          "Supported PSUs"
+[support]:          support/index.md        "Options & Support Overview"
+[front_panels]:     support/front.md        "Front Panel options"
+[rear_panels]:      support/rear.md         "Rear Panel options"
+[side_panels]:      support/side.md         "Side Panel options"
+[lids]:             support/lid.md          "Lid options"
+[bottom_panels]:    support/bottom.md       "Bottom Panel options"
+[main_body]:        support/main_body.md    "Main Body options"
+[base]:             support/base.md         "Base options"
+[sourcing]:         sourcing.md             "Sourcing Guide"
 
 [img_overview]: img/components/overview.webp
 [img_core]: img/components/core.webp
