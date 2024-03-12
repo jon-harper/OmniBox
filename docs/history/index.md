@@ -8,7 +8,7 @@ prefix: ../
 
 {% import 'format.md' as format with context %}
 
-The current **beta** release is v0.9.11. The expected release date is 2024/03/15.
+The current stable release is v0.9.11. It was released 2024/03/15.
 
 ## New Features
 
