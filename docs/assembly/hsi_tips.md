@@ -7,15 +7,18 @@ date: 2022-11-25
 
 ## Time
 
-Installation time varies by experience; typically this is between 30 to 45 minutes. The "Full HSI" build has more inserts than the regular HSI build
-and requires an additional 5 to 10 minutes.
+Installation time varies by experience and total number of inserts. The "Full HSI" build has twenty-four (24)
+more inserts than a standard HSI build.
+
+Installing an insert takes a few seconds, but allow yourself plenty of time to properly check that each insert
+is straight and flush.
 
 ## Additional Materials
 
 - Soldering iron
 - M3 heat set insert tip for soldering irons
 - Fine tweezers
-- M3 x 12mm or longer screw
+- M3 x 16mm or longer screw
 
 ### Practice Block
 
@@ -62,7 +65,7 @@ Sometimes an off-center insert is not discovered until later. The most common sy
 1. Preheat the soldering iron to a low temperature.
 2. Set the iron's tip on the insert, but *do not press down*.
 3. Allow two (2) to three (3) seconds for the insert to heat.
-4. Take an M3 x 12mm or longer machine screw and thread one (1) or two (2) turns into the insert.
+4. Take an M3 x 16mm or longer machine screw and thread one (1) or two (2) turns into the insert.
 5. Use the screw to straighten the insert before the plastic cools around it.
 
 
