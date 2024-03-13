@@ -9,3 +9,8 @@
 [printables]: https://printables.com
 [clk_xt60]: https://jon-harper.github.io/clockmaker-project/wiring/connectors/#xt60
 [clk_mfj]:  https://jon-harper.github.io/clockmaker-project/wiring/connectors/#molex-mini-fit-jr
+[bgdog]: https://github.com/bgdog1/3dPrinterCase "BGDog's Stand Alone Main Control Case (GitHub)"
+
+[ellis]: https://ellis3dp.com/Print-Tuning-Guide/ "Ellis' Print Tuning Guide (ellis3dp.com)"
+
+[contrib_ginger_saw]: https://www.printables.com/social/226009-ginger-saw/about "Printables.com Profile: Ginger Saw"

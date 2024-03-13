@@ -21,7 +21,6 @@ markdown_extensions:
       auto_append: 
         - include/git_links.md
         - include/other_links.md
-        - include/contrib_links.md
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.emoji:

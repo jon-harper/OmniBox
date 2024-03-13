@@ -79,4 +79,3 @@ This project is loosely derived from Steve Burcham's [Stand Alone Main Control C
 [assembly]: assembly/index.md       "Assembly Guide"
 [license]:  license.md              "Contributing and License"
 [upgrade]:  upgrade/index.md        "Upgrading Overview"
-[bgdog]: https://github.com/bgdog1/3dPrinterCase "BGDog's Stand Alone Main Control Case (GitHub)"

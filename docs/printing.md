@@ -37,7 +37,7 @@ an OmniBox. Have you tensioned your belts or cleaned out the extruder gears rece
 A little maintenance now can save a lot of heartache later.
 
 Likewise, it's a good idea  to dial in the settings for the (usually two) filament colors you plan to use.
-If you need a tuning guide, [Ellis' Print Tuning Guide][ellis] is widely considered the best.
+If you need a tuning guide, [:material-book-open: Ellis' Print Tuning Guide][ellis] is widely considered the best.
 
 ## 3D Print Settings
 
@@ -75,4 +75,3 @@ Use 1.6mm walls/perimeters (1.8mm for 0.6mm nozzles).
 - Long lids will fit on 220x220mm beds if printed without a skirt or brim.
 
 [tour]: tour.md "Visual Guided Tour"
-[ellis]: https://ellis3dp.com/Print-Tuning-Guide/ "Ellis' Print Tuning Guide (ellis3dp.com)"
