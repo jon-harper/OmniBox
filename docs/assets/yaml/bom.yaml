@@ -2294,6 +2294,8 @@ components:
       name: Bigtreetech SKRat
       template: mcu_v2
       img: img/parts/btt_skrat.webp
+      note: |
+        - Prefer a long MicroSD extension.
       attributes:
         count: Single
       parts:
@@ -2329,6 +2331,8 @@ components:
       name: Bigtreetech SKR Pico
       template: mcu_v2
       img: img/parts/btt_skr_pico.webp
+      note: |
+        - No MicroSD slot.
       parts:
         btt_skr_pico: 1
         shcs_m3_6: 4
@@ -2382,7 +2386,9 @@ components:
             shcs_m3_6: 4
     comp_creality_2_x_v2:
       name: Creality 2.x Series
-      note: Compatible with all 2.x.x versions.
+      note: |
+        - Compatible with all 2.x.x versions.
+        - Uses SD cards instead of MicroSD.
       template: mcu_v2
       img: img/parts/creality_2_5_2.webp
       attributes:
@@ -2406,6 +2412,8 @@ components:
       name: Bigtreetech SKR 1.3/1.4/2
       template: mcu_v2
       img: img/parts/btt_skr_2.webp
+      note: |
+        - Prefer a long MicroSD extension.
       attributes:
         count: Single
       parts:
