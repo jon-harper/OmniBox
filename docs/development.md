@@ -1,33 +1,44 @@
 ---
 title: The OmniBox Story
-summary: Gallery for the initial release of OmniBox.
+summary: A short history of OmniBox
 authors: Jon Harper
 date: 2022-08-04
 ---
 
 ## The Requirements
 
-Enclosed 3D printing requires controlling more hardware than comes with a typical 3D printer:
+### Hardware
+
+Enclosed 3D printers require more hardware than a basic 3D printer:
 
 - Lighting
-- Webcam
-- Thermistor (temperature sensor)
-- Temperature-controlled exhaust fan
-- Always-on filtration fan
+- Webcam(s)
+- Enclosure thermistor
+- Exhaust fan (temperature-controlled)
+- Filtration fan(s)
 
 ### Isolation From Heat
 
-Most electronics will overheat in the 50C (120F) or higher ambient temperatures of a well-insulated enclosure. I printed my first of Steve Burcham's cases to remove my electronics from such heat; OmniBox is derived from his work.
+Most electronics will overheat in the 50C (120F) or higher air temperatures common in enclosures. The developer printed his first of [Steve Burcham's cases][bgdog] to remove electronics from such heat; OmniBox is derived from his work.
+
+### Room for Growth
+
+3D printers have electronics cases generally no larger than they need to be; this makes expansion difficult (or impossible without a second electronics case).
+
+OmniBox instead encloses all of your electronics in one place.
 
 ### Flexibility and Accessibility
 
-Devices like fans and lights--and Raspberry Pis!--need a buck converter lower the voltage from a 3D printer's power supply. My cases soon were cramped with bucks. Each one mounted on a tray above the microcontroller unit (MCU); wiring changes to the MCU required that I first remove up to three buck converter trays.
+The developer (as of this writing) has assembled over 25 OmniBoxes, with at least two for each release. The case
+is designed to put the most frequently accessed components within immediate reach and minimize wasted effort.
+
+Zip tie anchors are positioned throughout the case to aid organization and keep it neat.
 
 ### Ample Room
 
-After I discovered BIGTREETECH's Octopus in another project, I wanted a case for it. The Octopus does not fit the cases I had already printed; I also had several ideas to improve upon Steve's case.
-
-With these requirements and goals in mind, I decided to design my own case.
+The release of MCUs with 8 stepper sockets increased the possible size of MCU boards. The MCU tray mount has
+plenty of clearance on all sides to allow for oversized boards like the BIGTREETECH Manta M8P to fit without
+feeling cramped.
 
 ## Early Development Gallery
 
