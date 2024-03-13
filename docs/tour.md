@@ -21,20 +21,20 @@ then discuss the trays and panels that make OmniBox so modular.
 !!! note "Note: Links"
     Links often have icons that identify what they link to:
 
-    - :material-git: The git icon is used for download links.
-    - :octicons-checklist-24: The list icon is for links to the [Options & Support][support] section.
-    - :material-cart: A shopping cart identifies a link to the [Sourcing Guide][sourcing].
+    - :material-git: OmniBox GitHub links
+    - :octicons-link-external-24: External file downloads (OmniBox parts not hosted on GitHub)
+    - :octicons-checklist-24: [Options & Support][support] links.
+    - :material-cart: [Sourcing Guide][sourcing] links.
+    - :material-book-open: External reference links
 
 ### Stock vs. Heat Set Inserts
 
-Most OmniBox STL files come in both `Stock` and `HSI` versions. Files without either in the name are assumed
-Stock.
+Most OmniBox STL files include either  `Stock` or `HSI` at the end of the file name. Files without either in the name default to Stock.
 
-Stock files thread screws into bare plastic, which wear out over time. This issue can be temporarily resolved
-by replacing screws with longer screws (which reach further back and grab 'fresh' plastic).
+Stock files connect parts by threading screws into bare plastic, which wears out over time. This issue can be temporarily resolved by replacing screws with longer screws (which reach further back and grab 'fresh' plastic).
 
 Heat set inserts (HSIs) are an alternative. Inserts are more expensive and time-consuming to install,
-but last much longer and speed-up assembly and disassembly of the case.
+but do not have a limited lifetime and speed-up servicing the case.
 
 If using HSIs, an M3 soldering iron tip for heat set inserts is recommended to aid insert installation.
 
@@ -85,7 +85,7 @@ Trays mount most of your case's electronics.
 
 ## Panels
 
-Panels form the exterior of your case. These mount displays, [fans][fans], and [panel-mounted connector extensions][panel_mounts] like USB ports and 
+Panels form the exterior of your case. These mount displays, [:octicons-checklist-24: fans][fans], and [:octicons-checklist-24: panel-mounted connector extensions][panel_mounts] like USB ports and 
 SD card readers.
 
 <figure markdown>
@@ -106,7 +106,7 @@ SD card readers.
 
 Fans can be mounted internally or externally. External fans have printed cages to protect the fan blades, along with optional TPU gaskets.
 
-Internal mounts are available for 40 and 50mm fans. These are generally used with [Side Panels][side_panels].
+Internal mounts are available for 40 and 50mm fans. These are generally used with [:octicons-checklist-24: Side Panels][side_panels].
 
 [:octicons-checklist-24: Fans][fans]{ .md-button }
 

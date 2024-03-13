@@ -55,9 +55,7 @@ bom_sample:
 This page covers what you need to know before sourcing parts for an OmniBox. At the end of the page,
 several sample bills of materials are included, as well.
 
-We cannot (yet) generate a complete, customized Bill of Materials on-demand, but there is a [Print Checklist][checklist] that contains each
-type of part to print, how many, and a link to the relevant [Options & Support][support] page. Every support page entry contains a bill
-of materials. These quantities can be added to give a total.
+We cannot (yet) generate a complete, customized Bill of Materials on-demand, but there is a [Print Checklist][checklist] that contains each type of part to print, how many, and a link to the relevant [:octicons-checklist-24: Options & Support][support] page. Every support page entry contains a bill of materials. These quantities can be added to give a total.
 
 The examples given on this page are included give a general idea of what to expect.
 
@@ -71,7 +69,7 @@ has several recessed screw holes that are not compatible with button head screws
 All sourcing links are for SHCS.
 
 !!! note
-    [Power supplies][psu] mount using M4 screws. These are the only M4 screws needed in a build.
+    [:octicons-checklist-24: Power supplies][psu] mount using M4 screws. These are the only M4 screws needed in a build.
 
 ### Stock vs. HSI
 
@@ -83,7 +81,7 @@ Most components come with both Stock and HSI variants. Those with only one varia
 
 ### Sharp Point Wood Screws
 
-To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can 
+To substitute #6 x 3/4" with Metric machine screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can 
 be used if sharp point screws are unavailable.
 
 Sharp point screws are only used in Stock builds.
@@ -93,8 +91,7 @@ Sharp point screws are only used in Stock builds.
 OmniBox exclusively uses M3 x 5mm O.D. x 4mm Length ("Voron-style") heat set inserts. User-contributed parts
 that require inserts also use these inserts.
 
-Most heat set inserts are installed open-ended, allowing longer-than-specified screws to be used if necessary,
-e.g., M3 x 8mm instead of 6mm.
+Most heat set inserts are installed into open-ended holes, allowing longer-than-specified screws to be used if necessary, e.g., M3 x 8mm instead of 6mm.
 
 ## Electrical
 
@@ -105,23 +102,23 @@ e.g., M3 x 8mm instead of 6mm.
 Most Bases mount a fused IEC C14 power inlet in the back. Users will typically want to fuse with fast or medium blow
 fuses on the socket. 
 
-The Oznium blog has an [excellent guide][fuse_guide] on choosing a fuse size.
+The Oznium blog has an [:material-book-open: excellent guide][fuse_guide] on choosing a fuse size.
 
 ### Power Switch
 
-The Base comes with several power switch options. Not all power supplies are compatible with all switches; check the
-[PSU Tray][psu] to determine which switch to use with your power supply.
+The Base comes with several power switch options. Not all power supplies and switches are compatible; check the
+[:octicons-checklist-24: PSU Tray][psu] to determine which switch to use with your power supply.
 
 ### Wiring
 
 - Wiring is specified for a configuration including an IEC power socket, power switch, and power supply.
-- Additional connectors and wiring may be needed, including for [grounding your bed/frame to earth][ground_guide].
+- Additional connectors and wiring may be needed, including for [:material-book-open: grounding your bed/frame to earth][ground_guide].
 - *All wiring and fusing considerations are configuration-specific.*
 
 ## Minimal Builds
 
 The lists below are starting points to determine what you will need for your own build. These lists are made by
-combining the materials lists from a [36mm Base][base] and a [Main Body][main_body].
+combining the materials lists from a [:octicons-checklist-24: 36mm Base][base] and a [:octicons-checklist-24: Main Body][main_body].
 
 - A complete Core case (Main Body and Base)
 - *Fasteners to mount all panels*
