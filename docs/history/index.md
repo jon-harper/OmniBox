@@ -35,6 +35,7 @@ The current stable release is v0.9.11, released 2024/03/15.
 
 | Hardware                          | Mount Location(s) | Notes |
 |-----------------------------------|-------------------|-------|
+| BIGTREETECH HDMI5                 | Display | Design by SirUli. |
 | BIGTREETECH Manta M5P             | MCU Tray | |
 | Wago 221-413                      | Main Body | 3-position, 4x mounts |
 | Mean Well RSP-200 Series          | PSU Tray | |
