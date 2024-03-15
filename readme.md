@@ -14,15 +14,10 @@ The **[documentation](https://jon-harper.github.io/OmniBox)** includes a visual 
 ## Releases
 
 ### Current Beta
-- The current beta release is v0.9.11.
-- **[Documentation][testing_docs]**
-- **[Changelog][testing_changelog]**
-
-### Current Stable Release
 
 - The current release is v0.9.10, released 2023-07-31.
-- **[0.9.10 Documentation][latest_docs]**
-- **[0.9.10 Changelog][changelog]**
+- **[Documentation][testing_docs]**
+- **[Changelog][testing_changelog]**
 
 ### In Development
 
