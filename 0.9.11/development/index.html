@@ -363,9 +363,27 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardware
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#isolation-from-heat" class="md-nav__link">
     <span class="md-ellipsis">
       Isolation From Heat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#room-for-growth" class="md-nav__link">
+    <span class="md-ellipsis">
+      Room for Growth
     </span>
   </a>
   
@@ -1970,9 +1988,27 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardware
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#isolation-from-heat" class="md-nav__link">
     <span class="md-ellipsis">
       Isolation From Heat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#room-for-growth" class="md-nav__link">
+    <span class="md-ellipsis">
+      Room for Growth
     </span>
   </a>
   
@@ -2028,21 +2064,28 @@
   <h1>The OmniBox Story</h1>
 
 <h2 id="the-requirements">The Requirements</h2>
-<p>Enclosed 3D printing requires controlling more hardware than comes with a typical 3D printer:</p>
+<h3 id="hardware">Hardware</h3>
+<p>Enclosed 3D printers require more hardware than a basic 3D printer:</p>
 <ul>
 <li>Lighting</li>
-<li>Webcam</li>
-<li>Thermistor (temperature sensor)</li>
-<li>Temperature-controlled exhaust fan</li>
-<li>Always-on filtration fan</li>
+<li>Webcam(s)</li>
+<li>Enclosure thermistor</li>
+<li>Exhaust fan (temperature-controlled)</li>
+<li>Filtration fan(s)</li>
 </ul>
 <h3 id="isolation-from-heat">Isolation From Heat</h3>
-<p>Most electronics will overheat in the 50C (120F) or higher ambient temperatures of a well-insulated enclosure. I printed my first of Steve Burcham's cases to remove my electronics from such heat; OmniBox is derived from his work.</p>
+<p>Most electronics will overheat in the 50C (120F) or higher air temperatures common in enclosures. The developer printed his first of <a href="https://github.com/bgdog1/3dPrinterCase" title="BGDog's Stand Alone Main Control Case (GitHub)">Steve Burcham's cases</a> to remove electronics from such heat; OmniBox is derived from his work.</p>
+<h3 id="room-for-growth">Room for Growth</h3>
+<p>3D printers have electronics cases generally no larger than they need to be; this makes expansion difficult (or impossible without a second electronics case).</p>
+<p>OmniBox instead encloses all of your electronics in one place.</p>
 <h3 id="flexibility-and-accessibility">Flexibility and Accessibility</h3>
-<p>Devices like fans and lights--and Raspberry Pis!--need a buck converter lower the voltage from a 3D printer's power supply. My cases soon were cramped with bucks. Each one mounted on a tray above the microcontroller unit (MCU); wiring changes to the MCU required that I first remove up to three buck converter trays.</p>
+<p>The developer (as of this writing) has assembled over 25 OmniBoxes, with at least two for each release. The case
+is designed to put the most frequently accessed components within immediate reach and minimize wasted effort.</p>
+<p>Zip tie anchors are positioned throughout the case to aid organization and keep it neat.</p>
 <h3 id="ample-room">Ample Room</h3>
-<p>After I discovered BIGTREETECH's Octopus in another project, I wanted a case for it. The Octopus does not fit the cases I had already printed; I also had several ideas to improve upon Steve's case.</p>
-<p>With these requirements and goals in mind, I decided to design my own case.</p>
+<p>The release of MCUs with 8 stepper sockets increased the possible size of MCU boards. The MCU tray mount has
+plenty of clearance on all sides to allow for oversized boards like the BIGTREETECH Manta M8P to fit without
+feeling cramped.</p>
 <h2 id="early-development-gallery">Early Development Gallery</h2>
 <p>These photos detail some of the evolution of Steve's original case into OmniBox.</p>
 <table>
@@ -2079,25 +2122,6 @@
 </tr>
 </tbody>
 </table>
-<!-- OmniBox GitHub Pages -->
-<!-- 
-    OmniBox GitHub Folders 
--->
-<!-- /Core     -->
-<!-- /Fans     -->
-<!-- /Panels     -->
-<!--      /Display -->
-<!--      /Front Panel -->
-<!--      /Lid -->
-<!--      /Side Panel -->
-<!--      /Rear Panel -->
-<!--      /Bottom Panel -->
-<!-- /Trays     -->
-<!--      /MCU -->
-<!--      /CPU -->
-<!--     /Lower Bay -->
-<!--     /PSUs -->
-<!-- /Misc     -->
 
 
 
