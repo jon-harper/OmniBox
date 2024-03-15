@@ -87,7 +87,7 @@ extra:
       name: Buy me a coffee! (Ko-Fi)
   meta:
     version: "0.9.11"
-    this_branch: https://github.com/jon-harper/OmniBox/tree/0.9.11-beta/
+    this_branch: https://github.com/jon-harper/OmniBox/tree/main/
     test_branch: https://github.com/jon-harper/OmniBox/tree/unstable/
     video_folder: https://jon-harper.github.io/OmniBox/video/0.9.11/
     bom: assets/yaml/bom.yaml
