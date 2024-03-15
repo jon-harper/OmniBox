@@ -14,9 +14,9 @@ hide: toc
 !!! tip
     To change documentation versions, select a version number from the drop down box at the top of the page.
 
-    To switch between :material-lightbulb-on: Light and :material-lightbulb-off-outline: Dark reading mode, click the icon next to the search box.
+    To switch between **:material-lightbulb-on: Light** and **:material-lightbulb-off-outline: Dark** reading modes, click the icon next to the search box.
 
-OmniBox is a 3D printable, modular electronics case for 3D printers. It supports a wide variety of parts and includes templates to additional support.
+OmniBox is a 3D printable, modular electronics case for 3D printers. It supports a wide variety of parts and includes templates to add additional support.
 
 This project is loosely derived from Steve Burcham's [Stand Alone Main Control Case][bgdog] V3. It is released under the
 [MIT License][license] and is distributed free of charge.

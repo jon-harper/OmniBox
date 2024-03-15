@@ -10,13 +10,9 @@ prefix: ../
 
 ## Using Panel Mounts
 
- Panel mounts allow you to disconnect components without opening up the case. Some examples:
+Panel mounts allow you to disconnect components without opening up the case. The simplest of these are USB, MicroSD, and Ethernet extensions, but can go as far as custom rear panels for for a removable wiring harness.
 
- - USB extensions for a webcam.
- - MicroSD extensions for an MCU or SBC.
- - Rear panel connectors for disconnecting the printer's wiring harness.
-
- Each panel type comes with a template for making your own panels. See [Creating New Panels](#creating-new-panels) below for more.
+Each panel type comes with a template for customization. See [Creating New Panels](#creating-new-panels) below for more.
 
 ### Fans
 
@@ -117,7 +113,7 @@ The Fusion 360 file also contains sketches for cut-and-paste.
 
 [Ginger Saw][contrib_ginger_saw] published on Printables a more extensive set of JST SM panel mounts, up to 10 pins.
 
-[:octicons-link-external-24: JST SM Panel Mounts for 1.5-2mm panels][src_jst_panel_mounts]{ .md-button }
+[:octicons-link-external-24: JST SM Panel Mounts for 1.5-2mm panels](https://www.printables.com/model/345134-jst-sm-panel-mounts-for-15-2mm-panels){ .md-button }
 
 [fans]: fans.md
 

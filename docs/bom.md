@@ -73,23 +73,19 @@ All sourcing links are for SHCS.
 
 ### Stock vs. HSI
 
-Printed parts are are either "Stock" (where screws thread into the printed plastic) or "HSI", for heat set inserts.
-HSI parts use brass heat set inserts for screw holes. These are more durable than Stock but require purchasing
+Printed parts are are either "Stock", where screws thread into the printed plastic, or "HSI", where heat set inserts
+accept screws instead. Heat set insert (HSI) parts do not wear out with use but require purchasing
 and installing inserts.
 
 Most components come with both Stock and HSI variants. Those with only one variant are typically Stock-only.
 
-### Sharp Point Wood Screws
+### Stock
 
-To substitute #6 x 3/4" with Metric machine screws, use M3 x 16mm or M3 x 20mm. Equivalent length machine screws can 
-be used if sharp point screws are unavailable.
-
-Sharp point screws are only used in Stock builds.
+Stock case builds use #6 x 3/4" (or M3 x 20mm) sharp point wood screws to hold the Main Body and Base together. Equivalent length machine screws can be used if sharp point screws are unavailable.
 
 ### Heat Set Inserts
 
-OmniBox exclusively uses M3 x 5mm O.D. x 4mm Length ("Voron-style") heat set inserts. User-contributed parts
-that require inserts also use these inserts.
+OmniBox exclusively uses M3 x 5mm O.D. x 4mm Length ("Voron-style") heat set inserts. User-contributed parts that require inserts also use these inserts.
 
 Most heat set inserts are installed into open-ended holes, allowing longer-than-specified screws to be used if necessary, e.g., M3 x 8mm instead of 6mm.
 
@@ -112,7 +108,7 @@ The Base comes with several power switch options. Not all power supplies and swi
 ### Wiring
 
 - Wiring is specified for a configuration including an IEC power socket, power switch, and power supply.
-- Additional connectors and wiring may be needed, including for [:material-book-open: grounding your bed/frame to earth][ground_guide].
+- Additional connectors and wiring may be needed, including [:material-book-open: grounding your bed/frame to earth][ground_guide].
 - *All wiring and fusing considerations are configuration-specific.*
 
 ## Minimal Builds
