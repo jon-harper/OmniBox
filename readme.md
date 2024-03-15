@@ -5,15 +5,16 @@ This project focuses on modularity, accessibility to users, and reusability. The
 
 ## Documentation & Help
 
-The **[documentation](https://jon-harper.github.io/OmniBox)** includes a visual tour, a full bill of materials, list of supported parts, and guides for both printing and assembly.
+The **[Documentation][latest_docs]** includes a visual tour, a full bill of materials, list of supported parts, and guides for both printing and assembly.
 
-Drop by the **[OmniBox Discord server](https://discord.gg/nKmJZMhfz5)** if you have other questions.
+Drop by the **[OmniBox Discord server](https://discord.gg/nKmJZMhfz5)** if you have other questions, or if you are simply curious!
 
-## Releases
+## Current Release
 
-The current release is v0.9.11. This is recommended for new builds.
-- **[Documentation][testing_docs]**
-- **[Changelog][testing_changelog]**
+v0.9.11 is the most recent stable version, released 2024/03/15.
+
+- **[v0.9.11 Documentation][latest_docs]**
+- **[v0.9.11 Changelog][changelog]**
 
 ![photobooth picture][gallery_pic]
 
