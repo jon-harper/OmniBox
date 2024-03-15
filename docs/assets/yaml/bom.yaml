@@ -2244,7 +2244,6 @@ components:
         - Prefer a short MicroSD extension.
       attributes:
         count: Single
-        fit_test: 136
       parts:
         btt_manta_m5p: 1
         shcs_m3_6: 4

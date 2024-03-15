@@ -18,14 +18,15 @@ then discuss the trays and panels that make OmniBox so modular.
   <figcaption>Render of a finished OmniBox.</figcaption>
 </figure>
 
-!!! note "Note: Links"
-    Links often have icons that identify what they link to:
+### Link Icons
 
-    - :material-git: OmniBox GitHub links
-    - :octicons-link-external-24: External file downloads (OmniBox parts not hosted on GitHub)
-    - :octicons-checklist-24: [Options & Support][support] links.
-    - :material-cart: [Sourcing Guide][sourcing] links.
-    - :material-book-open: External reference links
+Links in this documentation often have icons that identify their destination:
+
+- :material-git: OmniBox GitHub links
+- :octicons-link-external-24: External file downloads (OmniBox parts not hosted on GitHub)
+- :octicons-checklist-24: [Options & Support][support] links.
+- :material-cart: [Sourcing Guide][sourcing] links.
+- :material-book-open: External reference links
 
 ### Stock vs. Heat Set Inserts
 

@@ -17,26 +17,21 @@ The current stable release is v0.9.11, released 2024/03/15.
 - Improved PSU tray with templates;
 - Core components come with built-in supports;
 - Taller side panels;
-- Reduced visibility of seams;
 - A shorter standard Base;
-- A second, taller Base option;
+- A second, taller Base option, eliminating the need for shims;
 - All versions of the Base and Main Body are available as Front/Rear or Unified; and
-- Built-in mounts for 3-position Wago 221 connectors.
+- Built-in Main Body mounts for 3-position Wago 221 connectors.
 
 ### Additional Improvements
 
-- Smoother external lines;
-- Better printability with basic PLA;
+- Smoother external lines and reduced seam visibility;
+- Better printability/less breakage with unmodified PLA;
 - Numerous improvements for the Base and new options;
 - Better fit for side panel heat set inserts;
 - Raised MCU tray mounting height; and
 - Rear Panel template now adds support to the lid.
 
 ### New Hardware Support
-
-??? info "BIGTREETECH Manta M5P"
-{{ make_indented(format.comp_entry(product.componentFromId('comp_btt_manta_m5p_v2'), prefix=prefix), '    ') }}
-
 
 | Hardware                          | Mount Location(s) | Notes |
 |-----------------------------------|-------------------|-------|
@@ -47,6 +42,7 @@ The current stable release is v0.9.11, released 2024/03/15.
 
 ## Fixes
 
+- [Issue #14](https://github.com/jon-harper/OmniBox/issues/14): Universal PSU mount and template
 - [Issue #118](https://github.com/jon-harper/OmniBox/issues/118): Move PSU Tray mounts forward
 - [Issue #55](https://github.com/jon-harper/OmniBox/issues/55): E5+ Monolithic main body
 - [Issue #117](https://github.com/jon-harper/OmniBox/issues/117): IEC socket can be inverted in the base
