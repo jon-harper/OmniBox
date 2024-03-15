@@ -1,6 +1,6 @@
 config:
   id: test
-  baseUrl: 'https://raw.githubusercontent.com/jon-harper/OmniBox/0.9.11-beta'
+  baseUrl: 'https://raw.githubusercontent.com/jon-harper/OmniBox/main'
 suppliers:
   3do:
     name: 3DO.eu
