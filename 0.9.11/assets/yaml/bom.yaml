@@ -2516,7 +2516,6 @@ components:
         Prefer a short MicroSD extension.
       attributes:
         count: Single
-        fit_test: 74
       parts:
         shcs_m3_6: 4
         mks_monster8: 1
