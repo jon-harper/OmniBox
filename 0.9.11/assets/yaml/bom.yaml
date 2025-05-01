@@ -1697,6 +1697,10 @@ parts:
       name: Lower Bay Tray -  48mm SRR - Long Tray.stl
       file: /Trays/Lower Bay/48mm SSR/Lower Bay Tray -  48mm SRR - Long Tray.stl
       template: lower_bay_v1
+    tray_lb_omron_long_wago:
+      name: Lower Bay Tray -  48mm SRR - Wago Long Tray.stl
+      file: /Trays/Lower Bay/48mm SSR/Lower Bay Tray -  48mm SRR - Wago Long Tray.stl
+      template: lower_bay_v1
     tray_lb_omron_short:
       name: Lower Bay Tray -  48mm SRR - Short Tray.stl
       file: /Trays/Lower Bay/48mm SSR/Lower Bay Tray -  48mm SRR - Short Tray.stl
@@ -2854,6 +2858,12 @@ components:
             length: Long
           parts:
             tray_lb_omron_long: 1
+        Long, Wago:
+          attributes:
+            length: Long
+          parts:
+            tray_lb_omron_long_wago: 1
+            wago_221_415: 3
         Short:
           attributes:
             length: short
