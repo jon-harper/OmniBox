@@ -2263,7 +2263,6 @@ components:
         - Prefer a long MicroSD extension.
       attributes:
         count: Single
-        fit_test: 135
       parts:
         btt_manta_e3_ez: 1
         shcs_m3_6: 4
