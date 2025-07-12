@@ -263,7 +263,7 @@ parts:
           note: 100 pcs
       note: 'To substitute #6 x 3/4" with Metric screws, use M3 x 16mm or M3 x 20mm. Machine screws can also be used, if necessary.'
     hsi_m3_5od_4l:
-      name: M3 x 5mm OD x 4mm L Insert
+      name: M3 x 5mm OD x 4mm L Heat Set Insert
       sources:
         amazon_us:
           url: "https://www.amazon.com/uxcell-Knurled-Insert-Female-Embedding/dp/B09MCWTBCC"
@@ -274,6 +274,9 @@ parts:
         kb3d:
           url: "https://kb-3d.com/store/inserts-fasteners-adhesives/278-brass-heat-set-threaded-insert-for-plastic-m3x5x4mm.html"
           note: Sold as eaches.
+        aliexpress:
+          url: "https://www.aliexpress.us/item/3256808815774803.html"
+          note: 500pk
     standoff_m2.5_10_6:
       name: M2.5 Brass Standoff, Female/Male, 10mm + 6mm
       sources:
@@ -2263,7 +2266,6 @@ components:
         - Prefer a long MicroSD extension.
       attributes:
         count: Single
-        fit_test: 135
       parts:
         btt_manta_e3_ez: 1
         shcs_m3_6: 4
